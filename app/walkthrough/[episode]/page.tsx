@@ -75,7 +75,7 @@ export default async function EpisodePage({ params }: Props) {
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
           {/* Content */}
-          <article className="lg:col-span-3 max-w-none prose prose-invert prose-slate prose-headings:text-slate-100 prose-h2:text-2xl prose-h3:text-xl prose-p:text-slate-300 prose-a:text-violet-400 prose-a:no-underline hover:prose-a:underline prose-strong:text-white prose-code:text-violet-300 prose-li:text-slate-300 prose-blockquote:border-l-violet-500 prose-blockquote:text-slate-400 prose-table:text-sm">
+          <article className="lg:col-span-3 max-w-none mdx-content">
             {content}
           </article>
 

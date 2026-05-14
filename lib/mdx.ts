@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { compileMDX } from 'next-mdx-remote/rsc';
+import remarkGfm from 'remark-gfm';
 
 const episodesDir = path.join(process.cwd(), 'content', 'episodes');
 
@@ -28,6 +29,9 @@ export async function getEpisodeContent(slug: string) {
     source,
     options: {
       parseFrontmatter: true,
+      mdxOptions: {
+        remarkPlugins: [remarkGfm],
+      },
     },
   });
 
