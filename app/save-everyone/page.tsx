@@ -6,8 +6,7 @@ import { choices, getChoicesByEpisode } from '@/data/choices';
 import { episodes } from '@/data/episodes';
 
 export const metadata: Metadata = {
-  title:
-    'How to Save Everyone in Directive 8020 | Best Ending Guide',
+  title: 'How to Save Everyone in Directive 8020 | Best Ending Guide',
   description:
     'Step-by-step guide to keeping all 5 playable characters alive in Directive 8020. Carter and Simms have scripted deaths — save the others for the true ending.',
   openGraph: {
@@ -20,63 +19,53 @@ export const metadata: Metadata = {
 };
 
 const howToSteps = [
-  {
-    name: 'Accept that Carter and Simms cannot be saved',
-    text: 'Carter and Simms die in scripted events during Episode 1. No choices can prevent this — it is by design. Focus your efforts on the 5 playable characters.',
-  },
-  {
-    name: 'Episode 1 — Authorize weapon use',
-    text: 'In the Crew Quarters Turning Point, choose "Authorize use of weapon" to open combat options later in the game. Also choose "Honor" then "Consider" when dealing with Stafford.',
-  },
-  {
-    name: 'Episode 2 — Trust Stafford and allow Eisele\'s research',
-    text: 'Choose "Trust Stafford" on the Command Deck and "Allow study" in the Science Lab. Investigate the distress call to unlock a collectible.',
-  },
-  {
-    name: 'Episode 3 — Report immediately, side with Eisele',
-    text: 'As Cernan, choose "Report immediately" in the Cargo Bay. Choose "Contain and study" in the Containment Lab. Side with Eisele in the Briefing Room debate.',
-  },
-  {
-    name: 'Episode 4 — Stay united',
-    text: 'Keep the crew together. Avoid choices that create division. Trust Stafford\'s leadership while supporting Eisele\'s scientific input.',
-  },
-  {
-    name: 'Episode 5 — Mr. Williams encounter',
-    text: 'Choose dialogue options that prioritize crew safety. Authorize weapons when prompted. Do not sacrifice any crew member for intel.',
-  },
-  {
-    name: 'Episode 6 — Identify the duplicate Eisele',
-    text: 'Pay close attention to dialogue inconsistencies. The real Eisele references earlier events correctly. The duplicate makes factual errors. Choose correctly to unlock the true ending path.',
-  },
-  {
-    name: 'Episode 7 — Protect the survivors',
-    text: 'Make choices that keep each remaining character safe. Prioritize group survival over individual heroics. Watch for QTE sequences.',
-  },
-  {
-    name: 'Episode 8 — The final choice',
-    text: 'Choose to sacrifice the alien sample rather than preserve it. This triggers the "Eisele the Humanitarian" true ending with all 5 survivors.',
-  },
+  { name: 'Accept that Carter and Simms cannot be saved', text: 'Carter and Simms die in scripted events during Episode 1. No choices can prevent this — it is by design. Focus on the 5 playable characters.' },
+  { name: 'Episode 1 — Authorize weapon use', text: 'In the Crew Quarters Turning Point, choose "Authorize use of weapon" to open combat options later. Choose "Honor" then "Consider" when dealing with Stafford.' },
+  { name: 'Episode 2 — Trust Stafford and allow research', text: 'Choose "Trust Stafford" on the Command Deck and "Allow study" in the Science Lab. Investigate the distress call to unlock a collectible.' },
+  { name: 'Episode 3 — Report immediately, side with Eisele', text: 'As Cernan, choose "Report immediately" in the Cargo Bay. Choose "Contain and study" in the Containment Lab. Side with Eisele in the Briefing Room debate.' },
+  { name: 'Episode 4 — Follow Cooper, confirm reactor kill', text: 'Follow Cooper\'s directions in the maintenance tunnels. After the creature falls into the reactor, confirm it\'s dead and report back.' },
+  { name: 'Episode 5 — Prepare sedative, save Mitchell & Anders', text: 'MISSABLE: Prepare the sedative in the lab before leaving. Rescue both Mitchell and Anders from the fire. Encourage Stafford to unlock The Father Destiny.' },
+  { name: 'Episode 6 — Trust the newcomer Eisele, turn RIGHT outside', text: 'The most critical choice: trust the NEWCOMER Eisele. Turn RIGHT at the outdoor junction (not into the cave). Escape the reactor before meltdown.' },
+  { name: 'Episodes 7-8 — Expose the clone program', text: 'Eisele must choose "Expose the clone program" to unlock the true ending. This broadcasts the truth to humanity and ends Cycle 13.' },
 ];
 
 const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
   name: 'How to Save Everyone in Directive 8020',
-  description:
-    'Step-by-step guide to achieving the true ending with all 5 playable characters surviving.',
+  description: 'Step-by-step guide to achieving the true ending with all 5 playable characters surviving.',
   step: howToSteps.map((step, i) => ({
     '@type': 'HowToStep',
     position: i + 1,
     name: step.name,
-    itemListElement: {
-      '@type': 'HowToDirection',
-      text: step.text,
-    },
+    itemListElement: { '@type': 'HowToDirection', text: step.text },
   })),
 };
 
-// Episodes that have choice data (currently Episodes 1-3)
-const episodeIdsWithChoices = ['episode-1', 'episode-2', 'episode-3'];
+const episodeIdsWithChoices = ['episode-1', 'episode-2', 'episode-3', 'episode-4', 'episode-5', 'episode-6', 'episode-7'];
+
+// Special highlight configs for key scenes
+const sceneHighlights: Record<string, { type: 'missable' | 'critical' | 'true-ending'; text: string; tip?: string }> = {
+  'e5-sedative': { type: 'missable', text: '⚠ MISSABLE — The game does not prompt this. Actively explore the lab before leaving.', tip: 'Interact with the lab equipment to prepare the sedative.' },
+  'e6-two-eiseles': { type: 'critical', text: '🔑 Most Critical Choice in the Game', tip: 'Watch their fear animations when the gun is pointed at them. The newcomer\'s reaction looks genuinely human and scared. The other\'s movements are subtly unnatural.' },
+  'e6-outdoor-junction': { type: 'missable', text: '⚠ The game does NOT warn you this is a point of no return. Once you enter the cave, you cannot go back.' },
+  'e7-eisele-final': { type: 'true-ending', text: '⭐ Unlocks True Ending — Eisele the Humanitarian' },
+};
+
+const highlightStyles = {
+  missable: 'bg-red-900/20 border border-red-700 rounded-lg p-3 mb-3',
+  critical: 'bg-amber-900/30 border border-amber-500 rounded-lg p-4 mb-3',
+  'true-ending': 'bg-amber-500/10 border-2 border-amber-400 rounded-lg p-4 mb-3',
+};
+
+const destinies = [
+  { character: 'Young', destiny: 'The Humanitarian', how: 'Make compassionate choices throughout the game. Choose Honor when given the option in Episode 1.' },
+  { character: 'Stafford', destiny: 'The Father', how: 'Encourage him during his breakdown in Episode 5. Say "Never forget why you started."' },
+  { character: 'Eisele', destiny: 'The Humanitarian', how: 'Choose to expose the clone program in Episode 8. Requires all prior Eisele-positive choices.' },
+  { character: 'Eisele (alt)', destiny: 'The Scientist', how: 'Choose to protect the scientific data in Episode 8 instead of exposing the truth.' },
+  { character: 'Cernan', destiny: 'TBC', how: 'Make choices that prioritize Cernan\'s safety in Episodes 3 and 7.' },
+  { character: 'Cooper', destiny: 'TBC', how: 'Authorize weapons in Episode 1 and send backup in Episode 5.' },
+];
 
 export default function SaveEveryonePage() {
   return (
@@ -98,8 +87,8 @@ export default function SaveEveryonePage() {
       </section>
 
       <div className="max-w-4xl mx-auto px-4 py-12 space-y-12">
-        {/* Critical Warning — most prominent position */}
-        <div className="bg-red-900/30 border-2 border-red-600 rounded-lg p-6 mb-8">
+        {/* Critical Warning */}
+        <div className="bg-red-900/30 border-2 border-red-600 rounded-lg p-6">
           <h2 className="text-red-400 font-bold text-xl mb-3">
             ❌ Carter and Simms Cannot Be Saved — This Is By Design
           </h2>
@@ -116,7 +105,7 @@ export default function SaveEveryonePage() {
           </p>
         </div>
 
-        {/* Survival Tracker — sticky bottom on mobile */}
+        {/* Survival Tracker */}
         <div className="sticky bottom-0 z-10 md:static">
           <SurvivalTracker />
         </div>
@@ -144,39 +133,76 @@ export default function SaveEveryonePage() {
                       ({episodeChoices.length} key choices)
                     </span>
                   </summary>
-                  <div className="px-4 pb-4 space-y-2">
-                    {episodeChoices.map((choice) => (
-                      <div key={choice.id}>
-                        <p className="text-sm text-slate-400 mb-2">
-                          {choice.description}
-                        </p>
-                        {choice.options.map((opt, i) => (
-                          <ChoiceCard
-                            key={i}
-                            scene={choice.scene}
-                            option={opt.text}
-                            recommended={opt.recommended}
-                            consequence={opt.consequence}
-                            characterEffect={opt.characterEffect}
-                          />
-                        ))}
-                      </div>
-                    ))}
+                  <div className="px-4 pb-4 space-y-4">
+                    {episodeChoices.map((choice) => {
+                      const highlight = sceneHighlights[choice.id];
+                      return (
+                        <div key={choice.id}>
+                          <p className="text-sm text-slate-200 font-medium mb-2">
+                            {choice.description}
+                          </p>
+
+                          {/* Special highlight box */}
+                          {highlight && (
+                            <div className={highlightStyles[highlight.type]}>
+                              <p className="text-sm font-bold mb-1">{highlight.text}</p>
+                              {highlight.tip && (
+                                <p className="text-xs text-slate-400">{highlight.tip}</p>
+                              )}
+                            </div>
+                          )}
+
+                          {choice.options.map((opt, i) => (
+                            <ChoiceCard
+                              key={i}
+                              scene={choice.scene}
+                              option={opt.text}
+                              recommended={opt.recommended}
+                              consequence={opt.consequence}
+                              characterEffect={opt.characterEffect}
+                            />
+                          ))}
+                        </div>
+                      );
+                    })}
                   </div>
                 </details>
               );
             })}
           </div>
-          <p className="text-xs text-slate-500 mt-4">
-            Full walkthrough for Episodes 4-8 coming soon. Check the{' '}
-            <a
-              href="/walkthrough"
-              className="text-violet-400 hover:underline"
-            >
-              Walkthrough
-            </a>{' '}
-            page for detailed chapter-by-chapter guides.
+        </section>
+
+        {/* Destinies Checklist */}
+        <section>
+          <h2 className="text-2xl font-bold text-slate-100 mb-6">
+            Destinies Unlock Checklist
+          </h2>
+          <p className="text-sm text-slate-400 mb-4">
+            Each playable character has a Destiny that unlocks during specific
+            moments. Unlocking these is required for the best ending route.
           </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-slate-700 text-left">
+                  <th className="py-3 pr-4 text-slate-400 font-medium">Character</th>
+                  <th className="py-3 pr-4 text-slate-400 font-medium">Destiny</th>
+                  <th className="py-3 text-slate-400 font-medium">How to Unlock</th>
+                </tr>
+              </thead>
+              <tbody className="text-slate-300">
+                {destinies.map((d, i) => (
+                  <tr key={i} className="border-b border-slate-800 hover:bg-slate-800/30">
+                    <td className="py-3 pr-4 font-medium">{d.character}</td>
+                    <td className="py-3 pr-4">
+                      <span className="text-violet-400">{d.destiny}</span>
+                    </td>
+                    <td className="py-3 text-xs text-slate-400">{d.how}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
 
         {/* CTA */}

@@ -214,6 +214,218 @@ export const choices: Choice[] = [
       },
     ],
   },
+  // Episode 4 choices
+  {
+    id: 'e4-follow-cooper',
+    episode: 'episode-4',
+    scene: 'Maintenance Tunnels (Junction 13)',
+    description: 'How do you proceed when you reach junction 13 in the maintenance tunnels?',
+    options: [
+      {
+        label: 'Follow Cooper\'s instructions exactly',
+        text: 'Follow Cooper\'s instructions exactly',
+        consequence: 'Safe navigation, both Young and Cooper survive.',
+        recommended: true,
+        characterEffect: 'Cooper relationship +',
+      },
+      {
+        label: 'Investigate alternate path',
+        text: 'Investigate alternate path',
+        consequence: 'Risk of detection by the creature, but may find collectibles.',
+        recommended: false,
+      },
+    ],
+  },
+  {
+    id: 'e4-reactor-confirm',
+    episode: 'episode-4',
+    scene: 'Reactor Confrontation',
+    description: 'After the creature falls into the reactor, what do you do?',
+    options: [
+      {
+        label: 'Confirm it\'s dead and report back',
+        text: 'Confirm it\'s dead and report back',
+        consequence: 'Crew reunites safely, threat confirmed eliminated.',
+        recommended: true,
+      },
+      {
+        label: 'Investigate further',
+        text: 'Investigate further',
+        consequence: 'Unnecessary risk — Young may be injured.',
+        recommended: false,
+      },
+    ],
+  },
+  // Episode 5 choices
+  {
+    id: 'e5-sedative',
+    episode: 'episode-5',
+    scene: 'Science Lab — ⚠ MISSABLE CHOICE',
+    description: 'Eisele can prepare a sedative for Williams. The game does NOT clearly prompt this — you must actively explore the lab.',
+    options: [
+      {
+        label: 'Prepare the sedative',
+        text: 'Prepare the sedative',
+        consequence: 'Required for keeping Williams alive later. Needed for "Sedate Williams" trophy.',
+        recommended: true,
+        characterEffect: 'Unlocks sedative option in confrontation',
+      },
+      {
+        label: 'Skip the lab equipment',
+        text: 'Skip / don\'t interact with sedative equipment',
+        consequence: 'Williams cannot be sedated later, death more likely. Missable trophy.',
+        recommended: false,
+      },
+    ],
+  },
+  {
+    id: 'e5-point-blank',
+    episode: 'episode-5',
+    scene: 'Point Blank — Williams Confrontation',
+    description: 'Williams is exposed as a duplicate. How do you respond during the transformation?',
+    options: [
+      {
+        label: 'Stand Down',
+        text: 'Stand Down (if sedative was prepared)',
+        consequence: 'Buys time, opens sedative option. Williams can be neutralized non-lethally.',
+        recommended: true,
+        characterEffect: 'Keeps Williams alive if sedative prepared',
+      },
+      {
+        label: 'Shoot',
+        text: 'Shoot',
+        consequence: 'Williams duplicate is eliminated immediately. Clean but loses optional trophy.',
+        recommended: false,
+      },
+    ],
+  },
+  {
+    id: 'e5-fire-rescue',
+    episode: 'episode-5',
+    scene: 'Hydroponics Bay Fire',
+    description: 'Mitchell and Anders are trapped in a fire. What do you do?',
+    options: [
+      {
+        label: 'Rescue both Mitchell and Anders',
+        text: 'Rescue both Mitchell and Anders',
+        consequence: 'Both NPCs survive. Trophy progress.',
+        recommended: true,
+        characterEffect: 'Mitchell and Anders survive',
+      },
+      {
+        label: 'Prioritize one or ignore',
+        text: 'Prioritize one over the other / Ignore the fire',
+        consequence: 'One or both NPCs die.',
+        recommended: false,
+      },
+    ],
+  },
+  {
+    id: 'e5-stafford-destiny',
+    episode: 'episode-5',
+    scene: "Stafford's Breakdown — Destiny Moment",
+    description: 'Stafford has a breakdown. Young can rally him. The correct response unlocks his Destiny.',
+    options: [
+      {
+        label: '"Never forget why you started"',
+        text: 'Encourage Stafford: "Never forget why you started."',
+        consequence: "Stafford's 'The Father' Destiny unlocked — required for best ending route.",
+        recommended: true,
+        characterEffect: "Stafford Destiny: The Father",
+      },
+      {
+        label: 'Let Stafford give up',
+        text: 'Stay silent or let Stafford give up',
+        consequence: 'Destiny not unlocked. Worse outcomes in Episode 7.',
+        recommended: false,
+      },
+    ],
+  },
+  // Episode 6 choices
+  {
+    id: 'e6-two-eiseles',
+    episode: 'episode-6',
+    scene: 'Two Eiseles Appear — 🔑 MOST CRITICAL CHOICE',
+    description: 'Two identical Eiseles appear. One is real, one is a mimic. This choice determines your ending.',
+    options: [
+      {
+        label: 'Trust the NEWCOMER (arrives separately)',
+        text: 'Trust the NEWCOMER — the Eisele who arrives separately',
+        consequence: 'Real Eisele survives. Best ending path maintained. True ending still achievable.',
+        recommended: true,
+        characterEffect: 'Eisele survives — true ending path open',
+      },
+      {
+        label: 'Trust the one already with the group',
+        text: 'Trust the one who was already with the group',
+        consequence: 'Real Eisele dies. Locked out of best ending permanently.',
+        recommended: false,
+      },
+    ],
+  },
+  {
+    id: 'e6-outdoor-junction',
+    episode: 'episode-6',
+    scene: 'Outdoor Junction — ⚠ Point of No Return',
+    description: 'During the reactor escape, you must choose a direction outside. The game does NOT warn you — one path is a point of no return.',
+    options: [
+      {
+        label: 'Turn RIGHT (stay outside)',
+        text: 'Turn RIGHT — under the stalactites, stay outside',
+        consequence: 'Safe path, all crew escapes. Anders survives.',
+        recommended: true,
+        characterEffect: 'Anders survives',
+      },
+      {
+        label: 'Turn LEFT (enter cave system)',
+        text: 'Turn LEFT — into the cave system',
+        consequence: 'Point of no return. Anders will die. Cannot go back once you enter.',
+        recommended: false,
+      },
+    ],
+  },
+  {
+    id: 'e6-reactor-escape',
+    episode: 'episode-6',
+    scene: 'Reactor Escape',
+    description: 'The reactor is overloading — meltdown in 10 minutes. Escape quickly.',
+    options: [
+      {
+        label: 'Move quickly through each section',
+        text: 'Move quickly through each section',
+        consequence: 'All crew escapes before meltdown. No casualties.',
+        recommended: true,
+      },
+      {
+        label: 'Take time to explore',
+        text: 'Take time to explore or hesitate',
+        consequence: 'Risk of casualties from the meltdown.',
+        recommended: false,
+      },
+    ],
+  },
+  // Episode 7-8 choices
+  {
+    id: 'e7-eisele-final',
+    episode: 'episode-7',
+    scene: "Eisele's Final Choice — ⭐ UNLOCKS TRUE ENDING",
+    description: 'Eisele must decide the fate of the clone program data. This is the defining moment of the entire game.',
+    options: [
+      {
+        label: 'Expose the clone program',
+        text: 'Expose the clone program (Eisele the Humanitarian)',
+        consequence: 'True ending. Eisele broadcasts the truth to humanity. Cycle ends. All 5 survivors confirmed.',
+        recommended: true,
+        characterEffect: 'Eisele Destiny: The Humanitarian — True Ending',
+      },
+      {
+        label: 'Protect the mission',
+        text: 'Keep the information classified (Eisele the Scientist)',
+        consequence: 'Science ending. Eisele prioritizes the Growth data. Cycle continues.',
+        recommended: false,
+      },
+    ],
+  },
 ];
 
 export const getAllChoices = () => choices;

@@ -80,7 +80,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet-900/20 via-slate-900 to-slate-900 pointer-events-none" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-violet-600/5 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="relative max-w-4xl mx-auto px-4 py-24 md:py-36 text-center">
+        <div className="relative max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-slate-100 tracking-tight mb-4">
             DIRECTIVE{' '}
             <span className="text-violet-400">8020</span>
@@ -113,7 +113,7 @@ export default function Home() {
       </section>
 
       {/* Content */}
-      <div className="max-w-6xl mx-auto px-4 py-12 space-y-16">
+      <div className="max-w-6xl mx-auto px-4 py-8 space-y-10">
         {/* Important Warning */}
         <div className="bg-amber-900/30 border border-amber-600 rounded-lg p-4 mb-8">
           <h3 className="text-amber-400 font-bold mb-2">
@@ -133,7 +133,7 @@ export default function Home() {
             Episode Walkthroughs
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {episodes.map((episode) => (
+            {episodes.filter(e => e.keyChoices > 0).map((episode) => (
               <EpisodeCard key={episode.id} episode={episode} />
             ))}
           </div>

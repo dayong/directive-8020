@@ -8,6 +8,7 @@ const tabs = [
   { href: '/save-everyone', label: 'Save All', icon: '👥' },
   { href: '/all-endings', label: 'Endings', icon: '🏁' },
   { href: '/choices', label: 'Choices', icon: '🔀' },
+  { href: '/characters', label: 'Crew', icon: '👤' },
   { href: '/trophies', label: 'Trophies', icon: '🏆' },
 ];
 

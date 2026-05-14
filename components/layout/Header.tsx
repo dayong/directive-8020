@@ -5,6 +5,7 @@ const navLinks = [
   { href: '/save-everyone', label: 'Save Everyone' },
   { href: '/all-endings', label: 'All Endings' },
   { href: '/choices', label: 'Choices' },
+  { href: '/characters', label: 'Characters' },
   { href: '/trophies', label: 'Trophies' },
 ];
 

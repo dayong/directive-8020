@@ -33,7 +33,7 @@ export default function WalkthroughPage() {
 
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {episodes.map((episode) => (
+          {episodes.filter(e => e.keyChoices > 0).map((episode) => (
             <EpisodeCard key={episode.id} episode={episode} />
           ))}
         </div>
