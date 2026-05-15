@@ -139,6 +139,31 @@ export default function Home() {
           </div>
         </section>
 
+        {/* More Guides */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold text-white mb-4">More Guides</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <a href="/game-length" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-5 transition-colors group">
+              <div className="text-2xl mb-2">⏱</div>
+              <div className="text-xs font-bold text-violet-400 uppercase tracking-wide mb-1">INFO</div>
+              <h3 className="text-white font-semibold mb-1 group-hover:text-violet-300">Game Length & Episodes</h3>
+              <p className="text-slate-400 text-sm">How long to beat all 8 episodes, completionist time, and what to expect.</p>
+            </a>
+            <a href="/bug-fixes" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-5 transition-colors group">
+              <div className="text-2xl mb-2">🔧</div>
+              <div className="text-xs font-bold text-red-400 uppercase tracking-wide mb-1">FIXES</div>
+              <h3 className="text-white font-semibold mb-1 group-hover:text-violet-300">Crashing & Bug Fixes</h3>
+              <p className="text-slate-400 text-sm">Fix black screen, won&apos;t launch, stuttering, and save issues on PC and console.</p>
+            </a>
+            <a href="/multiplayer" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-5 transition-colors group">
+              <div className="text-2xl mb-2">👥</div>
+              <div className="text-xs font-bold text-cyan-400 uppercase tracking-wide mb-1">CO-OP</div>
+              <h3 className="text-white font-semibold mb-1 group-hover:text-violet-300">Multiplayer & Co-Op</h3>
+              <p className="text-slate-400 text-sm">Movie Night mode, online co-op setup, and how shared story works.</p>
+            </a>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section>
           <h2 className="text-2xl font-bold text-slate-100 mb-6">
