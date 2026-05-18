@@ -43,6 +43,19 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-slate-900 text-slate-100 pb-16 md:pb-0">
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-W2GMHSSLVR"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W2GMHSSLVR');
+          `}
+        </Script>
         {umamiId && (
           <Script
             defer
