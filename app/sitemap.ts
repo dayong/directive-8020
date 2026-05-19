@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/bug-fixes`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.75 },
     { url: `${BASE_URL}/multiplayer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE_URL}/directive-8020-cove`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.65 },
+    { url: `${BASE_URL}/directive-8020-actress`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.65 },
   ];
 
   const episodePages: MetadataRoute.Sitemap = episodeSlugs.map((slug) => ({
