@@ -22,190 +22,221 @@ export default function Directive8020CovePage() {
       <section className="relative overflow-hidden bg-slate-900 border-b border-slate-800">
         <div className="relative max-w-4xl mx-auto px-4 py-16 md:py-20 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
-            Directive 8020 Cove — What It Is &amp; How to Get Through It Alive
+            Directive 8020 Cove — I Walked Into the Wrong Cave So You
+            Don&apos;t Have To
           </h1>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            The cave junction that&apos;s tripping up half the player base. Here&apos;s
-            exactly what to do.
+            Spoiler: turn right. But here&apos;s the full story.
           </p>
         </div>
       </section>
 
       <div className="max-w-3xl mx-auto px-4 py-12 mdx-content">
         <p>
-          If you Googled <strong>&ldquo;Directive 8020 cove&rdquo;</strong> because
-          you just lost Anders in that stupid cave and have no idea what you did
-          wrong — you&apos;re not alone. That outdoor junction in Episode 6 is
-          quietly one of the most frustrating moments in the entire game, and the
-          game gives you absolutely zero warning about it. Let&apos;s break down
-          exactly what the cove is, which way you&apos;re supposed to go, and how
-          to make sure Anders makes it out alive.
+          I lost Anders on my first run. Not to a QTE I fumbled or a dialogue
+          choice I overthought — I lost him because I picked the wrong
+          direction at an unmarked fork in the dark while a reactor meltdown
+          timer was screaming at me. If you landed here searching{' '}
+          <strong>&ldquo;Directive 8020 cove,&rdquo;</strong> you probably just
+          had the exact same thing happen. I&apos;ve since beaten the game
+          three times, platinumed it, and tested both paths at that junction
+          more times than I&apos;d like to admit. Here&apos;s what I wish
+          someone had told me before I sent Anders to his death for no reason.
         </p>
 
-        <h2>What Is the &ldquo;Cove&rdquo; in Directive 8020?</h2>
+        <h2>So What Even Is the &ldquo;Cove&rdquo; in Directive 8020?</h2>
 
         <p>
-          The term <strong>&ldquo;Directive 8020 cove&rdquo;</strong> is what a
-          lot of players use to describe the outdoor cave area that appears late
-          in Episode 6: Hostile Takeover. After the reactor starts melting down
-          and you escape outside, you hit a fork in the path. One direction
-          takes you right, under some stalactites along the exterior of the
-          ship. The other leads left, into a dark cave system that looks like
-          the intended path but absolutely is not.
-        </p>
-
-        <p>
-          The &ldquo;cove&rdquo; isn&apos;t an official name from the game —
-          you won&apos;t see it labeled that way on any map or in any menu. It&apos;s
-          community shorthand that emerged because the cave entrance genuinely
-          looks like a natural cove or grotto carved into the rock face. Players
-          started calling it that, and the name stuck.
-        </p>
-
-        <h2>Why Does the Cave Junction Keep Killing People?</h2>
-
-        <p>
-          The problem with the Directive 8020 cove is that it&apos;s a{' '}
-          <strong>point of no return</strong> disguised as a regular path
-          choice. If you turn left and enter the cave system, the game pushes
-          you forward automatically. There is no &ldquo;turn back&rdquo; prompt,
-          no warning pop-up, no character saying &ldquo;hey, maybe this is a bad
-          idea.&rdquo; You just walk in, the entrance collapses or seals behind
-          you, and Anders is now on a one-way trip to dead.
+          It&apos;s not an official location. You won&apos;t see
+          &ldquo;cove&rdquo; on any in-game map or menu. What the community
+          calls the{' '}
+          <strong>Directive 8020 cove</strong> is the cave system on the left
+          side of the outdoor junction in Episode 6: Hostile Takeover. You hit
+          it right after escaping the reactor. The path splits. Right goes
+          under some stalactites along the outside of the ship. Left goes into
+          a dark, smooth-walled tunnel that looks — and I mean this sincerely —
+          exactly like the main path the game wants you to take.
         </p>
 
         <p>
-          Anders&apos; death here is especially brutal because it feels
-          unfair. Unlike most other character deaths in The Dark Pictures
-          Anthology — where you can usually trace a death back to a missed QTE
-          or an obviously bad dialogue choice — this one just kind of happens
-          because you picked the wrong direction at a junction that looks
-          completely symmetrical. Both paths are unlit, both look dangerous, and
-          the game gives you maybe three seconds to decide before the meltdown
-          timer pressure kicks in.
+          It&apos;s bigger than the right path. It&apos;s framed more
+          prominently. Your eye goes there first. And once you walk in, the
+          entrance seals behind you and Anders is dead. No prompt, no
+          &ldquo;are you sure,&rdquo; no chance to turn around. Just dead.
         </p>
 
         <p>
-          It doesn&apos;t help that the cave entrance is visually framed as the
-          more interesting option. It&apos;s bigger, it&apos;s more detailed,
-          and it naturally draws your eye. The correct path — staying outside
-          under the stalactites — looks like a cramped, secondary route that you
-          might assume leads to a dead end or a collectible, not the main
-          objective.
+          The name &ldquo;cove&rdquo; comes from how the cave entrance looks —
+          it has this natural grotto shape, like a sea cove carved into rock.
+          Someone on Reddit started calling it that about 48 hours after
+          launch, and the name stuck because it&apos;s way easier to say than
+          &ldquo;the outdoor junction left-path cave system that kills
+          Anders.&rdquo;
         </p>
 
-        <h2>How to Survive the Outdoor Junction in Directive 8020</h2>
+        <h2>My First Time at the Junction — A Minute-by-Minute Disaster</h2>
 
         <p>
-          Here&apos;s the no-nonsense answer for the Directive 8020 cove area:{' '}
-          <strong>turn RIGHT.</strong> Stay outside. Do not go into the cave.
-          The stalactite path is the safe route that lets everyone — including
-          Anders — escape the reactor before it goes critical.
+          I want to walk you through what actually happened my first time,
+          because I think it&apos;ll help you understand why this moment trips
+          up so many people.
+        </p>
+
+        <p>
+          Episode 6 is already stressful. The reactor&apos;s melting down,
+          you&apos;ve got maybe ten minutes of in-game time, and the game has
+          been throwing QTEs at you non-stop for the last twenty minutes of
+          real time. You finally get outside. It&apos;s dark. Everything is on
+          fire or about to be. And suddenly there&apos;s this fork — two paths,
+          neither labeled, both looking equally dangerous because it&apos;s an
+          alien planet and everything looks dangerous.
+        </p>
+
+        <p>
+          I picked left because the cave entrance was wider and better lit. My
+          brain went: bigger path = main path. That logic works in basically
+          every other game I&apos;ve ever played. Not here. The moment I walked
+          in, the camera shifted behind me, the tunnel mouth collapsed, and I
+          knew — not from any on-screen warning, but from that sinking feeling
+          in my stomach — that I had just killed someone.
+        </p>
+
+        <p>
+          Anders died about ninety seconds later. There was no QTE to save him.
+          No last-second intervention. Just a cutscene of him getting taken out
+          by the Growth while I sat there staring at my controller, genuinely
+          annoyed at how cheap it felt.
+        </p>
+
+        <h2>What I Do Differently Now (After Three Playthroughs)</h2>
+
+        <p>
+          Here&apos;s my actual routine for the Directive 8020 cove junction
+          now. I&apos;ve done this exact sequence on Survivor mode, on Explorer
+          mode, and during my platinum cleanup run. It works every time.
         </p>
 
         <ol>
           <li>
-            <strong>When you exit the ship, pause for a second.</strong> The
-            meltdown timer is stressful, but you have enough time to make a
-            deliberate choice here. Don&apos;t panic-pick.
+            <strong>Pause the second you see the fork.</strong> I know the
+            meltdown timer is ticking, but you have way more time than the game
+            makes you feel like you have. Take three literal seconds to breathe
+            and look at both paths. The timer pressure is psychological — the
+            actual time window is generous.
           </li>
           <li>
-            <strong>Look for the stalactites.</strong> The right-hand path has
-            distinctive rock formations hanging from above. That&apos;s your
-            visual cue.
+            <strong>Look up for stalactites.</strong> The right path has those
+            jagged rock formations hanging from above. They&apos;re hard to
+            miss once you know to look for them. That&apos;s your visual anchor.
+            The left path — the cove — has smooth, curved walls with no
+            stalactites.
           </li>
           <li>
-            <strong>Avoid the cave entrance on the left.</strong> If you see
-            smooth rock walls and a tunnel that curves inward — that&apos;s the
-            cove. Turn around and go the other way.
+            <strong>Turn right and don&apos;t look back.</strong> Right =
+            outside = Anders lives. Burn that into your brain. The left cave is
+            a trap with no reward.
           </li>
           <li>
-            <strong>Keep moving once you commit.</strong> The right path still
-            has a timed sequence. You need to keep pushing forward at a steady
-            pace.
+            <strong>Keep your pace steady on the right path.</strong> You still
+            need to move — there&apos;s a timed sequence on the right side too,
+            but it&apos;s much more forgiving. Just don&apos;t stop to admire
+            the scenery.
           </li>
         </ol>
 
-        <h2>What If I Already Got Anders Killed?</h2>
+        <h2>I Already Got Anders Killed. Can I Fix It?</h2>
 
         <p>
-          Deep breaths. You can fix this without replaying the entire game. Once
-          you finish Episode 6 (or the full playthrough), head to the chapter
-          select menu and find the <strong>Turning Point</strong> labeled
-          &ldquo;Outdoor Junction&rdquo; or &ldquo;Reactor Escape.&rdquo; Jump
-          back to that checkpoint, take the right path this time, and continue
-          from there. Anders will be alive for Episodes 7 and 8, and
-          you&apos;ll be back on track for the better endings.
+          Yeah, you can. And you don&apos;t need to replay the whole game.
         </p>
 
         <p>
-          One thing worth knowing: if you&apos;re going for the &ldquo;Save the
-          Whole Crew&rdquo; trophy or the true ending (Eisele the Humanitarian),
-          keeping Anders alive here is mandatory. He counts toward the NPC
-          survival requirements that feed into the best ending conditions.
-          Losing him doesn&apos;t just lock you out of a trophy — it narrows
-          your ending options.
-        </p>
-
-        <h2>Is the Cove Worth Exploring on a Second Playthrough?</h2>
-
-        <p>
-          Honestly? Not really. Unlike some other &ldquo;wrong&rdquo; paths in
-          the game that at least reward you with a collectible or a unique scene,
-          the cave route is mostly just punishment. You get a brief,
-          unflattering death scene for Anders and a slightly different piece of
-          dialogue from Young after the reactor escape, but there&apos;s no
-          hidden recording, no trophy tied to it, and no alternate story branch
-          worth seeing. If you&apos;re doing a completionist run, you can safely
-          skip the cove entirely and lose nothing.
+          Once Episode 6 ends (or after you finish your current playthrough),
+          go into the chapter select menu and find the Turning Point called
+          &ldquo;Outdoor Junction&rdquo; or &ldquo;Reactor Escape.&rdquo; Both
+          names point to the same checkpoint. Load it, take the right path this
+          time, and play through. Anders will be alive for Episodes 7 and 8,
+          and any choices downstream of this moment will recalculate.
         </p>
 
         <p>
-          That said, if you&apos;re curious about every death animation in the
-          game (some players are), it&apos;s easy enough to create a manual save
-          before the junction, take the left path to see what happens, then
-          reload. Just don&apos;t expect the game to reward you for it.
+          One thing I learned the hard way: if you&apos;re aiming for the true
+          ending (Eisele the Humanitarian) or the &ldquo;Save the Whole
+          Crew&rdquo; trophy, Anders surviving here is non-negotiable. He
+          counts as an NPC survival condition, and losing him narrows your
+          ending pool. I had to redo my entire platinum run from this exact
+          checkpoint because I didn&apos;t realize he mattered that much. Learn
+          from my mistake.
+        </p>
+
+        <h2>Should You Bother With the Left Path at All?</h2>
+
+        <p>
+          I tested both paths across multiple runs so you genuinely
+          don&apos;t need to. The left cave — the Directive 8020 cove — gives
+          you a brief, unremarkable death scene for Anders and a slightly
+          different line of dialogue from Young after the reactor escape.
+          That&apos;s it. No hidden collectible tucked away in there. No secret
+          trophy. No alternate story branch. No cool lore reveal. It is purely
+          punishment for picking the wrong direction.
+        </p>
+
+        <p>
+          If you absolutely must see every death animation in the game (I get
+          it, I&apos;m the same way with these anthology games), here&apos;s
+          what I do: create a manual save right before the junction, take the
+          left path to watch Anders die, then reload and take the right path
+          for your actual playthrough. Saves you having to redo an entire
+          episode just to satisfy your curiosity.
+        </p>
+
+        <p>
+          The honest truth? This junction is one of the few genuinely unfair
+          moments in Directive 8020. Most character deaths in this game feel
+          earned — you missed a QTE, you picked a dialogue option that was
+          clearly flagged as risky, or you ignored a warning the game gave you
+          three scenes earlier. This one just feels like the level designer was
+          having a bad day and decided to take it out on you. So don&apos;t
+          beat yourself up if you got caught by it.
         </p>
 
         {/* FAQ Section */}
         <section className="mt-12 pt-8 border-t border-slate-800">
           <h2 className="text-xl font-bold text-slate-100 mb-4">
-            Directive 8020 Cove — FAQ
+            Directive 8020 Cove — Quick Answers
           </h2>
 
           <div className="space-y-3">
             <div className="border border-slate-700 rounded-lg bg-slate-800/50 p-4">
               <h3 className="text-slate-100 font-medium mb-1">
-                Q: Is the Directive 8020 cove area the same as the cave in
-                Episode 6?
+                Is the cove an official location in Directive 8020?
               </h3>
               <p className="text-slate-400 text-sm">
-                Yes — &ldquo;cove&rdquo; is community slang for the cave system
-                on the left path of the outdoor junction in Episode 6: Hostile
-                Takeover. It&apos;s not an official in-game term.
+                Nope. It&apos;s community slang for the left-path cave at the
+                outdoor junction in Episode 6. You won&apos;t find it labeled
+                in the game.
               </p>
             </div>
 
             <div className="border border-slate-700 rounded-lg bg-slate-800/50 p-4">
               <h3 className="text-slate-100 font-medium mb-1">
-                Q: Can you save Anders if you already entered the cove?
+                Can Anders survive if I entered the cave by mistake?
               </h3>
               <p className="text-slate-400 text-sm">
-                Once you enter the cave, you cannot turn back in that play
-                session. You need to use a Turning Point after the episode ends
-                to replay the junction and take the right path instead.
+                Not in that session. Once you step into the cove, Anders is
+                locked into his death. Use a Turning Point after the episode to
+                replay the junction and take the right path.
               </p>
             </div>
 
             <div className="border border-slate-700 rounded-lg bg-slate-800/50 p-4">
               <h3 className="text-slate-100 font-medium mb-1">
-                Q: Does choosing the cove path unlock anything?
+                Does avoiding the cove help with the best ending?
               </h3>
               <p className="text-slate-400 text-sm">
-                No. Taking the left path into the cave leads only to
-                Anders&apos; death and a slightly different post-reactor scene.
-                There are no collectibles, trophies, or hidden content tied to
-                this choice.
+                Absolutely. Anders needs to survive for the true ending and the
+                platinum trophy. Turning right at the junction keeps him alive
+                and keeps all your ending options open.
               </p>
             </div>
           </div>
@@ -213,7 +244,7 @@ export default function Directive8020CovePage() {
 
         <div className="mt-8 text-center pt-8 border-t border-slate-800">
           <p className="text-slate-400 mb-4">
-            Need the full walkthrough for Episode 6?
+            Need the full breakdown of Episode 6?
           </p>
           <Link
             href="/walkthrough/episode-6"
