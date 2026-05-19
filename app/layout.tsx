@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import Header from '@/components/layout/Header';
+import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import BottomTabBar from '@/components/layout/BottomTabBar';
 import Footer from '@/components/layout/Footer';
 import './globals.css';
@@ -65,6 +66,7 @@ export default function RootLayout({
           />
         )}
         <Header />
+        <Breadcrumbs />
         <main className="flex-1">{children}</main>
         <Footer />
         <BottomTabBar />
