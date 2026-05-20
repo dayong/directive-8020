@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: 'Can I save everyone in Directive 8020?',
-    a: 'Yes — all 5 playable characters (Young, Stafford, Eisele, Cernan, and Cooper) can survive. However, Carter and Simms have scripted deaths that cannot be prevented regardless of your choices.',
+    a: 'Yes — all 5 playable characters (Osmond, Stafford, Eisele, Cernan, and Cooper) can survive. However, Carter and Simms have scripted deaths that cannot be prevented regardless of your choices.',
   },
   {
     q: 'Why can\'t Carter and Simms be saved?',
@@ -122,7 +122,7 @@ export default function Home() {
           <p className="text-slate-300 text-sm">
             Carter and Simms are scripted to die as part of the story. No
             choices or actions can prevent their deaths — this is by design, not
-            a mistake. Focus on saving the other 5 playable characters: Young,
+            a mistake. Focus on saving the other 5 playable characters: Osmond,
             Stafford, Eisele, Cernan, and Cooper.
           </p>
         </div>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title:
       'Directive 8020 Actress & Cast Guide — Every Voice Actor',
     description:
-      'The complete Directive 8020 actress and cast breakdown. Lashana Lynch as Young, Danny Sapani as Stafford, and the full crew roster.',
+      'The complete Directive 8020 actress and cast breakdown. Lashana Lynch as Osmond, Danny Sapani as Stafford, and the full crew roster.',
     images: ['/og-image.png'],
     type: 'article',
   },
@@ -43,11 +43,11 @@ export default function Directive8020ActressPage() {
           behind every crew member on the Cassiopeia.
         </p>
 
-        <h2>Lashana Lynch as Brianna Young — The Lead</h2>
+        <h2>Lashana Lynch as Brooke Osmond — The Lead</h2>
 
         <p>
           Let&apos;s start with the obvious one. Lashana Lynch plays{' '}
-          <strong>Brianna Young</strong>, the co-pilot of the Cassiopeia and the
+          <strong>Brooke Osmond</strong>, the co-pilot of the Cassiopeia and the
           character you&apos;ll spend the most time controlling. If she looks
           familiar, it&apos;s because Lynch has been everywhere lately — she
           played Maria Rambeau in <em>Captain Marvel</em> and took over the 007
@@ -56,7 +56,7 @@ export default function Directive8020ActressPage() {
         </p>
 
         <p>
-          Young is the moral center of Directive 8020, and Lynch plays her with
+          Osmond is the moral center of Directive 8020, and Lynch plays her with
           a grounded intensity that sells the horror without ever tipping into
           melodrama. She&apos;s easily the strongest performance in the game,
           which is exactly what you want from your lead when the story asks you
@@ -150,10 +150,10 @@ export default function Directive8020ActressPage() {
           <div className="space-y-3">
             <div className="border border-slate-700 rounded-lg bg-slate-800/50 p-4">
               <h3 className="text-slate-100 font-medium mb-1">
-                Q: Who is the main Directive 8020 actress playing Young?
+                Q: Who is the main Directive 8020 actress playing Osmond?
               </h3>
               <p className="text-slate-400 text-sm">
-                Lashana Lynch plays Brianna Young, the co-pilot and primary
+                Lashana Lynch plays Brooke Osmond, the co-pilot and primary
                 protagonist. You may know her from <em>No Time to Die</em>,{' '}
                 <em>Captain Marvel</em>, or <em>The Woman King</em>.
               </p>

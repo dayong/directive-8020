@@ -7,7 +7,7 @@ export const episodes: Episode[] = [
     title: 'Little Star',
     slug: 'episode-1',
     description:
-      'The Cassiopeia crew faces a sudden hull breach. Young takes charge as the first major choices and scripted deaths unfold.',
+      'The Cassiopeia crew faces a sudden hull breach. Osmond takes charge as the first major choices and scripted deaths unfold.',
     duration: '~1 hour',
     keyChoices: 8,
     characters: ['young', 'carter', 'simms'],

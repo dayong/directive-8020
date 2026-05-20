@@ -5,7 +5,7 @@ import { characters } from '@/data/characters';
 export const metadata: Metadata = {
   title: 'Directive 8020 Characters | Crew Roster & Survival Guide',
   description:
-    'Meet every character in Directive 8020 — Young, Stafford, Eisele, Cernan, Cooper, Carter, and Simms. Learn who can survive and who has a scripted death.',
+    'Meet every character in Directive 8020 — Osmond, Stafford, Eisele, Cernan, Cooper, Carter, and Simms. Learn who can survive and who has a scripted death.',
   openGraph: {
     title: 'Directive 8020 Characters | Full Crew Roster',
     description:

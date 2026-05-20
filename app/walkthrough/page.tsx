@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const quickTips: Record<string, string> = {
   'episode-1': 'Authorize the weapon in Crew Quarters. Choose Honor → Consider with Stafford. The QTE after Medical Complex always fails — don\'t panic.',
-  'episode-2': 'Trust Stafford on the Command Deck. Let Eisele study the sample but don\'t push too hard. Assign Cooper to go with Young.',
+  'episode-2': 'Trust Stafford on the Command Deck. Let Eisele study the sample but don\'t push too hard. Assign Cooper to go with Osmond.',
   'episode-3': 'Report the cargo bay find immediately. Side with Eisele in the Briefing Room debate. Send an honest report to Earth.',
   'episode-4': 'Follow Cooper\'s radio directions exactly at junction 13. After the reactor confrontation, confirm the kill and move on.',
   'episode-5': 'This episode has the most missable choice in the game — prepare the sedative in the lab before leaving. Rescue both Mitchell and Anders from the fire.',
@@ -58,7 +58,7 @@ export default function WalkthroughPage() {
             A few things before you dive in:{' '}
             <strong>Carter and Simms cannot be saved.</strong> Their deaths
             are scripted, full stop. Don&apos;t waste hours trying to save
-            them like I did on my first run. Focus on Young, Stafford, Eisele,
+            them like I did on my first run. Focus on Osmond, Stafford, Eisele,
             Cernan, and Cooper. Also: the game uses{' '}
             <strong>Turning Points</strong> as checkpoint markers — you can
             jump back to any of them after finishing an episode or the full

@@ -3,14 +3,14 @@ import { Character } from '@/types';
 export const characters: Character[] = [
   {
     id: 'young',
-    name: 'Young',
-    fullName: 'Brianna Young',
+    name: 'Osmond',
+    fullName: 'Brooke Osmond',
     actor: 'Lashana Lynch',
     role: 'Co-Pilot / Astronaut',
     canDie: true,
     scriptedDeath: false,
     description:
-      'The co-pilot of the Cassiopeia and one of the main protagonists. Young is the moral center of the crew, and her decisions heavily influence the fate of everyone on board.',
+      'The co-pilot of the Cassiopeia and one of the main protagonists. Osmond is the moral center of the crew, and her decisions heavily influence the fate of everyone on board.',
     destiny: 'The Humanitarian',
   },
   {

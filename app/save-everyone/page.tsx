@@ -59,7 +59,7 @@ const highlightStyles = {
 };
 
 const destinies = [
-  { character: 'Young', destiny: 'The Humanitarian', how: 'Make compassionate choices throughout the game. Choose Honor when given the option in Episode 1.' },
+  { character: 'Osmond', destiny: 'The Humanitarian', how: 'Make compassionate choices throughout the game. Choose Honor when given the option in Episode 1.' },
   { character: 'Stafford', destiny: 'The Father', how: 'Encourage him during his breakdown in Episode 5. Say "Never forget why you started."' },
   { character: 'Eisele', destiny: 'The Humanitarian', how: 'Choose to expose the clone program in Episode 8. Requires all prior Eisele-positive choices.' },
   { character: 'Eisele (alt)', destiny: 'The Scientist', how: 'Choose to protect the scientific data in Episode 8 instead of exposing the truth.' },
@@ -100,7 +100,7 @@ export default function SaveEveryonePage() {
             <strong className="text-white">
               Do not waste time trying to change this.
             </strong>{' '}
-            Focus on protecting the 5 playable characters: Young, Stafford,
+            Focus on protecting the 5 playable characters: Osmond, Stafford,
             Eisele, Cernan, and Cooper.
           </p>
         </div>

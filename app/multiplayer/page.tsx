@@ -51,7 +51,7 @@ export default function MultiplayerPage() {
           </ul>
           <h3>Tips for Movie Night</h3>
           <ul>
-            <li>Assign characters based on how much screen time they get — Young has the most, Cooper has less</li>
+            <li>Assign characters based on how much screen time they get — Osmond has the most, Cooper has less</li>
             <li>Use the <strong>Shared Controller</strong> option if you don&apos;t have enough controllers</li>
           </ul>
         </section>

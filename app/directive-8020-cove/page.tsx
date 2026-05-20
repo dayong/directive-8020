@@ -175,7 +175,7 @@ export default function Directive8020CovePage() {
           I tested both paths across multiple runs so you genuinely
           don&apos;t need to. The left cave — the Directive 8020 cove — gives
           you a brief, unremarkable death scene for Anders and a slightly
-          different line of dialogue from Young after the reactor escape.
+          different line of dialogue from Osmond after the reactor escape.
           That&apos;s it. No hidden collectible tucked away in there. No secret
           trophy. No alternate story branch. No cool lore reveal. It is purely
           punishment for picking the wrong direction.

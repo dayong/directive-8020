@@ -224,7 +224,7 @@ export const choices: Choice[] = [
       {
         label: 'Follow Cooper\'s instructions exactly',
         text: 'Follow Cooper\'s instructions exactly',
-        consequence: 'Safe navigation, both Young and Cooper survive.',
+        consequence: 'Safe navigation, both Osmond and Cooper survive.',
         recommended: true,
         characterEffect: 'Cooper relationship +',
       },
@@ -251,7 +251,7 @@ export const choices: Choice[] = [
       {
         label: 'Investigate further',
         text: 'Investigate further',
-        consequence: 'Unnecessary risk — Young may be injured.',
+        consequence: 'Unnecessary risk — Osmond may be injured.',
         recommended: false,
       },
     ],
@@ -324,7 +324,7 @@ export const choices: Choice[] = [
     id: 'e5-stafford-destiny',
     episode: 'episode-5',
     scene: "Stafford's Breakdown — Destiny Moment",
-    description: 'Stafford has a breakdown. Young can rally him. The correct response unlocks his Destiny.',
+    description: 'Stafford has a breakdown. Osmond can rally him. The correct response unlocks his Destiny.',
     options: [
       {
         label: '"Never forget why you started"',
