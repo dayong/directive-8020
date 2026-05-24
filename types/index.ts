@@ -29,12 +29,15 @@ export interface Choice {
   episode: string;
   scene: string;
   description: string;
+  relationshipDetail?: string;
   options: {
     label: string;
     text: string;
     consequence: string;
     recommended: boolean;
     characterEffect?: string;
+    chainEffect?: string;
+    endingImpact?: string;
   }[];
 }
 

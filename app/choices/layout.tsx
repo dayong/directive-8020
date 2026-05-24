@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title:
-    'Directive 8020 Choices & Consequences | All Decisions',
+    'Directive 8020 All Choices & Consequences — Every Decision Explained',
   description:
     'Complete guide to all choices and consequences in Directive 8020. See recommended options, character effects, and how each decision impacts the ending.',
   openGraph: {
