@@ -190,8 +190,11 @@ export default function PrivacyPolicyPage() {
 
         <h2>10. Contact</h2>
         <p>
-          For questions about this privacy policy, you can reach us via the
-          GitHub repository:{' '}
+          For questions about this privacy policy, you can contact us at{' '}
+          <a href="mailto:contact@directive-8020.com" className="text-violet-400 hover:underline">
+            contact@directive-8020.com
+          </a>{' '}
+          or via the GitHub repository:{' '}
           <a
             href="https://github.com/dayong/directive-8020"
             className="text-violet-400 hover:underline"

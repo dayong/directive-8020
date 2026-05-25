@@ -54,6 +54,10 @@ export default function Footer() {
             <Link href="/privacy-policy" className="text-slate-500 hover:text-violet-400 transition-colors">
               Privacy Policy
             </Link>
+            {' '}&middot;{' '}
+            <a href="mailto:contact@directive-8020.com" className="text-slate-500 hover:text-violet-400 transition-colors">
+              Contact
+            </a>
           </p>
         </div>
       </div>
