@@ -50,7 +50,10 @@ export default function Footer() {
             unofficial fan guide.
           </p>
           <p className="text-xs text-slate-600">
-            &copy; {new Date().getFullYear()} directive-8020.com
+            &copy; {new Date().getFullYear()} directive-8020.com &middot;{' '}
+            <Link href="/privacy-policy" className="text-slate-500 hover:text-violet-400 transition-colors">
+              Privacy Policy
+            </Link>
           </p>
         </div>
       </div>
