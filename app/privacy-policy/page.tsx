@@ -194,15 +194,6 @@ export default function PrivacyPolicyPage() {
           <a href="mailto:contact@directive-8020.com" className="text-violet-400 hover:underline">
             contact@directive-8020.com
           </a>{' '}
-          or via the GitHub repository:{' '}
-          <a
-            href="https://github.com/dayong/directive-8020"
-            className="text-violet-400 hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            github.com/dayong/directive-8020
-          </a>
           .
         </p>
       </div>
