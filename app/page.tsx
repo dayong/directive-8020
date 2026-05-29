@@ -127,6 +127,37 @@ export default function Home() {
           </p>
         </div>
 
+        {/* Quick Access Navigation */}
+        <section>
+          <h2 className="text-2xl font-bold text-slate-100 mb-4">Quick Access</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
+            <Link href="/choices" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-3 text-center transition-colors group">
+              <div className="text-2xl mb-1">🎯</div>
+              <p className="text-xs text-slate-300 group-hover:text-violet-300 font-medium">All Choices &amp; Consequences</p>
+            </Link>
+            <Link href="/all-endings#best-ending" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-3 text-center transition-colors group">
+              <div className="text-2xl mb-1">🏆</div>
+              <p className="text-xs text-slate-300 group-hover:text-violet-300 font-medium">True Ending Guide</p>
+            </Link>
+            <Link href="/walkthrough" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-3 text-center transition-colors group">
+              <div className="text-2xl mb-1">🗝️</div>
+              <p className="text-xs text-slate-300 group-hover:text-violet-300 font-medium">All Codes &amp; Passwords</p>
+            </Link>
+            <Link href="/collectibles" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-3 text-center transition-colors group">
+              <div className="text-2xl mb-1">🎭</div>
+              <p className="text-xs text-slate-300 group-hover:text-violet-300 font-medium">O Death Secrets</p>
+            </Link>
+            <Link href="/characters" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-3 text-center transition-colors group">
+              <div className="text-2xl mb-1">👥</div>
+              <p className="text-xs text-slate-300 group-hover:text-violet-300 font-medium">Characters &amp; Destinies</p>
+            </Link>
+            <Link href="/bug-fixes" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-3 text-center transition-colors group">
+              <div className="text-2xl mb-1">🔧</div>
+              <p className="text-xs text-slate-300 group-hover:text-violet-300 font-medium">Crash &amp; Bug Fixes</p>
+            </Link>
+          </div>
+        </section>
+
         {/* Episode Cards */}
         <section>
           <h2 className="text-2xl font-bold text-slate-100 mb-6">
@@ -136,6 +167,44 @@ export default function Home() {
             {episodes.filter(e => e.keyChoices > 0).map((episode) => (
               <EpisodeCard key={episode.id} episode={episode} />
             ))}
+          </div>
+        </section>
+
+        {/* Best Ending Quick Path */}
+        <section>
+          <div className="bg-gradient-to-r from-violet-900/30 to-amber-900/20 border border-violet-700/50 rounded-xl p-6">
+            <h2 className="text-xl font-bold text-slate-100 mb-1">
+              Fastest Path to the True Ending
+            </h2>
+            <p className="text-sm text-slate-400 mb-4">
+              Three non-negotiable steps — miss any of these and you&apos;re locked out:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-slate-800/50 rounded-lg p-4 text-center">
+                <div className="text-violet-400 text-2xl font-bold mb-1">1</div>
+                <p className="text-slate-200 font-medium text-sm">Keep all 5 main characters alive</p>
+                <p className="text-xs text-slate-500 mt-1">Osmond · Stafford · Eisele · Cernan · Cooper</p>
+              </div>
+              <div className="bg-slate-800/50 rounded-lg p-4 text-center">
+                <div className="text-violet-400 text-2xl font-bold mb-1">2</div>
+                <p className="text-slate-200 font-medium text-sm">Identify the real Eisele in Episode 6</p>
+                <p className="text-xs text-slate-500 mt-1">Trust the newcomer — don&apos;t pick the familiar one</p>
+              </div>
+              <div className="bg-slate-800/50 rounded-lg p-4 text-center">
+                <div className="text-violet-400 text-2xl font-bold mb-1">3</div>
+                <p className="text-slate-200 font-medium text-sm">Expose the clone program in Episode 8</p>
+                <p className="text-xs text-slate-500 mt-1">Choose &ldquo;Expose the truth&rdquo; — don&apos;t protect the mission</p>
+              </div>
+            </div>
+            <p className="text-center mt-4">
+              <span className="text-amber-400 font-bold text-sm">True Ending Unlocked:&nbsp;</span>
+              <span className="text-violet-400 font-bold text-sm">Eisele the Humanitarian</span>
+            </p>
+            <div className="text-center mt-3">
+              <Link href="/save-everyone" className="inline-block px-6 py-2 rounded-lg bg-violet-600 hover:bg-violet-500 text-white text-sm font-semibold transition-colors">
+                Full Save Everyone Guide →
+              </Link>
+            </div>
           </div>
         </section>
 
