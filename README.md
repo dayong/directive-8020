@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Directive 8020 Walkthrough & Interactive Branching Database
 
-## Getting Started
+Welcome to the open-source community intelligence database for **The Dark Pictures Anthology: Directive 8020**. This repository is dedicated to mapping out every single choice, character relationship impact, and survival pathway within the game to help players achieve perfect endings.
 
-First, run the development server:
+## 🚀 Interactive Tools & Live Walkthrough
+For the fully visual interactive flowchart, character death-rewind simulator, and real-time choice tracking tools, please visit our official platform:
+👉 **[Directive 8020 Interactive Guide](https://directive-8020.com)**
+
+---
+
+## 🎮 Repository Overview
+This repository functions as an open-data warehouse hosting structured game logic datasets. 
+* **/data/storyline-nodes.json**: Complete behavioral logic trees for all characters.
+* **/walkthroughs/**: Step-by-step text choices for saving Brianna Young, Laura Eisele, and the rest of the crew.
+
+We encourage hardcore players and data miners to fork this repo and submit Pull Requests to update hidden flags or alternate cutscenes!
+
+## 🛡️ Project Health & Trust Status
+To ensure full transparency and data safety for all users downloading our JSON assets, you can review our third-party verified real-time trust rankings:
+* **Security & Reputation Rating:** [Check Live Trust Score on Scamadviser](https://www.scamadviser.com/check-website/directive-8020.com)
+
+---
+
+## 🛠️ Developer Setup (For Contributors)
+This is a Next.js project designed to parse standard JSON schema into interactive game nodes.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
