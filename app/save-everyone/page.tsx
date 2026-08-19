@@ -165,6 +165,12 @@ export default function SaveEveryonePage() {
                         </div>
                       );
                     })}
+                    <a
+                      href={`/walkthrough/${episode?.slug}`}
+                      className="inline-block mt-3 text-sm font-medium text-violet-400 hover:underline"
+                    >
+                      Full Episode {episode?.number} Walkthrough →
+                    </a>
                   </div>
                 </details>
               );
@@ -210,12 +216,20 @@ export default function SaveEveryonePage() {
           <p className="text-slate-400 mb-4">
             Once everyone is alive, check out all the possible endings:
           </p>
-          <a
-            href="/all-endings"
-            className="inline-block px-8 py-3 rounded-lg bg-violet-600 hover:bg-violet-500 text-white font-semibold transition-colors"
-          >
-            View All Endings →
-          </a>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <a
+              href="/all-endings"
+              className="inline-block px-8 py-3 rounded-lg bg-violet-600 hover:bg-violet-500 text-white font-semibold transition-colors"
+            >
+              View All Endings →
+            </a>
+            <a
+              href="/walkthrough"
+              className="inline-block px-8 py-3 rounded-lg border border-violet-500 text-violet-400 hover:bg-violet-500/10 font-semibold transition-colors"
+            >
+              Full Walkthrough →
+            </a>
+          </div>
         </div>
       </div>
     </>

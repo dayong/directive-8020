@@ -227,8 +227,20 @@ export default function Home() {
             <a href="/multiplayer" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-5 transition-colors group">
               <div className="text-2xl mb-2">👥</div>
               <div className="text-xs font-bold text-cyan-400 uppercase tracking-wide mb-1">CO-OP</div>
-              <h3 className="text-white font-semibold mb-1 group-hover:text-violet-300">Multiplayer & Co-Op</h3>
-              <p className="text-slate-400 text-sm">Movie Night mode, online co-op setup, and how shared story works.</p>
+              <h3 className="text-white font-semibold mb-1 group-hover:text-violet-300">Multiplayer, Split Screen &amp; Crossplay</h3>
+              <p className="text-slate-400 text-sm">Movie Night local co-op for 5 players, split screen and crossplay answers.</p>
+            </a>
+            <a href="/shoot-williams-or-stand-down" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-5 transition-colors group">
+              <div className="text-2xl mb-2">🎯</div>
+              <div className="text-xs font-bold text-amber-400 uppercase tracking-wide mb-1">CHOICE</div>
+              <h3 className="text-white font-semibold mb-1 group-hover:text-violet-300">Shoot Williams or Stand Down?</h3>
+              <p className="text-slate-400 text-sm">Episode 5 Point Blank choice explained — sedative, trophy, and cross-episode consequences.</p>
+            </a>
+            <a href="/can-carter-survive" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-5 transition-colors group">
+              <div className="text-2xl mb-2">⚠️</div>
+              <div className="text-xs font-bold text-red-400 uppercase tracking-wide mb-1">SPOILERS</div>
+              <h3 className="text-white font-semibold mb-1 group-hover:text-violet-300">Can Carter Survive?</h3>
+              <p className="text-slate-400 text-sm">Carter&apos;s Episode 1 death is scripted — here&apos;s why, and which 5 characters you can save.</p>
             </a>
           </div>
         </section>

@@ -149,7 +149,11 @@ export default function ChoicesPage() {
             Ending Lockout Matrix
           </h2>
           <p className="text-slate-400 text-sm mb-6">
-            One wrong pick in these choices permanently locks certain endings or trophies. Plan your route.
+            One wrong pick in these choices permanently locks certain endings or trophies. Plan your route — or follow the{' '}
+            <a href="/walkthrough" className="text-violet-400 hover:underline">
+              full walkthrough
+            </a>{' '}
+            episode by episode to see each choice in context.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">

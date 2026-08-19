@@ -23,6 +23,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/directive-8020-actress`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.65 },
     { url: `${BASE_URL}/privacy-policy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE_URL}/who-is-the-real-eisele-directive-8020`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE_URL}/shoot-williams-or-stand-down`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE_URL}/can-carter-survive`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 
   const episodePages: MetadataRoute.Sitemap = episodeSlugs.map((slug) => ({

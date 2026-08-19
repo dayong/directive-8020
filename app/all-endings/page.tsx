@@ -29,7 +29,11 @@ export default function AllEndingsPage() {
           <p className="text-slate-400 max-w-2xl mx-auto">
             Directive 8020 has 10 possible endings. Here&apos;s how to unlock
             every single one, the requirements for each, and where to go back
-            if you missed a critical choice.
+            if you missed a critical choice. Replaying a Turning Point? The{' '}
+            <a href="/walkthrough" className="text-violet-400 hover:underline">
+              full walkthrough
+            </a>{' '}
+            covers every scene episode by episode.
           </p>
         </div>
       </section>
@@ -151,12 +155,20 @@ export default function AllEndingsPage() {
           <p className="text-slate-400 mb-4">
             Want to achieve the best ending? Follow the step-by-step guide:
           </p>
-          <a
-            href="/save-everyone"
-            className="inline-block px-8 py-3 rounded-lg bg-violet-600 hover:bg-violet-500 text-white font-semibold transition-colors"
-          >
-            Save Everyone Guide →
-          </a>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <a
+              href="/save-everyone"
+              className="inline-block px-8 py-3 rounded-lg bg-violet-600 hover:bg-violet-500 text-white font-semibold transition-colors"
+            >
+              Save Everyone Guide →
+            </a>
+            <a
+              href="/walkthrough"
+              className="inline-block px-8 py-3 rounded-lg border border-violet-500 text-violet-400 hover:bg-violet-500/10 font-semibold transition-colors"
+            >
+              Full Walkthrough →
+            </a>
+          </div>
         </div>
       </div>
     </>
