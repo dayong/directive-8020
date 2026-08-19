@@ -5,11 +5,11 @@ import { JsonLd } from '@/components/seo/JsonLd';
 export const metadata: Metadata = {
   title: 'Is Directive 8020 Multiplayer, Split Screen or Crossplay? (Co-Op Guide)',
   description:
-    'Directive 8020 has local Movie Night co-op for up to 5 players. No split screen, no online mode yet, crossplay unconfirmed. Full co-op Q&A.',
+    'Directive 8020 has local Movie Night co-op for up to 5 players. No split screen, no online mode, no crossplay yet. Full co-op Q&A.',
   openGraph: {
     title: 'Is Directive 8020 Multiplayer, Split Screen or Crossplay? (Co-Op Guide)',
     description:
-      'Directive 8020 co-op guide — Movie Night local co-op for up to 5 players. No split screen, online mode coming later, crossplay unconfirmed.',
+      'Directive 8020 co-op guide — Movie Night local co-op for up to 5 players. No split screen, no online mode, no crossplay yet. Full co-op Q&A.',
     images: ['/og-image.png'],
     type: 'website',
   },
@@ -22,15 +22,19 @@ const faqs = [
   },
   {
     q: 'Does Directive 8020 have split screen?',
-    a: 'No. Movie Night is a single-screen experience — everyone watches the same screen and the controller is passed to whoever\'s character is in the scene.',
+    a: 'No — there is no split screen in Directive 8020. Movie Night is a single-screen, hot-seat mode: everyone watches the same screen, and the controller is passed to whoever\'s character is in the scene.',
   },
   {
     q: 'Does Directive 8020 have online multiplayer?',
-    a: 'Not at launch. Supermassive Games has announced an online version of Movie Night as a free post-launch update, but no release date has been confirmed yet.',
+    a: 'Not yet. Online Movie Night is confirmed as a free post-launch update — Supermassive Games\' June 2026 patch notes say "it\'s definitely coming and the team is hard at work." No release date has been announced yet.',
+  },
+  {
+    q: 'Will Directive 8020 have online multiplayer?',
+    a: 'Yes. Supermassive Games has confirmed online multiplayer as a free post-launch update, mirroring the couch co-op Movie Night experience with up to 5 players. No release date has been announced yet.',
   },
   {
     q: 'Is Directive 8020 crossplay?',
-    a: 'Cross-platform play is unconfirmed. Since the online mode is not out yet, no crossplay is available — check back when the online Movie Night update ships.',
+    a: 'No. There is no crossplay in Directive 8020 — the online mode is not out yet, so there is nothing to crossplay across. No crossplay announcement has been made for the upcoming online Movie Night update either.',
   },
   {
     q: 'How does local co-op (Movie Night) work?',
@@ -42,7 +46,7 @@ const faqs = [
   },
   {
     q: 'Is there Remote Play Together?',
-    a: 'Yes, as a workaround. Steam Remote Play Together, PlayStation Share Play, and Xbox screen sharing all let a host run the game while remote friends take turns — just expect some input lag.',
+    a: 'Not on Steam — Remote Play Together is not a listed feature for Directive 8020. PlayStation Share Play and Xbox screen sharing do work as workarounds today, just expect some input lag.',
   },
   {
     q: 'What happened to Shared Story?',
@@ -120,28 +124,51 @@ export default function MultiplayerPage() {
         <section>
           <h2>Does Directive 8020 have split screen?</h2>
           <p>
-            No. Movie Night is a <strong>single-screen experience</strong> —
-            everyone watches the same screen and the controller is passed to
+            <strong>No — there is no split screen in Directive 8020.</strong>{' '}
+            Movie Night is a <strong>single-screen, hot-seat mode</strong>:
+            everyone watches the same screen, and the controller is passed to
             whoever&apos;s character is in the scene. The game prompts you with
-            the player&apos;s name when it&apos;s their turn.
+            the player&apos;s name when it&apos;s their turn. Think party game
+            pass-the-controller, not two halves of a TV.
+          </p>
+          <p>
+            Confused by the Steam page? Steam lists{' '}
+            <strong>&ldquo;Shared/Split Screen Co-op&rdquo;</strong> as one
+            combined tag — a game earns it through either half. Directive 8020
+            qualifies through the <strong>&ldquo;Shared Screen&rdquo;</strong>{' '}
+            half: the whole couch watches one screen together. The picture is
+            never split.
           </p>
         </section>
 
         <section>
           <h2>Does Directive 8020 have online multiplayer?</h2>
           <p>
-            Not at launch. Supermassive Games has announced an{' '}
-            <strong>online version of Movie Night as a free post-launch
-            update</strong>, but no release date has been confirmed yet.
+            <strong>Not yet — but it is confirmed to be coming.</strong>{' '}
+            Supermassive Games announced online Movie Night as a free
+            post-launch update that mirrors the couch co-op experience with up
+            to 5 players, and their{' '}
+            <a
+              href="https://store.steampowered.com/news/app/2255370/view/673997481174894605"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-violet-400 hover:underline"
+            >
+              June 2026 patch notes
+            </a>{' '}
+            reconfirm it: &ldquo;Regarding online multiplayer, it&apos;s
+            definitely coming and the team is hard at work.&rdquo; No release
+            date has been announced yet.
           </p>
         </section>
 
         <section>
           <h2>Is Directive 8020 crossplay?</h2>
           <p>
-            Cross-platform play is <strong>unconfirmed</strong>. Since the
-            online mode is not out yet, no crossplay is available — check back
-            when the online Movie Night update ships.
+            <strong>No.</strong> There is no crossplay in Directive 8020 — the
+            online mode is not out yet, so there is nothing to crossplay
+            across. No crossplay announcement has been made for the upcoming
+            online Movie Night update either.
           </p>
         </section>
 
@@ -175,10 +202,17 @@ export default function MultiplayerPage() {
         <section>
           <h2>Is there Remote Play Together?</h2>
           <p>
-            Yes, as a workaround. <strong>Steam Remote Play Together</strong>,{' '}
-            <strong>PlayStation Share Play</strong>, and Xbox screen sharing
-            all let a host run the game while remote friends take turns — just
-            expect some input lag and video compression.
+            <strong>Not on Steam</strong> — Remote Play Together is not a
+            listed feature for Directive 8020. The Steam page lists{' '}
+            <strong>Remote Play on TV</strong>, which is different: that
+            streams from your PC to a screen in your own home, not to friends.
+          </p>
+          <p>
+            <strong>PlayStation Share Play</strong> and{' '}
+            <strong>Xbox screen sharing</strong> do work as workarounds today,
+            since they work with any game — the host runs Movie Night and
+            remote friends take turns through the stream. Just expect some
+            input lag and video compression.
           </p>
         </section>
 
