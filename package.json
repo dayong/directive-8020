@@ -9,7 +9,8 @@
     "lint": "eslint",
     "pages:build": "npx @cloudflare/next-on-pages",
     "pages:deploy": "wrangler pages deploy .vercel/output/static",
-    "preview": "npx wrangler pages dev .vercel/output/static"
+    "preview": "npx wrangler pages dev .vercel/output/static",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
