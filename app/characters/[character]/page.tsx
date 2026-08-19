@@ -18,10 +18,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const char = getCharacterById(params.character);
   if (!char) return { title: 'Character Not Found' };
   return {
-    title: `${char.fullName} (${char.name}) | Directive 8020 Character Guide`,
-    description: `${char.name} — ${char.role}. ${char.description}`,
+    title: `${char.name} in Directive 8020 — ${char.role} Guide`,
+    description: `${char.fullName} — ${char.role}. ${char.description}`,
     openGraph: {
-      title: `${char.name} — Directive 8020 Character Guide`,
+      title: `${char.name} in Directive 8020 — ${char.role} Guide`,
       description: char.description,
       images: ['/og-image.png'],
       type: 'profile',

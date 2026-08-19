@@ -24,8 +24,8 @@ export default function CharactersPage() {
             Characters
           </h1>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            The crew of the Cassiopeia. 7 characters, 5 playable, 2 with
-            scripted deaths — know who to save and who cannot be saved.
+            The crew of the Cassiopeia. 9 characters — 5 playable, 2 NPCs, and
+            2 with scripted deaths. Know who to save and who cannot be saved.
           </p>
         </div>
       </section>
@@ -77,6 +77,10 @@ export default function CharactersPage() {
                 {char.scriptedDeath ? (
                   <span className="text-amber-400 font-medium">
                     Scripted Death
+                  </span>
+                ) : char.playable === false ? (
+                  <span className="text-cyan-400 font-medium">
+                    NPC — Can Survive
                   </span>
                 ) : (
                   <span className="text-green-400 font-medium">

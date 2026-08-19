@@ -52,6 +52,14 @@ const faqs = [
     q: 'What happened to Shared Story?',
     a: 'The online 2-player Shared Story mode from earlier Dark Pictures games is not included in Directive 8020. The studio consolidated co-op into Movie Night only.',
   },
+  {
+    q: 'Does Directive 8020 have a friend pass?',
+    a: 'No friend pass has been announced. For local Movie Night you only need one copy of the game — everyone plays on the same screen. For the upcoming online Movie Night update, plan on each player owning their own copy.',
+  },
+  {
+    q: 'How many players can play Directive 8020?',
+    a: 'Up to 5 players in Movie Night mode. You can also play with 2, 3, or 4 — just split the 5 playable characters between the players present.',
+  },
 ];
 
 const faqSchema = {
@@ -222,6 +230,25 @@ export default function MultiplayerPage() {
             The online 2-player <strong>Shared Story</strong> mode from earlier
             Dark Pictures games is <strong>not included in Directive 8020</strong>.
             The studio consolidated co-op into Movie Night only.
+          </p>
+        </section>
+
+        <section>
+          <h2>Does Directive 8020 have a friend pass?</h2>
+          <p>
+            <strong>No friend pass has been announced.</strong> For local
+            Movie Night you only need <strong>one copy of the game</strong> —
+            everyone plays on the same screen. For the upcoming online Movie
+            Night update, plan on each player owning their own copy.
+          </p>
+        </section>
+
+        <section>
+          <h2>How many players can play Directive 8020?</h2>
+          <p>
+            <strong>Up to 5 players</strong> in Movie Night mode. You can also
+            play with <strong>2, 3, or 4 players</strong> — just split the 5
+            playable characters between the players present.
           </p>
         </section>
 

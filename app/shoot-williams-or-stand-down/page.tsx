@@ -28,6 +28,10 @@ const faqs = [
     q: 'What happens if you stand down without the sedative?',
     a: 'Without the sedative there is no non-lethal option — Williams must die or escape. That\'s why preparing the sedative before leaving the science lab is the single most missable step in the game.',
   },
+  {
+    q: 'How do you save Williams in Directive 8020?',
+    a: 'Prepare the sedative in the Episode 5 science lab, then choose Stand Down at Point Blank. With the sedative, Williams is neutralized non-lethally and survives — this also unlocks the Sedate Williams trophy.',
+  },
 ];
 
 const faqSchema = {

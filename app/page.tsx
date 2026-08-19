@@ -139,7 +139,7 @@ export default function Home() {
               <div className="text-2xl mb-1">🏆</div>
               <p className="text-xs text-slate-300 group-hover:text-violet-300 font-medium">True Ending Guide</p>
             </Link>
-            <Link href="/walkthrough" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-3 text-center transition-colors group">
+            <Link href="/codes" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-3 text-center transition-colors group">
               <div className="text-2xl mb-1">🗝️</div>
               <p className="text-xs text-slate-300 group-hover:text-violet-300 font-medium">All Codes &amp; Passwords</p>
             </Link>

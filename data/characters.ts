@@ -16,13 +16,13 @@ export const characters: Character[] = [
   {
     id: 'stafford',
     name: 'Stafford',
-    fullName: 'Commander Stafford',
+    fullName: 'Nolan Stafford',
     actor: 'Danny Sapani',
     role: 'Commander',
     canDie: true,
     scriptedDeath: false,
     description:
-      'The commanding officer of the Cassiopeia. His leadership decisions have far-reaching consequences for the crew. Stafford faces some of the toughest calls in the game.',
+      'The commanding officer of the Cassiopeia and a veteran explorer known as the first man on Mars. His leadership decisions have far-reaching consequences for the crew, and Stafford faces some of the toughest calls in the game.',
     destiny: 'The Father',
   },
   {
@@ -83,11 +83,37 @@ export const characters: Character[] = [
     description:
       'Simms dies in a scripted story event during Episode 1 and cannot be saved regardless of player choices. Both Carter and Simms have scripted deaths that cannot be prevented.',
   },
+  {
+    id: 'williams',
+    name: 'Williams',
+    fullName: 'Mr. Williams',
+    actor: 'TBC',
+    role: 'Crew Member',
+    canDie: true,
+    scriptedDeath: false,
+    playable: false,
+    description:
+      'Exposed as an alien duplicate in the Episode 5 scanner standoff. Williams can survive — but only if you prepared the sedative in the science lab and chose Stand Down at Point Blank. Shooting him locks the Sedate Williams trophy.',
+  },
+  {
+    id: 'mitchell',
+    name: 'Mitchell',
+    fullName: 'Mitchell',
+    actor: 'TBC',
+    role: 'Crew Member',
+    canDie: true,
+    scriptedDeath: false,
+    playable: false,
+    description:
+      'Trapped in the hydroponics fire in Episode 5 — you can save both Mitchell and Anders despite the UI making it look like a pick-one. Mitchell rejoins in the Episode 7 Search Party and matters again at Knock Knock in Episode 8.',
+  },
 ];
 
 export const getAllCharacters = () => characters;
 export const getPlayableCharacters = () => playableCharacters;
-export const playableCharacters = characters.filter((c) => !c.scriptedDeath);
+export const playableCharacters = characters.filter(
+  (c) => !c.scriptedDeath && c.playable !== false
+);
 export const scriptedDeathCharacters = characters.filter((c) => c.scriptedDeath);
 export const getCharacterById = (id: string) =>
   characters.find((c) => c.id === id);

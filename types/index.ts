@@ -11,6 +11,7 @@ export interface Character {
   scriptedDeath: boolean; // Carter/Simms = true
   description: string;
   destiny?: string; // Destiny title
+  playable?: boolean; // false = NPC (Williams/Mitchell)
 }
 
 export interface Episode {

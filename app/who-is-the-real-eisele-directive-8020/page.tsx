@@ -3,14 +3,14 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title:
-    'Who Is the Real Eisele in Directive 8020? | Episode 6 Guide',
+    'Which Eisele Is Real in Directive 8020? Trust the Newcomer',
   description:
-    'The real Eisele is the newcomer — not the one already with your group. Learn the animation tell, how to spot the fake, and why getting this right unlocks the true ending.',
+    'Which Eisele is real in Directive 8020? The newcomer is the real Eisele — the familiar one is the mimic. Animation tell, clone context, and why this choice locks the true ending.',
   openGraph: {
     title:
-      'Who Is the Real Eisele in Directive 8020? Trust the Newcomer',
+      'Which Eisele Is Real in Directive 8020? Trust the Newcomer',
     description:
-      'Episode 6 two-Eisele standoff guide — how to identify the real Dr. Eisele, the fear animation tell, and why this choice determines your ending.',
+      'Episode 6 two-Eisele standoff guide — trust the newcomer, never the familiar one. The fear animation tell, and why this choice determines your ending.',
     images: ['/og-image.png'],
     type: 'article',
   },
@@ -22,9 +22,12 @@ export default function RealEiselePage() {
       <section className="relative overflow-hidden bg-slate-900 border-b border-slate-800">
         <div className="relative max-w-4xl mx-auto px-4 py-16 md:py-20 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
-            Who Is the Real Eisele in Directive 8020? Trust the Newcomer,
+            Which Eisele Is Real in Directive 8020? Trust the Newcomer,
             Not the One You Know
           </h1>
+          <p className="text-violet-300 font-medium text-lg mb-2">
+            The newcomer is the real Eisele — never trust the familiar one.
+          </p>
           <p className="text-slate-400 max-w-2xl mx-auto">
             The answer in one sentence — plus the animation tell that makes it
             impossible to get wrong ever again.
