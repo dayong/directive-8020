@@ -242,6 +242,12 @@ export default function Home() {
               <h3 className="text-white font-semibold mb-1 group-hover:text-violet-300">Can Carter Survive?</h3>
               <p className="text-slate-400 text-sm">Carter&apos;s Episode 1 death is scripted — here&apos;s why, and which 5 characters you can save.</p>
             </a>
+            <a href="/directive-8020-skill-checks" className="bg-slate-800 border border-slate-700 hover:border-violet-500 rounded-lg p-5 transition-colors group">
+              <div className="text-2xl mb-2">⚡</div>
+              <div className="text-xs font-bold text-cyan-400 uppercase tracking-wide mb-1">MECHANICS</div>
+              <h3 className="text-white font-semibold mb-1 group-hover:text-violet-300">Skill Checks Explained</h3>
+              <p className="text-slate-400 text-sm">No dice, no luck — QTEs, stealth, and relationship checks, with every real example.</p>
+            </a>
           </div>
         </section>
 
