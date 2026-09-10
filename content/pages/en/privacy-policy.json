@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Privacy Policy",
+    "description": "Privacy Policy for directive-8020.com — how we collect, use, and protect your data.",
+    "ogTitle": "Privacy Policy | Directive 8020 Guide",
+    "ogDescription": "Our privacy policy covering Google Analytics, Umami analytics, cookies, and affiliate disclosures."
+  },
+  "hero": {
+    "h1": "Privacy Policy",
+    "intro": "Last updated: May 24, 2026"
+  },
+  "sections": [
+    {
+      "heading": "1. Information We Collect",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Automatically Collected Data"
+        },
+        {
+          "type": "paragraph",
+          "text": "When you visit directive-8020.com, we automatically collect certain information through analytics services:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Google Analytics (GA4):** We use Google Analytics to understand how visitors use our site. This service collects information including your IP address, browser type, device information, pages visited, time spent on pages, and referring URLs. Google Analytics uses cookies for this purpose. You can opt out of Google Analytics tracking by installing the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).",
+            "**Umami Analytics:** We may also use Umami, a privacy-focused analytics service that does not use cookies and does not collect personal data. Umami collects anonymized page view data including referrer, browser type, and device type."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Data We Do NOT Collect"
+        },
+        {
+          "type": "paragraph",
+          "text": "directive-8020.com does not have user accounts, comment sections, or contact forms that collect personal information. We do not collect names, email addresses, or any personally identifiable information."
+        }
+      ]
+    },
+    {
+      "heading": "2. Cookies",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Google Analytics places first-party cookies on your browser to distinguish unique users and track session data. These cookies do not contain personally identifiable information. You can disable cookies in your browser settings at any time. Umami Analytics does not use cookies."
+        }
+      ]
+    },
+    {
+      "heading": "3. Third-Party Services",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We use the following third-party services that may collect data according to their own privacy policies:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Google Analytics** — [Google Privacy Policy](https://policies.google.com/privacy)",
+            "**Cloudflare Pages** (hosting) — [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/)",
+            "**GitHub** (code hosting) — [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Affiliate Disclosure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "directive-8020.com may participate in affiliate marketing programs. This means we may earn a commission if you click on certain links and make a purchase. Affiliate links do not affect the price you pay. We only recommend products or services we believe provide value to our readers."
+        }
+      ]
+    },
+    {
+      "heading": "5. Advertising",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We may display advertisements on directive-8020.com through Google AdSense or similar advertising networks. These networks may use cookies to serve personalized ads based on your browsing history. You can opt out of personalized advertising by visiting [YourAdChoices](https://optout.aboutads.info/)."
+        }
+      ]
+    },
+    {
+      "heading": "6. Data Retention",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Analytics data is retained according to each service's retention policy. Google Analytics data is retained for 14 months by default. We do not maintain separate databases of user information."
+        }
+      ]
+    },
+    {
+      "heading": "7. Children's Privacy",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "directive-8020.com is a video game strategy guide and is not directed at children under 13. We do not knowingly collect personal information from children. If you believe we have inadvertently collected such information, please contact us and we will delete it promptly."
+        }
+      ]
+    },
+    {
+      "heading": "8. Your Rights",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Depending on your jurisdiction (such as under GDPR in the EU/UK or CCPA in California), you may have rights regarding your personal data including the right to access, delete, or opt out of data collection. Since we collect minimal data through third-party analytics, most of these rights can be exercised by:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Installing the Google Analytics opt-out browser add-on",
+            "Disabling cookies in your browser settings",
+            "Using your browser's Do Not Track setting"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9. Changes to This Policy",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We may update this privacy policy from time to time. Changes will be posted on this page with an updated date. We encourage you to review this policy periodically."
+        }
+      ]
+    },
+    {
+      "heading": "10. Contact",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For questions about this privacy policy, you can contact us at [contact@directive-8020.com](mailto:contact@directive-8020.com) ."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Directive 8020 Skill Checks Explained — No Dice, No Luck",
+    "description": "Directive 8020 skill checks explained: reflex QTEs, stealth tests, and relationship checks set by earlier choices — how to pass every one.",
+    "ogTitle": "Directive 8020 Skill Checks Explained — No Dice, No Luck",
+    "ogDescription": "There are no dice rolls in Directive 8020. Every check is a reflex prompt, a stealth test, or a relationship check decided by your earlier choices. All three types, with examples."
+  },
+  "hero": {
+    "h1": "Directive 8020 Skill Checks, Explained",
+    "tagline": "No dice. No luck. Every check is a test of reflexes, timing, or the choices you made earlier.",
+    "intro": "What players call “skill checks” in Directive 8020 fall into three categories — and knowing which one you're facing is the difference between passing it and losing someone."
+  },
+  "introSection": {
+    "heading": "Does Directive 8020 Have Skill Checks?",
+    "paragraphs": [
+      "Short answer: **yes, but not the kind you might expect**. Directive 8020 has no dice rolls, no stat points, and no RNG. If a check fails, it fails for one of two reasons: you slipped on a reflex or timing test, or you didn't set up the right relationships in earlier episodes.",
+      "That's the core thing to understand before anything else on this page: *in Directive 8020, a failed check is never bad luck*. It's a missing earlier interaction or a missed prompt — which means almost every check is beatable once you know what it's actually testing.",
+      "The three real “skill check” types you'll face, in order of how often they cost players a character:"
+    ]
+  },
+  "checkTypes": {
+    "heading": "The Three Skill Check Types in Directive 8020",
+    "cards": [
+      {
+        "label": "REFLEX",
+        "title": "Timed button prompts (QTEs)",
+        "body": "The game flashes a button prompt mid-action — during chases, confrontations, scanner beams, and the Episode 6 reactor escape. You have a short window to hit it correctly. Miss one and the scene continues with a penalty: injuries that follow the character into later cutscenes, a narrowed escape window, or a death. Some collectibles are deliberately hidden behind QTE sequences, so misses also cost Archivist trophy progress.",
+        "tip": "⟳ How to pass: keep your fingers on the shoulder buttons or keys, don't put the controller down during cinematics — prompts can appear with no warning in the middle of a “safe” dialogue."
+      },
+      {
+        "label": "STEALTH & TIMING",
+        "title": "Patrols, scanners, and timed sequences",
+        "body": "The Growth organisms patrol fixed routes, and the ship's biometric scanner sweeps whoever it aims at. In the Episode 7 Geoscience section, the first organism passes left to right on a roughly twelve-second cycle, and the second sweeps through about eight seconds later — but it never checks behind the central console, which is your hiding spot. Getting caught usually doesn't end the run on the spot; it costs you a worse outcome, an injury, or a death later in the sequence.",
+        "tip": "⟳ How to pass: watch one full patrol cycle before moving, and remember that Episode 3's Cernan choice changes this section's difficulty — investigate alone and the Episode 7 patrols get longer with more enemies."
+      },
+      {
+        "label": "RELATIONSHIP",
+        "title": "Hidden trust, persuasion, and Destiny checks",
+        "body": "These are the checks that feel random — and they aren't. The game quietly tallies your dialogue and action choices into per-character relationship states, then evaluates them at key moments. Persuasion checks in Episode 2, the trust check that decides Stafford's Episode 5 breakdown, the dialogue check in Episode 7 that gets harder if Williams died in Episode 5 — every one of them was decided episodes before the prompt appears.",
+        "tip": "⟳ How to pass: treat every dialogue wheel as a long-term investment. One “small” wrong answer — like Implore at the Episode 1 Medical Complex — applies a permanent -1 modifier to Stafford's trust."
+      }
+    ]
+  },
+  "realChecks": {
+    "heading": "Real Checks You'll Face, Episode by Episode",
+    "intro": "The checks that actually decide who lives and who dies in a run:",
+    "headers": ["When", "Check type", "What decides it", "If it goes wrong"],
+    "rows": [
+      ["Ep 1 — Hull Breach", "Relationship", "Seal the breach vs. evacuate", "Lost trust buffer for later Stafford checks"],
+      ["Ep 1 — Medical Complex", "Relationship", "Honor vs. Implore", "Permanent -1 Stafford trust; Ep 5 Destiny check much harder"],
+      ["Ep 2 — Command Deck & Observation Deck", "Relationship", "Trusting Stafford's plan and listening on the observation deck", "The Father Destiny doesn't unlock in Episode 5"],
+      ["Ep 5 — Point Blank", "Setup check", "Weapon authorized in Ep 1 + sedative prepared in Ep 5", "Sedate Williams trophy locked; Ep 7 dialogue check harder"],
+      ["Ep 6 — Two Eiseles", "Identification", "Which Eisele arrived with the group", "True ending locked permanently"],
+      ["Ep 6 — Outdoor Junction", "Navigation", "Left (cave) vs. right (stalactites)", "Anders dies; a mimic takes his place"],
+      ["Ep 7 — Geoscience", "Stealth / timing", "Patrol timing + Ep 3 Cernan choice", "Detection, injuries, possible deaths"]
+    ]
+  },
+  "whyEarlier": {
+    "heading": "Why Earlier Choices Decide Your Checks",
+    "intro": "Directive 8020 is built so that the hardest checks are the ones you were supposed to prepare for scenes earlier. The pattern repeats all game:",
+    "items": [
+      "**Choose Implore in Episode 1** and Stafford's Episode 5 Destiny check becomes “significantly harder even with later good choices” — the game's own way of saying some penalties are permanent.",
+      "**Skip the sedative in the Episode 5 science lab** (no prompt, no marker — you must walk to the chemistry station yourself) and the Point Blank confrontation has no non-lethal option at all. No check can save Williams.",
+      "**Shoot Williams in Episode 5** and his Episode 7 intel vanishes, making one dialogue check harder and thinning your Episode 8 options.",
+      "**Pick the wrong Eisele in Episode 6** and no amount of perfect play afterwards recovers the true ending. The check happened; the lock is permanent."
+    ],
+    "outro": "That's also why “skill check” guides for this game read like relationship guides: the reflexes are the easy part, and the relationship setup is where runs are actually won or lost."
+  },
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "Does Directive 8020 have skill checks?",
+      "a": "Yes — but none of them are random. The game has three kinds: reflex checks (timed button prompts), stealth and timing checks (patrols, scanner beams, timed escapes), and relationship checks whose difficulty was set by choices you made episodes earlier. There are no dice rolls and no stat-based checks."
+    },
+    {
+      "q": "Are skill checks in Directive 8020 based on luck or dice?",
+      "a": "No. Every check in Directive 8020 is deterministic. If a persuasion check, Destiny check, or dialogue check fails, you can trace it to an earlier choice — for example, choosing Implore at the Episode 1 Medical Complex puts a permanent -1 on Stafford's trust and makes the Episode 5 Destiny check significantly harder even if every later choice is good."
+    },
+    {
+      "q": "What happens if you fail a QTE in Directive 8020?",
+      "a": "A missed prompt can get a character injured or killed — in the Episode 6 reactor escape, hesitation leads to QTE failures that can cost crew members before the meltdown. Some collectibles are also hidden behind QTE sequences, so a miss costs you the Archivist trophy progress. Turning Points can rewind certain flagged decision beats, but not every QTE death is recoverable."
+    },
+    {
+      "q": "How do relationship checks work in Directive 8020?",
+      "a": "The game quietly evaluates your accumulated relationship choices at key moments. Sealing the hull breach in Episode 1 gives you a trust buffer for later checks; choosing Implore instead of Honor at the Medical Complex applies a permanent -1 trust modifier; shooting Williams in Episode 5 costs you his Episode 7 intel and makes one Episode 7 dialogue check harder."
+    },
+    {
+      "q": "What is the Destiny check in Directive 8020?",
+      "a": "A Destiny check is the culmination of a relationship chain — for example, Stafford's Episode 5 breakdown moment only goes well if you completed the Episode 1 Honor → Consider, Episode 2 trust, and Episode 3 Cernan support chain. Succeed and you see the \"Destiny Unlocked\" notification and set Stafford on The Father path, a prerequisite for the best ending route."
+    },
+    {
+      "q": "What is the hardest check in Directive 8020?",
+      "a": "The Episode 6 moment where two Eiseles appear and you must say which one is real. No reflexes are involved — it is a pure attention check on which Eisele arrived with the group and which arrived separately. Choosing the wrong one locks the true ending permanently, which is why it is the most important identification in the game."
+    }
+  ],
+  "cta": {
+    "text": "Want every check set up correctly from Episode 1?",
+    "links": [
+      { "href": "/save-everyone", "label": "Save Everyone Guide →", "variant": "primary" },
+      { "href": "/choices", "label": "All Choices →", "variant": "outline" },
+      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "ghost" }
+    ]
+  }
+}

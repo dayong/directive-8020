@@ -1,34 +1,24 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
+import { HeroSection } from '@/components/content/HeroSection';
 import { characters } from '@/data/characters';
+import { getPageContent } from '@/lib/content';
+import { buildPageMetadata } from '@/lib/page-seo';
+import type { CharactersContent } from '@/types/content-pages';
 
-export const metadata: Metadata = {
-  title: 'Directive 8020 Characters | Crew Roster & Survival Guide',
-  description:
-    'Meet every character in Directive 8020 — Osmond, Stafford, Eisele, Cernan, Cooper, Carter, and Simms. Learn who can survive and who has a scripted death.',
-  openGraph: {
-    title: 'Directive 8020 Characters | Full Crew Roster',
-    description:
-      'Complete character guide for Directive 8020. Crew bios, survival status, and key decisions for each character.',
-    images: ['/og-image.png'],
-    type: 'website',
-  },
-};
+const SLUG = 'characters';
+
+const content: CharactersContent = (() => {
+  const c = getPageContent<CharactersContent>(SLUG);
+  if (!c) throw new Error(`Missing content file: content/pages/en/${SLUG}.json`);
+  return c;
+})();
+
+export const metadata = buildPageMetadata(SLUG, content.meta);
 
 export default function CharactersPage() {
   return (
     <>
-      <section className="relative overflow-hidden bg-slate-900 border-b border-slate-800">
-        <div className="relative max-w-4xl mx-auto px-4 py-16 md:py-20 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
-            Characters
-          </h1>
-          <p className="text-slate-400 max-w-2xl mx-auto">
-            The crew of the Cassiopeia. 9 characters — 5 playable, 2 NPCs, and
-            2 with scripted deaths. Know who to save and who cannot be saved.
-          </p>
-        </div>
-      </section>
+      <HeroSection hero={content.hero} />
 
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="grid sm:grid-cols-2 gap-4">

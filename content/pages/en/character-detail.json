@@ -1,0 +1,13 @@
+{
+  "notFoundTitle": "Character Not Found",
+  "metaTitleFormat": "{name} in Directive 8020 — {role} Guide",
+  "metaDescriptionFormat": "{fullName} — {role}. {description}",
+  "backLink": "← Back to Characters",
+  "profileHeading": "Profile",
+  "actorLabel": "Actor",
+  "survivalStatusLabel": "Survival Status",
+  "destinyLabel": "Destiny",
+  "keyChoicesFormat": "Key Choices Affecting {name}",
+  "cannotBeSavedFormat": "⚠ {name} Cannot Be Saved",
+  "cannotBeSavedTextFormat": "{name}'s death is a scripted story event. No choices or QTEs can prevent it — this is by design. Do not waste time trying to change this outcome. Focus on keeping the 5 playable characters alive."
+}

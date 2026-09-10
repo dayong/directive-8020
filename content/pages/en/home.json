@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "Directive 8020 Complete Guide & Walkthrough | All Endings",
+    "description": "Complete Directive 8020 guide covering all 8 episodes, how to save everyone, all 10 endings, trophies, and choices. Updated for launch day.",
+    "ogTitle": "Directive 8020 Complete Guide & Walkthrough",
+    "ogDescription": "Complete Directive 8020 guide covering all 8 episodes, how to save everyone, all 10 endings, trophies, and choices."
+  },
+  "hero": {
+    "titleMain": "DIRECTIVE",
+    "titleAccent": "8020",
+    "subtitle": "The Dark Pictures Anthology — Complete Guide",
+    "buttons": [
+      { "href": "/save-everyone", "label": "Save Everyone", "variant": "primary" },
+      { "href": "/all-endings", "label": "All Endings", "variant": "outline" },
+      { "href": "/walkthrough", "label": "Walkthrough", "variant": "ghost" }
+    ]
+  },
+  "warning": {
+    "heading": "⚠ Important: Carter and Simms Cannot Be Saved",
+    "text": "Carter and Simms are scripted to die as part of the story. No choices or actions can prevent their deaths — this is by design, not a mistake. Focus on saving the other 5 playable characters: Osmond, Stafford, Eisele, Cernan, and Cooper."
+  },
+  "quickAccess": {
+    "heading": "Quick Access",
+    "tiles": [
+      { "icon": "🎯", "label": "All Choices & Consequences", "href": "/choices" },
+      { "icon": "🏆", "label": "True Ending Guide", "href": "/all-endings#best-ending" },
+      { "icon": "🗝️", "label": "All Codes & Passwords", "href": "/codes" },
+      { "icon": "🎭", "label": "O Death Secrets", "href": "/collectibles" },
+      { "icon": "👥", "label": "Characters & Destinies", "href": "/characters" },
+      { "icon": "🔧", "label": "Crash & Bug Fixes", "href": "/bug-fixes" }
+    ]
+  },
+  "episodeSection": {
+    "heading": "Episode Walkthroughs"
+  },
+  "truePath": {
+    "heading": "Fastest Path to the True Ending",
+    "intro": "Three non-negotiable steps — miss any of these and you're locked out:",
+    "steps": [
+      {
+        "title": "Keep all 5 main characters alive",
+        "sub": "Osmond · Stafford · Eisele · Cernan · Cooper"
+      },
+      {
+        "title": "Identify the real Eisele in Episode 6",
+        "sub": "Trust the newcomer — don't pick the familiar one"
+      },
+      {
+        "title": "Expose the clone program in Episode 8",
+        "sub": "Choose \"Expose the truth\" — don't protect the mission"
+      }
+    ],
+    "resultLabel": "True Ending Unlocked:",
+    "result": "Eisele the Humanitarian",
+    "cta": { "href": "/save-everyone", "label": "Full Save Everyone Guide →", "variant": "primary" }
+  },
+  "moreGuides": {
+    "heading": "More Guides",
+    "cards": [
+      {
+        "icon": "⏱",
+        "kicker": "INFO",
+        "href": "/game-length",
+        "title": "Game Length & Episodes",
+        "body": "How long to beat all 8 episodes, completionist time, and what to expect."
+      },
+      {
+        "icon": "🔧",
+        "kicker": "FIXES",
+        "href": "/bug-fixes",
+        "title": "Crashing & Bug Fixes",
+        "body": "Fix black screen, won't launch, stuttering, and save issues on PC and console."
+      },
+      {
+        "icon": "👥",
+        "kicker": "CO-OP",
+        "href": "/multiplayer",
+        "title": "Multiplayer, Split Screen & Crossplay",
+        "body": "Movie Night local co-op for 5 players, split screen and crossplay answers."
+      },
+      {
+        "icon": "🎯",
+        "kicker": "CHOICE",
+        "href": "/shoot-williams-or-stand-down",
+        "title": "Shoot Williams or Stand Down?",
+        "body": "Episode 5 Point Blank choice explained — sedative, trophy, and cross-episode consequences."
+      },
+      {
+        "icon": "⚠️",
+        "kicker": "SPOILERS",
+        "href": "/can-carter-survive",
+        "title": "Can Carter Survive?",
+        "body": "Carter's Episode 1 death is scripted — here's why, and which 5 characters you can save."
+      },
+      {
+        "icon": "⚡",
+        "kicker": "MECHANICS",
+        "href": "/directive-8020-skill-checks",
+        "title": "Skill Checks Explained",
+        "body": "No dice, no luck — QTEs, stealth, and relationship checks, with every real example."
+      }
+    ]
+  },
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "Can I save everyone in Directive 8020?",
+      "a": "Yes — all 5 playable characters (Osmond, Stafford, Eisele, Cernan, and Cooper) can survive. However, Carter and Simms have scripted deaths that cannot be prevented regardless of your choices."
+    },
+    {
+      "q": "Why can't Carter and Simms be saved?",
+      "a": "Carter and Simms are scripted to die as part of the story. Their deaths serve as narrative catalysts and are not the result of player choices. The game has 5 playable characters but 6 total, because co-op mode supports 5 players."
+    },
+    {
+      "q": "How do I unlock the true ending?",
+      "a": "The true ending — \"Eisele the Humanitarian\" — requires all 5 playable characters to survive, correctly identifying the duplicate Eisele in Episode 6, and choosing to sacrifice the alien sample rather than preserve it."
+    },
+    {
+      "q": "How do Turning Points work?",
+      "a": "Turning Points are checkpoint markers that appear at key decision moments. After completing the game, you can return to any Turning Point via chapter select to explore alternate choices without replaying the entire game."
+    },
+    {
+      "q": "How many endings does Directive 8020 have?",
+      "a": "There are 10 ending variations: Homeward Bound (3 variants), Hitchhiker, Docked (2 variants), Game Over, Forever and Ever, Beacon, and the two Eisele endings. \"Eisele the Humanitarian\" is the true ending."
+    }
+  ],
+  "friendlyLinks": {
+    "heading": "Friendly Links",
+    "links": [
+      { "href": "https://colorgradetransfer.com", "label": "Color Grade Transfer" }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Directive 8020 Walkthrough | Full Chapter Guide",
+    "description": "Complete walkthrough for all 8 episodes of Directive 8020. Every key choice, QTE, collectible, and survival tip for each chapter.",
+    "ogTitle": "Directive 8020 Walkthrough | Complete Chapter Guide",
+    "ogDescription": "Complete walkthrough for all 8 episodes of Directive 8020. Key choices, QTE tips, collectibles, and survival guides."
+  },
+  "hero": {
+    "h1": "Directive 8020 Walkthrough — Full Episode-by-Episode Guide",
+    "intro": "Every scene, every choice, every QTE. Written from three playthroughs of hard-won experience so you don't have to learn the same lessons the hard way."
+  },
+  "introParagraphs": [
+    "I've played through Directive 8020 three times now — once blind (lost three characters by Episode 6, it was brutal), once following my own notes to get the true ending, and a cleanup run for the platinum. Each of the walkthrough pages below reflects what actually worked on those runs, not what a strategy guide writer guessed would work before the game came out.",
+    "A few things before you dive in: **Carter and Simms cannot be saved.** Their deaths are scripted, full stop. Don't waste hours trying to save them like I did on my first run. Focus on Osmond, Stafford, Eisele, Cernan, and Cooper. Also: the game uses **Turning Points** as checkpoint markers — you can jump back to any of them after finishing an episode or the full game. So if you mess up a choice, you're never locked in permanently. You just might need to replay a section.",
+    "If you're going for the best ending, bookmark the [Save Everyone guide](/save-everyone) and keep it open alongside the episode pages. It tracks every choice across all eight chapters so nothing falls through the cracks."
+  ],
+  "episodeSection": {
+    "heading": "All 8 Episodes",
+    "sub": "Click any episode for the full scene-by-scene walkthrough."
+  },
+  "tipsSection": {
+    "heading": "Quick Tips — One-Liner Cheat Sheet",
+    "sub": "The one thing you need to get right in each episode. Print this section and keep it next to you while you play.",
+    "fallback": "Full guide coming soon.",
+    "tips": {
+      "episode-1": "Authorize the weapon in Crew Quarters. Choose Honor → Consider with Stafford. The QTE after Medical Complex always fails — don't panic.",
+      "episode-2": "Trust Stafford on the Command Deck. Let Eisele study the sample but don't push too hard. Assign Cooper to go with Osmond.",
+      "episode-3": "Report the cargo bay find immediately. Side with Eisele in the Briefing Room debate. Send an honest report to Earth.",
+      "episode-4": "Follow Cooper's radio directions exactly at junction 13. After the reactor confrontation, confirm the kill and move on.",
+      "episode-5": "This episode has the most missable choice in the game — prepare the sedative in the lab before leaving. Rescue both Mitchell and Anders from the fire.",
+      "episode-6": "Trust the newcomer Eisele, not the one who was already with the group. Turn RIGHT at the outdoor junction — left is a point of no return that kills Anders.",
+      "episode-7": "Take the right path with stalactites to find the real Anders — the left cave is a trap. Survive the stealth sections in Pod Room and Geoscience.",
+      "episode-8": "Pick Order to bring Williams. Pass all QTEs — Redirect, Atrium, Mess Hall, Reactor. At Knock Knock, let Mitchell in — he's real. Expose the clone program for the true ending."
+    }
+  },
+  "firstTime": {
+    "heading": "First Time Playing? Here's What I Wish I Knew",
+    "paragraphs": [
+      "**Don't play on Survivor difficulty your first time.** Explorer mode gives you more generous QTE windows and clearer telegraphing of dangerous choices. You're here for the story on your first run, not the challenge. Survivor is for your second or third playthrough when you know the beats and want the tension.",
+      "**Talk to everyone.** A shocking amount of the game's best content is in optional dialogue. Stafford's confession on the observation deck in Episode 2, Cernan's private moment with Stafford in Episode 3, Eisele's lab notes — these scenes build the relationships that unlock Destinies later. Skip them and you're making the late game harder for yourself.",
+      "**Turning Points are your safety net.** Finished an episode and realized you made the wrong call? Don't restart the whole game. Go to chapter select, find the Turning Point closest to your mistake, and jump back. The game recalculates from there. This is how I cleaned up my platinum run — I must have used the Episode 6 outdoor junction Turning Point four times testing different outcomes.",
+      "**Explore before advancing.** Every episode has areas you can poke around in before hitting the objective marker. That's where the collectibles live — Sims Recordings, O Death secrets, crew logs. Most are tucked into side rooms or behind optional interactions. If you beeline the objective every time, you'll miss half the game's lore."
+    ]
+  },
+  "crossLinks": {
+    "heading": "Going for the best ending?",
+    "text": "The walkthrough pages tell you what happens. The Save Everyone guide tells you what to pick — and tracks your survivors as you go.",
+    "links": [
+      { "href": "/save-everyone", "label": "Save Everyone Guide →", "variant": "primary" },
+      { "href": "/all-endings", "label": "All Endings →", "variant": "outline" }
+    ]
+  }
+}

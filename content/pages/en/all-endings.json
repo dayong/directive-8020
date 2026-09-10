@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "All Endings in Directive 8020 | How to Unlock Every Ending",
+    "description": "Complete guide to all 10 endings in Directive 8020. Learn how to unlock each ending, survival requirements, and the best Turning Points to revisit.",
+    "ogTitle": "All Endings in Directive 8020 | Complete Ending Guide",
+    "ogDescription": "Complete guide to all 10 endings in Directive 8020. True ending, bad endings, and everything in between."
+  },
+  "hero": {
+    "h1": "All Endings in Directive 8020",
+    "intro": "Directive 8020 has 10 possible endings. Here's how to unlock every single one, the requirements for each, and where to go back if you missed a critical choice. Replaying a Turning Point? The [full walkthrough](/walkthrough) covers every scene episode by episode."
+  },
+  "trueEndingBox": {
+    "headingFormat": "Best Ending — {name}",
+    "requirementsLabel": "Requirements",
+    "survivorsLabel": "Survivors",
+    "aliveFormat": "{count} alive",
+    "missedFormat": "Missed it? Return to: {tp}"
+  },
+  "overview": {
+    "heading": "Ending Overview",
+    "headers": ["Ending", "Survivors", "Key Condition", "Turning Point"]
+  },
+  "detailedHeading": "All Endings — Detailed Breakdown",
+  "cta": {
+    "text": "Want to achieve the best ending? Follow the step-by-step guide:",
+    "links": [
+      { "href": "/save-everyone", "label": "Save Everyone Guide →", "variant": "primary" },
+      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "outline" }
+    ]
+  }
+}

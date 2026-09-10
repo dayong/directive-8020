@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "How Long to Beat Directive 8020? Full Game Length & Episode Times",
+    "description": "Directive 8020 takes ~8 hours for the main story, ~12 for all endings, ~15 for 100%. Episode-by-episode play time breakdown.",
+    "ogTitle": "How Long to Beat Directive 8020? Full Game Length & Episode Times",
+    "ogDescription": "How long is Directive 8020? Main story ~8 hours, all endings ~12 hours, 100% completion ~15 hours."
+  },
+  "hero": {
+    "h1": "How Long to Beat Directive 8020",
+    "tagline": "Directive 8020 takes around 8 hours to beat.",
+    "intro": "A complete breakdown of the game's length by playstyle, episode, and what affects your total play time."
+  },
+  "summaryCards": {
+    "cards": [
+      { "icon": "🎮", "label": "Main Story", "tone": "main", "value": "~8", "unit": "hours" },
+      { "icon": "🏁", "label": "All Endings", "tone": "endings", "value": "~12", "unit": "hours" },
+      { "icon": "🏆", "label": "100% Completionist", "tone": "completion", "value": "~15", "unit": "hours" }
+    ]
+  },
+  "episodeTable": {
+    "heading": "Episode Length Breakdown",
+    "headers": ["Episode", "Title", "Length"]
+  },
+  "affectsLength": {
+    "heading": "What Affects Game Length",
+    "items": [
+      {
+        "term": "Difficulty —",
+        "text": "Explorer mode provides generous QTE timers and fewer fail states, reducing play time. Survivor mode has tighter QTEs and more deaths mean more replays."
+      },
+      {
+        "term": "Turning Points —",
+        "text": "Using Turning Points to replay decisions and explore alternate paths adds 2-4 hours to your total. Each major branch takes 20-40 minutes to replay."
+      },
+      {
+        "term": "Collectibles —",
+        "text": "Hunting all 65 collectibles adds approximately 2 hours. Some are hidden in optional exploration areas."
+      },
+      {
+        "term": "O Death Secrets —",
+        "text": "Finding all 5 O Death secrets requires thorough exploration and using Turning Points to revisit chapters. Adds 1-2 hours."
+      }
+    ]
+  },
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "How long is Directive 8020?",
+      "a": "A first playthrough of the main story takes around 8 hours. That covers all 8 episodes at a normal pace with some optional exploration."
+    },
+    {
+      "q": "How long to beat Directive 8020 (HLTB)?",
+      "a": "The main story is ~8 hours, unlocking all endings takes ~12 hours, and a 100% completionist run with every collectible and trophy takes ~15 hours."
+    },
+    {
+      "q": "How many hours is each Directive 8020 episode?",
+      "a": "Most episodes take about 1 hour. Episode 6 runs ~1.5 hours, and Episodes 7 and 8 take ~2 hours each — see the episode breakdown above for the full list."
+    },
+    {
+      "q": "How long is Directive 8020 for 100% completion?",
+      "a": "Around 15 hours. Hunting all 65 collectibles adds ~2 hours and finding all 5 O Death secrets adds 1-2 hours on top of the main story."
+    },
+    {
+      "q": "Does difficulty affect play time?",
+      "a": "Yes. Explorer mode has generous QTE timers and fewer fail states, while Survivor mode means more deaths and more replays, which adds time to your total."
+    },
+    {
+      "q": "Can I see alternate choices without replaying the whole game?",
+      "a": "Yes — Turning Points let you jump back to any major decision. Exploring alternate branches this way adds 2-4 hours of play time to your total."
+    }
+  ],
+  "cta": {
+    "text": "Ready to start playing?",
+    "links": [
+      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "primary" },
+      { "href": "/save-everyone", "label": "Save Everyone Guide →", "variant": "outline" }
+    ]
+  }
+}

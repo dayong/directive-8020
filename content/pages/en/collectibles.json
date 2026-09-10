@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Directive 8020 Collectibles Guide | All Recording & Document Locations",
+    "description": "Complete collectibles guide for Directive 8020. Find all 65 recordings, documents, and secrets across all 8 episodes of the Cassiopeia.",
+    "ogTitle": "Directive 8020 Collectibles Guide | All Locations",
+    "ogDescription": "Find every collectible in Directive 8020 — recordings, documents, and hidden secrets across all 8 episodes."
+  },
+  "hero": {
+    "h1": "Collectibles Guide",
+    "intro": "All recordings, documents, and hidden secrets across the Cassiopeia. Currently tracking {count} collectibles — more coming as episodes are fully mapped."
+  },
+  "tableHeaders": ["Item", "Type", "Location"],
+  "episodeHeadingFormat": "Episode {number}: {title}",
+  "countFormat": "({count} collectibles)",
+  "note": "Episodes 4-8 collectible locations are being mapped and will be added soon. Check individual episode walkthroughs for collectible hints in the meantime.",
+  "episodes": [
+    {
+      "id": "episode-1",
+      "items": [
+        { "name": "Simms Recording #1", "location": "Stairs to the left of the Medical Complex objective door", "type": "Recording" },
+        { "name": "Crew Quarters Secret #1", "location": "Behind the locker in the eastern Crew Quarters", "type": "Secret" },
+        { "name": "Crew Quarters Secret #2", "location": "Under the bunk in the western Crew Quarters", "type": "Secret" },
+        { "name": "Hull Breach Log", "location": "Terminal near the breach site", "type": "Document" },
+        { "name": "Cassiopeia Crew Manifest", "location": "Medical Complex reception desk", "type": "Document" }
+      ]
+    },
+    {
+      "id": "episode-2",
+      "items": [
+        { "name": "Stafford's Personal Log", "location": "Commander's quarters, on the desk", "type": "Recording" },
+        { "name": "Alien Signal Recording", "location": "Communications array, after the first alarm", "type": "Recording" },
+        { "name": "Science Lab Notes", "location": "Eisele's workstation in the Science Lab", "type": "Document" },
+        { "name": "Engine Room Schematic", "location": "Wall panel in the engine room corridor", "type": "Document" }
+      ]
+    },
+    {
+      "id": "episode-3",
+      "items": [
+        { "name": "Sample Analysis Report", "location": "Containment Lab terminal after studying the sample", "type": "Document" },
+        { "name": "Cernan's First Recording", "location": "Cargo Bay, on a crate near the starting point", "type": "Recording" },
+        { "name": "Briefing Room Minutes", "location": "Tablet on the briefing room table", "type": "Document" }
+      ]
+    }
+  ]
+}

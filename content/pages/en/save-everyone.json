@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "How to Save Everyone in Directive 8020 | Best Ending Guide",
+    "description": "Step-by-step guide to keeping all 5 playable characters alive in Directive 8020. Carter and Simms have scripted deaths — save the others for the true ending.",
+    "ogDescription": "Complete guide to saving all crew members in Directive 8020. Carter and Simms have scripted deaths — focus on the 5 playable characters."
+  },
+  "hero": {
+    "h1": "How to Save Everyone in Directive 8020",
+    "intro": "A step-by-step guide to keeping all 5 playable characters alive and unlocking the true ending — “Eisele the Humanitarian.”"
+  },
+  "warning": {
+    "heading": "❌ Carter and Simms Cannot Be Saved — This Is By Design",
+    "before": "Many players get confused trying to save Carter and Simms. Please understand: their deaths are scripted story events. No matter what choices you make, both characters will die in their pre-determined scenes.",
+    "strong": "Do not waste time trying to change this.",
+    "after": "Focus on protecting the 5 playable characters: Osmond, Stafford, Eisele, Cernan, and Cooper."
+  },
+  "howTo": {
+    "name": "How to Save Everyone in Directive 8020",
+    "description": "Step-by-step guide to achieving the true ending with all 5 playable characters surviving.",
+    "steps": [
+      {
+        "name": "Accept that Carter and Simms cannot be saved",
+        "text": "Carter and Simms die in scripted events during Episode 1. No choices can prevent this — it is by design. Focus on the 5 playable characters."
+      },
+      {
+        "name": "Episode 1 — Authorize weapon use",
+        "text": "In the Crew Quarters Turning Point, choose \"Authorize use of weapon\" to open combat options later. Choose \"Honor\" then \"Consider\" when dealing with Stafford."
+      },
+      {
+        "name": "Episode 2 — Trust Stafford and allow research",
+        "text": "Choose \"Trust Stafford\" on the Command Deck and \"Allow study\" in the Science Lab. Investigate the distress call to unlock a collectible."
+      },
+      {
+        "name": "Episode 3 — Report immediately, side with Eisele",
+        "text": "As Cernan, choose \"Report immediately\" in the Cargo Bay. Choose \"Contain and study\" in the Containment Lab. Side with Eisele in the Briefing Room debate."
+      },
+      {
+        "name": "Episode 4 — Follow Cooper, confirm reactor kill",
+        "text": "Follow Cooper's directions in the maintenance tunnels. After the creature falls into the reactor, confirm it's dead and report back."
+      },
+      {
+        "name": "Episode 5 — Prepare sedative, save Mitchell & Anders",
+        "text": "MISSABLE: Prepare the sedative in the lab before leaving. Rescue both Mitchell and Anders from the fire. Encourage Stafford to unlock The Father Destiny."
+      },
+      {
+        "name": "Episode 6 — Trust the newcomer Eisele, turn RIGHT outside",
+        "text": "The most critical choice: trust the NEWCOMER Eisele. Turn RIGHT at the outdoor junction (not into the cave). Escape the reactor before meltdown."
+      },
+      {
+        "name": "Episodes 7-8 — Expose the clone program",
+        "text": "Eisele must choose \"Expose the clone program\" to unlock the true ending. This broadcasts the truth to humanity and ends Cycle 13."
+      }
+    ]
+  },
+  "keyChoices": {
+    "heading": "Key Choices by Episode",
+    "episodeHeadingFormat": "Episode {number}: {title}",
+    "countFormat": "({count} key choices)",
+    "walkthroughLinkFormat": "Full Episode {number} Walkthrough →"
+  },
+  "sceneHighlights": {
+    "e5-sedative": {
+      "type": "missable",
+      "text": "⚠ MISSABLE — The game does not prompt this. Actively explore the lab before leaving.",
+      "tip": "Interact with the lab equipment to prepare the sedative."
+    },
+    "e6-two-eiseles": {
+      "type": "critical",
+      "text": "🔑 Most Critical Choice in the Game",
+      "tip": "Watch their fear animations when the gun is pointed at them. The newcomer's reaction looks genuinely human and scared. The other's movements are subtly unnatural."
+    },
+    "e6-outdoor-junction": {
+      "type": "missable",
+      "text": "⚠ The game does NOT warn you this is a point of no return. Once you enter the cave, you cannot go back."
+    },
+    "e7-eisele-final": {
+      "type": "true-ending",
+      "text": "⭐ Unlocks True Ending — Eisele the Humanitarian"
+    }
+  },
+  "destinies": {
+    "heading": "Destinies Unlock Checklist",
+    "intro": "Each playable character has a Destiny that unlocks during specific moments. Unlocking these is required for the best ending route.",
+    "headers": ["Character", "Destiny", "How to Unlock"],
+    "rows": [
+      {
+        "character": "Osmond",
+        "destiny": "The Humanitarian",
+        "how": "Make compassionate choices throughout the game. Choose Honor when given the option in Episode 1."
+      },
+      {
+        "character": "Stafford",
+        "destiny": "The Father",
+        "how": "Encourage him during his breakdown in Episode 5. Say \"Never forget why you started.\""
+      },
+      {
+        "character": "Eisele",
+        "destiny": "The Humanitarian",
+        "how": "Choose to expose the clone program in Episode 8. Requires all prior Eisele-positive choices."
+      },
+      {
+        "character": "Eisele (alt)",
+        "destiny": "The Scientist",
+        "how": "Choose to protect the scientific data in Episode 8 instead of exposing the truth."
+      },
+      {
+        "character": "Cernan",
+        "destiny": "TBC",
+        "how": "Make choices that prioritize Cernan's safety in Episodes 3 and 7."
+      },
+      {
+        "character": "Cooper",
+        "destiny": "TBC",
+        "how": "Authorize weapons in Episode 1 and send backup in Episode 5."
+      }
+    ]
+  },
+  "tracker": {
+    "heading": "Character Survival Tracker",
+    "scriptedDeathLabel": "Scripted Death",
+    "predictedRouteLabel": "Predicted Route:",
+    "routes": {
+      "best": "Best Ending (Eisele the Humanitarian)",
+      "standard": "Standard Ending (Homeward Bound / Docked)",
+      "bad": "Bad Ending (Homeward Bound / Massacre)",
+      "gameOver": "Game Over (Everyone Dies)"
+    },
+    "aliveFormat": "{alive} of 5 playable characters alive",
+    "aliveHint": "— click unchecked characters to mark them alive"
+  },
+  "cta": {
+    "text": "Once everyone is alive, check out all the possible endings:",
+    "links": [
+      { "href": "/all-endings", "label": "View All Endings →", "variant": "primary" },
+      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "outline" }
+    ]
+  }
+}

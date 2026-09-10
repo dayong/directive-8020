@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import type { Character } from '@/types';
+import type { SurvivalTrackerCopy } from '@/types/content-pages';
 import { characters, getPlayableCharacters, scriptedDeathCharacters } from '@/data/characters';
 
 interface SurvivorState {
@@ -10,36 +11,39 @@ interface SurvivorState {
 
 const playableChars = getPlayableCharacters();
 
-function getEndingPrediction(aliveCount: number) {
+function getEndingPrediction(
+  aliveCount: number,
+  routes: SurvivalTrackerCopy['routes']
+) {
   if (aliveCount === 5) {
     return {
-      route: 'Best Ending (Eisele the Humanitarian)',
+      route: routes.best,
       color: 'text-green-400',
       bg: 'bg-green-900/20 border-green-500',
     };
   }
   if (aliveCount >= 3) {
     return {
-      route: 'Standard Ending (Homeward Bound / Docked)',
+      route: routes.standard,
       color: 'text-amber-400',
       bg: 'bg-amber-900/20 border-amber-500',
     };
   }
   if (aliveCount >= 1) {
     return {
-      route: 'Bad Ending (Homeward Bound / Massacre)',
+      route: routes.bad,
       color: 'text-orange-400',
       bg: 'bg-orange-900/20 border-orange-500',
     };
   }
   return {
-    route: 'Game Over (Everyone Dies)',
+    route: routes.gameOver,
     color: 'text-red-400',
     bg: 'bg-red-900/20 border-red-500',
   };
 }
 
-export default function SurvivalTracker() {
+export default function SurvivalTracker({ copy }: { copy: SurvivalTrackerCopy }) {
   const [survivors, setSurvivors] = useState<SurvivorState>(() => {
     const initial: SurvivorState = {};
     playableChars.forEach((c) => {
@@ -54,8 +58,8 @@ export default function SurvivalTracker() {
   );
 
   const prediction = useMemo(
-    () => getEndingPrediction(aliveCount),
-    [aliveCount]
+    () => getEndingPrediction(aliveCount, copy.routes),
+    [aliveCount, copy.routes]
   );
 
   const toggle = (id: string) => {
@@ -65,7 +69,7 @@ export default function SurvivalTracker() {
   return (
     <div className="border border-slate-700 rounded-lg bg-slate-800/50 p-6">
       <h2 className="text-lg font-bold text-slate-100 mb-4">
-        Character Survival Tracker
+        {copy.heading}
       </h2>
 
       {/* Playable characters */}
@@ -116,7 +120,7 @@ export default function SurvivalTracker() {
                 {char.name}
               </span>
               <span className="block text-xs text-amber-500">
-                Scripted Death
+                {copy.scriptedDeathLabel}
               </span>
             </div>
           </div>
@@ -128,14 +132,14 @@ export default function SurvivalTracker() {
         className={`border rounded-lg p-4 ${prediction.bg}`}
       >
         <div className="flex items-center gap-2">
-          <span className="text-sm text-slate-400">Predicted Route:</span>
+          <span className="text-sm text-slate-400">{copy.predictedRouteLabel}</span>
           <span className={`font-bold ${prediction.color}`}>
             {prediction.route}
           </span>
         </div>
         <p className="text-xs text-slate-500 mt-1">
-          {aliveCount} of 5 playable characters alive
-          {aliveCount < 5 && ' — click unchecked characters to mark them alive'}
+          {copy.aliveFormat.replace('{alive}', String(aliveCount))}
+          {aliveCount < 5 && ` ${copy.aliveHint}`}
         </p>
       </div>
     </div>

@@ -1,18 +1,16 @@
-import type { Metadata } from 'next';
+import { getPageContent } from '@/lib/content';
+import { buildPageMetadata } from '@/lib/page-seo';
+import type { ChoicesContent } from '@/types/content-pages';
 
-export const metadata: Metadata = {
-  title:
-    'Directive 8020 All Choices & Consequences — Every Decision Explained',
-  description:
-    'Complete guide to all choices and consequences in Directive 8020. See recommended options, character effects, and how each decision impacts the ending.',
-  openGraph: {
-    title: 'Directive 8020 Choices & Consequences',
-    description:
-      'Every key choice in Directive 8020 explained — recommended options, consequences, and ending impacts.',
-    images: ['/og-image.png'],
-    type: 'website',
-  },
-};
+const SLUG = 'choices';
+
+const content: ChoicesContent = (() => {
+  const c = getPageContent<ChoicesContent>(SLUG);
+  if (!c) throw new Error(`Missing content file: content/pages/en/${SLUG}.json`);
+  return c;
+})();
+
+export const metadata = buildPageMetadata(SLUG, content.meta);
 
 export default function ChoicesLayout({
   children,

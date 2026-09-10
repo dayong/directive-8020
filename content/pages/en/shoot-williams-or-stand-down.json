@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Directive 8020 — Shoot Williams or Stand Down? Best Choice & Consequences",
+    "description": "Directive 8020 Episode 5: Stand Down is best if you prepared the sedative — Williams survives and you unlock the Sedate Williams trophy. Without it, shoot instead.",
+    "ogTitle": "Directive 8020 — Shoot Williams or Stand Down? Best Choice & Consequences",
+    "ogDescription": "Episode 5 Point Blank choice explained: Stand Down with the sedative, Shoot without it. Full consequences for both options."
+  },
+  "hero": {
+    "h1": "Shoot Williams or Stand Down?",
+    "tagline": "Stand Down — if you prepared the sedative. Shoot — if you didn't.",
+    "intro": "The Episode 5 “Point Blank” choice, fully broken down: what each option does, what it locks, and what it unlocks."
+  },
+  "options": {
+    "heading": "The Three Options at Point Blank",
+    "cards": [
+      {
+        "badge": "✓ Best with sedative",
+        "tone": "good",
+        "title": "Stand Down — hold fire",
+        "body": "Buys time. If you prepared the sedative in the lab, it becomes available here and Williams can be neutralized non-lethally.",
+        "chain": "⟳ Cross-episode: Stand Down + sedative = Williams lives → helpful Ep7 intel → better Ep8 dynamics. Required for the Sedate Williams trophy."
+      },
+      {
+        "badge": "✓ Safer without sedative",
+        "tone": "bad",
+        "title": "Shoot immediately",
+        "body": "The Williams duplicate is eliminated on the spot. Clean and fast — but you lose the optional trophy.",
+        "chain": "⟳ Cross-episode: Shoot = Williams dies → loses Ep7 intel → one Ep7 dialogue check harder. Sedate Williams trophy locked."
+      },
+      {
+        "badge": "Neutral",
+        "tone": "neutral",
+        "title": "Time Out — wait and see",
+        "body": "A minor delay with the same outcomes as Stand Down."
+      }
+    ]
+  },
+  "sceneContext": {
+    "heading": "What Leads Up to This Choice?",
+    "summary": "⚠ Spoilers — click to expand the scene context",
+    "paragraphs": [
+      "Williams is scanned by the ship's biometric system during Episode 5 (“Mr. Williams”). The result is immediate and damning: **“Subject unidentifiable.”** Before anyone can react, Williams begins to transform — skin shifting, form destabilizing. The mimicry breaks down under the scanner's beam, and you have seconds to respond.",
+      "This confrontation only goes well if you did your homework two scenes earlier. The **sedative** is the single most missable interaction in the game: while Eisele is in the science lab, you get roughly ninety seconds of free-roam control and no objective marker. Walk to the chemistry station — the counter with beakers and an active terminal on the left wall — and interact with it. Skip it and the sedative option never appears here.",
+      "One more chain from way back: choosing **“Authorize use of weapon”** in the Episode 1 Crew Quarters is what unlocks the non-lethal resolution branch in this standoff in the first place."
+    ]
+  },
+  "outcomes": {
+    "heading": "What Happens If You Pick Each Option",
+    "columns": [
+      {
+        "tone": "good",
+        "heading": "Stand Down →",
+        "items": [
+          "With sedative: Williams is sedated non-lethally and survives",
+          "Unlocks the **Sedate Williams** trophy",
+          "Williams provides helpful intel in Episode 7",
+          "Improves Episode 8 dynamics and feeds the best ending path",
+          "Without sedative: no non-lethal option — Williams must die or escape"
+        ]
+      },
+      {
+        "tone": "bad",
+        "heading": "Shoot →",
+        "items": [
+          "The duplicate is eliminated immediately — no further threat",
+          "**Sedate Williams** trophy permanently locked",
+          "Episode 7 intel from Williams is lost",
+          "One Episode 7 dialogue check becomes harder",
+          "Slightly reduces Episode 7-8 ending quality"
+        ]
+      }
+    ],
+    "outro": "If you prepared the sedative, Stand Down is the better call — you neutralize the threat and keep Williams alive for trophy purposes. If you skipped the sedative, shooting is the safer option because you have no non-lethal alternative."
+  },
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "Should you shoot Williams or stand down in Directive 8020?",
+      "a": "Stand Down is the best choice if you prepared the sedative in the Episode 5 lab — Williams survives, you earn the Sedate Williams trophy, and his intel helps in Episodes 7 and 8. If you skipped the sedative, Shoot is the safer option."
+    },
+    {
+      "q": "What happens if you shoot Williams?",
+      "a": "The duplicate is eliminated immediately. The Sedate Williams trophy is permanently locked, Williams's Ep7 intel is lost, and one Ep7 dialogue check becomes harder."
+    },
+    {
+      "q": "What happens if you stand down without the sedative?",
+      "a": "Without the sedative there is no non-lethal option — Williams must die or escape. That's why preparing the sedative before leaving the science lab is the single most missable step in the game."
+    },
+    {
+      "q": "How do you save Williams in Directive 8020?",
+      "a": "Prepare the sedative in the Episode 5 science lab, then choose Stand Down at Point Blank. With the sedative, Williams is neutralized non-lethally and survives — this also unlocks the Sedate Williams trophy."
+    }
+  ],
+  "cta": {
+    "text": "Want every Episode 5 choice explained in context?",
+    "links": [
+      { "href": "/walkthrough/episode-5", "label": "Episode 5 Walkthrough →", "variant": "primary" },
+      { "href": "/choices", "label": "All Choices →", "variant": "outline" },
+      { "href": "/save-everyone", "label": "Save Everyone →", "variant": "ghost" }
+    ]
+  }
+}

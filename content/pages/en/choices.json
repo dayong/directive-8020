@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Directive 8020 All Choices & Consequences — Every Decision Explained",
+    "description": "Complete guide to all choices and consequences in Directive 8020. See recommended options, character effects, and how each decision impacts the ending.",
+    "ogTitle": "Directive 8020 Choices & Consequences",
+    "ogDescription": "Every key choice in Directive 8020 explained — recommended options, consequences, and ending impacts."
+  },
+  "hero": {
+    "h1": "Directive 8020 — All Choices & Consequences",
+    "intro": "Every decision in every episode, every option fully explained — including delayed consequences that hit 5 episodes later."
+  },
+  "tabs": {
+    "format": "EP{number}: {title}",
+    "countFormat": "({count})"
+  },
+  "search": {
+    "placeholder": "Search choices, scenes, chain effects, or ending impacts...",
+    "clearLabel": "Clear"
+  },
+  "noResults": "No choices match your search. Try a different episode tab or keyword.",
+  "relationshipLabel": "Relationship",
+  "lockout": {
+    "heading": "Ending Lockout Matrix",
+    "intro": "One wrong pick in these choices permanently locks certain endings or trophies. Plan your route — or follow the [full walkthrough](/walkthrough) episode by episode to see each choice in context.",
+    "headers": ["EP", "Choice", "Wrong Pick", "Consequence"],
+    "rows": [
+      {
+        "choice": "e1-authorize-weapon",
+        "ep": 1,
+        "badPick": "Refuse weapon",
+        "consequence": "Locks Sedate Williams trophy. No non-lethal Williams option in Ep5."
+      },
+      {
+        "choice": "e1-honor-implore",
+        "ep": 1,
+        "badPick": "Implore",
+        "consequence": "Weakens Stafford Destiny chain. Harder to unlock The Father."
+      },
+      {
+        "choice": "e5-sedative",
+        "ep": 5,
+        "badPick": "Skip sedative",
+        "consequence": "Locks Sedate Williams trophy permanently. No recovery."
+      },
+      {
+        "choice": "e5-stafford-destiny",
+        "ep": 5,
+        "badPick": "Let Stafford give up",
+        "consequence": "Locks The Father Destiny. Worse Ep7 outcomes."
+      },
+      {
+        "choice": "e6-two-eiseles",
+        "ep": 6,
+        "badPick": "Trust wrong Eisele",
+        "consequence": "IRREVERSIBLE — True ending permanently locked. No fix."
+      },
+      {
+        "choice": "e6-outdoor-junction",
+        "ep": 6,
+        "badPick": "Turn LEFT into cave",
+        "consequence": "Anders dies. Locks Mitchell & Anders Survived trophy."
+      },
+      {
+        "choice": "e7-eisele-final",
+        "ep": 7,
+        "badPick": "Protect the mission",
+        "consequence": "Locks Eisele the Humanitarian (true ending). Gets Scientist instead."
+      }
+    ]
+  },
+  "tree": {
+    "heading": "Interactive Decision Tree",
+    "tabFormat": "EP{number} {title}",
+    "bestChoiceLabel": "✓ Best choice",
+    "suboptimalLabel": "✗ Suboptimal",
+    "consequenceLabel": "Consequence:",
+    "progressFormat": "Best ending progress for {title}:",
+    "emptyPath": "Make your choices above to see the path",
+    "onTrack": "✓ On track for the best ending!",
+    "stepsAwayOneFormat": "{n} step away from the optimal path",
+    "stepsAwayManyFormat": "{n} steps away from the optimal path",
+    "recommendedFormat": "{done}/{total} recommended choices made",
+    "remainingFormat": "({n} choices remaining)"
+  }
+}

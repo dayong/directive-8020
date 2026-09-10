@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Directive 8020 Crashing or Fatal Error? How to Fix It",
+    "description": "Directive 8020 crashing, fatal error or save bug? The June 2026 patch fixed the Fatal Error crash, save corruption and loading freezes. Fixes for PC, PS5, Xbox.",
+    "ogTitle": "Directive 8020 Crashing or Fatal Error? How to Fix It",
+    "ogDescription": "Directive 8020 crashing, fatal error or save bug? The June 2026 patch fixed the Fatal Error crash, save corruption and loading freezes. Fixes for PC, PS5, Xbox."
+  },
+  "hero": {
+    "h1": "Directive 8020 Crashing or Fatal Error?",
+    "tagline": "Most crash and save bugs are already fixed — update to the latest patch first.",
+    "intro": "Symptom-by-symptom fixes for crashing, Fatal Error, save bugs, black screen, and stuttering on PC, PS5, and Xbox."
+  },
+  "sections": [
+    {
+      "heading": "Update First — the Latest Patch Fixes Most Crash & Save Bugs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before trying anything else: make sure you're on the [June 2026 patch](https://store.steampowered.com/news/app/2255370/view/673997481174894605). Supermassive Games fixed the most-reported crash and save issues in it, including:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The **\"Fatal Error\" crash** when returning to the Main Menu from exploration areas",
+            "**Infinite loading screens** when resuming a save after using Turning Points",
+            "**Save corruption** on PS5 (PlayGo install and DualSense Touch Pad triggers)",
+            "The infamous **\"Missing Legs\"** character model bug on console"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc",
+      "heading": "Fatal Error Crash on PC — Fixed, but Here's What to Do If It Persists",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The June 2026 patch fixed the \"Fatal Error\" crash that occurred when returning to the Main Menu from exploration areas. If you still see Fatal Error crashes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Verify game files on Steam (Library → Directive 8020 → Properties → Installed Files → Verify integrity)",
+            "Update GPU drivers — **NVIDIA** (GeForce Experience) or **AMD** (Adrenalin)",
+            "Disable overlay apps: Discord overlay, GeForce Experience overlay, Steam overlay",
+            "Set DirectX version to DX11 in Steam launch options: `-dx11`"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Save Bug & Infinite Loading Screens",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Two save-related bugs were officially fixed in the June 2026 patch: an **infinite loading screen when resuming a save** after specific interactions and Turning Point rewinds, and **PS5 save corruption** triggered by the PlayGo install feature or by interacting with secrets using the DualSense Touch Pad."
+        },
+        {
+          "type": "paragraph",
+          "text": "If your save is still acting up:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Confirm the latest patch is installed (the fix is patch-side, not save-side)",
+            "On PS5: enable **auto-upload to PS Plus cloud** (Settings → Saved Data → Auto-Upload)",
+            "Keep at least 2 save slots and rotate between them",
+            "For unrecoverable saves, use **Turning Points** via chapter select to jump back without losing all progress"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Game Crashes or Won't Launch",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Install or repair **Visual C++ Redistributable** (download from Microsoft)",
+            "Temporarily disable antivirus — some AVs flag the game executable as a false positive",
+            "Run the game as administrator (right-click → Run as Administrator)",
+            "Clear Steam download cache (Steam → Settings → Downloads → Clear Download Cache)",
+            "Restart your PC and try launching before opening other applications"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Black Screen on Launch"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Update GPU drivers first — this fixes most black screen cases",
+            "Verify game files (see above)",
+            "Disable overlays: Discord, GeForce Experience, Steam",
+            "Try `-dx11` in Steam launch options"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Stuttering & Low FPS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The May 2026 patch optimized ray tracing and path tracing performance. The June 2026 patch also fixed an FPS drop when switching screen aspect ratio with Frame Generation 'On'."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lower **shadow quality** first — this has the biggest performance impact",
+            "Disable motion blur in graphics settings",
+            "If you use Frame Generation, avoid switching aspect ratio mid-session",
+            "Cap framerate to 60fps for stability (in-game or via GPU control panel)",
+            "Close background applications (Chrome, Discord, etc.)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "console",
+      "heading": "PS5 & Xbox Issues",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The \"Missing Legs\" / missing body parts bug (caused by PlayGo/FastStart partial installs) is fixed in the June 2026 patch. If you still see it, finish the full install or reinstall the game."
+        },
+        {
+          "type": "subheading",
+          "text": "PS5 — Crashing to Dashboard"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rebuild PS5 database: Boot into **Safe Mode** (hold power button for 7 seconds) → select **Option 5: Rebuild Database**",
+            "Check for game update: highlight game tile → Options → Check for Update",
+            "Ensure system software is up to date"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Xbox"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Try both **Performance mode** (60fps target) and **Quality mode** (4K/30fps) to see which is more stable",
+            "Game Pass install issues: fully uninstall the game, clear Xbox cache (hold power button for 10 seconds), and reinstall",
+            "Check for game updates in My Games & Apps → Manage → Updates"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Official Patch History",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "[June 15, 2026 — Bug Fixes to Improve Player Experience](https://store.steampowered.com/news/app/2255370/view/673997481174894605) — Fatal Error crash, save corruption, infinite loading, Missing Legs, and more fixed",
+            "[May 26, 2026 — Ray Tracing, DLSS, UI Fixes and Steam Deck Improvements](https://store.steampowered.com/news/app/2255370/view/671743778889926052) — ray/path tracing performance, DLSS fixes, HDR settings, Steam Deck UI"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Still stuck? Report it on the [official Supermassive Games support portal](https://supermassivegamesltd.zendesk.com/hc/en-gb)."
+        }
+      ]
+    }
+  ],
+  "specsTable": {
+    "heading": "Official System Requirements",
+    "headers": ["", "Minimum", "Recommended"],
+    "rows": [
+      ["**CPU**", "Intel Core i5-8400 / AMD Ryzen 5 1600", "Intel Core i5-12400F / AMD Ryzen 5 5600"],
+      ["**GPU**", "NVIDIA RTX 2070 Super / AMD RX 5700", "NVIDIA RTX 3070 / AMD RX 6800"],
+      ["**RAM**", "16GB", "16GB"],
+      ["**Storage**", "70GB (SSD recommended)", "70GB (SSD recommended)"]
+    ]
+  },
+  "cta": {
+    "text": "Back to the game? Check our full guides:",
+    "links": [
+      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "primary" },
+      { "href": "/save-everyone", "label": "Save Everyone Guide →", "variant": "outline" }
+    ]
+  }
+}

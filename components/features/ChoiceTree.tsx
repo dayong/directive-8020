@@ -3,13 +3,14 @@
 import { useState } from 'react';
 import { choices } from '@/data/choices';
 import { episodes } from '@/data/episodes';
+import type { ChoiceTreeCopy } from '@/types/content-pages';
 
 interface SelectedChoice {
   choiceId: string;
   optionIndex: number;
 }
 
-export default function ChoiceTree() {
+export default function ChoiceTree({ copy }: { copy: ChoiceTreeCopy }) {
   const [activeEpisode, setActiveEpisode] = useState('episode-1');
   const [selections, setSelections] = useState<SelectedChoice[]>([]);
 
@@ -45,7 +46,7 @@ export default function ChoiceTree() {
   return (
     <div className="border border-slate-700 rounded-lg bg-slate-800/50 p-6">
       <h3 className="text-lg font-bold text-slate-100 mb-4">
-        Interactive Decision Tree
+        {copy.heading}
       </h3>
 
       {/* Episode tabs */}
@@ -62,7 +63,9 @@ export default function ChoiceTree() {
                   : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
               }`}
             >
-              EP{ep?.number} {ep?.title}
+              {copy.tabFormat
+                .replace('{number}', String(ep?.number))
+                .replace('{title}', ep?.title ?? '')}
             </button>
           );
         })}
@@ -103,7 +106,7 @@ export default function ChoiceTree() {
                       <span className="font-medium">{opt.label}</span>
                       {isSelected && (
                         <span className="ml-2 text-xs">
-                          {opt.recommended ? '✓ Best choice' : '✗ Suboptimal'}
+                          {opt.recommended ? copy.bestChoiceLabel : copy.suboptimalLabel}
                         </span>
                       )}
                     </button>
@@ -120,7 +123,7 @@ export default function ChoiceTree() {
                       : 'bg-red-900/20 border border-red-700 text-red-300'
                   }`}
                 >
-                  <p className="font-medium mb-1">Consequence:</p>
+                  <p className="font-medium mb-1">{copy.consequenceLabel}</p>
                   <p>{choice.options[selection.optionIndex].consequence}</p>
                   {choice.options[selection.optionIndex].characterEffect && (
                     <p className="text-violet-400 mt-1">
@@ -137,28 +140,32 @@ export default function ChoiceTree() {
       {/* Distance from best ending */}
       <div className="mt-6 p-4 rounded-lg bg-slate-800/80 border border-slate-600">
         <p className="text-sm text-slate-400">
-          Best ending progress for {episode?.title}:
+          {copy.progressFormat.replace('{title}', episode?.title ?? '')}
         </p>
         <p className="text-lg font-bold mt-1">
           {selections.length === 0 ? (
             <span className="text-slate-500">
-              Make your choices above to see the path
+              {copy.emptyPath}
             </span>
           ) : stepsFromBest === 0 ? (
             <span className="text-green-400">
-              ✓ On track for the best ending!
+              {copy.onTrack}
             </span>
           ) : (
             <span className="text-amber-400">
-              {stepsFromBest} step{stepsFromBest !== 1 ? 's' : ''} away from
-              the optimal path
+              {(stepsFromBest === 1 ? copy.stepsAwayOneFormat : copy.stepsAwayManyFormat).replace(
+                '{n}',
+                String(stepsFromBest)
+              )}
             </span>
           )}
         </p>
         <p className="text-xs text-slate-500 mt-1">
-          {recommendedCount}/{selections.length || 0} recommended choices made
+          {copy.recommendedFormat
+            .replace('{done}', String(recommendedCount))
+            .replace('{total}', String(selections.length || 0))}
           {selections.length < totalChoices &&
-            ` (${totalChoices - selections.length} choices remaining)`}
+            ` ${copy.remainingFormat.replace('{n}', String(totalChoices - selections.length))}`}
         </p>
       </div>
     </div>

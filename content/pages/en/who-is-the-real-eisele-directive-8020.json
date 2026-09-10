@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Which Eisele Is Real in Directive 8020? Trust the Newcomer",
+    "description": "Which Eisele is real in Directive 8020? The newcomer is the real Eisele — the familiar one is the mimic. Animation tell, clone context, and why this choice locks the true ending.",
+    "ogTitle": "Which Eisele Is Real in Directive 8020? Trust the Newcomer",
+    "ogDescription": "Episode 6 two-Eisele standoff guide — trust the newcomer, never the familiar one. The fear animation tell, and why this choice determines your ending."
+  },
+  "hero": {
+    "h1": "Which Eisele Is Real in Directive 8020? Trust the Newcomer, Not the One You Know",
+    "tagline": "The newcomer is the real Eisele — never trust the familiar one.",
+    "intro": "The answer in one sentence — plus the animation tell that makes it impossible to get wrong ever again."
+  },
+  "intro": "The real Eisele is the **newcomer** — the one who arrives separately during the Episode 6 standoff, not the Eisele who was already traveling with your group. I learned this the hard way on my first playthrough, picked wrong, and locked myself out of the true ending permanently. Don't make the same mistake.",
+  "sections": [
+    {
+      "heading": "The Ep 6 Standoff: How to Tell Who Is the Real Eisele in Directive 8020",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Episode 6 “Hostile Takeover” is the pivot point for the entire game, and the two-Eisele standoff is the single most important decision you'll make across all eight chapters. Two identical versions of Dr. Eisele — the Cassiopeia's science officer — are standing in front of you. Stafford has a gun trained on both. One of them is real. The other is an alien mimic that has perfectly replicated her down to the cellular level. You have maybe fifteen seconds to decide."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you've been paying attention since Episode 1, you know what the Growth organism does. It infiltrates, duplicates, and replaces. It did it to Sims. It tried to do it to Williams. And now it's wearing Eisele's face, standing three feet from the genuine article, and you have to figure out which is which."
+        },
+        {
+          "type": "subheading",
+          "text": "The Animation Tell: How I Spot the Fake Every Time"
+        },
+        {
+          "type": "paragraph",
+          "text": "I've played through this scene four times now — twice blind, once for my platinum cleanup, and once just to test both outcomes. Here's exactly what to look for when Stafford points the gun at each Eisele:"
+        },
+        {
+          "type": "table",
+          "headers": ["Eisele", "Her Behavior", "Animation Detail", "Verdict"],
+          "rows": [
+            [
+              "**The one already traveling with the group**",
+              "Defensive posture looks practiced. Too smooth, too controlled — like an actor playing scared.",
+              "Fear response is “clean” — steady breathing, measured reactions, no involuntary flinches.",
+              { "text": "FAKE — This is the mimic", "tone": "red" }
+            ],
+            [
+              "**The newcomer (arrives separately)**",
+              "Genuinely startles when the gun swings her way. Shoulders tense involuntarily. Eyes track the barrel like a real person facing a real threat.",
+              "Fear is “messy” — micro-flinches, uneven breathing, that raw animal panic you can't fake.",
+              { "text": "REAL — Trust this one", "tone": "green" }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The key is simple: **human fear is ugly and involuntary.** The fake Eisele's fear looks like she read about fear in a textbook. The real Eisele's fear looks like someone who just realized she might die in the next three seconds. Trust the ugly fear. Trust the newcomer."
+        },
+        {
+          "type": "subheading",
+          "text": "Key Choice: Which Eisele Do You Trust?"
+        },
+        {
+          "type": "table",
+          "headers": ["Option", "Consequence", "What Happens"],
+          "rows": [
+            [
+              "**Trust the newcomer** (arrives separately, shows genuine fear)",
+              "Real Eisele identified. Best ending path stays open. True ending (Eisele the Humanitarian) remains achievable.",
+              "Episodes 7-8 proceed with authentic Eisele. She has access to the full Corinth data. The clone program can be exposed."
+            ],
+            [
+              "**Trust the one already with the group** (rehearsed fear, already present)",
+              "Real Eisele dies. The mimic infiltrates the crew. True ending is **permanently locked out** — no recovery possible.",
+              "Episodes 7-8 proceed with a fake Eisele who sabotages the Caribdus probe attempt and feeds false intel. Homeward Bound or Game Over are your only endings now."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "There is no third option. There is no “wait and see.” You pick, and the game commits. I picked wrong on my first run — trusted the “familiar” Eisele because she'd been with me the whole game and felt safe — and spent the next two hours of gameplay slowly realizing the true ending wasn't on the table anymore."
+        }
+      ]
+    },
+    {
+      "heading": "Why the Game Makes This So Damn Hard",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Supermassive designed this moment to exploit what psychologists call the “familiarity heuristic” — your brain's tendency to trust things you recognize. The Eisele who's been with the group the whole game *feels* like the real one because she's familiar. She has the same voice, the same face, the same mannerisms you've been watching for six episodes. She *must* be real, right?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wrong. The mimicry is perfect. Everything you recognize about her — every memory, every interaction — the Growth has access to all of it. It absorbed the real crew's data from ship logs, biometric scans, and Corinth's own clone program records. It knows Eisele better than Eisele knows herself."
+        },
+        {
+          "type": "paragraph",
+          "text": "The only thing the mimic can't replicate perfectly? **Involuntary fear response.** The autonomic nervous system — the thing that makes your shoulders jump when someone surprises you — doesn't translate through mimicry. The fake Eisele's fear is a performance. The real Eisele's fear is a reflex. That's the tell."
+        }
+      ]
+    },
+    {
+      "heading": "The Clone Context: Why Eisele Matters So Much",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you've made it to Episode 6 without reading every log and recording, here's the crucial backstory: the crew are clones. They're part of **Cycle 13** — a corporate program run by the Corinth Corporation that has been sending clone crews to Tau Ceti F on repeat. Every previous cycle ended the same way. The Growth destroyed everyone, Corinth analyzed the data, and sent a fresh batch of clones with fabricated memories."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eisele is the only crew member who has access to the Corinth data archive. She's the one who can expose the clone program or bury it forever. The real Eisele, confronted with the truth of what she is, can choose to broadcast it to humanity — and that's the **Eisele the Humanitarian** true ending. The fake Eisele doesn't have that arc. She's a tool of the Growth, and she'll steer the crew toward extinction."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why getting this one choice right matters more than every other decision in the game combined. It's not about keeping a character alive — you can keep Eisele alive through a lot of mistakes. It's about *which* Eisele you're keeping alive, and what she's capable of doing in the final two episodes."
+        }
+      ]
+    },
+    {
+      "heading": "Don't Make the Same Mistake I Did",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On my first playthrough, I trusted the familiar Eisele because the newcomer showed up mid-crisis and my brain flagged her as suspicious. I didn't look at the animations. I didn't know to look. I just went with my gut, and my gut was wrong."
+        },
+        {
+          "type": "paragraph",
+          "text": "On my second playthrough, I watched both Eiseles' fear responses side by side and the difference was impossible to unsee. The newcomer flinches. The familiar one... performs. Once you know what to look for, you'll never get it wrong again."
+        }
+      ]
+    },
+    {
+      "heading": "Quick Summary Checklist",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Trust the NEWCOMER Eisele** — the one who arrives separately, not the one already with the group",
+            "**Watch their fear animations** — genuine involuntary flinch = real. Controlled, smooth reaction = fake",
+            "**This choice is irreversible** — no Turning Point can undo it without replaying the entire episode",
+            "**Getting this right is required for the true ending** — Eisele the Humanitarian is locked behind the real Eisele surviving",
+            "**Turn RIGHT at the outdoor junction earlier in Episode 6** — keep Anders alive so he's available for Ep7-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "outro": "Need the full scene-by-scene breakdown for the rest of this chapter? Check the [Episode 6 Walkthrough](/walkthrough/episode-6). Lost Anders at the outdoor junction before this scene? The [Cove Choice Guide](/directive-8020-cove) explains exactly how to fix that. Going for the best possible outcome? The [Save Everyone Guide](/save-everyone) tracks every prerequisite across all eight episodes."
+}

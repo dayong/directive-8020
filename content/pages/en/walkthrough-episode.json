@@ -1,0 +1,8 @@
+{
+  "notFoundTitle": "Episode Not Found",
+  "backLink": "← Back to Walkthroughs",
+  "episodeLabelFormat": "Episode {number}",
+  "prevLabel": "← Previous",
+  "nextLabel": "Next →",
+  "navFormat": "Episode {number}: {title}"
+}

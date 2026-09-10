@@ -3,20 +3,16 @@
 import { useState } from 'react';
 import ChoiceCard from '@/components/ui/ChoiceCard';
 import ChoiceTree from '@/components/features/ChoiceTree';
+import { HeroSection } from '@/components/content/HeroSection';
+import { RichText } from '@/components/ui/RichText';
+import choicesJson from '@/content/pages/en/choices.json';
 import { choices } from '@/data/choices';
 import { episodes } from '@/data/episodes';
+import type { ChoicesContent } from '@/types/content-pages';
+
+const content: ChoicesContent = choicesJson;
 
 const episodeIds = ['episode-1', 'episode-2', 'episode-3', 'episode-4', 'episode-5', 'episode-6', 'episode-7', 'episode-8'];
-
-const endingLockouts = [
-  { choice: 'e1-authorize-weapon', ep: 1, badPick: 'Refuse weapon', consequence: 'Locks Sedate Williams trophy. No non-lethal Williams option in Ep5.' },
-  { choice: 'e1-honor-implore', ep: 1, badPick: 'Implore', consequence: 'Weakens Stafford Destiny chain. Harder to unlock The Father.' },
-  { choice: 'e5-sedative', ep: 5, badPick: 'Skip sedative', consequence: 'Locks Sedate Williams trophy permanently. No recovery.' },
-  { choice: 'e5-stafford-destiny', ep: 5, badPick: 'Let Stafford give up', consequence: 'Locks The Father Destiny. Worse Ep7 outcomes.' },
-  { choice: 'e6-two-eiseles', ep: 6, badPick: 'Trust wrong Eisele', consequence: 'IRREVERSIBLE — True ending permanently locked. No fix.' },
-  { choice: 'e6-outdoor-junction', ep: 6, badPick: 'Turn LEFT into cave', consequence: 'Anders dies. Locks Mitchell & Anders Survived trophy.' },
-  { choice: 'e7-eisele-final', ep: 7, badPick: 'Protect the mission', consequence: 'Locks Eisele the Humanitarian (true ending). Gets Scientist instead.' },
-];
 
 export default function ChoicesPage() {
   const [activeTab, setActiveTab] = useState('episode-1');
@@ -40,18 +36,7 @@ export default function ChoicesPage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-slate-900 border-b border-slate-800">
-        <div className="relative max-w-4xl mx-auto px-4 py-16 md:py-20 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
-            Directive 8020 — All Choices &amp; Consequences
-          </h1>
-          <p className="text-slate-400 max-w-2xl mx-auto">
-            Every decision in every episode, every option fully explained —
-            including delayed consequences that hit 5 episodes later.
-          </p>
-        </div>
-      </section>
+      <HeroSection hero={content.hero} />
 
       <div className="max-w-5xl mx-auto px-4 py-12 space-y-12">
         {/* Episode Tabs — all 8 */}
@@ -69,7 +54,11 @@ export default function ChoicesPage() {
                     : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-200'
                 }`}
               >
-                EP{ep?.number}: {ep?.title} {count > 0 && `(${count})`}
+                {content.tabs.format
+                  .replace('{number}', String(ep?.number))
+                  .replace('{title}', ep?.title ?? '')}{' '}
+                {count > 0 &&
+                  content.tabs.countFormat.replace('{count}', String(count))}
               </button>
             );
           })}
@@ -79,7 +68,7 @@ export default function ChoicesPage() {
         <div className="relative">
           <input
             type="text"
-            placeholder="Search choices, scenes, chain effects, or ending impacts..."
+            placeholder={content.search.placeholder}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-slate-200 text-sm placeholder:text-slate-500 focus:outline-none focus:border-violet-500 transition-colors"
@@ -89,7 +78,7 @@ export default function ChoicesPage() {
               onClick={() => setSearch('')}
               className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300 text-sm"
             >
-              Clear
+              {content.search.clearLabel}
             </button>
           )}
         </div>
@@ -98,7 +87,7 @@ export default function ChoicesPage() {
         <section>
           {filteredChoices.length === 0 ? (
             <p className="text-slate-500 text-center py-12">
-              No choices match your search. Try a different episode tab or keyword.
+              {content.noResults}
             </p>
           ) : (
             <div className="space-y-6">
@@ -113,7 +102,7 @@ export default function ChoicesPage() {
                     </span>
                     {choice.relationshipDetail && (
                       <span className="text-xs text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded">
-                        Relationship
+                        {content.relationshipLabel}
                       </span>
                     )}
                   </div>
@@ -146,27 +135,27 @@ export default function ChoicesPage() {
         {/* Ending Lockout Matrix */}
         <section className="pt-8 border-t border-slate-800">
           <h2 className="text-2xl font-bold text-slate-100 mb-2">
-            Ending Lockout Matrix
+            {content.lockout.heading}
           </h2>
           <p className="text-slate-400 text-sm mb-6">
-            One wrong pick in these choices permanently locks certain endings or trophies. Plan your route — or follow the{' '}
-            <a href="/walkthrough" className="text-violet-400 hover:underline">
-              full walkthrough
-            </a>{' '}
-            episode by episode to see each choice in context.
+            <RichText text={content.lockout.intro} />
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="border-b border-slate-700 text-left">
-                  <th className="py-3 pr-4 text-slate-400 font-medium w-16">EP</th>
-                  <th className="py-3 pr-4 text-slate-400 font-medium">Choice</th>
-                  <th className="py-3 pr-4 text-slate-400 font-medium">Wrong Pick</th>
-                  <th className="py-3 text-slate-400 font-medium">Consequence</th>
+                  {content.lockout.headers.map((header, i) => (
+                    <th
+                      key={i}
+                      className={`py-3 text-slate-400 font-medium ${i === 0 ? 'w-16 ' : ''}${i < content.lockout.headers.length - 1 ? 'pr-4' : ''}`}
+                    >
+                      {header}
+                    </th>
+                  ))}
                 </tr>
               </thead>
               <tbody className="text-slate-300">
-                {endingLockouts.map((lock, i) => {
+                {content.lockout.rows.map((lock, i) => {
                   const choice = choices.find((c) => c.id === lock.choice);
                   return (
                     <tr key={i} className="border-b border-slate-800 hover:bg-slate-800/30">
@@ -184,7 +173,7 @@ export default function ChoicesPage() {
 
         {/* Interactive Tree */}
         <section className="pt-8 border-t border-slate-800">
-          <ChoiceTree />
+          <ChoiceTree copy={content.tree} />
         </section>
       </div>
     </>
