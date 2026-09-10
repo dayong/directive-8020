@@ -1,7 +1,8 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import Link from 'next/link';
+import Link from '@/components/ui/LocaleLink';
+import { stripLocalePrefix } from '@/i18n/config';
 import { episodes } from '@/data/episodes';
 import { characters } from '@/data/characters';
 
@@ -35,7 +36,7 @@ function lookupDynamic(seg: string, parentSeg?: string): string {
 
 export default function Breadcrumbs() {
   const pathname = usePathname();
-  const segments = pathname.split('/').filter(Boolean);
+  const segments = stripLocalePrefix(pathname).split('/').filter(Boolean);
 
   if (segments.length === 0) return null;
 

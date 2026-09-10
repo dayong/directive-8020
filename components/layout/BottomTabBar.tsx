@@ -1,7 +1,8 @@
 'use client';
 
-import Link from 'next/link';
+import Link from '@/components/ui/LocaleLink';
 import { usePathname } from 'next/navigation';
+import { stripLocalePrefix } from '@/i18n/config';
 
 const tabs = [
   { href: '/walkthrough', label: 'Guide', icon: '📖' },
@@ -13,7 +14,7 @@ const tabs = [
 ];
 
 export default function BottomTabBar() {
-  const pathname = usePathname();
+  const pathname = stripLocalePrefix(usePathname());
 
   return (
     <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur border-t border-slate-800 safe-area-bottom">

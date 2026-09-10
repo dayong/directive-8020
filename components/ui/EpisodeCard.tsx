@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/ui/LocaleLink';
 import type { Episode } from '@/types';
 
 export default function EpisodeCard({ episode }: { episode: Episode }) {

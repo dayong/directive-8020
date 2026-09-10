@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/ui/LocaleLink';
 import type { CtaContent } from '@/types/content-pages';
 
 const variantClasses: Record<CtaContent['links'][number]['variant'], string> = {

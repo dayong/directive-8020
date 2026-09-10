@@ -1,0 +1,32 @@
+import { HeroSection } from '@/components/content/HeroSection';
+import { SectionBlocks } from '@/components/content/SectionBlocks';
+import { RichText } from '@/components/ui/RichText';
+import type { EiseleContent } from '@/types/content-pages';
+
+
+export default function EiseleView({ content }: { content: EiseleContent }) {
+  return (
+    <>
+      <HeroSection hero={content.hero} />
+
+      <div className="max-w-3xl mx-auto px-4 py-12 mdx-content">
+        <p>
+          <RichText text={content.intro} />
+        </p>
+
+        {content.sections.map((section, i) => (
+          <section key={i}>
+            <h2>{section.heading}</h2>
+            <SectionBlocks blocks={section.blocks} />
+          </section>
+        ))}
+
+        <div className="mt-8 pt-8 border-t border-slate-800 space-y-4">
+          <p>
+            <RichText text={content.outro} />
+          </p>
+        </div>
+      </div>
+    </>
+  );
+}
