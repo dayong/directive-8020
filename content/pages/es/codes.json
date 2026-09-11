@@ -31,7 +31,7 @@
       "location": "Sala de almacenamiento de comida",
       "episode": "Episodio 3 — The Sample",
       "code": "0402",
-      "how": "Durante el registro del comedor, usa la Wedge Tool para abrir la única sala lateral accesible con cuña del rincón del fondo. Al salir, mira el marco de la puerta: una nota manuscrita da el código. Introdúcelo en el teclado de la despensa de la cocina para revelar un secreto de lore."
+      "how": "Mientras registras el comedor, usa la Wedge Tool para abrir la única sala lateral accesible con esta herramienta en el rincón del fondo. Al salir, mira el marco de la puerta: una nota manuscrita da el código. Introdúcelo en el teclado de la despensa de la cocina para revelar un secreto de lore."
     },
     {
       "location": "Síntesis de diazepam",
@@ -57,7 +57,7 @@
     "heading": "¿Directive 8020 tiene trucos?",
     "intro": "**No.** Directive 8020 no tiene trucos ni comandos de consola. Si quieres una partida más fácil, tus opciones legítimas son:",
     "items": [
-      "**Modo Explorer** — tiempos de QTE más generosos y avisos más claros de las decisiones peligrosas",
+      "**Modo Explorador** — tiempos de QTE más generosos y avisos más claros de las decisiones peligrosas",
       "**Puntos de inflexión** — retrocede a cualquier decisión importante desde la selección de capítulos para corregir errores sin repetir toda la partida",
       "La [guía completa paso a paso](/walkthrough) — todas las decisiones y consecuencias, episodio a episodio"
     ]

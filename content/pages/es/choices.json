@@ -51,7 +51,7 @@
       {
         "choice": "e6-two-eiseles",
         "ep": 6,
-        "badPick": "Confiar en el Eisele equivocado",
+        "badPick": "Confiar en la Eisele equivocada",
         "consequence": "IRREVERSIBLE: final verdadero bloqueado para siempre. Sin solución."
       },
       {

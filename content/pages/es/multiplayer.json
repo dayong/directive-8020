@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Sí, pero solo en local de lanzamiento. El modo **Movie Night** admite hasta **5 jugadores** que se pasan un mismo mando en una sola pantalla. Todavía no hay multijugador online."
+          "text": "Sí, pero solo en modo local en el lanzamiento. El modo **Movie Night** admite hasta **5 jugadores** que se pasan un mismo mando en una sola pantalla. Todavía no hay multijugador online."
         }
       ]
     },
@@ -50,7 +50,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "**No: en Directive 8020 no hay pantalla dividida.** Movie Night es un **modo por turnos en una sola pantalla**: todos ven la misma pantalla y el mando pasa a quien tenga su personaje en la escena. El juego te avisa con el nombre del jugador cuando es su turno. Piensa en pasarse el mando como en un juego de fiesta, no en dos mitades de una TV."
+          "text": "**No: en Directive 8020 no hay pantalla dividida.** Movie Night es un **modo por turnos en una sola pantalla**: todos ven la misma pantalla y el mando pasa a quien tenga su personaje en la escena. El juego te avisa con el nombre del jugador cuando es su turno. Piénsalo como pasar el mando en un juego de fiesta, no como partir la tele en dos."
         },
         {
           "type": "paragraph",
@@ -151,7 +151,7 @@
   "faqs": [
     {
       "q": "¿Directive 8020 es multijugador?",
-      "a": "Sí, pero solo en local de lanzamiento. El modo Movie Night admite hasta 5 jugadores que se pasan un mismo mando en una sola pantalla. Todavía no hay multijugador online."
+      "a": "Sí, pero solo en modo local en el lanzamiento. El modo Movie Night admite hasta 5 jugadores que se pasan un mismo mando en una sola pantalla. Todavía no hay multijugador online."
     },
     {
       "q": "¿Directive 8020 tiene pantalla dividida?",

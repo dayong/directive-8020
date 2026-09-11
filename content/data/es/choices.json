@@ -8,7 +8,7 @@
         "label": "Sellar la brecha",
         "text": "Tómate el tiempo de sellar bien la brecha en el casco antes de continuar.",
         "consequence": "La relación con la tripulación mejora. Progreso más lento, pero un resultado más seguro.",
-        "chainEffect": "Ninguna — decisión solo inmediata. Sellar genera buena voluntad que se acumula con decisiones posteriores favorables a Stafford.",
+        "chainEffect": "Ninguna — solo tiene efecto inmediato. Sellar genera buena voluntad que se acumula con decisiones posteriores favorables a Stafford.",
         "endingImpact": "Ninguna directamente, pero la relación ganada da un margen de seguridad para futuras pruebas de confianza."
       },
       {
@@ -155,7 +155,7 @@
   },
   "e3-cernan-trust": {
     "scene": "Bodega de carga (Cernan jugable)",
-    "description": "Cernan se encuentra algo inusual en la bodega de carga.",
+    "description": "Cernan encuentra algo inusual en la bodega de carga.",
     "relationshipDetail": "Establece la fiabilidad de Cernan. Informar = un Ep7 más seguro. Investigar = sigilo más difícil en el Ep7.",
     "options": [
       {
@@ -171,7 +171,7 @@
         "text": "Comprueba qué es por tu cuenta antes de dar la alarma.",
         "consequence": "Peligroso, pero aporta más información. Cernan puede resultar herido.",
         "chainEffect": "Investigar = la sección de geociencias del Ep7 se vuelve más difícil. Más enemigos, patrullas más largas. Se puede sobrevivir, pero el margen es más estrecho.",
-        "endingImpact": "Aumenta el riesgo de perder a Cernan en el Ep7. Una sola muerte puede encadenar finales peores."
+        "endingImpact": "Aumenta el riesgo de perder a Cernan en el Ep7. Una sola muerte puede desembocar en finales peores."
       }
     ]
   },
@@ -203,8 +203,8 @@
     "options": [
       {
         "label": "Ponerse del lado de Stafford",
-        "text": "Está de acuerdo con el enfoque táctico de Stafford.",
-        "consequence": "La relación con Stafford mejora. Eisele se siente apartado.",
+        "text": "Muéstrate de acuerdo con el enfoque táctico de Stafford.",
+        "consequence": "La relación con Stafford mejora. Eisele se siente apartada.",
         "characterEffect": "Stafford + / Eisele -",
         "chainEffect": "Se refuerza la autoridad de Stafford, pero la relación con Eisele se resiente. La escena del laboratorio del Ep5 es más difícil: Eisele se muestra menos colaboradora.",
         "endingImpact": "Empuja a Eisele hacia el final Scientist. Se puede equilibrar con decisiones del Ep5."
@@ -285,7 +285,7 @@
     ]
   },
   "e5-point-blank": {
-    "scene": "A quemarropa — Confrontación con Williams",
+    "scene": "Point Blank — Confrontación con Williams",
     "description": "Williams queda al descubierto como un doble. ¿Cómo respondes durante la transformación?",
     "relationshipDetail": "Depende del sedante. Con sedante = lo mejor es Bajar el arma. Sin sedante = disparar es más seguro.",
     "options": [
@@ -357,17 +357,17 @@
     "options": [
       {
         "label": "Confiar en el RECIÉN LLEGADO (llega por separado)",
-        "text": "Confía en el RECIÉN LLEGADO: el Eisele que llega por separado",
-        "consequence": "El Eisele real sobrevive. Se mantiene el camino del mejor final. El final verdadero sigue siendo posible.",
+        "text": "Confía en la RECIÉN LLEGADA: la Eisele que llega por separado",
+        "consequence": "La Eisele real sobrevive. Se mantiene el camino del mejor final. El final verdadero sigue siendo posible.",
         "characterEffect": "Eisele sobrevive — camino al final verdadero abierto",
-        "chainEffect": "Se identifica al Eisele real → el Ep7 continúa con el Eisele auténtico → la decisión del final verdadero queda disponible en el Ep8.",
+        "chainEffect": "Se identifica a la Eisele real → el Ep7 continúa con la Eisele auténtica → la decisión del final verdadero queda disponible en el Ep8.",
         "endingImpact": "LA llave para Eisele the Humanitarian (FINAL VERDADERO). Si fallas, el final verdadero queda bloqueado para siempre."
       },
       {
         "label": "Confiar en el que ya estaba con el grupo",
         "text": "Confía en el que ya estaba con el grupo",
-        "consequence": "El Eisele real muere. Quedas fuera del mejor final para siempre.",
-        "chainEffect": "El Eisele falso se infiltra → el Ep7-8 continúa con el doble → el final verdadero queda NO DISPONIBLE para siempre, sin importar las demás decisiones.",
+        "consequence": "La Eisele real muere. Quedas fuera del mejor final para siempre.",
+        "chainEffect": "La Eisele falsa se infiltra → el Ep7-8 continúa con el doble → el final verdadero queda NO DISPONIBLE para siempre, sin importar las demás decisiones.",
         "endingImpact": "IRREVERSIBLE. Bloquea Eisele the Humanitarian para siempre. Solo Homeward Bound o Game Over."
       }
     ]
@@ -375,7 +375,7 @@
   "e6-outdoor-junction": {
     "scene": "Cruce exterior — ⚠ Punto de no retorno",
     "description": "Elige una dirección en el exterior. El juego NO te avisa: la izquierda es un punto de no retorno.",
-    "relationshipDetail": "La trampa de la «cala». Bifurcación sin señalizar. Izquierda = Anders muere. Derecha = Anders vive.",
+    "relationshipDetail": "La trampa del «cove». Bifurcación sin señalizar. Izquierda = Anders muere. Derecha = Anders vive.",
     "options": [
       {
         "label": "Gira a la DERECHA (quédate fuera)",
@@ -426,7 +426,7 @@
         "consequence": "Final verdadero. Eisele difunde la verdad a la humanidad. El ciclo termina.",
         "characterEffect": "Eisele: Destiny The Humanitarian — Final verdadero",
         "chainEffect": "Exponer → final Eisele the Humanitarian → difusión de la verdad → Cycle 13 termina → créditos con los 5 supervivientes.",
-        "endingImpact": "Desbloquea Eisele the Humanitarian (FINAL VERDADERO). Requiere al Eisele real en el Ep6 + todas las decisiones favorables a Eisele. El final de platino."
+        "endingImpact": "Desbloquea Eisele the Humanitarian (FINAL VERDADERO). Requiere a la Eisele real en el Ep6 + todas las decisiones favorables a Eisele. El final de platino."
       },
       {
         "label": "Proteger la misión",
@@ -468,7 +468,7 @@
         "text": "Abre la puerta: es el verdadero Mitchell.",
         "consequence": "Mitchell se une al grupo. Es real, siempre que lo hayas salvado en el Ep5.",
         "chainEffect": "Mitchell vivo todo el tiempo → apoyo en el final del Ep8 → un superviviente más para el cálculo del final.",
-        "endingImpact": "Requerido para el logro Mitchell and Anders Survived. Mejora el recuento de supervivientes del final."
+        "endingImpact": "Requerido para el trofeo Mitchell and Anders Survived. Mejora el recuento de supervivientes del final."
       },
       {
         "label": "No abrir la puerta",

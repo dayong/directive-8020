@@ -201,11 +201,11 @@ const en: UiStrings = {
 
 const es: UiStrings = {
   layoutMeta: {
-    defaultTitle: 'Guía de Directive 8020 | Walkthrough completo',
+    defaultTitle: 'Directive 8020: guía completa, finales y trofeos',
     titleTemplate: '%s | Guía de Directive 8020',
     description:
-      'Walkthrough completo de The Dark Pictures Anthology: Directive 8020: salva a todos, todos los finales, decisiones, trofeos y consejos de supervivencia.',
-    ogTitle: 'Guía de Directive 8020 | Walkthrough completo',
+      'Guía completa de The Dark Pictures Anthology: Directive 8020 — salva a todos, los 10 finales, decisiones, trofeos y consejos de supervivencia.',
+    ogTitle: 'Directive 8020: guía completa, finales y trofeos',
     ogDescription:
       'Guía paso a paso de Directive 8020. Salva a toda la tripulación, desbloquea todos los finales y domina cada decisión.',
     jsonLdDescription:
@@ -298,7 +298,7 @@ const es: UiStrings = {
     survivors: 'Supervivientes:',
     turningPoint: 'Punto de inflexión:',
   },
-  characterBadge: { scriptedDeath: 'Muerte guionizada', deceased: 'Fallecido' },
+  characterBadge: { scriptedDeath: 'Muerte guionizada', deceased: 'Sin vida' },
   charactersView: {
     actor: 'Actor: ',
     canSurvive: 'Puede sobrevivir',

@@ -43,8 +43,8 @@
         "text": "PERDIBLE: prepara el sedante en el laboratorio antes de irte. Rescata a Mitchell y a Anders del incendio. Anima a Stafford para desbloquear el Destiny The Father."
       },
       {
-        "name": "Episodio 6 — Confía en el Eisele recién llegado y gira a la DERECHA fuera",
-        "text": "La decisión más crítica: confía en el Eisele RECIÉN LLEGADO. Gira a la DERECHA en el cruce exterior (no hacia la cueva). Escapa del reactor antes de la fusión del núcleo."
+        "name": "Episodio 6 — Confía en la Eisele recién llegada y gira a la DERECHA en el cruce exterior",
+        "text": "La decisión más crítica: confía en la Eisele RECIÉN LLEGADA. Gira a la DERECHA en el cruce exterior (no hacia la cueva). Escapa del reactor antes de la fusión del núcleo."
       },
       {
         "name": "Episodios 7 y 8 — Expón el programa de clones",
@@ -67,7 +67,7 @@
     "e6-two-eiseles": {
       "type": "critical",
       "text": "🔑 La decisión más crítica del juego",
-      "tip": "Observa sus animaciones de miedo cuando les apuntas con el arma. La reacción del recién llegado parece genuinamente humana y asustada. Los movimientos del otro son sutilmente antinaturales."
+      "tip": "Observa sus animaciones de miedo cuando les apuntas con el arma. La reacción de la recién llegada parece genuinamente humana y asustada. Los movimientos de la otra son sutilmente antinaturales."
     },
     "e6-outdoor-junction": {
       "type": "missable",
