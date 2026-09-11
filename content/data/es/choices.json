@@ -9,7 +9,7 @@
         "text": "Tómate el tiempo de sellar bien la brecha en el casco antes de continuar.",
         "consequence": "La relación con la tripulación mejora. Progreso más lento, pero un resultado más seguro.",
         "chainEffect": "Ninguna — decisión solo inmediata. Sellar genera buena voluntad que se acumula con decisiones posteriores favorables a Stafford.",
-        "endingImpact": "Ninguna directamente, pero la relación ganada da un margen de seguridad para futuras comprobaciones de confianza."
+        "endingImpact": "Ninguna directamente, pero la relación ganada da un margen de seguridad para futuras pruebas de confianza."
       },
       {
         "label": "Evacuar de inmediato",
@@ -39,7 +39,7 @@
         "text": "Suplica a Stafford que vea las cosas a tu manera.",
         "consequence": "Sin beneficio significativo. Stafford te ve débil bajo presión.",
         "characterEffect": "Stafford -",
-        "chainEffect": "Modificador permanente de -1 en la confianza de Stafford. Hace la comprobación de Destiny del Ep5 mucho más difícil, incluso con buenas decisiones posteriores.",
+        "chainEffect": "Modificador permanente de -1 en la confianza de Stafford. Hace la prueba de Destiny del Ep5 mucho más difícil, incluso con buenas decisiones posteriores.",
         "endingImpact": "Reduce drásticamente la probabilidad de desbloquear el Destiny The Father. Exige que todas las demás decisiones con Stafford sean perfectas para compensar."
       }
     ]
@@ -301,7 +301,7 @@
         "label": "Dispara",
         "text": "Dispara",
         "consequence": "El doble de Williams queda eliminado al instante. Limpio, pero pierdes un trofeo opcional.",
-        "chainEffect": "Disparar = Williams muere → pierdes la información del Ep7 → una comprobación de diálogo del Ep7 se vuelve más difícil. Trofeo bloqueado.",
+        "chainEffect": "Disparar = Williams muere → pierdes la información del Ep7 → una prueba de diálogo del Ep7 se vuelve más difícil. Trofeo bloqueado.",
         "endingImpact": "Bloquea el trofeo Sedate Williams. Reduce ligeramente la calidad del Ep7-8."
       }
     ]
