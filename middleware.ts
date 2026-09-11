@@ -7,11 +7,13 @@ export default function middleware(request: NextRequest) {
 
   if (isLocale(first)) {
     // Prefixed non-default locales render as-is; /en/* canonicalizes to unprefixed.
+    // 308: the redirect is permanent, so search engines consolidate /en/* with
+    // the canonical URL instead of treating it as temporary.
     if (first !== defaultLocale) return NextResponse.next();
     const url = request.nextUrl.clone();
     const rest = pathname.slice(first.length + 1);
     url.pathname = rest === '' ? '/' : rest;
-    return NextResponse.redirect(url);
+    return NextResponse.redirect(url, 308);
   }
 
   const url = request.nextUrl.clone();
