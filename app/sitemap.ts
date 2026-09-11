@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import { execSync } from 'child_process';
 import { getAllEpisodeSlugs } from '@/lib/mdx';
 import { characters } from '@/data/characters';
 import { defaultLocale, hreflangTag, type Locale } from '@/i18n/config';
@@ -6,18 +7,56 @@ import { getAvailableLocales } from '@/lib/content';
 
 const BASE_URL = 'https://directive-8020.com';
 
+type DataDomain = 'characters' | 'choices' | 'endings' | 'episodes' | 'trophies';
+
 interface Page {
   path: string;
   contentSlug: string;
   changeFrequency: 'weekly' | 'monthly' | 'yearly';
   priority: number;
+  /** Shared data feeds (base ts + locale overlay) this page renders. */
+  data?: DataDomain[];
+  extraFiles?: (locale: Locale) => string[];
+}
+
+// Latest commit date per source file, read from git once per build. lastmod is
+// derived from when a page's own content actually changed, not from build
+// time, so Google keeps trusting the field. Missing git (non-checkout builds)
+// yields no lastmod at all rather than a wrong one.
+function contentDates(): Map<string, string> {
+  const dates = new Map<string, string>();
+  try {
+    const log = execSync('git log --pretty=format:@@%cI --name-only -- content data', {
+      cwd: process.cwd(),
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    });
+    let current = '';
+    for (const line of log.split('\n')) {
+      const trimmed = line.trim();
+      if (trimmed.startsWith('@@')) current = trimmed.slice(2);
+      else if (trimmed && current && !dates.has(trimmed)) dates.set(trimmed, current);
+    }
+  } catch {
+    // git unavailable — omit lastModified everywhere
+  }
+  return dates;
+}
+
+function lastModifiedFor(files: string[], dates: Map<string, string>): string | undefined {
+  let best: string | undefined;
+  for (const file of files) {
+    const date = dates.get(file);
+    if (date && (!best || Date.parse(date) > Date.parse(best))) best = date;
+  }
+  return best;
 }
 
 function urlFor(path: string, locale: Locale) {
   return locale === defaultLocale ? `${BASE_URL}${path}` : `${BASE_URL}/${locale}${path}`;
 }
 
-function localizedEntries(page: Page): MetadataRoute.Sitemap {
+function localizedEntries(page: Page, dates: Map<string, string>): MetadataRoute.Sitemap {
   const available = getAvailableLocales(page.contentSlug);
 
   // Alternates appear only once a page exists in another language, so the
@@ -30,26 +69,38 @@ function localizedEntries(page: Page): MetadataRoute.Sitemap {
         }
       : undefined;
 
-  return available.map((locale) => ({
-    url: urlFor(page.path, locale),
-    lastModified: new Date(),
-    changeFrequency: page.changeFrequency,
-    priority: page.priority,
-    ...(languages ? { alternates: { languages } } : {}),
-  }));
+  return available.map((locale) => {
+    const files = [
+      `content/pages/${locale}/${page.contentSlug}.json`,
+      ...(page.extraFiles?.(locale) ?? []),
+      ...(page.data ?? []).flatMap((domain) => [
+        `content/data/${locale}/${domain}.json`,
+        `data/${domain}.ts`,
+      ]),
+    ];
+    const lastModified = lastModifiedFor(files, dates);
+
+    return {
+      url: urlFor(page.path, locale),
+      ...(lastModified ? { lastModified } : {}),
+      changeFrequency: page.changeFrequency,
+      priority: page.priority,
+      ...(languages ? { alternates: { languages } } : {}),
+    };
+  });
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages: Page[] = [
-    { path: '', contentSlug: 'home', changeFrequency: 'weekly', priority: 1.0 },
-    { path: '/save-everyone', contentSlug: 'save-everyone', changeFrequency: 'weekly', priority: 0.95 },
-    { path: '/all-endings', contentSlug: 'all-endings', changeFrequency: 'weekly', priority: 0.9 },
-    { path: '/walkthrough', contentSlug: 'walkthrough', changeFrequency: 'weekly', priority: 0.9 },
-    { path: '/choices', contentSlug: 'choices', changeFrequency: 'weekly', priority: 0.85 },
-    { path: '/characters', contentSlug: 'characters', changeFrequency: 'monthly', priority: 0.8 },
-    { path: '/trophies', contentSlug: 'trophies', changeFrequency: 'monthly', priority: 0.8 },
-    { path: '/collectibles', contentSlug: 'collectibles', changeFrequency: 'weekly', priority: 0.8 },
-    { path: '/game-length', contentSlug: 'game-length', changeFrequency: 'monthly', priority: 0.7 },
+    { path: '', contentSlug: 'home', changeFrequency: 'weekly', priority: 1.0, data: ['episodes'] },
+    { path: '/save-everyone', contentSlug: 'save-everyone', changeFrequency: 'weekly', priority: 0.95, data: ['choices', 'episodes'] },
+    { path: '/all-endings', contentSlug: 'all-endings', changeFrequency: 'weekly', priority: 0.9, data: ['endings'] },
+    { path: '/walkthrough', contentSlug: 'walkthrough', changeFrequency: 'weekly', priority: 0.9, data: ['episodes'] },
+    { path: '/choices', contentSlug: 'choices', changeFrequency: 'weekly', priority: 0.85, data: ['choices'] },
+    { path: '/characters', contentSlug: 'characters', changeFrequency: 'monthly', priority: 0.8, data: ['characters'] },
+    { path: '/trophies', contentSlug: 'trophies', changeFrequency: 'monthly', priority: 0.8, data: ['trophies'] },
+    { path: '/collectibles', contentSlug: 'collectibles', changeFrequency: 'weekly', priority: 0.8, data: ['episodes'] },
+    { path: '/game-length', contentSlug: 'game-length', changeFrequency: 'monthly', priority: 0.7, data: ['episodes'] },
     { path: '/bug-fixes', contentSlug: 'bug-fixes', changeFrequency: 'weekly', priority: 0.75 },
     { path: '/multiplayer', contentSlug: 'multiplayer', changeFrequency: 'monthly', priority: 0.7 },
     { path: '/directive-8020-cove', contentSlug: 'directive-8020-cove', changeFrequency: 'monthly', priority: 0.65 },
@@ -66,6 +117,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         contentSlug: 'walkthrough-episode',
         changeFrequency: 'weekly',
         priority: 0.85,
+        data: ['episodes'],
+        extraFiles: (locale) => [`content/episodes/${locale}/${slug}.mdx`],
       })
     ),
     ...characters.map(
@@ -74,9 +127,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         contentSlug: 'character-detail',
         changeFrequency: 'monthly',
         priority: 0.7,
+        data: ['characters', 'choices'],
       })
     ),
   ];
 
-  return pages.flatMap(localizedEntries);
+  const dates = contentDates();
+  return pages.flatMap((page) => localizedEntries(page, dates));
 }
