@@ -1,4 +1,5 @@
 import Link from '@/components/ui/LocaleLink';
+import LanguageSwitcher from '@/components/i18n/LanguageSwitcher';
 import { uiStrings } from '@/i18n/ui';
 import type { Locale } from '@/i18n/config';
 
@@ -23,19 +24,23 @@ export default function Header({ locale }: { locale: Locale }) {
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-1">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="px-3 py-2 text-sm text-slate-300 hover:text-violet-400 rounded-lg hover:bg-slate-800/50 transition-colors"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
+        <div className="flex items-center gap-3">
+          <nav className="hidden md:flex items-center gap-1">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="px-3 py-2 text-sm text-slate-300 hover:text-violet-400 rounded-lg hover:bg-slate-800/50 transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+          <LanguageSwitcher />
+        </div>
 
-        {/* Mobile: bottom tab bar handles navigation, header shows logo only */}
+        {/* Mobile: bottom tab bar handles navigation; the header keeps the
+            logo and the language switcher */}
       </div>
     </header>
   );

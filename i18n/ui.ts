@@ -26,6 +26,7 @@ export interface UiStrings {
     crew: string;
     trophies: string;
   };
+  languageSwitcher: { label: string };
   footer: {
     story: string;
     gameplay: string;
@@ -117,6 +118,7 @@ const en: UiStrings = {
     crew: 'Crew',
     trophies: 'Trophies',
   },
+  languageSwitcher: { label: 'Language' },
   footer: {
     story: 'Story',
     gameplay: 'Gameplay',
@@ -226,6 +228,7 @@ const es: UiStrings = {
     crew: 'Tripulación',
     trophies: 'Trofeos',
   },
+  languageSwitcher: { label: 'Idioma' },
   footer: {
     story: 'Historia',
     gameplay: 'Jugabilidad',

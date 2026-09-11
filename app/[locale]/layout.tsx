@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Inter } from 'next/font/google';
-import { defaultLocale, isLocale, locales } from '@/i18n/config';
+import { defaultLocale, isLocale, locales, type Locale } from '@/i18n/config';
 import { uiStrings } from '@/i18n/ui';
 import { getTranslatedPaths } from '@/lib/routes';
 import { LocalePathProvider } from '@/components/i18n/LocalePaths';
@@ -57,6 +57,9 @@ export default function LocaleLayout({
   const umamiUrl =
     process.env.NEXT_PUBLIC_UMAMI_URL || 'https://cloud.umami.is';
   const locale = isLocale(params.locale) ? params.locale : defaultLocale;
+  const translatedPathsByLocale = Object.fromEntries(
+    locales.map((candidate) => [candidate, getTranslatedPaths(candidate)])
+  ) as Record<Locale, string[]>;
 
   return (
     <html lang={params.locale} className={`${inter.variable} h-full antialiased`}>
@@ -82,7 +85,7 @@ export default function LocaleLayout({
             strategy="afterInteractive"
           />
         )}
-        <LocalePathProvider paths={getTranslatedPaths(locale)}>
+        <LocalePathProvider pathsByLocale={translatedPathsByLocale}>
           <Header locale={locale} />
           <Breadcrumbs />
           <main className="flex-1">{children}</main>
