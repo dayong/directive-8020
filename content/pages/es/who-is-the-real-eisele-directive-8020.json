@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "¿Qué Eisele es la real en Directive 8020? Confía en la nueva",
+    "description": "En Directive 8020 la Eisele real es la recién llegada; la conocida es el doble. El detalle de animación que la delata y por qué bloquea el final verdadero.",
+    "ogTitle": "¿Qué Eisele es la real en Directive 8020? Confía en la nueva",
+    "ogDescription": "Guía del enfrentamiento de las dos Eisele del Episodio 6: confía en la recién llegada, nunca en la conocida. El detalle de animación y por qué decide tu final."
+  },
+  "hero": {
+    "h1": "¿Qué Eisele es la real en Directive 8020? Confía en la recién llegada, no en la que conoces",
+    "tagline": "La recién llegada es la Eisele real: nunca confíes en la conocida.",
+    "intro": "La respuesta en una frase, además del detalle de animación que hará que no vuelvas a fallar."
+  },
+  "intro": "La Eisele real es la **recién llegada**: la que aparece por separado durante el enfrentamiento del Episodio 6, no la que ya viajaba con tu grupo. Lo aprendí por las malas en mi primera partida: elegí mal y me bloqueé el final verdadero para siempre. No cometas el mismo error.",
+  "sections": [
+    {
+      "heading": "El enfrentamiento del Ep. 6: cómo saber quién es la Eisele real en Directive 8020",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "El Episodio 6, «Hostile Takeover», es el punto de inflexión de todo el juego, y el enfrentamiento de las dos Eisele es la decisión más importante que tomarás en los ocho capítulos. Tienes delante a dos versiones idénticas de la Dr. Eisele, la oficial científica de la Cassiopeia. Stafford apunta a las dos con el arma. Una es real. La otra es un doble alienígena que la ha replicado a la perfección hasta el nivel celular. Tienes unos quince segundos para decidir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si has estado atento desde el Episodio 1, sabes lo que hace el organismo Growth. Se infiltra, duplica y reemplaza. Lo hizo con Sims. Intentó hacerlo con Williams. Y ahora lleva la cara de Eisele, está a un metro de la auténtica y tú tienes que averiguar cuál es cuál."
+        },
+        {
+          "type": "subheading",
+          "text": "El detalle de animación: cómo detecto yo al doble siempre"
+        },
+        {
+          "type": "paragraph",
+          "text": "He jugado esta escena cuatro veces: dos a ciegas, una para limpiar el platino y otra solo para probar ambos resultados. Esto es exactamente lo que debes mirar cuando Stafford apunta con el arma a cada Eisele:"
+        },
+        {
+          "type": "table",
+          "headers": ["Eisele", "Su comportamiento", "Detalle de animación", "Veredicto"],
+          "rows": [
+            [
+              "**La que ya viajaba con el grupo**",
+              "Su postura defensiva parece ensayada. Demasiado fluida, demasiado controlada: como una actriz interpretando el miedo.",
+              "Su respuesta de miedo es «limpia»: respiración estable, reacciones medidas, ningún sobresalto involuntario.",
+              { "text": "FALSA — Es el doble", "tone": "red" }
+            ],
+            [
+              "**La recién llegada (llega por separado)**",
+              "Se sobresalta de verdad cuando el arma gira hacia ella. Los hombros se le tensan de forma involuntaria. Los ojos siguen el cañón como los de una persona real ante una amenaza real.",
+              "Su miedo es «desordenado»: microsobresaltos, respiración irregular, ese pánico animal y crudo que no se puede fingir.",
+              { "text": "REAL — Confía en esta", "tone": "green" }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La clave es simple: **el miedo humano es feo e involuntario**. El miedo de la Eisele falsa parece el de alguien que ha leído sobre el miedo en un libro de texto. El de la Eisele real parece el de alguien que acaba de darse cuenta de que puede morir en los próximos tres segundos. Confía en el miedo feo. Confía en la recién llegada."
+        },
+        {
+          "type": "subheading",
+          "text": "Decisión clave: ¿en qué Eisele confías?"
+        },
+        {
+          "type": "table",
+          "headers": ["Opción", "Consecuencia", "Qué ocurre"],
+          "rows": [
+            [
+              "**Confiar en la recién llegada** (llega por separado, muestra miedo genuino)",
+              "Identificas a la Eisele real. La ruta hacia el mejor final sigue abierta. El final verdadero (Eisele the Humanitarian) sigue siendo posible.",
+              "Los Episodios 7 y 8 continúan con la Eisele auténtica. Tiene acceso a todos los datos de Corinth. El programa de clones puede exponerse."
+            ],
+            [
+              "**Confiar en la que ya está con el grupo** (miedo ensayado, ya presente)",
+              "La Eisele real muere. El doble se infiltra en la tripulación. El final verdadero queda **bloqueado para siempre**: no hay forma de recuperarlo.",
+              "Los Episodios 7 y 8 continúan con una Eisele falsa que sabotea el intento de sonda de la Caribdus y filtra información falsa. Homeward Bound o Game Over son ya tus únicos finales."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No hay una tercera opción. No hay «esperar a ver qué pasa». Eliges, y el juego se compromete. Yo elegí mal en mi primera partida: confié en la Eisele «conocida» porque había estado conmigo todo el juego y me daba seguridad, y pasé las siguientes dos horas de juego dándome cuenta poco a poco de que el final verdadero ya no estaba sobre la mesa."
+        }
+      ]
+    },
+    {
+      "heading": "Por qué el juego lo pone tan difícil",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Supermassive diseñó este momento para explotar lo que los psicólogos llaman la «heurística de familiaridad»: la tendencia de tu cerebro a confiar en lo que reconoce. La Eisele que ha estado con el grupo todo el juego *parece* la real porque te resulta familiar. Tiene la misma voz, la misma cara y los mismos gestos que llevas viendo seis episodios. Tiene que ser la real, ¿no?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Error. La imitación es perfecta. Todo lo que reconoces de ella (cada recuerdo, cada interacción) está al alcance de Growth. Absorbió los datos de la tripulación real de los registros de la nave, los escáneres biométricos y los archivos del propio programa de clones de Corinth. Conoce a Eisele mejor que la propia Eisele."
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Lo único que el doble no puede replicar a la perfección? **La respuesta involuntaria de miedo.** El sistema nervioso autónomo, eso que hace que los hombros se te levanten cuando alguien te sorprende, no se traduce con la imitación. El miedo de la Eisele falsa es una actuación. El de la Eisele real es un reflejo. Ese es el detalle que la delata."
+        }
+      ]
+    },
+    {
+      "heading": "El contexto de los clones: por qué Eisele importa tanto",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Si has llegado al Episodio 6 sin leer todos los registros y grabaciones, aquí tienes el trasfondo clave: la tripulación son clones. Forman parte del **Cycle 13**, un programa corporativo de la Corinth Corporation que lleva enviando tripulaciones de clones a Tau Ceti F una y otra vez. Todos los ciclos anteriores terminaron igual: Growth acabó con todos, Corinth analizó los datos y envió un lote nuevo de clones con recuerdos fabricados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eisele es el único miembro de la tripulación con acceso al archivo de datos de Corinth. Es quien puede exponer el programa de clones o enterrarlo para siempre. La Eisele real, enfrentada a la verdad de lo que es, puede elegir difundirla a la humanidad, y ese es el final verdadero **Eisele the Humanitarian**. La Eisele falsa no tiene ese arco. Es una herramienta de Growth y llevará a la tripulación hacia la extinción."
+        },
+        {
+          "type": "paragraph",
+          "text": "Por eso acertar esta única decisión importa más que todas las demás del juego juntas. No se trata de mantener viva a un personaje: puedes mantener viva a Eisele cometiendo muchos errores. Se trata de *cuál* Eisele mantienes viva y de lo que es capaz de hacer en los dos episodios finales."
+        }
+      ]
+    },
+    {
+      "heading": "No cometas el mismo error que yo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En mi primera partida confié en la Eisele conocida porque la recién llegada apareció en plena crisis y mi cerebro la marcó como sospechosa. No me fijé en las animaciones. No sabía que debía fijarme. Me dejé llevar por el instinto, y el instinto se equivocó."
+        },
+        {
+          "type": "paragraph",
+          "text": "En mi segunda partida vi las respuestas de miedo de las dos Eisele una al lado de la otra, y la diferencia era imposible de dejar de ver. La recién llegada se sobresalta. La conocida... actúa. Cuando sabes qué buscar, no vuelves a fallar."
+        }
+      ]
+    },
+    {
+      "heading": "Resumen rápido en lista",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Confía en la Eisele RECIÉN LLEGADA**: la que llega por separado, no la que ya estaba con el grupo",
+            "**Fíjate en sus animaciones de miedo**: un sobresalto involuntario genuino = real; una reacción controlada y fluida = falsa",
+            "**Esta decisión es irreversible**: ningún Punto de inflexión puede deshacerla sin repetir el episodio entero",
+            "**Acertar aquí es obligatorio para el final verdadero**: Eisele the Humanitarian está bloqueado tras la supervivencia de la Eisele real",
+            "**Gira a la DERECHA en el cruce exterior al principio del Episodio 6**: mantén vivo a Anders para que esté disponible en los Ep. 7 y 8"
+          ]
+        }
+      ]
+    }
+  ],
+  "outro": "¿Necesitas el desglose escena a escena del resto del capítulo? Consulta la [guía paso a paso del Episodio 6](/walkthrough/episode-6). ¿Perdiste a Anders en el cruce exterior antes de esta escena? La [guía de la decisión del cove](/directive-8020-cove) explica exactamente cómo arreglarlo. ¿Vas a por el mejor resultado posible? La [guía para salvar a todos](/save-everyone) sigue cada requisito previo en los ocho episodios."
+}

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Política de privacidad",
+    "description": "Política de privacidad de directive-8020.com: cómo recopilamos, usamos y protegemos tus datos.",
+    "ogTitle": "Política de privacidad | Guía Directive 8020",
+    "ogDescription": "Nuestra política de privacidad: Google Analytics, Umami, cookies y divulgación de enlaces de afiliados."
+  },
+  "hero": {
+    "h1": "Política de privacidad",
+    "intro": "Última actualización: 24 de mayo de 2026"
+  },
+  "sections": [
+    {
+      "heading": "1. Información que recopilamos",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Datos recopilados automáticamente"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando visitas directive-8020.com, recopilamos automáticamente cierta información a través de servicios de analítica:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Google Analytics (GA4):** Usamos Google Analytics para entender cómo los visitantes usan nuestro sitio. Este servicio recopila información como tu dirección IP, el tipo de navegador, datos del dispositivo, las páginas visitadas, el tiempo en cada página y las URLs de referencia. Google Analytics utiliza cookies para ello. Puedes desactivar el seguimiento de Google Analytics instalando el [complemento de inhabilitación para navegadores de Google Analytics](https://tools.google.com/dlpage/gaoptout).",
+            "**Umami Analytics:** También podemos usar Umami, un servicio de analítica centrado en la privacidad que no utiliza cookies ni recopila datos personales. Umami recopila datos de visitas anonimizados, como el referente, el tipo de navegador y el tipo de dispositivo."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Datos que NO recopilamos"
+        },
+        {
+          "type": "paragraph",
+          "text": "directive-8020.com no tiene cuentas de usuario, secciones de comentarios ni formularios de contacto que recopilen información personal. No recopilamos nombres, direcciones de correo electrónico ni ningún dato que permita identificarte personalmente."
+        }
+      ]
+    },
+    {
+      "heading": "2. Cookies",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Google Analytics coloca cookies propias en tu navegador para distinguir usuarios únicos y registrar datos de sesión. Estas cookies no contienen información que permita identificarte personalmente. Puedes desactivar las cookies en la configuración de tu navegador en cualquier momento. Umami Analytics no utiliza cookies."
+        }
+      ]
+    },
+    {
+      "heading": "3. Servicios de terceros",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Usamos los siguientes servicios de terceros, que pueden recopilar datos según sus propias políticas de privacidad:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Google Analytics** — [Política de privacidad de Google](https://policies.google.com/privacy)",
+            "**Cloudflare Pages** (alojamiento) — [Política de privacidad de Cloudflare](https://www.cloudflare.com/privacypolicy/)",
+            "**GitHub** (alojamiento del código) — [Declaración de privacidad de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Divulgación de enlaces de afiliados",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "directive-8020.com puede participar en programas de marketing de afiliados. Esto significa que podemos ganar una comisión si haces clic en ciertos enlaces y realizas una compra. Los enlaces de afiliados no afectan al precio que pagas. Solo recomendamos productos o servicios que creemos que aportan valor a nuestros lectores."
+        }
+      ]
+    },
+    {
+      "heading": "5. Publicidad",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Podemos mostrar anuncios en directive-8020.com a través de Google AdSense o redes publicitarias similares. Estas redes pueden usar cookies para mostrar anuncios personalizados según tu historial de navegación. Puedes desactivar la publicidad personalizada visitando [YourAdChoices](https://optout.aboutads.info/)."
+        }
+      ]
+    },
+    {
+      "heading": "6. Conservación de datos",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Los datos de analítica se conservan según la política de retención de cada servicio. Los datos de Google Analytics se conservan 14 meses de forma predeterminada. No mantenemos bases de datos separadas con información de usuarios."
+        }
+      ]
+    },
+    {
+      "heading": "7. Privacidad de los menores",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "directive-8020.com es una guía de estrategia de videojuegos y no está dirigida a menores de 13 años. No recopilamos a sabiendas información personal de menores. Si crees que hemos recopilado este tipo de información de forma inadvertida, ponte en contacto con nosotros y la eliminaremos lo antes posible."
+        }
+      ]
+    },
+    {
+      "heading": "8. Tus derechos",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Según tu jurisdicción (por ejemplo, en virtud del RGPD en la UE/Reino Unido o la CCPA en California), puedes tener derechos sobre tus datos personales, como el derecho de acceso, supresión u oposición a la recopilación de datos. Como recopilamos datos mínimos mediante analíticas de terceros, la mayoría de estos derechos pueden ejercerse así:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Instalando el complemento de inhabilitación de Google Analytics para el navegador",
+            "Desactivando las cookies en la configuración de tu navegador",
+            "Usando la opción Do Not Track de tu navegador"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9. Cambios en esta política",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Podemos actualizar esta política de privacidad de vez en cuando. Los cambios se publicarán en esta página con la fecha de actualización. Te recomendamos revisar esta política periódicamente."
+        }
+      ]
+    },
+    {
+      "heading": "10. Contacto",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Si tienes preguntas sobre esta política de privacidad, puedes escribirnos a [contact@directive-8020.com](mailto:contact@directive-8020.com)."
+        }
+      ]
+    }
+  ]
+}

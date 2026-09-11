@@ -1,0 +1,52 @@
+{
+  "homeward-bound": {
+    "condition": "Los 5 personajes jugables sobreviven. Se autorizó el arma. Eisele fue identificada correctamente.",
+    "description": "La tripulación de la Cassiopeia destruye con éxito la amenaza alienígena y pone rumbo a la Tierra. Una victoria agridulce con toda la tripulación a bordo.",
+    "survivorCount": "5"
+  },
+  "homeward-bound-massacre": {
+    "condition": "La mayor parte de la tripulación muere, pero la nave llega a la Tierra. 1-2 supervivientes.",
+    "description": "La nave llega a casa, pero a un precio terrible. Quedan pocos miembros de la tripulación para contarlo.",
+    "survivorCount": "1-2"
+  },
+  "homeward-bound-masks-off": {
+    "condition": "El alienígena es identificado y queda al descubierto. La tripulación se une contra la amenaza. 3-4 supervivientes.",
+    "description": "El alienígena queda al descubierto y los miembros restantes de la tripulación trabajan juntos para eliminar la amenaza antes de volver a casa.",
+    "survivorCount": "3-4"
+  },
+  "hitchhiker": {
+    "condition": "El alienígena no es eliminado. La nave llega a la Tierra con la entidad todavía a bordo.",
+    "description": "La Cassiopeia regresa a la Tierra, pero la amenaza alienígena ha sobrevivido y viaja con ellos de vuelta a casa: una bomba de relojería para la humanidad.",
+    "survivorCount": "2-4"
+  },
+  "docked": {
+    "condition": "La nave atraca en una estación espacial en lugar de regresar a la Tierra. La amenaza alienígena queda contenida.",
+    "description": "En lugar de arriesgarse a llevar al alienígena a la Tierra, los supervivientes atracan en una estación remota y envían una señal de cuarentena.",
+    "survivorCount": "3-5"
+  },
+  "docked-not-alone": {
+    "condition": "Final Docked, pero se revela que uno de los miembros de la tripulación está infectado.",
+    "description": "El atraque parece un éxito, pero una revelación de última hora muestra que el alienígena sigue entre la tripulación.",
+    "survivorCount": "2-4"
+  },
+  "game-over": {
+    "condition": "Los 5 personajes jugables mueren durante la historia.",
+    "description": "La amenaza alienígena acaba con toda la tripulación. Nadie sobrevive para advertir a la Tierra.",
+    "survivorCount": "0"
+  },
+  "forever-and-ever": {
+    "condition": "El alienígena toma el control total de la nave. Todos los miembros supervivientes de la tripulación son asimilados.",
+    "description": "La entidad alienígena consume por completo la Cassiopeia y a su tripulación, que vaga por el espacio para siempre como una colmena viviente.",
+    "survivorCount": "0 (asimilados)"
+  },
+  "beacon": {
+    "condition": "La baliza de socorro de la nave se activa antes de que muera toda la tripulación. La Tierra recibe la advertencia.",
+    "description": "Aunque nadie sobrevive, el último acto de la tripulación envía una advertencia a la Tierra sobre la amenaza alienígena.",
+    "survivorCount": "0"
+  },
+  "eisele-humanitarian": {
+    "condition": "Dr. Eisele sobrevive, identifica al doble y elige sacrificar la muestra por el bien común. Todos los demás personajes jugables deben sobrevivir.",
+    "description": "El final verdadero. Eisele elige a la humanidad antes que a la ciencia, destruye la muestra alienígena y garantiza el regreso seguro de la tripulación. La Tierra recibe tanto una advertencia como una cura.",
+    "survivorCount": "5"
+  }
+}

@@ -1,5 +1,6 @@
 import { HeroSection } from '@/components/content/HeroSection';
-import { episodes } from '@/data/episodes';
+import { getEpisodes } from '@/lib/localized-data';
+import type { Locale } from '@/i18n/config';
 import type { CollectiblesContent } from '@/types/content-pages';
 
 
@@ -9,7 +10,14 @@ const typeStyles: Record<string, string> = {
   Document: 'bg-slate-700/40 text-slate-300',
 };
 
-export default function CollectiblesView({ content }: { content: CollectiblesContent }) {
+export default function CollectiblesView({
+  content,
+  locale,
+}: {
+  content: CollectiblesContent;
+  locale: Locale;
+}) {
+  const episodes = getEpisodes(locale);
   const total = content.episodes.reduce((sum, ep) => sum + ep.items.length, 0);
   const hero = {
     ...content.hero,

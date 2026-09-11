@@ -1,0 +1,34 @@
+{
+  "episode-1": {
+    "description": "La tripulación de la Cassiopeia se enfrenta a una repentina brecha en el casco. Osmond asume el mando mientras se desarrollan las primeras decisiones importantes y las muertes guionizadas.",
+    "duration": "~1 hora"
+  },
+  "episode-2": {
+    "description": "Los supervivientes se reagrupan y trazan un plan. La confianza se pone a prueba cuando surgen nuevas amenazas desde dentro de la nave.",
+    "duration": "~1 hora"
+  },
+  "episode-3": {
+    "description": "Se descubre una misteriosa muestra alienígena. Cernan se vuelve jugable por primera vez mientras la tripulación investiga.",
+    "duration": "~1 hora"
+  },
+  "episode-4": {
+    "description": "La amenaza alienígena se propaga. La tripulación debe decidir en quién confiar mientras la paranoia se apodera de todos.",
+    "duration": "~1 hora"
+  },
+  "episode-5": {
+    "description": "Aparece una misteriosa figura conocida como Mr. Williams. Las decisiones clave aquí determinan qué caminos hacia el final siguen abiertos.",
+    "duration": "~1 hora"
+  },
+  "episode-6": {
+    "description": "Aparece el doble de Eisele. La tripulación debe identificar a la verdadera oficial científica antes de que sea demasiado tarde.",
+    "duration": "~1,5 horas"
+  },
+  "episode-7": {
+    "description": "Se revela la verdad que hay detrás de Directive 8020. La tripulación descubre que son clones en Cycle 13 de un programa corporativo, y debe llegar a la sonda Caribdus.",
+    "duration": "~2 horas"
+  },
+  "episode-8": {
+    "description": "El final culminante. Eisele debe elegir entre exponer el programa de clones o proteger los datos científicos. Aquí se desbloquea el final verdadero.",
+    "duration": "~2 horas"
+  }
+}

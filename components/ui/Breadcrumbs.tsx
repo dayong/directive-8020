@@ -2,30 +2,15 @@
 
 import { usePathname } from 'next/navigation';
 import Link from '@/components/ui/LocaleLink';
-import { stripLocalePrefix } from '@/i18n/config';
+import { localeFromPathname, stripLocalePrefix } from '@/i18n/config';
+import { uiStrings } from '@/i18n/ui';
 import { episodes } from '@/data/episodes';
 import { characters } from '@/data/characters';
 
-const labels: Record<string, string> = {
-  '': 'Home',
-  walkthrough: 'Walkthrough',
-  'save-everyone': 'Save Everyone',
-  'all-endings': 'All Endings',
-  choices: 'Choices & Consequences',
-  characters: 'Characters',
-  trophies: 'Trophy Guide',
-  collectibles: 'Collectibles',
-  'game-length': 'Game Length',
-  'bug-fixes': 'Bug Fixes',
-  multiplayer: 'Multiplayer',
-  'directive-8020-cove': 'Cove Guide',
-  'directive-8020-actress': 'Cast & Actresses',
-};
-
-function lookupDynamic(seg: string, parentSeg?: string): string {
+function lookupDynamic(seg: string, format: string, parentSeg?: string): string {
   if (parentSeg === 'walkthrough') {
     const ep = episodes.find((e) => e.slug === seg || e.id === seg);
-    if (ep) return `Ep. ${ep.number}: ${ep.title}`;
+    if (ep) return format.replace('{number}', String(ep.number)).replace('{title}', ep.title);
   }
   if (parentSeg === 'characters') {
     const char = characters.find((c) => c.id === seg);
@@ -36,6 +21,7 @@ function lookupDynamic(seg: string, parentSeg?: string): string {
 
 export default function Breadcrumbs() {
   const pathname = usePathname();
+  const { breadcrumbs } = uiStrings[localeFromPathname(pathname)];
   const segments = stripLocalePrefix(pathname).split('/').filter(Boolean);
 
   if (segments.length === 0) return null;
@@ -45,8 +31,8 @@ export default function Breadcrumbs() {
     const isLast = i === segments.length - 1;
     const parentSeg = i > 0 ? segments[i - 1] : undefined;
     const label =
-      labels[seg] ||
-      lookupDynamic(seg, parentSeg) ||
+      breadcrumbs.labels[seg] ||
+      lookupDynamic(seg, breadcrumbs.episodeFormat, parentSeg) ||
       seg.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 
     return { href, label, isLast };
@@ -57,7 +43,7 @@ export default function Breadcrumbs() {
       <div className="max-w-6xl mx-auto px-4">
         <nav
           className="flex items-center gap-1 py-2.5 text-sm overflow-x-auto whitespace-nowrap"
-          aria-label="Breadcrumb"
+          aria-label={breadcrumbs.ariaLabel}
         >
           {crumbs.map((crumb, i) => (
             <span key={crumb.href} className="flex items-center gap-1 shrink-0">

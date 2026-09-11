@@ -1,15 +1,18 @@
 import Link from '@/components/ui/LocaleLink';
+import { uiStrings } from '@/i18n/ui';
+import type { Locale } from '@/i18n/config';
 
-const navLinks = [
-  { href: '/walkthrough', label: 'Walkthrough' },
-  { href: '/save-everyone', label: 'Save Everyone' },
-  { href: '/all-endings', label: 'All Endings' },
-  { href: '/choices', label: 'Choices' },
-  { href: '/characters', label: 'Characters' },
-  { href: '/trophies', label: 'Trophies' },
-];
+export default function Header({ locale }: { locale: Locale }) {
+  const t = uiStrings[locale].nav;
+  const navLinks = [
+    { href: '/walkthrough', label: t.walkthrough },
+    { href: '/save-everyone', label: t.saveEveryone },
+    { href: '/all-endings', label: t.allEndings },
+    { href: '/choices', label: t.choices },
+    { href: '/characters', label: t.characters },
+    { href: '/trophies', label: t.trophies },
+  ];
 
-export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur border-b border-slate-800">
       <div className="max-w-6xl mx-auto px-4 h-14 md:h-16 flex items-center justify-between">

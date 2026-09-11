@@ -1,10 +1,11 @@
 import Link from '@/components/ui/LocaleLink';
-import { episodes } from '@/data/episodes';
+import { getEpisodes } from '@/lib/localized-data';
 import { CtaSection } from '@/components/content/CtaSection';
 import { FaqSection } from '@/components/content/FaqSection';
 import { HeroSection } from '@/components/content/HeroSection';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/page-seo';
+import type { Locale } from '@/i18n/config';
 import type { GameLengthContent, LengthCardTone } from '@/types/content-pages';
 
 
@@ -14,7 +15,14 @@ const cardClasses: Record<LengthCardTone, { border: string; label: string }> = {
   completion: { border: 'border-amber-700', label: 'text-amber-400' },
 };
 
-export default function GameLengthView({ content }: { content: GameLengthContent }) {
+export default function GameLengthView({
+  content,
+  locale,
+}: {
+  content: GameLengthContent;
+  locale: Locale;
+}) {
+  const episodes = getEpisodes(locale);
   const faqSchema = buildFaqSchema(content.faqs);
   return (
     <>

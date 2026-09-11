@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "Directive 8020 Cove: qué es y cómo sobrevivir",
+    "description": "El sistema de cuevas de Directive 8020 es una de las zonas más confusas del juego. Descubre qué es el cove, qué dirección tomar y cómo mantener vivo a Anders.",
+    "ogTitle": "Cove de Directive 8020: sobrevive y salva a Anders",
+    "ogDescription": "Todo sobre la zona del cove en Directive 8020: el cruce exterior, qué camino tomar y cómo evitar perder a Anders."
+  },
+  "hero": {
+    "h1": "Directive 8020 Cove: entré en la cueva equivocada para que tú no tengas que hacerlo",
+    "intro": "Spoiler: gira a la derecha. Pero esta es la historia completa."
+  },
+  "intro": "Perdí a Anders en mi primera partida. No por un QTE que fallé ni por una decisión de diálogo en la que pensé demasiado: lo perdí porque elegí la dirección equivocada en una bifurcación sin señales, a oscuras, con el contador de la fusión del reactor gritándome encima. Si llegaste aquí buscando **«Directive 8020 cove»**, seguramente te acaba de pasar exactamente lo mismo. Desde entonces he terminado el juego tres veces, lo he platinado y he probado los dos caminos de ese cruce más veces de las que me gustaría admitir. Esto es lo que me habría gustado que alguien me contara antes de enviar a Anders a la muerte sin motivo.",
+  "sections": [
+    {
+      "heading": "¿Qué es exactamente el «cove» de Directive 8020?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "No es una ubicación oficial. No verás «cove» en ningún mapa ni menú del juego. Lo que la comunidad llama el **cove de Directive 8020** es el sistema de cuevas del lado izquierdo del cruce exterior en el Episodio 6: Hostile Takeover. Llegas justo después de escapar del reactor. El camino se bifurca. A la derecha se pasa bajo unas estalactitas, por el exterior de la nave. A la izquierda hay un túnel oscuro de paredes lisas que se ve, y lo digo en serio, exactamente igual que el camino principal que el juego quiere que tomes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es más ancho que el camino de la derecha. Está encuadrado con más protagonismo. Tu vista va allí primero. Y en cuanto entras, la entrada se sella detrás de ti y Anders muere. Sin aviso, sin «¿estás seguro?», sin posibilidad de dar media vuelta. Muerto."
+        },
+        {
+          "type": "paragraph",
+          "text": "El nombre «cove» viene del aspecto de la entrada de la cueva: tiene forma de gruta natural, como una ensenada excavada en la roca. Alguien en Reddit empezó a llamarla así unas 48 horas después del lanzamiento, y el nombre se quedó porque es mucho más fácil de decir que «el sistema de cuevas del camino izquierdo del cruce exterior que mata a Anders»."
+        }
+      ]
+    },
+    {
+      "heading": "Mi primera vez en el cruce: un desastre minuto a minuto",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quiero contarte paso a paso lo que pasó de verdad la primera vez, porque creo que te ayudará a entender por qué este momento hace tropezar a tanta gente."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Episodio 6 ya es estresante de por sí. El reactor se está fundiendo, tienes quizá diez minutos de tiempo en el juego y el juego lleva veinte minutos reales lanzándote QTE sin parar. Por fin sales al exterior. Está oscuro. Todo arde o está a punto de arder. Y de repente aparece esta bifurcación: dos caminos, ninguno señalizado, los dos igual de peligrosos porque es un planeta alienígena y todo parece peligroso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elegí la izquierda porque la entrada de la cueva era más ancha y estaba mejor iluminada. Mi cerebro pensó: camino más grande = camino principal. Esa lógica funciona en básicamente todos los demás juegos que he jugado. Aquí no. En el momento en que entré, la cámara se colocó detrás de mí, la boca del túnel se derrumbó y supe, no por ningún aviso en pantalla sino por ese vacío en el estómago, que acababa de matar a alguien."
+        },
+        {
+          "type": "paragraph",
+          "text": "Anders murió unos noventa segundos después. No hubo ningún QTE para salvarlo. Ninguna intervención de última hora. Solo una cinemática en la que Growth acaba con él mientras yo miraba el mando, genuinamente molesto por lo injusto que se sentía."
+        }
+      ]
+    },
+    {
+      "heading": "Lo que hago diferente ahora (tras tres partidas)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Esta es mi rutina actual para el cruce del cove de Directive 8020. He hecho esta secuencia exacta en el modo Survivor, en el modo Explorer y durante mi partida de limpieza del platino. Funciona siempre."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Pausa en cuanto veas la bifurcación.** Sé que el contador de la fusión avanza, pero tienes mucho más tiempo del que el juego te hace creer. Tómate tres segundos literales para respirar y mirar ambos caminos. La presión del contador es psicológica: la ventana de tiempo real es generosa.",
+            "**Mira hacia arriba en busca de estalactitas.** El camino de la derecha tiene esas formaciones rocosas dentadas colgando de arriba. Son difíciles de pasar por alto en cuanto sabes que están ahí. Ese es tu ancla visual. El camino de la izquierda, el cove, tiene paredes lisas y curvas, sin estalactitas.",
+            "**Gira a la derecha y no mires atrás.** Derecha = exterior = Anders vive. Grábate eso en el cerebro. La cueva de la izquierda es una trampa sin recompensa.",
+            "**Mantén un ritmo constante en el camino de la derecha.** Tienes que seguir avanzando: también hay una secuencia con tiempo límite a la derecha, pero es mucho más indulgente. Eso sí, no te pares a admirar el paisaje."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Ya he matado a Anders. ¿Puedo arreglarlo?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sí, puedes. Y no hace falta rejugar el juego entero."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando termine el Episodio 6 (o al acabar tu partida actual), entra en el menú de selección de capítulos y busca el Punto de inflexión llamado «Outdoor Junction» o «Reactor Escape». Ambos nombres apuntan al mismo punto de control. Cárgalo, toma esta vez el camino de la derecha y juega desde ahí. Anders estará vivo en los Episodios 7 y 8, y las decisiones posteriores a este momento se recalcularán."
+        },
+        {
+          "type": "paragraph",
+          "text": "Algo que aprendí por las malas: si buscas el final verdadero (Eisele the Humanitarian) o el trofeo «Save the Whole Crew», que Anders sobreviva aquí es obligatorio. Cuenta como condición de supervivencia de un NPC, y perderlo reduce tus finales posibles. Tuve que rehacer toda mi partida del platino desde este punto de control exacto porque no me di cuenta de que era tan importante. Aprende de mi error."
+        }
+      ]
+    },
+    {
+      "heading": "¿Merece la pena el camino de la izquierda?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Probé los dos caminos en varias partidas para que tú no tengas que hacerlo. La cueva de la izquierda, el cove de Directive 8020, solo te da una escena de muerte breve y poco memorable para Anders y una frase de diálogo algo distinta de Osmond tras la huida del reactor. Eso es todo. No hay ningún coleccionable escondido ahí dentro. Ni trofeo secreto. Ni rama alternativa de la historia. Ni revelación interesante del lore. Es puro castigo por elegir la dirección equivocada."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si de verdad necesitas ver todas las animaciones de muerte del juego (lo entiendo, con estos juegos de antología soy igual), esto es lo que hago: crea una partida guardada manual justo antes del cruce, toma el camino de la izquierda para ver morir a Anders y luego recarga y toma el derecho para tu partida real. Así te ahorras rehacer un episodio entero solo para saciar la curiosidad."
+        },
+        {
+          "type": "paragraph",
+          "text": "¿La verdad sincera? Este cruce es uno de los pocos momentos realmente injustos de Directive 8020. La mayoría de las muertes de personajes se sienten merecidas: fallaste un QTE, elegiste una opción de diálogo claramente marcada como arriesgada o ignoraste un aviso que el juego te dio tres escenas antes. Esta da la sensación de que el diseñador del nivel tenía un mal día y decidió desquitarse contigo. Así que no te flageles si caíste en ella."
+        }
+      ]
+    }
+  ],
+  "quickAnswers": {
+    "heading": "Cove de Directive 8020: respuestas rápidas",
+    "items": [
+      {
+        "q": "¿El cove es una ubicación oficial de Directive 8020?",
+        "a": "No. Es jerga de la comunidad para la cueva del camino izquierdo en el cruce exterior del Episodio 6. No la encontrarás etiquetada en el juego."
+      },
+      {
+        "q": "¿Puede sobrevivir Anders si entré en la cueva por error?",
+        "a": "No en esa sesión. En cuanto pisas el cove, la muerte de Anders queda fijada. Usa un Punto de inflexión después del episodio para repetir el cruce y toma el camino de la derecha."
+      },
+      {
+        "q": "¿Evitar el cove ayuda a conseguir el mejor final?",
+        "a": "Sin duda. Anders debe sobrevivir para el final verdadero y el trofeo de platino. Girar a la derecha en el cruce lo mantiene vivo y deja abiertas todas tus opciones de final."
+      }
+    ]
+  },
+  "cta": {
+    "text": "¿Necesitas el análisis completo del Episodio 6?",
+    "links": [
+      { "href": "/walkthrough/episode-6", "label": "Guía paso a paso del Episodio 6: Hostile Takeover →", "variant": "primary" }
+    ]
+  }
+}

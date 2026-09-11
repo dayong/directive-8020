@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Directive 8020: códigos y contraseñas — puertas y puzles",
+    "description": "Todos los códigos de Directive 8020 y su ubicación: Vestuario 13576, PC de Carter 0828, Despensa 0402, Diazepam 168, Anomalías 3196 y Sonda Charybdis 2540.",
+    "ogTitle": "Directive 8020: códigos y contraseñas — puertas y puzles",
+    "ogDescription": "Todos los códigos de puertas y teclados de Directive 8020, con las pistas del entorno que revelan cada uno."
+  },
+  "hero": {
+    "h1": "Códigos y contraseñas de Directive 8020",
+    "tagline": "Los 6 códigos de puertas y teclados, con las pistas que revelan cada uno.",
+    "intro": "Los códigos son fijos en todas las partidas. La mayoría desbloquean lore, secretos y coleccionables, no el avance de la historia."
+  },
+  "quickRef": {
+    "heading": "Referencia rápida — todos los códigos",
+    "headers": ["Ubicación", "Episodio", "Código"]
+  },
+  "codes": [
+    {
+      "location": "Vestuario",
+      "episode": "Episodio 2 — Best Laid Plans",
+      "code": "13576",
+      "how": "Sal del vestuario y vuelve al atrio. Sube las escaleras al nivel superior, usa la Utility Strap para abrir la persiana que hay frente al descansillo y vuelve a usar el dispositivo a través de la ventana para desbloquear la puerta. Dentro, la cámara de seguridad (CCTV) muestra el código en pantalla."
+    },
+    {
+      "location": "PC de Carter",
+      "episode": "Episodio 2 — Best Laid Plans",
+      "code": "0828",
+      "how": "Un pósit en el monitor de Carter dice «Luna» con un gorro de fiesta dibujado al lado. Revisa el calendario de la sala contigua: el cumpleaños de Luna es el 28 de agosto. Introduce 0828 (formato de fecha estadounidense); 2808 también funciona en algunas versiones."
+    },
+    {
+      "location": "Sala de almacenamiento de comida",
+      "episode": "Episodio 3 — The Sample",
+      "code": "0402",
+      "how": "Durante el registro del comedor, usa la Wedge Tool para abrir la única sala lateral accesible con cuña del rincón del fondo. Al salir, mira el marco de la puerta: una nota manuscrita da el código. Introdúcelo en el teclado de la despensa de la cocina para revelar un secreto de lore."
+    },
+    {
+      "location": "Síntesis de diazepam",
+      "episode": "Episodio 5 — Mr. Williams",
+      "code": "168",
+      "how": "Relaciona las tres estructuras químicas que muestra la pantalla del diazepam con las etiquetas numeradas del armario: cloruro de cloroacetilo = 1, amoníaco = 6, sulfato de dimetilo = 8."
+    },
+    {
+      "location": "Registro de anomalías",
+      "episode": "Episodio 5 — Mr. Williams",
+      "code": "3196",
+      "how": "Mientras juegas como Cernan en Bridge Ops, cruza la puerta a la derecha del terminal bloqueado y sigue el pasillo hasta la cabina. Una nota junto al asiento del piloto dice «Código del registro de anomalías: CAIF». Convierte las letras a posiciones del alfabeto: C=3, A=1, I=9, F=6."
+    },
+    {
+      "location": "Número de serie de la sonda Charybdis",
+      "episode": "Episodio 7 — Cycle 13",
+      "code": "2540",
+      "how": "El terminal pide el número de serie de la sonda. Inspecciona la parte delantera de la sonda (muestra «2») y la trasera (muestra «40»), lo que da el patrón 2_40. El número de serie completo es 2540."
+    }
+  ],
+  "findHeading": "Cómo encontrar cada código",
+  "cheats": {
+    "heading": "¿Directive 8020 tiene trucos?",
+    "intro": "**No.** Directive 8020 no tiene trucos ni comandos de consola. Si quieres una partida más fácil, tus opciones legítimas son:",
+    "items": [
+      "**Modo Explorer** — tiempos de QTE más generosos y avisos más claros de las decisiones peligrosas",
+      "**Puntos de inflexión** — retrocede a cualquier decisión importante desde la selección de capítulos para corregir errores sin repetir toda la partida",
+      "La [guía completa paso a paso](/walkthrough) — todas las decisiones y consecuencias, episodio a episodio"
+    ]
+  },
+  "cta": {
+    "text": "¿Necesitas el contexto del episodio de un código?",
+    "links": [
+      { "href": "/walkthrough", "label": "Guía completa paso a paso →", "variant": "primary" },
+      { "href": "/collectibles", "label": "Guía de coleccionables →", "variant": "outline" }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Directive 8020: todas las decisiones y consecuencias",
+    "description": "Guía completa de todas las decisiones y consecuencias en Directive 8020, con las opciones recomendadas y cómo afecta cada una al final.",
+    "ogTitle": "Decisiones y consecuencias en Directive 8020",
+    "ogDescription": "Todas las decisiones clave de Directive 8020: opciones recomendadas, consecuencias y su impacto en el final."
+  },
+  "hero": {
+    "h1": "Directive 8020: todas las decisiones y consecuencias",
+    "intro": "Todas las decisiones de todos los episodios, con cada opción explicada a fondo, incluidas las consecuencias tardías que te alcanzan 5 episodios después."
+  },
+  "tabs": {
+    "format": "EP{number}: {title}",
+    "countFormat": "({count})"
+  },
+  "search": {
+    "placeholder": "Busca decisiones, escenas, efectos en cadena o impactos en el final...",
+    "clearLabel": "Borrar"
+  },
+  "noResults": "Ninguna decisión coincide con tu búsqueda. Prueba con otra pestaña de episodio u otra palabra clave.",
+  "relationshipLabel": "Relación",
+  "lockout": {
+    "heading": "Matriz de bloqueo de finales",
+    "intro": "Una elección equivocada en estas decisiones bloquea para siempre ciertos finales o trofeos. Planifica tu ruta o sigue la [guía completa paso a paso](/walkthrough) episodio a episodio para ver cada decisión en contexto.",
+    "headers": ["EP", "Decisión", "Elección incorrecta", "Consecuencia"],
+    "rows": [
+      {
+        "choice": "e1-authorize-weapon",
+        "ep": 1,
+        "badPick": "Rechazar el arma",
+        "consequence": "Bloquea el trofeo Sedate Williams. No hay opción no letal con Williams en el Ep5."
+      },
+      {
+        "choice": "e1-honor-implore",
+        "ep": 1,
+        "badPick": "Suplicar",
+        "consequence": "Debilita la cadena de Destiny de Stafford. Más difícil desbloquear The Father."
+      },
+      {
+        "choice": "e5-sedative",
+        "ep": 5,
+        "badPick": "Saltarse el sedante",
+        "consequence": "Bloquea para siempre el trofeo Sedate Williams. Sin recuperación."
+      },
+      {
+        "choice": "e5-stafford-destiny",
+        "ep": 5,
+        "badPick": "Dejar que Stafford se rinda",
+        "consequence": "Bloquea el Destiny The Father. Peores resultados en el Ep7."
+      },
+      {
+        "choice": "e6-two-eiseles",
+        "ep": 6,
+        "badPick": "Confiar en el Eisele equivocado",
+        "consequence": "IRREVERSIBLE: final verdadero bloqueado para siempre. Sin solución."
+      },
+      {
+        "choice": "e6-outdoor-junction",
+        "ep": 6,
+        "badPick": "Girar a la IZQUIERDA hacia la cueva",
+        "consequence": "Anders muere. Bloquea el trofeo Mitchell & Anders Survived."
+      },
+      {
+        "choice": "e7-eisele-final",
+        "ep": 7,
+        "badPick": "Proteger la misión",
+        "consequence": "Bloquea Eisele the Humanitarian (final verdadero). En su lugar obtienes The Scientist."
+      }
+    ]
+  },
+  "tree": {
+    "heading": "Árbol de decisiones interactivo",
+    "tabFormat": "EP{number} {title}",
+    "bestChoiceLabel": "✓ Mejor elección",
+    "suboptimalLabel": "✗ Subóptima",
+    "consequenceLabel": "Consecuencia:",
+    "progressFormat": "Progreso hacia el mejor final en {title}:",
+    "emptyPath": "Haz tus elecciones arriba para ver la ruta",
+    "onTrack": "✓ ¡En camino hacia el mejor final!",
+    "stepsAwayOneFormat": "A {n} paso de la ruta óptima",
+    "stepsAwayManyFormat": "A {n} pasos de la ruta óptima",
+    "recommendedFormat": "{done}/{total} decisiones recomendadas tomadas",
+    "remainingFormat": "({n} decisiones restantes)"
+  }
+}

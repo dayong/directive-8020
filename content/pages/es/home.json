@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "Directive 8020: Guía completa y todos los finales",
+    "description": "Guía completa de Directive 8020: los 8 episodios, cómo salvar a todos, los 10 finales, trofeos y decisiones. Actualizada para el lanzamiento.",
+    "ogTitle": "Directive 8020: Guía completa paso a paso",
+    "ogDescription": "Guía completa de Directive 8020: los 8 episodios, cómo salvar a todos, los 10 finales, trofeos y decisiones."
+  },
+  "hero": {
+    "titleMain": "DIRECTIVE",
+    "titleAccent": "8020",
+    "subtitle": "The Dark Pictures Anthology — Guía completa",
+    "buttons": [
+      { "href": "/save-everyone", "label": "Salvar a todos", "variant": "primary" },
+      { "href": "/all-endings", "label": "Todos los finales", "variant": "outline" },
+      { "href": "/walkthrough", "label": "Guía completa", "variant": "ghost" }
+    ]
+  },
+  "warning": {
+    "heading": "⚠ Importante: Carter y Simms no se pueden salvar",
+    "text": "Las muertes de Carter y Simms están guionizadas como parte de la historia. No hay decisión ni acción que pueda evitarlas: es intencionado, no un error. Concéntrate en salvar a los otros 5 personajes jugables: Osmond, Stafford, Eisele, Cernan y Cooper."
+  },
+  "quickAccess": {
+    "heading": "Acceso rápido",
+    "tiles": [
+      { "icon": "🎯", "label": "Todas las decisiones y consecuencias", "href": "/choices" },
+      { "icon": "🏆", "label": "Guía del final verdadero", "href": "/all-endings#best-ending" },
+      { "icon": "🗝️", "label": "Todos los códigos y contraseñas", "href": "/codes" },
+      { "icon": "🎭", "label": "Secretos de O Death", "href": "/collectibles" },
+      { "icon": "👥", "label": "Personajes y destinos", "href": "/characters" },
+      { "icon": "🔧", "label": "Errores, cierres y soluciones", "href": "/bug-fixes" }
+    ]
+  },
+  "episodeSection": {
+    "heading": "Guías paso a paso de los episodios"
+  },
+  "truePath": {
+    "heading": "El camino más rápido al final verdadero",
+    "intro": "Tres pasos innegociables: si fallas uno, el final verdadero queda bloqueado:",
+    "steps": [
+      {
+        "title": "Mantén vivos a los 5 personajes principales",
+        "sub": "Osmond · Stafford · Eisele · Cernan · Cooper"
+      },
+      {
+        "title": "Identifica a la verdadera Eisele en el Episodio 6",
+        "sub": "Confía en la recién llegada, no elijas a la conocida"
+      },
+      {
+        "title": "Expón el programa de clones en el Episodio 8",
+        "sub": "Elige «Exponer la verdad»: no protejas la misión"
+      }
+    ],
+    "resultLabel": "Final verdadero desbloqueado:",
+    "result": "Eisele the Humanitarian",
+    "cta": { "href": "/save-everyone", "label": "Guía completa para salvar a todos →", "variant": "primary" }
+  },
+  "moreGuides": {
+    "heading": "Más guías",
+    "cards": [
+      {
+        "icon": "⏱",
+        "kicker": "INFO",
+        "href": "/game-length",
+        "title": "Duración del juego y episodios",
+        "body": "Cuánto tardas en pasarte los 8 episodios, el tiempo para completistas y qué puedes esperar."
+      },
+      {
+        "icon": "🔧",
+        "kicker": "ERRORES",
+        "href": "/bug-fixes",
+        "title": "Fallos y cierres: soluciones",
+        "body": "Soluciona la pantalla negra, los fallos al iniciar, los tirones y los problemas de partida guardada en PC y consola."
+      },
+      {
+        "icon": "👥",
+        "kicker": "COOPERATIVO",
+        "href": "/multiplayer",
+        "title": "Multijugador, pantalla dividida y crossplay",
+        "body": "Cooperativo local Movie Night para 5 jugadores, respuestas sobre pantalla dividida y crossplay."
+      },
+      {
+        "icon": "🎯",
+        "kicker": "DECISIÓN",
+        "href": "/shoot-williams-or-stand-down",
+        "title": "¿Disparar a Williams o bajar el arma?",
+        "body": "La decisión de Point Blank en el Episodio 5: sedante, trofeo y consecuencias en episodios posteriores."
+      },
+      {
+        "icon": "⚠️",
+        "kicker": "SPOILERS",
+        "href": "/can-carter-survive",
+        "title": "¿Puede sobrevivir Carter?",
+        "body": "La muerte de Carter en el Episodio 1 está guionizada: aquí tienes por qué y qué 5 personajes puedes salvar."
+      },
+      {
+        "icon": "⚡",
+        "kicker": "MECÁNICAS",
+        "href": "/directive-8020-skill-checks",
+        "title": "Las pruebas de habilidad, explicadas",
+        "body": "Sin dados ni suerte: QTE, sigilo y pruebas de relación, con todos los ejemplos reales."
+      }
+    ]
+  },
+  "faqHeading": "Preguntas frecuentes",
+  "faqs": [
+    {
+      "q": "¿Puedo salvar a todos en Directive 8020?",
+      "a": "Sí: los 5 personajes jugables (Osmond, Stafford, Eisele, Cernan y Cooper) pueden sobrevivir. Sin embargo, Carter y Simms tienen muertes guionizadas que no se pueden evitar elijas lo que elijas."
+    },
+    {
+      "q": "¿Por qué no se puede salvar a Carter y Simms?",
+      "a": "Las muertes de Carter y Simms están guionizadas como parte de la historia. Sirven como catalizadores narrativos y no dependen de tus decisiones. El juego tiene 5 personajes jugables pero 6 en total, porque el modo cooperativo admite 5 jugadores."
+    },
+    {
+      "q": "¿Cómo desbloqueo el final verdadero?",
+      "a": "El final verdadero, «Eisele the Humanitarian», requiere que los 5 personajes jugables sobrevivan, que identifiques correctamente al doble de Eisele en el Episodio 6 y que elijas sacrificar la muestra alienígena en lugar de conservarla."
+    },
+    {
+      "q": "¿Cómo funcionan los Puntos de inflexión?",
+      "a": "Los Puntos de inflexión son marcadores de control que aparecen en los momentos de decisión clave. Al terminar el juego, puedes volver a cualquier Punto de inflexión desde la selección de capítulos para explorar otras decisiones sin repetir el juego entero."
+    },
+    {
+      "q": "¿Cuántos finales tiene Directive 8020?",
+      "a": "Hay 10 variaciones de final: Homeward Bound (3 variantes), Hitchhiker, Docked (2 variantes), Game Over, Forever and Ever, Beacon y los dos finales de Eisele. «Eisele the Humanitarian» es el final verdadero."
+    }
+  ],
+  "friendlyLinks": {
+    "heading": "Enlaces de interés",
+    "links": [
+      { "href": "https://colorgradetransfer.com", "label": "Color Grade Transfer" }
+    ]
+  }
+}

@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { compileMDX } from 'next-mdx-remote/rsc';
 import remarkGfm from 'remark-gfm';
+import { MdxLink } from '@/components/ui/LocaleLink';
+import { defaultLocale, type Locale } from '@/i18n/config';
 
 const episodesDir = path.join(process.cwd(), 'content', 'episodes');
 
@@ -16,8 +18,16 @@ export interface EpisodeFrontmatter {
   characters: string[];
 }
 
-export async function getEpisodeContent(slug: string) {
-  const filePath = path.join(episodesDir, `${slug}.mdx`);
+function episodeFile(slug: string, locale: Locale): string {
+  if (locale !== defaultLocale) {
+    const localizedPath = path.join(episodesDir, locale, `${slug}.mdx`);
+    if (fs.existsSync(localizedPath)) return localizedPath;
+  }
+  return path.join(episodesDir, `${slug}.mdx`);
+}
+
+export async function getEpisodeContent(slug: string, locale: Locale = defaultLocale) {
+  const filePath = episodeFile(slug, locale);
 
   if (!fs.existsSync(filePath)) {
     return null;
@@ -27,6 +37,11 @@ export async function getEpisodeContent(slug: string) {
 
   const { content, frontmatter } = await compileMDX({
     source,
+    components: {
+      // In-body guide links stay unprefixed in every locale's MDX and are
+      // localized at render time.
+      a: MdxLink,
+    },
     options: {
       parseFrontmatter: true,
       mdxOptions: {

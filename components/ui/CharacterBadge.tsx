@@ -1,14 +1,20 @@
+import { uiStrings } from '@/i18n/ui';
+import type { Locale } from '@/i18n/config';
 import type { Character } from '@/types';
 
 interface CharacterBadgeProps {
   character: Character;
   alive: boolean;
+  locale: Locale;
 }
 
 export default function CharacterBadge({
   character,
   alive,
+  locale,
 }: CharacterBadgeProps) {
+  const t = uiStrings[locale].characterBadge;
+
   if (character.scriptedDeath) {
     return (
       <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-600 bg-slate-800/50">
@@ -16,7 +22,7 @@ export default function CharacterBadge({
         <span className="text-sm text-slate-500 line-through">
           {character.name}
         </span>
-        <span className="text-xs text-amber-500">Scripted Death</span>
+        <span className="text-xs text-amber-500">{t.scriptedDeath}</span>
       </div>
     );
   }
@@ -37,7 +43,7 @@ export default function CharacterBadge({
       >
         {character.name}
       </span>
-      {!alive && <span className="text-xs text-red-400">Deceased</span>}
+      {!alive && <span className="text-xs text-red-400">{t.deceased}</span>}
     </div>
   );
 }

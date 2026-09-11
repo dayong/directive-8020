@@ -3,13 +3,11 @@ import { defaultLocale, hreflangTag, localizeHref, type Locale } from '@/i18n/co
 import { getAvailableLocales } from '@/lib/content';
 import type { ContentMeta, FaqItem } from '@/types/content-pages';
 
-export function buildPageMetadata(
-  slug: string,
-  meta: ContentMeta,
-  locale: Locale = defaultLocale,
-  contentSlug = slug
-): Metadata {
-  const path = slug === '' ? '/' : `/${slug}`;
+export function buildAlternates(
+  path: string,
+  locale: Locale,
+  contentSlug: string
+): Metadata['alternates'] {
   const available = getAvailableLocales(contentSlug);
 
   // hreflang stays out until a page actually exists in another language, so
@@ -23,12 +21,23 @@ export function buildPageMetadata(
   }
 
   return {
+    canonical: localizeHref(path, locale),
+    ...(available.length > 1 ? { languages } : {}),
+  };
+}
+
+export function buildPageMetadata(
+  slug: string,
+  meta: ContentMeta,
+  locale: Locale = defaultLocale,
+  contentSlug = slug
+): Metadata {
+  const path = slug === '' ? '/' : `/${slug}`;
+
+  return {
     title: meta.title,
     description: meta.description,
-    alternates: {
-      canonical: localizeHref(path, locale),
-      ...(available.length > 1 ? { languages } : {}),
-    },
+    alternates: buildAlternates(path, locale, contentSlug),
     openGraph: {
       title: meta.ogTitle ?? meta.title,
       description: meta.ogDescription ?? meta.description,

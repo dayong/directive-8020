@@ -1,0 +1,122 @@
+{
+  "platinum": {
+    "description": "Desbloquea todos los demás trofeos de Directive 8020.",
+    "guide": "Consigue todos los demás trofeos para desbloquear este platino."
+  },
+  "true-ending": {
+    "description": "Consigue el final verdadero con los 5 personajes jugables vivos.",
+    "guide": "Mantén con vida a los 5 personajes jugables, identifica correctamente al doble de Eisele en el Episodio 6 y elige sacrificar la muestra."
+  },
+  "all-endings": {
+    "description": "Presencia los 10 finales.",
+    "guide": "Requiere varias partidas. Usa la página de todos los finales como hoja de ruta."
+  },
+  "no-deaths": {
+    "description": "Completa el juego sin que muera ningún personaje jugable.",
+    "guide": "Sigue al pie de la letra la guía para salvar a todos. Solo Carter y Simms pueden morir (de forma guionizada)."
+  },
+  "collector": {
+    "description": "Encuentra todas las grabaciones y documentos coleccionables de los 8 episodios.",
+    "guide": "Explora a fondo cada zona antes de avanzar. Algunos coleccionables están escondidos tras secuencias de QTE."
+  },
+  "survivor-young": {
+    "description": "Completa el juego con Brooke Osmond con vida.",
+    "guide": "Osmond es la protagonista principal. La mayoría de sus escenarios de muerte provienen de QTE fallidos o de elegir Dudar en momentos críticos."
+  },
+  "survivor-stafford": {
+    "description": "Completa el juego con el Comandante Stafford con vida.",
+    "guide": "La supervivencia de Stafford depende de decisiones clave en los Episodios 2 y 5. Confía en él cuando importa."
+  },
+  "survivor-eisele": {
+    "description": "Completa el juego con Dr. Eisele viva y habiendo identificado al doble.",
+    "guide": "En el Episodio 6, presta mucha atención a las incoherencias en los diálogos para detectar a la falsa Eisele."
+  },
+  "survivor-cernan": {
+    "description": "Completa el juego con Josef Cernan con vida.",
+    "guide": "Cernan se vuelve jugable por primera vez en el Episodio 3. Su supervivencia depende de las decisiones que se tomen en los Episodios 3 y 7."
+  },
+  "survivor-cooper": {
+    "description": "Completa el juego con Cooper con vida.",
+    "guide": "Cooper se enfrenta a peligrosas secciones en solitario. Elige Autorizar cuando te den decisiones relacionadas con el arma."
+  },
+  "all-choices": {
+    "description": "Toma cada decisión clave posible al menos una vez a lo largo de varias partidas.",
+    "guide": "Usa la página de decisiones para llevar un registro de las decisiones que ya tomaste. Requiere al menos 2 partidas."
+  },
+  "qte-master": {
+    "description": "Completa con éxito todos los QTE en una sola partida.",
+    "guide": "Nota: el QTE con fallo guionizado del Episodio 1 no cuenta en contra de este trofeo. Todos los demás QTE deben superarse."
+  },
+  "destiny-young": {
+    "description": "Desbloquea el Destiny final de Brooke Osmond.",
+    "guide": "Toma decisiones compasivas con Osmond a lo largo del juego. Elige Honor cuando te den la opción."
+  },
+  "destiny-stafford": {
+    "description": "Desbloquea el Destiny final del Comandante Stafford.",
+    "guide": "Toma decisiones de liderazgo que prioricen la seguridad de la tripulación por encima de los objetivos de la misión."
+  },
+  "destiny-eisele-sci": {
+    "description": "Desbloquea el Destiny de científica de Dr. Eisele.",
+    "guide": "Prioriza estudiar y conservar la muestra alienígena por encima de las preocupaciones de la tripulación."
+  },
+  "destiny-eisele-hum": {
+    "description": "Desbloquea el Destiny humanitario de Dr. Eisele.",
+    "guide": "Elige destruir la muestra y prioriza la seguridad de la tripulación por encima del descubrimiento científico."
+  },
+  "episode-1-clear": {
+    "description": "Completa el Episodio 1.",
+    "guide": "Progreso de la historia: imposible de perder."
+  },
+  "episode-2-clear": {
+    "description": "Completa el Episodio 2.",
+    "guide": "Progreso de la historia: imposible de perder."
+  },
+  "episode-3-clear": {
+    "description": "Completa el Episodio 3.",
+    "guide": "Progreso de la historia: imposible de perder."
+  },
+  "episode-4-clear": {
+    "description": "Completa el Episodio 4.",
+    "guide": "Progreso de la historia: imposible de perder."
+  },
+  "episode-5-clear": {
+    "description": "Completa el Episodio 5.",
+    "guide": "Progreso de la historia: imposible de perder."
+  },
+  "episode-6-clear": {
+    "description": "Completa el Episodio 6.",
+    "guide": "Progreso de la historia: imposible de perder."
+  },
+  "episode-7-clear": {
+    "description": "Completa el Episodio 7.",
+    "guide": "Progreso de la historia: imposible de perder."
+  },
+  "episode-8-clear": {
+    "description": "Completa el Episodio 8.",
+    "guide": "Progreso de la historia: imposible de perder."
+  },
+  "first-choice": {
+    "description": "Toma tu primera decisión clave.",
+    "guide": "Se desbloquea durante el Episodio 1 tras la primera decisión clave."
+  },
+  "first-death": {
+    "description": "Un personaje jugable muere por primera vez.",
+    "guide": "Se desbloqueará de forma natural a menos que estés haciendo una partida perfecta. Puedes conseguirlo fallando un QTE a propósito."
+  },
+  "turning-point": {
+    "description": "Usa un Punto de inflexión para volver a jugar una sección.",
+    "guide": "Cuando termines el juego, usa la selección de capítulos para volver a cualquier Punto de inflexión."
+  },
+  "secrets-1": {
+    "description": "Encuentra todos los secretos en un solo episodio.",
+    "guide": "El Episodio 1 tiene 3 secretos (2 en los Cuartos de la tripulación y 1 grabación de Simms). Explora a fondo."
+  },
+  "coop": {
+    "description": "Completa cualquier episodio en modo cooperativo.",
+    "guide": "Juega cualquier episodio con un segundo jugador usando la función cooperativa."
+  },
+  "movie-night": {
+    "description": "Completa el juego en el modo Movie Night (mando compartido).",
+    "guide": "Empieza una nueva partida en el modo Movie Night y asigna los personajes a distintos jugadores."
+  }
+}

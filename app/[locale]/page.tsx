@@ -3,11 +3,12 @@ import Link from '@/components/ui/LocaleLink';
 import EpisodeCard from '@/components/ui/EpisodeCard';
 import { FaqSection } from '@/components/content/FaqSection';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { episodes } from '@/data/episodes';
+import { getEpisodes } from '@/lib/localized-data';
 import { notFound } from 'next/navigation';
 import { getAvailableLocales, getPageContent } from '@/lib/content';
 import { buildFaqSchema, buildPageMetadata } from '@/lib/page-seo';
 import { isLocale } from '@/i18n/config';
+import { uiStrings } from '@/i18n/ui';
 import type { CtaLink, HomeContent } from '@/types/content-pages';
 
 const SLUG = 'home';
@@ -29,21 +30,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildPageMetadata('', content.meta, params.locale, SLUG);
 }
 
-const gameSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'VideoGame',
-  name: 'Directive 8020',
-  description:
-    'The Dark Pictures Anthology: Directive 8020 — a sci-fi horror interactive drama by Supermassive Games.',
-  genre: ['Horror', 'Interactive Drama', 'Sci-Fi'],
-  gamePlatform: ['PlayStation 5', 'Xbox Series X', 'PC'],
-  datePublished: '2026-05-12',
-  publisher: {
-    '@type': 'Organization',
-    name: 'Supermassive Games',
-  },
-};
-
 const heroButtonClasses: Record<CtaLink['variant'], string> = {
   primary: 'bg-violet-600 hover:bg-violet-500 text-white',
   outline: 'border border-violet-500 text-violet-400 hover:bg-violet-500/10',
@@ -60,10 +46,26 @@ const kickerColors = [
 ];
 
 export default function Home({ params }: Props) {
-  if (!isLocale(params.locale)) notFound();
-  const content = getPageContent<HomeContent>(SLUG, params.locale);
+  const { locale } = params;
+  if (!isLocale(locale)) notFound();
+  const content = getPageContent<HomeContent>(SLUG, locale);
   if (!content) notFound();
   const faqSchema = buildFaqSchema(content.faqs);
+  const episodes = getEpisodes(locale);
+  const localeMeta = uiStrings[locale].layoutMeta;
+  const gameSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: 'Directive 8020',
+    description: localeMeta.jsonLdDescription,
+    genre: localeMeta.jsonLdGenres,
+    gamePlatform: ['PlayStation 5', 'Xbox Series X', 'PC'],
+    datePublished: '2026-05-12',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Supermassive Games',
+    },
+  };
 
   return (
     <>
@@ -131,7 +133,7 @@ export default function Home({ params }: Props) {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {episodes.filter(e => e.keyChoices > 0).map((episode) => (
-              <EpisodeCard key={episode.id} episode={episode} />
+              <EpisodeCard key={episode.id} episode={episode} locale={locale} />
             ))}
           </div>
         </section>

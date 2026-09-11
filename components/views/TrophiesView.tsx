@@ -1,27 +1,34 @@
 import { HeroSection } from '@/components/content/HeroSection';
-import { trophies, getTrophiesByType, getMissableTrophies } from '@/data/trophies';
+import { getTrophies } from '@/lib/localized-data';
+import { uiStrings } from '@/i18n/ui';
+import type { Locale } from '@/i18n/config';
 import type { TrophiesContent } from '@/types/content-pages';
 
 
-const typeConfig: Record<string, { label: string; color: string; bg: string }> =
-  {
-    platinum: { label: 'Platinum', color: 'text-sky-300', bg: 'bg-sky-500/20' },
-    gold: { label: 'Gold', color: 'text-amber-300', bg: 'bg-amber-500/20' },
-    silver: {
-      label: 'Silver',
-      color: 'text-slate-300',
-      bg: 'bg-slate-500/20',
-    },
-    bronze: {
-      label: 'Bronze',
-      color: 'text-orange-400',
-      bg: 'bg-orange-500/20',
-    },
+const typeConfig: Record<string, { color: string; bg: string }> = {
+  platinum: { color: 'text-sky-300', bg: 'bg-sky-500/20' },
+  gold: { color: 'text-amber-300', bg: 'bg-amber-500/20' },
+  silver: { color: 'text-slate-300', bg: 'bg-slate-500/20' },
+  bronze: { color: 'text-orange-400', bg: 'bg-orange-500/20' },
+};
+
+export default function TrophiesView({
+  content,
+  locale,
+}: {
+  content: TrophiesContent;
+  locale: Locale;
+}) {
+  const t = uiStrings[locale].trophiesView;
+  const typeLabels: Record<string, string> = {
+    platinum: t.platinum,
+    gold: t.gold,
+    silver: t.silver,
+    bronze: t.bronze,
   };
+  const trophies = getTrophies(locale);
+  const missable = trophies.filter((trophy) => trophy.isMissable);
 
-const missable = getMissableTrophies();
-
-export default function TrophiesView({ content }: { content: TrophiesContent }) {
   return (
     <>
       <HeroSection hero={content.hero} />
@@ -55,7 +62,7 @@ export default function TrophiesView({ content }: { content: TrophiesContent }) 
 
         {/* Trophies by type */}
         {(['platinum', 'gold', 'silver', 'bronze'] as const).map((type) => {
-          const typeTrophies = getTrophiesByType(type);
+          const typeTrophies = trophies.filter((trophy) => trophy.type === type);
           const cfg = typeConfig[type];
 
           return (
@@ -64,7 +71,7 @@ export default function TrophiesView({ content }: { content: TrophiesContent }) 
                 <span
                   className={`text-xs px-2 py-0.5 rounded ${cfg.bg} ${cfg.color}`}
                 >
-                  {cfg.label}
+                  {typeLabels[type]}
                 </span>
                 <span className="text-sm text-slate-500">
                   ({typeTrophies.length})
@@ -83,7 +90,7 @@ export default function TrophiesView({ content }: { content: TrophiesContent }) 
                       <div className="flex items-center gap-2 shrink-0">
                         {trophy.isMissable && (
                           <span className="text-xs text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded whitespace-nowrap">
-                            Missable
+                            {t.missable}
                           </span>
                         )}
                       </div>

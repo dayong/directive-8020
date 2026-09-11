@@ -3,18 +3,21 @@ import Link from '@/components/ui/LocaleLink';
 import { notFound } from 'next/navigation';
 import TableOfContents from '@/components/ui/TableOfContents';
 import { getEpisodeContent } from '@/lib/mdx';
-import { getEpisodeById, getEpisodeByNumber } from '@/data/episodes';
+import { getEpisodes } from '@/lib/localized-data';
+import { buildAlternates } from '@/lib/page-seo';
+import type { Locale } from '@/i18n/config';
 import type { EpisodeDetailContent } from '@/types/content-pages';
 
 interface Props {
   params: { episode: string };
+  locale: Locale;
 }
 
 type ViewProps = Props & { content: EpisodeDetailContent };
 
-export async function generateMetadata({ content, params }: ViewProps): Promise<Metadata> {
-  const data = await getEpisodeContent(params.episode);
-  const ep = getEpisodeById(params.episode);
+export async function generateMetadata({ content, params, locale }: ViewProps): Promise<Metadata> {
+  const data = await getEpisodeContent(params.episode, locale);
+  const ep = getEpisodes(locale).find((e) => e.id === params.episode);
 
   if (!data || !ep) {
     return { title: content.notFoundTitle };
@@ -23,6 +26,7 @@ export async function generateMetadata({ content, params }: ViewProps): Promise<
   return {
     title: data.frontmatter.title,
     description: data.frontmatter.ogDescription || data.frontmatter.description,
+    alternates: buildAlternates(`/walkthrough/${params.episode}`, locale, 'walkthrough-episode'),
     openGraph: {
       title: data.frontmatter.title,
       description: data.frontmatter.ogDescription || data.frontmatter.description,
@@ -32,22 +36,23 @@ export async function generateMetadata({ content, params }: ViewProps): Promise<
   };
 }
 
-export default async function EpisodeDetailView({ content, params }: ViewProps) {
-  const result = await getEpisodeContent(params.episode);
+export default async function EpisodeDetailView({ content, params, locale }: ViewProps) {
+  const result = await getEpisodeContent(params.episode, locale);
 
   if (!result) {
     notFound();
   }
 
   const { content: episodeContent, frontmatter } = result;
-  const ep = getEpisodeById(params.episode);
+  const episodes = getEpisodes(locale);
+  const ep = episodes.find((e) => e.id === params.episode);
 
   if (!ep) {
     notFound();
   }
 
-  const prevEpisode = getEpisodeByNumber(ep.number - 1);
-  const nextEpisode = getEpisodeByNumber(ep.number + 1);
+  const prevEpisode = episodes.find((e) => e.number === ep.number - 1);
+  const nextEpisode = episodes.find((e) => e.number === ep.number + 1);
 
   return (
     <>
@@ -81,7 +86,7 @@ export default async function EpisodeDetailView({ content, params }: ViewProps) 
           {/* Sidebar TOC — desktop only */}
           <aside className="hidden lg:block lg:col-span-1">
             <div className="sticky top-20">
-              <TableOfContents />
+              <TableOfContents locale={locale} />
             </div>
           </aside>
         </div>

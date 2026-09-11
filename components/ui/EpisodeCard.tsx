@@ -1,7 +1,15 @@
 import Link from '@/components/ui/LocaleLink';
+import { uiStrings } from '@/i18n/ui';
+import type { Locale } from '@/i18n/config';
 import type { Episode } from '@/types';
 
-export default function EpisodeCard({ episode }: { episode: Episode }) {
+export default function EpisodeCard({
+  episode,
+  locale,
+}: {
+  episode: Episode;
+  locale: Locale;
+}) {
   return (
     <Link
       href={`/walkthrough/${episode.slug}`}
@@ -21,7 +29,12 @@ export default function EpisodeCard({ episode }: { episode: Episode }) {
       <div className="flex items-center gap-4 text-xs text-slate-500">
         <span>{episode.duration}</span>
         {episode.keyChoices > 0 && (
-          <span>{episode.keyChoices} key choices</span>
+          <span>
+            {uiStrings[locale].episodeCard.keyChoicesFormat.replace(
+              '{count}',
+              String(episode.keyChoices)
+            )}
+          </span>
         )}
       </div>
     </Link>

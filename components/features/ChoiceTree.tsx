@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { choices } from '@/data/choices';
-import { episodes } from '@/data/episodes';
+import type { Choice, Episode } from '@/types';
 import type { ChoiceTreeCopy } from '@/types/content-pages';
 
 interface SelectedChoice {
@@ -10,7 +9,15 @@ interface SelectedChoice {
   optionIndex: number;
 }
 
-export default function ChoiceTree({ copy }: { copy: ChoiceTreeCopy }) {
+export default function ChoiceTree({
+  copy,
+  choices,
+  episodes,
+}: {
+  copy: ChoiceTreeCopy;
+  choices: Choice[];
+  episodes: Episode[];
+}) {
   const [activeEpisode, setActiveEpisode] = useState('episode-1');
   const [selections, setSelections] = useState<SelectedChoice[]>([]);
 

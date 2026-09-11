@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Guía de trofeos de Directive 8020 | Platino y logros",
+    "description": "Guía completa de trofeos de Directive 8020. Los 31 trofeos, incluido el platino, los trofeos perdibles y la ruta para el 100%.",
+    "ogTitle": "Guía de trofeos de Directive 8020 | Platino y logros",
+    "ogDescription": "Guía completa de trofeos de Directive 8020: los 31 trofeos, avisos de trofeos perdibles y ruta al platino."
+  },
+  "hero": {
+    "h1": "Guía de trofeos",
+    "intro": "Los 31 trofeos de Directive 8020 en PlayStation 5. Incluye la ruta al platino, avisos de trofeos perdibles y las condiciones para desbloquear cada logro."
+  },
+  "roadmap": {
+    "heading": "Ruta al platino",
+    "columns": [
+      {
+        "title": "Partida 1",
+        "body": "Sigue la guía para salvar a todos. Mantén con vida a los 5 personajes jugables. Consigue el final verdadero."
+      },
+      {
+        "title": "Partida 2",
+        "body": "Toma las decisiones opuestas. Deja morir a los personajes. Desbloquea los malos finales y el trofeo Casualty."
+      },
+      {
+        "title": "Limpieza",
+        "body": "Usa los Puntos de inflexión para completar los finales, coleccionables y trofeos perdibles que te falten."
+      }
+    ]
+  },
+  "missableWarning": "⚠ {count} trofeos son perdibles en una sola partida. Usa esta guía para no perderte ninguno."
+}

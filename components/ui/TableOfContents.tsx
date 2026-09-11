@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { uiStrings } from '@/i18n/ui';
+import type { Locale } from '@/i18n/config';
 
 interface TocItem {
   id: string;
@@ -8,7 +10,16 @@ interface TocItem {
   level: number;
 }
 
-export default function TableOfContents() {
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+
+export default function TableOfContents({ locale }: { locale: Locale }) {
   const [headings, setHeadings] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState<string>('');
 
@@ -16,19 +27,18 @@ export default function TableOfContents() {
     const elements = Array.from(
       document.querySelectorAll('article h2, article h3')
     );
+
+    // Add IDs to headings for anchor linking before reading them back, so the
+    // TOC hrefs always match the actual element ids.
+    elements.forEach((el) => {
+      if (!el.id) el.id = slugify(el.textContent || '');
+    });
+
     const items: TocItem[] = elements.map((el) => ({
-      id: el.id || el.textContent?.toLowerCase().replace(/\s+/g, '-') || '',
+      id: el.id,
       text: el.textContent || '',
       level: el.tagName === 'H2' ? 2 : 3,
     }));
-
-    // Add IDs to headings for anchor linking
-    elements.forEach((el) => {
-      if (!el.id) {
-        el.id =
-          el.textContent?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || '';
-      }
-    });
 
     setHeadings(items);
 
@@ -53,7 +63,7 @@ export default function TableOfContents() {
   return (
     <nav className="space-y-1">
       <h4 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-3">
-        On This Page
+        {uiStrings[locale].toc.heading}
       </h4>
       {headings.map((heading) => (
         <a

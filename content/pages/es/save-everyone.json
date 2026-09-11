@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "Cómo salvar a todos en Directive 8020: guía del mejor final",
+    "description": "Guía paso a paso para salvar a los 5 personajes jugables de Directive 8020. Carter y Simms mueren por guion; salva al resto para el final verdadero.",
+    "ogDescription": "Guía completa para salvar a toda la tripulación de Directive 8020. Carter y Simms mueren por guion: céntrate en los 5 personajes jugables."
+  },
+  "hero": {
+    "h1": "Cómo salvar a todos en Directive 8020",
+    "intro": "Una guía paso a paso para mantener vivos a los 5 personajes jugables y desbloquear el final verdadero: «Eisele the Humanitarian»."
+  },
+  "warning": {
+    "heading": "❌ Carter y Simms no se pueden salvar: es por diseño",
+    "before": "Muchos jugadores se confunden intentando salvar a Carter y Simms. Tenlo claro: sus muertes son eventos guionizados de la historia. Hagas lo que hagas, ambos personajes morirán en sus escenas predeterminadas.",
+    "strong": "No pierdas el tiempo intentando cambiarlo.",
+    "after": "Céntrate en proteger a los 5 personajes jugables: Osmond, Stafford, Eisele, Cernan y Cooper."
+  },
+  "howTo": {
+    "name": "Cómo salvar a todos en Directive 8020",
+    "description": "Guía paso a paso para conseguir el final verdadero con los 5 personajes jugables vivos.",
+    "steps": [
+      {
+        "name": "Acepta que Carter y Simms no se pueden salvar",
+        "text": "Carter y Simms mueren en eventos guionizados durante el Episodio 1. Ninguna decisión puede evitarlo: es por diseño. Céntrate en los 5 personajes jugables."
+      },
+      {
+        "name": "Episodio 1 — Autoriza el uso de armas",
+        "text": "En el Punto de inflexión de los Cuartos de la tripulación, elige «Autorizar el uso del arma» para abrir opciones de combate más adelante. Elige «Honor» y luego «Considerar» al tratar con Stafford."
+      },
+      {
+        "name": "Episodio 2 — Confía en Stafford y permite la investigación",
+        "text": "Elige «Confiar en Stafford» en el Puente de mando y «Permitir el estudio» en el laboratorio de ciencias. Investiga la llamada de socorro para desbloquear un coleccionable."
+      },
+      {
+        "name": "Episodio 3 — Informa de inmediato y ponte del lado de Eisele",
+        "text": "Como Cernan, elige «Informar de inmediato» en la bodega de carga. Elige «Contener y estudiar» en el laboratorio de contención. Ponte del lado de Eisele en el debate de la sala de briefing."
+      },
+      {
+        "name": "Episodio 4 — Sigue a Cooper y confirma la muerte en el reactor",
+        "text": "Sigue las indicaciones de Cooper en los túneles de mantenimiento. Cuando la criatura caiga al reactor, confirma que ha muerto e informa."
+      },
+      {
+        "name": "Episodio 5 — Prepara el sedante y salva a Mitchell y Anders",
+        "text": "PERDIBLE: prepara el sedante en el laboratorio antes de irte. Rescata a Mitchell y a Anders del incendio. Anima a Stafford para desbloquear el Destiny The Father."
+      },
+      {
+        "name": "Episodio 6 — Confía en el Eisele recién llegado y gira a la DERECHA fuera",
+        "text": "La decisión más crítica: confía en el Eisele RECIÉN LLEGADO. Gira a la DERECHA en el cruce exterior (no hacia la cueva). Escapa del reactor antes de la fusión del núcleo."
+      },
+      {
+        "name": "Episodios 7 y 8 — Expón el programa de clones",
+        "text": "Eisele debe elegir «Exponer el programa de clones» para desbloquear el final verdadero. Esto transmite la verdad a la humanidad y pone fin al Cycle 13."
+      }
+    ]
+  },
+  "keyChoices": {
+    "heading": "Decisiones clave por episodio",
+    "episodeHeadingFormat": "Episodio {number}: {title}",
+    "countFormat": "({count} decisiones clave)",
+    "walkthroughLinkFormat": "Guía completa del Episodio {number} →"
+  },
+  "sceneHighlights": {
+    "e5-sedative": {
+      "type": "missable",
+      "text": "⚠ PERDIBLE: el juego no te avisa. Explora el laboratorio a fondo antes de irte.",
+      "tip": "Interactúa con el equipo del laboratorio para preparar el sedante."
+    },
+    "e6-two-eiseles": {
+      "type": "critical",
+      "text": "🔑 La decisión más crítica del juego",
+      "tip": "Observa sus animaciones de miedo cuando les apuntas con el arma. La reacción del recién llegado parece genuinamente humana y asustada. Los movimientos del otro son sutilmente antinaturales."
+    },
+    "e6-outdoor-junction": {
+      "type": "missable",
+      "text": "⚠ El juego NO te avisa de que este es un punto sin retorno. Una vez entras en la cueva, no puedes volver atrás."
+    },
+    "e7-eisele-final": {
+      "type": "true-ending",
+      "text": "⭐ Desbloquea el final verdadero: Eisele the Humanitarian"
+    }
+  },
+  "destinies": {
+    "heading": "Lista de Destiny por desbloquear",
+    "intro": "Cada personaje jugable tiene un Destiny que se desbloquea en momentos concretos. Desbloquearlos es obligatorio para la ruta del mejor final.",
+    "headers": ["Personaje", "Destiny", "Cómo desbloquearlo"],
+    "rows": [
+      {
+        "character": "Osmond",
+        "destiny": "The Humanitarian",
+        "how": "Toma decisiones compasivas a lo largo del juego. Elige Honor cuando se te dé la opción en el Episodio 1."
+      },
+      {
+        "character": "Stafford",
+        "destiny": "The Father",
+        "how": "Anímalo durante su crisis en el Episodio 5. Dile: «Nunca olvides por qué empezaste»."
+      },
+      {
+        "character": "Eisele",
+        "destiny": "The Humanitarian",
+        "how": "Elige exponer el programa de clones en el Episodio 8. Requiere todas las decisiones previas favorables a Eisele."
+      },
+      {
+        "character": "Eisele (alt)",
+        "destiny": "The Scientist",
+        "how": "Elige proteger los datos científicos en el Episodio 8 en lugar de exponer la verdad."
+      },
+      {
+        "character": "Cernan",
+        "destiny": "TBC",
+        "how": "Toma decisiones que prioricen la seguridad de Cernan en los Episodios 3 y 7."
+      },
+      {
+        "character": "Cooper",
+        "destiny": "TBC",
+        "how": "Autoriza las armas en el Episodio 1 y envía refuerzos en el Episodio 5."
+      }
+    ]
+  },
+  "tracker": {
+    "heading": "Registro de supervivencia de personajes",
+    "scriptedDeathLabel": "Muerte guionizada",
+    "predictedRouteLabel": "Ruta prevista:",
+    "routes": {
+      "best": "Mejor final (Eisele the Humanitarian)",
+      "standard": "Final estándar (Homeward Bound / Docked)",
+      "bad": "Mal final (Homeward Bound / Massacre)",
+      "gameOver": "Game Over (Everyone Dies)"
+    },
+    "aliveFormat": "{alive} de 5 personajes jugables con vida",
+    "aliveHint": "— haz clic en los personajes sin marcar para marcarlos como vivos"
+  },
+  "cta": {
+    "text": "Cuando todos estén vivos, echa un vistazo a todos los finales posibles:",
+    "links": [
+      { "href": "/all-endings", "label": "Ver todos los finales →", "variant": "primary" },
+      { "href": "/walkthrough", "label": "Guía completa paso a paso →", "variant": "outline" }
+    ]
+  }
+}

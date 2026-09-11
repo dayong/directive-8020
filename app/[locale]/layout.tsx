@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Inter } from 'next/font/google';
-import { locales } from '@/i18n/config';
+import { defaultLocale, isLocale, locales } from '@/i18n/config';
+import { uiStrings } from '@/i18n/ui';
+import { getTranslatedPaths } from '@/lib/routes';
+import { LocalePathProvider } from '@/components/i18n/LocalePaths';
 import Header from '@/components/layout/Header';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import BottomTabBar from '@/components/layout/BottomTabBar';
@@ -13,25 +16,31 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://directive-8020.com'),
-  title: {
-    default: 'Directive 8020 Guide | Complete Walkthrough',
-    template: '%s | Directive 8020 Guide',
-  },
-  description:
-    'The Dark Pictures Anthology: Directive 8020 complete walkthrough — save everyone, all endings, choices, trophy guide, and character survival tips.',
-  openGraph: {
-    title: 'Directive 8020 Guide | Complete Walkthrough',
-    description:
-      'Directive 8020 complete walkthrough guide. Save all crew members, unlock every ending, and master every choice.',
-    images: ['/og-image.png'],
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const locale = isLocale(params.locale) ? params.locale : defaultLocale;
+  const t = uiStrings[locale].layoutMeta;
+  return {
+    metadataBase: new URL('https://directive-8020.com'),
+    title: {
+      default: t.defaultTitle,
+      template: t.titleTemplate,
+    },
+    description: t.description,
+    openGraph: {
+      title: t.ogTitle,
+      description: t.ogDescription,
+      images: ['/og-image.png'],
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+    },
+  };
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -47,6 +56,7 @@ export default function LocaleLayout({
   const umamiId = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
   const umamiUrl =
     process.env.NEXT_PUBLIC_UMAMI_URL || 'https://cloud.umami.is';
+  const locale = isLocale(params.locale) ? params.locale : defaultLocale;
 
   return (
     <html lang={params.locale} className={`${inter.variable} h-full antialiased`}>
@@ -72,11 +82,13 @@ export default function LocaleLayout({
             strategy="afterInteractive"
           />
         )}
-        <Header />
-        <Breadcrumbs />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <BottomTabBar />
+        <LocalePathProvider paths={getTranslatedPaths(locale)}>
+          <Header locale={locale} />
+          <Breadcrumbs />
+          <main className="flex-1">{children}</main>
+          <Footer locale={locale} />
+          <BottomTabBar />
+        </LocalePathProvider>
       </body>
     </html>
   );

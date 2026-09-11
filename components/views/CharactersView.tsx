@@ -1,17 +1,27 @@
 import Link from '@/components/ui/LocaleLink';
 import { HeroSection } from '@/components/content/HeroSection';
-import { characters } from '@/data/characters';
+import { getCharacters } from '@/lib/localized-data';
+import { uiStrings } from '@/i18n/ui';
+import type { Locale } from '@/i18n/config';
 import type { CharactersContent } from '@/types/content-pages';
 
 
-export default function CharactersView({ content }: { content: CharactersContent }) {
+export default function CharactersView({
+  content,
+  locale,
+}: {
+  content: CharactersContent;
+  locale: Locale;
+}) {
+  const charList = getCharacters(locale);
+  const t = uiStrings[locale].charactersView;
   return (
     <>
       <HeroSection hero={content.hero} />
 
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="grid sm:grid-cols-2 gap-4">
-          {characters.map((char) => (
+          {charList.map((char) => (
             <Link
               key={char.id}
               href={`/characters/${char.id}`}
@@ -51,19 +61,20 @@ export default function CharactersView({ content }: { content: CharactersContent
 
               <div className="flex items-center gap-3 text-xs">
                 <span className="text-slate-500">
-                  Actor: {char.actor}
+                  {t.actor}
+                  {char.actor}
                 </span>
                 {char.scriptedDeath ? (
                   <span className="text-amber-400 font-medium">
-                    Scripted Death
+                    {t.scriptedDeath}
                   </span>
                 ) : char.playable === false ? (
                   <span className="text-cyan-400 font-medium">
-                    NPC — Can Survive
+                    {t.npcCanSurvive}
                   </span>
                 ) : (
                   <span className="text-green-400 font-medium">
-                    Can Survive
+                    {t.canSurvive}
                   </span>
                 )}
               </div>

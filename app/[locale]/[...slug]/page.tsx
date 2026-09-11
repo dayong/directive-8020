@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import type { ComponentType } from 'react';
 import { notFound } from 'next/navigation';
-import { isLocale, locales } from '@/i18n/config';
+import { isLocale, type Locale } from '@/i18n/config';
 import { getAvailableLocales, getPageContent } from '@/lib/content';
 import { buildPageMetadata } from '@/lib/page-seo';
 import { getAllEpisodeSlugs } from '@/lib/mdx';
+import { getChoices, getEpisodes } from '@/lib/localized-data';
 import { characters } from '@/data/characters';
 import type { ContentMeta } from '@/types/content-pages';
 import AllEndingsView from '@/components/views/AllEndingsView';
@@ -43,7 +44,8 @@ interface PageContent {
 interface RouteEntry {
   contentSlug: string;
   View: ComponentType<any>;
-  generateMetadata?: (args: { content: any; params: any }) => Metadata | Promise<Metadata>;
+  generateMetadata?: (args: { content: any; params: any; locale: Locale }) => Metadata | Promise<Metadata>;
+  loadData?: (locale: Locale) => Record<string, unknown>;
 }
 
 const staticRoutes: Record<string, RouteEntry> = {
@@ -51,7 +53,14 @@ const staticRoutes: Record<string, RouteEntry> = {
   'bug-fixes': { contentSlug: 'bug-fixes', View: BugFixesView },
   'can-carter-survive': { contentSlug: 'can-carter-survive', View: CanCarterSurviveView },
   characters: { contentSlug: 'characters', View: CharactersView },
-  choices: { contentSlug: 'choices', View: ChoicesView },
+  choices: {
+    contentSlug: 'choices',
+    View: ChoicesView,
+    loadData: (locale) => ({
+      choices: getChoices(locale),
+      episodes: getEpisodes(locale),
+    }),
+  },
   codes: { contentSlug: 'codes', View: CodesView },
   collectibles: { contentSlug: 'collectibles', View: CollectiblesView },
   'directive-8020-actress': { contentSlug: 'directive-8020-actress', View: ActressView },
@@ -142,7 +151,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const content = getPageContent<PageContent>(resolved.entry.contentSlug, params.locale);
   if (!content) return {};
   if (resolved.entry.generateMetadata) {
-    return resolved.entry.generateMetadata({ content, params: resolved.viewParams });
+    return resolved.entry.generateMetadata({ content, params: resolved.viewParams, locale: params.locale });
   }
   return buildPageMetadata(resolved.path, content.meta, params.locale);
 }
@@ -155,6 +164,14 @@ export default function CatchAllPage({ params }: Props) {
   const content = getPageContent<PageContent>(resolved.entry.contentSlug, params.locale);
   if (!content) notFound();
 
-  const { View } = resolved.entry;
-  return <View content={content} params={resolved.viewParams} />;
+  const { View, loadData } = resolved.entry;
+  const extraProps = loadData ? loadData(params.locale) : {};
+  return (
+    <View
+      content={content}
+      params={resolved.viewParams}
+      locale={params.locale}
+      {...extraProps}
+    />
+  );
 }

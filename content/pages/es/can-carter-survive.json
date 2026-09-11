@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "¿Puede sobrevivir Carter en Directive 8020? (No)",
+    "description": "Carter muere en un evento guionizado al final del Episodio 1. Ninguna decisión, QTE ni camino oculto puede salvarlo: 5 personajes sí pueden sobrevivir.",
+    "ogTitle": "¿Puede sobrevivir Carter en Directive 8020? (No)",
+    "ogDescription": "La muerte de Carter en el Episodio 1 está guionizada y es inevitable. Descubre por qué el juego la presenta como tu culpa y a quiénes sí puedes salvar."
+  },
+  "hero": {
+    "h1": "¿Puede sobrevivir Carter en Directive 8020?",
+    "tagline": "No. La muerte de Carter está guionizada: ocurre en todas y cada una de las partidas.",
+    "intro": "Esto es exactamente lo que pasa, por qué el juego te hace sentir que fue tu culpa y qué personajes puedes salvar de verdad."
+  },
+  "straightAnswer": {
+    "heading": "La respuesta directa",
+    "callout": "**Carter muere.** No hay ningún QTE, opción de diálogo o camino oculto que lo evite. Muere en un evento guionizado al final del Episodio 1 y va a pasar **todas y cada una de las veces** que juegues. No pierdas el tiempo recargando puntos de control para intentar salvarlo."
+  },
+  "whyGuilt": {
+    "heading": "Por qué el juego te hace creer que podrías haberlo salvado",
+    "paragraph": "Es deliberado. El juego plantea la muerte de Carter como la consecuencia de una decisión tuya, y muchos jugadores pasan una hora recargando puntos de control antes de aceptar la verdad. Esa sensación de «quizá podría haberlo salvado» es exactamente lo que buscaba Supermassive: así establece el juego lo que está en juego para los cinco personajes que *sí* pueden morir por tus decisiones."
+  },
+  "whatHappens": {
+    "heading": "Qué le pasa realmente a Carter y Simms",
+    "summary": "⚠ Spoilers: haz clic para ver los detalles de las escenas de muerte",
+    "paragraphs": [
+      "Ambas muertes están codificadas en la narrativa del Episodio 1. **Carter** muere en un evento guionizado al final del capítulo, hagas lo que hagas antes. **Simms** es corrompida por el Growth alienígena y su muerte es igual de inevitable.",
+      "La historia de Simms no termina ahí: aparece en episodios posteriores como un **doble**, no como la verdadera Simms. Esa revelación solo funciona porque murió de verdad en el Episodio 1.",
+      "Es un diseño intencional. Los juegos de The Dark Pictures Anthology presentan 5 personajes jugables en modo cooperativo, y Directive 8020 tiene 6 miembros de la tripulación en total. Carter y Simms existen como catalizadores narrativos: sus muertes establecen lo que está en juego y motivan a los cinco supervivientes. Las cuentas no cuadran de otra forma."
+    ]
+  },
+  "canSave": {
+    "heading": "Los 5 personajes que puedes salvar",
+    "intro": "Céntrate en los cinco personajes jugables: todos pueden llegar vivos al final:",
+    "badge": "Puede sobrevivir",
+    "footnote": "Mantener vivos a los cinco, identificar al doble de Eisele en el Episodio 6 y exponer el programa de clones en el Episodio 8 desbloquea el final verdadero: «Eisele the Humanitarian»."
+  },
+  "faqHeading": "Preguntas frecuentes",
+  "faqs": [
+    {
+      "q": "¿Puede sobrevivir Carter en Directive 8020?",
+      "a": "No. Carter muere en un evento guionizado al final del Episodio 1 en todas las partidas. No hay ningún QTE, opción de diálogo o camino oculto que lo evite."
+    },
+    {
+      "q": "¿Se puede salvar a Carter y a Simms?",
+      "a": "No. Ambos tienen muertes guionizadas en el Episodio 1. A Simms la corrompe el Growth alienígena y más tarde aparece como un doble, no como la verdadera Simms."
+    },
+    {
+      "q": "¿Qué personajes pueden sobrevivir en Directive 8020?",
+      "a": "Los 5 personajes jugables: Osmond, Stafford, Eisele, Cernan y Cooper. Los cinco pueden llegar vivos al final y desbloquear el final verdadero."
+    }
+  ],
+  "cta": {
+    "text": "¿Listo para mantener vivos a los cinco personajes correctos?",
+    "links": [
+      { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "primary" },
+      { "href": "/walkthrough/episode-1", "label": "Guía del Episodio 1 →", "variant": "outline" },
+      { "href": "/walkthrough", "label": "Guía completa paso a paso →", "variant": "ghost" }
+    ]
+  }
+}

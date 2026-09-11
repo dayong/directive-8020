@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Directive 8020 — ¿Disparar a Williams o Bajar el arma?",
+    "description": "Directive 8020 Episodio 5: lo mejor es Bajar el arma si preparaste el sedante — Williams sobrevive y desbloqueas el trofeo Sedate Williams. Si no, dispárale.",
+    "ogTitle": "Directive 8020 — ¿Disparar a Williams o Bajar el arma?",
+    "ogDescription": "La elección Point Blank del Episodio 5: Bajar el arma con el sedante, disparar sin él. Todas las consecuencias de cada opción."
+  },
+  "hero": {
+    "h1": "¿Disparar a Williams o Bajar el arma?",
+    "tagline": "Bajar el arma — si preparaste el sedante. Disparar — si no lo hiciste.",
+    "intro": "La elección “Point Blank” del Episodio 5, analizada a fondo: qué hace cada opción, qué bloquea y qué desbloquea."
+  },
+  "options": {
+    "heading": "Las tres opciones en Point Blank",
+    "cards": [
+      {
+        "badge": "✓ Mejor con sedante",
+        "tone": "good",
+        "title": "Bajar el arma — no disparar",
+        "body": "Gana tiempo. Si preparaste el sedante en el laboratorio, estará disponible aquí y Williams puede ser neutralizado de forma no letal.",
+        "chain": "⟳ Entre episodios: Bajar el arma + sedante = Williams vive → información útil en el Ep7 → mejores dinámicas en el Ep8. Requisito para el trofeo Sedate Williams."
+      },
+      {
+        "badge": "✓ Más seguro sin sedante",
+        "tone": "bad",
+        "title": "Disparar de inmediato",
+        "body": "El doble de Williams es eliminado al instante. Rápido y limpio, pero pierdes el trofeo opcional.",
+        "chain": "⟳ Entre episodios: Disparar = Williams muere → pierdes la información del Ep7 → una prueba de diálogo del Ep7 se vuelve más difícil. Trofeo Sedate Williams bloqueado."
+      },
+      {
+        "badge": "Neutral",
+        "tone": "neutral",
+        "title": "Esperar — ver qué pasa",
+        "body": "Un pequeño retraso con los mismos resultados que Bajar el arma."
+      }
+    ]
+  },
+  "sceneContext": {
+    "heading": "¿Qué lleva a esta decisión?",
+    "summary": "⚠ Spoilers — haz clic para ver el contexto de la escena",
+    "paragraphs": [
+      "El sistema biométrico de la nave escanea a Williams durante el Episodio 5 (“Mr. Williams”). El resultado es inmediato y demoledor: **“Sujeto no identificable.”** Antes de que nadie pueda reaccionar, Williams empieza a transformarse: la piel cambia, la forma se desestabiliza. El mimetismo se desmorona bajo el haz del escáner y tienes segundos para responder.",
+      "Este enfrentamiento solo sale bien si hiciste los deberes dos escenas antes. El **sedante** es la interacción más fácil de perder de todo el juego: mientras Eisele está en el laboratorio de ciencias, tienes unos noventa segundos de control libre y ningún marcador de objetivo. Camina hasta la estación de química —la mesa con vasos de precipitados y una terminal activa en la pared izquierda— e interactúa con ella. Si te la saltas, la opción del sedante nunca aparecerá aquí.",
+      "Otra cadena que viene de muy atrás: elegir **“Autorizar uso del arma”** en los Cuartos de la tripulación del Episodio 1 es lo que desbloquea la rama de resolución no letal de este enfrentamiento."
+    ]
+  },
+  "outcomes": {
+    "heading": "Qué pasa si eliges cada opción",
+    "columns": [
+      {
+        "tone": "good",
+        "heading": "Bajar el arma →",
+        "items": [
+          "Con sedante: Williams es sedado de forma no letal y sobrevive",
+          "Desbloquea el trofeo **Sedate Williams**",
+          "Williams proporciona información útil en el Episodio 7",
+          "Mejora las dinámicas del Episodio 8 y alimenta el camino al mejor final",
+          "Sin sedante: no hay opción no letal — Williams debe morir o escapar"
+        ]
+      },
+      {
+        "tone": "bad",
+        "heading": "Disparar →",
+        "items": [
+          "El doble es eliminado de inmediato — sin más amenazas",
+          "Trofeo **Sedate Williams** bloqueado para siempre",
+          "Se pierde la información de Williams en el Episodio 7",
+          "Una prueba de diálogo del Episodio 7 se vuelve más difícil",
+          "Reduce ligeramente la calidad del final de los Episodios 7-8"
+        ]
+      }
+    ],
+    "outro": "Si preparaste el sedante, lo mejor es Bajar el arma: neutralizas la amenaza y mantienes a Williams con vida para el trofeo. Si te saltaste el sedante, disparar es la opción más segura porque no tienes alternativa no letal."
+  },
+  "faqHeading": "Preguntas frecuentes",
+  "faqs": [
+    {
+      "q": "¿Debes disparar a Williams o bajar el arma en Directive 8020?",
+      "a": "Bajar el arma es la mejor opción si preparaste el sedante en el laboratorio del Episodio 5: Williams sobrevive, consigues el trofeo Sedate Williams y su información ayuda en los Episodios 7 y 8. Si te saltaste el sedante, disparar es la opción más segura."
+    },
+    {
+      "q": "¿Qué pasa si disparas a Williams?",
+      "a": "El doble es eliminado de inmediato. El trofeo Sedate Williams queda bloqueado para siempre, se pierde la información de Williams del Ep7 y una prueba de diálogo del Ep7 se vuelve más difícil."
+    },
+    {
+      "q": "¿Qué pasa si bajas el arma sin el sedante?",
+      "a": "Sin el sedante no hay opción no letal: Williams debe morir o escapar. Por eso, preparar el sedante antes de salir del laboratorio de ciencias es el paso más fácil de perder de todo el juego."
+    },
+    {
+      "q": "¿Cómo salvas a Williams en Directive 8020?",
+      "a": "Prepara el sedante en el laboratorio de ciencias del Episodio 5 y luego elige Bajar el arma en Point Blank. Con el sedante, Williams es neutralizado de forma no letal y sobrevive; además, desbloqueas el trofeo Sedate Williams."
+    }
+  ],
+  "cta": {
+    "text": "¿Quieres todas las decisiones del Episodio 5 explicadas en su contexto?",
+    "links": [
+      { "href": "/walkthrough/episode-5", "label": "Guía del Episodio 5 →", "variant": "primary" },
+      { "href": "/choices", "label": "Todas las decisiones →", "variant": "outline" },
+      { "href": "/save-everyone", "label": "Salvar a todos →", "variant": "ghost" }
+    ]
+  }
+}

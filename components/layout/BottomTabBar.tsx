@@ -2,19 +2,21 @@
 
 import Link from '@/components/ui/LocaleLink';
 import { usePathname } from 'next/navigation';
-import { stripLocalePrefix } from '@/i18n/config';
-
-const tabs = [
-  { href: '/walkthrough', label: 'Guide', icon: '📖' },
-  { href: '/save-everyone', label: 'Save All', icon: '👥' },
-  { href: '/all-endings', label: 'Endings', icon: '🏁' },
-  { href: '/choices', label: 'Choices', icon: '🔀' },
-  { href: '/characters', label: 'Crew', icon: '👤' },
-  { href: '/trophies', label: 'Trophies', icon: '🏆' },
-];
+import { localeFromPathname, stripLocalePrefix } from '@/i18n/config';
+import { uiStrings } from '@/i18n/ui';
 
 export default function BottomTabBar() {
   const pathname = stripLocalePrefix(usePathname());
+  const t = uiStrings[localeFromPathname(usePathname())].tabs;
+
+  const tabs = [
+    { href: '/walkthrough', label: t.guide, icon: '📖' },
+    { href: '/save-everyone', label: t.saveAll, icon: '👥' },
+    { href: '/all-endings', label: t.endings, icon: '🏁' },
+    { href: '/choices', label: t.choices, icon: '🔀' },
+    { href: '/characters', label: t.crew, icon: '👤' },
+    { href: '/trophies', label: t.trophies, icon: '🏆' },
+  ];
 
   return (
     <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur border-t border-slate-800 safe-area-bottom">

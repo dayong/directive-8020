@@ -2,7 +2,8 @@ import Link from '@/components/ui/LocaleLink';
 import EpisodeCard from '@/components/ui/EpisodeCard';
 import { HeroSection } from '@/components/content/HeroSection';
 import { RichText } from '@/components/ui/RichText';
-import { episodes } from '@/data/episodes';
+import { getEpisodes } from '@/lib/localized-data';
+import type { Locale } from '@/i18n/config';
 import type { CtaLink, WalkthroughContent } from '@/types/content-pages';
 
 
@@ -12,7 +13,14 @@ const smallButtonClasses: Record<CtaLink['variant'], string> = {
   ghost: 'border border-slate-600 text-slate-300 hover:border-slate-500 hover:text-slate-100',
 };
 
-export default function WalkthroughView({ content }: { content: WalkthroughContent }) {
+export default function WalkthroughView({
+  content,
+  locale,
+}: {
+  content: WalkthroughContent;
+  locale: Locale;
+}) {
+  const episodes = getEpisodes(locale);
   return (
     <>
       <HeroSection hero={content.hero} />
@@ -37,7 +45,7 @@ export default function WalkthroughView({ content }: { content: WalkthroughConte
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {episodes.filter(e => e.keyChoices > 0).map((episode) => (
-              <EpisodeCard key={episode.id} episode={episode} />
+              <EpisodeCard key={episode.id} episode={episode} locale={locale} />
             ))}
           </div>
         </section>

@@ -1,10 +1,11 @@
 import SurvivalTracker from '@/components/features/SurvivalTracker';
 import ChoiceCard from '@/components/ui/ChoiceCard';
+import Link from '@/components/ui/LocaleLink';
 import { CtaSection } from '@/components/content/CtaSection';
 import { HeroSection } from '@/components/content/HeroSection';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { choices, getChoicesByEpisode } from '@/data/choices';
-import { episodes } from '@/data/episodes';
+import { getChoices, getEpisodes } from '@/lib/localized-data';
+import type { Locale } from '@/i18n/config';
 import type { SaveEveryoneContent } from '@/types/content-pages';
 
 
@@ -16,7 +17,15 @@ const highlightStyles = {
   'true-ending': 'bg-amber-500/10 border-2 border-amber-400 rounded-lg p-4 mb-3',
 };
 
-export default function SaveEveryoneView({ content }: { content: SaveEveryoneContent }) {
+export default function SaveEveryoneView({
+  content,
+  locale,
+}: {
+  content: SaveEveryoneContent;
+  locale: Locale;
+}) {
+  const choices = getChoices(locale);
+  const episodes = getEpisodes(locale);
   const howToSchema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
@@ -61,7 +70,7 @@ export default function SaveEveryoneView({ content }: { content: SaveEveryoneCon
           </h2>
           <div className="space-y-4">
             {episodeIdsWithChoices.map((epId) => {
-              const episodeChoices = getChoicesByEpisode(epId);
+              const episodeChoices = choices.filter((c) => c.episode === epId);
               const episode = episodes.find((e) => e.id === epId);
               const isFirst = epId === 'episode-1';
 
@@ -106,17 +115,18 @@ export default function SaveEveryoneView({ content }: { content: SaveEveryoneCon
                               recommended={opt.recommended}
                               consequence={opt.consequence}
                               characterEffect={opt.characterEffect}
+                              locale={locale}
                             />
                           ))}
                         </div>
                       );
                     })}
-                    <a
+                    <Link
                       href={`/walkthrough/${episode?.slug}`}
                       className="inline-block mt-3 text-sm font-medium text-violet-400 hover:underline"
                     >
                       {content.keyChoices.walkthroughLinkFormat.replace('{number}', String(episode?.number))}
-                    </a>
+                    </Link>
                   </div>
                 </details>
               );

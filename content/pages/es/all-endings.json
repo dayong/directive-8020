@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Todos los finales de Directive 8020 | Cómo desbloquearlos",
+    "description": "Guía completa de los 10 finales de Directive 8020. Cómo desbloquear cada final, requisitos de supervivencia y qué Puntos de inflexión repetir.",
+    "ogTitle": "Todos los finales de Directive 8020 | Guía completa",
+    "ogDescription": "Guía completa de los 10 finales de Directive 8020: el final verdadero, los malos finales y todo lo demás."
+  },
+  "hero": {
+    "h1": "Todos los finales de Directive 8020",
+    "intro": "Directive 8020 tiene 10 finales posibles. Aquí tienes cómo desbloquear cada uno, los requisitos de cada final y a dónde volver si te perdiste una decisión clave. ¿Vas a repetir un Punto de inflexión? La [guía completa](/walkthrough) cubre todas las escenas episodio a episodio."
+  },
+  "trueEndingBox": {
+    "headingFormat": "Mejor final — {name}",
+    "requirementsLabel": "Requisitos",
+    "survivorsLabel": "Supervivientes",
+    "aliveFormat": "{count} con vida",
+    "missedFormat": "¿Te lo perdiste? Vuelve a: {tp}"
+  },
+  "overview": {
+    "heading": "Resumen de los finales",
+    "headers": ["Final", "Supervivientes", "Condición clave", "Punto de inflexión"]
+  },
+  "detailedHeading": "Todos los finales — análisis detallado",
+  "cta": {
+    "text": "¿Quieres conseguir el mejor final? Sigue la guía paso a paso:",
+    "links": [
+      { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "primary" },
+      { "href": "/walkthrough", "label": "Guía completa →", "variant": "outline" }
+    ]
+  }
+}

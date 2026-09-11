@@ -5,13 +5,23 @@ import ChoiceCard from '@/components/ui/ChoiceCard';
 import ChoiceTree from '@/components/features/ChoiceTree';
 import { HeroSection } from '@/components/content/HeroSection';
 import { RichText } from '@/components/ui/RichText';
-import { choices } from '@/data/choices';
-import { episodes } from '@/data/episodes';
+import type { Locale } from '@/i18n/config';
+import type { Choice, Episode } from '@/types';
 import type { ChoicesContent } from '@/types/content-pages';
 
 const episodeIds = ['episode-1', 'episode-2', 'episode-3', 'episode-4', 'episode-5', 'episode-6', 'episode-7', 'episode-8'];
 
-export default function ChoicesView({ content }: { content: ChoicesContent }) {
+export default function ChoicesView({
+  content,
+  locale,
+  choices,
+  episodes,
+}: {
+  content: ChoicesContent;
+  locale: Locale;
+  choices: Choice[];
+  episodes: Episode[];
+}) {
   const [activeTab, setActiveTab] = useState('episode-1');
   const [search, setSearch] = useState('');
 
@@ -121,6 +131,7 @@ export default function ChoicesView({ content }: { content: ChoicesContent }) {
                       characterEffect={opt.characterEffect}
                       chainEffect={opt.chainEffect}
                       endingImpact={opt.endingImpact}
+                      locale={locale}
                     />
                   ))}
                 </div>
@@ -170,7 +181,11 @@ export default function ChoicesView({ content }: { content: ChoicesContent }) {
 
         {/* Interactive Tree */}
         <section className="pt-8 border-t border-slate-800">
-          <ChoiceTree copy={content.tree} />
+          <ChoiceTree
+            copy={content.tree}
+            choices={choices}
+            episodes={episodes}
+          />
         </section>
       </div>
     </>

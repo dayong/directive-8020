@@ -1,0 +1,482 @@
+{
+  "e1-initial-response": {
+    "scene": "Brecha en el casco",
+    "description": "Tras la brecha en el casco, ¿cómo respondes?",
+    "relationshipDetail": "Marca la base de cómo Stafford y la tripulación ven el liderazgo de Osmond. La confianza perdida al evacuar se arrastra hasta el Ep2.",
+    "options": [
+      {
+        "label": "Sellar la brecha",
+        "text": "Tómate el tiempo de sellar bien la brecha en el casco antes de continuar.",
+        "consequence": "La relación con la tripulación mejora. Progreso más lento, pero un resultado más seguro.",
+        "chainEffect": "Ninguna — decisión solo inmediata. Sellar genera buena voluntad que se acumula con decisiones posteriores favorables a Stafford.",
+        "endingImpact": "Ninguna directamente, pero la relación ganada da un margen de seguridad para futuras comprobaciones de confianza."
+      },
+      {
+        "label": "Evacuar de inmediato",
+        "text": "Abandona la zona de la brecha y corre a un lugar seguro.",
+        "consequence": "Evacuación más rápida, pero la tripulación pierde la confianza en tu criterio.",
+        "characterEffect": "Stafford: penalización de relación",
+        "chainEffect": "La penalización de confianza persiste hasta el Ep2, lo que hace un poco más difícil recuperarse de la conversación con Stafford en la cubierta de observación.",
+        "endingImpact": "Indirecta — reduce el margen de error en futuros desbloqueos de Destiny que dependen de la relación."
+      }
+    ]
+  },
+  "e1-honor-implore": {
+    "scene": "Complejo médico",
+    "description": "Stafford te confronta por la situación. ¿Cómo respondes?",
+    "relationshipDetail": "Stafford registra cada interacción. Honor abre su camino de Destiny en el Ep5. Suplicar marca a Osmond como débil de forma permanente en el registro interno de Stafford.",
+    "options": [
+      {
+        "label": "Honor",
+        "text": "Muestra respeto por la autoridad de Stafford y honra su posición.",
+        "consequence": "La relación con Stafford mejora notablemente. Abre mejores opciones en el Episodio 4.",
+        "characterEffect": "Stafford +",
+        "chainEffect": "Honor → Considerar (continuación) → Escuchar en el Ep2 → Apoyo a Cernan en el Ep3 → Destiny desbloqueado en el Ep5. Es el eslabón 1 de 3 de la cadena de Destiny de Stafford.",
+        "endingImpact": "Requerido para el Destiny The Father de Stafford. Sin él, el camino completo al mejor final se reduce."
+      },
+      {
+        "label": "Suplicar",
+        "text": "Suplica a Stafford que vea las cosas a tu manera.",
+        "consequence": "Sin beneficio significativo. Stafford te ve débil bajo presión.",
+        "characterEffect": "Stafford -",
+        "chainEffect": "Modificador permanente de -1 en la confianza de Stafford. Hace la comprobación de Destiny del Ep5 mucho más difícil, incluso con buenas decisiones posteriores.",
+        "endingImpact": "Reduce drásticamente la probabilidad de desbloquear el Destiny The Father. Exige que todas las demás decisiones con Stafford sean perfectas para compensar."
+      }
+    ]
+  },
+  "e1-consider-doubt": {
+    "scene": "Complejo médico (continuación)",
+    "description": "Tras elegir Honor, ¿cómo continúas con el plan?",
+    "relationshipDetail": "Consolida o deshace en parte la decisión de Honor. Considerar = 2.º eslabón de la cadena de Destiny de Stafford.",
+    "options": [
+      {
+        "label": "Considerar",
+        "text": "Considera con cuidado el plan de Stafford antes de actuar.",
+        "consequence": "Mantiene la confianza de la tripulación y deja todas las opciones abiertas.",
+        "chainEffect": "Consolida la cadena Honor → Considerar. Eslabón 2 de 3 del camino de Destiny de Stafford.",
+        "endingImpact": "Parte de los requisitos para desbloquear el Destiny de Stafford (Honor aquí + Considerar aquí + Escuchar en el Ep2)."
+      },
+      {
+        "label": "Dudar",
+        "text": "Expresa tus dudas sobre el plan.",
+        "consequence": "Pequeña penalización de relación. La tripulación cuestiona tu seguridad.",
+        "chainEffect": "Deshace en parte la decisión de Honor. La relación vuelve a un punto casi neutral.",
+        "endingImpact": "Debilita la cadena de Destiny de Stafford. Puede requerir decisiones perfectas en el Ep2 y el Ep5 para compensar."
+      }
+    ]
+  },
+  "e1-authorize-weapon": {
+    "scene": "Cuartos de la tripulación (Punto de inflexión)",
+    "description": "Encuentran un arma en los Cuartos de la tripulación. ¿Qué haces?",
+    "relationshipDetail": "Una decisión que parece menor pero tiene un impacto enorme. Autorizar las armas abre una rama de resolución no letal en el Ep5.",
+    "options": [
+      {
+        "label": "Autorizar el uso del arma",
+        "text": "Permite que se lleve el arma para defensa propia.",
+        "consequence": "Abre opciones de combate más adelante. Requerida para ciertos finales.",
+        "chainEffect": "Autorizar → se desbloquea la opción Bajar el arma + Sedar en el Ep5 → Williams sobrevive → trofeo Sedate Williams disponible → alimenta los requisitos del mejor final.",
+        "endingImpact": "Requerida para el trofeo Sedate Williams. Llave para la resolución no letal de Williams en el Ep5."
+      },
+      {
+        "label": "Rechazar",
+        "text": "Niégate a autorizar armas a bordo.",
+        "consequence": "Limita las opciones en el Episodio 5. Puede cerrar algunos caminos de final.",
+        "chainEffect": "Rechazar → la opción Bajar el arma en el Ep5 pasa a ser solo letal. No hay camino no letal, sin importar si preparaste el sedante.",
+        "endingImpact": "Bloquea permanentemente el trofeo Sedate Williams. Reduce la resolución del Ep5 a solo letal."
+      }
+    ]
+  },
+  "e2-trust-stafford": {
+    "scene": "Puente de mando",
+    "description": "Stafford propone un plan arriesgado para llegar a la sala de máquinas.",
+    "relationshipDetail": "Tercer eslabón de la cadena de Destiny de Stafford. Confiar aquí = 3/3 activadores si fuiste de apoyo en el Ep1.",
+    "options": [
+      {
+        "label": "Confiar en Stafford",
+        "text": "Apoya el plan de Stafford sin cuestionarlo.",
+        "consequence": "La relación con Stafford mejora. El plan sale bien.",
+        "characterEffect": "Stafford +",
+        "chainEffect": "Ep1 Honor+Considerar → Ep2 Confiar → Apoyo a Cernan en el Ep3 → Destiny The Father desbloqueado en el Ep5. Cadena completa.",
+        "endingImpact": "Imprescindible para desbloquear el Destiny The Father. Sin esto, el momento del Ep5 falla incluso con un Ep1 perfecto."
+      },
+      {
+        "label": "Cuestionar el plan",
+        "text": "Cuestiona el criterio de Stafford y propón una alternativa.",
+        "consequence": "Penalización en la relación con Stafford. Ruta más lenta, pero posiblemente más segura.",
+        "characterEffect": "Stafford -",
+        "chainEffect": "Rompe la cadena de apoyo a Stafford. El desbloqueo del Destiny en el Ep5 se vuelve imposible a menos que se compense con el apoyo a Cernan en el Ep3.",
+        "endingImpact": "Reduce drásticamente la probabilidad de desbloquear el Destiny The Father. Puede ser irreparable."
+      }
+    ]
+  },
+  "e2-eisele-sample": {
+    "scene": "Laboratorio científico",
+    "description": "La Dr. Eisele quiere estudiar una muestra. ¿Se lo permites?",
+    "relationshipDetail": "Define la trayectoria de Eisele entre Scientist y Humanitarian. Acumulativa en Ep2+3+5.",
+    "options": [
+      {
+        "label": "Permitir el estudio",
+        "text": "Deja que Eisele estudie la muestra alienígena.",
+        "consequence": "Desbloquea el camino Eisele Scientist. Más información sobre la amenaza alienígena.",
+        "characterEffect": "Eisele: progreso del Destiny Scientist",
+        "chainEffect": "Permitir el estudio → impulsar la investigación en el Ep3 → el Destiny Scientist de Eisele se vuelve dominante. Hay que equilibrarlo con la decisión de contención.",
+        "endingImpact": "Empuja hacia el final Eisele the Scientist. Se puede cambiar a Humanitarian con decisiones cuidadosas en el Ep3-4."
+      },
+      {
+        "label": "Destruir la muestra",
+        "text": "Ordena destruir la muestra de inmediato.",
+        "consequence": "Primero la seguridad, pero se pierde información clave. Empuja a Eisele hacia el camino Humanitarian.",
+        "characterEffect": "Eisele: progreso del Destiny Humanitarian",
+        "chainEffect": "Destruir → empuje inmediato hacia Humanitarian. Combinado con una investigación segura en el Ep3 = una base sólida para Humanitarian.",
+        "endingImpact": "Posiciona a Eisele para el final verdadero The Humanitarian. Hace más fácil acceder a la decisión final del Ep8."
+      }
+    ]
+  },
+  "e2-rescue-carter": {
+    "scene": "Pasillo",
+    "description": "Oyes una llamada de socorro. Alguien necesita ayuda.",
+    "relationshipDetail": "Decisión relacionada con un coleccionable. No afecta a la supervivencia (Carter muere siempre).",
+    "options": [
+      {
+        "label": "Investigar",
+        "text": "Ve hacia la llamada de socorro.",
+        "consequence": "Revela más de la historia. Desbloquea un coleccionable.",
+        "chainEffect": "Desbloquea un coleccionable que aporta contexto sobre Cycle 13 en el Ep7-8.",
+        "endingImpact": "Sin impacto directo en el final."
+      },
+      {
+        "label": "Seguir con la misión",
+        "text": "Ignora la llamada y continúa hacia el objetivo.",
+        "consequence": "Te pierdes un coleccionable y contexto de la historia.",
+        "chainEffect": "Te pierdes el coleccionable. Sin penalización de juego más allá del contexto argumental perdido.",
+        "endingImpact": "Sin impacto directo en el final."
+      }
+    ]
+  },
+  "e3-cernan-trust": {
+    "scene": "Bodega de carga (Cernan jugable)",
+    "description": "Cernan se encuentra algo inusual en la bodega de carga.",
+    "relationshipDetail": "Establece la fiabilidad de Cernan. Informar = un Ep7 más seguro. Investigar = sigilo más difícil en el Ep7.",
+    "options": [
+      {
+        "label": "Informar de inmediato",
+        "text": "Informa del hallazgo al mando antes de investigar.",
+        "consequence": "La tripulación queda alerta, pero la entidad tiene tiempo de esconderse.",
+        "characterEffect": "Mantiene a Cernan más seguro",
+        "chainEffect": "Informar = Cernan queda en una posición más segura en la sección de geociencias del Ep7. Patrulla más corta, sigilo más fácil.",
+        "endingImpact": "Indirecta — mantiene vivo a Cernan durante el Ep7, algo necesario para el recuento completo de supervivientes en el final verdadero."
+      },
+      {
+        "label": "Investigar en solitario",
+        "text": "Comprueba qué es por tu cuenta antes de dar la alarma.",
+        "consequence": "Peligroso, pero aporta más información. Cernan puede resultar herido.",
+        "chainEffect": "Investigar = la sección de geociencias del Ep7 se vuelve más difícil. Más enemigos, patrullas más largas. Se puede sobrevivir, pero el margen es más estrecho.",
+        "endingImpact": "Aumenta el riesgo de perder a Cernan en el Ep7. Una sola muerte puede encadenar finales peores."
+      }
+    ]
+  },
+  "e3-sample-handling": {
+    "scene": "Laboratorio de contención",
+    "description": "La muestra alienígena está reaccionando. ¿Cómo la manejas?",
+    "relationshipDetail": "Bifurcación clave en el camino Scientist vs Humanitarian de Eisele. Acumulativa con las decisiones del Ep2+5.",
+    "options": [
+      {
+        "label": "Contener y estudiar",
+        "text": "Refuerza la contención y continúa la investigación.",
+        "consequence": "Se reúnen más datos. Aumenta el riesgo de brecha en la contención.",
+        "chainEffect": "Neutral en el camino de Eisele. Mantiene abiertas las opciones Scientist y Humanitarian. Se combina con el Ep2+5.",
+        "endingImpact": "Mantiene disponibles todos los finales. El peso acumulado de Ep2+3+5 determina el desbloqueo final del Destiny."
+      },
+      {
+        "label": "Purga de emergencia",
+        "text": "Expulsa la muestra al espacio.",
+        "consequence": "Pierdes la muestra. Algunos finales dejan de estar disponibles. La tripulación está más segura.",
+        "chainEffect": "Fuerte empuje hacia Humanitarian. Puede cerrar por completo la opción del final Scientist.",
+        "endingImpact": "Empuja con fuerza hacia el final verdadero Humanitarian. Puede bloquear el final Eisele the Scientist."
+      }
+    ]
+  },
+  "e3-stafford-eisele": {
+    "scene": "Sala de reuniones",
+    "description": "Stafford y Eisele no se ponen de acuerdo sobre el próximo paso.",
+    "relationshipDetail": "Último eslabón de la cadena de Destiny de Stafford. Ponerse del lado de Eisele = óptimo para el final verdadero.",
+    "options": [
+      {
+        "label": "Ponerse del lado de Stafford",
+        "text": "Está de acuerdo con el enfoque táctico de Stafford.",
+        "consequence": "La relación con Stafford mejora. Eisele se siente apartado.",
+        "characterEffect": "Stafford + / Eisele -",
+        "chainEffect": "Se refuerza la autoridad de Stafford, pero la relación con Eisele se resiente. La escena del laboratorio del Ep5 es más difícil: Eisele se muestra menos colaboradora.",
+        "endingImpact": "Empuja a Eisele hacia el final Scientist. Se puede equilibrar con decisiones del Ep5."
+      },
+      {
+        "label": "Ponerse del lado de Eisele",
+        "text": "Apoya el enfoque científico de Eisele.",
+        "consequence": "La relación con Eisele mejora. Stafford cuestiona tu lealtad.",
+        "characterEffect": "Eisele + / Stafford -",
+        "chainEffect": "Óptimo para el final verdadero. Mejora la relación con Eisele. Stafford se recupera en el Ep5 si eliges el diálogo correcto.",
+        "endingImpact": "Apoya el camino del final Humanitarian. La relación con Stafford se recupera en el Ep5."
+      }
+    ]
+  },
+  "e4-follow-cooper": {
+    "scene": "Túneles de mantenimiento (Cruce 13)",
+    "description": "¿Cómo procedes al llegar al cruce 13 de los túneles de mantenimiento?",
+    "relationshipDetail": "La confianza de Cooper afecta a su comportamiento en el escape del reactor del Ep6.",
+    "options": [
+      {
+        "label": "Sigue las instrucciones de Cooper al pie de la letra",
+        "text": "Sigue las instrucciones de Cooper al pie de la letra",
+        "consequence": "Navegación segura: sobreviven tanto Osmond como Cooper.",
+        "characterEffect": "Cooper: relación +",
+        "chainEffect": "Se construye la confianza de Cooper → escape del reactor del Ep6: Cooper se ofrece como señuelo sin dudar → ventana de escape más limpia.",
+        "endingImpact": "Mejora el margen de seguridad del escape del reactor del Ep6."
+      },
+      {
+        "label": "Investiga el camino alternativo",
+        "text": "Investiga el camino alternativo",
+        "consequence": "Riesgo de que te detecte la criatura.",
+        "chainEffect": "Penalización en la relación con Cooper → Ep6: Cooper duda antes del QTE del señuelo → ventana de escape más corta.",
+        "endingImpact": "Reduce el margen de seguridad del Ep6. Puede provocar que Cooper resulte herido o muera si se combina con otros errores."
+      }
+    ]
+  },
+  "e4-reactor-confirm": {
+    "scene": "Confrontación en el reactor",
+    "description": "Después de que la criatura caiga al reactor, ¿qué haces?",
+    "relationshipDetail": "Última decisión del Ep4. Confirmar = la tripulación confía en tu criterio. Investigar = herida innecesaria.",
+    "options": [
+      {
+        "label": "Confirma que está muerta e informa",
+        "text": "Confirma que está muerta e informa",
+        "consequence": "La tripulación se reúne a salvo; amenaza confirmada como eliminada.",
+        "chainEffect": "La base de confianza se traslada a la dinámica de grupo del Ep5. Tono positivo.",
+        "endingImpact": "Sin impacto directo en el final."
+      },
+      {
+        "label": "Investiga más a fondo",
+        "text": "Investiga más a fondo",
+        "consequence": "Riesgo innecesario: Osmond puede resultar herido.",
+        "chainEffect": "Osmond sufre daño por caída → posible marca cosmética permanente → la tripulación cuestiona tu criterio → el Ep5 empieza con menos confianza.",
+        "endingImpact": "Indirecta: la menor confianza en el Ep5 hace la confrontación con Williams un poco más difícil."
+      }
+    ]
+  },
+  "e5-sedative": {
+    "scene": "Laboratorio científico — ⚠ DECISIÓN PERDIBLE",
+    "description": "Eisele puede preparar un sedante para Williams. Sin aviso ni marcador: hay que interactuar manualmente con el equipo del laboratorio.",
+    "relationshipDetail": "LA decisión más fácil de perder. Hay que explorar el laboratorio de forma activa. Sin indicador en el HUD.",
+    "options": [
+      {
+        "label": "Prepara el sedante",
+        "text": "Prepara el sedante",
+        "consequence": "Necesario para mantener vivo a Williams más adelante. Se requiere para el trofeo «Sedate Williams».",
+        "characterEffect": "Desbloquea la opción del sedante en la confrontación",
+        "chainEffect": "Sedante → Bajar el arma en el Ep5 pasa a ser no letal → Williams sobrevive → trofeo Sedate Williams → alimenta el mejor final.",
+        "endingImpact": "Requerido para el trofeo Sedate Williams. Abre la resolución no letal de Williams. Parte de los requisitos del mejor final."
+      },
+      {
+        "label": "Omite el equipo del laboratorio",
+        "text": "Omite el equipo del laboratorio / no interactúes con el equipo del sedante",
+        "consequence": "Williams no podrá ser sedado después; su muerte es más probable. Trofeo perdible.",
+        "chainEffect": "Sin sedante → Bajar el arma es solo letal → Williams DEBE morir o escapar. Trofeo perdido para siempre.",
+        "endingImpact": "Bloquea permanentemente el trofeo Sedate Williams. Reduce la calidad del final al eliminar la supervivencia no letal de un NPC."
+      }
+    ]
+  },
+  "e5-point-blank": {
+    "scene": "A quemarropa — Confrontación con Williams",
+    "description": "Williams queda al descubierto como un doble. ¿Cómo respondes durante la transformación?",
+    "relationshipDetail": "Depende del sedante. Con sedante = lo mejor es Bajar el arma. Sin sedante = disparar es más seguro.",
+    "options": [
+      {
+        "label": "Bajar el arma",
+        "text": "Bajar el arma (si preparaste el sedante)",
+        "consequence": "Gana tiempo y abre la opción del sedante. Williams puede ser neutralizado sin matarlo.",
+        "characterEffect": "Mantiene vivo a Williams si se preparó el sedante",
+        "chainEffect": "Bajar el arma + sedante = Williams vive → información útil en el Ep7 → mejor dinámica en el Ep8.",
+        "endingImpact": "Contribuye al camino del mejor final. Requerido para el trofeo Sedate Williams."
+      },
+      {
+        "label": "Dispara",
+        "text": "Dispara",
+        "consequence": "El doble de Williams queda eliminado al instante. Limpio, pero pierdes un trofeo opcional.",
+        "chainEffect": "Disparar = Williams muere → pierdes la información del Ep7 → una comprobación de diálogo del Ep7 se vuelve más difícil. Trofeo bloqueado.",
+        "endingImpact": "Bloquea el trofeo Sedate Williams. Reduce ligeramente la calidad del Ep7-8."
+      }
+    ]
+  },
+  "e5-fire-rescue": {
+    "scene": "Incendio en la bahía hidropónica",
+    "description": "Mitchell y Anders están atrapados en un incendio. Se pueden salvar a los dos: la interfaz engaña.",
+    "relationshipDetail": "Ambos NPC pueden sobrevivir. La interfaz parece obligarte a elegir uno, pero no es así.",
+    "options": [
+      {
+        "label": "Rescata a Mitchell y a Anders",
+        "text": "Rescata a Mitchell y a Anders",
+        "consequence": "Sobreviven los dos NPC. Progreso de trofeo.",
+        "characterEffect": "Mitchell y Anders sobreviven",
+        "chainEffect": "Rescatas a ambos → aparecen en el grupo de búsqueda del Ep7 → Mitchell es clave en el diálogo del Ep8. Los dos vivos = mejores opciones de final.",
+        "endingImpact": "Requerido para el trofeo Mitchell and Anders Survived. Ambos vivos mejora el Ep7-8 y acerca al mejor final."
+      },
+      {
+        "label": "Prioriza a uno o ignora el incendio",
+        "text": "Prioriza a uno sobre el otro / ignora el incendio",
+        "consequence": "Uno o los dos NPC mueren.",
+        "chainEffect": "Muerte aquí → cambia el grupo de búsqueda del Ep7 → menos NPC = menos apoyo en el Ep8. Trofeo perdido para siempre.",
+        "endingImpact": "Bloquea el trofeo Mitchell and Anders Survived. Reduce la variedad de finales."
+      }
+    ]
+  },
+  "e5-stafford-destiny": {
+    "scene": "El colapso de Stafford — Momento de destino",
+    "description": "Stafford sufre un colapso. Osmond puede animarlo. Requiere la cadena de apoyo del Ep1-3 para lograr el mejor efecto.",
+    "relationshipDetail": "Culminación de Ep1 Honor→Considerar→Escuchar en el Ep2→Cernan en el Ep3. Se necesitan los 3 activadores previos.",
+    "options": [
+      {
+        "label": "«Nunca olvides por qué empezaste»",
+        "text": "Anima a Stafford: «Nunca olvides por qué empezaste».",
+        "consequence": "Se desbloquea el Destiny The Father de Stafford, necesario para la ruta del mejor final.",
+        "characterEffect": "Stafford: Destiny The Father",
+        "chainEffect": "Activador final de la cadena Ep1→2→3→5. Aparece la notificación «Destiny Unlocked». Destiny The Father activo.",
+        "endingImpact": "El Destiny The Father es un requisito para la ruta completa del mejor final. Sin él, el camino al final verdadero queda incompleto."
+      },
+      {
+        "label": "Deja que Stafford se rinda",
+        "text": "Quédate en silencio o deja que Stafford se rinda",
+        "consequence": "Destiny no desbloqueado. Peores resultados en el Episodio 7.",
+        "chainEffect": "Destiny no desbloqueado. La cadena de apoyo del Ep1-3 se desperdició. En el Ep7, Stafford toma malas decisiones bajo presión.",
+        "endingImpact": "Bloquea el Destiny The Father. Reduce el camino al mejor final. Stafford puede costarles caro a otros personajes en el Ep7."
+      }
+    ]
+  },
+  "e6-two-eiseles": {
+    "scene": "Aparecen dos Eisele — 🔑 DECISIÓN MÁS CRÍTICA",
+    "description": "Aparecen dos Eisele idénticos. Uno es real y el otro es un doble. Esta decisión determina tu final.",
+    "relationshipDetail": "LA decisión más importante de todo el juego. Llave para el final verdadero.",
+    "options": [
+      {
+        "label": "Confiar en el RECIÉN LLEGADO (llega por separado)",
+        "text": "Confía en el RECIÉN LLEGADO: el Eisele que llega por separado",
+        "consequence": "El Eisele real sobrevive. Se mantiene el camino del mejor final. El final verdadero sigue siendo posible.",
+        "characterEffect": "Eisele sobrevive — camino al final verdadero abierto",
+        "chainEffect": "Se identifica al Eisele real → el Ep7 continúa con el Eisele auténtico → la decisión del final verdadero queda disponible en el Ep8.",
+        "endingImpact": "LA llave para Eisele the Humanitarian (FINAL VERDADERO). Si fallas, el final verdadero queda bloqueado para siempre."
+      },
+      {
+        "label": "Confiar en el que ya estaba con el grupo",
+        "text": "Confía en el que ya estaba con el grupo",
+        "consequence": "El Eisele real muere. Quedas fuera del mejor final para siempre.",
+        "chainEffect": "El Eisele falso se infiltra → el Ep7-8 continúa con el doble → el final verdadero queda NO DISPONIBLE para siempre, sin importar las demás decisiones.",
+        "endingImpact": "IRREVERSIBLE. Bloquea Eisele the Humanitarian para siempre. Solo Homeward Bound o Game Over."
+      }
+    ]
+  },
+  "e6-outdoor-junction": {
+    "scene": "Cruce exterior — ⚠ Punto de no retorno",
+    "description": "Elige una dirección en el exterior. El juego NO te avisa: la izquierda es un punto de no retorno.",
+    "relationshipDetail": "La trampa de la «cala». Bifurcación sin señalizar. Izquierda = Anders muere. Derecha = Anders vive.",
+    "options": [
+      {
+        "label": "Gira a la DERECHA (quédate fuera)",
+        "text": "Gira a la DERECHA: bajo las estalactitas, quédate fuera",
+        "consequence": "Camino seguro: escapa toda la tripulación. Anders sobrevive.",
+        "characterEffect": "Anders sobrevive",
+        "chainEffect": "Anders vivo → disponible en el grupo de búsqueda del Ep7 → alimenta el trofeo Mitchell and Anders Survived → mejor Ep8.",
+        "endingImpact": "Requerido para el trofeo Mitchell and Anders Survived. Anders vivo = más apoyo de NPC = mejores finales."
+      },
+      {
+        "label": "Gira a la IZQUIERDA (entra en las cuevas)",
+        "text": "Gira a la IZQUIERDA: hacia el sistema de cuevas",
+        "consequence": "Punto de no retorno. Anders morirá. No hay vuelta atrás una vez que entras.",
+        "chainEffect": "Anders muere de inmediato. El grupo de búsqueda del Ep7 se convierte en una trampa: el doble sustituye a Anders. Usa el Punto de inflexión para deshacerlo.",
+        "endingImpact": "Bloquea el trofeo Mitchell and Anders Survived. Reduce las opciones de final. Solo se puede arreglar con el Punto de inflexión."
+      }
+    ]
+  },
+  "e6-reactor-escape": {
+    "scene": "Escape del reactor",
+    "description": "El reactor se sobrecarga: fusión del núcleo en 10 minutos. Escapa rápido.",
+    "relationshipDetail": "Secuencia contrarreloj. Avanzar rápido = seguro. Dudar = riesgo.",
+    "options": [
+      {
+        "label": "Avanza rápido por cada sección",
+        "text": "Avanza rápido por cada sección",
+        "consequence": "Toda la tripulación escapa antes de la fusión. Sin víctimas.",
+        "chainEffect": "Escape limpio → el Ep7 empieza con el equipo completo y la moral alta.",
+        "endingImpact": "Conserva el número de supervivientes para el Ep7-8. No bloquea ni desbloquea finales directamente."
+      },
+      {
+        "label": "Tómate tu tiempo para explorar",
+        "text": "Tómate tu tiempo para explorar o duda",
+        "consequence": "Riesgo de víctimas por la fusión del núcleo.",
+        "chainEffect": "Dudar → posibles fallos de QTE → heridos o muertos en la tripulación → el Ep7 empieza con menos moral y, quizá, con menos personajes.",
+        "endingImpact": "Puede reducir el número de supervivientes y limitar directamente las opciones de final. Es posible el Game Over si mueren demasiados."
+      }
+    ]
+  },
+  "e7-eisele-final": {
+    "scene": "La decisión final de Eisele — ⭐ DESBLOQUEA EL FINAL VERDADERO",
+    "description": "Eisele debe decidir el destino de los datos del programa de clones. Es el momento decisivo de todo el juego.",
+    "relationshipDetail": "La culminación de todas las decisiones de Eisele a lo largo de los 8 episodios. Exponer = final verdadero.",
+    "options": [
+      {
+        "label": "Exponer el programa de clones",
+        "text": "Expón el programa de clones (Eisele the Humanitarian)",
+        "consequence": "Final verdadero. Eisele difunde la verdad a la humanidad. El ciclo termina.",
+        "characterEffect": "Eisele: Destiny The Humanitarian — Final verdadero",
+        "chainEffect": "Exponer → final Eisele the Humanitarian → difusión de la verdad → Cycle 13 termina → créditos con los 5 supervivientes.",
+        "endingImpact": "Desbloquea Eisele the Humanitarian (FINAL VERDADERO). Requiere al Eisele real en el Ep6 + todas las decisiones favorables a Eisele. El final de platino."
+      },
+      {
+        "label": "Proteger la misión",
+        "text": "Mantén la información clasificada (Eisele the Scientist)",
+        "consequence": "Final científico. Eisele da prioridad a los datos de Growth. El ciclo continúa.",
+        "chainEffect": "Proteger → final Eisele the Scientist → datos preservados → 5 supervivientes posibles, pero con otra variante de final.",
+        "endingImpact": "Desbloquea el final Eisele the Scientist. No es el final verdadero, pero sigue siendo «bueno» si sobreviven los 5. El platino se puede conseguir con otros finales."
+      }
+    ]
+  },
+  "e8-williams-order": {
+    "scene": "Aproximación final",
+    "description": "Stafford debe decidir si lleva a Williams con el grupo durante el escape final.",
+    "relationshipDetail": "El destino de Williams en el final depende de si lo salvaste o lo mataste en el Ep5.",
+    "options": [
+      {
+        "label": "Llevar a Williams (ordenar)",
+        "text": "Ordena a Williams que venga con el grupo.",
+        "consequence": "Williams se une al escape. Si sobrevivió al Ep5, ofrece apoyo clave durante la sección del reactor.",
+        "chainEffect": "Williams vivo todo el tiempo → apoyo en el final del Ep8 → diálogo extra que revela toda la información sobre Corinth.",
+        "endingImpact": "Mejora la calidad del mejor final. Si Williams murió en el Ep5, esta opción no está disponible."
+      },
+      {
+        "label": "Dejar a Williams",
+        "text": "Deja a Williams atrás.",
+        "consequence": "Williams queda abandonado. Pierdes su posible apoyo en el Ep8. Elige esto solo si Williams fue hostil.",
+        "chainEffect": "Sin el apoyo de Williams en el final del Ep8. Menos opciones de diálogo.",
+        "endingImpact": "Reduce ligeramente la calidad del final. Aceptable si Williams fue hostil en el Ep5."
+      }
+    ]
+  },
+  "e8-mitchell-door": {
+    "scene": "Knock Knock — Mitchell en la puerta",
+    "description": "Alguien llama a la puerta diciendo ser Mitchell. ¿Es él de verdad o otro doble?",
+    "relationshipDetail": "La supervivencia de Mitchell en el rescate del incendio del Ep5 determina si esto es una trampa.",
+    "options": [
+      {
+        "label": "Dejar entrar a Mitchell",
+        "text": "Abre la puerta: es el verdadero Mitchell.",
+        "consequence": "Mitchell se une al grupo. Es real, siempre que lo hayas salvado en el Ep5.",
+        "chainEffect": "Mitchell vivo todo el tiempo → apoyo en el final del Ep8 → un superviviente más para el cálculo del final.",
+        "endingImpact": "Requerido para el logro Mitchell and Anders Survived. Mejora el recuento de supervivientes del final."
+      },
+      {
+        "label": "No abrir la puerta",
+        "text": "Niégate a abrir: es demasiado arriesgado.",
+        "consequence": "Mitchell se queda fuera. Puede que no sobreviva. El grupo pierde a un posible aliado.",
+        "chainEffect": "Mitchell queda excluido del final. Si era real (salvado en el Ep5), es una pérdida permanente.",
+        "endingImpact": "Puede bloquear Mitchell and Anders Survived. Reduce el recuento de supervivientes del final."
+      }
+    ]
+  }
+}

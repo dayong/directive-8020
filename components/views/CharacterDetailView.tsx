@@ -3,18 +3,20 @@ import Link from '@/components/ui/LocaleLink';
 import { notFound } from 'next/navigation';
 import CharacterBadge from '@/components/ui/CharacterBadge';
 import ChoiceCard from '@/components/ui/ChoiceCard';
-import { getCharacterById } from '@/data/characters';
-import { choices } from '@/data/choices';
+import { getCharacters, getChoices } from '@/lib/localized-data';
+import { buildAlternates } from '@/lib/page-seo';
+import type { Locale } from '@/i18n/config';
 import type { CharacterDetailContent } from '@/types/content-pages';
 
 interface Props {
   params: { character: string };
+  locale: Locale;
 }
 
 type ViewProps = Props & { content: CharacterDetailContent };
 
-export async function generateMetadata({ content, params }: ViewProps): Promise<Metadata> {
-  const char = getCharacterById(params.character);
+export async function generateMetadata({ content, params, locale }: ViewProps): Promise<Metadata> {
+  const char = getCharacters(locale).find((c) => c.id === params.character);
   if (!char) return { title: content.notFoundTitle };
   const title = content.metaTitleFormat
     .replace('{name}', char.name)
@@ -25,6 +27,7 @@ export async function generateMetadata({ content, params }: ViewProps): Promise<
       .replace('{fullName}', char.fullName)
       .replace('{role}', char.role)
       .replace('{description}', char.description),
+    alternates: buildAlternates(`/characters/${char.id}`, locale, 'character-detail'),
     openGraph: {
       title,
       description: char.description,
@@ -34,12 +37,12 @@ export async function generateMetadata({ content, params }: ViewProps): Promise<
   };
 }
 
-export default function CharacterDetailView({ content, params }: ViewProps) {
-  const char = getCharacterById(params.character);
+export default function CharacterDetailView({ content, params, locale }: ViewProps) {
+  const char = getCharacters(locale).find((c) => c.id === params.character);
   if (!char) notFound();
 
   // Find choices affecting this character
-  const relevantChoices = choices.filter((c) =>
+  const relevantChoices = getChoices(locale).filter((c) =>
     c.options.some(
       (o) =>
         o.characterEffect &&
@@ -92,7 +95,11 @@ export default function CharacterDetailView({ content, params }: ViewProps) {
               <p className="text-xs text-slate-500 mb-1">
                 {content.survivalStatusLabel}
               </p>
-              <CharacterBadge character={char} alive={!char.scriptedDeath} />
+              <CharacterBadge
+                character={char}
+                alive={!char.scriptedDeath}
+                locale={locale}
+              />
             </div>
           </div>
           <p className="text-slate-300">{char.description}</p>
@@ -139,6 +146,7 @@ export default function CharacterDetailView({ content, params }: ViewProps) {
                         recommended={opt.recommended}
                         consequence={opt.consequence}
                         characterEffect={opt.characterEffect}
+                        locale={locale}
                       />
                     ))}
                 </div>

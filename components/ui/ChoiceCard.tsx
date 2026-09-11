@@ -1,8 +1,12 @@
+import { uiStrings } from '@/i18n/ui';
+import type { Locale } from '@/i18n/config';
+
 interface ChoiceCardProps {
   scene: string;
   option: string;
   recommended: boolean;
   consequence: string;
+  locale: Locale;
   characterEffect?: string;
   chainEffect?: string;
   endingImpact?: string;
@@ -13,10 +17,12 @@ export default function ChoiceCard({
   option,
   recommended,
   consequence,
+  locale,
   characterEffect,
   chainEffect,
   endingImpact,
 }: ChoiceCardProps) {
+  const t = uiStrings[locale].choiceCard;
   return (
     <div
       className={`border-l-4 rounded-r-lg p-4 mb-3 ${
@@ -31,7 +37,7 @@ export default function ChoiceCard({
             recommended ? 'text-green-400' : 'text-red-400'
           }`}
         >
-          {recommended ? '✓ Recommended' : '✗ Avoid'}
+          {recommended ? t.recommended : t.avoid}
         </span>
         <span className="text-slate-200 font-medium">{option}</span>
       </div>
@@ -41,13 +47,13 @@ export default function ChoiceCard({
       )}
       {chainEffect && (
         <div className="mt-2 pt-2 border-t border-slate-700/50">
-          <span className="text-amber-400 text-xs font-medium">⟳ Cross-episode: </span>
+          <span className="text-amber-400 text-xs font-medium">{t.crossEpisode}</span>
           <span className="text-slate-400 text-xs">{chainEffect}</span>
         </div>
       )}
       {endingImpact && (
         <div className="mt-1">
-          <span className="text-red-400 text-xs font-medium">🎯 Ending impact: </span>
+          <span className="text-red-400 text-xs font-medium">{t.endingImpact}</span>
           <span className="text-slate-500 text-xs">{endingImpact}</span>
         </div>
       )}

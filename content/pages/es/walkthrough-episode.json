@@ -1,0 +1,8 @@
+{
+  "notFoundTitle": "Episodio no encontrado",
+  "backLink": "← Volver a las guías",
+  "episodeLabelFormat": "Episodio {number}",
+  "prevLabel": "← Anterior",
+  "nextLabel": "Siguiente →",
+  "navFormat": "Episodio {number}: {title}"
+}

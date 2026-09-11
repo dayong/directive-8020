@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Directive 8020: Pruebas de habilidad explicadas",
+    "description": "Las pruebas de habilidad de Directive 8020 explicadas: QTE de reflejos, sigilo y pruebas de relación marcadas por decisiones previas. Cómo superarlas.",
+    "ogTitle": "Directive 8020: Pruebas de habilidad explicadas",
+    "ogDescription": "En Directive 8020 no hay tiradas de dados: cada prueba es un QTE de reflejos, una de sigilo o una de relación marcada por tus decisiones previas."
+  },
+  "hero": {
+    "h1": "Las pruebas de habilidad de Directive 8020, explicadas",
+    "tagline": "Sin dados. Sin suerte. Cada prueba mide tus reflejos, tu precisión o las decisiones que tomaste antes.",
+    "intro": "Lo que los jugadores llaman «pruebas de habilidad» en Directive 8020 se divide en tres categorías, y saber cuál tienes delante es la diferencia entre superarla o perder a alguien."
+  },
+  "introSection": {
+    "heading": "¿Directive 8020 tiene pruebas de habilidad?",
+    "paragraphs": [
+      "Respuesta corta: **sí, pero no del tipo que esperas**. Directive 8020 no tiene tiradas de dados, ni puntos de estadística, ni RNG. Si una prueba falla, es por una de dos razones: se te escapó un reflejo o un test de precisión, o no construiste las relaciones correctas en episodios anteriores.",
+      "Eso es lo primero que debes entender antes que nada en esta página: *en Directive 8020, una prueba fallida nunca es mala suerte*. Es una interacción anterior que te faltó o un aviso que no pulsaste, lo que significa que casi todas las pruebas se pueden superar cuando sabes qué están midiendo de verdad.",
+      "Los tres tipos reales de «prueba de habilidad» que encontrarás, ordenados por la frecuencia con la que le cuestan un personaje a los jugadores:"
+    ]
+  },
+  "checkTypes": {
+    "heading": "Los tres tipos de prueba de habilidad en Directive 8020",
+    "cards": [
+      {
+        "label": "REFLEJO",
+        "title": "Avisos de botón con tiempo límite (QTE)",
+        "body": "El juego muestra un botón parpadeante en plena acción: en persecuciones, enfrentamientos, haces del escáner y la huida del reactor en el Episodio 6. Tienes una ventana corta para acertar. Si fallas, la escena continúa con una penalización: heridas que acompañan al personaje en escenas posteriores, una ventana de escape más estrecha o la muerte. Algunos coleccionables están escondidos a propósito detrás de secuencias de QTE, así que cada fallo también te cuesta progreso del trofeo Archivist.",
+        "tip": "⟳ Cómo superarla: mantén los dedos sobre los botones superiores o las teclas y no sueltes el mando durante las cinemáticas: los avisos pueden aparecer sin avisar en mitad de un diálogo «seguro»."
+      },
+      {
+        "label": "SIGILO Y PRECISIÓN",
+        "title": "Rondas, escáneres y secuencias con tiempo límite",
+        "body": "Los organismos de Growth patrullan rutas fijas, y el escáner biométrico de la nave barre a quien apunta. En la sección de Geociencia del Episodio 7, el primer organismo pasa de izquierda a derecha en un ciclo de unos doce segundos, y el segundo barre unos ocho segundos después, pero nunca mira detrás de la consola central, que es tu escondite. Que te atrapen no suele terminar la partida en el momento; te cuesta un resultado peor, una herida o una muerte más adelante en la secuencia.",
+        "tip": "⟳ Cómo superarla: observa un ciclo completo de ronda antes de moverte y recuerda que la decisión sobre Cernan en el Episodio 3 cambia la dificultad de esta sección: si investigas solo, las rondas del Episodio 7 se alargan y hay más enemigos."
+      },
+      {
+        "label": "RELACIÓN",
+        "title": "Pruebas ocultas de confianza, persuasión y Destino",
+        "body": "Estas son las pruebas que parecen aleatorias, y no lo son. El juego va sumando en silencio tus decisiones de diálogo y de acción en un estado de relación por personaje, y luego lo evalúa en momentos clave. Las pruebas de persuasión del Episodio 2, la prueba de confianza que decide el colapso de Stafford en el Episodio 5, la prueba de diálogo del Episodio 7 que se vuelve más difícil si Williams murió en el Episodio 5: todas se decidieron episodios antes de que aparezca el aviso.",
+        "tip": "⟳ Cómo superarla: trata cada rueda de diálogo como una inversión a largo plazo. Una respuesta «pequeña» equivocada, como Suplicar en el Complejo médico del Episodio 1, aplica un modificador permanente de -1 a la confianza de Stafford."
+      }
+    ]
+  },
+  "realChecks": {
+    "heading": "Pruebas reales que encontrarás, episodio a episodio",
+    "intro": "Las pruebas que de verdad deciden quién vive y quién muere en una partida:",
+    "headers": ["Cuándo", "Tipo de prueba", "Qué la decide", "Si sale mal"],
+    "rows": [
+      ["Ep. 1 — Brecha en el casco", "Relación", "Sellar la brecha o evacuar", "Pierdes el margen de confianza para las pruebas de Stafford posteriores"],
+      ["Ep. 1 — Complejo médico", "Relación", "Honor o Suplicar", "Confianza de Stafford con -1 permanente; la prueba de Destino del Ep. 5 es mucho más difícil"],
+      ["Ep. 2 — Puente de mando y cubierta de observación", "Relación", "Confiar en el plan de Stafford y escuchar en la cubierta de observación", "El Destino The Father no se desbloquea en el Episodio 5"],
+      ["Ep. 5 — Point Blank", "Prueba de preparación", "Arma autorizada en el Ep. 1 + sedante preparado en el Ep. 5", "Trofeo Sedate Williams bloqueado; la prueba de diálogo del Ep. 7 es más difícil"],
+      ["Ep. 6 — Las dos Eisele", "Identificación", "Qué Eisele llegó con el grupo", "Final verdadero bloqueado para siempre"],
+      ["Ep. 6 — Cruce exterior", "Navegación", "Izquierda (cueva) o derecha (estalactitas)", "Anders muere; el doble ocupa su lugar"],
+      ["Ep. 7 — Geociencia", "Sigilo / precisión", "El ritmo de la ronda + la decisión sobre Cernan del Ep. 3", "Detección, heridas, posibles muertes"]
+    ]
+  },
+  "whyEarlier": {
+    "heading": "Por qué tus decisiones anteriores determinan tus pruebas",
+    "intro": "Directive 8020 está diseñado para que las pruebas más difíciles sean las que debías preparar escenas antes. El patrón se repite durante todo el juego:",
+    "items": [
+      "**Elige Suplicar en el Episodio 1** y la prueba de Destino de Stafford en el Episodio 5 se vuelve «mucho más difícil incluso con buenas decisiones después», la forma que tiene el juego de decir que algunas penalizaciones son permanentes.",
+      "**Omite el sedante en el laboratorio del Episodio 5** (sin aviso ni marcador: tienes que ir tú a la estación de química) y el enfrentamiento de Point Blank no tendrá ninguna opción no letal. Ninguna prueba podrá salvar a Williams.",
+      "**Dispara a Williams en el Episodio 5** y su información del Episodio 7 desaparece, lo que hace más difícil una prueba de diálogo y reduce tus opciones en el Episodio 8.",
+      "**Elige a la Eisele equivocada en el Episodio 6** y ninguna partida perfecta posterior recuperará el final verdadero. La prueba ya ocurrió; el bloqueo es permanente."
+    ],
+    "outro": "Por eso las guías de «pruebas de habilidad» de este juego se leen como guías de relaciones: los reflejos son la parte fácil, y la preparación de las relaciones es donde de verdad se ganan o se pierden las partidas."
+  },
+  "faqHeading": "Preguntas frecuentes",
+  "faqs": [
+    {
+      "q": "¿Directive 8020 tiene pruebas de habilidad?",
+      "a": "Sí, pero ninguna es aleatoria. El juego tiene tres tipos: pruebas de reflejos (avisos de botón con tiempo límite), pruebas de sigilo y precisión (rondas, haces del escáner, huidas cronometradas) y pruebas de relación cuya dificultad fijaron decisiones que tomaste episodios antes. No hay tiradas de dados ni pruebas basadas en estadísticas."
+    },
+    {
+      "q": "¿Las pruebas de habilidad de Directive 8020 dependen de la suerte o de los dados?",
+      "a": "No. Todas las pruebas de Directive 8020 son deterministas. Si falla una prueba de persuasión, de Destino o de diálogo, puedes rastrear el motivo hasta una decisión anterior: por ejemplo, elegir Suplicar en el Complejo médico del Episodio 1 deja un -1 permanente en la confianza de Stafford y hace que la prueba de Destino del Episodio 5 sea mucho más difícil aunque todas las decisiones posteriores sean buenas."
+    },
+    {
+      "q": "¿Qué pasa si fallas un QTE en Directive 8020?",
+      "a": "Un aviso fallado puede herir o matar a un personaje: en la huida del reactor del Episodio 6, dudar provoca fallos de QTE que pueden costarte miembros de la tripulación antes de la fusión. Además, algunos coleccionables están escondidos detrás de secuencias de QTE, así que un fallo te cuesta progreso del trofeo Archivist. Los Puntos de inflexión pueden rebobinar ciertos momentos de decisión marcados, pero no todas las muertes por QTE se pueden recuperar."
+    },
+    {
+      "q": "¿Cómo funcionan las pruebas de relación en Directive 8020?",
+      "a": "El juego evalúa en silencio tus decisiones de relación acumuladas en momentos clave. Sellar la brecha en el casco en el Episodio 1 te da un margen de confianza para pruebas posteriores; elegir Suplicar en lugar de Honor en el Complejo médico aplica un -1 permanente a la confianza; disparar a Williams en el Episodio 5 te cuesta su información del Episodio 7 y hace más difícil una prueba de diálogo del Episodio 7."
+    },
+    {
+      "q": "¿Qué es la prueba de Destino en Directive 8020?",
+      "a": "Una prueba de Destino es la culminación de una cadena de relaciones: por ejemplo, el momento de colapso de Stafford en el Episodio 5 solo sale bien si completaste la cadena de Honor → Considerar del Episodio 1, la confianza del Episodio 2 y el apoyo a Cernan del Episodio 3. Si la superas, ves la notificación «Destiny Unlocked» y encaminas a Stafford hacia The Father, un requisito previo para la mejor ruta hacia el final."
+    },
+    {
+      "q": "¿Cuál es la prueba más difícil de Directive 8020?",
+      "a": "El momento del Episodio 6 en el que aparecen dos Eisele y debes decir cuál es la real. No intervienen reflejos: es una prueba de pura atención sobre qué Eisele llegó con el grupo y cuál llegó por separado. Elegir mal bloquea el final verdadero para siempre, por eso es la identificación más importante del juego."
+    }
+  ],
+  "cta": {
+    "text": "¿Quieres preparar todas las pruebas correctamente desde el Episodio 1?",
+    "links": [
+      { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "primary" },
+      { "href": "/choices", "label": "Todas las decisiones →", "variant": "outline" },
+      { "href": "/walkthrough", "label": "Guía completa →", "variant": "ghost" }
+    ]
+  }
+}

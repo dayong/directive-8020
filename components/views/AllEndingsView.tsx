@@ -1,13 +1,24 @@
 import EndingCard from '@/components/ui/EndingCard';
 import { CtaSection } from '@/components/content/CtaSection';
 import { HeroSection } from '@/components/content/HeroSection';
-import { endings, trueEnding } from '@/data/endings';
+import { getEndings } from '@/lib/localized-data';
+import { uiStrings } from '@/i18n/ui';
+import type { Locale } from '@/i18n/config';
 import type { AllEndingsContent } from '@/types/content-pages';
 
 
-const otherEndings = endings.filter((e) => !e.isTrueEnding);
+export default function AllEndingsView({
+  content,
+  locale,
+}: {
+  content: AllEndingsContent;
+  locale: Locale;
+}) {
+  const endings = getEndings(locale);
+  const trueEnding = endings.find((e) => e.isTrueEnding) ?? null;
+  const otherEndings = endings.filter((e) => !e.isTrueEnding);
+  const notAvailable = uiStrings[locale].allEndingsView.notAvailable;
 
-export default function AllEndingsView({ content }: { content: AllEndingsContent }) {
   return (
     <>
       <HeroSection hero={content.hero} glow="amber" />
@@ -96,7 +107,7 @@ export default function AllEndingsView({ content }: { content: AllEndingsContent
                       {ending.condition}
                     </td>
                     <td className="py-3 text-xs text-violet-400">
-                      {ending.turningPoint || 'N/A'}
+                      {ending.turningPoint || notAvailable}
                     </td>
                   </tr>
                 ))}
@@ -112,7 +123,7 @@ export default function AllEndingsView({ content }: { content: AllEndingsContent
           </h2>
           <div className="space-y-4">
             {otherEndings.map((ending) => (
-              <EndingCard key={ending.id} ending={ending} />
+              <EndingCard key={ending.id} ending={ending} locale={locale} />
             ))}
           </div>
         </section>

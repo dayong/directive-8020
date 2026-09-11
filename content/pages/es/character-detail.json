@@ -1,0 +1,13 @@
+{
+  "notFoundTitle": "Personaje no encontrado",
+  "metaTitleFormat": "{name} en Directive 8020 — guía de {role}",
+  "metaDescriptionFormat": "{fullName} — {role}. {description}",
+  "backLink": "← Volver a Personajes",
+  "profileHeading": "Perfil",
+  "actorLabel": "Actor",
+  "survivalStatusLabel": "Estado de supervivencia",
+  "destinyLabel": "Destino",
+  "keyChoicesFormat": "Decisiones clave que afectan a {name}",
+  "cannotBeSavedFormat": "⚠ {name} no se puede salvar",
+  "cannotBeSavedTextFormat": "La muerte de {name} es un evento guionizado de la historia. Ninguna decisión ni ningún QTE pueden evitarlo: es así por diseño. No pierdas el tiempo intentando cambiar este desenlace. Céntrate en mantener con vida a los 5 personajes jugables."
+}
