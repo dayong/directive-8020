@@ -14,6 +14,7 @@ import '../globals.css';
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
+  display: 'swap',
 });
 
 export async function generateMetadata({
@@ -64,12 +65,15 @@ export default function LocaleLayout({
   return (
     <html lang={params.locale} className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-slate-900 text-slate-100 pb-16 md:pb-0">
+        {/* lazyOnload keeps gtag's ~100KB off the critical path: afterInteractive
+            makes next/script emit a preload that competes with CSS/font/JS on
+            mobile, and gtag is not needed for first paint. */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-W2GMHSSLVR"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
