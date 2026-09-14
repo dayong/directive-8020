@@ -10,12 +10,6 @@ const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 const CHANGED_URLS = [
   '/directive-8020-buy',
   '/es/directive-8020-buy',
-  '/',
-  '/es',
-  '/game-length',
-  '/es/game-length',
-  '/walkthrough',
-  '/es/walkthrough',
 ];
 
 const body = {
