@@ -47,7 +47,8 @@
     "text": "The walkthrough pages tell you what happens. The Save Everyone guide tells you what to pick — and tracks your survivors as you go.",
     "links": [
       { "href": "/save-everyone", "label": "Save Everyone Guide →", "variant": "primary" },
-      { "href": "/all-endings", "label": "All Endings →", "variant": "outline" }
+      { "href": "/all-endings", "label": "All Endings →", "variant": "outline" },
+      { "href": "/directive-8020-buy", "label": "Where to Buy →", "variant": "ghost" }
     ]
   }
 }

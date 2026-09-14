@@ -1,4 +1,5 @@
 import Link from '@/components/ui/LocaleLink';
+import { isAffiliateHref } from '@/lib/affiliate';
 import type { CtaContent } from '@/types/content-pages';
 
 const variantClasses: Record<CtaContent['links'][number]['variant'], string> = {
@@ -14,11 +15,27 @@ export function CtaSection({ cta }: { cta: CtaContent }) {
         {cta.text}
       </p>
       <div className="flex flex-col sm:flex-row justify-center gap-4">
-        {cta.links.map((link, i) => (
-          <Link key={i} href={link.href} className={`inline-block px-8 py-3 rounded-lg font-semibold transition-colors ${variantClasses[link.variant]}`}>
-            {link.label}
-          </Link>
-        ))}
+        {cta.links.map((link, i) => {
+          const className = `inline-block px-8 py-3 rounded-lg font-semibold transition-colors ${variantClasses[link.variant]}`;
+          if (link.href.startsWith('http')) {
+            return (
+              <a
+                key={i}
+                href={link.href}
+                target="_blank"
+                rel={isAffiliateHref(link.href) ? 'sponsored nofollow noopener' : 'noopener noreferrer'}
+                className={className}
+              >
+                {link.label}
+              </a>
+            );
+          }
+          return (
+            <Link key={i} href={link.href} className={className}>
+              {link.label}
+            </Link>
+          );
+        })}
       </div>
     </div>
   );

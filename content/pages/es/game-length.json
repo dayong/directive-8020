@@ -73,7 +73,8 @@
     "text": "¿Listo para empezar a jugar?",
     "links": [
       { "href": "/walkthrough", "label": "Guía completa paso a paso →", "variant": "primary" },
-      { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "outline" }
+      { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "outline" },
+      { "href": "/directive-8020-buy", "label": "Dónde comprar →", "variant": "ghost" }
     ]
   }
 }

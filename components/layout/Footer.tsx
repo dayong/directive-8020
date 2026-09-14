@@ -25,6 +25,7 @@ export default function Footer({ locale }: { locale: Locale }) {
               <li><Link href="/trophies" className="text-slate-400 hover:text-violet-400 text-sm transition-colors">{t.trophyGuide}</Link></li>
               <li><Link href="/multiplayer" className="text-slate-400 hover:text-violet-400 text-sm transition-colors">{t.multiplayer}</Link></li>
               <li><Link href="/bug-fixes" className="text-slate-400 hover:text-violet-400 text-sm transition-colors">{t.bugFixes}</Link></li>
+              <li><Link href="/directive-8020-buy" className="text-slate-400 hover:text-violet-400 text-sm transition-colors">{t.whereToBuy}</Link></li>
             </ul>
           </div>
           <div>
@@ -50,6 +51,9 @@ export default function Footer({ locale }: { locale: Locale }) {
           </p>
           <p className="text-xs text-slate-600">
             {t.disclaimer2}
+          </p>
+          <p className="text-xs text-slate-600">
+            {t.affiliateNote}
           </p>
           <p className="text-xs text-slate-600">
             &copy; {new Date().getFullYear()} directive-8020.com &middot;{' '}

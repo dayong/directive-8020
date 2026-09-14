@@ -47,7 +47,8 @@
     "text": "Las páginas de la guía te cuentan qué pasa. La guía para salvar a todos te dice qué elegir, y registra a tus supervivientes sobre la marcha.",
     "links": [
       { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "primary" },
-      { "href": "/all-endings", "label": "Todos los finales →", "variant": "outline" }
+      { "href": "/all-endings", "label": "Todos los finales →", "variant": "outline" },
+      { "href": "/directive-8020-buy", "label": "Dónde comprar →", "variant": "ghost" }
     ]
   }
 }

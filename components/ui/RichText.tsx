@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import Link from '@/components/ui/LocaleLink';
+import { isAffiliateHref } from '@/lib/affiliate';
 
 const INLINE_RE = /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\([^)]+\))/g;
 
@@ -32,7 +33,13 @@ function renderToken(token: string, key: number): ReactNode {
       );
     }
     return (
-      <a key={key} href={href} target="_blank" rel="noreferrer" className="text-violet-400 hover:underline">
+      <a
+        key={key}
+        href={href}
+        target="_blank"
+        rel={isAffiliateHref(href) ? 'sponsored nofollow noopener' : 'noreferrer'}
+        className="text-violet-400 hover:underline"
+      >
         {label}
       </a>
     );

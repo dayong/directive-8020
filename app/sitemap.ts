@@ -105,6 +105,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/multiplayer', contentSlug: 'multiplayer', changeFrequency: 'monthly', priority: 0.7 },
     { path: '/directive-8020-cove', contentSlug: 'directive-8020-cove', changeFrequency: 'monthly', priority: 0.65 },
     { path: '/directive-8020-actress', contentSlug: 'directive-8020-actress', changeFrequency: 'monthly', priority: 0.65 },
+    { path: '/directive-8020-buy', contentSlug: 'directive-8020-buy', changeFrequency: 'monthly', priority: 0.7 },
     { path: '/privacy-policy', contentSlug: 'privacy-policy', changeFrequency: 'yearly', priority: 0.3 },
     { path: '/who-is-the-real-eisele-directive-8020', contentSlug: 'who-is-the-real-eisele-directive-8020', changeFrequency: 'monthly', priority: 0.7 },
     { path: '/shoot-williams-or-stand-down', contentSlug: 'shoot-williams-or-stand-down', changeFrequency: 'monthly', priority: 0.7 },

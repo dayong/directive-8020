@@ -47,10 +47,12 @@ export interface UiStrings {
     crashingAndFixes: string;
     pcIssues: string;
     consoleIssues: string;
+    whereToBuy: string;
     privacyPolicy: string;
     contact: string;
     disclaimer1: string;
     disclaimer2: string;
+    affiliateNote: string;
   };
   breadcrumbs: {
     episodeFormat: string;
@@ -139,11 +141,14 @@ const en: UiStrings = {
     crashingAndFixes: 'Crashing & Fixes',
     pcIssues: 'PC Issues',
     consoleIssues: 'Console Issues',
+    whereToBuy: 'Where to Buy',
     privacyPolicy: 'Privacy Policy',
     contact: 'Contact',
     disclaimer1: 'Unofficial fan guide. Not affiliated with Supermassive Games.',
     disclaimer2:
       'Directive 8020 is part of The Dark Pictures Anthology. This is an unofficial fan guide.',
+    affiliateNote:
+      'Some store links on this site are affiliate links. We may earn a commission on qualifying purchases at no extra cost to you.',
   },
   breadcrumbs: {
     episodeFormat: 'Ep. {number}: {title}',
@@ -162,6 +167,7 @@ const en: UiStrings = {
       multiplayer: 'Multiplayer',
       'directive-8020-cove': 'Cove Guide',
       'directive-8020-actress': 'Cast & Actresses',
+      'directive-8020-buy': 'Where to Buy',
     },
   },
   spoiler: {
@@ -249,11 +255,14 @@ const es: UiStrings = {
     crashingAndFixes: 'Cierres y soluciones',
     pcIssues: 'Problemas en PC',
     consoleIssues: 'Problemas en consola',
+    whereToBuy: 'Dónde comprar',
     privacyPolicy: 'Política de privacidad',
     contact: 'Contacto',
     disclaimer1: 'Guía de fans no oficial. Sin afiliación con Supermassive Games.',
     disclaimer2:
       'Directive 8020 es parte de The Dark Pictures Anthology. Esta es una guía de fans no oficial.',
+    affiliateNote:
+      'Algunos enlaces a tiendas de este sitio son enlaces de afiliado. Podemos ganar una comisión por las compras realizadas, sin coste adicional para ti.',
   },
   breadcrumbs: {
     episodeFormat: 'Ep. {number}: {title}',
@@ -278,6 +287,7 @@ const es: UiStrings = {
       'directive-8020-skill-checks': 'Pruebas de habilidad',
       codes: 'Códigos',
       'privacy-policy': 'Política de privacidad',
+      'directive-8020-buy': 'Dónde comprar',
     },
   },
   spoiler: {

@@ -10,6 +10,7 @@ import { characters } from '@/data/characters';
 import type { ContentMeta } from '@/types/content-pages';
 import AllEndingsView from '@/components/views/AllEndingsView';
 import BugFixesView from '@/components/views/BugFixesView';
+import BuyView from '@/components/views/BuyView';
 import CanCarterSurviveView from '@/components/views/CanCarterSurviveView';
 import CharactersView from '@/components/views/CharactersView';
 import CharacterDetailView, {
@@ -52,6 +53,7 @@ const staticRoutes: Record<string, RouteEntry> = {
   'all-endings': { contentSlug: 'all-endings', View: AllEndingsView },
   'bug-fixes': { contentSlug: 'bug-fixes', View: BugFixesView },
   'can-carter-survive': { contentSlug: 'can-carter-survive', View: CanCarterSurviveView },
+  'directive-8020-buy': { contentSlug: 'directive-8020-buy', View: BuyView },
   characters: { contentSlug: 'characters', View: CharactersView },
   choices: {
     contentSlug: 'choices',

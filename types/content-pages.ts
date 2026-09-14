@@ -316,3 +316,36 @@ export interface EpisodeDetailContent {
   nextLabel: string;
   navFormat: string;
 }
+
+export interface BuyFeatured {
+  storeLabel: string;
+  productName: string;
+  image: { src: string; alt: string; width: number; height: number };
+  priceNote: string;
+  trustPoints: string[];
+  ctaLabel: string;
+  href: string;
+}
+
+export interface BuyEdition {
+  badge?: string;
+  name: string;
+  platform: string;
+  note: string;
+  href: string;
+  ctaLabel: string;
+}
+
+export interface BuyContent {
+  meta: ContentMeta;
+  hero: HeroContent;
+  disclosure: string;
+  featured: BuyFeatured;
+  editions: { heading: string; intro: string; cards: BuyEdition[] };
+  video: { heading: string; src: string; poster: string; posterAlt: string; caption: string };
+  activation: { heading: string; intro: string; steps: { title: string; body: string }[] };
+  sections: ProseSection[];
+  faqHeading: string;
+  faqs: FaqItem[];
+  cta: CtaContent;
+}
