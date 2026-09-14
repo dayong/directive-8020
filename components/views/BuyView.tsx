@@ -18,7 +18,10 @@ export default function BuyView({ content }: { content: BuyContent }) {
       <div className="max-w-4xl mx-auto px-4 py-12 space-y-12">
         <div>
           <AffiliateCard card={content.featured} />
-          <p className="text-xs text-slate-500 mt-3">{content.disclosure}</p>
+          <div className="mt-3 border border-slate-700 bg-slate-800/40 rounded-lg px-4 py-3">
+            <p className="text-xs text-slate-400">{content.disclosure}</p>
+            <p className="text-xs text-slate-500 mt-1">{content.updated}</p>
+          </div>
         </div>
 
         <section>

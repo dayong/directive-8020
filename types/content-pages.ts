@@ -340,6 +340,7 @@ export interface BuyContent {
   meta: ContentMeta;
   hero: HeroContent;
   disclosure: string;
+  updated: string;
   featured: BuyFeatured;
   editions: { heading: string; intro: string; cards: BuyEdition[] };
   video: { heading: string; src: string; poster: string; posterAlt: string; caption: string };

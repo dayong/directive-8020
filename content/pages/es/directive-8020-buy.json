@@ -11,6 +11,7 @@
     "intro": "Directive 8020 está disponible en PC (Steam) y PlayStation 5. Aquí tienes las tiendas que recomendamos, todas las ediciones comparadas y cómo activar tu clave en menos de un minuto."
   },
   "disclosure": "Aviso: esta página contiene enlaces de afiliado. Si compras a través de ellos, podemos ganar una comisión sin coste adicional para ti: tú pagas siempre el mismo precio.",
+  "updated": "Última actualización: septiembre de 2026. Revisamos precios y tiendas cada mes.",
   "featured": {
     "storeLabel": "Instant Gaming",
     "productName": "Directive 8020 — clave de Steam (PC)",
@@ -95,6 +96,28 @@
   },
   "sections": [
     {
+      "heading": "Por qué recomendamos Instant Gaming",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Este sitio es una guía de fans independiente: no trabajamos para ninguna tienda y nada de esta página es contenido pagado. Enlazamos a Instant Gaming porque es una de las tiendas de claves más grandes de Europa, sus fichas de Directive 8020 están por debajo del precio de la tienda de Steam, entrega las claves por correo automático en cuestión de minutos y cubre las compras con protección al comprador: si una clave no se activa, el soporte la reemplaza o te devuelve el dinero."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tienda consolidada, con años de trayectoria y protección al comprador",
+            "Precios por debajo de la tienda de Steam en las ediciones de PC que comprobamos",
+            "Entrega automática por correo: sin esperar a ningún vendedor externo",
+            "Un soporte real que reemplaza las claves defectuosas"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Transparencia: ganamos una comisión cuando compras a través de nuestros enlaces, y eso nunca cambia el precio que pagas: pagas exactamente lo mismo que entrando en la tienda directamente. Aun así, te recomendamos comparar con las rebajas de Steam del momento antes de comprar; y si una tienda enlazada deja de ser fiable, cambiaremos o quitaremos el enlace."
+        }
+      ]
+    },
+    {
       "heading": "¿Es fiable Instant Gaming?",
       "blocks": [
         {
@@ -138,7 +161,7 @@
   "faqs": [
     {
       "q": "¿Dónde es más barato comprar Directive 8020?",
-      "a": "Las tiendas de claves suelen ser la opción más barata: en Instant Gaming, Directive 8020 suele estar un 20-40% por debajo del precio de la tienda de Steam. Las ofertas cambian, así que consulta el precio actual en la página del producto y compáralo con las rebajas de Steam del momento."
+      "a": "Las tiendas de claves suelen ser la opción más barata. En nuestra comprobación de precios de septiembre de 2026, las fichas de PC de Instant Gaming para Directive 8020 estaban un 25-42% por debajo del precio de la tienda de Steam. Las ofertas cambian: consulta el precio actual en la página del producto y compáralo con las rebajas de Steam del momento."
     },
     {
       "q": "¿Es fiable y seguro Instant Gaming?",
