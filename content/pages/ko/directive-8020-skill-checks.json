@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Directive 8020 조작·난이도 가이드 | QTE와 Turning Points",
+    "description": "공식 접근성 설정을 바탕으로 플레이 스타일, QTE, 방어 충전과 위협 표시를 안내합니다. QTE 시간 제한 해제는 Solo Story 전용입니다.",
+    "ogTitle": "Directive 8020 조작·난이도 가이드 | QTE와 Turning Points",
+    "ogDescription": "공식 접근성 설정을 바탕으로 플레이 스타일, QTE, 방어 충전과 위협 표시를 안내합니다. QTE 시간 제한 해제는 Solo Story 전용입니다."
+  },
+  "hero": {
+    "h1": "Directive 8020 조작·난이도 가이드 | QTE와 Turning Points",
+    "intro": "먼저 이야기 되돌리기와 조작 난이도를 구분하세요. 공식 안내에서는 서로 다른 설정으로 다루므로 Explorer를 선택한다고 모든 QTE 옵션이 정해지는 것은 아닙니다."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer와 Survivor는 플레이 스타일",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer에서는 플레이 도중 Turning Points로 중요한 선택에 돌아갈 수 있습니다. Survivor는 첫 이야기 진행 중 되돌릴 수 없으며 결말에 도달하면 기능이 열립니다. 바로 다른 분기를 살펴볼지, 이번 진행의 결정에 책임질지에 따라 선택하세요."
+          }
+        ]
+      },
+      {
+        "heading": "난이도는 별도로 선택",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "공식 난이도 프리셋은 Forgiving, Challenging, Lethal이며 Custom 설정도 있습니다. 개별 항목을 확인하세요. 프리셋이 대화를 바꾸거나 인물 생존을 보장한다고 여기면 안 됩니다."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "설정",
+              "변경 내용",
+              "주의 사항"
+            ],
+            "rows": [
+              [
+                "QTE 입력 통일",
+                "QTE에서 같은 입력 사용",
+                "화면 지시는 계속 확인"
+              ],
+              [
+                "연타 대신 길게 누르기",
+                "반복 입력을 누르고 있기로 변경",
+                "입력 방식 변경"
+              ],
+              [
+                "QTE 시간 제한 해제",
+                "QTE 제한 시간 제거",
+                "Solo Story 전용이며 오입력은 실패"
+              ],
+              [
+                "QTE 난이도와 경고",
+                "조작 난이도와 사전 경고 조절",
+                "플레이 스타일과 별도 설정"
+              ],
+              [
+                "방어 충전",
+                "실시간 위협에 대한 방어 회복 조절",
+                "대화 선택을 대신하지 않음"
+              ],
+              [
+                "위협 표시",
+                "위협 위치와 경계 상태 표시, 색상 조절 가능",
+                "현재 버전의 설명 확인"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "읽기 편한 화면 만들기",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "공식 옵션에는 자막, 청각 보조 자막, 선택지·메시지 글자 크기, 단순 글꼴과 조작 재지정이 있습니다. 긴박한 장면 전에 시험해 글자 인식, 반응 시간, 버튼 배치 중 무엇이 불편한지 확인하세요."
+          }
+        ]
+      },
+      {
+        "heading": "권장 설정 순서",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "원하는 이야기 진행 방식에 맞춰 플레이 스타일을 선택하세요.",
+              "난이도 프리셋과 관련 개별 설정을 확인하세요.",
+              "글자 크기, 자막과 버튼 배치를 확인하세요.",
+              "장면별 공략에 의존하기 전에 화면이 요구하는 조작을 익히세요."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "추가 정보",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[공식 접근성 설정](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)",
+              "[도전 과제 계획](/trophies)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

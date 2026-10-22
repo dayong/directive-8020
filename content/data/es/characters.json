@@ -1,38 +1,42 @@
 {
   "young": {
-    "role": "Copiloto / Astronauta",
-    "description": "La copiloto de la Cassiopeia y una de las protagonistas principales. Osmond es el centro moral de la tripulación, y sus decisiones influyen enormemente en el destino de todos a bordo."
+    "role": "Piloto",
+    "description": "Piloto de la Cassiopeia e hija del astronauta Bill Young."
   },
   "stafford": {
     "role": "Comandante",
-    "description": "El oficial al mando de la Cassiopeia y un explorador veterano conocido por ser el primer hombre en Marte. Sus decisiones de liderazgo tienen consecuencias de gran alcance para la tripulación, y Stafford afronta algunas de las decisiones más difíciles del juego."
+    "description": "Comandante de la misión y veterano de la expedición a Marte."
   },
   "eisele": {
-    "role": "Oficial científica",
-    "description": "La oficial científica de la nave. Pieza central de la trama de clones y dobles: un doble de Eisele aparece en el Episodio 6, lo que exige identificarlo con cuidado para evitar un desastre."
+    "role": "Oficial superior de misión",
+    "description": "Diseñó la misión, la Cassiopeia y su ordenador Oracle."
   },
   "cernan": {
-    "role": "Miembro de la tripulación",
-    "description": "Un miembro de la tripulación de la Cassiopeia. Es jugable por primera vez en el Episodio 3. La supervivencia de Cernan depende en gran medida de las decisiones de otros personajes."
+    "role": "Ingeniero técnico",
+    "description": "Ingeniero que aborda la misión con una actitud reflexiva."
   },
   "cooper": {
-    "role": "Miembro de la tripulación",
-    "description": "Un miembro de la tripulación de la Cassiopeia. Cooper se caracteriza por su ingenio y a menudo acaba en situaciones peligrosas que exigen pensar rápido."
+    "role": "Especialista médica",
+    "description": "Doctora con experiencia en evacuación médica militar."
   },
   "carter": {
-    "role": "Miembro de la tripulación",
-    "description": "Carter muere en un evento guionizado de la historia durante el Episodio 1 y no se le puede salvar, sin importar las decisiones del jugador. No intentes salvar a Carter: es imposible."
+    "role": "Técnico de sueño",
+    "description": "Trabaja junto a Simms en los sistemas de hibernación durante el viaje."
   },
   "simms": {
-    "role": "Miembro de la tripulación",
-    "description": "Simms muere en un evento guionizado de la historia durante el Episodio 1 y no se le puede salvar, sin importar las decisiones del jugador. Tanto Carter como Simms tienen muertes guionizadas que no se pueden evitar."
+    "role": "Técnica de sueño",
+    "description": "Técnica de sueño con formación en ingeniería."
   },
   "williams": {
-    "role": "Miembro de la tripulación",
-    "description": "Queda al descubierto como un doble alienígena en el enfrentamiento del escáner en el Episodio 5. Williams puede sobrevivir, pero solo si preparaste el sedante en el laboratorio de ciencias y elegiste Bajar el arma en Point Blank. Dispararle te bloquea el trofeo Sedate Williams."
+    "role": "Director ejecutivo",
+    "description": "Dirige Corinth, la empresa responsable de la misión."
   },
   "mitchell": {
-    "role": "Miembro de la tripulación",
-    "description": "Queda atrapado en el incendio de hidroponía del Episodio 5: puedes salvar tanto a Mitchell como a Anders, aunque la interfaz haga que parezca que solo puedes elegir a uno. Mitchell se reincorpora en el grupo de búsqueda del Episodio 7 y vuelve a ser importante en Knock Knock, en el Episodio 8."
+    "role": "Piloto",
+    "description": "Copiloto que se formó junto a Young y Stafford."
+  },
+  "anders": {
+    "role": "Oficial científica",
+    "description": "Científica que se incorporó a la misión por recomendación de Cooper."
   }
 }

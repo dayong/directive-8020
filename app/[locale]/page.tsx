@@ -8,7 +8,7 @@ import { notFound } from 'next/navigation';
 import { getAvailableLocales, getPageContent } from '@/lib/content';
 import { buildFaqSchema, buildPageMetadata } from '@/lib/page-seo';
 import { isLocale } from '@/i18n/config';
-import { uiStrings } from '@/i18n/ui';
+import { getUiStrings } from '@/i18n/ui';
 import type { CtaLink, HomeContent } from '@/types/content-pages';
 
 const SLUG = 'home';
@@ -50,13 +50,14 @@ export default function Home({ params }: Props) {
   if (!isLocale(locale)) notFound();
   const content = getPageContent<HomeContent>(SLUG, locale);
   if (!content) notFound();
-  const faqSchema = buildFaqSchema(content.faqs);
+  const faqSchema = buildFaqSchema(content.faqs, locale, true);
   const episodes = getEpisodes(locale);
-  const localeMeta = uiStrings[locale].layoutMeta;
+  const localeMeta = getUiStrings(locale).layoutMeta;
   const gameSchema = {
     '@context': 'https://schema.org',
     '@type': 'VideoGame',
     name: 'Directive 8020',
+    inLanguage: locale,
     description: localeMeta.jsonLdDescription,
     genre: localeMeta.jsonLdGenres,
     gamePlatform: ['PlayStation 5', 'Xbox Series X', 'PC'],
@@ -126,8 +127,8 @@ export default function Home({ params }: Props) {
           </div>
         </section>
 
-        {/* Episode Cards */}
-        <section>
+        {/* Only render chapter cards when this edition has reviewed chapter content. */}
+        {content.episodeSection.enabled !== false && <section>
           <h2 className="text-2xl font-bold text-slate-100 mb-6">
             {content.episodeSection.heading}
           </h2>
@@ -137,6 +138,8 @@ export default function Home({ params }: Props) {
             ))}
           </div>
         </section>
+
+        }
 
         {/* Best Ending Quick Path */}
         <section>

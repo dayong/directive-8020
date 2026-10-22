@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "All Endings in Directive 8020 | How to Unlock Every Ending",
-    "description": "Complete guide to all 10 endings in Directive 8020. Learn how to unlock each ending, survival requirements, and the best Turning Points to revisit.",
-    "ogTitle": "All Endings in Directive 8020 | Complete Ending Guide",
-    "ogDescription": "Complete guide to all 10 endings in Directive 8020. True ending, bad endings, and everything in between."
+    "title": "Exploring Directive 8020 Endings: Verified Rules and Unverified Routes",
+    "description": "The official presentation confirms a branching story with multiple endings. It does not establish the previously published ten-ending table, a canonical best ending or the conditions assigned to those names.",
+    "ogTitle": "Exploring Directive 8020 Endings: Verified Rules and Unverified Routes",
+    "ogDescription": "The official presentation confirms a branching story with multiple endings. It does not establish the previously published ten-ending table, a canonical best ending or the conditions assigned to those names."
   },
   "hero": {
     "h1": "All Endings in Directive 8020",
@@ -18,14 +18,63 @@
   },
   "overview": {
     "heading": "Ending Overview",
-    "headers": ["Ending", "Survivors", "Key Condition", "Turning Point"]
+    "headers": [
+      "Ending",
+      "Survivors",
+      "Key Condition",
+      "Turning Point"
+    ]
   },
   "detailedHeading": "All Endings — Detailed Breakdown",
   "cta": {
     "text": "Want to achieve the best ending? Follow the step-by-step guide:",
     "links": [
-      { "href": "/save-everyone", "label": "Save Everyone Guide →", "variant": "primary" },
-      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "outline" }
+      {
+        "href": "/save-everyone",
+        "label": "Save Everyone Guide →",
+        "variant": "primary"
+      },
+      {
+        "href": "/walkthrough",
+        "label": "Full Walkthrough →",
+        "variant": "outline"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ],
+    "replacement": {
+      "heading": "Exploring Directive 8020 Endings: Verified Rules and Unverified Routes",
+      "intro": "The official presentation confirms a branching story with multiple endings. It does not establish the previously published ten-ending table, a canonical best ending or the conditions assigned to those names.",
+      "sections": [
+        {
+          "heading": "Confirmed replay rules",
+          "text": "Explorer allows Turning Points during the story. Survivor commits you to decisions on the first run and unlocks Turning Points if you reach the ending. These rules do not prove the requirements of a particular ending or password."
+        },
+        {
+          "heading": "Before route advice is restored",
+          "text": "A reproducible record must identify the platform, game version, prior choices, actual prompt and observed result. The old details are retained for editorial review but are not published as current instructions. Use the official sources below and the verified controls guide while this review is pending."
+        }
+      ]
+    }
   }
 }

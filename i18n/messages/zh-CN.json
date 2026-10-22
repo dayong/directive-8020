@@ -1,0 +1,152 @@
+{
+  "layoutMeta": {
+    "defaultTitle": "Directive 8020 攻略导航｜角色、选择与合作玩法",
+    "titleTemplate": "%s | Directive 8020",
+    "description": "了解 Directive 8020 的 Cassiopeia 船员、分支选择、Turning Points 和合作玩法，按主题查找攻略与官方资料。",
+    "ogTitle": "Directive 8020 攻略导航｜角色、选择与合作玩法",
+    "ogDescription": "了解 Directive 8020 的 Cassiopeia 船员、分支选择、Turning Points 和合作玩法，按主题查找攻略与官方资料。",
+    "jsonLdDescription": "这是一款由 Supermassive Games 制作的电影式科幻恐怖冒险游戏。Cassiopeia 的船员面对能够模仿人类的外星威胁，你的决定将影响故事走向。",
+    "jsonLdGenres": [
+      "恐怖",
+      "互动剧情",
+      "科幻"
+    ]
+  },
+  "nav": {
+    "walkthrough": "流程攻略",
+    "saveEveryone": "全员生还",
+    "allEndings": "全部结局",
+    "choices": "剧情选择",
+    "characters": "角色",
+    "trophies": "奖杯"
+  },
+  "tabs": {
+    "guide": "攻略",
+    "saveAll": "生还",
+    "endings": "结局",
+    "choices": "选择",
+    "crew": "船员",
+    "trophies": "奖杯"
+  },
+  "languageSwitcher": {
+    "label": "语言"
+  },
+  "footer": {
+    "story": "剧情",
+    "gameplay": "玩法",
+    "collectibles": "收集要素",
+    "technical": "技术支持",
+    "bestEnding": "最佳结局",
+    "gameLength": "游戏时长",
+    "trophyGuide": "奖杯攻略",
+    "multiplayer": "多人游戏",
+    "bugFixes": "问题修复",
+    "charactersAndCast": "角色与演员",
+    "trophiesAndAchievements": "奖杯与成就",
+    "crashingAndFixes": "崩溃与修复",
+    "pcIssues": "PC 常见问题",
+    "consoleIssues": "主机常见问题",
+    "whereToBuy": "购买指南",
+    "privacyPolicy": "隐私政策",
+    "contact": "联系我们",
+    "disclaimer1": "非官方玩家攻略站，与 Supermassive Games 无关联。",
+    "disclaimer2": "Directive 8020 属于 The Dark Pictures Anthology 系列。本站为非官方玩家攻略站。",
+    "affiliateNote": "本站部分商店链接为推广链接。通过这些链接购买符合条件的商品时，我们可能获得佣金，你无需支付额外费用。",
+    "walkthrough": "流程攻略",
+    "saveEveryone": "全员生还",
+    "allEndings": "全部结局",
+    "choices": "剧情选择",
+    "collectiblesLink": "收集要素"
+  },
+  "breadcrumbs": {
+    "episodeFormat": "第 {number} 章：{title}",
+    "ariaLabel": "面包屑导航",
+    "labels": {
+      "": "首页",
+      "walkthrough": "流程攻略",
+      "save-everyone": "全员生还",
+      "all-endings": "全部结局",
+      "choices": "剧情选择",
+      "characters": "角色",
+      "trophies": "奖杯攻略",
+      "collectibles": "收集要素",
+      "game-length": "游戏时长",
+      "bug-fixes": "问题修复",
+      "multiplayer": "多人游戏",
+      "directive-8020-cove": "Cove 指南",
+      "directive-8020-actress": "角色与演员",
+      "directive-8020-buy": "购买指南",
+      "privacy-policy": "隐私政策",
+      "who-is-the-real-eisele-directive-8020": "辨认真正的 Eisele",
+      "shoot-williams-or-stand-down": "向 Williams 开枪还是放下武器？",
+      "can-carter-survive": "Carter 能活下来吗？",
+      "directive-8020-skill-checks": "技能检定",
+      "codes": "密码与口令"
+    }
+  },
+  "spoiler": {
+    "title": "剧透提醒",
+    "body": "点击展开。本节包含关键剧情剧透，可能影响你的游玩体验。"
+  },
+  "toc": {
+    "heading": "本页目录"
+  },
+  "episodeCard": {
+    "keyChoicesFormat": "{count} 个关键选择"
+  },
+  "choiceCard": {
+    "recommended": "✓ 推荐",
+    "avoid": "✗ 避免",
+    "crossEpisode": "⟳ 跨章节影响：",
+    "endingImpact": "🎯 对结局的影响："
+  },
+  "endingCard": {
+    "trueEnding": "真正结局",
+    "condition": "条件：",
+    "survivors": "幸存者：",
+    "turningPoint": "转折点："
+  },
+  "characterBadge": {
+    "scriptedDeath": "剧情固定死亡",
+    "deceased": "已死亡",
+    "unverified": "结局结果尚未核实"
+  },
+  "charactersView": {
+    "actor": "演员：",
+    "canSurvive": "可以生还",
+    "npcCanSurvive": "非玩家角色，可生还",
+    "scriptedDeath": "剧情固定死亡",
+    "notConfirmed": "所查资料尚未确认",
+    "outcomeUnverified": "结局结果尚未核实",
+    "playable": "可操作船员",
+    "supporting": "配角"
+  },
+  "trophiesView": {
+    "platinum": "白金",
+    "gold": "金",
+    "silver": "银",
+    "bronze": "铜",
+    "missable": "可错过"
+  },
+  "allEndingsView": {
+    "notAvailable": "不适用"
+  },
+  "accessibility": {
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "playPreview": "播放预告视频",
+    "episodeFormat": "第 {number} 章",
+    "dismissLanguage": "关闭语言建议",
+    "fallbackLanguage": "目标页面为英文",
+    "englishContent": "此篇指南目前提供英文内容。",
+    "officialSource": "官方游戏介绍"
+  },
+  "errors": {
+    "notFoundTitle": "找不到此页面",
+    "notFoundBody": "此语言下没有该页面。请选择有对应内容的语言，或返回首页。",
+    "home": "返回首页",
+    "loadTitle": "页面加载失败",
+    "loadBody": "请尝试重新加载此页面。",
+    "retry": "重试"
+  }
+}

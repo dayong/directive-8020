@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Directive 8020 수집 안내 | 에디션 콘텐츠와 진행 기록",
+    "description": "공식 디럭스 수집 콘텐츠를 확인하고 보유 에디션과 수집 진행을 구분하세요. 검증되지 않은 위치를 확정 경로로 안내하지 않습니다.",
+    "ogTitle": "Directive 8020 수집 안내 | 에디션 콘텐츠와 진행 기록",
+    "ogDescription": "공식 디럭스 수집 콘텐츠를 확인하고 보유 에디션과 수집 진행을 구분하세요. 검증되지 않은 위치를 확정 경로로 안내하지 않습니다."
+  },
+  "hero": {
+    "h1": "Directive 8020 수집 안내 | 에디션 콘텐츠와 진행 기록",
+    "intro": "먼저 보유 콘텐츠를 확인하세요. 위치 정보는 에디션, 버전과 이야기 진행이 저장 파일과 같을 때 유용합니다."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "공식으로 소개된 내용",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam 디럭스 업그레이드는 이전 Dark Pictures 작품의 피규어 등 추가 수집 요소를 소개합니다. 상품 페이지는 Steam 본편이 필요하다고 명시합니다. 추가 콘텐츠는 확인되지만 본 게임 모든 물품의 위치 지도는 아닙니다."
+          }
+        ]
+      },
+      {
+        "heading": "찾기 전에 에디션 확인",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "라이브러리의 본편과 추가 콘텐츠를 확인하세요.",
+              "플랫폼별 상품 설명을 읽고 패키지 이름이 같다고 가정하지 마세요.",
+              "에디션 보너스와 본편 수집품을 구분하세요.",
+              "설치된 버전에서 해당 콘텐츠를 사용할 수 있는지 확인하세요."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "유용한 수집 기록 만들기",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "물품마다 게임 내 이름, 장, 근처 목표, 이전 선택 조건과 수집 완료 기록을 남기세요. 스크린샷이나 저장 파일 표시는 위치 재현에 도움이 됩니다. 발견 기록과 미검증 트로피 조건은 구분해 보관하세요."
+          }
+        ]
+      },
+      {
+        "heading": "기존 총수와 위치에 관하여",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "기존의 65개라는 총수와 예시 방 위치는 공식 위치 목록으로 대조되지 않아 완성된 경로로 제공하지 않습니다. 해당 방이나 물품이 존재하지 않는다는 뜻은 아닙니다. 정확한 수와 경로는 직접 검증해야 합니다."
+          }
+        ]
+      },
+      {
+        "heading": "다시 방문할 계획",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "재시도 전에 플레이 스타일과 사용 가능한 Turning Points를 확인하세요. 되돌리기 기능이 있다고 모든 물품을 어느 지점에서나 회수할 수 있는 것은 아닙니다. 시도 후 실제 수집 기록을 확인하세요."
+          }
+        ]
+      },
+      {
+        "heading": "추가 정보",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam 공식 업그레이드 설명](https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/)",
+              "[도전 과제 계획](/trophies)",
+              "[플레이 스타일과 조작](/directive-8020-skill-checks)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Digital Deluxe Upgrade",
+        "url": "https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/"
+      },
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      }
+    ]
+  }
+}

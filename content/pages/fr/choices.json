@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Choix et Turning Points de Directive 8020",
+    "description": "Comprenez les règles d’Explorer et Survivor, comparez les branches et découvrez les informations nécessaires à un relevé vérifiable.",
+    "ogTitle": "Choix et Turning Points de Directive 8020",
+    "ogDescription": "Comprenez les règles d’Explorer et Survivor, comparez les branches et découvrez les informations nécessaires à un relevé vérifiable."
+  },
+  "hero": {
+    "h1": "Choix et Turning Points de Directive 8020",
+    "intro": "Commencez par les règles de retour sur une décision. Le guide officiel d’accessibilité précise quand Turning Points est disponible, mais ne donne pas de tableau universel des bonnes réponses."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer : revenir pendant l’histoire",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer propose Turning Points pendant l’histoire, avec la possibilité d’annuler la mort d’un personnage. Revenez au choix concerné et observez la nouvelle branche au lieu de supposer l’issue précédente définitivement bloquée."
+          }
+        ]
+      },
+      {
+        "heading": "Survivor : assumer la première histoire",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Survivor interdit les retours via Turning Points pendant la première histoire. Atteindre la fin débloque la fonction pour explorer d’autres issues. Ce style est distinct de la difficulté des QTE et des menaces en temps réel."
+          }
+        ]
+      },
+      {
+        "heading": "Comparer avec des notes précises",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Notez le texte exact du choix, le personnage contrôlé et les décisions antérieures.",
+              "Consignez version, style et sauvegarde utilisés.",
+              "Observez les scènes ultérieures en plus de la réaction immédiate.",
+              "Modifiez une décision à la fois pour tester une cause possible."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "À propos des anciennes prédictions",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "L’ancien tableau et les prédictions interactives n’étaient pas étayés par des relevés reproductibles et ne sont plus présentés comme des solutions. Un blocage prétendument définitif ne doit pas contredire les règles documentées d’Explorer. Un guide des résultats exige des parcours reproductibles, pas des étiquettes de confiance."
+          }
+        ]
+      },
+      {
+        "heading": "Guides liés",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Commandes et QTE](/directive-8020-skill-checks)",
+              "[Navigation par chapitre](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Carter dans Directive 8020 — Technicien du sommeil",
+    "description": "Tomas Carter — Technicien du sommeil. Travaille avec Simms sur les systèmes d’hibernation pendant le voyage.",
+    "ogTitle": "Carter dans Directive 8020 — Technicien du sommeil",
+    "ogDescription": "Tomas Carter — Technicien du sommeil. Travaille avec Simms sur les systèmes d’hibernation pendant le voyage."
+  },
+  "sections": [
+    {
+      "heading": "Maintenir le vaisseau en service",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tomas Carter travaille avec Pari Simms comme technicien du sommeil pendant l’hibernation des autres membres. Ils maintiennent le Cassiopeia opérationnel durant le voyage. Le passé officiel décrit leur sélection pour leur complémentarité professionnelle, plutôt qu’un simple rôle de figurant."
+        }
+      ]
+    },
+    {
+      "heading": "Famille et motivation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Une grave maladie à l’adolescence a marqué son rapport à la vie. Carter aime entretenir ses plantes et souhaite assurer un avenir à sa fille Luna. Ces détails expliquent ses priorités, sans prouver que sa mort est inévitable ni qu’une décision précise garantit sa survie."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

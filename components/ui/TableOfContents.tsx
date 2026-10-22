@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { uiStrings } from '@/i18n/ui';
+import { useMessages } from '@/components/i18n/Messages';
 import type { Locale } from '@/i18n/config';
 
 interface TocItem {
@@ -20,6 +20,7 @@ function slugify(text: string): string {
 }
 
 export default function TableOfContents({ locale }: { locale: Locale }) {
+  const { messages } = useMessages();
   const [headings, setHeadings] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState<string>('');
 
@@ -63,7 +64,7 @@ export default function TableOfContents({ locale }: { locale: Locale }) {
   return (
     <nav className="space-y-1">
       <h4 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-3">
-        {uiStrings[locale].toc.heading}
+        {messages.toc.heading}
       </h4>
       {headings.map((heading) => (
         <a

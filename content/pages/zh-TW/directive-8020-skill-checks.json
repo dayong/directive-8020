@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Directive 8020 操作與難度設定｜QTE 和 Turning Points",
+    "description": "依官方無障礙說明選擇玩法風格，調整 QTE、格擋與威脅提示；了解取消 QTE 時限僅適用 Solo Story 的限制。",
+    "ogTitle": "Directive 8020 操作與難度設定｜QTE 和 Turning Points",
+    "ogDescription": "依官方無障礙說明選擇玩法風格，調整 QTE、格擋與威脅提示；了解取消 QTE 時限僅適用 Solo Story 的限制。"
+  },
+  "hero": {
+    "h1": "Directive 8020 操作與難度設定｜QTE 和 Turning Points",
+    "intro": "先分清劇情回溯與操作挑戰。官方將它們列為不同設定，因此選擇 Explorer 不代表所有 QTE 選項都已替你設好。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer 與 Survivor 是玩法風格",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer 允許在遊玩過程中用 Turning Points 返回關鍵選擇。Survivor 首輪劇情不能這樣回溯，到達結局後才會解鎖。請依你更想立即探索分支，還是承擔本輪選擇後果來決定。"
+          }
+        ]
+      },
+      {
+        "heading": "難度需要另外選擇",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "官方列出的難度預設為 Forgiving、Challenging、Lethal，另有 Custom 自訂設定。請檢查個別選項，不要將某個預設理解成會改寫對話或保證角色生還。"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "設定",
+              "作用",
+              "注意事項"
+            ],
+            "rows": [
+              [
+                "QTE 使用相同輸入",
+                "讓 QTE 使用相同按鍵",
+                "仍需查看螢幕提示"
+              ],
+              [
+                "長按代替連打",
+                "以持續按住取代反覆點擊",
+                "改變的是輸入方式"
+              ],
+              [
+                "取消 QTE 時限",
+                "移除 QTE 的倒數限制",
+                "僅 Solo Story；按錯鍵仍會失敗"
+              ],
+              [
+                "QTE 難度與預警",
+                "調整操作挑戰與提前提示",
+                "與玩法風格分開設定"
+              ],
+              [
+                "格擋充能",
+                "調整即時威脅中的防禦恢復速度",
+                "不會替你選擇對話"
+              ],
+              [
+                "威脅指示器",
+                "顯示威脅位置與警覺程度，可調整顏色",
+                "含義請以目前版本說明為準"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "讓介面更易閱讀",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "官方選項包括字幕、輔助字幕、選擇與訊息字級、簡化字體和按鍵重新配置。進入緊張場景前先試好閱讀與輸入設定，分辨問題來自文字辨識、反應時限，還是目前的按鍵配置。"
+          }
+        ]
+      },
+      {
+        "heading": "建議的設定順序",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "選擇想要的劇情玩法風格。",
+              "檢查難度預設與相關單項設定。",
+              "確認字級、字幕與按鍵配置。",
+              "先熟悉螢幕要求的操作，再參考具體場景攻略。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "繼續查閱",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[官方無障礙選項](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)",
+              "[成就收集規劃](/trophies)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

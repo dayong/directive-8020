@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Directive 8020 トロフィー・Steam実績ガイド",
+    "description": "公式の機種別リストを使って実績の取得を計画しましょう。Steamは現在30件の実績を掲載しており、PlayStationのトロフィーは別途確認が必要です。",
+    "ogTitle": "Directive 8020 トロフィー・Steam実績ガイド",
+    "ogDescription": "公式の機種別リストを使って実績の取得を計画しましょう。Steamは現在30件の実績を掲載しており、PlayStationのトロフィーは別途確認が必要です。"
+  },
+  "hero": {
+    "h1": "Directive 8020 トロフィー・Steam実績ガイド",
+    "intro": "まず利用している機種のリストを確認しましょう。隠し実績の条件はネタバレになる場合があるため、どこまで情報を知りたいか決めてから読むことをおすすめします。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "機種に合ったリストを確認する",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam公式コミュニティには現在30件の実績があります。これはPC版のリストであり、確認済みのPlayStationトロフィー総数ではありません。以前掲載した名前やグレード、プラチナ確定ルートは、機種別の検証済みリストと照合できていないため撤回しました。"
+          }
+        ]
+      },
+      {
+        "heading": "取得を計画するときのチェックリスト",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "機種の最新リストを開き、解除済みの項目を記録する。",
+              "隠し条件を表示するか決める。説明に物語の核心が含まれる場合がある。",
+              "試すたびにゲームのバージョン、プレイスタイル、セーブを記録する。",
+              "場面をやり直す前に条件を読む。似た展開になっただけでは条件達成とは限らない。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "プレイスタイルとやり直し",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "公式アクセシビリティ説明では、Explorerは物語の途中でTurning Pointsを利用できます。Survivorでは最初のプレイ中は決断を引き受け、結末まで到達するとTurning Pointsが解放されます。プレイスタイルと、QTEやリアルタイムの脅威を調整する設定は別です。設定変更前に目標の条件を確認してください。"
+          }
+        ]
+      },
+      {
+        "heading": "解除されないときは",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "試した手順を機種の条件文と照合し、記録した進行状況と公式の更新情報を確認しましょう。不具合を報告するときは該当セーブとバージョンも残してください。決まった周回数での解除や、未検証の操作による修復は保証しません。"
+          }
+        ]
+      },
+      {
+        "heading": "関連リンク",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam公式実績リスト](https://steamcommunity.com/stats/2255370/achievements)",
+              "[操作設定とプレイスタイル](/directive-8020-skill-checks)",
+              "[ゲームの更新情報](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

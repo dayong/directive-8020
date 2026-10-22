@@ -1,4 +1,6 @@
-import { uiStrings } from '@/i18n/ui';
+'use client';
+
+import { useMessages } from '@/components/i18n/Messages';
 import type { Locale } from '@/i18n/config';
 
 interface ChoiceCardProps {
@@ -22,7 +24,7 @@ export default function ChoiceCard({
   chainEffect,
   endingImpact,
 }: ChoiceCardProps) {
-  const t = uiStrings[locale].choiceCard;
+  const t = useMessages().messages.choiceCard;
   return (
     <div
       className={`border-l-4 rounded-r-lg p-4 mb-3 ${

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Directive 8020 攻略案内｜全8章とプレイスタイル",
+    "description": "章別リンク、公式Turning Pointsのルール、選択の記録方法からDirective 8020の進め方を計画しましょう。",
+    "ogTitle": "Directive 8020 攻略案内｜全8章とプレイスタイル",
+    "ogDescription": "章別リンク、公式Turning Pointsのルール、選択の記録方法からDirective 8020の進め方を計画しましょう。"
+  },
+  "hero": {
+    "h1": "Directive 8020 攻略案内｜全8章とプレイスタイル",
+    "intro": "プレイの準備と章別ノートへの案内です。Steam公式実績リストで全8章を確認できますが、リンク先の場面別ノートは確認作業中です。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "開始前の設定",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "物語の途中で選択に戻りたいならExplorerを検討しましょう。Survivorは初回の決断を引き受け、結末まで到達するとTurning Pointsが解放されます。難易度、QTE、アクセシビリティは別途確認してください。"
+          }
+        ]
+      },
+      {
+        "heading": "章別ノート",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "既存の章別URLであり、新たに検証を終えた場面別攻略ではありません。ルート、暗証番号、結果の予測は暫定情報です。翻訳のないノートは英語で開きます。"
+          },
+          {
+            "type": "list",
+            "items": [
+              "[第1章](/walkthrough/episode-1)",
+              "[第2章](/walkthrough/episode-2)",
+              "[第3章](/walkthrough/episode-3)",
+              "[第4章](/walkthrough/episode-4)",
+              "[第5章](/walkthrough/episode-5)",
+              "[第6章](/walkthrough/episode-6)",
+              "[第7章](/walkthrough/episode-7)",
+              "[第8章](/walkthrough/episode-8)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "役立つプレイ記録",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "試す前に機種、バージョン、プレイスタイル、セーブを記録する。",
+              "非公式の呼び名だけでなく、実際の選択文と観察した結果を残す。",
+              "分岐の比較では変更を一つずつにし、後の影響も記録する。",
+              "収集や実績の条件は機種ごとの資料で照合する。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "この案内で確定しないこと",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "全8章という情報は、以前の章題、全場面の内容、固定のクリア時間、最良の結末への確定ルートを証明しません。以前の「3周実測」という一人称の体験談は撤回しており、ルートの根拠にはできません。"
+          }
+        ]
+      },
+      {
+        "heading": "準備を続ける",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[操作とQTE設定](/directive-8020-skill-checks)",
+              "[選択と分岐のやり直し](/choices)",
+              "[Steam公式実績リスト](https://steamcommunity.com/stats/2255370/achievements)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

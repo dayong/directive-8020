@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020のAnders — 科学士官",
+    "description": "Zoe Anders — 科学士官。Cooperの推薦で任務に参加した科学者。",
+    "ogTitle": "Directive 8020のAnders — 科学士官",
+    "ogDescription": "Zoe Anders — 科学士官。Cooperの推薦で任務に参加した科学者。"
+  },
+  "sections": [
+    {
+      "heading": "科学士官としての参加",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zoe Anders は前任の科学士官 George McNamara の死後、長年の友人 Cooper の推薦で任務に参加しました。公式名簿での役職は科学士官で、Eisele の上級任務士官とは異なります。この区別は船内の職務を理解するうえで大切です。"
+        }
+      ]
+    },
+    {
+      "heading": "発見と倫理",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Anders は科学的発見の可能性に心を躍らせ、Cooper との友情を支えに既存の乗組員になじもうとしています。公式背景は倫理を守る姿勢も示します。それは人物を理解する情報であり、実験の手順、擬態の判別方法、安全が保証される条件を示すものではありません。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

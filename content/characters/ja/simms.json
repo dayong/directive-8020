@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020のSimms — 睡眠技術者",
+    "description": "Pari Simms — 睡眠技術者。工学の知識を持つ睡眠技術者。",
+    "ogTitle": "Directive 8020のSimms — 睡眠技術者",
+    "ogDescription": "Pari Simms — 睡眠技術者。工学の知識を持つ睡眠技術者。"
+  },
+  "sections": [
+    {
+      "heading": "長い航海での技術担当",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pari Simms は高い工学の技能を持つ睡眠技術者です。他の乗組員が超睡眠に入る間、Carter と Cassiopeia の運用を支え、互いの強みを補います。公式プロフィールが示すのは仕事上の関係であり、その後の場面の結果ではありません。"
+        }
+      ]
+    },
+    {
+      "heading": "仕事以外の一面",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Simms は母を思って任務に参加し、母宛てのメッセージを定期的に録音します。ゲーム Orinoco、ノンフィクション、コーヒーも好みます。役職の向こうにある人物像がわかる情報です。録音の存在だけで収集物の位置、必要数、生存ルートが確認できるわけではありません。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

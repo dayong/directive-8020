@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Anders em Directive 8020 — Oficial científica",
+    "description": "Zoe Anders — Oficial científica. Cientista que entrou na missão por recomendação de Cooper.",
+    "ogTitle": "Anders em Directive 8020 — Oficial científica",
+    "ogDescription": "Zoe Anders — Oficial científica. Cientista que entrou na missão por recomendação de Cooper."
+  },
+  "sections": [
+    {
+      "heading": "Chegada como oficial de ciências",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zoe Anders entrou na missão após a morte do oficial de ciências anterior, George McNamara, recomendada pela amiga Cooper. Seu cargo oficial é diferente do de Eisele, oficial sênior de missão. A distinção ajuda a entender as responsabilidades a bordo."
+        }
+      ]
+    },
+    {
+      "heading": "Descoberta e ética",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Anders se anima com as descobertas possíveis, e a amizade com Cooper facilita sua adaptação à equipe já formada. O perfil também destaca a ética. Esses valores são contexto, não uma solução de experimento, uma regra para identificar imitações nem uma garantia de segurança."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

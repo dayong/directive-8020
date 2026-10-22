@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Directive 8020 プレイ時間｜初回と再プレイの計画",
+    "description": "根拠のない所要時間を示さず、探索や Turning Points、プレイスタイルと難易度の違いから予定を立てます。",
+    "ogTitle": "Directive 8020 プレイ時間｜初回と再プレイの計画",
+    "ogDescription": "根拠のない所要時間を示さず、探索や Turning Points、プレイスタイルと難易度の違いから予定を立てます。"
+  },
+  "hero": {
+    "h1": "Directive 8020 プレイ時間｜初回と再プレイの計画",
+    "intro": "根拠のない所要時間を示さず、探索や Turning Points、プレイスタイルと難易度の違いから予定を立てます。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "クリア時間は確認されている？",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "ここに掲載した公式資料では、初回、全エンディング、全収集に共通する所要時間は確認できません。以前の固定時間と章別の時間表は取り下げました。読む速さや探索、再プレイの目的で時間は変わります。"
+          }
+        ]
+      },
+      {
+        "heading": "自分のプレイ記録を使う",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "機種、ゲームのバージョン、プレイスタイル、実際の時間を記録しましょう。一時停止やメニュー操作をプレイ時間と分け、自分の記録で次回の予定を立ててください。他人の記録は保証にはなりません。"
+          }
+        ]
+      },
+      {
+        "heading": "再プレイと Turning Points",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer では物語の途中で Turning Points を利用できます。Survivor の初回は巻き戻しが無効で、エンディング到達後に解放されます。選択を再訪できる時期の違いであり、追加で必要な時間数を示すものではありません。"
+          }
+        ]
+      },
+      {
+        "heading": "スタイルと難易度を区別する",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer と Survivor はプレイスタイルです。難易度は Forgiving、Challenging、Lethal、Custom です。読みやすさの設定、探索、参加者の相談で時間は変わり得ますが、短縮を保証する設定はありません。"
+          }
+        ]
+      },
+      {
+        "heading": "達成目標ごとに記録する",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "物語の完了、分岐の探索、機種ごとの実績達成は別の目標です。未確認の収集数で所要時間を計算したり、ひとつのルートですべての結果を解放できると考えたりしないでください。"
+          }
+        ]
+      },
+      {
+        "heading": "公式資料",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Directive 8020](https://www.thedarkpictures.com/games/directive-8020)",
+              "[Turning Points](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "関連ガイド",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[スタイルと操作設定](/directive-8020-skill-checks)",
+              "[登場人物](/characters)",
+              "[進行と再プレイの計画](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Turning Points",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

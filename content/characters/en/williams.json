@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Williams in Directive 8020 — CEO",
+    "description": "LaMarcus Williams — CEO. The CEO of Corinth, the company behind the mission.",
+    "ogTitle": "Williams in Directive 8020 — CEO",
+    "ogDescription": "LaMarcus Williams — CEO. The CEO of Corinth, the company behind the mission."
+  },
+  "sections": [
+    {
+      "heading": "Corinth and the mission",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "LaMarcus Williams is Corinth’s billionaire CEO. He comes from a wealthy Californian family and wants to establish a legacy of his own. Stafford and Bill Young’s Mars mission helped inspire his ambitions. His presence links the expedition to the company behind it, without making a corporate title proof of any hidden allegiance."
+        }
+      ]
+    },
+    {
+      "heading": "His view of humanity’s future",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The official introduction presents Williams as convinced that Earth cannot be saved and that Corinth’s mission offers humanity a future. These beliefs make him a divisive public figure. They are background information, not evidence for a guaranteed result from shooting him, standing down or choosing a particular ending."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

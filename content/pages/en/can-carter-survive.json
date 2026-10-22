@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Can Carter Survive in Directive 8020? (No — Scripted Death Explained)",
-    "description": "Carter dies in a scripted event at the end of Episode 1. No choice, QTE, or hidden path can save him — here's why, and which 5 characters can survive.",
-    "ogTitle": "Can Carter Survive in Directive 8020? (No — Scripted Death Explained)",
-    "ogDescription": "Carter's death in Episode 1 is scripted and unavoidable. Learn why the game frames it as your fault, and which characters you can actually save."
+    "title": "Carter: Official Profile and Survival Claim Review",
+    "description": "Tomas Carter is a sleep technician who works with Pari Simms. The official character profile alone does not establish a guaranteed survival route or prove that every possible choice leads to his death.",
+    "ogTitle": "Carter: Official Profile and Survival Claim Review",
+    "ogDescription": "Tomas Carter is a sleep technician who works with Pari Simms. The official character profile alone does not establish a guaranteed survival route or prove that every possible choice leads to his death."
   },
   "hero": {
     "h1": "Can Carter Survive in Directive 8020?",
@@ -45,15 +45,59 @@
     },
     {
       "q": "Which characters can survive in Directive 8020?",
-      "a": "The 5 playable characters: Osmond, Stafford, Eisele, Cernan, and Cooper. All five can reach the end alive and unlock the true ending."
+      "a": "The 5 playable characters: Young, Stafford, Eisele, Cernan, and Cooper. All five can reach the end alive and unlock the true ending."
     }
   ],
   "cta": {
     "text": "Ready to keep the right five characters alive?",
     "links": [
-      { "href": "/save-everyone", "label": "Save Everyone Guide →", "variant": "primary" },
-      { "href": "/walkthrough/episode-1", "label": "Episode 1 Walkthrough →", "variant": "outline" },
-      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "ghost" }
+      {
+        "href": "/save-everyone",
+        "label": "Save Everyone Guide →",
+        "variant": "primary"
+      },
+      {
+        "href": "/walkthrough/episode-1",
+        "label": "Episode 1 Walkthrough →",
+        "variant": "outline"
+      },
+      {
+        "href": "/walkthrough",
+        "label": "Full Walkthrough →",
+        "variant": "ghost"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "replacement": {
+      "heading": "Carter: Official Profile and Survival Claim Review",
+      "intro": "Tomas Carter is a sleep technician who works with Pari Simms. The official character profile alone does not establish a guaranteed survival route or prove that every possible choice leads to his death.",
+      "sections": [
+        {
+          "heading": "What was corrected",
+          "text": "The earlier scene-specific instructions and first-person playthrough claims are withdrawn pending verification. No replacement guess is being presented as a proven solution."
+        },
+        {
+          "heading": "How to proceed",
+          "text": "Use the current in-game prompts and Turning Points options. Official material confirms revisiting key decisions, but does not document every scene or guarantee a particular ending. This page will need a verified scene-by-scene account before its route advice is restored."
+        }
+      ]
+    }
   }
 }

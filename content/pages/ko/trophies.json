@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Directive 8020 트로피·Steam 도전 과제 가이드",
+    "description": "공식 플랫폼 목록을 기준으로 도전 과제 진행을 계획하세요. Steam은 현재 30개를 안내하며 PlayStation 트로피는 별도 확인이 필요합니다.",
+    "ogTitle": "Directive 8020 트로피·Steam 도전 과제 가이드",
+    "ogDescription": "공식 플랫폼 목록을 기준으로 도전 과제 진행을 계획하세요. Steam은 현재 30개를 안내하며 PlayStation 트로피는 별도 확인이 필요합니다."
+  },
+  "hero": {
+    "h1": "Directive 8020 트로피·Steam 도전 과제 가이드",
+    "intro": "완료 계획을 세우기 전에 자신의 플랫폼 목록부터 확인하세요. 숨겨진 도전 과제 설명에는 스포일러가 있을 수 있으니 어느 정도까지 내용을 볼지 먼저 정하세요."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "플랫폼에 맞는 목록 확인",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam 공식 커뮤니티 페이지는 현재 도전 과제 30개를 안내합니다. 이는 PC 목록이며 검증된 PlayStation 트로피 총수가 아닙니다. 기존에 게시한 트로피 이름, 등급과 플래티넘 보장 경로는 검증된 플랫폼 목록과 대조되지 않아 철회했습니다."
+          }
+        ]
+      },
+      {
+        "heading": "완료 계획 점검 목록",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "플랫폼의 최신 목록을 열고 이미 해제한 항목을 기록하세요.",
+              "숨겨진 설명을 표시할지 결정하세요. 이야기의 핵심이 드러날 수 있습니다.",
+              "시도할 때마다 게임 버전, 플레이 스타일과 사용한 저장 파일을 기록하세요.",
+              "장면을 다시 하기 전에 실제 조건을 읽으세요. 비슷한 이야기 결과만으로 조건 충족을 판단할 수는 없습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "플레이 스타일과 재시도 계획",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "공식 접근성 안내에 따르면 Explorer는 이야기 진행 중 Turning Points를 사용할 수 있습니다. Survivor는 첫 진행 중 선택의 결과를 감수하며 결말에 도달하면 Turning Points가 열립니다. 플레이 스타일은 QTE와 실시간 위협을 조절하는 설정과 별개입니다. 설정을 바꾸기 전에 목표 과제의 조건을 확인하세요."
+          }
+        ]
+      },
+      {
+        "heading": "해제되지 않았을 때",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "시도한 내용을 플랫폼의 조건 문구와 비교하고 기록한 진행 상황 및 공식 업데이트 정보를 확인하세요. 문제를 신고할 때는 관련 저장 파일과 버전 정보를 보관하세요. 이 가이드는 정해진 회차의 해제나 검증되지 않은 조작을 통한 해결을 보장하지 않습니다."
+          }
+        ]
+      },
+      {
+        "heading": "관련 링크",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam 공식 도전 과제 목록](https://steamcommunity.com/stats/2255370/achievements)",
+              "[조작 설정과 플레이 스타일](/directive-8020-skill-checks)",
+              "[게임 업데이트 정보](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

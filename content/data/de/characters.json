@@ -1,0 +1,42 @@
+{
+  "young": {
+    "role": "Pilotin",
+    "description": "Pilotin der Cassiopeia und Tochter des Astronauten Bill Young."
+  },
+  "stafford": {
+    "role": "Kommandant",
+    "description": "Leiter der Mission und Veteran der Marsexpedition."
+  },
+  "eisele": {
+    "role": "Leitende Missionsoffizierin",
+    "description": "Entwarf die Mission, die Cassiopeia und den Bordcomputer Oracle."
+  },
+  "cernan": {
+    "role": "Technischer Ingenieur",
+    "description": "Ingenieur, der die Aufgaben der Mission mit Bedacht angeht."
+  },
+  "cooper": {
+    "role": "Medizinische Spezialistin",
+    "description": "Ärztin mit Erfahrung in der militärischen medizinischen Evakuierung."
+  },
+  "carter": {
+    "role": "Schlaftechniker",
+    "description": "Betreut während der Reise gemeinsam mit Simms die Schlafsysteme."
+  },
+  "simms": {
+    "role": "Schlaftechnikerin",
+    "description": "Schlaftechnikerin mit technischem Hintergrund."
+  },
+  "williams": {
+    "role": "Geschäftsführer",
+    "description": "Leitet Corinth, das Unternehmen hinter der Mission."
+  },
+  "mitchell": {
+    "role": "Pilot",
+    "description": "Kopilot, der gemeinsam mit Young und Stafford ausgebildet wurde."
+  },
+  "anders": {
+    "role": "Wissenschaftsoffizierin",
+    "description": "Wissenschaftlerin, die auf Coopers Empfehlung zur Mission kam."
+  }
+}

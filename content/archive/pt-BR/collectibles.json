@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Colecionáveis de Directive 8020 | Edição e registro de progresso",
+    "description": "Confira os extras deluxe oficiais, separe propriedade e progresso e registre a coleção sem inventar localizações verificadas.",
+    "ogTitle": "Colecionáveis de Directive 8020 | Edição e registro de progresso",
+    "ogDescription": "Confira os extras deluxe oficiais, separe propriedade e progresso e registre a coleção sem inventar localizações verificadas."
+  },
+  "hero": {
+    "h1": "Colecionáveis de Directive 8020 | Edição e registro de progresso",
+    "intro": "Comece identificando o conteúdo que possui. Uma rota só ajuda quando corresponde à edição, versão e progresso do seu arquivo salvo."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "O que está descrito oficialmente",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "O upgrade deluxe do Steam apresenta colecionáveis adicionais de Dark Pictures, com figuras de jogos anteriores. A página exige o jogo base no Steam. Isso confirma os extras, não um mapa completo de todos os itens do jogo principal."
+          }
+        ]
+      },
+      {
+        "heading": "Confira a edição antes de procurar",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Veja o jogo e complementos na biblioteca.",
+              "Leia a descrição da sua plataforma sem presumir nomes idênticos de pacotes.",
+              "Diferencie bônus de edição de itens da história principal.",
+              "Confirme a disponibilidade na versão instalada."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Crie um registro útil",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Anote nome no jogo, capítulo, objetivo próximo, decisões anteriores e estado de coleta de cada item. Uma captura ou referência de arquivo salvo ajuda a reproduzir a localização. Separe descobertas de requisitos de troféus não testados."
+          }
+        ]
+      },
+      {
+        "heading": "Sobre o total e as posições anteriores",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "O total anterior de 65 itens e as salas de exemplo não foram comparados com uma lista oficial de posições e deixaram de ser apresentados como rota completa. Isso não prova que os itens ou salas não existam. Totais e rotas precisam de verificação direta."
+          }
+        ]
+      },
+      {
+        "heading": "Planeje uma nova visita",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Confira o estilo e os Turning Points disponíveis antes de repetir. Poder voltar não comprova que qualquer item seja recuperável a partir de qualquer ponto. Verifique o registro real depois da tentativa."
+          }
+        ]
+      },
+      {
+        "heading": "Saiba mais",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Descrição oficial do upgrade no Steam](https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/)",
+              "[Planejamento de conquistas](/trophies)",
+              "[Estilos e controles](/directive-8020-skill-checks)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Digital Deluxe Upgrade",
+        "url": "https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/"
+      },
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      }
+    ]
+  }
+}

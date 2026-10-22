@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Directive 8020 流程導覽｜八章入口與玩法風格",
+    "description": "透過章節入口、官方 Turning Points 規則與選擇記錄清單，規劃 Directive 8020 的遊玩過程。",
+    "ogTitle": "Directive 8020 流程導覽｜八章入口與玩法風格",
+    "ogDescription": "透過章節入口、官方 Turning Points 規則與選擇記錄清單，規劃 Directive 8020 的遊玩過程。"
+  },
+  "hero": {
+    "h1": "Directive 8020 流程導覽｜八章入口與玩法風格",
+    "intro": "本頁協助你規劃流程並尋找章節筆記。Steam 官方成就清單確認遊戲有八章；下方連結中的逐場景筆記仍在核驗。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "開始前先設定玩法",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "想在劇情中返回選擇，可以考慮 Explorer。Survivor 首輪需要承擔選擇後果，到達結局後才解鎖 Turning Points。難度、QTE 與無障礙選項需要另外檢查。"
+          }
+        ]
+      },
+      {
+        "heading": "章節筆記入口",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "這些原有章節 URL 目前顯示各章的查證說明。舊場景步驟、密碼、位置與結果預測已撤下，章節頁暫不納入索引。沒有譯文的頁面會開啟英語版本。"
+          },
+          {
+            "type": "list",
+            "items": [
+              "[第 1 章](/walkthrough/episode-1)",
+              "[第 2 章](/walkthrough/episode-2)",
+              "[第 3 章](/walkthrough/episode-3)",
+              "[第 4 章](/walkthrough/episode-4)",
+              "[第 5 章](/walkthrough/episode-5)",
+              "[第 6 章](/walkthrough/episode-6)",
+              "[第 7 章](/walkthrough/episode-7)",
+              "[第 8 章](/walkthrough/episode-8)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "如何留下有用的流程記錄",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "嘗試路線前記錄平台、遊戲版本、玩法風格與存檔。",
+              "記下實際選項原文與觀察到的結果，不只依賴非正式名稱。",
+              "比較分支時盡量一次只改一個選擇，也記錄後續影響。",
+              "收集或成就要求應與所在平台的獨立來源核對。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "本頁未確認的內容",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "八章的數量不能證明舊章標題、每段場景、固定通關時間或保證最佳結局的路線正確。先前聲稱實測三次通關的第一人稱經歷已撤回，不能作為路線依據。"
+          }
+        ]
+      },
+      {
+        "heading": "繼續準備",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[操作與 QTE 設定](/directive-8020-skill-checks)",
+              "[選擇與分支回溯](/choices)",
+              "[Steam 官方成就清單](https://steamcommunity.com/stats/2255370/achievements)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

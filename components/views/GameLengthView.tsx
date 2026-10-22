@@ -23,7 +23,7 @@ export default function GameLengthView({
   locale: Locale;
 }) {
   const episodes = getEpisodes(locale);
-  const faqSchema = buildFaqSchema(content.faqs);
+  const faqSchema = buildFaqSchema(content.faqs, locale);
   return (
     <>
       <JsonLd data={faqSchema} />

@@ -1,0 +1,32 @@
+{
+  "notFoundTitle": "找不到该角色",
+  "metaTitleFormat": "Directive 8020：{name}｜{role}",
+  "metaDescriptionFormat": "{fullName}，{role}。{description}",
+  "backLink": "← 查看全部角色",
+  "profileHeading": "角色档案",
+  "actorLabel": "演员",
+  "survivalStatusLabel": "生还信息",
+  "destinyLabel": "剧情身份",
+  "keyChoicesFormat": "与 {name} 有关的选择",
+  "cannotBeSavedFormat": "{name}：结果尚未核实",
+  "cannotBeSavedTextFormat": "尚未依据官方资料核实 {name} 的逐场景生还路线。",
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  },
+  "showChoices": false
+}

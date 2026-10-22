@@ -1,85 +1,62 @@
 'use client';
 
-import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import {
-  defaultLocale,
-  hreflangTag,
-  locales,
-  localeFromPathname,
-  localizeHref,
-  stripLocalePrefix,
-  type Locale,
-} from '@/i18n/config';
-import { usePathsByLocale } from '@/components/i18n/LocalePaths';
-import { uiStrings } from '@/i18n/ui';
-
-// Language names are shown in their own language, as is conventional for
-// language switchers; the header itself stays compact with short codes.
-const languageNames: Record<Locale, string> = {
-  en: 'English',
-  es: 'Español',
-  'zh-hant': '繁體中文',
-};
-
-const languageCodes: Record<Locale, string> = {
-  en: 'EN',
-  es: 'ES',
-  'zh-hant': 'ZH',
-};
+import { languageNames, locales, localizeHref, stripLocalePrefix, type Locale } from '@/i18n/config';
+import { usePathsByLocale } from './LocalePaths';
+import { useMessages } from './Messages';
+import { recommendedLocale } from '@/i18n/recommendation';
 
 export default function LanguageSwitcher() {
   const pathname = usePathname();
-  const pathsByLocale = usePathsByLocale();
-  const locale = localeFromPathname(pathname);
+  const { locale, messages } = useMessages();
+  const paths = usePathsByLocale();
   const rest = stripLocalePrefix(pathname);
-  const label = uiStrings[locale].languageSwitcher.label;
+  const [suggestion, setSuggestion] = useState<Locale | null>(null);
+  const available = locales.filter((candidate) => paths?.[candidate]?.includes(rest));
+  useEffect(() => {
+    try {
+      // Recommendations never redirect, and an explicit URL always wins.
+      setSuggestion(recommendedLocale({
+        current: locale,
+        saved: localStorage.getItem('directive-locale'),
+        languages: navigator.languages,
+        available: locales.filter((candidate) => paths?.[candidate]?.includes(rest)),
+      }));
+    } catch { /* Storage may be disabled. URL-based rendering still works. */ }
+  }, [locale, paths, rest]);
 
-  // Locales that have any translated content; English always qualifies.
-  const available = locales.filter(
-    (candidate) => candidate === defaultLocale || (pathsByLocale?.[candidate]?.length ?? 0) > 0
-  );
-  if (available.length < 2) return null;
-
+  function select(candidate: Locale) {
+    try { localStorage.setItem('directive-locale', candidate); } catch { /* optional preference */ }
+    window.location.assign(localizeHref(rest, candidate) + window.location.search + window.location.hash);
+  }
   return (
-    <nav
-      aria-label={label}
-      className="flex items-center gap-0.5 rounded-lg border border-slate-800 bg-slate-800/40 p-0.5"
-    >
-      {available.map((candidate) => {
-        const name = languageNames[candidate];
-        if (candidate === locale) {
-          return (
-            <span
-              key={candidate}
-              aria-current="true"
-              lang={hreflangTag(candidate)}
-              className="rounded-md bg-slate-700 px-2 py-1 text-xs font-semibold text-slate-100"
-            >
-              {languageCodes[candidate]}
-            </span>
-          );
-        }
-        const href =
-          candidate === defaultLocale
-            ? rest
-            : pathsByLocale?.[candidate]?.includes(rest)
-              ? localizeHref(rest, candidate)
-              : `/${candidate}`;
-        return (
-          <Link
-            key={candidate}
-            href={href}
-            hrefLang={hreflangTag(candidate)}
-            lang={hreflangTag(candidate)}
-            title={name}
-            aria-label={name}
-            className="rounded-md px-2 py-1 text-xs font-semibold text-slate-400 transition-colors hover:bg-slate-800/50 hover:text-violet-400"
-          >
-            {languageCodes[candidate]}
-          </Link>
-        );
-      })}
-    </nav>
+    <div className="relative">
+      <label className="sr-only" htmlFor="site-language">{messages.languageSwitcher.label}</label>
+      <select
+        id="site-language"
+        value={locale}
+        onChange={(event) => select(event.target.value as Locale)}
+        className="max-w-40 rounded-lg border border-slate-700 bg-slate-800 px-2 py-2 text-xs text-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-violet-400"
+      >
+        {locales.map((candidate) => (
+          <option key={candidate} value={candidate} lang={candidate} disabled={!available.includes(candidate)}>
+            {languageNames[candidate]}
+          </option>
+        ))}
+      </select>
+      {suggestion && (
+        <div className="absolute right-0 top-full mt-2 flex rounded-lg border border-violet-500 bg-slate-800">
+        <button type="button" lang={suggestion} onClick={() => select(suggestion)}
+          className="whitespace-nowrap px-3 py-2 text-sm text-violet-300">
+          {languageNames[suggestion]} →
+        </button>
+        <button type="button" aria-label={messages.accessibility.dismissLanguage} onClick={() => {
+          try { localStorage.setItem('directive-locale', locale); } catch {}
+          setSuggestion(null);
+        }} className="px-3 text-slate-300">×</button>
+        </div>
+      )}
+    </div>
   );
 }

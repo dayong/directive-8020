@@ -1,3 +1,4 @@
+import type { Locale } from '@/i18n/config';
 import { CtaSection } from '@/components/content/CtaSection';
 import { FaqSection } from '@/components/content/FaqSection';
 import { HeroSection } from '@/components/content/HeroSection';
@@ -6,11 +7,11 @@ import { RichText } from '@/components/ui/RichText';
 import { buildFaqSchema } from '@/lib/page-seo';
 import type { CanCarterSurviveContent } from '@/types/content-pages';
 
-const SAVEABLE = ['Osmond', 'Stafford', 'Eisele', 'Cernan', 'Cooper'];
+const SAVEABLE = ['Young', 'Stafford', 'Eisele', 'Cernan', 'Cooper'];
 
 
-export default function CanCarterSurviveView({ content }: { content: CanCarterSurviveContent }) {
-  const faqSchema = buildFaqSchema(content.faqs);
+export default function CanCarterSurviveView({ content, locale }: { content: CanCarterSurviveContent; locale: Locale }) {
+  const faqSchema = buildFaqSchema(content.faqs, locale);
   return (
     <>
       <JsonLd data={faqSchema} />

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Todos los finales de Directive 8020 | Cómo desbloquearlos",
-    "description": "Guía completa de los 10 finales de Directive 8020. Cómo desbloquear cada final, requisitos de supervivencia y qué Puntos de inflexión repetir.",
-    "ogTitle": "Todos los finales de Directive 8020 | Guía completa",
-    "ogDescription": "Guía completa de los 10 finales de Directive 8020: el final verdadero, los malos finales y todo lo demás."
+    "title": "Finales de Directive 8020: reglas verificadas y rutas sin confirmar",
+    "description": "La presentación oficial confirma una historia ramificada con varios finales. No acredita la tabla anterior de diez finales, un mejor final canónico ni las condiciones atribuidas a esos nombres.",
+    "ogTitle": "Finales de Directive 8020: reglas verificadas y rutas sin confirmar",
+    "ogDescription": "La presentación oficial confirma una historia ramificada con varios finales. No acredita la tabla anterior de diez finales, un mejor final canónico ni las condiciones atribuidas a esos nombres."
   },
   "hero": {
     "h1": "Todos los finales de Directive 8020",
@@ -18,14 +18,63 @@
   },
   "overview": {
     "heading": "Resumen de los finales",
-    "headers": ["Final", "Supervivientes", "Condición clave", "Punto de inflexión"]
+    "headers": [
+      "Final",
+      "Supervivientes",
+      "Condición clave",
+      "Punto de inflexión"
+    ]
   },
   "detailedHeading": "Todos los finales — análisis detallado",
   "cta": {
     "text": "¿Quieres conseguir el mejor final? Sigue la guía paso a paso:",
     "links": [
-      { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "primary" },
-      { "href": "/walkthrough", "label": "Guía completa →", "variant": "outline" }
+      {
+        "href": "/save-everyone",
+        "label": "Guía para salvar a todos →",
+        "variant": "primary"
+      },
+      {
+        "href": "/walkthrough",
+        "label": "Guía completa →",
+        "variant": "outline"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ],
+    "replacement": {
+      "heading": "Finales de Directive 8020: reglas verificadas y rutas sin confirmar",
+      "intro": "La presentación oficial confirma una historia ramificada con varios finales. No acredita la tabla anterior de diez finales, un mejor final canónico ni las condiciones atribuidas a esos nombres.",
+      "sections": [
+        {
+          "heading": "Reglas de repetición confirmadas",
+          "text": "Explorer permite Turning Points durante la historia. Survivor mantiene las decisiones en la primera partida y desbloquea Turning Points si llegas al final. Estas reglas no demuestran los requisitos de un final o contraseña concretos."
+        },
+        {
+          "heading": "Antes de restaurar los consejos",
+          "text": "Un registro reproducible debe identificar plataforma, versión, decisiones previas, indicación real y resultado observado. Los detalles antiguos se conservan para revisión editorial, pero no se publican como instrucciones actuales. Consulta las fuentes oficiales y la guía de controles verificada durante esta revisión."
+        }
+      ]
+    }
   }
 }

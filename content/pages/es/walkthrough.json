@@ -1,54 +1,97 @@
 {
   "meta": {
-    "title": "Guía de Directive 8020 | Todos los capítulos",
-    "description": "Guía completa de los 8 episodios de Directive 8020. Todas las decisiones clave, QTE, coleccionables y consejos de supervivencia de cada capítulo.",
-    "ogTitle": "Directive 8020: guía completa | Todos los capítulos",
-    "ogDescription": "Guía completa de los 8 episodios de Directive 8020. Decisiones clave, consejos de QTE, coleccionables y guías de supervivencia."
+    "title": "Guía de progreso de Directive 8020 | Ocho capítulos y estilos",
+    "description": "Planifica tu partida con enlaces por capítulo, reglas oficiales de Turning Points y una lista para registrar tus decisiones.",
+    "ogTitle": "Guía de progreso de Directive 8020 | Ocho capítulos y estilos",
+    "ogDescription": "Planifica tu partida con enlaces por capítulo, reglas oficiales de Turning Points y una lista para registrar tus decisiones."
   },
   "hero": {
-    "h1": "Guía de Directive 8020 — episodio a episodio",
-    "intro": "Todas las escenas, todas las decisiones, todos los QTE. Escrita tras tres partidas de experiencia ganada a pulso para que no tengas que aprender las mismas lecciones por las malas."
+    "h1": "Guía de progreso de Directive 8020 | Ocho capítulos y estilos",
+    "intro": "Este índice ayuda a preparar una partida y encontrar notas. La lista oficial de Steam confirma ocho episodios; las notas escena por escena enlazadas aún se están comprobando."
   },
-  "introParagraphs": [
-    "Ya he jugado Directive 8020 tres veces: una a ciegas (perdí tres personajes antes de llegar al Episodio 6, fue brutal), otra siguiendo mis propias notas para conseguir el final verdadero, y una partida de limpieza para el platino. Cada una de las páginas de esta guía refleja lo que de verdad funcionó en esas partidas, no lo que un redactor de guías supuso que funcionaría antes de que saliera el juego.",
-    "Un par de cosas antes de que te lances: **Carter y Simms no se pueden salvar.** Sus muertes son guionizadas, punto. No pierdas horas intentando salvarlos como hice yo en mi primera partida. Céntrate en Osmond, Stafford, Eisele, Cernan y Cooper. Además, el juego usa los **Puntos de inflexión** como puntos de control: puedes volver a cualquiera de ellos después de terminar un episodio o el juego completo. Así que si arruinas una decisión, nunca quedas atrapado de forma permanente. Quizá solo tengas que repetir una sección.",
-    "Si vas a por el mejor final, guarda en favoritos la [guía para salvar a todos](/save-everyone) y tenla abierta junto a las páginas de los episodios. Registra todas las decisiones de los ocho capítulos para que no se te escape nada."
-  ],
-  "episodeSection": {
-    "heading": "Los 8 episodios",
-    "sub": "Haz clic en cualquier episodio para ver la guía completa escena a escena."
-  },
-  "tipsSection": {
-    "heading": "Consejos rápidos — resumen de una línea",
-    "sub": "Lo único que debes acertar en cada episodio. Imprime esta sección y tenla a mano mientras juegas.",
-    "fallback": "Guía completa próximamente.",
-    "tips": {
-      "episode-1": "Autoriza el arma en los Cuartos de la tripulación. Elige Honor → Considerar con Stafford. El QTE después del Complejo médico siempre falla: no entres en pánico.",
-      "episode-2": "Confía en Stafford en el Puente de mando. Deja que Eisele estudie la muestra, pero no presiones demasiado. Asigna a Cooper para que vaya con Osmond.",
-      "episode-3": "Informa del hallazgo de la bodega de carga de inmediato. Ponte del lado de Eisele en el debate de la sala de briefing. Envía un informe honesto a la Tierra.",
-      "episode-4": "Sigue exactamente las indicaciones de Cooper por radio en el cruce 13. Después del enfrentamiento en el reactor, confirma la muerte y sigue adelante.",
-      "episode-5": "Este episodio tiene la decisión más fácil de perder de todo el juego: prepara el sedante en el laboratorio antes de irte. Rescata a Mitchell y a Anders del incendio.",
-      "episode-6": "Confía en la Eisele recién llegada, no en la que ya estaba con el grupo. Gira a la DERECHA en el cruce exterior: la izquierda es un punto sin retorno que mata a Anders.",
-      "episode-7": "Toma el camino de la derecha con estalactitas para encontrar al verdadero Anders: la cueva de la izquierda es una trampa. Sobrevive a las secciones de sigilo en la sala de cápsulas y Geociencia.",
-      "episode-8": "Ordena a Williams que venga con el grupo. Supera todos los QTE: Redirect, Atrium, Mess Hall y Reactor. En Knock Knock, deja entrar a Mitchell: es el real. Expón el programa de clones para el final verdadero."
-    }
-  },
-  "firstTime": {
-    "heading": "¿Es tu primera partida? Esto es lo que me habría gustado saber",
-    "paragraphs": [
-      "**No juegues en dificultad Superviviente la primera vez.** El modo Explorador te da ventanas de QTE más generosas y te avisa con más claridad de las decisiones peligrosas. En tu primera partida estás aquí por la historia, no por el desafío. Superviviente es para tu segunda o tercera partida, cuando ya conoces los momentos clave y buscas la tensión.",
-      "**Habla con todo el mundo.** Una cantidad sorprendente del mejor contenido del juego está en los diálogos opcionales. La confesión de Stafford en la cubierta de observación del Episodio 2, el momento privado de Cernan con Stafford en el Episodio 3, las notas de laboratorio de Eisele: esas escenas construyen las relaciones que desbloquean los Destiny más adelante. Sáltatelas y te estarás complicando el tramo final tú solo.",
-      "**Los Puntos de inflexión son tu red de seguridad.** ¿Terminaste un episodio y te diste cuenta de que la decisión fue un error? No reinicies el juego entero. Ve a la selección de capítulos, busca el Punto de inflexión más cercano a tu error y vuelve a él. El juego recalcula desde ahí. Así fue como limpié mi partida del platino: debí de usar el Punto de inflexión del cruce exterior del Episodio 6 unas cuatro veces probando resultados distintos.",
-      "**Explora antes de avanzar.** Cada episodio tiene zonas donde puedes curiosear antes de llegar al marcador de objetivo. Ahí viven los coleccionables: grabaciones de Simms, secretos de O Death y registros de la tripulación. La mayoría están escondidos en salas secundarias o detrás de interacciones opcionales. Si vas directo al objetivo cada vez, te perderás la mitad de la historia del juego."
+  "article": {
+    "sections": [
+      {
+        "heading": "Antes de empezar",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Elige Explorer si quieres volver a decisiones durante la historia. Survivor mantiene las consecuencias en la primera partida y desbloquea Turning Points si llegas al final. Revisa dificultad, QTE y accesibilidad por separado."
+          }
+        ]
+      },
+      {
+        "heading": "Notas por capítulo",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Estas URL originales muestran ahora avisos de revisión por capítulo. Se han retirado las instrucciones por escena, contraseñas, ubicaciones y predicciones anteriores, y los capítulos se excluyen temporalmente del índice. Las páginas sin traducción se abren en inglés."
+          },
+          {
+            "type": "list",
+            "items": [
+              "[Cap. 1](/walkthrough/episode-1)",
+              "[Cap. 2](/walkthrough/episode-2)",
+              "[Cap. 3](/walkthrough/episode-3)",
+              "[Cap. 4](/walkthrough/episode-4)",
+              "[Cap. 5](/walkthrough/episode-5)",
+              "[Cap. 6](/walkthrough/episode-6)",
+              "[Cap. 7](/walkthrough/episode-7)",
+              "[Cap. 8](/walkthrough/episode-8)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Lleva un registro útil",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Anota plataforma, versión, estilo y partida guardada antes de probar una ruta.",
+              "Registra el texto real de la opción y el resultado observado, no solo un nombre informal.",
+              "Cambia una decisión cada vez al comparar ramas y apunta también efectos posteriores.",
+              "Contrasta los requisitos de coleccionables o logros con la fuente de tu plataforma."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Qué no demuestra este índice",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "El número de episodios no verifica los antiguos subtítulos, todas las escenas, una duración fija ni una ruta garantizada al mejor final. Los relatos anteriores de tres partidas personales comprobadas se han retirado: no son pruebas de una ruta."
+          }
+        ]
+      },
+      {
+        "heading": "Sigue preparándote",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Controles y QTE](/directive-8020-skill-checks)",
+              "[Decisiones y regreso a las ramas](/choices)",
+              "[Lista oficial de logros de Steam](https://steamcommunity.com/stats/2255370/achievements)"
+            ]
+          }
+        ]
+      }
     ]
   },
-  "crossLinks": {
-    "heading": "¿Vas a por el mejor final?",
-    "text": "Las páginas de la guía te cuentan qué pasa. La guía para salvar a todos te dice qué elegir, y registra a tus supervivientes sobre la marcha.",
-    "links": [
-      { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "primary" },
-      { "href": "/all-endings", "label": "Todos los finales →", "variant": "outline" },
-      { "href": "/directive-8020-buy", "label": "Dónde comprar →", "variant": "ghost" }
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
     ]
   }
 }

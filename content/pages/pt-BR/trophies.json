@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Troféus e conquistas de Directive 8020 | Guia por plataforma",
+    "description": "Planeje as conquistas com as listas oficiais. O Steam mostra 30 conquistas no momento; os troféus do PlayStation precisam de verificação separada.",
+    "ogTitle": "Troféus e conquistas de Directive 8020 | Guia por plataforma",
+    "ogDescription": "Planeje as conquistas com as listas oficiais. O Steam mostra 30 conquistas no momento; os troféus do PlayStation precisam de verificação separada."
+  },
+  "hero": {
+    "h1": "Troféus e conquistas de Directive 8020 | Guia por plataforma",
+    "intro": "Use a lista da sua plataforma antes de planejar o 100%. As condições ocultas podem revelar a história: decida quanto deseja saber antes de exibi-las."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Comece pela plataforma certa",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A página oficial da comunidade Steam lista atualmente 30 conquistas. Essa é a lista de PC, não um total verificado de troféus do PlayStation. Os nomes, categorias e roteiro de platina garantida anteriores foram retirados porque não foram comparados com uma lista de plataforma verificada."
+          }
+        ]
+      },
+      {
+        "heading": "Lista de preparação",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Abra a lista atual da sua plataforma e anote o que já foi desbloqueado.",
+              "Decida se deseja revelar descrições ocultas, que podem conter spoilers.",
+              "Registre a versão, o estilo de jogo e o arquivo salvo de cada tentativa.",
+              "Leia a condição real antes de repetir uma cena: um resultado parecido não comprova seu cumprimento."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "O estilo de jogo muda o planejamento",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "O guia oficial de acessibilidade informa que Explorer permite usar Turning Points durante a história. Survivor mantém as consequências na primeira partida e libera Turning Points se você chegar ao final. O estilo de jogo é separado dos ajustes de QTE e ameaças em tempo real. Confira as exigências do objetivo antes de mudar as opções."
+          }
+        ]
+      },
+      {
+        "heading": "Se uma conquista não desbloquear",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Compare a tentativa com a descrição da plataforma, confira suas anotações e consulte as atualizações oficiais. Guarde o arquivo salvo e a versão ao relatar um problema. Este guia não garante um número fixo de partidas nem apresenta procedimentos não testados como soluções."
+          }
+        ]
+      },
+      {
+        "heading": "Links úteis",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Lista oficial de conquistas do Steam](https://steamcommunity.com/stats/2255370/achievements)",
+              "[Controles e estilos de jogo](/directive-8020-skill-checks)",
+              "[Atualizações do jogo](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

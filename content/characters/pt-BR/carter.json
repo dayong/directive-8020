@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Carter em Directive 8020 — Técnico do sono",
+    "description": "Tomas Carter — Técnico do sono. Trabalha com Simms nos sistemas de hibernação durante a viagem.",
+    "ogTitle": "Carter em Directive 8020 — Técnico do sono",
+    "ogDescription": "Tomas Carter — Técnico do sono. Trabalha com Simms nos sistemas de hibernação durante a viagem."
+  },
+  "sections": [
+    {
+      "heading": "Mantendo a nave em operação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tomas Carter trabalha com Pari Simms como técnico do sono enquanto os demais estão em hipersono. Eles mantêm a Cassiopeia operando durante a viagem. O passado oficial descreve uma seleção cuidadosa pela compatibilidade profissional, não um posto sem importância."
+        }
+      ]
+    },
+    {
+      "heading": "Família e motivação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Uma doença grave na adolescência marcou a forma como Carter valoriza a vida. Ele gosta de cuidar de plantas e quer garantir um futuro para a filha Luna. Esses detalhes explicam suas prioridades, mas não provam que sua morte seja inevitável nem que uma decisão específica o salve."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

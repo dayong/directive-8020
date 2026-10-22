@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Directive 8020 选择与 Turning Points｜剧情分支指南",
+    "description": "了解 Explorer 与 Survivor 如何处理剧情选择、怎样比较分支，以及可靠的选择记录需要包含哪些信息。",
+    "ogTitle": "Directive 8020 选择与 Turning Points｜剧情分支指南",
+    "ogDescription": "了解 Explorer 与 Survivor 如何处理剧情选择、怎样比较分支，以及可靠的选择记录需要包含哪些信息。"
+  },
+  "hero": {
+    "h1": "Directive 8020 选择与 Turning Points｜剧情分支指南",
+    "intro": "先了解返回选择的规则。官方无障碍说明解释了何时可以使用 Turning Points，但没有给出适用于所有场景的正确对话答案表。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer：剧情中返回选择",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer 在剧情过程中提供 Turning Points，包括逆转角色死亡的选项。返回相关决定并观察新分支，不要先假定旧结果已经永久锁定。"
+          }
+        ]
+      },
+      {
+        "heading": "Survivor：首轮承担选择后果",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Survivor 首轮剧情不允许通过 Turning Points 回退；到达结局后，才会解锁该功能以探索其他结果。这种玩法风格与调节 QTE、实时威胁的难度设置相互独立。"
+          }
+        ]
+      },
+      {
+        "heading": "用清晰记录比较分支",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "记录屏幕上的确切选项、当前操作角色和之前的决定。",
+              "记下游戏版本、玩法风格和本次使用的存档。",
+              "既观察即时反应，也记录后续场景。",
+              "检验因果关系时，尽量一次只改变一个决定。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "旧的结果预测去哪了？",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "此前的表格与互动预测没有经过可复现的逐场景记录支持，因此不再作为解法展示。尤其不能用所谓永久锁定的断言覆盖 Explorer 已明确公开的回退规则。新的结果攻略需要可复现路线，而不是主观信心标签。"
+          }
+        ]
+      },
+      {
+        "heading": "相关指南",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[操作与 QTE 设置](/directive-8020-skill-checks)",
+              "[章节流程导航](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

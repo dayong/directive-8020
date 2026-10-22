@@ -1,85 +1,79 @@
 {
   "meta": {
-    "title": "Directive 8020: todas las decisiones y consecuencias",
-    "description": "Guía completa de todas las decisiones y consecuencias en Directive 8020, con las opciones recomendadas y cómo afecta cada una al final.",
-    "ogTitle": "Decisiones y consecuencias en Directive 8020",
-    "ogDescription": "Todas las decisiones clave de Directive 8020: opciones recomendadas, consecuencias y su impacto en el final."
+    "title": "Decisiones y Turning Points de Directive 8020",
+    "description": "Comprende cómo Explorer y Survivor gestionan las decisiones, cómo comparar ramas y qué debe incluir un registro verificable.",
+    "ogTitle": "Decisiones y Turning Points de Directive 8020",
+    "ogDescription": "Comprende cómo Explorer y Survivor gestionan las decisiones, cómo comparar ramas y qué debe incluir un registro verificable."
   },
   "hero": {
-    "h1": "Directive 8020: todas las decisiones y consecuencias",
-    "intro": "Todas las decisiones de todos los episodios, con cada opción explicada a fondo, incluidas las consecuencias tardías que te alcanzan 5 episodios después."
+    "h1": "Decisiones y Turning Points de Directive 8020",
+    "intro": "Empieza por las reglas para volver a una decisión. La guía oficial de accesibilidad explica cuándo está disponible Turning Points, pero no ofrece una tabla universal de respuestas correctas."
   },
-  "tabs": {
-    "format": "EP{number}: {title}",
-    "countFormat": "({count})"
-  },
-  "search": {
-    "placeholder": "Busca decisiones, escenas, efectos en cadena o impactos en el final...",
-    "clearLabel": "Borrar"
-  },
-  "noResults": "Ninguna decisión coincide con tu búsqueda. Prueba con otra pestaña de episodio u otra palabra clave.",
-  "relationshipLabel": "Relación",
-  "lockout": {
-    "heading": "Matriz de bloqueo de finales",
-    "intro": "Una elección equivocada en estas decisiones bloquea para siempre ciertos finales o trofeos. Planifica tu ruta o sigue la [guía completa paso a paso](/walkthrough) episodio a episodio para ver cada decisión en contexto.",
-    "headers": ["EP", "Decisión", "Elección incorrecta", "Consecuencia"],
-    "rows": [
+  "article": {
+    "sections": [
       {
-        "choice": "e1-authorize-weapon",
-        "ep": 1,
-        "badPick": "Rechazar el arma",
-        "consequence": "Bloquea el trofeo Sedate Williams. No hay opción no letal con Williams en el Ep5."
+        "heading": "Explorer: volver durante la historia",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer ofrece Turning Points durante la historia, incluida la opción de revertir una muerte. Vuelve a la decisión pertinente y observa la nueva rama, en lugar de asumir que el resultado anterior queda bloqueado para siempre."
+          }
+        ]
       },
       {
-        "choice": "e1-honor-implore",
-        "ep": 1,
-        "badPick": "Suplicar",
-        "consequence": "Debilita la cadena de Destiny de Stafford. Más difícil desbloquear The Father."
+        "heading": "Survivor: asumir la primera historia",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Survivor no permite rebobinar con Turning Points durante la primera historia. Si llegas al final, la función se desbloquea para explorar alternativas. Este estilo es independiente de la dificultad de QTE y amenazas en tiempo real."
+          }
+        ]
       },
       {
-        "choice": "e5-sedative",
-        "ep": 5,
-        "badPick": "Saltarse el sedante",
-        "consequence": "Bloquea para siempre el trofeo Sedate Williams. Sin recuperación."
+        "heading": "Compara con registros claros",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Anota la opción exacta, el personaje controlado y las decisiones anteriores.",
+              "Registra versión, estilo y partida guardada del intento.",
+              "Observa escenas posteriores además de la reacción inmediata.",
+              "Cambia una decisión cada vez al comprobar una posible causa."
+            ]
+          }
+        ]
       },
       {
-        "choice": "e5-stafford-destiny",
-        "ep": 5,
-        "badPick": "Dejar que Stafford se rinda",
-        "consequence": "Bloquea el Destiny The Father. Peores resultados en el Ep7."
+        "heading": "Sobre las predicciones anteriores",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "La tabla y las predicciones interactivas anteriores no tenían registros de escenas reproducibles y ya no se presentan como soluciones. Un supuesto bloqueo permanente no debe contradecir las reglas documentadas de Explorer. Una guía de resultados necesita rutas reproducibles, no etiquetas de confianza."
+          }
+        ]
       },
       {
-        "choice": "e6-two-eiseles",
-        "ep": 6,
-        "badPick": "Confiar en la Eisele equivocada",
-        "consequence": "IRREVERSIBLE: final verdadero bloqueado para siempre. Sin solución."
-      },
-      {
-        "choice": "e6-outdoor-junction",
-        "ep": 6,
-        "badPick": "Girar a la IZQUIERDA hacia la cueva",
-        "consequence": "Anders muere. Bloquea el trofeo Mitchell & Anders Survived."
-      },
-      {
-        "choice": "e7-eisele-final",
-        "ep": 7,
-        "badPick": "Proteger la misión",
-        "consequence": "Bloquea Eisele the Humanitarian (final verdadero). En su lugar obtienes The Scientist."
+        "heading": "Guías relacionadas",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Controles y QTE](/directive-8020-skill-checks)",
+              "[Navegación por capítulos](/walkthrough)"
+            ]
+          }
+        ]
       }
     ]
   },
-  "tree": {
-    "heading": "Árbol de decisiones interactivo",
-    "tabFormat": "EP{number} {title}",
-    "bestChoiceLabel": "✓ Mejor elección",
-    "suboptimalLabel": "✗ Subóptima",
-    "consequenceLabel": "Consecuencia:",
-    "progressFormat": "Progreso hacia el mejor final en {title}:",
-    "emptyPath": "Haz tus elecciones arriba para ver la ruta",
-    "onTrack": "✓ ¡En camino hacia el mejor final!",
-    "stepsAwayOneFormat": "A {n} paso de la ruta óptima",
-    "stepsAwayManyFormat": "A {n} pasos de la ruta óptima",
-    "recommendedFormat": "{done}/{total} decisiones recomendadas tomadas",
-    "remainingFormat": "({n} decisiones restantes)"
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
   }
 }

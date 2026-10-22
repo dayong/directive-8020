@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Eisele｜高级任务官",
+    "description": "Laura Eisele，高级任务官。任务的设计者，负责设计 Cassiopeia 和舰载计算机 Oracle。",
+    "ogTitle": "Directive 8020：Eisele｜高级任务官",
+    "ogDescription": "Laura Eisele，高级任务官。任务的设计者，负责设计 Cassiopeia 和舰载计算机 Oracle。"
+  },
+  "sections": [
+    {
+      "heading": "任务与飞船的设计者",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Laura Eisele 的官方职务是高级任务官，也是 Cassiopeia 任务的设计者。飞船和船载计算机 Oracle 都体现了她的设计工作。官方背景强调她的专业成就，以及她对自己和同事工作质量的高要求，而不是将她称为另一位科学官。"
+        }
+      ]
+    },
+    {
+      "heading": "责任感与沟通",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "技术上的自信并不意味着 Eisele 擅长所有人际交流。她的档案将对机械和理论的理解，与建立同事情谊时遇到的困难并列描述。她希望通过任务推动人类未来，也检验自己的能力边界。这些性格资料不能用作某个场景中辨认真人或模仿者的可靠判据。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

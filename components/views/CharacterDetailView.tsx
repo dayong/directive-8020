@@ -4,8 +4,12 @@ import { notFound } from 'next/navigation';
 import CharacterBadge from '@/components/ui/CharacterBadge';
 import ChoiceCard from '@/components/ui/ChoiceCard';
 import { getCharacters, getChoices } from '@/lib/localized-data';
-import { buildAlternates } from '@/lib/page-seo';
-import type { Locale } from '@/i18n/config';
+import { buildPageMetadata } from '@/lib/page-seo';
+import { getCharacterArticle } from '@/lib/character-content';
+import { SectionBlocks } from '@/components/content/SectionBlocks';
+import { getUiStrings } from '@/i18n/ui';
+import { localizeHref, type Locale } from '@/i18n/config';
+import { JsonLd } from '@/components/seo/JsonLd';
 import type { CharacterDetailContent } from '@/types/content-pages';
 
 interface Props {
@@ -18,31 +22,26 @@ type ViewProps = Props & { content: CharacterDetailContent };
 export async function generateMetadata({ content, params, locale }: ViewProps): Promise<Metadata> {
   const char = getCharacters(locale).find((c) => c.id === params.character);
   if (!char) return { title: content.notFoundTitle };
+  const article = getCharacterArticle(char.id, locale);
+  if (article) return buildPageMetadata(`characters/${char.id}`, article.meta, locale, 'character-detail');
   const title = content.metaTitleFormat
     .replace('{name}', char.name)
     .replace('{role}', char.role);
-  return {
+  return buildPageMetadata(`characters/${char.id}`, {
     title,
-    description: content.metaDescriptionFormat
-      .replace('{fullName}', char.fullName)
-      .replace('{role}', char.role)
-      .replace('{description}', char.description),
-    alternates: buildAlternates(`/characters/${char.id}`, locale, 'character-detail'),
-    openGraph: {
-      title,
-      description: char.description,
-      images: ['/og-image.png'],
-      type: 'profile',
-    },
-  };
+    description: content.metaDescriptionFormat.replace('{fullName}', char.fullName)
+      .replace('{role}', char.role).replace('{description}', char.description),
+  }, locale, 'character-detail');
 }
 
 export default function CharacterDetailView({ content, params, locale }: ViewProps) {
   const char = getCharacters(locale).find((c) => c.id === params.character);
   if (!char) notFound();
 
+  const article = getCharacterArticle(char.id, locale);
+
   // Find choices affecting this character
-  const relevantChoices = getChoices(locale).filter((c) =>
+  const relevantChoices = (content.showChoices === false ? [] : getChoices(locale)).filter((c) =>
     c.options.some(
       (o) =>
         o.characterEffect &&
@@ -52,6 +51,16 @@ export default function CharacterDetailView({ content, params, locale }: ViewPro
 
   return (
     <>
+      <JsonLd data={article ? {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        url: `https://directive-8020.com${localizeHref(`/characters/${char.id}`, locale)}`,
+        name: article.meta.title,
+        description: article.meta.description,
+        inLanguage: locale,
+        about: { '@type': 'Thing', name: char.fullName },
+        citation: article.review.sources.map((source) => source.url),
+      } : null} />
       <section className="relative overflow-hidden bg-slate-900 border-b border-slate-800">
         <div className="relative max-w-4xl mx-auto px-4 py-12 md:py-16">
           <Link
@@ -89,7 +98,7 @@ export default function CharacterDetailView({ content, params, locale }: ViewPro
           <div className="grid sm:grid-cols-2 gap-4 mb-4">
             <div className="bg-slate-800/50 rounded-lg p-4">
               <p className="text-xs text-slate-500 mb-1">{content.actorLabel}</p>
-              <p className="text-slate-200">{char.actor}</p>
+              <p className="text-slate-200">{char.actor || getUiStrings(locale).charactersView.notConfirmed}</p>
             </div>
             <div className="bg-slate-800/50 rounded-lg p-4">
               <p className="text-xs text-slate-500 mb-1">
@@ -112,6 +121,19 @@ export default function CharacterDetailView({ content, params, locale }: ViewPro
             </div>
           )}
         </section>
+
+        {article?.sections.map((section, index) => (
+          <section key={index} id={section.id} className="mdx-content scroll-mt-24">
+            <h2 className="text-xl font-bold text-slate-100 mb-3">{section.heading}</h2>
+            <SectionBlocks blocks={section.blocks} />
+          </section>
+        ))}
+
+        <p className="text-sm text-slate-400">
+          <a href={char.sourceUrl} rel="noopener noreferrer" target="_blank" className="text-violet-400 underline">
+            {getUiStrings(locale).accessibility.officialSource}
+          </a>
+        </p>
 
         {/* Key choices affecting this character */}
         {relevantChoices.length > 0 && (

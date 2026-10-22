@@ -1,3 +1,4 @@
+import type { Locale } from '@/i18n/config';
 import { CtaSection } from '@/components/content/CtaSection';
 import { FaqSection } from '@/components/content/FaqSection';
 import { HeroSection } from '@/components/content/HeroSection';
@@ -13,8 +14,8 @@ const toneStyles: Record<Tone, { card: string; accent: string }> = {
   neutral: { card: 'border-slate-600 bg-slate-800/50', accent: 'text-slate-400' },
 };
 
-export default function ShootWilliamsView({ content }: { content: ShootWilliamsContent }) {
-  const faqSchema = buildFaqSchema(content.faqs);
+export default function ShootWilliamsView({ content, locale }: { content: ShootWilliamsContent; locale: Locale }) {
+  const faqSchema = buildFaqSchema(content.faqs, locale);
   return (
     <>
       <JsonLd data={faqSchema} />

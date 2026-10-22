@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020의 Carter — 수면 기술자",
+    "description": "Tomas Carter — 수면 기술자. 항해 중 Simms와 함께 수면 시스템을 담당한다.",
+    "ogTitle": "Directive 8020의 Carter — 수면 기술자",
+    "ogDescription": "Tomas Carter — 수면 기술자. 항해 중 Simms와 함께 수면 시스템을 담당한다."
+  },
+  "sections": [
+    {
+      "heading": "우주선 운용을 맡는 기술자",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tomas Carter는 Pari Simms와 함께 수면 기술자로 일합니다. 다른 승무원이 초수면에 들어간 동안 Cassiopeia를 운용하는 역할입니다. 공식 배경은 긴 항해에 적합한 업무 궁합을 고려해 두 사람이 선정되었다고 설명합니다. 단순히 이름만 있는 조연이 아니라 임무에 필요한 책임이 있습니다."
+        }
+      ]
+    },
+    {
+      "heading": "가족과 참가 동기",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "십 대에 심각한 병을 겪은 Carter는 일상을 소중하게 여깁니다. 식물을 돌보는 것을 좋아하며 딸 Luna의 미래를 위해 임무에 참여합니다. 이런 개인사는 목표를 설명할 뿐, 죽음이 불가피하다거나 특정 선택으로 생존한다는 증거가 되지 않습니다."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

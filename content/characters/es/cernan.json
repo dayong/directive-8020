@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Cernan en Directive 8020 — Ingeniero técnico",
+    "description": "Josef Cernan — Ingeniero técnico. Ingeniero que aborda la misión con una actitud reflexiva.",
+    "ogTitle": "Cernan en Directive 8020 — Ingeniero técnico",
+    "ogDescription": "Josef Cernan — Ingeniero técnico. Ingeniero que aborda la misión con una actitud reflexiva."
+  },
+  "sections": [
+    {
+      "heading": "Ingeniería y perspectiva vital",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Josef Cernan es el ingeniero técnico de la Cassiopeia. Se trasladó de Turquía a los Países Bajos para estudiar ingeniería y en esa época empezó a practicar el budismo. Su perfil oficial relaciona la resolución de problemas técnicos con la comprensión de las personas; su papel no se limita a reparar equipos."
+        }
+      ]
+    },
+    {
+      "heading": "Por qué se unió",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Una promesa a su pareja fallecida ayudó a motivarlo a participar y vivir de una manera de la que pudiera sentirse orgulloso. Su actitud abierta lo convierte en un vínculo importante entre compañeros. Ese optimismo es parte del personaje, no una prueba de que cada obstáculo tenga una acción ganadora ni una garantía de supervivencia."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

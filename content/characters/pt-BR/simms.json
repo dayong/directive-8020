@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Simms em Directive 8020 — Técnica do sono",
+    "description": "Pari Simms — Técnica do sono. Técnica do sono com formação em engenharia.",
+    "ogTitle": "Simms em Directive 8020 — Técnica do sono",
+    "ogDescription": "Pari Simms — Técnica do sono. Técnica do sono com formação em engenharia."
+  },
+  "sections": [
+    {
+      "heading": "Engenharia durante a viagem",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pari Simms é técnica do sono com grande habilidade em engenharia. Com Carter, mantém a Cassiopeia enquanto os demais estão em hipersono. Suas qualidades se complementam. O perfil oficial descreve uma parceria de trabalho, não o resultado confirmado de uma cena posterior."
+        }
+      ]
+    },
+    {
+      "heading": "Além do trabalho",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Simms pensa na mãe ao entrar na missão e grava mensagens para ela regularmente. Gosta do jogo Orinoco, de não ficção e de café. Isso apresenta a pessoa por trás da função técnica. As gravações não comprovam a localização exata de itens, um total obrigatório ou uma rota de sobrevivência."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

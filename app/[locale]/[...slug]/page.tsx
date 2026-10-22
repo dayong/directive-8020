@@ -1,8 +1,10 @@
+import ReviewedArticleView, { type ReviewedArticleContent } from '@/components/views/ReviewedArticleView';
+import { ReviewNotice, ReviewReplacement, ReviewSources } from '@/components/content/ContentReview';
 import type { Metadata } from 'next';
 import type { ComponentType } from 'react';
 import { notFound } from 'next/navigation';
 import { isLocale, type Locale } from '@/i18n/config';
-import { getAvailableLocales, getPageContent } from '@/lib/content';
+import { getAvailableLocales, getPageLocales, getPageContent, getContentReview, type ContentReview } from '@/lib/content';
 import { buildPageMetadata } from '@/lib/page-seo';
 import { getAllEpisodeSlugs } from '@/lib/mdx';
 import { getChoices, getEpisodes } from '@/lib/localized-data';
@@ -40,6 +42,9 @@ interface Props {
 
 interface PageContent {
   meta: ContentMeta;
+  review?: ContentReview;
+  hero?: ReviewedArticleContent['hero'];
+  article?: ReviewedArticleContent['article'];
 }
 
 interface RouteEntry {
@@ -139,6 +144,7 @@ export function generateStaticParams() {
   for (const [prefix, entry] of Object.entries(dynamicRoutes)) {
     for (const locale of getAvailableLocales(entry.contentSlug)) {
       for (const id of entry.ids) {
+        if (!getPageLocales(entry.contentSlug, `/${prefix}/${id}`).includes(locale)) continue;
         params.push({ locale, slug: [prefix, id] });
       }
     }
@@ -162,18 +168,32 @@ export default function CatchAllPage({ params }: Props) {
   if (!isLocale(params.locale)) notFound();
   const resolved = resolveRoute(params.slug);
   if (!resolved) notFound();
+  if (!getPageLocales(resolved.entry.contentSlug, resolved.path).includes(params.locale)) notFound();
 
   const content = getPageContent<PageContent>(resolved.entry.contentSlug, params.locale);
   if (!content) notFound();
 
+  const review = getContentReview(resolved.entry.contentSlug, params.locale, `/${resolved.path}`);
+  if (review?.replacement) return <ReviewReplacement review={review} locale={params.locale} />;
+  if (content.article && content.hero) {
+    return <>
+      {review && <ReviewNotice review={review} />}
+      <ReviewedArticleView content={{ hero: content.hero, article: content.article }} />
+      {review && <ReviewSources review={review} locale={params.locale} />}
+    </>;
+  }
   const { View, loadData } = resolved.entry;
   const extraProps = loadData ? loadData(params.locale) : {};
   return (
+    <>
+    {review && <ReviewNotice review={review} />}
     <View
       content={content}
       params={resolved.viewParams}
       locale={params.locale}
       {...extraProps}
     />
+    {review && <ReviewSources review={review} locale={params.locale} />}
+    </>
   );
 }

@@ -1,10 +1,10 @@
 import Link from '@/components/ui/LocaleLink';
 import LanguageSwitcher from '@/components/i18n/LanguageSwitcher';
-import { uiStrings } from '@/i18n/ui';
+import { getUiStrings } from '@/i18n/ui';
 import type { Locale } from '@/i18n/config';
 
 export default function Header({ locale }: { locale: Locale }) {
-  const t = uiStrings[locale].nav;
+  const t = getUiStrings(locale).nav;
   const navLinks = [
     { href: '/walkthrough', label: t.walkthrough },
     { href: '/save-everyone', label: t.saveEveryone },
@@ -25,7 +25,7 @@ export default function Header({ locale }: { locale: Locale }) {
         </Link>
 
         <div className="flex items-center gap-3">
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden xl:flex items-center gap-1">
             {navLinks.map((link) => (
               <Link
                 key={link.href}

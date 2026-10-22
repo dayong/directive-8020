@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Commandes, QTE et Turning Points de Directive 8020",
+    "description": "Choisissez votre style de jeu et réglez QTE, parades et indicateurs avec les options officielles. Le retrait du délai de QTE est réservé à Solo Story.",
+    "ogTitle": "Commandes, QTE et Turning Points de Directive 8020",
+    "ogDescription": "Choisissez votre style de jeu et réglez QTE, parades et indicateurs avec les options officielles. Le retrait du délai de QTE est réservé à Solo Story."
+  },
+  "hero": {
+    "h1": "Commandes, QTE et Turning Points de Directive 8020",
+    "intro": "Distinguez le retour sur les décisions de la difficulté des commandes. Le guide officiel en fait deux groupes de réglages : choisir Explorer ne définit pas à lui seul toutes les options de QTE."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer et Survivor sont des styles de jeu",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer permet de revenir sur des décisions avec Turning Points pendant la partie. Survivor ne le permet pas lors de la première histoire ; atteindre la fin débloque cette fonction. Choisissez entre explorer les branches immédiatement ou avancer avec les conséquences de vos décisions."
+          }
+        ]
+      },
+      {
+        "heading": "La difficulté se règle séparément",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Les préréglages officiels sont Forgiving, Challenging et Lethal, avec une option Custom. Examinez les réglages individuels : un préréglage ne réécrit pas les dialogues et ne garantit la survie de personne."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Réglage",
+              "Effet",
+              "Limite importante"
+            ],
+            "rows": [
+              [
+                "Entrée unique pour les QTE",
+                "Utilise la même commande pour les QTE",
+                "Vérifiez toujours l’indication"
+              ],
+              [
+                "Maintenir au lieu de marteler",
+                "Remplace les pressions répétées par un maintien",
+                "Change le mode de saisie"
+              ],
+              [
+                "Retirer le délai des QTE",
+                "Supprime la limite de temps",
+                "Solo Story uniquement ; une mauvaise entrée échoue encore"
+              ],
+              [
+                "Difficulté et avertissements de QTE",
+                "Règle le défi et les alertes préalables",
+                "Distinct du style de jeu"
+              ],
+              [
+                "Recharge de parade",
+                "Règle la récupération défensive face aux menaces",
+                "Ne choisit pas les dialogues à votre place"
+              ],
+              [
+                "Indicateur de menace",
+                "Affiche position et vigilance ; couleur réglable",
+                "Consultez les indications de votre version"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Améliorer la lisibilité",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Les options officielles comprennent sous-titres, sous-titres descriptifs, taille du texte des choix et messages, police simplifiée et réattribution des commandes. Essayez-les avant une scène tendue pour distinguer un problème de lecture, de timing ou de touche."
+          }
+        ]
+      },
+      {
+        "heading": "Un ordre de réglage utile",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Choisissez votre manière d’explorer l’histoire.",
+              "Vérifiez la difficulté et les réglages individuels utiles.",
+              "Contrôlez texte, sous-titres et commandes.",
+              "Familiarisez-vous avec les actions avant de suivre un guide de scène."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Pour aller plus loin",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Options officielles d’accessibilité](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)",
+              "[Planifier les succès](/trophies)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

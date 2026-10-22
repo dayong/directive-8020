@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Directive 8020 Trophäen und Steam-Erfolge | Plattform-Guide",
+    "description": "Plane deine Erfolge anhand offizieller Plattformlisten. Steam führt derzeit 30 Erfolge; PlayStation-Trophäen müssen gesondert geprüft werden.",
+    "ogTitle": "Directive 8020 Trophäen und Steam-Erfolge | Plattform-Guide",
+    "ogDescription": "Plane deine Erfolge anhand offizieller Plattformlisten. Steam führt derzeit 30 Erfolge; PlayStation-Trophäen müssen gesondert geprüft werden."
+  },
+  "hero": {
+    "h1": "Directive 8020 Trophäen und Steam-Erfolge | Plattform-Guide",
+    "intro": "Nutze vor deiner Planung die Liste deiner Plattform. Versteckte Beschreibungen können die Geschichte verraten. Entscheide vorher, wie viel du erfahren möchtest."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Mit der richtigen Plattform beginnen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Die offizielle Steam-Community-Seite führt derzeit 30 Erfolge. Das ist die PC-Liste, keine bestätigte Gesamtzahl der PlayStation-Trophäen. Frühere Namen, Stufen und der garantierte Platin-Fahrplan wurden zurückgezogen, da sie keiner geprüften Plattformliste zugeordnet waren."
+          }
+        ]
+      },
+      {
+        "heading": "Checkliste für deine Planung",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Öffne die aktuelle Plattformliste und notiere bereits freigeschaltete Ziele.",
+              "Entscheide, ob du versteckte Beschreibungen und mögliche Spoiler anzeigen möchtest.",
+              "Notiere bei jedem Versuch Spielversion, Spielstil und verwendeten Spielstand.",
+              "Lies die genaue Bedingung, bevor du eine Szene wiederholst. Ein ähnlicher Ausgang beweist noch keine Erfüllung."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Der Spielstil beeinflusst Wiederholungen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Laut offizieller Barrierefreiheitsübersicht erlaubt Explorer Turning Points während der Geschichte. Survivor bindet dich im ersten Durchlauf an die Folgen; erreichst du das Ende, werden Turning Points freigeschaltet. Der Spielstil ist von Einstellungen für QTEs und Echtzeitgefahren getrennt. Prüfe die Zielbedingungen, bevor du Einstellungen änderst."
+          }
+        ]
+      },
+      {
+        "heading": "Wenn ein Erfolg ausbleibt",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Vergleiche deinen Versuch mit der Plattformbeschreibung und prüfe deine Fortschrittsnotizen sowie offizielle Updates. Bewahre Spielstand und Versionsangabe für eine Fehlermeldung auf. Dieser Guide garantiert weder eine feste Zahl an Durchläufen noch die Wirkung ungetesteter Umgehungslösungen."
+          }
+        ]
+      },
+      {
+        "heading": "Nützliche Links",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Offizielle Steam-Erfolgsliste](https://steamcommunity.com/stats/2255370/achievements)",
+              "[Steuerung und Spielstile](/directive-8020-skill-checks)",
+              "[Aktuelle Spielupdates](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

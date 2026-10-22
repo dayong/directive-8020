@@ -1,0 +1,152 @@
+{
+  "layoutMeta": {
+    "defaultTitle": "Directive 8020 攻略ガイド｜登場人物・選択肢・協力プレイ",
+    "titleTemplate": "%s | Directive 8020",
+    "description": "Directive 8020の乗組員、物語の分岐、Turning Points、協力プレイを紹介。テーマ別の攻略リンクと公式情報をまとめています。",
+    "ogTitle": "Directive 8020 攻略ガイド｜登場人物・選択肢・協力プレイ",
+    "ogDescription": "Directive 8020の乗組員、物語の分岐、Turning Points、協力プレイを紹介。テーマ別の攻略リンクと公式情報をまとめています。",
+    "jsonLdDescription": "Supermassive Gamesが手がける映画的なSFホラーアドベンチャーです。Cassiopeiaの乗組員は人間を模倣するエイリアンに直面し、プレイヤーの決断が物語を変えていきます。",
+    "jsonLdGenres": [
+      "ホラー",
+      "インタラクティブドラマ",
+      "SF"
+    ]
+  },
+  "nav": {
+    "walkthrough": "ストーリー攻略",
+    "saveEveryone": "全員生存",
+    "allEndings": "全エンディング",
+    "choices": "選択肢",
+    "characters": "登場人物",
+    "trophies": "トロフィー"
+  },
+  "tabs": {
+    "guide": "攻略",
+    "saveAll": "全員生存",
+    "endings": "結末",
+    "choices": "選択肢",
+    "crew": "乗組員",
+    "trophies": "トロフィー"
+  },
+  "languageSwitcher": {
+    "label": "言語"
+  },
+  "footer": {
+    "story": "ストーリー",
+    "gameplay": "ゲームプレイ",
+    "collectibles": "収集要素",
+    "technical": "技術サポート",
+    "bestEnding": "ベストエンディング",
+    "gameLength": "クリア時間",
+    "trophyGuide": "トロフィー攻略",
+    "multiplayer": "マルチプレイ",
+    "bugFixes": "不具合対策",
+    "charactersAndCast": "登場人物とキャスト",
+    "trophiesAndAchievements": "トロフィーと実績",
+    "crashingAndFixes": "クラッシュ対策",
+    "pcIssues": "PCの問題",
+    "consoleIssues": "家庭用ゲーム機の問題",
+    "whereToBuy": "購入ガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "contact": "お問い合わせ",
+    "disclaimer1": "非公式のファン攻略サイトです。Supermassive Gamesとは関係ありません。",
+    "disclaimer2": "Directive 8020はThe Dark Pictures Anthologyシリーズの作品です。当サイトは非公式のファン攻略サイトです。",
+    "affiliateNote": "一部のストアリンクはアフィリエイトリンクです。対象商品を購入すると当サイトに報酬が入る場合がありますが、購入者の追加負担はありません。",
+    "walkthrough": "ストーリー攻略",
+    "saveEveryone": "全員生存",
+    "allEndings": "全エンディング",
+    "choices": "選択肢",
+    "collectiblesLink": "収集要素"
+  },
+  "breadcrumbs": {
+    "episodeFormat": "第{number}章：{title}",
+    "ariaLabel": "パンくずリスト",
+    "labels": {
+      "": "ホーム",
+      "walkthrough": "ストーリー攻略",
+      "save-everyone": "全員生存",
+      "all-endings": "全エンディング",
+      "choices": "選択肢",
+      "characters": "登場人物",
+      "trophies": "トロフィー攻略",
+      "collectibles": "収集要素",
+      "game-length": "クリア時間",
+      "bug-fixes": "不具合対策",
+      "multiplayer": "マルチプレイ",
+      "directive-8020-cove": "Coveガイド",
+      "directive-8020-actress": "登場人物とキャスト",
+      "directive-8020-buy": "購入ガイド",
+      "privacy-policy": "プライバシーポリシー",
+      "who-is-the-real-eisele-directive-8020": "本物のEiseleの見分け方",
+      "shoot-williams-or-stand-down": "Williamsを撃つべきか？",
+      "can-carter-survive": "Carterは生き残れる？",
+      "directive-8020-skill-checks": "スキルチェック",
+      "codes": "暗証番号とパスワード"
+    }
+  },
+  "spoiler": {
+    "title": "ネタバレ注意",
+    "body": "クリックして表示。このセクションには、プレイ体験に影響する重要なネタバレが含まれます。"
+  },
+  "toc": {
+    "heading": "このページの目次"
+  },
+  "episodeCard": {
+    "keyChoicesFormat": "重要な選択肢：{count}件"
+  },
+  "choiceCard": {
+    "recommended": "✓ おすすめ",
+    "avoid": "✗ 避ける",
+    "crossEpisode": "⟳ 他の章への影響：",
+    "endingImpact": "🎯 エンディングへの影響："
+  },
+  "endingCard": {
+    "trueEnding": "真のエンディング",
+    "condition": "条件：",
+    "survivors": "生存者：",
+    "turningPoint": "ターニングポイント："
+  },
+  "characterBadge": {
+    "scriptedDeath": "物語上避けられない死",
+    "deceased": "死亡",
+    "unverified": "結末は未確認"
+  },
+  "charactersView": {
+    "actor": "俳優：",
+    "canSurvive": "生存可能",
+    "npcCanSurvive": "NPC・生存可能",
+    "scriptedDeath": "物語上避けられない死",
+    "notConfirmed": "確認した資料には記載なし",
+    "outcomeUnverified": "結末は未確認",
+    "playable": "操作可能な乗組員",
+    "supporting": "サブキャラクター"
+  },
+  "trophiesView": {
+    "platinum": "プラチナ",
+    "gold": "ゴールド",
+    "silver": "シルバー",
+    "bronze": "ブロンズ",
+    "missable": "取り逃し注意"
+  },
+  "allEndingsView": {
+    "notAvailable": "該当なし"
+  },
+  "accessibility": {
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "playPreview": "プレビュー動画を再生",
+    "episodeFormat": "第{number}章",
+    "dismissLanguage": "言語の提案を閉じる",
+    "fallbackLanguage": "リンク先は英語です",
+    "englishContent": "このガイドの本文は現在英語で提供しています。",
+    "officialSource": "ゲーム公式サイト"
+  },
+  "errors": {
+    "notFoundTitle": "ページが見つかりません",
+    "notFoundBody": "この言語ではページを利用できません。対応する言語を選ぶか、ホームに戻ってください。",
+    "home": "ホームに戻る",
+    "loadTitle": "ページを読み込めませんでした",
+    "loadBody": "もう一度ページの読み込みをお試しください。",
+    "retry": "再試行"
+  }
+}

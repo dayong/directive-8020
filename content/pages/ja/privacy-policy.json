@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "プライバシーポリシー｜Directive 8020 ガイド",
+    "description": "言語設定の保存、アクセス解析、外部リンクと、プライバシーに関するお問い合わせ先を説明します。",
+    "ogTitle": "プライバシーポリシー｜Directive 8020 ガイド",
+    "ogDescription": "言語設定の保存、アクセス解析、外部リンクと、プライバシーに関するお問い合わせ先を説明します。"
+  },
+  "hero": {
+    "h1": "プライバシーポリシー｜Directive 8020 ガイド",
+    "intro": "言語設定の保存、アクセス解析、外部リンクと、プライバシーに関するお問い合わせ先を説明します。"
+  },
+  "sections": [
+    {
+      "heading": "言語設定とブラウザーの保存領域",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "言語を選ぶか言語の提案を閉じると、選択した言語を localStorage の directive-locale に保存します。サイトデータを消去するかブラウザーが削除するまで残ります。解析用 Cookie とは別です。ページの言語は URL で決まり、保存した設定による強制転送はありません。ブラウザーの言語は提案のため端末内で読み取ります。"
+        }
+      ]
+    },
+    {
+      "heading": "アクセス解析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "当サイトは利用状況を把握するため Google Analytics 4 を読み込みます。Google の測定ではページ URL、参照元、端末やブラウザーの情報、Cookie が処理される場合があります。公開環境の設定によっては Umami も読み込みます。Google Analytics とは別の設定です。下記の提供元資料を参照してください。個人データを一切処理しないとは表明しません。"
+        }
+      ]
+    },
+    {
+      "heading": "ブラウザーでの選択",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "ブラウザーのサイトデータ設定から保存領域と Cookie を消去できます。directive-locale を削除すると言語設定がリセットされます。スクリプトや Cookie の制限は解析や設定に影響する場合があります。Cookie だけの制限ですべての測定が止まるとは限りません。Google は [Analytics オプトアウトアドオン](https://tools.google.com/dlpage/gaoptout)も提供しています。当サイトでは Do Not Track の退出機能を確認していません。"
+        }
+      ]
+    },
+    {
+      "heading": "外部サービスと販売リンク",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "ホスティングと配信には Cloudflare を使用します。外部ショップなどのリンク先では、その事業者のポリシーが適用されます。一部の販売リンクには紹介識別子が含まれ、対象の購入で当サイトが報酬を受ける場合があります。利用者の追加負担はありません。当サイトはその決済情報を受け取りません。メールのお問い合わせでは本文とメールアドレスが直接提供される情報になります。"
+        }
+      ]
+    },
+    {
+      "heading": "保存期間とご請求",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "言語設定は削除されるまでブラウザー内に残ります。解析データの保存期間はサービスとアカウント設定によるため、未確認の期間を断定しません。適用法によっては、アクセス、訂正、削除、処理への異議などの権利がある場合があります。お問い合わせ先にご連絡ください。ブラウザー操作は請求の代わりにはなりません。本ガイドは成熟した年齢層向けのゲームを扱い、児童を対象としていません。児童の情報に関する懸念もご連絡ください。"
+        }
+      ]
+    },
+    {
+      "heading": "お問い合わせと更新",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "プライバシーのご質問やご請求は [contact@directive-8020.com](mailto:contact@directive-8020.com) へ。パスワードやカード情報を送らないでください。更新日は 2026-10-22 です。変更はこのページに掲載します。"
+        }
+      ]
+    },
+    {
+      "heading": "提供元のポリシーと資料",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "[Google](https://policies.google.com/privacy)",
+            "[Google Analytics — Cookies](https://support.google.com/analytics/answer/11397207)",
+            "[Google Analytics — Retention](https://support.google.com/analytics/answer/7667196)",
+            "[Umami](https://docs.umami.is/docs/collect-data)",
+            "[Cloudflare](https://www.cloudflare.com/privacypolicy/)"
+          ]
+        }
+      ]
+    }
+  ]
+}

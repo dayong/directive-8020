@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Williams｜首席执行官",
+    "description": "LaMarcus Williams，首席执行官。任务背后企业 Corinth 的首席执行官。",
+    "ogTitle": "Directive 8020：Williams｜首席执行官",
+    "ogDescription": "LaMarcus Williams，首席执行官。任务背后企业 Corinth 的首席执行官。"
+  },
+  "sections": [
+    {
+      "heading": "Corinth 与任务",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "LaMarcus Williams 是 Corinth 的亿万富翁首席执行官，来自加利福尼亚的富裕家庭，希望建立自己的成就。Stafford 与 Bill Young 的火星任务曾激励他的抱负。他的参与将远征与背后的公司联系起来，但企业职务本身不能证明任何隐藏立场。"
+        }
+      ]
+    },
+    {
+      "heading": "他对人类未来的看法",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "官方介绍将 Williams 描述为相信地球已无法挽救、Corinth 的任务能够为人类提供未来的人。这些信念让他成为有争议的公众人物。它们是人物背景，不能证明向他开枪、放下武器或选择某个结局会产生保证结果。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

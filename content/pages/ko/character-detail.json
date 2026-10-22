@@ -1,0 +1,32 @@
+{
+  "notFoundTitle": "등장인물을 찾을 수 없습니다",
+  "metaTitleFormat": "Directive 8020의 {name} — {role}",
+  "metaDescriptionFormat": "{fullName} — {role}. {description}",
+  "backLink": "← 모든 등장인물",
+  "profileHeading": "인물 소개",
+  "actorLabel": "연기자",
+  "survivalStatusLabel": "생존 정보",
+  "destinyLabel": "이야기 속 역할",
+  "keyChoicesFormat": "{name} 관련 선택지",
+  "cannotBeSavedFormat": "{name}: 결과 미확인",
+  "cannotBeSavedTextFormat": "{name}의 장면별 생존 경로는 공식 자료와의 대조가 완료되지 않았습니다.",
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  },
+  "showChoices": false
+}

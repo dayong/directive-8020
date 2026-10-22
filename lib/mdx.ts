@@ -21,7 +21,7 @@ export interface EpisodeFrontmatter {
 function episodeFile(slug: string, locale: Locale): string {
   if (locale !== defaultLocale) {
     const localizedPath = path.join(episodesDir, locale, `${slug}.mdx`);
-    if (fs.existsSync(localizedPath)) return localizedPath;
+    return localizedPath;
   }
   return path.join(episodesDir, `${slug}.mdx`);
 }
@@ -56,13 +56,4 @@ export async function getEpisodeContent(slug: string, locale: Locale = defaultLo
   };
 }
 
-export function getAllEpisodeSlugs(): string[] {
-  if (!fs.existsSync(episodesDir)) {
-    return [];
-  }
-
-  return fs
-    .readdirSync(episodesDir)
-    .filter((file) => file.endsWith('.mdx'))
-    .map((file) => file.replace(/\.mdx$/, ''));
-}
+export { getAllEpisodeSlugs } from '@/lib/episode-files';

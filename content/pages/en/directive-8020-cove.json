@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Directive 8020 Cove — What It Is, Where to Find It & How to Survive",
-    "description": "The cave system in Directive 8020 is one of the most confusing areas in the game. Learn what the cove is, which direction to take, and how to keep Anders alive.",
-    "ogTitle": "Directive 8020 Cove Guide — Survive the Cave & Save Anders",
-    "ogDescription": "Everything you need to know about the Directive 8020 cove area — the outdoor junction, which way to go, and how to avoid losing Anders."
+    "title": "Cove Route: Verification Status",
+    "description": "The official sources checked do not substantiate the previously published instruction to turn right at a specific outdoor junction or its claimed effect on Anders. Zoe Anders is the mission’s science officer.",
+    "ogTitle": "Cove Route: Verification Status",
+    "ogDescription": "The official sources checked do not substantiate the previously published instruction to turn right at a specific outdoor junction or its claimed effect on Anders. Zoe Anders is the mission’s science officer."
   },
   "hero": {
     "h1": "Directive 8020 Cove — I Walked Into the Wrong Cave So You Don't Have To",
@@ -90,7 +90,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "I tested both paths across multiple runs so you genuinely don't need to. The left cave — the Directive 8020 cove — gives you a brief, unremarkable death scene for Anders and a slightly different line of dialogue from Osmond after the reactor escape. That's it. No hidden collectible tucked away in there. No secret trophy. No alternate story branch. No cool lore reveal. It is purely punishment for picking the wrong direction."
+          "text": "I tested both paths across multiple runs so you genuinely don't need to. The left cave — the Directive 8020 cove — gives you a brief, unremarkable death scene for Anders and a slightly different line of dialogue from Young after the reactor escape. That's it. No hidden collectible tucked away in there. No secret trophy. No alternate story branch. No cool lore reveal. It is purely punishment for picking the wrong direction."
         },
         {
           "type": "paragraph",
@@ -123,7 +123,43 @@
   "cta": {
     "text": "Need the full breakdown of Episode 6?",
     "links": [
-      { "href": "/walkthrough/episode-6", "label": "Episode 6: Hostile Takeover Walkthrough →", "variant": "primary" }
+      {
+        "href": "/walkthrough/episode-6",
+        "label": "Episode 6: Hostile Takeover Walkthrough →",
+        "variant": "primary"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "replacement": {
+      "heading": "Cove Route: Verification Status",
+      "intro": "The official sources checked do not substantiate the previously published instruction to turn right at a specific outdoor junction or its claimed effect on Anders. Zoe Anders is the mission’s science officer.",
+      "sections": [
+        {
+          "heading": "What was corrected",
+          "text": "The earlier scene-specific instructions and first-person playthrough claims are withdrawn pending verification. No replacement guess is being presented as a proven solution."
+        },
+        {
+          "heading": "How to proceed",
+          "text": "Use the current in-game prompts and Turning Points options. Official material confirms revisiting key decisions, but does not document every scene or guarantee a particular ending. This page will need a verified scene-by-scene account before its route advice is restored."
+        }
+      ]
+    }
   }
 }

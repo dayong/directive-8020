@@ -1,80 +1,100 @@
 {
   "meta": {
-    "title": "¿Cuánto dura Directive 8020? Duración y horas por episodio",
-    "description": "Directive 8020 dura ~8 horas la historia principal, ~12 horas todos los finales y ~15 horas el 100 %. Desglose del tiempo de juego episodio a episodio.",
-    "ogTitle": "¿Cuánto dura Directive 8020? Duración y horas por episodio",
-    "ogDescription": "¿Cuánto dura Directive 8020? Historia principal ~8 horas, todos los finales ~12 horas y el 100 % ~15 horas."
+    "title": "Duración de Directive 8020 | Primera partida y repeticiones",
+    "description": "Planifica la historia y las repeticiones sin estimaciones horarias sin verificar. Distingue exploración, Turning Points, estilo de juego y dificultad.",
+    "ogTitle": "Duración de Directive 8020 | Primera partida y repeticiones",
+    "ogDescription": "Planifica la historia y las repeticiones sin estimaciones horarias sin verificar. Distingue exploración, Turning Points, estilo de juego y dificultad."
   },
   "hero": {
-    "h1": "¿Cuánto se tarda en completar Directive 8020?",
-    "tagline": "Completar Directive 8020 lleva alrededor de 8 horas.",
-    "intro": "Un desglose completo de la duración del juego por estilo de juego, por episodio y por lo que afecta a tu tiempo total de juego."
+    "h1": "Duración de Directive 8020 | Primera partida y repeticiones",
+    "intro": "Planifica la historia y las repeticiones sin estimaciones horarias sin verificar. Distingue exploración, Turning Points, estilo de juego y dificultad."
   },
-  "summaryCards": {
-    "cards": [
-      { "icon": "🎮", "label": "Historia principal", "tone": "main", "value": "~8", "unit": "horas" },
-      { "icon": "🏁", "label": "Todos los finales", "tone": "endings", "value": "~12", "unit": "horas" },
-      { "icon": "🏆", "label": "Completista al 100 %", "tone": "completion", "value": "~15", "unit": "horas" }
-    ]
-  },
-  "episodeTable": {
-    "heading": "Duración por episodio",
-    "headers": ["Episodio", "Título", "Duración"]
-  },
-  "affectsLength": {
-    "heading": "Qué afecta a la duración del juego",
-    "items": [
+  "article": {
+    "sections": [
       {
-        "term": "Dificultad —",
-        "text": "El modo Explorador ofrece tiempos de QTE generosos y menos estados de fallo, lo que reduce el tiempo de juego. El modo Superviviente tiene QTEs más ajustados y más muertes, lo que implica más repeticiones."
+        "heading": "¿Hay una duración verificada?",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Las fuentes oficiales enlazadas no fijan una duración universal para la primera partida, todos los finales o el completismo. Hemos retirado las cifras fijas y la tabla por episodios. El ritmo de lectura, la exploración y los objetivos de repetición varían."
+          }
+        ]
       },
       {
-        "term": "Puntos de inflexión —",
-        "text": "Usar los Puntos de inflexión para repetir decisiones y explorar rutas alternativas añade de 2 a 4 horas a tu total. Cada rama importante tarda de 20 a 40 minutos en repetirse."
+        "heading": "Planifica con tus propios registros",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Anota plataforma, versión, estilo de juego y tiempo real. Separa las pausas y los menús del juego activo. Usa tus sesiones terminadas para estimar las siguientes; el total de otra persona no es una garantía."
+          }
+        ]
       },
       {
-        "term": "Coleccionables —",
-        "text": "Cazar los 65 coleccionables añade unas 2 horas. Algunos están escondidos en zonas de exploración opcionales."
+        "heading": "Repeticiones y Turning Points",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer permite usar Turning Points durante la historia. Survivor desactiva el rebobinado en la primera historia y lo desbloquea al llegar a un final. Esto cambia cuándo puedes revisar decisiones, pero no fija cuántas horas adicionales necesitarás."
+          }
+        ]
       },
       {
-        "term": "Secretos O Death —",
-        "text": "Encontrar los 5 secretos de O Death requiere explorar a fondo y usar los Puntos de inflexión para volver a capítulos anteriores. Añade de 1 a 2 horas."
+        "heading": "Estilo y dificultad son distintos",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer y Survivor son estilos de juego. Forgiving, Challenging, Lethal y Custom son opciones de dificultad. La lectura, la exploración y las conversaciones del grupo pueden variar el tiempo; ningún ajuste garantiza una partida más corta."
+          }
+        ]
+      },
+      {
+        "heading": "Registra cada objetivo por separado",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Terminar la historia, explorar ramas y completar los logros de cada plataforma son objetivos distintos. No calcules la duración con cantidades de coleccionables sin verificar ni presupongas que una ruta desbloquea todos los resultados."
+          }
+        ]
+      },
+      {
+        "heading": "Fuentes oficiales",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Directive 8020](https://www.thedarkpictures.com/games/directive-8020)",
+              "[Turning Points](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Guías relacionadas",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Estilos y controles](/directive-8020-skill-checks)",
+              "[Personajes](/characters)",
+              "[Progreso y repeticiones](/walkthrough)"
+            ]
+          }
+        ]
       }
     ]
   },
-  "faqHeading": "Preguntas frecuentes",
-  "faqs": [
-    {
-      "q": "¿Cuánto dura Directive 8020?",
-      "a": "Una primera partida de la historia principal dura unas 8 horas. Cubre los 8 episodios a un ritmo normal con algo de exploración opcional."
-    },
-    {
-      "q": "¿Cuánto se tarda en completar Directive 8020 (HLTB)?",
-      "a": "La historia principal son ~8 horas, desbloquear todos los finales lleva ~12 horas y una partida completista al 100 % con todos los coleccionables y trofeos lleva ~15 horas."
-    },
-    {
-      "q": "¿Cuántas horas dura cada episodio de Directive 8020?",
-      "a": "La mayoría de los episodios duran alrededor de 1 hora. El Episodio 6 dura ~1,5 horas, y los Episodios 7 y 8 ~2 horas cada uno. Consulta el desglose de episodios de arriba para ver la lista completa."
-    },
-    {
-      "q": "¿Cuánto dura Directive 8020 al 100 %?",
-      "a": "Alrededor de 15 horas. Cazar los 65 coleccionables añade ~2 horas y encontrar los 5 secretos de O Death añade de 1 a 2 horas sobre la historia principal."
-    },
-    {
-      "q": "¿La dificultad afecta al tiempo de juego?",
-      "a": "Sí. El modo Explorador tiene tiempos de QTE generosos y menos estados de fallo, mientras que el modo Superviviente implica más muertes y más repeticiones, lo que alarga tu tiempo total."
-    },
-    {
-      "q": "¿Puedo ver decisiones alternativas sin repetir todo el juego?",
-      "a": "Sí: los Puntos de inflexión te permiten retroceder a cualquier decisión importante. Explorar ramas alternativas así añade de 2 a 4 horas a tu tiempo total."
-    }
-  ],
-  "cta": {
-    "text": "¿Listo para empezar a jugar?",
-    "links": [
-      { "href": "/walkthrough", "label": "Guía completa paso a paso →", "variant": "primary" },
-      { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "outline" },
-      { "href": "/directive-8020-buy", "label": "Dónde comprar →", "variant": "ghost" }
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Turning Points",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
     ]
   }
 }

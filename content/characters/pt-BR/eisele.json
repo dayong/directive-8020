@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Eisele em Directive 8020 — Oficial sênior da missão",
+    "description": "Laura Eisele — Oficial sênior da missão. Responsável pelo projeto da missão, da Cassiopeia e do computador Oracle.",
+    "ogTitle": "Eisele em Directive 8020 — Oficial sênior da missão",
+    "ogDescription": "Laura Eisele — Oficial sênior da missão. Responsável pelo projeto da missão, da Cassiopeia e do computador Oracle."
+  },
+  "sections": [
+    {
+      "heading": "Projetando a missão",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Laura Eisele é a oficial sênior de missão e a arquiteta do projeto Cassiopeia. Seu trabalho inclui a nave e o computador Oracle. O passado oficial descreve uma especialista reconhecida que exige rigor de si e dos colegas, sem identificá-la como outra oficial de ciências."
+        }
+      ]
+    },
+    {
+      "heading": "Responsabilidade e comunicação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Domínio técnico não facilita toda interação social. O perfil contrapõe sua compreensão de máquinas e teorias à dificuldade de criar vínculos com os colegas. Ela quer avançar o futuro da humanidade e testar seus próprios limites. Esses traços não são um teste confiável para distinguir uma pessoa de uma imitação em uma cena."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Directive 8020 협동 플레이 | 로컬·온라인·플랫폼별 정보",
+    "description": "Steam, PS5와 Xbox Series X|S의 공식 멀티플레이 정보를 비교하고 인원, 구독 조건과 화면 공유 표기를 확인하세요.",
+    "ogTitle": "Directive 8020 협동 플레이 | 로컬·온라인·플랫폼별 정보",
+    "ogDescription": "Steam, PS5와 Xbox Series X|S의 공식 멀티플레이 정보를 비교하고 인원, 구독 조건과 화면 공유 표기를 확인하세요."
+  },
+  "hero": {
+    "h1": "Directive 8020 협동 플레이 | 로컬·온라인·플랫폼별 정보",
+    "intro": "실제 사용할 플랫폼과 모드를 기준으로 계획하세요. 한 상점의 온라인 기능 표기가 모든 버전에서 같은 기능을 지원한다는 뜻은 아닙니다."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "현재 플랫폼별 표기",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "플랫폼",
+              "표기된 기능",
+              "시작 전 확인"
+            ],
+            "rows": [
+              [
+                "Steam",
+                "온라인 협동과 공유·분할 화면 협동 분류",
+                "설치된 버전에서 모드와 참가 방식 확인"
+              ],
+              [
+                "PS5",
+                "1~5명, 온라인 최대 5명",
+                "온라인 플레이에는 PlayStation Plus 필요"
+              ],
+              [
+                "Xbox Series X|S",
+                "로컬 협동 2~5명",
+                "온라인 기능은 현재 Xbox 페이지에서 별도 확인"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "화면 공유와 크로스플레이는 다릅니다",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam은 화면 공유와 분할 화면 협동을 하나의 분류로 묶습니다. 이 표기만으로 동시 분할 화면을 확인할 수는 없습니다. 온라인 협동 표기 역시 플랫폼 간 매칭이나 무료 친구 패스를 보장하지 않습니다."
+          }
+        ]
+      },
+      {
+        "heading": "시작 전 준비",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "참가자 모두의 플랫폼에 해당하는 최신 상점 정보를 확인하세요.",
+              "게임을 업데이트하고 원하는 모드가 실제로 표시되는지 확인하세요.",
+              "초대 전에 구매, 계정과 구독 조건을 확인하세요.",
+              "역할 배정과 시작은 실제 화면의 조작을 따르세요."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "과거 공지와 다른 이유",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "출시 당시 문구는 온라인을 추후 업데이트로 소개했습니다. 현재 Steam과 PlayStation은 온라인 기능을 안내합니다. 과거 계획을 현재 지원 정보로 취급하지 말고 플랫폼별 최신 정보를 확인하세요. 미확인 Xbox 온라인 기능은 추측하지 않습니다."
+          }
+        ]
+      },
+      {
+        "heading": "관련 링크",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[PlayStation](https://www.playstation.com/en-us/games/directive-8020/)",
+              "[Xbox](https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l)",
+              "[플레이 스타일과 조작](/directive-8020-skill-checks)",
+              "[에디션 선택](/directive-8020-buy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "PlayStation — Directive 8020",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Xbox — Directive 8020",
+        "url": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
+      }
+    ]
+  }
+}

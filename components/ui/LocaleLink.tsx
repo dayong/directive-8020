@@ -2,8 +2,8 @@
 
 import type { ComponentProps, ComponentPropsWithoutRef } from 'react';
 import NextLink from 'next/link';
-import { usePathname } from 'next/navigation';
-import { defaultLocale, localeFromPathname, localizeHref } from '@/i18n/config';
+import { useMessages } from '@/components/i18n/Messages';
+import { defaultLocale, localizeHref } from '@/i18n/config';
 import { usePathsByLocale } from '@/components/i18n/LocalePaths';
 
 type Props = ComponentProps<typeof NextLink> & { href: string };
@@ -14,9 +14,8 @@ export function MdxLink({ href, ...rest }: ComponentPropsWithoutRef<'a'>) {
 }
 
 export default function LocaleLink({ href, ...rest }: Props) {
-  const pathname = usePathname();
+  const { locale, messages } = useMessages();
   const pathsByLocale = usePathsByLocale();
-  const locale = localeFromPathname(pathname);
   const translatedPaths = pathsByLocale?.[locale] ?? null;
 
   let target = href;
@@ -29,5 +28,7 @@ export default function LocaleLink({ href, ...rest }: Props) {
     }
   }
 
-  return <NextLink href={target} {...rest} />;
+  const englishFallback = locale !== defaultLocale && target === href && href.startsWith('/') && !href.startsWith('//');
+  return <NextLink href={target} hrefLang={englishFallback ? 'en' : undefined}
+    title={englishFallback ? messages.accessibility.fallbackLanguage : undefined} {...rest} />;
 }

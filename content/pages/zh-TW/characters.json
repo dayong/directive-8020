@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Directive 8020 角色｜官方船員姓名與職務",
+    "description": "依據 Directive 8020 官網資料，認識 Cassiopeia 船員的姓名、身分與職務。"
+  },
+  "hero": {
+    "h1": "Cassiopeia 船員檔案",
+    "intro": "官網介紹了十位有姓名的角色，PlayStation 將其中五位列為可操作船員。這些檔案介紹人物身分與職務，不承諾特定生還結局。"
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  }
+}

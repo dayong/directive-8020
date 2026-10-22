@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Directive 8020: códigos y contraseñas — puertas y puzles",
-    "description": "Todos los códigos de Directive 8020 y su ubicación: Vestuario 13576, PC de Carter 0828, Despensa 0402, Diazepam 168, Anomalías 3196 y Sonda Charybdis 2540.",
-    "ogTitle": "Directive 8020: códigos y contraseñas — puertas y puzles",
-    "ogDescription": "Todos los códigos de puertas y teclados de Directive 8020, con las pistas del entorno que revelan cada uno."
+    "title": "Códigos y contraseñas de Directive 8020: estado de verificación",
+    "description": "Las contraseñas y ubicaciones publicadas no se han verificado con las fuentes oficiales consultadas. Se retiran como soluciones garantizadas; esto no afirma que el juego carezca de contraseñas.",
+    "ogTitle": "Códigos y contraseñas de Directive 8020: estado de verificación",
+    "ogDescription": "Las contraseñas y ubicaciones publicadas no se han verificado con las fuentes oficiales consultadas. Se retiran como soluciones garantizadas; esto no afirma que el juego carezca de contraseñas."
   },
   "hero": {
     "h1": "Códigos y contraseñas de Directive 8020",
@@ -12,7 +12,11 @@
   },
   "quickRef": {
     "heading": "Referencia rápida — todos los códigos",
-    "headers": ["Ubicación", "Episodio", "Código"]
+    "headers": [
+      "Ubicación",
+      "Episodio",
+      "Código"
+    ]
   },
   "codes": [
     {
@@ -65,8 +69,52 @@
   "cta": {
     "text": "¿Necesitas el contexto del episodio de un código?",
     "links": [
-      { "href": "/walkthrough", "label": "Guía completa paso a paso →", "variant": "primary" },
-      { "href": "/collectibles", "label": "Guía de coleccionables →", "variant": "outline" }
+      {
+        "href": "/walkthrough",
+        "label": "Guía completa paso a paso →",
+        "variant": "primary"
+      },
+      {
+        "href": "/collectibles",
+        "label": "Guía de coleccionables →",
+        "variant": "outline"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ],
+    "replacement": {
+      "heading": "Códigos y contraseñas de Directive 8020: estado de verificación",
+      "intro": "Las contraseñas y ubicaciones publicadas no se han verificado con las fuentes oficiales consultadas. Se retiran como soluciones garantizadas; esto no afirma que el juego carezca de contraseñas.",
+      "sections": [
+        {
+          "heading": "Reglas de repetición confirmadas",
+          "text": "Explorer permite Turning Points durante la historia. Survivor mantiene las decisiones en la primera partida y desbloquea Turning Points si llegas al final. Estas reglas no demuestran los requisitos de un final o contraseña concretos."
+        },
+        {
+          "heading": "Antes de restaurar los consejos",
+          "text": "Un registro reproducible debe identificar plataforma, versión, decisiones previas, indicación real y resultado observado. Los detalles antiguos se conservan para revisión editorial, pero no se publican como instrucciones actuales. Consulta las fuentes oficiales y la guía de controles verificada durante esta revisión."
+        }
+      ]
+    }
   }
 }

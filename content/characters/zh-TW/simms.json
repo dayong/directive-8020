@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Simms｜休眠技術員",
+    "description": "Pari Simms，休眠技術員。擁有工程背景的休眠技術員。",
+    "ogTitle": "Directive 8020：Simms｜休眠技術員",
+    "ogDescription": "Pari Simms，休眠技術員。擁有工程背景的休眠技術員。"
+  },
+  "sections": [
+    {
+      "heading": "漫長航程中的工程工作",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pari Simms 是具備出色工程能力的休眠技術員。其他船員超睡眠期間，她與 Carter 一同維持 Cassiopeia 的運作，兩人的優勢相互補足。官方檔案描述的是工作搭檔關係，並非後續場景的確定結果。"
+        }
+      ]
+    },
+    {
+      "heading": "職責之外的生活",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Simms 參加任務時掛念母親，經常錄製要傳給母親的訊息。她喜歡遊戲 Orinoco、非虛構讀物與咖啡。這些資料使她不只是技術職位名稱。錄音訊息的存在，不能證明收集品的確切位置、必要總數或生還路線。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

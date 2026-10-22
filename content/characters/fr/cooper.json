@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Cooper dans Directive 8020 — Spécialiste médicale",
+    "description": "Samantha Cooper — Spécialiste médicale. Médecin ayant travaillé dans l’évacuation médicale militaire.",
+    "ogTitle": "Cooper dans Directive 8020 — Spécialiste médicale",
+    "ogDescription": "Samantha Cooper — Spécialiste médicale. Médecin ayant travaillé dans l’évacuation médicale militaire."
+  },
+  "sections": [
+    {
+      "heading": "Une expérience médicale antérieure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Samantha Cooper est la spécialiste médicale du Cassiopeia. Elle a appris son métier au sein d’une équipe militaire d’évacuation sanitaire. Son passé officiel comprend la tragédie de Jessops Station : elle a survécu, contrairement aux autres membres de son équipe. Il s’agit d’un événement antérieur à la mission, pas de son sort pendant le jeu."
+        }
+      ]
+    },
+    {
+      "heading": "Son amitié avec Anders",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zoe Anders a aidé Cooper pendant sa reconstruction. Cooper a ensuite recommandé son amie de longue date pour remplacer l’officier scientifique de la mission. Ce lien aide à comprendre la formation de l’équipage. Le portrait officiel insiste sur sa résilience et son dévouement médical ; il ne fournit ni parcours de survie détaillé ni confirmation de l’interprète absent de cette fiche."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Anders dans Directive 8020 — Officière scientifique",
+    "description": "Zoe Anders — Officière scientifique. Scientifique recrutée sur la recommandation de Cooper.",
+    "ogTitle": "Anders dans Directive 8020 — Officière scientifique",
+    "ogDescription": "Zoe Anders — Officière scientifique. Scientifique recrutée sur la recommandation de Cooper."
+  },
+  "sections": [
+    {
+      "heading": "Arrivée comme officière scientifique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zoe Anders a rejoint la mission après la mort du précédent officier scientifique, George McNamara, sur recommandation de son amie Cooper. Sa fonction officielle d’officière scientifique diffère de celle d’Eisele, officière supérieure de mission. Cette distinction éclaire leurs responsabilités."
+        }
+      ]
+    },
+    {
+      "heading": "Découverte et éthique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Anders s’enthousiasme pour les découvertes possibles ; son amitié avec Cooper facilite son intégration dans un équipage déjà constitué. Sa fiche souligne aussi l’éthique. Ces valeurs sont du contexte, pas une solution d’expérience, une méthode de détection des imitations ou une garantie de sécurité."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

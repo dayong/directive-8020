@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Multijugador de Directive 8020 | Cooperativo local, online y requisitos",
+    "description": "Las fichas oficiales actuales anuncian Movie Night local y multijugador en línea. Consulta los requisitos y distingue pantalla compartida de juego cruzado.",
+    "ogTitle": "Multijugador de Directive 8020 | Cooperativo local, online y requisitos",
+    "ogDescription": "Las fichas oficiales actuales anuncian Movie Night local y multijugador en línea. Consulta los requisitos y distingue pantalla compartida de juego cruzado."
+  },
+  "hero": {
+    "h1": "Multijugador de Directive 8020 | Cooperativo local, online y requisitos",
+    "intro": "Las fichas oficiales actuales anuncian Movie Night local y multijugador en línea. Consulta los requisitos y distingue pantalla compartida de juego cruzado."
+  },
+  "summaryCards": {
+    "cards": [
+      {
+        "icon": "🎮",
+        "label": "Cooperativo local",
+        "tone": "yes",
+        "value": "Movie Night",
+        "desc": "Partidas en grupo en un sistema"
+      },
+      {
+        "icon": "🌐",
+        "label": "Juego en línea",
+        "tone": "yes",
+        "value": "Anunciado",
+        "desc": "Steam y PlayStation incluyen juego en línea"
+      },
+      {
+        "icon": "🔀",
+        "label": "Juego cruzado",
+        "tone": "later",
+        "value": "No verificado",
+        "desc": "Las fuentes consultadas no lo confirman"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "¿Qué está confirmado actualmente?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La [ficha actual de Steam](https://store.steampowered.com/app/2255370/Directive_8020/) anuncia cooperativo en línea y cooperativo de pantalla compartida/dividida. La [ficha de PlayStation](https://www.playstation.com/en-us/games/directive-8020/) anuncia jugadores locales y en línea. Los anuncios de lanzamiento describían el online como una actualización futura; esa información histórica no debe presentarse como disponibilidad actual."
+        }
+      ]
+    },
+    {
+      "heading": "¿Cuántas personas pueden jugar?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "El sitio oficial describe Movie Night para grupos de hasta cinco jugadores. PlayStation indica de uno a cinco jugadores y hasta cinco jugadores en línea con PlayStation Plus. Son datos de plataforma, no una garantía de requisitos idénticos para todas las versiones y modos."
+        }
+      ]
+    },
+    {
+      "heading": "¿Pantalla compartida significa pantalla dividida?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Steam agrupa el cooperativo de pantalla compartida y dividida en una misma categoría. Esa etiqueta por sí sola no demuestra juego simultáneo a pantalla dividida. Consulta la descripción del modo y las opciones de tu versión instalada."
+        }
+      ]
+    },
+    {
+      "heading": "¿Está confirmado el juego cruzado?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "El cooperativo en línea no equivale a emparejamiento entre plataformas. Las fuentes consultadas no confirman juego cruzado, pase de amigo ni combinaciones compatibles de plataformas. No lo deduzcas de la etiqueta de cooperativo online."
+        }
+      ]
+    },
+    {
+      "heading": "¿Qué debo revisar antes de invitar a mis amigos?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Actualiza el juego y consulta la ficha actual de tu plataforma. Revisa los requisitos de suscripción, cuenta y compra y utiliza las opciones de tu versión. PlayStation indica que se necesita PlayStation Plus para jugar online."
+        }
+      ]
+    },
+    {
+      "heading": "¿Puede el grupo volver a decisiones anteriores?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La presentación oficial confirma el árbol de decisiones Turning Points. Las opciones pueden depender del modo y la configuración; esta página no garantiza que todas las escenas puedan rebobinarse en cualquier modo."
+        }
+      ]
+    }
+  ],
+  "faqHeading": "Preguntas frecuentes",
+  "faqs": [
+    {
+      "q": "¿Qué está confirmado actualmente?",
+      "a": "Las fichas oficiales actuales anuncian Movie Night local y multijugador en línea. Consulta los requisitos y distingue pantalla compartida de juego cruzado."
+    },
+    {
+      "q": "¿Está confirmado el juego cruzado?",
+      "a": "El cooperativo en línea no equivale a emparejamiento entre plataformas. Las fuentes consultadas no confirman juego cruzado, pase de amigo ni combinaciones compatibles de plataformas. No lo deduzcas de la etiqueta de cooperativo online."
+    }
+  ],
+  "cta": {
+    "text": "¿Listo para jugar? Empieza aquí:",
+    "links": [
+      {
+        "href": "/walkthrough",
+        "label": "Guía completa →",
+        "variant": "primary"
+      },
+      {
+        "href": "/save-everyone",
+        "label": "Salvar a todos →",
+        "variant": "outline"
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Young｜飞行员",
+    "description": "Brianna Young，飞行员。Cassiopeia 的飞行员，宇航员 Bill Young 的女儿。",
+    "ogTitle": "Directive 8020：Young｜飞行员",
+    "ogDescription": "Brianna Young，飞行员。Cassiopeia 的飞行员，宇航员 Bill Young 的女儿。"
+  },
+  "sections": [
+    {
+      "heading": "飞行训练与个人目标",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Brianna Young 是 Cassiopeia 的驾驶员，自幼希望追随宇航员父亲 Bill Young 的道路。官方档案提到她优异的航校成绩，以及在 Corinth 足球队同样表现出的进取心。这次任务让她有机会检验长期训练积累的能力，也承载着她对父亲和自己的期望。"
+        }
+      ]
+    },
+    {
+      "heading": "与 Stafford 的关系",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "父亲去世后，Young 更加投入训练。Nolan Stafford 成为她的导师，也承担了近似父亲的支持角色。这段共同经历解释了两人的关系，却不能证明某个选项必定能救下其中任何一人。官方游戏介绍确认，Young 由 Lashana Lynch 饰演。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

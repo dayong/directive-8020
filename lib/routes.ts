@@ -1,5 +1,5 @@
-import { getAllEpisodeSlugs } from '@/lib/mdx';
-import { getAvailableLocales } from '@/lib/content';
+import { getAllEpisodeSlugs } from '@/lib/episode-files';
+import { getPageLocales } from '@/lib/content';
 import { characters } from '@/data/characters';
 import type { Locale } from '@/i18n/config';
 
@@ -47,6 +47,6 @@ function dynamicPaths(): { path: string; contentSlug: string }[] {
  */
 export function getTranslatedPaths(locale: Locale): string[] {
   return [...staticPaths, ...dynamicPaths()]
-    .filter((entry) => getAvailableLocales(entry.contentSlug).includes(locale))
+    .filter((entry) => getPageLocales(entry.contentSlug, entry.path).includes(locale))
     .map((entry) => entry.path);
 }

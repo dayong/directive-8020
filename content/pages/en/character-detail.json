@@ -1,13 +1,32 @@
 {
-  "notFoundTitle": "Character Not Found",
-  "metaTitleFormat": "{name} in Directive 8020 — {role} Guide",
+  "notFoundTitle": "Character not found",
+  "metaTitleFormat": "{name} in Directive 8020 — {role}",
   "metaDescriptionFormat": "{fullName} — {role}. {description}",
-  "backLink": "← Back to Characters",
-  "profileHeading": "Profile",
-  "actorLabel": "Actor",
-  "survivalStatusLabel": "Survival Status",
-  "destinyLabel": "Destiny",
-  "keyChoicesFormat": "Key Choices Affecting {name}",
-  "cannotBeSavedFormat": "⚠ {name} Cannot Be Saved",
-  "cannotBeSavedTextFormat": "{name}'s death is a scripted story event. No choices or QTEs can prevent it — this is by design. Do not waste time trying to change this outcome. Focus on keeping the 5 playable characters alive."
+  "backLink": "← All characters",
+  "profileHeading": "Character profile",
+  "actorLabel": "Performer",
+  "survivalStatusLabel": "Survival information",
+  "destinyLabel": "Story role",
+  "keyChoicesFormat": "Choices involving {name}",
+  "cannotBeSavedFormat": "{name}: outcome not verified",
+  "cannotBeSavedTextFormat": "A scene-specific survival route for {name} has not been verified against official material.",
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  },
+  "showChoices": false
 }

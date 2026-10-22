@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Anders in Directive 8020 — Science Officer",
+    "description": "Zoe Anders — Science Officer. A science officer who joined the mission on Cooper’s recommendation.",
+    "ogTitle": "Anders in Directive 8020 — Science Officer",
+    "ogDescription": "Zoe Anders — Science Officer. A science officer who joined the mission on Cooper’s recommendation."
+  },
+  "sections": [
+    {
+      "heading": "Joining as Science Officer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zoe Anders joined the mission after the death of the previous Science Officer, George McNamara. Her longtime friend Cooper recommended her. The official roster names Anders as the Science Officer; this is distinct from Eisele’s position as Senior Mission Officer and helps explain the different responsibilities aboard the ship."
+        }
+      ]
+    },
+    {
+      "heading": "Discovery and ethics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Anders is excited by the mission’s scientific possibilities, while her friendship with Cooper helps her adjust to joining an established crew. Her profile also emphasizes ethical practice. Those values provide background for understanding her character; they do not establish how to solve an experiment, identify an imitation or guarantee her safety."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

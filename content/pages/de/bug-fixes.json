@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Directive 8020 PC-Anforderungen und Fehlerhilfe",
+    "description": "Prüfe offizielle PC-Anforderungen und Steam-Dateien. Dokumentiere reproduzierbare Fehler ohne unbestätigte Patch- oder Speicherstandversprechen.",
+    "ogTitle": "Directive 8020 PC-Anforderungen und Fehlerhilfe",
+    "ogDescription": "Prüfe offizielle PC-Anforderungen und Steam-Dateien. Dokumentiere reproduzierbare Fehler ohne unbestätigte Patch- oder Speicherstandversprechen."
+  },
+  "hero": {
+    "h1": "Directive 8020 PC-Anforderungen und Fehlerhilfe",
+    "intro": "Prüfe offizielle PC-Anforderungen und Steam-Dateien. Dokumentiere reproduzierbare Fehler ohne unbestätigte Patch- oder Speicherstandversprechen."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Offizielle PC-Anforderungen vergleichen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Die Tabelle nennt die PC-Anforderungen auf Steam, keine Bildratengarantie und keine Konsolenspezifikationen. Prüfe Betriebssystem und Hardware vor Einstellungsänderungen."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Komponente",
+              "Minimum",
+              "Empfohlen"
+            ],
+            "rows": [
+              [
+                "CPU",
+                "Intel Core i5-8500 / AMD Ryzen 5 3500",
+                "Intel Core i5-12400F / AMD Ryzen 5 5600X"
+              ],
+              [
+                "GPU",
+                "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+                "NVIDIA GeForce RTX 3070 Ti / AMD Radeon RX 6800"
+              ],
+              [
+                "RAM",
+                "16 GB",
+                "16 GB"
+              ],
+              [
+                "Speicherplatz",
+                "40 GB",
+                "40 GB"
+              ]
+            ]
+          }
+        ],
+        "id": "pc"
+      },
+      {
+        "heading": "System, Speicherplatz und Installation",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam nennt Windows 10/11 mit 64 Bit, 40 GB freien Platz und empfiehlt eine SSD. Plane Platz für Updates ein; die heutige Angabe sagt nicht die Größe aller künftigen Downloads voraus."
+          }
+        ]
+      },
+      {
+        "heading": "Dateien vor Startparametern prüfen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Bei fehlenden oder beschädigten Dateien nutze Steam-Bibliothek → Eigenschaften → Installierte Dateien → Dateien auf Fehler überprüfen. Beachte die verlinkte Anleitung. Das behebt nicht jeden Absturz; ein unbestätigter DX11-Startparameter wird nicht empfohlen."
+          }
+        ]
+      },
+      {
+        "heading": "Fortschritt während der Untersuchung schützen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Notiere Symptom, Plattform, Version und Schritte zur Reproduktion. Sichere vor Änderungen eine verfügbare Kopie mit unterstützten Plattformwerkzeugen und prüfe den Cloud-Abgleich. Turning Points ist keine zugesicherte Reparatur beschädigter Spielstände."
+          }
+        ]
+      },
+      {
+        "heading": "Hinweise zur eigenen Version lesen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Prüfe Datum und Version in offiziellen Steam-Neuigkeiten für PC sowie die Update-Informationen deiner Konsole. Die Behebung eines Fehlers garantiert nicht, dass ähnliche Symptome oder sämtliche Plattformen behoben sind."
+          }
+        ],
+        "id": "console"
+      },
+      {
+        "heading": "Offizielle Quellen",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[Steam Support](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)",
+              "[Steam News](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Weitere Anleitungen",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Spielstile und Steuerung](/directive-8020-skill-checks)",
+              "[Figuren](/characters)",
+              "[Fortschritt und Wiederholungen](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Steam Support",
+        "url": "https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB"
+      },
+      {
+        "label": "Steam News",
+        "url": "https://store.steampowered.com/news/app/2255370"
+      }
+    ]
+  }
+}

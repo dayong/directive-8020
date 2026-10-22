@@ -1,8 +1,9 @@
 {
   "meta": {
-    "title": "How to Save Everyone in Directive 8020 | Best Ending Guide",
-    "description": "Step-by-step guide to keeping all 5 playable characters alive in Directive 8020. Carter and Simms have scripted deaths — save the others for the true ending.",
-    "ogDescription": "Complete guide to saving all crew members in Directive 8020. Carter and Simms have scripted deaths — focus on the 5 playable characters."
+    "title": "Directive 8020 Survival Routes: What Has Been Verified",
+    "description": "The official character presentation identifies five playable crew members. It does not substantiate the previous mandatory dialogue sequence, guaranteed survival route or predicted ending based on the old checklist.",
+    "ogTitle": "Directive 8020 Survival Routes: What Has Been Verified",
+    "ogDescription": "The official character presentation identifies five playable crew members. It does not substantiate the previous mandatory dialogue sequence, guaranteed survival route or predicted ending based on the old checklist."
   },
   "hero": {
     "h1": "How to Save Everyone in Directive 8020",
@@ -12,7 +13,7 @@
     "heading": "❌ Carter and Simms Cannot Be Saved — This Is By Design",
     "before": "Many players get confused trying to save Carter and Simms. Please understand: their deaths are scripted story events. No matter what choices you make, both characters will die in their pre-determined scenes.",
     "strong": "Do not waste time trying to change this.",
-    "after": "Focus on protecting the 5 playable characters: Osmond, Stafford, Eisele, Cernan, and Cooper."
+    "after": "Focus on protecting the 5 playable characters: Young, Stafford, Eisele, Cernan, and Cooper."
   },
   "howTo": {
     "name": "How to Save Everyone in Directive 8020",
@@ -81,10 +82,14 @@
   "destinies": {
     "heading": "Destinies Unlock Checklist",
     "intro": "Each playable character has a Destiny that unlocks during specific moments. Unlocking these is required for the best ending route.",
-    "headers": ["Character", "Destiny", "How to Unlock"],
+    "headers": [
+      "Character",
+      "Destiny",
+      "How to Unlock"
+    ],
     "rows": [
       {
-        "character": "Osmond",
+        "character": "Young",
         "destiny": "The Humanitarian",
         "how": "Make compassionate choices throughout the game. Choose Honor when given the option in Episode 1."
       },
@@ -131,8 +136,52 @@
   "cta": {
     "text": "Once everyone is alive, check out all the possible endings:",
     "links": [
-      { "href": "/all-endings", "label": "View All Endings →", "variant": "primary" },
-      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "outline" }
+      {
+        "href": "/all-endings",
+        "label": "View All Endings →",
+        "variant": "primary"
+      },
+      {
+        "href": "/walkthrough",
+        "label": "Full Walkthrough →",
+        "variant": "outline"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ],
+    "replacement": {
+      "heading": "Directive 8020 Survival Routes: What Has Been Verified",
+      "intro": "The official character presentation identifies five playable crew members. It does not substantiate the previous mandatory dialogue sequence, guaranteed survival route or predicted ending based on the old checklist.",
+      "sections": [
+        {
+          "heading": "Confirmed replay rules",
+          "text": "Explorer allows Turning Points during the story. Survivor commits you to decisions on the first run and unlocks Turning Points if you reach the ending. These rules do not prove the requirements of a particular ending or password."
+        },
+        {
+          "heading": "Before route advice is restored",
+          "text": "A reproducible record must identify the platform, game version, prior choices, actual prompt and observed result. The old details are retained for editorial review but are not published as current instructions. Use the official sources below and the verified controls guide while this review is pending."
+        }
+      ]
+    }
   }
 }

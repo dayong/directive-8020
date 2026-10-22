@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": "Directive 8020: guía de coleccionables y ubicaciones",
+    "description": "Guía completa de coleccionables de Directive 8020. Encuentra las 65 grabaciones, documentos y secretos repartidos por los 8 episodios de la Cassiopeia.",
+    "ogTitle": "Directive 8020: guía de coleccionables y ubicaciones",
+    "ogDescription": "Encuentra todos los coleccionables de Directive 8020: grabaciones, documentos y secretos ocultos en los 8 episodios."
+  },
+  "hero": {
+    "h1": "Guía de coleccionables",
+    "intro": "Todas las grabaciones, documentos y secretos ocultos de la Cassiopeia. Ahora mismo registramos {count} coleccionables; habrá más a medida que mapeemos los episodios por completo."
+  },
+  "tableHeaders": [
+    "Objeto",
+    "Tipo",
+    "Ubicación"
+  ],
+  "episodeHeadingFormat": "Episodio {number}: {title}",
+  "countFormat": "({count} coleccionables)",
+  "note": "Estamos mapeando las ubicaciones de los coleccionables de los episodios 4-8 y las añadiremos pronto. Mientras tanto, consulta las guías paso a paso de cada episodio para ver pistas de coleccionables.",
+  "episodes": [
+    {
+      "id": "episode-1",
+      "items": [
+        {
+          "name": "Grabación de Simms n.º 1",
+          "location": "Escaleras a la izquierda de la puerta del objetivo del Complejo médico",
+          "type": "Recording"
+        },
+        {
+          "name": "Secreto de los Cuartos de la tripulación n.º 1",
+          "location": "Detrás de la taquilla en el ala este de los Cuartos de la tripulación",
+          "type": "Secret"
+        },
+        {
+          "name": "Secreto de los Cuartos de la tripulación n.º 2",
+          "location": "Debajo de la litera en el ala oeste de los Cuartos de la tripulación",
+          "type": "Secret"
+        },
+        {
+          "name": "Registro de la brecha en el casco",
+          "location": "Terminal cerca del punto de la brecha",
+          "type": "Document"
+        },
+        {
+          "name": "Manifiesto de la tripulación de la Cassiopeia",
+          "location": "Mostrador de recepción del Complejo médico",
+          "type": "Document"
+        }
+      ]
+    },
+    {
+      "id": "episode-2",
+      "items": [
+        {
+          "name": "Registro personal de Stafford",
+          "location": "Cuartos del comandante, sobre el escritorio",
+          "type": "Recording"
+        },
+        {
+          "name": "Grabación de la señal alienígena",
+          "location": "Antena de comunicaciones, tras la primera alarma",
+          "type": "Recording"
+        },
+        {
+          "name": "Notas del laboratorio de ciencias",
+          "location": "Estación de trabajo de Eisele en el laboratorio de ciencias",
+          "type": "Document"
+        },
+        {
+          "name": "Plano de la sala de máquinas",
+          "location": "Panel en la pared del pasillo de la sala de máquinas",
+          "type": "Document"
+        }
+      ]
+    },
+    {
+      "id": "episode-3",
+      "items": [
+        {
+          "name": "Informe de análisis de la muestra",
+          "location": "Terminal del laboratorio de contención tras estudiar la muestra",
+          "type": "Document"
+        },
+        {
+          "name": "Primera grabación de Cernan",
+          "location": "Bodega de carga, sobre una caja cerca del punto de inicio",
+          "type": "Recording"
+        },
+        {
+          "name": "Acta de la sala de briefing",
+          "location": "Tableta sobre la mesa de la sala de briefing",
+          "type": "Document"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "needs-review",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "notice": "Las instrucciones por escena, cifras exactas y resultados de esta guía anterior no se han contrastado por completo con fuentes oficiales. Considéralos provisionales."
+  }
+}

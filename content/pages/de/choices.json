@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Directive 8020 Entscheidungen und Turning Points",
+    "description": "Verstehe die Regeln von Explorer und Survivor, vergleiche Verzweigungen und halte die nötigen Angaben für überprüfbare Spielnotizen fest.",
+    "ogTitle": "Directive 8020 Entscheidungen und Turning Points",
+    "ogDescription": "Verstehe die Regeln von Explorer und Survivor, vergleiche Verzweigungen und halte die nötigen Angaben für überprüfbare Spielnotizen fest."
+  },
+  "hero": {
+    "h1": "Directive 8020 Entscheidungen und Turning Points",
+    "intro": "Beginne mit den Regeln zum Wiederholen einer Entscheidung. Die offizielle Barrierefreiheitsübersicht erklärt, wann Turning Points verfügbar ist, liefert aber keine allgemeine Tabelle richtiger Dialogantworten."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer: während der Geschichte zurückgehen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer bietet Turning Points während der Geschichte, einschließlich der Möglichkeit, einen Tod rückgängig zu machen. Wiederhole die relevante Entscheidung und beobachte den neuen Zweig, statt den vorherigen Ausgang für dauerhaft festgelegt zu halten."
+          }
+        ]
+      },
+      {
+        "heading": "Survivor: den ersten Durchlauf annehmen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Survivor erlaubt im ersten Durchlauf kein Zurückspulen mit Turning Points. Erreichst du das Ende, wird die Funktion für andere Ausgänge freigeschaltet. Dieser Spielstil ist von der Schwierigkeit der QTEs und Echtzeitgefahren getrennt."
+          }
+        ]
+      },
+      {
+        "heading": "Mit klaren Notizen vergleichen",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Notiere den genauen Auswahltext, die gespielte Figur und frühere Entscheidungen.",
+              "Halte Version, Spielstil und verwendeten Spielstand fest.",
+              "Beobachte spätere Szenen ebenso wie die unmittelbare Reaktion.",
+              "Ändere jeweils eine Entscheidung, wenn du eine mögliche Ursache prüfst."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Zu den früheren Vorhersagen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Die frühere Tabelle und die interaktiven Vorhersagen waren nicht durch reproduzierbare Szenenprotokolle belegt und werden nicht mehr als Lösung dargestellt. Behauptete dauerhafte Sperren dürfen den dokumentierten Explorer-Regeln nicht widersprechen. Ein Ergebnis-Guide braucht nachvollziehbare Wege statt bloßer Zuversicht."
+          }
+        ]
+      },
+      {
+        "heading": "Verwandte Guides",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steuerung und QTEs](/directive-8020-skill-checks)",
+              "[Kapitelübersicht](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

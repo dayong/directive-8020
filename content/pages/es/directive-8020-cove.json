@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Directive 8020 Cove: qué es y cómo sobrevivir",
-    "description": "El sistema de cuevas de Directive 8020 es una de las zonas más confusas del juego. Descubre qué es el cove, qué dirección tomar y cómo mantener vivo a Anders.",
-    "ogTitle": "Cove de Directive 8020: sobrevive y salva a Anders",
-    "ogDescription": "Todo sobre la zona del cove en Directive 8020: el cruce exterior, qué camino tomar y cómo evitar perder a Anders."
+    "title": "Ruta de Cove: estado de verificación",
+    "description": "Las fuentes oficiales consultadas no respaldan la instrucción publicada de girar a la derecha en un cruce concreto ni su supuesto efecto sobre Anders. Zoe Anders es la oficial científica de la misión.",
+    "ogTitle": "Ruta de Cove: estado de verificación",
+    "ogDescription": "Las fuentes oficiales consultadas no respaldan la instrucción publicada de girar a la derecha en un cruce concreto ni su supuesto efecto sobre Anders. Zoe Anders es la oficial científica de la misión."
   },
   "hero": {
     "h1": "Directive 8020 Cove: entré en la cueva equivocada para que tú no tengas que hacerlo",
@@ -90,7 +90,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Probé los dos caminos en varias partidas para que tú no tengas que hacerlo. La cueva de la izquierda, el cove de Directive 8020, solo te da una escena de muerte breve y poco memorable para Anders y una frase de diálogo algo distinta de Osmond tras la huida del reactor. Eso es todo. No hay ningún coleccionable escondido ahí dentro. Ni trofeo secreto. Ni rama alternativa de la historia. Ni revelación interesante del lore. Es puro castigo por elegir la dirección equivocada."
+          "text": "Probé los dos caminos en varias partidas para que tú no tengas que hacerlo. La cueva de la izquierda, el cove de Directive 8020, solo te da una escena de muerte breve y poco memorable para Anders y una frase de diálogo algo distinta de Young tras la huida del reactor. Eso es todo. No hay ningún coleccionable escondido ahí dentro. Ni trofeo secreto. Ni rama alternativa de la historia. Ni revelación interesante del lore. Es puro castigo por elegir la dirección equivocada."
         },
         {
           "type": "paragraph",
@@ -123,7 +123,43 @@
   "cta": {
     "text": "¿Necesitas el análisis completo del Episodio 6?",
     "links": [
-      { "href": "/walkthrough/episode-6", "label": "Guía paso a paso del Episodio 6: Hostile Takeover →", "variant": "primary" }
+      {
+        "href": "/walkthrough/episode-6",
+        "label": "Guía paso a paso del Episodio 6: Hostile Takeover →",
+        "variant": "primary"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "replacement": {
+      "heading": "Ruta de Cove: estado de verificación",
+      "intro": "Las fuentes oficiales consultadas no respaldan la instrucción publicada de girar a la derecha en un cruce concreto ni su supuesto efecto sobre Anders. Zoe Anders es la oficial científica de la misión.",
+      "sections": [
+        {
+          "heading": "Qué se ha corregido",
+          "text": "Las instrucciones por escena y los supuestos relatos de partidas personales se retiran hasta verificarlos. No se sustituirán por conjeturas presentadas como soluciones probadas."
+        },
+        {
+          "heading": "Cómo continuar",
+          "text": "Consulta las indicaciones del juego y las opciones de Turning Points. El material oficial confirma que se pueden revisitar decisiones, pero no documenta cada escena ni garantiza un final. Hace falta una comprobación escena por escena antes de restaurar estos consejos."
+        }
+      ]
+    }
   }
 }

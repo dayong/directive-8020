@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Directive 8020 演員｜Lashana Lynch 飾演 Brianna Young",
+    "description": "了解官方確認的主角演員、Young 在 Cassiopeia 的職責，以及查證表演與配音資訊的方法。",
+    "ogTitle": "Directive 8020 演員｜Lashana Lynch 飾演 Brianna Young",
+    "ogDescription": "了解官方確認的主角演員、Young 在 Cassiopeia 的職責，以及查證表演與配音資訊的方法。"
+  },
+  "hero": {
+    "h1": "Directive 8020 演員｜Lashana Lynch 飾演 Brianna Young",
+    "intro": "了解官方確認的主角演員、Young 在 Cassiopeia 的職責，以及查證表演與配音資訊的方法。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "誰飾演 Young？",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "官方人物檔案確認，Lashana Lynch 飾演 Cassiopeia 飛船駕駛員 Brianna Young。先前使用的 Brooke Osmond 姓名有誤，現已撤回。"
+          }
+        ]
+      },
+      {
+        "heading": "Young 的任務背景",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Young 是 Bill Young 的女兒，從小希望追隨父親投入航太。父親過世後，Stafford 成為她的導師。這些是官方背景資料，不能證明特定結局。"
+          }
+        ]
+      },
+      {
+        "heading": "角色與演員應分開記錄",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "角色職務不能證明表演者身分。船員姓名與職責以官方名單為準；表演、配音、肖像及動作捕捉應分別查閱遊戲演職員表。"
+          }
+        ]
+      },
+      {
+        "heading": "如何查證其他演職員",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "查看對應版本及音軌語言的演職員表。熟悉的面孔不能單獨證明配音者身分，英語表演紀錄也不能證明其他語言的配音演員。尚未確認的資訊仍標記為未確認。"
+          }
+        ]
+      },
+      {
+        "heading": "官方來源",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Directive 8020](https://www.thedarkpictures.com/games/directive-8020)",
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "相關指南",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[遊玩風格與操作設定](/directive-8020-skill-checks)",
+              "[人物介紹](/characters)",
+              "[流程與重玩規劃](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      }
+    ]
+  }
+}

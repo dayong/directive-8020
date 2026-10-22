@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Directive 8020 Koop | Lokal, online und nach Plattform",
+    "description": "Vergleiche die offiziellen Angaben für Steam, PS5 und Xbox Series X|S zu Spielern, Abos und gemeinsamen Bildschirmkategorien.",
+    "ogTitle": "Directive 8020 Koop | Lokal, online und nach Plattform",
+    "ogDescription": "Vergleiche die offiziellen Angaben für Steam, PS5 und Xbox Series X|S zu Spielern, Abos und gemeinsamen Bildschirmkategorien."
+  },
+  "hero": {
+    "h1": "Directive 8020 Koop | Lokal, online und nach Plattform",
+    "intro": "Plane die Runde nach Plattform und tatsächlichem Modus. Eine Online-Angabe in einem Shop bestätigt nicht dieselben Funktionen für jede Version."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Aktuelle Plattformangaben",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Plattform",
+              "Angegebene Funktion",
+              "Vor dem Spielen prüfen"
+            ],
+            "rows": [
+              [
+                "Steam",
+                "Online-Koop und Kategorie gemeinsamer/geteilter Bildschirm",
+                "Modus und Gruppenaufbau in deiner Version prüfen"
+              ],
+              [
+                "PS5",
+                "1–5 Spieler; bis zu fünf online",
+                "PlayStation Plus ist online erforderlich"
+              ],
+              [
+                "Xbox Series X|S",
+                "Lokaler Koop für 2–5 Spieler",
+                "Online-Funktionen gesondert auf der aktuellen Xbox-Seite prüfen"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Gemeinsamer Bildschirm ist kein Crossplay-Versprechen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam fasst gemeinsamen und geteilten Bildschirm zusammen. Die Kategorie allein beweist keinen gleichzeitigen Splitscreen. Online-Koop bestätigt weder plattformübergreifende Spielersuche noch einen kostenlosen Freundespass."
+          }
+        ]
+      },
+      {
+        "heading": "Die Runde vorbereiten",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Prüft die aktuelle Shopseite der Plattform jedes Teilnehmers.",
+              "Aktualisiert das Spiel und kontrolliert den gewünschten Modus.",
+              "Prüft Kauf-, Konto- und Abo-Anforderungen vor dem Einladen.",
+              "Nutzt die angezeigte Steuerung für Figurenzuweisung und Spielstart."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Warum ältere Ankündigungen abweichen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Zum Start wurde Online-Spiel als spätere Aktualisierung beschrieben. Steam und PlayStation führen es inzwischen auf. Nutze aktuelle Plattformangaben statt einer alten Zusage als Verfügbarkeitsbeleg. Unbestätigte Xbox-Online-Funktionen werden hier nicht abgeleitet."
+          }
+        ]
+      },
+      {
+        "heading": "Nützliche Links",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[PlayStation](https://www.playstation.com/en-us/games/directive-8020/)",
+              "[Xbox](https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l)",
+              "[Spielstile und Steuerung](/directive-8020-skill-checks)",
+              "[Die passende Edition wählen](/directive-8020-buy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "PlayStation — Directive 8020",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Xbox — Directive 8020",
+        "url": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
+      }
+    ]
+  }
+}

@@ -1,119 +1,142 @@
-import { Character } from '@/types';
+import type { Character } from '@/types';
 
+// Identity and roles checked against the official game page on 2026-10-22.
+// Survival flags are legacy tool defaults, not verified story outcomes.
 export const characters: Character[] = [
   {
-    id: 'young',
-    name: 'Osmond',
-    fullName: 'Brooke Osmond',
-    actor: 'Lashana Lynch',
-    role: 'Co-Pilot / Astronaut',
-    canDie: true,
-    scriptedDeath: false,
-    description:
-      'The co-pilot of the Cassiopeia and one of the main protagonists. Osmond is the moral center of the crew, and her decisions heavily influence the fate of everyone on board.',
-    destiny: 'The Humanitarian',
+    "id": "young",
+    "name": "Young",
+    "fullName": "Brianna Young",
+    "actor": "Lashana Lynch",
+    "role": "Pilot",
+    "description": "A Cassiopeia pilot and the daughter of astronaut Bill Young.",
+    "playable": true,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
   },
   {
-    id: 'stafford',
-    name: 'Stafford',
-    fullName: 'Nolan Stafford',
-    actor: 'Danny Sapani',
-    role: 'Commander',
-    canDie: true,
-    scriptedDeath: false,
-    description:
-      'The commanding officer of the Cassiopeia and a veteran explorer known as the first man on Mars. His leadership decisions have far-reaching consequences for the crew, and Stafford faces some of the toughest calls in the game.',
-    destiny: 'The Father',
+    "id": "stafford",
+    "name": "Stafford",
+    "fullName": "Nolan Stafford",
+    "actor": "Danny Sapani",
+    "role": "Commander",
+    "description": "The mission commander and a veteran of the Mars expedition.",
+    "playable": true,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
   },
   {
-    id: 'eisele',
-    name: 'Eisele',
-    fullName: 'Dr. Eisele',
-    actor: 'TBC',
-    role: 'Science Officer',
-    canDie: true,
-    scriptedDeath: false,
-    description:
-      'The ship\'s science officer. Central to the clone/mimic plotline — a duplicate Eisele appears in Episode 6, requiring careful identification to avoid disaster.',
-    destiny: 'The Scientist / The Humanitarian',
+    "id": "eisele",
+    "name": "Eisele",
+    "fullName": "Laura Eisele",
+    "actor": "",
+    "role": "Senior Mission Officer",
+    "description": "The mission architect who designed the Cassiopeia and its Oracle computer.",
+    "playable": true,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
   },
   {
-    id: 'cernan',
-    name: 'Cernan',
-    fullName: 'Josef Cernan',
-    actor: 'TBC',
-    role: 'Crew Member',
-    canDie: true,
-    scriptedDeath: false,
-    description:
-      'A crew member of the Cassiopeia. First playable in Episode 3. Cernan\'s survival depends heavily on choices made by other characters.',
-    destiny: 'TBC',
+    "id": "cernan",
+    "name": "Cernan",
+    "fullName": "Josef Cernan",
+    "actor": "",
+    "role": "Technical Engineer",
+    "description": "A technical engineer who brings a thoughtful approach to the mission.",
+    "playable": true,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
   },
   {
-    id: 'cooper',
-    name: 'Cooper',
-    fullName: 'Cooper',
-    actor: 'TBC',
-    role: 'Crew Member',
-    canDie: true,
-    scriptedDeath: false,
-    description:
-      'A crew member of the Cassiopeia. Cooper is resourceful and often finds themselves in dangerous situations requiring quick thinking.',
-    destiny: 'TBC',
+    "id": "cooper",
+    "name": "Cooper",
+    "fullName": "Samantha Cooper",
+    "actor": "",
+    "role": "Medical Specialist",
+    "description": "A doctor with experience in military medical evacuation.",
+    "playable": true,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
   },
   {
-    id: 'carter',
-    name: 'Carter',
-    fullName: 'Carter',
-    actor: 'TBC',
-    role: 'Crew Member',
-    canDie: false,
-    scriptedDeath: true,
-    description:
-      'Carter dies in a scripted story event during Episode 1 and cannot be saved regardless of player choices. Do not attempt to save Carter — it is impossible.',
+    "id": "carter",
+    "name": "Carter",
+    "fullName": "Tomas Carter",
+    "actor": "",
+    "role": "Sleep Technician",
+    "description": "A sleep technician working alongside Simms during the voyage.",
+    "playable": false,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
   },
   {
-    id: 'simms',
-    name: 'Simms',
-    fullName: 'Simms',
-    actor: 'TBC',
-    role: 'Crew Member',
-    canDie: false,
-    scriptedDeath: true,
-    description:
-      'Simms dies in a scripted story event during Episode 1 and cannot be saved regardless of player choices. Both Carter and Simms have scripted deaths that cannot be prevented.',
+    "id": "simms",
+    "name": "Simms",
+    "fullName": "Pari Simms",
+    "actor": "",
+    "role": "Sleep Technician",
+    "description": "A sleep technician with an engineering background.",
+    "playable": false,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
   },
   {
-    id: 'williams',
-    name: 'Williams',
-    fullName: 'Mr. Williams',
-    actor: 'TBC',
-    role: 'Crew Member',
-    canDie: true,
-    scriptedDeath: false,
-    playable: false,
-    description:
-      'Exposed as an alien duplicate in the Episode 5 scanner standoff. Williams can survive — but only if you prepared the sedative in the science lab and chose Stand Down at Point Blank. Shooting him locks the Sedate Williams trophy.',
+    "id": "williams",
+    "name": "Williams",
+    "fullName": "LaMarcus Williams",
+    "actor": "",
+    "role": "CEO",
+    "description": "The chief executive of Corinth, the company behind the mission.",
+    "playable": false,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
   },
   {
-    id: 'mitchell',
-    name: 'Mitchell',
-    fullName: 'Mitchell',
-    actor: 'TBC',
-    role: 'Crew Member',
-    canDie: true,
-    scriptedDeath: false,
-    playable: false,
-    description:
-      'Trapped in the hydroponics fire in Episode 5 — you can save both Mitchell and Anders despite the UI making it look like a pick-one. Mitchell rejoins in the Episode 7 Search Party and matters again at Knock Knock in Episode 8.',
+    "id": "mitchell",
+    "name": "Mitchell",
+    "fullName": "Noah Mitchell",
+    "actor": "",
+    "role": "Pilot",
+    "description": "A co-pilot who trained alongside Young and Stafford.",
+    "playable": false,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
   },
+  {
+    "id": "anders",
+    "name": "Anders",
+    "fullName": "Zoe Anders",
+    "actor": "",
+    "role": "Science Officer",
+    "description": "A scientist who joined the mission on Cooper’s recommendation.",
+    "playable": false,
+    "canDie": true,
+    "scriptedDeath": false,
+    "survivalVerified": false,
+    "sourceUrl": "https://www.thedarkpictures.com/games/directive-8020"
+  }
 ];
 
 export const getAllCharacters = () => characters;
+export const playableCharacters = characters.filter((character) => character.playable === true);
 export const getPlayableCharacters = () => playableCharacters;
-export const playableCharacters = characters.filter(
-  (c) => !c.scriptedDeath && c.playable !== false
-);
-export const scriptedDeathCharacters = characters.filter((c) => c.scriptedDeath);
-export const getCharacterById = (id: string) =>
-  characters.find((c) => c.id === id);
+export const scriptedDeathCharacters = characters.filter((character) => character.survivalVerified && character.scriptedDeath);
+export const getCharacterById = (id: string) => characters.find((character) => character.id === id);

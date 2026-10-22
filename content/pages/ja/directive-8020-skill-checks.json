@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Directive 8020 操作・難易度ガイド｜QTEとTurning Points",
+    "description": "公式アクセシビリティ設定をもとに、プレイスタイル、QTE、パリィ、脅威表示を解説。QTE時間制限の解除はSolo Story限定です。",
+    "ogTitle": "Directive 8020 操作・難易度ガイド｜QTEとTurning Points",
+    "ogDescription": "公式アクセシビリティ設定をもとに、プレイスタイル、QTE、パリィ、脅威表示を解説。QTE時間制限の解除はSolo Story限定です。"
+  },
+  "hero": {
+    "h1": "Directive 8020 操作・難易度ガイド｜QTEとTurning Points",
+    "intro": "まず物語のやり直しと操作の難しさを分けて考えましょう。公式では別の設定項目として紹介されており、Explorerを選ぶだけですべてのQTE設定が決まるわけではありません。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "ExplorerとSurvivorはプレイスタイル",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorerではプレイ中にTurning Pointsを使って重要な選択に戻れます。Survivorでは最初の物語中は戻れず、結末まで到達すると解放されます。すぐに分岐を試したいか、その周回の決断を引き受けたいかで選びましょう。"
+          }
+        ]
+      },
+      {
+        "heading": "難易度は別に選ぶ",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "公式の難易度プリセットはForgiving、Challenging、Lethalで、Custom設定もあります。各項目を確認し、プリセットが会話を書き換えたり、生存を保証したりすると考えないようにしましょう。"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "設定",
+              "変わること",
+              "注意点"
+            ],
+            "rows": [
+              [
+                "QTEの入力を統一",
+                "QTEで同じ入力を使う",
+                "画面の指示は確認する"
+              ],
+              [
+                "連打を長押しに変更",
+                "繰り返し押す代わりに押し続ける",
+                "入力方法の変更"
+              ],
+              [
+                "QTEの時間制限を解除",
+                "QTEの制限時間をなくす",
+                "Solo Storyのみ。誤入力は失敗する"
+              ],
+              [
+                "QTE難易度と予告",
+                "操作の難しさと事前の警告を調整",
+                "プレイスタイルとは別項目"
+              ],
+              [
+                "パリィの再充電",
+                "リアルタイムの脅威への防御回復を調整",
+                "会話の選択は代行しない"
+              ],
+              [
+                "脅威インジケーター",
+                "脅威の位置と警戒状態を示す。色も変更可能",
+                "利用中のバージョンの説明を確認"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "画面を読みやすくする",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "字幕、クローズドキャプション、選択肢やメッセージの文字サイズ、簡略フォント、操作の割り当て変更が用意されています。緊迫した場面の前に試し、読みづらさ、反応時間、ボタン設定のどこが問題かを確かめましょう。"
+          }
+        ]
+      },
+      {
+        "heading": "設定するときの順序",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "物語をどう進めたいかでプレイスタイルを選ぶ。",
+              "難易度プリセットと関連する個別設定を確認する。",
+              "文字サイズ、字幕、ボタンの割り当てを確認する。",
+              "場面別の攻略に頼る前に画面の指示に慣れる。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "関連情報",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[公式アクセシビリティ設定](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)",
+              "[実績取得の計画](/trophies)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

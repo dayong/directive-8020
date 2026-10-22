@@ -2,26 +2,11 @@
 
 import { usePathname } from 'next/navigation';
 import Link from '@/components/ui/LocaleLink';
-import { localeFromPathname, stripLocalePrefix } from '@/i18n/config';
-import { uiStrings } from '@/i18n/ui';
-import { episodes } from '@/data/episodes';
-import { characters } from '@/data/characters';
-
-function lookupDynamic(seg: string, format: string, parentSeg?: string): string {
-  if (parentSeg === 'walkthrough') {
-    const ep = episodes.find((e) => e.slug === seg || e.id === seg);
-    if (ep) return format.replace('{number}', String(ep.number)).replace('{title}', ep.title);
-  }
-  if (parentSeg === 'characters') {
-    const char = characters.find((c) => c.id === seg);
-    if (char) return char.fullName;
-  }
-  return '';
-}
-
+import { stripLocalePrefix } from '@/i18n/config';
+import { useMessages } from '@/components/i18n/Messages';
 export default function Breadcrumbs() {
   const pathname = usePathname();
-  const { breadcrumbs } = uiStrings[localeFromPathname(pathname)];
+  const { messages: { breadcrumbs }, labels } = useMessages();
   const segments = stripLocalePrefix(pathname).split('/').filter(Boolean);
 
   if (segments.length === 0) return null;
@@ -32,7 +17,7 @@ export default function Breadcrumbs() {
     const parentSeg = i > 0 ? segments[i - 1] : undefined;
     const label =
       breadcrumbs.labels[seg] ||
-      lookupDynamic(seg, breadcrumbs.episodeFormat, parentSeg) ||
+      labels[`${parentSeg}/${seg}`] ||
       seg.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 
     return { href, label, isLast };

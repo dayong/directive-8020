@@ -1,188 +1,137 @@
 {
   "meta": {
-    "title": "Directive 8020: ¿se bloquea o da Fatal Error? Soluciones",
-    "description": "¿Directive 8020 se bloquea o da Fatal Error? El parche de junio de 2026 corrigió la corrupción de partidas y los cuelgues. Soluciones para PC, PS5 y Xbox.",
-    "ogTitle": "Directive 8020: ¿se bloquea o da Fatal Error? Soluciones",
-    "ogDescription": "¿Directive 8020 se bloquea o da Fatal Error? El parche de junio de 2026 corrigió la corrupción de partidas y los cuelgues. Soluciones para PC, PS5 y Xbox."
+    "title": "Requisitos de PC y problemas de Directive 8020",
+    "description": "Consulta los requisitos oficiales, verifica archivos de Steam y documenta fallos reproducibles sin promesas de parches o recuperación de partidas.",
+    "ogTitle": "Requisitos de PC y problemas de Directive 8020",
+    "ogDescription": "Consulta los requisitos oficiales, verifica archivos de Steam y documenta fallos reproducibles sin promesas de parches o recuperación de partidas."
   },
   "hero": {
-    "h1": "¿Directive 8020 se bloquea o da Fatal Error?",
-    "tagline": "La mayoría de los errores de cierre y guardado ya están corregidos: actualiza primero al último parche.",
-    "intro": "Soluciones síntoma por síntoma para cierres, Fatal Error, errores de guardado, pantalla negra y tirones en PC, PS5 y Xbox."
+    "h1": "Requisitos de PC y problemas de Directive 8020",
+    "intro": "Consulta los requisitos oficiales, verifica archivos de Steam y documenta fallos reproducibles sin promesas de parches o recuperación de partidas."
   },
-  "sections": [
-    {
-      "heading": "Actualiza primero: el último parche corrige la mayoría de los errores de cierre y guardado",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Antes de probar cualquier otra cosa: asegúrate de tener el [parche de junio de 2026](https://store.steampowered.com/news/app/2255370/view/673997481174894605). Supermassive Games corrigió en él los problemas de cierre y guardado más reportados, entre ellos:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "El **cierre por «Fatal Error»** al volver al menú principal desde zonas de exploración",
-            "**Pantallas de carga infinitas** al continuar una partida después de usar Puntos de inflexión",
-            "**Corrupción de partidas** en PS5 (la instalación PlayGo y el Touch Pad del DualSense)",
-            "El famoso error de las **piernas desaparecidas** en los modelos de personajes en consola"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pc",
-      "heading": "Cierre con Fatal Error en PC: ya está corregido, pero esto es lo que puedes hacer si persiste",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "El parche de junio de 2026 corrigió el cierre con Fatal Error que ocurría al volver al menú principal desde zonas de exploración. Si aún ves cierres con Fatal Error:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Verifica los archivos del juego en Steam (Biblioteca → Directive 8020 → Propiedades → Archivos instalados → Verificar integridad)",
-            "Actualiza los controladores de la GPU: **NVIDIA** (GeForce Experience) o **AMD** (Adrenalin)",
-            "Desactiva las superposiciones: Discord, GeForce Experience, Steam",
-            "Configura la versión de DirectX a DX11 en las opciones de lanzamiento de Steam: `-dx11`"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "Error de guardado y pantallas de carga infinitas",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "El parche de junio de 2026 corrigió oficialmente dos errores relacionados con el guardado: una **pantalla de carga infinita al continuar una partida** tras interacciones concretas y rebobinados con Puntos de inflexión, y la **corrupción de partidas en PS5** provocada por la función de instalación PlayGo o por interactuar con secretos usando el Touch Pad del DualSense."
-        },
-        {
-          "type": "paragraph",
-          "text": "Si tu partida guardada sigue dando problemas:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Confirma que el último parche está instalado (la corrección está en el parche, no en la partida)",
-            "En PS5: activa la **subida automática a la nube de PS Plus** (Ajustes → Datos guardados → Subida automática)",
-            "Mantén al menos 2 ranuras de guardado y alterna entre ellas",
-            "Si la partida no se puede recuperar, usa los **Puntos de inflexión** desde la selección de capítulos para retroceder sin perder todo el progreso"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "El juego se cierra o no arranca",
-      "blocks": [
-        {
-          "type": "list",
-          "items": [
-            "Instala o repara **Visual C++ Redistributable** (descárgalo de Microsoft)",
-            "Desactiva el antivirus temporalmente: algunos marcan el ejecutable del juego como falso positivo",
-            "Ejecuta el juego como administrador (clic derecho → Ejecutar como administrador)",
-            "Borra la caché de descargas de Steam (Steam → Ajustes → Descargas → Borrar caché de descargas)",
-            "Reinicia el PC e intenta lanzar el juego antes de abrir otras aplicaciones"
-          ]
-        },
-        {
-          "type": "subheading",
-          "text": "Pantalla negra al iniciar"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Actualiza primero los controladores de la GPU: esto soluciona la mayoría de los casos de pantalla negra",
-            "Verifica los archivos del juego (ver arriba)",
-            "Desactiva las superposiciones: Discord, GeForce Experience, Steam",
-            "Prueba `-dx11` en las opciones de lanzamiento de Steam"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "Tirones y FPS bajos",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "El parche de mayo de 2026 optimizó el rendimiento del ray tracing y el path tracing. El parche de junio de 2026 también corrigió una caída de FPS al cambiar la relación de aspecto de la pantalla con la Generación de fotogramas activada."
-        },
-        {
-          "type": "list",
-          "items": [
-            "Baja primero la **calidad de las sombras**: es lo que más afecta al rendimiento",
-            "Desactiva el desenfoque de movimiento en los ajustes gráficos",
-            "Si usas la Generación de fotogramas, evita cambiar la relación de aspecto a mitad de sesión",
-            "Limita los FPS a 60 para mayor estabilidad (en el juego o desde el panel de control de la GPU)",
-            "Cierra las aplicaciones en segundo plano (Chrome, Discord, etc.)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "console",
-      "heading": "Problemas en PS5 y Xbox",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "El error de las piernas desaparecidas / partes del cuerpo ausentes (causado por las instalaciones parciales de PlayGo/FastStart) está corregido en el parche de junio de 2026. Si aún lo ves, completa la instalación o reinstala el juego."
-        },
-        {
-          "type": "subheading",
-          "text": "PS5 — cierres al menú de la consola"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Reconstruye la base de datos de la PS5: entra en **Modo seguro** (mantén pulsado el botón de encendido 7 segundos) → selecciona **Opción 5: Reconstruir base de datos**",
-            "Busca actualizaciones del juego: resalta el icono del juego → Opciones → Buscar actualización",
-            "Asegúrate de que el software del sistema esté actualizado"
-          ]
-        },
-        {
-          "type": "subheading",
-          "text": "Xbox"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Prueba tanto el **modo Rendimiento** (objetivo 60 fps) como el **modo Calidad** (4K/30 fps) para ver cuál es más estable",
-            "Problemas de instalación con Game Pass: desinstala el juego por completo, borra la caché de Xbox (mantén pulsado el botón de encendido 10 segundos) y vuelve a instalarlo",
-            "Busca actualizaciones del juego en Mis juegos y aplicaciones → Administrar → Actualizaciones"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "Historial oficial de parches",
-      "blocks": [
-        {
-          "type": "list",
-          "items": [
-            "[15 de junio de 2026 — Correcciones de errores para mejorar la experiencia de juego](https://store.steampowered.com/news/app/2255370/view/673997481174894605) — cierres con Fatal Error, corrupción de guardados, carga infinita, piernas desaparecidas y más",
-            "[26 de mayo de 2026 — Ray tracing, DLSS, correcciones de interfaz y mejoras para Steam Deck](https://store.steampowered.com/news/app/2255370/view/671743778889926052) — rendimiento del ray tracing/path tracing, correcciones de DLSS, ajustes de HDR, interfaz en Steam Deck"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "¿Sigues atascado? Repórtalo en el [portal de soporte oficial de Supermassive Games](https://supermassivegamesltd.zendesk.com/hc/en-gb)."
-        }
-      ]
-    }
-  ],
-  "specsTable": {
-    "heading": "Requisitos del sistema oficiales",
-    "headers": ["", "Mínimos", "Recomendados"],
-    "rows": [
-      ["**CPU**", "Intel Core i5-8400 / AMD Ryzen 5 1600", "Intel Core i5-12400F / AMD Ryzen 5 5600"],
-      ["**GPU**", "NVIDIA RTX 2070 Super / AMD RX 5700", "NVIDIA RTX 3070 / AMD RX 6800"],
-      ["**RAM**", "16GB", "16GB"],
-      ["**Almacenamiento**", "70GB (SSD recomendado)", "70GB (SSD recomendado)"]
+  "article": {
+    "sections": [
+      {
+        "heading": "Compara los requisitos oficiales de PC",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "La tabla recoge las especificaciones de Steam para PC, no garantiza fotogramas por segundo ni describe consolas. Revisa sistema y hardware antes de cambiar ajustes."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Componente",
+              "Mínimos",
+              "Recomendados"
+            ],
+            "rows": [
+              [
+                "CPU",
+                "Intel Core i5-8500 / AMD Ryzen 5 3500",
+                "Intel Core i5-12400F / AMD Ryzen 5 5600X"
+              ],
+              [
+                "GPU",
+                "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+                "NVIDIA GeForce RTX 3070 Ti / AMD Radeon RX 6800"
+              ],
+              [
+                "RAM",
+                "16 GB",
+                "16 GB"
+              ],
+              [
+                "Almacenamiento",
+                "40 GB",
+                "40 GB"
+              ]
+            ]
+          }
+        ],
+        "id": "pc"
+      },
+      {
+        "heading": "Sistema, espacio e instalación",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam indica Windows 10/11 de 64 bits, 40 GB libres y recomienda SSD. Reserva también espacio para las actualizaciones; el requisito actual no predice todas las descargas futuras."
+          }
+        ]
+      },
+      {
+        "heading": "Verifica archivos antes de probar parámetros",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Si faltan archivos o están dañados, usa Biblioteca de Steam → Propiedades → Archivos instalados → Verificar integridad. Consulta las instrucciones enlazadas. No resuelve necesariamente todo fallo y no recomendamos un parámetro DX11 sin verificar."
+          }
+        ]
+      },
+      {
+        "heading": "Protege el progreso al investigar",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Anota síntoma, plataforma, versión y pasos para reproducirlo. Antes de cambiar partidas, conserva una copia disponible mediante herramientas admitidas por tu plataforma y revisa la sincronización. No presupongas que Turning Points repara partidas dañadas."
+          }
+        ]
+      },
+      {
+        "heading": "Consulta los avisos de tu versión",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Comprueba fecha y versión en las noticias oficiales de Steam para PC y la información de actualización de tu consola. Corregir un fallo no garantiza resolver síntomas parecidos ni todas las plataformas."
+          }
+        ],
+        "id": "console"
+      },
+      {
+        "heading": "Fuentes oficiales",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[Steam Support](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)",
+              "[Steam News](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Guías relacionadas",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Estilos y controles](/directive-8020-skill-checks)",
+              "[Personajes](/characters)",
+              "[Progreso y repeticiones](/walkthrough)"
+            ]
+          }
+        ]
+      }
     ]
   },
-  "cta": {
-    "text": "¿Vuelves al juego? Consulta nuestras guías completas:",
-    "links": [
-      { "href": "/walkthrough", "label": "Guía completa paso a paso →", "variant": "primary" },
-      { "href": "/save-everyone", "label": "Guía para salvar a todos →", "variant": "outline" }
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Steam Support",
+        "url": "https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB"
+      },
+      {
+        "label": "Steam News",
+        "url": "https://store.steampowered.com/news/app/2255370"
+      }
     ]
   }
 }

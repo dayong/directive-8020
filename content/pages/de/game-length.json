@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Directive 8020 Spielzeit | Erster Durchlauf und Wiederholungen",
+    "description": "Plane Geschichte und Wiederholungen ohne unbelegte Stundenangaben. Erfahre, wie sich Erkundung, Turning Points, Spielstil und Schwierigkeit unterscheiden.",
+    "ogTitle": "Directive 8020 Spielzeit | Erster Durchlauf und Wiederholungen",
+    "ogDescription": "Plane Geschichte und Wiederholungen ohne unbelegte Stundenangaben. Erfahre, wie sich Erkundung, Turning Points, Spielstil und Schwierigkeit unterscheiden."
+  },
+  "hero": {
+    "h1": "Directive 8020 Spielzeit | Erster Durchlauf und Wiederholungen",
+    "intro": "Plane Geschichte und Wiederholungen ohne unbelegte Stundenangaben. Erfahre, wie sich Erkundung, Turning Points, Spielstil und Schwierigkeit unterscheiden."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Gibt es eine bestätigte Spielzeit?",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Die verlinkten offiziellen Quellen nennen keine allgemeingültige Dauer für den ersten Durchlauf, alle Enden oder vollständigen Abschluss. Die bisherigen festen Stundenwerte und Episodenzeiten wurden zurückgezogen. Lesetempo, Erkundung und Wiederholungsziele unterscheiden sich."
+          }
+        ]
+      },
+      {
+        "heading": "Mit eigenen Aufzeichnungen planen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Notiere Plattform, Version, Spielstil und tatsächliche Zeit. Trenne Pausen und Menüs von aktiver Spielzeit. Nutze abgeschlossene Sitzungen für deine Planung; die Gesamtzeit anderer Spieler ist keine Garantie."
+          }
+        ]
+      },
+      {
+        "heading": "Wiederholungen und Turning Points",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer erlaubt Turning Points während der Geschichte. Survivor deaktiviert das Zurückspulen im ersten Durchlauf und schaltet es nach Erreichen eines Endes frei. Das bestimmt den Zugang zu früheren Entscheidungen, aber keine feste zusätzliche Stundenzahl."
+          }
+        ]
+      },
+      {
+        "heading": "Spielstil und Schwierigkeit trennen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer und Survivor sind Spielstile. Forgiving, Challenging, Lethal und Custom regeln die Schwierigkeit. Leseeinstellungen, Erkundung und Gruppengespräche können die Dauer beeinflussen; kein Schalter garantiert einen kürzeren Durchlauf."
+          }
+        ]
+      },
+      {
+        "heading": "Ziele getrennt dokumentieren",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Die Geschichte abzuschließen, Verzweigungen zu erkunden und Plattform-Erfolge zu vervollständigen sind unterschiedliche Ziele. Berechne keine Dauer anhand unbestätigter Sammelzahlen und erwarte nicht, dass eine Route alle Ausgänge freischaltet."
+          }
+        ]
+      },
+      {
+        "heading": "Offizielle Quellen",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Directive 8020](https://www.thedarkpictures.com/games/directive-8020)",
+              "[Turning Points](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Weitere Anleitungen",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Spielstile und Steuerung](/directive-8020-skill-checks)",
+              "[Figuren](/characters)",
+              "[Fortschritt und Wiederholungen](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Turning Points",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

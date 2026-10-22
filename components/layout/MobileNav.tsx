@@ -1,5 +1,7 @@
 'use client';
 
+import { useMessages } from '@/components/i18n/Messages';
+
 import { useEffect, useState } from 'react';
 import Link from '@/components/ui/LocaleLink';
 
@@ -9,6 +11,7 @@ interface NavLink {
 }
 
 export default function MobileNav({ links }: { links: NavLink[] }) {
+  const { messages } = useMessages();
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -27,7 +30,7 @@ export default function MobileNav({ links }: { links: NavLink[] }) {
       <button
         onClick={() => setOpen(true)}
         className="md:hidden p-2 text-slate-400 hover:text-violet-400"
-        aria-label="Open menu"
+        aria-label={messages.accessibility.openMenu}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +69,7 @@ export default function MobileNav({ links }: { links: NavLink[] }) {
             <button
               onClick={() => setOpen(false)}
               className="p-2 text-slate-400 hover:text-violet-400"
-              aria-label="Close menu"
+              aria-label={messages.accessibility.closeMenu}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

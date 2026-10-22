@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "Reparto de Directive 8020 | Lashana Lynch como Brianna Young",
+    "description": "Lashana Lynch interpreta a Brianna Young, piloto de la Cassiopeia. Nombres y cargos oficiales y dónde comprobar los créditos de interpretación.",
+    "ogTitle": "Reparto de Directive 8020 | Lashana Lynch como Brianna Young",
+    "ogDescription": "Lashana Lynch interpreta a Brianna Young, piloto de la Cassiopeia. Nombres y cargos oficiales y dónde comprobar los créditos de interpretación."
+  },
+  "hero": {
+    "h1": "Reparto de Directive 8020 | Lashana Lynch como Brianna Young",
+    "intro": "Lashana Lynch interpreta a Brianna Young, piloto de la Cassiopeia. Nombres y cargos oficiales y dónde comprobar los créditos de interpretación."
+  },
+  "intro": "Lashana Lynch interpreta a Brianna Young, piloto de la Cassiopeia. Nombres y cargos oficiales y dónde comprobar los créditos de interpretación.",
+  "sections": [
+    {
+      "heading": "La protagonista confirmada",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "El sitio oficial identifica a Lashana Lynch como Brianna Young. Young es piloto de la Cassiopeia e hija de Bill Young. El nombre Brooke Osmond publicado anteriormente era incorrecto."
+        }
+      ]
+    },
+    {
+      "heading": "Nombres y cargos",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La plantilla oficial presenta a Laura Eisele como oficial superior de misión, Samantha Cooper como especialista médica, Josef Cernan como ingeniero técnico y Nolan Stafford como comandante. El cargo del personaje no es un crédito de interpretación."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo consultar los créditos",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Los créditos del juego distinguen voz, imagen y captura de movimiento. Una cara conocida no demuestra quién puso la voz. Esta página no adivina créditos ausentes de la presentación oficial."
+        }
+      ]
+    },
+    {
+      "heading": "Fuentes oficiales",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[Perfiles oficiales](https://www.thedarkpictures.com/games/directive-8020) y [presentación de personajes en PlayStation](https://www.playstation.com/en-us/games/directive-8020/)."
+        }
+      ]
+    }
+  ],
+  "castFaq": {
+    "heading": "Preguntas sobre el reparto",
+    "items": [
+      {
+        "q": "¿A quién interpreta Lashana Lynch?",
+        "a": "Brianna Young."
+      }
+    ]
+  },
+  "cta": {
+    "text": "¿Quieres ver cómo se desarrolla la historia de cada personaje?",
+    "links": [
+      {
+        "href": "/characters",
+        "label": "Guía completa de personajes y reparto →",
+        "variant": "primary"
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  }
+}

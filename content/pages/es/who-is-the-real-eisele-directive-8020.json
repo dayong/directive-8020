@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "¿Qué Eisele es la real en Directive 8020? Confía en la nueva",
-    "description": "En Directive 8020 la Eisele real es la recién llegada; la conocida es el doble. El detalle de animación que la delata y por qué bloquea el final verdadero.",
-    "ogTitle": "¿Qué Eisele es la real en Directive 8020? Confía en la nueva",
-    "ogDescription": "Guía del enfrentamiento de las dos Eisele del Episodio 6: confía en la recién llegada, nunca en la conocida. El detalle de animación y por qué decide tu final."
+    "title": "Identificar a Eisele: qué confirman las fuentes oficiales",
+    "description": "Laura Eisele es la oficial superior de misión y diseñadora de la expedición. La presentación oficial confirma un alienígena que imita personas, pero no verifica la instrucción publicada de confiar siempre en la recién llegada.",
+    "ogTitle": "Identificar a Eisele: qué confirman las fuentes oficiales",
+    "ogDescription": "Laura Eisele es la oficial superior de misión y diseñadora de la expedición. La presentación oficial confirma un alienígena que imita personas, pero no verifica la instrucción publicada de confiar siempre en la recién llegada."
   },
   "hero": {
     "h1": "¿Qué Eisele es la real en Directive 8020? Confía en la recién llegada, no en la que conoces",
@@ -33,19 +33,30 @@
         },
         {
           "type": "table",
-          "headers": ["Eisele", "Su comportamiento", "Detalle de animación", "Veredicto"],
+          "headers": [
+            "Eisele",
+            "Su comportamiento",
+            "Detalle de animación",
+            "Veredicto"
+          ],
           "rows": [
             [
               "**La que ya viajaba con el grupo**",
               "Su postura defensiva parece ensayada. Demasiado fluida, demasiado controlada: como una actriz interpretando el miedo.",
               "Su respuesta de miedo es «limpia»: respiración estable, reacciones medidas, ningún sobresalto involuntario.",
-              { "text": "FALSA — Es el doble", "tone": "red" }
+              {
+                "text": "FALSA — Es el doble",
+                "tone": "red"
+              }
             ],
             [
               "**La recién llegada (llega por separado)**",
               "Se sobresalta de verdad cuando el arma gira hacia ella. Los hombros se le tensan de forma involuntaria. Los ojos siguen el cañón como los de una persona real ante una amenaza real.",
               "Su miedo es «desordenado»: microsobresaltos, respiración irregular, ese pánico animal y crudo que no se puede fingir.",
-              { "text": "REAL — Confía en esta", "tone": "green" }
+              {
+                "text": "REAL — Confía en esta",
+                "tone": "green"
+              }
             ]
           ]
         },
@@ -59,7 +70,11 @@
         },
         {
           "type": "table",
-          "headers": ["Opción", "Consecuencia", "Qué ocurre"],
+          "headers": [
+            "Opción",
+            "Consecuencia",
+            "Qué ocurre"
+          ],
           "rows": [
             [
               "**Confiar en la recién llegada** (llega por separado, muestra miedo genuino)",
@@ -142,5 +157,37 @@
       ]
     }
   ],
-  "outro": "¿Necesitas el desglose escena a escena del resto del capítulo? Consulta la [guía paso a paso del Episodio 6](/walkthrough/episode-6). ¿Perdiste a Anders en el cruce exterior antes de esta escena? La [guía de la decisión del cove](/directive-8020-cove) explica exactamente cómo arreglarlo. ¿Vas a por el mejor resultado posible? La [guía para salvar a todos](/save-everyone) sigue cada requisito previo en los ocho episodios."
+  "outro": "¿Necesitas el desglose escena a escena del resto del capítulo? Consulta la [guía paso a paso del Episodio 6](/walkthrough/episode-6). ¿Perdiste a Anders en el cruce exterior antes de esta escena? La [guía de la decisión del cove](/directive-8020-cove) explica exactamente cómo arreglarlo. ¿Vas a por el mejor resultado posible? La [guía para salvar a todos](/save-everyone) sigue cada requisito previo en los ocho episodios.",
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "replacement": {
+      "heading": "Identificar a Eisele: qué confirman las fuentes oficiales",
+      "intro": "Laura Eisele es la oficial superior de misión y diseñadora de la expedición. La presentación oficial confirma un alienígena que imita personas, pero no verifica la instrucción publicada de confiar siempre en la recién llegada.",
+      "sections": [
+        {
+          "heading": "Qué se ha corregido",
+          "text": "Las instrucciones por escena y los supuestos relatos de partidas personales se retiran hasta verificarlos. No se sustituirán por conjeturas presentadas como soluciones probadas."
+        },
+        {
+          "heading": "Cómo continuar",
+          "text": "Consulta las indicaciones del juego y las opciones de Turning Points. El material oficial confirma que se pueden revisitar decisiones, pero no documenta cada escena ni garantiza un final. Hace falta una comprobación escena por escena antes de restaurar estos consejos."
+        }
+      ]
+    }
+  }
 }

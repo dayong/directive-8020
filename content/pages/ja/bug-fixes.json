@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Directive 8020 PC 動作環境とトラブル対処",
+    "description": "公式 PC 要件と Steam ファイルの確認方法を案内。未確認の修正内容やセーブ復旧を保証せず、再現手順を整理します。",
+    "ogTitle": "Directive 8020 PC 動作環境とトラブル対処",
+    "ogDescription": "公式 PC 要件と Steam ファイルの確認方法を案内。未確認の修正内容やセーブ復旧を保証せず、再現手順を整理します。"
+  },
+  "hero": {
+    "h1": "Directive 8020 PC 動作環境とトラブル対処",
+    "intro": "公式 PC 要件と Steam ファイルの確認方法を案内。未確認の修正内容やセーブ復旧を保証せず、再現手順を整理します。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "公式 PC 要件と比較する",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "表は Steam 公開の PC 動作環境であり、フレームレートの保証やコンソールの仕様ではありません。設定を変える前に OS とハードウェアを確認してください。"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "項目",
+              "最低",
+              "推奨"
+            ],
+            "rows": [
+              [
+                "CPU",
+                "Intel Core i5-8500 / AMD Ryzen 5 3500",
+                "Intel Core i5-12400F / AMD Ryzen 5 5600X"
+              ],
+              [
+                "GPU",
+                "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+                "NVIDIA GeForce RTX 3070 Ti / AMD Radeon RX 6800"
+              ],
+              [
+                "RAM",
+                "16 GB",
+                "16 GB"
+              ],
+              [
+                "ストレージ",
+                "40 GB",
+                "40 GB"
+              ]
+            ]
+          }
+        ],
+        "id": "pc"
+      },
+      {
+        "heading": "OS、空き容量、インストール",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam は 64 ビット Windows 10/11、空き容量 40 GB を示し、SSD を推奨しています。更新処理にも余裕が必要です。現在の容量要件は将来のすべてのダウンロードサイズを示すものではありません。"
+          }
+        ]
+      },
+      {
+        "heading": "起動引数を推測せずファイルを確認",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "ファイルの欠損や破損には、Steam ライブラリ → プロパティ → インストール済みファイルから整合性を確認します。下記の Steam 手順も参照してください。すべてのクラッシュが直る保証はなく、未確認の DX11 起動引数は推奨しません。"
+          }
+        ]
+      },
+      {
+        "heading": "調査中の進行状況を守る",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "症状、機種、バージョン、再現手順を記録してください。セーブの変更や置換前には機種が対応する方法で利用可能なバックアップを保存し、クラウド同期状態も確認します。Turning Points が破損セーブを修復するとは限りません。"
+          }
+        ]
+      },
+      {
+        "heading": "対象バージョンの告知を確認",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "PC の告知は公式 Steam ニュースの日付と対象版を、コンソールは対応機種の更新情報を確認してください。特定の不具合修正は、似た症状や全機種の問題が解消した保証にはなりません。"
+          }
+        ],
+        "id": "console"
+      },
+      {
+        "heading": "公式資料",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[Steam Support](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)",
+              "[Steam News](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "関連ガイド",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[スタイルと操作設定](/directive-8020-skill-checks)",
+              "[登場人物](/characters)",
+              "[進行と再プレイの計画](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Steam Support",
+        "url": "https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB"
+      },
+      {
+        "label": "Steam News",
+        "url": "https://store.steampowered.com/news/app/2255370"
+      }
+    ]
+  }
+}

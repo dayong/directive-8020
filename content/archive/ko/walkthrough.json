@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Directive 8020 진행 안내 | 8개 장과 플레이 스타일",
+    "description": "장별 링크, 공식 Turning Points 규칙과 선택 기록 방법으로 Directive 8020 진행을 계획하세요.",
+    "ogTitle": "Directive 8020 진행 안내 | 8개 장과 플레이 스타일",
+    "ogDescription": "장별 링크, 공식 Turning Points 규칙과 선택 기록 방법으로 Directive 8020 진행을 계획하세요."
+  },
+  "hero": {
+    "h1": "Directive 8020 진행 안내 | 8개 장과 플레이 스타일",
+    "intro": "진행 준비와 장별 노트를 찾는 안내입니다. Steam 공식 도전 과제 목록은 총 8개 장을 확인해 주지만 아래 장면별 노트는 아직 검증 중입니다."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "시작 전 설정",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "이야기 중 선택으로 돌아가고 싶다면 Explorer를 고려하세요. Survivor는 첫 진행의 결과를 감수하며 결말에 도달하면 Turning Points가 열립니다. 난이도, QTE와 접근성 옵션은 따로 확인하세요."
+          }
+        ]
+      },
+      {
+        "heading": "장별 노트",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "기존 장별 주소이며 새롭게 검증을 마친 장면별 공략은 아닙니다. 경로, 암호와 결과 예측은 잠정 정보입니다. 번역이 없는 노트는 영어로 열립니다."
+          },
+          {
+            "type": "list",
+            "items": [
+              "[1장](/walkthrough/episode-1)",
+              "[2장](/walkthrough/episode-2)",
+              "[3장](/walkthrough/episode-3)",
+              "[4장](/walkthrough/episode-4)",
+              "[5장](/walkthrough/episode-5)",
+              "[6장](/walkthrough/episode-6)",
+              "[7장](/walkthrough/episode-7)",
+              "[8장](/walkthrough/episode-8)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "유용한 진행 기록 남기기",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "시도 전에 플랫폼, 버전, 플레이 스타일과 저장 파일을 기록하세요.",
+              "비공식 이름뿐 아니라 실제 선택 문구와 관찰한 결과를 남기세요.",
+              "분기를 비교할 때는 한 번에 하나씩 선택을 바꾸고 이후 영향도 기록하세요.",
+              "수집이나 도전 과제 조건은 해당 플랫폼 자료로 대조하세요."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "이 안내가 확정하지 않는 내용",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "8개 장이라는 정보가 이전 장 제목, 모든 장면, 고정 플레이 시간이나 최상의 엔딩 경로를 증명하지는 않습니다. 기존의 세 차례 실측 통과를 주장한 개인 체험담은 철회했으며 경로의 근거로 삼을 수 없습니다."
+          }
+        ]
+      },
+      {
+        "heading": "계속 준비하기",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[조작과 QTE 설정](/directive-8020-skill-checks)",
+              "[선택과 분기 되돌리기](/choices)",
+              "[Steam 공식 도전 과제 목록](https://steamcommunity.com/stats/2255370/achievements)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

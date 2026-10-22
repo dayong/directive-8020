@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Directive 8020 — Shoot Williams or Stand Down? Best Choice & Consequences",
-    "description": "Directive 8020 Episode 5: Stand Down is best if you prepared the sedative — Williams survives and you unlock the Sedate Williams trophy. Without it, shoot instead.",
-    "ogTitle": "Directive 8020 — Shoot Williams or Stand Down? Best Choice & Consequences",
-    "ogDescription": "Episode 5 Point Blank choice explained: Stand Down with the sedative, Shoot without it. Full consequences for both options."
+    "title": "Williams: Verified Identity and Unverified Choice Outcomes",
+    "description": "The official roster identifies LaMarcus Williams as the CEO of Corinth. It does not verify the previously published sedative recipe, trophy lockout or guaranteed outcome for shooting versus standing down.",
+    "ogTitle": "Williams: Verified Identity and Unverified Choice Outcomes",
+    "ogDescription": "The official roster identifies LaMarcus Williams as the CEO of Corinth. It does not verify the previously published sedative recipe, trophy lockout or guaranteed outcome for shooting versus standing down."
   },
   "hero": {
     "h1": "Shoot Williams or Stand Down?",
@@ -94,9 +94,53 @@
   "cta": {
     "text": "Want every Episode 5 choice explained in context?",
     "links": [
-      { "href": "/walkthrough/episode-5", "label": "Episode 5 Walkthrough →", "variant": "primary" },
-      { "href": "/choices", "label": "All Choices →", "variant": "outline" },
-      { "href": "/save-everyone", "label": "Save Everyone →", "variant": "ghost" }
+      {
+        "href": "/walkthrough/episode-5",
+        "label": "Episode 5 Walkthrough →",
+        "variant": "primary"
+      },
+      {
+        "href": "/choices",
+        "label": "All Choices →",
+        "variant": "outline"
+      },
+      {
+        "href": "/save-everyone",
+        "label": "Save Everyone →",
+        "variant": "ghost"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "replacement": {
+      "heading": "Williams: Verified Identity and Unverified Choice Outcomes",
+      "intro": "The official roster identifies LaMarcus Williams as the CEO of Corinth. It does not verify the previously published sedative recipe, trophy lockout or guaranteed outcome for shooting versus standing down.",
+      "sections": [
+        {
+          "heading": "What was corrected",
+          "text": "The earlier scene-specific instructions and first-person playthrough claims are withdrawn pending verification. No replacement guess is being presented as a proven solution."
+        },
+        {
+          "heading": "How to proceed",
+          "text": "Use the current in-game prompts and Turning Points options. Official material confirms revisiting key decisions, but does not document every scene or guarantee a particular ending. This page will need a verified scene-by-scene account before its route advice is restored."
+        }
+      ]
+    }
   }
 }

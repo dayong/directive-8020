@@ -1,3 +1,4 @@
+import type { Locale } from '@/i18n/config';
 import { AffiliateCard } from '@/components/content/AffiliateCard';
 import { CtaSection } from '@/components/content/CtaSection';
 import { FaqSection } from '@/components/content/FaqSection';
@@ -8,10 +9,10 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/page-seo';
 import type { BuyContent } from '@/types/content-pages';
 
-export default function BuyView({ content }: { content: BuyContent }) {
+export default function BuyView({ content, locale }: { content: BuyContent; locale: Locale }) {
   return (
     <>
-      <JsonLd data={buildFaqSchema(content.faqs)} />
+      <JsonLd data={buildFaqSchema(content.faqs, locale)} />
 
       <HeroSection hero={content.hero} />
 

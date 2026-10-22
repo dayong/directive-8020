@@ -1,4 +1,4 @@
-import { uiStrings } from '@/i18n/ui';
+import { getUiStrings } from '@/i18n/ui';
 import type { Locale } from '@/i18n/config';
 import type { Character } from '@/types';
 
@@ -13,8 +13,11 @@ export default function CharacterBadge({
   alive,
   locale,
 }: CharacterBadgeProps) {
-  const t = uiStrings[locale].characterBadge;
+  const t = getUiStrings(locale).characterBadge;
 
+  if (character.survivalVerified === false) {
+    return <span className="text-sm text-slate-400">{t.unverified}</span>;
+  }
   if (character.scriptedDeath) {
     return (
       <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-600 bg-slate-800/50">

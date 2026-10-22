@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Escolhas e Turning Points de Directive 8020",
+    "description": "Entenda as regras de Explorer e Survivor, como comparar ramificações e quais dados tornam um registro de escolhas verificável.",
+    "ogTitle": "Escolhas e Turning Points de Directive 8020",
+    "ogDescription": "Entenda as regras de Explorer e Survivor, como comparar ramificações e quais dados tornam um registro de escolhas verificável."
+  },
+  "hero": {
+    "h1": "Escolhas e Turning Points de Directive 8020",
+    "intro": "Comece pelas regras para voltar a uma decisão. O guia oficial de acessibilidade explica quando Turning Points está disponível, mas não oferece uma tabela universal de respostas corretas."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer: voltar durante a história",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer oferece Turning Points durante a história, incluindo a opção de reverter uma morte. Volte à decisão relevante e observe a nova ramificação em vez de presumir que o resultado anterior ficou bloqueado para sempre."
+          }
+        ]
+      },
+      {
+        "heading": "Survivor: assumir a primeira história",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Survivor não permite voltar com Turning Points durante a primeira história. Chegar ao final libera a função para explorar alternativas. Esse estilo é independente da dificuldade de QTEs e ameaças em tempo real."
+          }
+        ]
+      },
+      {
+        "heading": "Compare com registros claros",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Anote a opção exata, o personagem controlado e as decisões anteriores.",
+              "Registre versão, estilo e arquivo salvo usados na tentativa.",
+              "Observe cenas posteriores além da reação imediata.",
+              "Mude uma decisão por vez ao testar uma possível causa."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Sobre as previsões anteriores",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A tabela e as previsões interativas antigas não tinham registros de cenas reproduzíveis e não são mais apresentadas como soluções. Um suposto bloqueio permanente não deve contrariar as regras documentadas de Explorer. Um guia de resultados precisa de rotas reproduzíveis, não de rótulos de confiança."
+          }
+        ]
+      },
+      {
+        "heading": "Guias relacionados",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Controles e QTEs](/directive-8020-skill-checks)",
+              "[Navegação por capítulos](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

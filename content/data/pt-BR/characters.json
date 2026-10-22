@@ -1,0 +1,42 @@
+{
+  "young": {
+    "role": "Piloto",
+    "description": "Piloto da Cassiopeia e filha do astronauta Bill Young."
+  },
+  "stafford": {
+    "role": "Comandante",
+    "description": "Comandante da missão e veterano da expedição a Marte."
+  },
+  "eisele": {
+    "role": "Oficial sênior da missão",
+    "description": "Responsável pelo projeto da missão, da Cassiopeia e do computador Oracle."
+  },
+  "cernan": {
+    "role": "Engenheiro técnico",
+    "description": "Engenheiro que encara os desafios da missão com reflexão."
+  },
+  "cooper": {
+    "role": "Especialista médica",
+    "description": "Médica com experiência em evacuação médica militar."
+  },
+  "carter": {
+    "role": "Técnico do sono",
+    "description": "Trabalha com Simms nos sistemas de hibernação durante a viagem."
+  },
+  "simms": {
+    "role": "Técnica do sono",
+    "description": "Técnica do sono com formação em engenharia."
+  },
+  "williams": {
+    "role": "Diretor executivo",
+    "description": "Dirige a Corinth, a empresa responsável pela missão."
+  },
+  "mitchell": {
+    "role": "Piloto",
+    "description": "Copiloto que treinou com Young e Stafford."
+  },
+  "anders": {
+    "role": "Oficial científica",
+    "description": "Cientista que entrou na missão por recomendação de Cooper."
+  }
+}

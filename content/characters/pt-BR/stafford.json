@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Stafford em Directive 8020 — Comandante",
+    "description": "Nolan Stafford — Comandante. Comandante da missão e veterano da expedição a Marte.",
+    "ogTitle": "Stafford em Directive 8020 — Comandante",
+    "ogDescription": "Nolan Stafford — Comandante. Comandante da missão e veterano da expedição a Marte."
+  },
+  "sections": [
+    {
+      "heading": "A trajetória do comandante",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nolan Stafford comanda a missão a Tau Ceti f. Seu passado oficial inclui o primeiro pouso humano em Marte e um papel central na criação do programa espacial da Corinth. A expedição foi planejada como sua última missão antes da aposentadoria, reunindo responsabilidade de comando e a experiência de uma carreira inteira."
+        }
+      ]
+    },
+    {
+      "heading": "Bill Young e a próxima geração",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Stafford e Bill Young viajaram juntos a Marte. Brianna Young, piloto da Cassiopeia, é filha de Bill, e Stafford prometeu ao amigo cuidar dela. Isso ajuda a entender seu papel de mentor. Seu compromisso com a tripulação caracteriza o personagem, mas não comprova que todos sobrevivam em determinada rota."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

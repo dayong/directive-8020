@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Mitchell｜飛行員",
+    "description": "Noah Mitchell，飛行員。與 Young 和 Stafford 一起受訓的副駕駛。",
+    "ogTitle": "Directive 8020：Mitchell｜飛行員",
+    "ogDescription": "Noah Mitchell，飛行員。與 Young 和 Stafford 一起受訓的副駕駛。"
+  },
+  "sections": [
+    {
+      "heading": "有抱負的副駕駛",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Noah Mitchell 是 Cassiopeia 的駕駛員。官方背景提到，他在模擬訓練中勇於冒險，既曾墜毀，也完成過他人做不到的機動。他希望參與歷史性任務，做有意義的事；訓練故事不是遊戲中飛行結果的保證。"
+        }
+      ]
+    },
+    {
+      "heading": "與 Young、Stafford 的連結",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mitchell 與 Brianna Young 是好友，也敬重 Stafford 的領導及太空先驅經歷。兩人的訓練和指導幫助他準備任務。他的自信屬於人物塑造，不能證明所有模式都能單獨選擇他，也不保證特定船員組合生還。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

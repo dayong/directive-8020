@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Progression de Directive 8020 | Huit chapitres et styles de jeu",
+    "description": "Préparez votre partie avec les liens par chapitre, les règles officielles de Turning Points et des conseils pour noter vos décisions.",
+    "ogTitle": "Progression de Directive 8020 | Huit chapitres et styles de jeu",
+    "ogDescription": "Préparez votre partie avec les liens par chapitre, les règles officielles de Turning Points et des conseils pour noter vos décisions."
+  },
+  "hero": {
+    "h1": "Progression de Directive 8020 | Huit chapitres et styles de jeu",
+    "intro": "Cet index aide à préparer une partie et à trouver des notes. La liste officielle Steam confirme huit épisodes ; les notes détaillées liées ci-dessous sont encore en cours de vérification."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Avant de commencer",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Choisissez Explorer pour revisiter les décisions pendant l’histoire. Survivor impose les conséquences au premier parcours et débloque Turning Points si vous atteignez la fin. Réglez difficulté, QTE et accessibilité séparément."
+          }
+        ]
+      },
+      {
+        "heading": "Notes par chapitre",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Il s’agit des adresses existantes, pas d’une nouvelle solution vérifiée scène par scène. Considérez parcours, codes et prédictions comme provisoires. Les notes sans traduction s’ouvrent en anglais."
+          },
+          {
+            "type": "list",
+            "items": [
+              "[Chap. 1](/walkthrough/episode-1)",
+              "[Chap. 2](/walkthrough/episode-2)",
+              "[Chap. 3](/walkthrough/episode-3)",
+              "[Chap. 4](/walkthrough/episode-4)",
+              "[Chap. 5](/walkthrough/episode-5)",
+              "[Chap. 6](/walkthrough/episode-6)",
+              "[Chap. 7](/walkthrough/episode-7)",
+              "[Chap. 8](/walkthrough/episode-8)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Garder des notes utiles",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Notez plateforme, version, style et sauvegarde avant un essai.",
+              "Relevez le texte réel du choix et le résultat observé, pas seulement un nom informel.",
+              "Changez une décision à la fois pour comparer les branches et notez les effets ultérieurs.",
+              "Vérifiez les conditions des objets ou succès avec la source de votre plateforme."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Ce que cet index ne confirme pas",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Le nombre d’épisodes ne valide ni les anciens sous-titres, ni toutes les scènes, ni une durée fixe, ni un parcours garanti vers la meilleure fin. Les récits antérieurs de trois parties personnelles testées sont retirés et ne constituent pas une preuve."
+          }
+        ]
+      },
+      {
+        "heading": "Poursuivre la préparation",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Commandes et QTE](/directive-8020-skill-checks)",
+              "[Décisions et retour aux branches](/choices)",
+              "[Liste officielle des succès Steam](https://steamcommunity.com/stats/2255370/achievements)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

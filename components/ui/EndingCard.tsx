@@ -1,4 +1,4 @@
-import { uiStrings } from '@/i18n/ui';
+import { getUiStrings } from '@/i18n/ui';
 import type { Locale } from '@/i18n/config';
 import type { Ending } from '@/types';
 
@@ -9,7 +9,7 @@ export default function EndingCard({
   ending: Ending;
   locale: Locale;
 }) {
-  const t = uiStrings[locale].endingCard;
+  const t = getUiStrings(locale).endingCard;
   return (
     <div
       className={`p-4 rounded-lg border-2 ${

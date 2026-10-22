@@ -1,6 +1,6 @@
 import { HeroSection } from '@/components/content/HeroSection';
 import { getTrophies } from '@/lib/localized-data';
-import { uiStrings } from '@/i18n/ui';
+import { getUiStrings } from '@/i18n/ui';
 import type { Locale } from '@/i18n/config';
 import type { TrophiesContent } from '@/types/content-pages';
 
@@ -19,7 +19,7 @@ export default function TrophiesView({
   content: TrophiesContent;
   locale: Locale;
 }) {
-  const t = uiStrings[locale].trophiesView;
+  const t = getUiStrings(locale).trophiesView;
   const typeLabels: Record<string, string> = {
     platinum: t.platinum,
     gold: t.gold,

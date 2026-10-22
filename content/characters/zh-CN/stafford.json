@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Stafford｜指挥官",
+    "description": "Nolan Stafford，指挥官。任务指挥官，曾参与火星探索。",
+    "ogTitle": "Directive 8020：Stafford｜指挥官",
+    "ogDescription": "Nolan Stafford，指挥官。任务指挥官，曾参与火星探索。"
+  },
+  "sections": [
+    {
+      "heading": "指挥官的航天经历",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nolan Stafford 指挥前往 Tau Ceti f 的任务。官方背景将首次人类火星登陆及 Corinth 航天计划的发展列为他的重要经历。这次远征原计划是他退休前的最后一次任务，因此既是指挥责任，也承载着他长期航天生涯的积累。"
+        }
+      ]
+    },
+    {
+      "heading": "Bill Young 与下一代",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Stafford 曾与 Bill Young 一同执行火星任务。Cassiopeia 的驾驶员 Brianna Young 是 Bill 的女儿，Stafford 答应过朋友要照顾她。这解释了他为何成为 Young 的导师。他对船员的承诺属于人物背景，不能据此推断某条路线中全员一定生还。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

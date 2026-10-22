@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Directive 8020 合作游玩｜本地、在线与平台区别",
+    "description": "比较 Steam、PS5 和 Xbox Series X|S 的官方多人信息，核对人数、订阅要求，以及共享屏幕标签的实际含义。",
+    "ogTitle": "Directive 8020 合作游玩｜本地、在线与平台区别",
+    "ogDescription": "比较 Steam、PS5 和 Xbox Series X|S 的官方多人信息，核对人数、订阅要求，以及共享屏幕标签的实际含义。"
+  },
+  "hero": {
+    "h1": "Directive 8020 合作游玩｜本地、在线与平台区别",
+    "intro": "先按实际使用的平台和模式安排合作。某个商店标注在线功能，并不代表其他版本具备完全相同的能力。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "当前平台页面列出的内容",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "平台",
+              "已列功能",
+              "游玩前核对"
+            ],
+            "rows": [
+              [
+                "Steam",
+                "在线合作及共享／分屏合作标签",
+                "在已安装版本中确认模式与组队方式"
+              ],
+              [
+                "PS5",
+                "1–5 人，在线最多五人",
+                "在线游玩需要 PlayStation Plus"
+              ],
+              [
+                "Xbox Series X|S",
+                "本地合作 2–5 人",
+                "在线功能请单独查看当前 Xbox 页面"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "共享屏幕不等于跨平台联机",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam 把共享屏幕和分屏合作合并为一个分类，单凭该标签不能证明支持同时分屏。在线合作也不能证明支持跨平台匹配或免费好友通行证。"
+          }
+        ]
+      },
+      {
+        "heading": "合作前的准备",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "核对每位参与者所在平台的当前商店页面。",
+              "更新游戏，确认当前版本确有打算使用的模式。",
+              "邀请朋友前核对购买、账号和订阅要求。",
+              "按当前界面实际提供的操作分配角色并开始游玩。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "为何旧公告说法不同",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "上线初期的文案曾把在线游玩写为后续更新，而当前 Steam 和 PlayStation 页面已经列出在线能力。请使用当前平台信息，不要把旧的上线承诺当作今天的可用性。本页不据此推断未确认的 Xbox 在线能力。"
+          }
+        ]
+      },
+      {
+        "heading": "相关入口",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[PlayStation](https://www.playstation.com/en-us/games/directive-8020/)",
+              "[Xbox](https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l)",
+              "[玩法风格与操作](/directive-8020-skill-checks)",
+              "[购买合适的版本](/directive-8020-buy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "PlayStation — Directive 8020",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Xbox — Directive 8020",
+        "url": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
+      }
+    ]
+  }
+}

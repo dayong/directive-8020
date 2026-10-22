@@ -1,7 +1,7 @@
 import Link from '@/components/ui/LocaleLink';
 import { HeroSection } from '@/components/content/HeroSection';
 import { getCharacters } from '@/lib/localized-data';
-import { uiStrings } from '@/i18n/ui';
+import { getUiStrings } from '@/i18n/ui';
 import type { Locale } from '@/i18n/config';
 import type { CharactersContent } from '@/types/content-pages';
 
@@ -14,7 +14,7 @@ export default function CharactersView({
   locale: Locale;
 }) {
   const charList = getCharacters(locale);
-  const t = uiStrings[locale].charactersView;
+  const t = getUiStrings(locale).charactersView;
   return (
     <>
       <HeroSection hero={content.hero} />
@@ -62,21 +62,11 @@ export default function CharactersView({
               <div className="flex items-center gap-3 text-xs">
                 <span className="text-slate-500">
                   {t.actor}
-                  {char.actor}
+                  {char.actor || t.notConfirmed}
                 </span>
-                {char.scriptedDeath ? (
-                  <span className="text-amber-400 font-medium">
-                    {t.scriptedDeath}
-                  </span>
-                ) : char.playable === false ? (
-                  <span className="text-cyan-400 font-medium">
-                    {t.npcCanSurvive}
-                  </span>
-                ) : (
-                  <span className="text-green-400 font-medium">
-                    {t.canSurvive}
-                  </span>
-                )}
+                <span className="text-violet-300 font-medium">
+                  {char.playable ? t.playable : t.supporting}
+                </span>
               </div>
             </Link>
           ))}

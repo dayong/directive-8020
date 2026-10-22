@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Elenco de Directive 8020 | Lashana Lynch como Brianna Young",
+    "description": "Conheça a protagonista confirmada, a função de Young na Cassiopeia e como verificar créditos de atuação e dublagem.",
+    "ogTitle": "Elenco de Directive 8020 | Lashana Lynch como Brianna Young",
+    "ogDescription": "Conheça a protagonista confirmada, a função de Young na Cassiopeia e como verificar créditos de atuação e dublagem."
+  },
+  "hero": {
+    "h1": "Elenco de Directive 8020 | Lashana Lynch como Brianna Young",
+    "intro": "Conheça a protagonista confirmada, a função de Young na Cassiopeia e como verificar créditos de atuação e dublagem."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Quem interpreta Young?",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "O perfil oficial identifica Lashana Lynch como Brianna Young, piloto da Cassiopeia. O nome Brooke Osmond publicado anteriormente estava incorreto e foi retirado."
+          }
+        ]
+      },
+      {
+        "heading": "O passado de Young",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Young é filha de Bill Young e se preparou para seguir o pai nos voos espaciais. Stafford se tornou seu mentor após a morte dele. Esses antecedentes oficiais não comprovam nenhum final específico."
+          }
+        ]
+      },
+      {
+        "heading": "Personagens e intérpretes são registros distintos",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "O cargo de uma personagem não identifica seu intérprete. Consulte a lista oficial para nomes e funções e os créditos do jogo para atuação, voz, imagem e captura de movimento."
+          }
+        ]
+      },
+      {
+        "heading": "Como conferir outros créditos",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Leia os créditos da sua versão e do idioma de áudio. Um rosto conhecido não comprova quem forneceu a voz, e um crédito inglês não identifica o profissional da dublagem localizada. Informações não confirmadas não são presumidas."
+          }
+        ]
+      },
+      {
+        "heading": "Fontes oficiais",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Directive 8020](https://www.thedarkpictures.com/games/directive-8020)",
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Guias relacionados",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Estilos e controles](/directive-8020-skill-checks)",
+              "[Personagens](/characters)",
+              "[Progresso e revisitas](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      }
+    ]
+  }
+}

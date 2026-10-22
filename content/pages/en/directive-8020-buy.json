@@ -1,202 +1,137 @@
 {
   "meta": {
-    "title": "Where to Buy Directive 8020 — Steam Key Deals & Prices",
-    "description": "Where to buy Directive 8020: compare Steam key prices for the Standard and Digital Deluxe editions, PS5 codes, regions, and instant activation steps.",
-    "ogTitle": "Where to Buy Directive 8020 — Steam Key Deals & Prices",
-    "ogDescription": "Compare Steam key prices for every Directive 8020 edition, check regions, and learn how to activate your key in under a minute."
+    "title": "Buy Directive 8020 | Editions, Platforms & Upgrade Requirements",
+    "description": "Compare the base game, Digital Deluxe Edition and upgrade. Find official PC, PS5 and Xbox listings and check regional and language requirements before purchase.",
+    "ogTitle": "Buy Directive 8020 | Editions, Platforms & Upgrade Requirements",
+    "ogDescription": "Compare the base game, Digital Deluxe Edition and upgrade. Find official PC, PS5 and Xbox listings and check regional and language requirements before purchase."
   },
   "hero": {
-    "h1": "Where to Buy Directive 8020",
-    "tagline": "The best prices for Directive 8020 on PC and PS5 — all editions compared.",
-    "intro": "Directive 8020 is available on PC (Steam) and PlayStation 5. Below are the stores we recommend, every edition compared side by side, and how to activate your key in under a minute."
+    "h1": "Buy Directive 8020 | Editions, Platforms & Upgrade Requirements",
+    "intro": "Choose a platform first, then compare what you already own with what the package contains. Prices and offers can differ by store, region and checkout time."
   },
-  "disclosure": "Disclosure: this page contains affiliate links. If you buy through them, we may earn a commission at no extra cost to you — you always pay the same price.",
-  "updated": "Last updated: September 2026. Prices and store details are re-checked each month.",
-  "featured": {
-    "storeLabel": "Instant Gaming",
-    "productName": "Directive 8020 — PC Steam Key",
-    "image": {
-      "src": "/images/directive-8020-cover.jpg",
-      "alt": "Directive 8020 cover art",
-      "width": 380,
-      "height": 218
-    },
-    "priceNote": "Genuine Steam key with instant email delivery — usually cheaper than the Steam Store price.",
-    "trustPoints": [
-      "Delivered by email within minutes of checkout",
-      "Activates on your own Steam account and stays in your library",
-      "Standard key covers Europe, USA & Canada — check the compatibility list on the store page"
+  "article": {
+    "sections": [
+      {
+        "heading": "Game or add-on?",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Package",
+              "Content",
+              "Base game"
+            ],
+            "rows": [
+              [
+                "Standard",
+                "Main game",
+                "Included"
+              ],
+              [
+                "Digital Deluxe Edition",
+                "Game plus deluxe extras",
+                "Included"
+              ],
+              [
+                "Digital Deluxe Upgrade on Steam",
+                "Deluxe extras as downloadable content",
+                "Required separately on Steam"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "What the deluxe extras cover",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The official store describes outfits, additional Dark Pictures collectibles, cinematic filters, a digital artbook and a soundtrack. An upgrade is not a third standalone game. Read the listing for the edition on your own platform."
+          }
+        ]
+      },
+      {
+        "heading": "Before paying",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Check the platform, product type and activation region.",
+              "Check whether the account already owns the base game or deluxe content.",
+              "Compare the final checkout total, not just a crossed-out price.",
+              "Read the store’s current delivery and refund terms."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Check game languages separately",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Our guide language does not establish in-game language support. Check the interface, audio and subtitle columns in the official listing before buying."
+          }
+        ]
+      },
+      {
+        "heading": "Official stores",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam — PC](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[PlayStation — PS5](https://www.playstation.com/en-us/games/directive-8020/)",
+              "[Xbox — Series X|S](https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l)",
+              "[Steam — Digital Deluxe Upgrade](https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Existing third-party option",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Some store links on this site are affiliate links. We may earn a commission on qualifying purchases at no extra cost to you."
+          },
+          {
+            "type": "paragraph",
+            "text": "This PC listing is an affiliate link, not a lowest-price or stock guarantee. Check the merchant’s current region and checkout conditions."
+          },
+          {
+            "type": "paragraph",
+            "text": "[View PC listing on Instant Gaming](https://www.instant-gaming.com/en/10380-buy-directive-8020-pc-steam/?igr=gamer-8917036)"
+          }
+        ]
+      }
     ],
-    "ctaLabel": "Check Price on Instant Gaming →",
-    "href": "https://www.instant-gaming.com/en/10380-buy-directive-8020-pc-steam/?igr=gamer-8917036"
-  },
-  "editions": {
-    "heading": "Which Edition Should You Buy?",
-    "intro": "Directive 8020 comes in three PC editions plus a PS5 version. Here's what each one includes, with a direct link to its store page.",
-    "cards": [
-      {
-        "badge": "Best value",
-        "name": "Standard Edition",
-        "platform": "PC — Steam key",
-        "note": "The full game: all 8 episodes, every branching choice and all endings. Everything you need for a first playthrough.",
-        "href": "https://www.instant-gaming.com/en/10380-buy-directive-8020-pc-steam/?igr=gamer-8917036",
-        "ctaLabel": "Check price →"
-      },
-      {
-        "name": "Digital Deluxe Edition",
-        "platform": "PC — Steam key",
-        "note": "The game plus the Outfit Pack, the bonus mission “The Dark Pictures Heirlooms Retrieval”, the Cinematic Filter Pack, a digital artbook and the soundtrack.",
-        "href": "https://www.instant-gaming.com/en/22620-buy-directive-8020-digital-deluxe-edition-pc-steam/?igr=gamer-8917036",
-        "ctaLabel": "Check price →"
-      },
-      {
-        "name": "Digital Deluxe Upgrade",
-        "platform": "PC — Steam DLC",
-        "note": "For players who already own the base game: adds every Digital Deluxe extra to your copy. Does not include the base game.",
-        "href": "https://www.instant-gaming.com/en/22621-buy-directive-8020-digital-deluxe-upgrade-pc-steam/?igr=gamer-8917036",
-        "ctaLabel": "Check price →"
-      },
-      {
-        "name": "PlayStation 5",
-        "platform": "PS5 — PlayStation Store code",
-        "note": "The console version as a digital code for the PlayStation Store. Redeem it on your PS5 and download the game.",
-        "href": "https://www.instant-gaming.com/en/22464-buy-directive-8020-playstation-5-playstation-store/?igr=gamer-8917036",
-        "ctaLabel": "Check price →"
-      }
-    ]
-  },
-  "video": {
-    "heading": "Directive 8020 Preview",
-    "src": "/videos/directive-8020-preview.webm",
-    "poster": "/images/directive-8020-cover.jpg",
-    "posterAlt": "Directive 8020 preview video thumbnail",
-    "caption": "Directive 8020 preview via Instant Gaming — the video only loads when you press play."
-  },
-  "activation": {
-    "heading": "How to Activate Your Steam Key",
-    "intro": "Your key arrives by email right after checkout. Activating it takes less than a minute:",
-    "steps": [
-      {
-        "title": "Sign in to Steam",
-        "body": "Open the Steam client on your PC, or go to store.steampowered.com, and make sure you're signed in to the account you want the game on."
-      },
-      {
-        "title": "Open the activation window",
-        "body": "In the client, click “Games” in the top menu and choose “Activate a Product on Steam”. In a browser, go to store.steampowered.com/account/registerkey."
-      },
-      {
-        "title": "Paste your key",
-        "body": "Copy the code from your Instant Gaming email and paste it into the activation window, then confirm. Directive 8020 is added to your library."
-      },
-      {
-        "title": "Download and play",
-        "body": "Install the game from your library and jump into Episode 1. If an error appears, double-check your account's region — that's the most common cause."
-      }
-    ]
-  },
-  "sections": [
-    {
-      "heading": "Why We Recommend Instant Gaming",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "This site is an independent fan guide — we don't work for any store, and nothing here is paid placement. We link to Instant Gaming because it is one of Europe's largest key retailers, its Directive 8020 listings sit below the Steam Store price, keys arrive by automated email within minutes, and purchases are covered by buyer protection: if a key fails to activate, support replaces it or refunds you."
-        },
-        {
-          "type": "list",
-          "items": [
-            "Established retailer with a long track record and buyer protection",
-            "Below the Steam Store price on the PC editions we checked",
-            "Automated email delivery — no waiting on a third-party seller",
-            "A real support team that replaces faulty keys"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Transparency: we earn a commission when you buy through our links, and it never changes the price you pay — you pay exactly the same as visiting the store directly. We still recommend comparing with the current Steam sale before buying, and if a linked store stops being reliable, we change or remove the link."
-        }
-      ]
-    },
-    {
-      "heading": "Is Instant Gaming Legit?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Instant Gaming has been selling game keys since 2010 and is one of Europe's largest key retailers. It buys keys in bulk from distributors and publishers — that's why prices sit below the Steam Store. Orders are delivered automatically by email within minutes, and if a key doesn't work, support replaces or refunds it."
-        },
-        {
-          "type": "paragraph",
-          "text": "The trade-offs are the same as with any key store: every key is tied to a region (check the compatibility list before buying), and once you reveal a key it usually can't be refunded. The listings linked on this page are genuine Steam keys — the game lands in your library exactly as if you had bought it on Steam."
-        }
-      ]
-    },
-    {
-      "heading": "Steam Key Regions, Explained",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "The standard listings are sold for Europe, USA and Canada. Steam checks your account's country when you redeem a key, so a key for the wrong region simply won't activate."
-        },
-        {
-          "type": "list",
-          "items": [
-            "Your account country is shown in Steam under “Account details” — that's the region that matters.",
-            "Every Instant Gaming product page has a country compatibility list showing which countries a key covers.",
-            "If the two don't match, pick a listing for your own region before buying."
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "Which Version Should You Get?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "For the lowest price, the PC Standard Edition is the way in: it includes the full game with every choice and all endings. On PS5 you pay console prices, since there are far fewer key sellers for console codes. Whichever version you pick, this site's walkthrough covers exactly the same content."
-        }
-      ]
+    "media": {
+      "src": "/videos/directive-8020-preview.webm",
+      "poster": "/images/directive-8020-cover.jpg",
+      "posterAlt": "Directive 8020 cover art",
+      "caption": "Directive 8020 preview — Instant Gaming"
     }
-  ],
-  "faqHeading": "Frequently Asked Questions",
-  "faqs": [
-    {
-      "q": "Where is the cheapest place to buy Directive 8020?",
-      "a": "Key retailers are usually the cheapest option. In our September 2026 price check, Instant Gaming's PC listings for Directive 8020 sat 25-42% below the Steam Store price. Sales rotate — check the live price on the product page and compare it with the current Steam sale."
-    },
-    {
-      "q": "Is Instant Gaming legit and safe?",
-      "a": "Instant Gaming is a well-established key retailer operating for over a decade. Delivery is by email, payments go through standard providers, and if a key doesn't work, support replaces it. The usual caveat of any key store: a revealed key can't be refunded."
-    },
-    {
-      "q": "Do I get a Steam key or a full account?",
-      "a": "You get a Steam key — a code you activate on your own Steam account. The game stays in your library permanently; nobody else keeps access to it."
-    },
-    {
-      "q": "Which region is the Steam key for?",
-      "a": "The standard listing is sold for Europe, USA and Canada. Every Instant Gaming product page has a country compatibility list — check it against your Steam account's country before buying, because a key for the wrong region won't activate."
-    },
-    {
-      "q": "Can I buy Directive 8020 for PS5?",
-      "a": "Yes. The PS5 version is sold as a digital code for the PlayStation Store. Redeem it on your console (PlayStation Store → Redeem Code) or through account management on the web, then download the game."
-    },
-    {
-      "q": "What does the Digital Deluxe Edition include?",
-      "a": "The base game plus the Digital Deluxe extras: The Dark Pictures Outfit Pack, the bonus mission “The Dark Pictures Heirlooms Retrieval”, the Cinematic Filter Pack, a digital artbook and the digital soundtrack. If you already own the base game, get the Digital Deluxe Upgrade instead."
-    },
-    {
-      "q": "Can I get a refund on a game key?",
-      "a": "Revealed keys are generally non-refundable — that's standard for key retailers. If the key itself is faulty, Instant Gaming support will replace it. It's the trade-off for paying less than Steam's price, where a 2-hour refund window applies."
-    },
-    {
-      "q": "Does buying through this guide's links cost me more?",
-      "a": "No — the price is identical to visiting Instant Gaming directly. We earn a small commission on each sale, which keeps this guide free. It never changes what you pay."
-    }
-  ],
-  "cta": {
-    "text": "Bought the game? Start here.",
-    "links": [
-      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "primary" },
-      { "href": "/save-everyone", "label": "Save Everyone Guide →", "variant": "outline" }
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Steam — Digital Deluxe Upgrade",
+        "url": "https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/"
+      },
+      {
+        "label": "PlayStation — Directive 8020",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Xbox — Directive 8020",
+        "url": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
+      }
     ]
   }
 }

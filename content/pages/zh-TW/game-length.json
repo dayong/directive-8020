@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Directive 8020 遊戲時長｜首輪與重玩時間規劃",
+    "description": "不以未經證實的小時數保證通關時間。了解探索、Turning Points 回溯，以及遊玩風格與操作難度的差別。",
+    "ogTitle": "Directive 8020 遊戲時長｜首輪與重玩時間規劃",
+    "ogDescription": "不以未經證實的小時數保證通關時間。了解探索、Turning Points 回溯，以及遊玩風格與操作難度的差別。"
+  },
+  "hero": {
+    "h1": "Directive 8020 遊戲時長｜首輪與重玩時間規劃",
+    "intro": "不以未經證實的小時數保證通關時間。了解探索、Turning Points 回溯，以及遊玩風格與操作難度的差別。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "有經過查證的通關時長嗎？",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "本頁所列官方資料沒有確定適用於所有人的首輪、全結局或全收集時長。先前的固定小時數與分章時間表已撤下。閱讀速度、探索程度及重玩目標皆因人而異。"
+          }
+        ]
+      },
+      {
+        "heading": "依自己的遊玩紀錄安排時間",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "記錄平台、遊戲版本、遊玩風格與實際用時，將暫停、選單操作及有效遊玩時間分開。依自己完成的場次估算後續安排，不將他人的總時長視為保證。"
+          }
+        ]
+      },
+      {
+        "heading": "重玩與 Turning Points",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer 允許在故事中使用 Turning Points；Survivor 首輪停用這項回溯功能，抵達結局後才解鎖。這影響何時能重訪選擇，不能據此確定會多花幾小時。"
+          }
+        ]
+      },
+      {
+        "heading": "遊玩風格與難度不同",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer 與 Survivor 是遊玩風格；Forgiving、Challenging、Lethal、Custom 是操作難度。閱讀設定、探索與多人討論可能影響用時，但任何設定都不保證更快通關。"
+          }
+        ]
+      },
+      {
+        "heading": "不同完成目標應分開記錄",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "完成故事、探索分支與完成平台成就是不同目標。不要依未經查證的收集數量推算時長，也別假定單一路線能解鎖所有結果。"
+          }
+        ]
+      },
+      {
+        "heading": "官方來源",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Directive 8020](https://www.thedarkpictures.com/games/directive-8020)",
+              "[Turning Points](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "相關指南",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[遊玩風格與操作設定](/directive-8020-skill-checks)",
+              "[人物介紹](/characters)",
+              "[流程與重玩規劃](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Turning Points",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

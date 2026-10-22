@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020의 Mitchell — 조종사",
+    "description": "Noah Mitchell — 조종사. Young, Stafford와 함께 훈련받은 부조종사.",
+    "ogTitle": "Directive 8020의 Mitchell — 조종사",
+    "ogDescription": "Noah Mitchell — 조종사. Young, Stafford와 함께 훈련받은 부조종사."
+  },
+  "sections": [
+    {
+      "heading": "야심 있는 부조종사",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Noah Mitchell은 Cassiopeia의 조종사입니다. 공식 배경에는 모의 비행에서 과감한 위험을 감수해 추락하기도 하고 어려운 기동에 성공하기도 했다는 이야기가 있습니다. 역사적인 임무에서 의미 있는 일을 하고 싶어 하지만 훈련 일화가 게임 속 비행 결과를 보장하지는 않습니다."
+        }
+      ]
+    },
+    {
+      "heading": "Young과 Stafford",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mitchell은 Brianna Young과 친하며 Stafford를 지도자이자 우주 개척자로 존경합니다. 두 사람의 훈련과 지도로 임무를 준비했습니다. 이러한 자신감은 인물 설정으로, 모든 모드에서 개별 선택이 가능하거나 특정 승무원 조합이 생존한다는 뜻은 아닙니다."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

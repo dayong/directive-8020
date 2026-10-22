@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Directive 8020 PC 配備與故障排查",
+    "description": "核對官方 PC 配備、驗證 Steam 檔案並記錄可重現的故障，不保證未經證實的更新效果或存檔復原。",
+    "ogTitle": "Directive 8020 PC 配備與故障排查",
+    "ogDescription": "核對官方 PC 配備、驗證 Steam 檔案並記錄可重現的故障，不保證未經證實的更新效果或存檔復原。"
+  },
+  "hero": {
+    "h1": "Directive 8020 PC 配備與故障排查",
+    "intro": "核對官方 PC 配備、驗證 Steam 檔案並記錄可重現的故障，不保證未經證實的更新效果或存檔復原。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "對照官方 PC 配備",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "下表為 Steam 公布的 PC 配備，不是幀率保證，也不是主機規格。變更設定前先核對作業系統及硬體。"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "配備項目",
+              "最低配備",
+              "建議配備"
+            ],
+            "rows": [
+              [
+                "CPU",
+                "Intel Core i5-8500 / AMD Ryzen 5 3500",
+                "Intel Core i5-12400F / AMD Ryzen 5 5600X"
+              ],
+              [
+                "GPU",
+                "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+                "NVIDIA GeForce RTX 3070 Ti / AMD Radeon RX 6800"
+              ],
+              [
+                "RAM",
+                "16 GB",
+                "16 GB"
+              ],
+              [
+                "儲存空間",
+                "40 GB",
+                "40 GB"
+              ]
+            ]
+          }
+        ],
+        "id": "pc"
+      },
+      {
+        "heading": "系統、空間與安裝",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam 列出 64 位元 Windows 10/11、40 GB 可用空間，並建議使用 SSD。請另為平台更新流程保留空間；目前的安裝需求不代表未來所有下載的大小。"
+          }
+        ]
+      },
+      {
+        "heading": "先驗證檔案，不猜啟動參數",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "檔案遺失或損壞時，可在 Steam 收藏庫 → 內容 → 已安裝檔案驗證完整性，並參考下方 Steam 說明。這不保證解決所有當機；本站不再建議未經查證的 DX11 啟動參數。"
+          }
+        ]
+      },
+      {
+        "heading": "排查時保護進度",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "記錄確切症狀、平台、版本與重現步驟。變更或替換存檔前，使用平台支援的工具保留可用備份並確認雲端同步狀態。不要假定 Turning Points 能修復損壞存檔。"
+          }
+        ]
+      },
+      {
+        "heading": "查看對應版本公告",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "PC 更新請查看官方 Steam 新聞的日期與適用版本，主機則查看對應平台資訊。修正特定問題不代表所有類似症狀或所有平台都已修復。"
+          }
+        ],
+        "id": "console"
+      },
+      {
+        "heading": "官方來源",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[Steam Support](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)",
+              "[Steam News](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "相關指南",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[遊玩風格與操作設定](/directive-8020-skill-checks)",
+              "[人物介紹](/characters)",
+              "[流程與重玩規劃](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Steam Support",
+        "url": "https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB"
+      },
+      {
+        "label": "Steam News",
+        "url": "https://store.steampowered.com/news/app/2255370"
+      }
+    ]
+  }
+}

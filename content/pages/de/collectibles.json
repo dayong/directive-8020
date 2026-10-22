@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Directive 8020 Sammelobjekte | Edition und Fortschritt",
+    "description": "Prüfe offizielle Deluxe-Sammelinhalte, trenne Besitz von Fortschritt und dokumentiere Funde ohne erfundene Positionsangaben.",
+    "ogTitle": "Directive 8020 Sammelobjekte | Edition und Fortschritt",
+    "ogDescription": "Prüfe offizielle Deluxe-Sammelinhalte, trenne Besitz von Fortschritt und dokumentiere Funde ohne erfundene Positionsangaben."
+  },
+  "hero": {
+    "h1": "Directive 8020 Sammelobjekte | Edition und Fortschritt",
+    "intro": "Kläre zuerst, welche Inhalte du besitzt. Ein Weg hilft nur, wenn Edition, Version und Storyfortschritt zu deinem Spielstand passen."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Was offiziell beschrieben wird",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Das Steam-Deluxe-Upgrade beschreibt zusätzliche Dark-Pictures-Sammelobjekte, darunter Figuren früherer Spiele. Die Seite verlangt das Steam-Grundspiel. Das bestätigt Zusatzinhalte, aber keine vollständige Karte aller Gegenstände des Hauptspiels."
+          }
+        ]
+      },
+      {
+        "heading": "Vor der Suche die Edition prüfen",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Prüfe Grundspiel und Zusatzinhalte in deiner Bibliothek.",
+              "Lies die Plattformbeschreibung und setze keine identischen Paketnamen voraus.",
+              "Unterscheide Editionsboni von Sammelobjekten der Hauptgeschichte.",
+              "Prüfe die Verfügbarkeit in deiner installierten Version."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Nützliche Fundnotizen anlegen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Notiere für jeden Fund den Namen im Spiel, Kapitel, nahes Ziel, nötige Vorentscheidungen und erfassten Sammelstatus. Ein Bild oder Spielstandverweis erleichtert die Reproduktion. Trenne Funde von ungeprüften Trophäenbedingungen."
+          }
+        ]
+      },
+      {
+        "heading": "Zu früheren Zahlen und Orten",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Die frühere Gesamtzahl von 65 und die Beispielräume waren keiner geprüften offiziellen Ortsliste zugeordnet und werden nicht mehr als vollständiger Weg dargestellt. Das beweist nicht, dass diese Räume oder Gegenstände fehlen. Exakte Zahlen und Wege müssen direkt geprüft werden."
+          }
+        ]
+      },
+      {
+        "heading": "Einen erneuten Besuch planen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Prüfe Spielstil und verfügbare Turning Points vor dem Wiederholen. Zurückspulen beweist nicht, dass jeder Gegenstand von jedem Punkt aus nachholbar ist. Kontrolliere nach dem Versuch den tatsächlich erfassten Status."
+          }
+        ]
+      },
+      {
+        "heading": "Weitere Informationen",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Offizielle Steam-Upgrade-Beschreibung](https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/)",
+              "[Erfolge planen](/trophies)",
+              "[Spielstile und Steuerung](/directive-8020-skill-checks)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Digital Deluxe Upgrade",
+        "url": "https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/"
+      },
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      }
+    ]
+  }
+}

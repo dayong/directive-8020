@@ -45,11 +45,11 @@ export const trophies: Trophy[] = [
   // Silver trophies
   {
     id: 'survivor-young',
-    name: "Osmond's Resolve",
-    description: 'Complete the game with Brooke Osmond alive.',
+    name: "Young's Resolve",
+    description: 'Complete the game with Brianna Young alive.',
     type: 'silver',
     isMissable: true,
-    guide: "Osmond is the primary protagonist. Most of her death scenarios come from failed QTEs or choosing 'Doubt' at critical moments.",
+    guide: "Young is the primary protagonist. Most of her death scenarios come from failed QTEs or choosing 'Doubt' at critical moments.",
   },
   {
     id: 'survivor-stafford',
@@ -102,10 +102,10 @@ export const trophies: Trophy[] = [
   {
     id: 'destiny-young',
     name: 'The Humanitarian',
-    description: 'Unlock Brooke Osmond\'s final Destiny.',
+    description: 'Unlock Brianna Young\'s final Destiny.',
     type: 'silver',
     isMissable: true,
-    guide: 'Make compassionate choices as Osmond throughout the game. Choose Honor when given the option.',
+    guide: 'Make compassionate choices as Young throughout the game. Choose Honor when given the option.',
   },
   {
     id: 'destiny-stafford',

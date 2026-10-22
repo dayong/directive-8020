@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Directive 8020 キャスト｜Lashana Lynch と Brianna Young",
+    "description": "公式に確認できる主演と Cassiopeia での Young の役割を紹介。演技と音声クレジットを区別して調べます。",
+    "ogTitle": "Directive 8020 キャスト｜Lashana Lynch と Brianna Young",
+    "ogDescription": "公式に確認できる主演と Cassiopeia での Young の役割を紹介。演技と音声クレジットを区別して調べます。"
+  },
+  "hero": {
+    "h1": "Directive 8020 キャスト｜Lashana Lynch と Brianna Young",
+    "intro": "公式に確認できる主演と Cassiopeia での Young の役割を紹介。演技と音声クレジットを区別して調べます。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Young を演じるのは？",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "公式プロフィールは、Cassiopeia のパイロット Brianna Young を Lashana Lynch が演じると明記しています。以前掲載した Brooke Osmond という名前は誤りのため撤回しました。"
+          }
+        ]
+      },
+      {
+        "heading": "Young の背景",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Young は Bill Young の娘で、父に続いて宇宙へ飛ぶことを志しました。父の死後は Stafford が指導者となりました。公式の人物背景であり、特定の結末を裏付ける情報ではありません。"
+          }
+        ]
+      },
+      {
+        "heading": "登場人物と出演者を分ける",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "役職から出演者を特定することはできません。船員の名前と職務は公式名簿を、演技、音声、肖像、モーションキャプチャーはゲームのクレジットを確認してください。"
+          }
+        ]
+      },
+      {
+        "heading": "ほかの出演情報を確認する",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "使用しているバージョンと音声言語のクレジットを読んでください。顔が似ているだけでは声の担当者は確定せず、英語版の出演情報は別言語の声優を示すものでもありません。未確認の情報は推測しません。"
+          }
+        ]
+      },
+      {
+        "heading": "公式資料",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Directive 8020](https://www.thedarkpictures.com/games/directive-8020)",
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "関連ガイド",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[スタイルと操作設定](/directive-8020-skill-checks)",
+              "[登場人物](/characters)",
+              "[進行と再プレイの計画](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Directive 8020 協力プレイ｜ローカル・オンライン・機種別情報",
+    "description": "Steam、PS5、Xbox Series X|Sの公式マルチプレイ情報を比較。人数、加入条件、共有画面の表記を確認しましょう。",
+    "ogTitle": "Directive 8020 協力プレイ｜ローカル・オンライン・機種別情報",
+    "ogDescription": "Steam、PS5、Xbox Series X|Sの公式マルチプレイ情報を比較。人数、加入条件、共有画面の表記を確認しましょう。"
+  },
+  "hero": {
+    "h1": "Directive 8020 協力プレイ｜ローカル・オンライン・機種別情報",
+    "intro": "実際に使う機種とモードに合わせて計画しましょう。あるストアのオンライン機能表記が、すべての機種に同じ機能があることを示すわけではありません。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "現在の機種別表記",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "機種",
+              "掲載されている機能",
+              "開始前の確認"
+            ],
+            "rows": [
+              [
+                "Steam",
+                "オンライン協力と共有・分割画面の協力カテゴリー",
+                "インストール済みの版でモードと参加方法を確認"
+              ],
+              [
+                "PS5",
+                "1～5人、オンラインは最大5人",
+                "オンラインにはPlayStation Plusが必要"
+              ],
+              [
+                "Xbox Series X|S",
+                "ローカル協力2～5人",
+                "オンライン機能は現在のXboxページで別途確認"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "画面共有とクロスプレイは別",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steamのカテゴリーは共有画面と分割画面をまとめています。この表記だけで同時分割画面とは判断できません。オンライン協力という表記も、機種間マッチングや無料フレンドパスを保証しません。"
+          }
+        ]
+      },
+      {
+        "heading": "開始前の準備",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "参加者全員の機種について現在のストア情報を確認する。",
+              "ゲームを更新し、利用したいモードが表示されるか確認する。",
+              "招待前に購入、アカウント、加入条件を確認する。",
+              "役割分担と開始には実際の画面の操作を使う。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "以前の告知と違う理由",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "発売時の文章はオンラインを後日更新予定としていました。現在のSteamとPlayStationはオンライン機能を掲載しています。過去の予定を現在の対応状況として扱わず、機種別の最新情報を使いましょう。未確認のXboxオンライン機能は推測していません。"
+          }
+        ]
+      },
+      {
+        "heading": "関連リンク",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[PlayStation](https://www.playstation.com/en-us/games/directive-8020/)",
+              "[Xbox](https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l)",
+              "[プレイスタイルと操作](/directive-8020-skill-checks)",
+              "[エディションの選び方](/directive-8020-buy)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "PlayStation — Directive 8020",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Xbox — Directive 8020",
+        "url": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
+      }
+    ]
+  }
+}

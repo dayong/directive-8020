@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Directive 8020 收集指南｜版本內容與進度記錄",
+    "description": "核對官方豪華版收集內容，區分版本所有權與收集進度，以可靠記錄規劃搜尋，不再保證未核實的位置。",
+    "ogTitle": "Directive 8020 收集指南｜版本內容與進度記錄",
+    "ogDescription": "核對官方豪華版收集內容，區分版本所有權與收集進度，以可靠記錄規劃搜尋，不再保證未核實的位置。"
+  },
+  "hero": {
+    "h1": "Directive 8020 收集指南｜版本內容與進度記錄",
+    "intro": "先確認自己擁有哪些內容。位置攻略只有對應相同版本、更新狀態與劇情進度，才有參考價值。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "官方確認了哪些內容",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam 豪華升級包介紹了額外黑相集收集內容，包括系列早期作品的人物玩偶；商品頁也說明需要 Steam 遊戲本體。這能確認附加內容存在，不能取代主遊戲所有物品的位置地圖。"
+          }
+        ]
+      },
+      {
+        "heading": "搜尋前先確認版本",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "查看遊戲庫中的本體與附加內容。",
+              "閱讀所在平台商品說明，不假定各平台禮包名稱完全相同。",
+              "區分版本贈品與主劇情的收集物。",
+              "確認相關內容在已安裝版本中實際可用。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "如何建立有效的收集記錄",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "每件物品記錄遊戲內名稱、章節、附近目標、需要的前置選擇及是否已記為收集。截圖或存檔標記可讓位置更容易重現。物品發現記錄與未經測試的獎盃要求應分開保存。"
+          }
+        ]
+      },
+      {
+        "heading": "舊總數與位置說明",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "先前的 65 件物品總數與範例房間位置未經官方位置清單核驗，現已不再作為完整路線展示。這不代表相關房間或物品必定不存在；確切數量與路線仍需直接驗證。"
+          }
+        ]
+      },
+      {
+        "heading": "規劃重返場景",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "重玩前查看玩法風格與實際可用的 Turning Points。支援回溯不代表每件收集物都能從任何檢查點補取。嘗試後應確認物品實際記錄狀態。"
+          }
+        ]
+      },
+      {
+        "heading": "繼續查閱",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam 官方升級包說明](https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/)",
+              "[成就收集規劃](/trophies)",
+              "[玩法風格與操作](/directive-8020-skill-checks)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Digital Deluxe Upgrade",
+        "url": "https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/"
+      },
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      }
+    ]
+  }
+}

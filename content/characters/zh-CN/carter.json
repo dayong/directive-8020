@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Carter｜休眠技术员",
+    "description": "Tomas Carter，休眠技术员。航行期间与 Simms 一同负责休眠系统。",
+    "ogTitle": "Directive 8020：Carter｜休眠技术员",
+    "ogDescription": "Tomas Carter，休眠技术员。航行期间与 Simms 一同负责休眠系统。"
+  },
+  "sections": [
+    {
+      "heading": "维持飞船运作",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tomas Carter 与 Pari Simms 同为休眠技术员，在其他船员进入超睡眠时保持 Cassiopeia 的运作。官方背景提到两人经过严格筛选，工作上的互补性适合漫长航程。因此，Carter 的任务职责并不是一个可以忽略的船员标签。"
+        }
+      ]
+    },
+    {
+      "heading": "家庭与任务动力",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "少年时期的一场重病，让 Carter 更珍惜生活。他喜欢照料植物，也希望通过任务为女儿 Luna 争取未来。这些细节说明他的个人目标，不能证明他必然死亡，也不能推出某个选择一定能让他生还。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

@@ -1,3 +1,4 @@
+import type { Locale } from '@/i18n/config';
 import { CtaSection } from '@/components/content/CtaSection';
 import { HeroSection } from '@/components/content/HeroSection';
 import { SectionBlocks } from '@/components/content/SectionBlocks';
@@ -12,8 +13,8 @@ const valueTones: Record<SummaryCardTone, string> = {
   later: 'text-amber-400',
 };
 
-export default function MultiplayerView({ content }: { content: MultiplayerContent }) {
-  const faqSchema = buildFaqSchema(content.faqs);
+export default function MultiplayerView({ content, locale }: { content: MultiplayerContent; locale: Locale }) {
+  const faqSchema = buildFaqSchema(content.faqs, locale, true);
   return (
     <>
       <JsonLd data={faqSchema} />

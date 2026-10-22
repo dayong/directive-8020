@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Directive 8020 Trophy Guide | Platinum & All Achievements",
+    "description": "Complete Directive 8020 trophy guide. All 31 trophies including the platinum, missable trophies, and roadmap for achieving 100% completion.",
+    "ogTitle": "Directive 8020 Trophy Guide | Platinum & Achievements",
+    "ogDescription": "Complete trophy guide for Directive 8020 — all 31 trophies, missable warnings, and platinum roadmap."
+  },
+  "hero": {
+    "h1": "Trophy Guide",
+    "intro": "All 31 trophies for Directive 8020 on PlayStation 5. Includes the platinum roadmap, missable trophy warnings, and unlock conditions for every achievement."
+  },
+  "roadmap": {
+    "heading": "Platinum Roadmap",
+    "columns": [
+      {
+        "title": "Playthrough 1",
+        "body": "Follow the Save Everyone guide. Keep all 5 playable characters alive. Achieve the true ending."
+      },
+      {
+        "title": "Playthrough 2",
+        "body": "Make opposite choices. Let characters die. Unlock bad endings and the Casualty trophy."
+      },
+      {
+        "title": "Cleanup",
+        "body": "Use Turning Points to mop up remaining endings, collectibles, and missable trophies."
+      }
+    ]
+  },
+  "missableWarning": "⚠ {count} trophies are missable in a single playthrough. Use this guide to avoid missing them.",
+  "review": {
+    "status": "needs-review",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "notice": "Scene-specific instructions, exact counts and outcome claims in this older guide have not been fully verified against official material. Treat them as provisional."
+  }
+}

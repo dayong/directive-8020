@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Directive 8020 Codes & Passwords — All Door Codes and Puzzle Solutions",
-    "description": "All Directive 8020 codes: Locker Room 13576, Carter's PC 0828, Food Storage 0402, Diazepam 168, Anomaly Log 3196, Charybdis Probe 2540 — with how to find each one.",
-    "ogTitle": "Directive 8020 Codes & Passwords — All Door Codes and Puzzle Solutions",
-    "ogDescription": "Every door code and keypad password in Directive 8020, with the environmental clues that reveal each one."
+    "title": "Directive 8020 Codes and Passwords: Verification Status",
+    "description": "The previously published passwords and code locations have not been verified against the official sources checked. They are withdrawn as guaranteed solutions; this is not a claim that no passwords exist in the game.",
+    "ogTitle": "Directive 8020 Codes and Passwords: Verification Status",
+    "ogDescription": "The previously published passwords and code locations have not been verified against the official sources checked. They are withdrawn as guaranteed solutions; this is not a claim that no passwords exist in the game."
   },
   "hero": {
     "h1": "Directive 8020 Codes & Passwords",
@@ -12,7 +12,11 @@
   },
   "quickRef": {
     "heading": "Quick Reference — Every Code",
-    "headers": ["Location", "Episode", "Code"]
+    "headers": [
+      "Location",
+      "Episode",
+      "Code"
+    ]
   },
   "codes": [
     {
@@ -65,8 +69,52 @@
   "cta": {
     "text": "Need the surrounding context for a code's episode?",
     "links": [
-      { "href": "/walkthrough", "label": "Full Walkthrough →", "variant": "primary" },
-      { "href": "/collectibles", "label": "Collectibles Guide →", "variant": "outline" }
+      {
+        "href": "/walkthrough",
+        "label": "Full Walkthrough →",
+        "variant": "primary"
+      },
+      {
+        "href": "/collectibles",
+        "label": "Collectibles Guide →",
+        "variant": "outline"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ],
+    "replacement": {
+      "heading": "Directive 8020 Codes and Passwords: Verification Status",
+      "intro": "The previously published passwords and code locations have not been verified against the official sources checked. They are withdrawn as guaranteed solutions; this is not a claim that no passwords exist in the game.",
+      "sections": [
+        {
+          "heading": "Confirmed replay rules",
+          "text": "Explorer allows Turning Points during the story. Survivor commits you to decisions on the first run and unlocks Turning Points if you reach the ending. These rules do not prove the requirements of a particular ending or password."
+        },
+        {
+          "heading": "Before route advice is restored",
+          "text": "A reproducible record must identify the platform, game version, prior choices, actual prompt and observed result. The old details are retained for editorial review but are not published as current instructions. Use the official sources below and the verified controls guide while this review is pending."
+        }
+      ]
+    }
   }
 }

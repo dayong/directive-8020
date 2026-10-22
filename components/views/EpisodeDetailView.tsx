@@ -4,7 +4,8 @@ import { notFound } from 'next/navigation';
 import TableOfContents from '@/components/ui/TableOfContents';
 import { getEpisodeContent } from '@/lib/mdx';
 import { getEpisodes } from '@/lib/localized-data';
-import { buildAlternates } from '@/lib/page-seo';
+import { buildPageMetadata } from '@/lib/page-seo';
+import { getContentReview } from '@/lib/content';
 import type { Locale } from '@/i18n/config';
 import type { EpisodeDetailContent } from '@/types/content-pages';
 
@@ -16,24 +17,24 @@ interface Props {
 type ViewProps = Props & { content: EpisodeDetailContent };
 
 export async function generateMetadata({ content, params, locale }: ViewProps): Promise<Metadata> {
-  const data = await getEpisodeContent(params.episode, locale);
   const ep = getEpisodes(locale).find((e) => e.id === params.episode);
-
+  const review = getContentReview('walkthrough-episode', locale, `/walkthrough/${params.episode}`);
+  if (ep && review?.status === 'pending' && review.replacement) {
+    return buildPageMetadata(`walkthrough/${params.episode}`, {
+      title: review.replacement.heading,
+      description: review.replacement.intro,
+    }, locale, 'walkthrough-episode');
+  }
+  const data = await getEpisodeContent(params.episode, locale);
   if (!data || !ep) {
     return { title: content.notFoundTitle };
   }
 
-  return {
+  const metadata = buildPageMetadata(`walkthrough/${params.episode}`, {
     title: data.frontmatter.title,
     description: data.frontmatter.ogDescription || data.frontmatter.description,
-    alternates: buildAlternates(`/walkthrough/${params.episode}`, locale, 'walkthrough-episode'),
-    openGraph: {
-      title: data.frontmatter.title,
-      description: data.frontmatter.ogDescription || data.frontmatter.description,
-      images: ['/og-image.png'],
-      type: 'article',
-    },
-  };
+  }, locale, 'walkthrough-episode');
+  return { ...metadata, openGraph: { ...metadata.openGraph, type: 'article' } };
 }
 
 export default async function EpisodeDetailView({ content, params, locale }: ViewProps) {

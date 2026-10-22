@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Trophées et succès de Directive 8020 | Guide par plateforme",
+    "description": "Planifiez vos succès avec les listes officielles. Steam en affiche actuellement 30 ; les trophées PlayStation doivent être vérifiés séparément.",
+    "ogTitle": "Trophées et succès de Directive 8020 | Guide par plateforme",
+    "ogDescription": "Planifiez vos succès avec les listes officielles. Steam en affiche actuellement 30 ; les trophées PlayStation doivent être vérifiés séparément."
+  },
+  "hero": {
+    "h1": "Trophées et succès de Directive 8020 | Guide par plateforme",
+    "intro": "Consultez la liste de votre plateforme avant de viser le 100 %. Les conditions cachées peuvent révéler l’histoire : choisissez ce que vous souhaitez savoir avant de les afficher."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Choisir la bonne plateforme",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "La page officielle de la communauté Steam répertorie actuellement 30 succès. C’est la liste PC, pas un total vérifié de trophées PlayStation. Les anciens noms, grades et parcours de platine garanti ont été retirés faute de correspondance avec une liste de plateforme vérifiée."
+          }
+        ]
+      },
+      {
+        "heading": "Préparer sa progression",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Ouvrez la liste actuelle de votre plateforme et notez les éléments déjà débloqués.",
+              "Décidez si vous souhaitez afficher les descriptions cachées, susceptibles de contenir des spoilers.",
+              "Notez la version, le style de jeu et la sauvegarde de chaque tentative.",
+              "Lisez la condition exacte avant de rejouer une scène : une issue semblable ne prouve pas sa réalisation."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Le style de jeu influe sur les nouvelles tentatives",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Le guide officiel d’accessibilité indique qu’Explorer autorise Turning Points pendant l’histoire. Survivor impose les conséquences lors de la première partie et débloque Turning Points si vous atteignez la fin. Le style de jeu est distinct des réglages de QTE et des menaces en temps réel. Vérifiez les exigences du succès avant de les modifier."
+          }
+        ]
+      },
+      {
+        "heading": "Si un succès ne se débloque pas",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Comparez votre tentative au texte de la plateforme, consultez vos notes de progression et les mises à jour officielles. Conservez la sauvegarde et la version pour signaler un problème. Ce guide ne garantit aucun nombre de parties et ne présente pas de manipulation non testée comme une solution."
+          }
+        ]
+      },
+      {
+        "heading": "Liens utiles",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Liste officielle des succès Steam](https://steamcommunity.com/stats/2255370/achievements)",
+              "[Commandes et styles de jeu](/directive-8020-skill-checks)",
+              "[Mises à jour du jeu](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

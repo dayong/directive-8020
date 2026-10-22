@@ -1,12 +1,28 @@
 {
   "meta": {
-    "title": "Directive 8020: personajes | Tripulación y supervivencia",
-    "description": "Conoce a los personajes de Directive 8020: Osmond, Stafford, Eisele, Cernan, Cooper, Carter y Simms. Descubre quién puede sobrevivir y quién no.",
-    "ogTitle": "Directive 8020: personajes | Toda la tripulación",
-    "ogDescription": "Guía completa de personajes de Directive 8020: fichas de la tripulación, estado de supervivencia y decisiones clave de cada personaje."
+    "title": "Personajes de Directive 8020 | Nombres y cargos oficiales",
+    "description": "Conoce los nombres y cargos de la tripulación de la Cassiopeia, contrastados con el sitio oficial de Directive 8020."
   },
   "hero": {
-    "h1": "Personajes",
-    "intro": "La tripulación de la Cassiopeia. 9 personajes: 5 jugables, 2 NPC y 2 con muertes guionizadas. Conoce a quién puedes salvar y a quién no."
+    "h1": "La tripulación de la Cassiopeia",
+    "intro": "El sitio oficial presenta diez personajes con nombre. PlayStation destaca a cinco como jugables. Estas fichas describen identidades y cargos, sin garantizar resultados de supervivencia."
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Which Eisele Is Real in Directive 8020? Trust the Newcomer",
-    "description": "Which Eisele is real in Directive 8020? The newcomer is the real Eisele — the familiar one is the mimic. Animation tell, clone context, and why this choice locks the true ending.",
-    "ogTitle": "Which Eisele Is Real in Directive 8020? Trust the Newcomer",
-    "ogDescription": "Episode 6 two-Eisele standoff guide — trust the newcomer, never the familiar one. The fear animation tell, and why this choice determines your ending."
+    "title": "Identifying Eisele: What the Official Sources Confirm",
+    "description": "Laura Eisele is the Senior Mission Officer and the mission architect. The official presentation establishes an alien that can imitate people, but does not verify the previously published instruction to always trust the newcomer.",
+    "ogTitle": "Identifying Eisele: What the Official Sources Confirm",
+    "ogDescription": "Laura Eisele is the Senior Mission Officer and the mission architect. The official presentation establishes an alien that can imitate people, but does not verify the previously published instruction to always trust the newcomer."
   },
   "hero": {
     "h1": "Which Eisele Is Real in Directive 8020? Trust the Newcomer, Not the One You Know",
@@ -33,19 +33,30 @@
         },
         {
           "type": "table",
-          "headers": ["Eisele", "Her Behavior", "Animation Detail", "Verdict"],
+          "headers": [
+            "Eisele",
+            "Her Behavior",
+            "Animation Detail",
+            "Verdict"
+          ],
           "rows": [
             [
               "**The one already traveling with the group**",
               "Defensive posture looks practiced. Too smooth, too controlled — like an actor playing scared.",
               "Fear response is “clean” — steady breathing, measured reactions, no involuntary flinches.",
-              { "text": "FAKE — This is the mimic", "tone": "red" }
+              {
+                "text": "FAKE — This is the mimic",
+                "tone": "red"
+              }
             ],
             [
               "**The newcomer (arrives separately)**",
               "Genuinely startles when the gun swings her way. Shoulders tense involuntarily. Eyes track the barrel like a real person facing a real threat.",
               "Fear is “messy” — micro-flinches, uneven breathing, that raw animal panic you can't fake.",
-              { "text": "REAL — Trust this one", "tone": "green" }
+              {
+                "text": "REAL — Trust this one",
+                "tone": "green"
+              }
             ]
           ]
         },
@@ -59,7 +70,11 @@
         },
         {
           "type": "table",
-          "headers": ["Option", "Consequence", "What Happens"],
+          "headers": [
+            "Option",
+            "Consequence",
+            "What Happens"
+          ],
           "rows": [
             [
               "**Trust the newcomer** (arrives separately, shows genuine fear)",
@@ -142,5 +157,37 @@
       ]
     }
   ],
-  "outro": "Need the full scene-by-scene breakdown for the rest of this chapter? Check the [Episode 6 Walkthrough](/walkthrough/episode-6). Lost Anders at the outdoor junction before this scene? The [Cove Choice Guide](/directive-8020-cove) explains exactly how to fix that. Going for the best possible outcome? The [Save Everyone Guide](/save-everyone) tracks every prerequisite across all eight episodes."
+  "outro": "Need the full scene-by-scene breakdown for the rest of this chapter? Check the [Episode 6 Walkthrough](/walkthrough/episode-6). Lost Anders at the outdoor junction before this scene? The [Cove Choice Guide](/directive-8020-cove) explains exactly how to fix that. Going for the best possible outcome? The [Save Everyone Guide](/save-everyone) tracks every prerequisite across all eight episodes.",
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "replacement": {
+      "heading": "Identifying Eisele: What the Official Sources Confirm",
+      "intro": "Laura Eisele is the Senior Mission Officer and the mission architect. The official presentation establishes an alien that can imitate people, but does not verify the previously published instruction to always trust the newcomer.",
+      "sections": [
+        {
+          "heading": "What was corrected",
+          "text": "The earlier scene-specific instructions and first-person playthrough claims are withdrawn pending verification. No replacement guess is being presented as a proven solution."
+        },
+        {
+          "heading": "How to proceed",
+          "text": "Use the current in-game prompts and Turning Points options. Official material confirms revisiting key decisions, but does not document every scene or guarantee a particular ending. This page will need a verified scene-by-scene account before its route advice is restored."
+        }
+      ]
+    }
+  }
 }

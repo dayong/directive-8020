@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Directive 8020 選択肢とTurning Points｜物語の分岐ガイド",
+    "description": "ExplorerとSurvivorでの選択の扱い、分岐の比較方法、信頼できるプレイ記録に必要な情報を解説します。",
+    "ogTitle": "Directive 8020 選択肢とTurning Points｜物語の分岐ガイド",
+    "ogDescription": "ExplorerとSurvivorでの選択の扱い、分岐の比較方法、信頼できるプレイ記録に必要な情報を解説します。"
+  },
+  "hero": {
+    "h1": "Directive 8020 選択肢とTurning Points｜物語の分岐ガイド",
+    "intro": "まず選択に戻るためのルールを確認しましょう。公式アクセシビリティ説明はTurning Pointsを利用できる時期を説明していますが、全場面共通の正解表は示していません。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer：物語の途中で戻る",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorerは物語の途中でTurning Pointsを利用でき、登場人物の死を取り消す選択肢もあります。以前の結果が永久に確定したと思い込まず、関係する決定に戻って新しい分岐を観察しましょう。"
+          }
+        ]
+      },
+      {
+        "heading": "Survivor：初回は決断を引き受ける",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Survivorでは最初の物語中にTurning Pointsで戻ることはできません。結末に到達すると、別の結果を探るために解放されます。QTEやリアルタイムの脅威の難易度とは別の設定です。"
+          }
+        ]
+      },
+      {
+        "heading": "記録を残して比較する",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "実際の選択文、操作中の人物、それ以前の決断を記録する。",
+              "バージョン、プレイスタイル、使用したセーブを残す。",
+              "直後の反応だけでなく、後の場面も観察する。",
+              "原因を調べるときは一度に一つの決定を変える。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "以前の結果予測について",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "以前の表とインタラクティブな予測は、再現可能な場面別記録で裏付けられておらず、解法としての掲載を終了しました。特に永久に変更できないという断言を、Explorerの公式ルールより優先してはいけません。新たな結果攻略には再現できる手順が必要です。"
+          }
+        ]
+      },
+      {
+        "heading": "関連ガイド",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[操作とQTE設定](/directive-8020-skill-checks)",
+              "[章別案内](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

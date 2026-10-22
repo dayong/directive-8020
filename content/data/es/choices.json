@@ -2,7 +2,7 @@
   "e1-initial-response": {
     "scene": "Brecha en el casco",
     "description": "Tras la brecha en el casco, ¿cómo respondes?",
-    "relationshipDetail": "Marca la base de cómo Stafford y la tripulación ven el liderazgo de Osmond. La confianza perdida al evacuar se arrastra hasta el Ep2.",
+    "relationshipDetail": "Marca la base de cómo Stafford y la tripulación ven el liderazgo de Young. La confianza perdida al evacuar se arrastra hasta el Ep2.",
     "options": [
       {
         "label": "Sellar la brecha",
@@ -24,7 +24,7 @@
   "e1-honor-implore": {
     "scene": "Complejo médico",
     "description": "Stafford te confronta por la situación. ¿Cómo respondes?",
-    "relationshipDetail": "Stafford registra cada interacción. Honor abre su camino de Destiny en el Ep5. Suplicar marca a Osmond como débil de forma permanente en el registro interno de Stafford.",
+    "relationshipDetail": "Stafford registra cada interacción. Honor abre su camino de Destiny en el Ep5. Suplicar marca a Young como débil de forma permanente en el registro interno de Stafford.",
     "options": [
       {
         "label": "Honor",
@@ -227,7 +227,7 @@
       {
         "label": "Sigue las instrucciones de Cooper al pie de la letra",
         "text": "Sigue las instrucciones de Cooper al pie de la letra",
-        "consequence": "Navegación segura: sobreviven tanto Osmond como Cooper.",
+        "consequence": "Navegación segura: sobreviven tanto Young como Cooper.",
         "characterEffect": "Cooper: relación +",
         "chainEffect": "Se construye la confianza de Cooper → escape del reactor del Ep6: Cooper se ofrece como señuelo sin dudar → ventana de escape más limpia.",
         "endingImpact": "Mejora el margen de seguridad del escape del reactor del Ep6."
@@ -256,8 +256,8 @@
       {
         "label": "Investiga más a fondo",
         "text": "Investiga más a fondo",
-        "consequence": "Riesgo innecesario: Osmond puede resultar herido.",
-        "chainEffect": "Osmond sufre daño por caída → posible marca cosmética permanente → la tripulación cuestiona tu criterio → el Ep5 empieza con menos confianza.",
+        "consequence": "Riesgo innecesario: Young puede resultar herido.",
+        "chainEffect": "Young sufre daño por caída → posible marca cosmética permanente → la tripulación cuestiona tu criterio → el Ep5 empieza con menos confianza.",
         "endingImpact": "Indirecta: la menor confianza en el Ep5 hace la confrontación con Williams un poco más difícil."
       }
     ]
@@ -330,7 +330,7 @@
   },
   "e5-stafford-destiny": {
     "scene": "El colapso de Stafford — Momento de destino",
-    "description": "Stafford sufre un colapso. Osmond puede animarlo. Requiere la cadena de apoyo del Ep1-3 para lograr el mejor efecto.",
+    "description": "Stafford sufre un colapso. Young puede animarlo. Requiere la cadena de apoyo del Ep1-3 para lograr el mejor efecto.",
     "relationshipDetail": "Culminación de Ep1 Honor→Considerar→Escuchar en el Ep2→Cernan en el Ep3. Se necesitan los 3 activadores previos.",
     "options": [
       {

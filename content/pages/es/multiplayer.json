@@ -1,204 +1,111 @@
 {
   "meta": {
-    "title": "Directive 8020: multijugador, pantalla dividida y crossplay",
-    "description": "Directive 8020 tiene cooperativo local Movie Night para 5 jugadores. Sin pantalla dividida, sin modo online y sin crossplay. Todas las respuestas.",
-    "ogTitle": "Directive 8020: multijugador, pantalla dividida y crossplay",
-    "ogDescription": "Guía cooperativa de Directive 8020: Movie Night local para 5 jugadores. Sin pantalla dividida, sin modo online y sin crossplay todavía. Todas las respuestas."
+    "title": "Cooperativo de Directive 8020 | Local, online y plataformas",
+    "description": "Compara los datos oficiales de Steam, PS5 y Xbox Series X|S: jugadores, suscripciones y significado de las etiquetas de pantalla compartida.",
+    "ogTitle": "Cooperativo de Directive 8020 | Local, online y plataformas",
+    "ogDescription": "Compara los datos oficiales de Steam, PS5 y Xbox Series X|S: jugadores, suscripciones y significado de las etiquetas de pantalla compartida."
   },
   "hero": {
-    "h1": "¿Directive 8020 tiene multijugador, pantalla dividida o crossplay?",
-    "tagline": "Solo cooperativo local Movie Night: sin pantalla dividida y sin modo online por ahora.",
-    "intro": "Todo lo que necesitas saber sobre los modos cooperativos de Directive 8020, respondido pregunta a pregunta."
+    "h1": "Cooperativo de Directive 8020 | Local, online y plataformas",
+    "intro": "Organiza la partida según la plataforma y el modo que vais a usar. Una función online anunciada en una tienda no confirma la misma capacidad en todas las versiones."
   },
-  "summaryCards": {
-    "cards": [
+  "article": {
+    "sections": [
       {
-        "icon": "🎮",
-        "label": "Cooperativo local",
-        "tone": "yes",
-        "value": "Sí",
-        "desc": "Movie Night, hasta 5 jugadores"
+        "heading": "Qué indican las páginas actuales",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Plataforma",
+              "Capacidad anunciada",
+              "Antes de jugar"
+            ],
+            "rows": [
+              [
+                "Steam",
+                "Cooperativo online y categoría de pantalla compartida/dividida",
+                "Confirma el modo y la formación del grupo en tu versión"
+              ],
+              [
+                "PS5",
+                "1–5 jugadores; hasta cinco online",
+                "PlayStation Plus es necesario para jugar online"
+              ],
+              [
+                "Xbox Series X|S",
+                "Cooperativo local para 2–5 jugadores",
+                "Comprueba aparte las funciones online en la página actual de Xbox"
+              ]
+            ]
+          }
+        ]
       },
       {
-        "icon": "🖥️",
-        "label": "Pantalla dividida",
-        "tone": "no",
-        "value": "No",
-        "desc": "Una sola pantalla, pasar el mando"
+        "heading": "Pantalla compartida no equivale a juego cruzado",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam agrupa pantalla compartida y dividida en una categoría. La etiqueta no demuestra por sí sola pantalla dividida simultánea. El cooperativo online tampoco confirma emparejamiento entre plataformas ni un pase de amigo gratuito."
+          }
+        ]
       },
       {
-        "icon": "🌐",
-        "label": "Online / crossplay",
-        "tone": "later",
-        "value": "Todavía no",
-        "desc": "Actualización gratuita anunciada, sin fecha"
+        "heading": "Prepara la sesión",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Consulta la ficha actual de la plataforma de cada participante.",
+              "Actualiza el juego y confirma que aparece el modo deseado.",
+              "Revisa compra, cuenta y suscripciones antes de invitar.",
+              "Usa los controles reales de la pantalla para asignar personajes y empezar."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Por qué difieren los anuncios antiguos",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Los textos de lanzamiento presentaban el online como actualización futura. Las fichas actuales de Steam y PlayStation ya lo anuncian. Usa información actual por plataforma en vez de tomar una promesa antigua como disponibilidad de hoy. No deducimos funciones online de Xbox sin confirmar."
+          }
+        ]
+      },
+      {
+        "heading": "Enlaces útiles",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[PlayStation](https://www.playstation.com/en-us/games/directive-8020/)",
+              "[Xbox](https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l)",
+              "[Estilos y controles](/directive-8020-skill-checks)",
+              "[Elegir la edición correcta](/directive-8020-buy)"
+            ]
+          }
+        ]
       }
     ]
   },
-  "sections": [
-    {
-      "heading": "¿Directive 8020 es multijugador?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Sí, pero solo en modo local en el lanzamiento. El modo **Movie Night** admite hasta **5 jugadores** que se pasan un mismo mando en una sola pantalla. Todavía no hay multijugador online."
-        }
-      ]
-    },
-    {
-      "heading": "¿Directive 8020 tiene pantalla dividida?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**No: en Directive 8020 no hay pantalla dividida.** Movie Night es un **modo por turnos en una sola pantalla**: todos ven la misma pantalla y el mando pasa a quien tenga su personaje en la escena. El juego te avisa con el nombre del jugador cuando es su turno. Piénsalo como pasar el mando en un juego de fiesta, no como partir la tele en dos."
-        },
-        {
-          "type": "paragraph",
-          "text": "¿Te confunde la página de Steam? Steam lista **«Shared/Split Screen Co-op»** como una única etiqueta combinada, y un juego la obtiene con cualquiera de las dos mitades. Directive 8020 la cumple por la mitad de **«Shared Screen»**: todo el sofá ve una sola pantalla a la vez. La imagen nunca se divide."
-        }
-      ]
-    },
-    {
-      "heading": "¿Directive 8020 tiene multijugador online?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**Todavía no, pero está confirmado que llegará.** Supermassive Games anunció el Movie Night online como una actualización gratuita posterior al lanzamiento que replica la experiencia cooperativa del sofá con hasta 5 jugadores, y sus [notas del parche de junio de 2026](https://store.steampowered.com/news/app/2255370/view/673997481174894605) lo reconfirman: «Sobre el multijugador online, sin duda llegará y el equipo está trabajando duro en ello». Aún no se ha anunciado fecha de lanzamiento."
-        }
-      ]
-    },
-    {
-      "heading": "¿Directive 8020 tiene crossplay?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**No.** En Directive 8020 no hay crossplay: el modo online aún no ha salido, así que no hay nada entre lo que hacer crossplay. Tampoco se ha anunciado crossplay para la próxima actualización de Movie Night online."
-        }
-      ]
-    },
-    {
-      "heading": "¿Cómo funciona el cooperativo local (Movie Night)?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Empieza una partida nueva, elige **Movie Night** y asigna cada uno de los 5 personajes jugables a un jugador. Cuando el personaje de un jugador sale en una escena, se le pasa el mando. Los jugadores pueden **votar las decisiones clave** juntos, y el grupo puede usar los Puntos de inflexión para rebobinar muertes y reintentar secciones."
-        },
-        {
-          "type": "subheading",
-          "text": "Consejos para Movie Night"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Asigna los personajes según el tiempo en pantalla que tienen: Osmond tiene el mayor, Cooper menos",
-            "Usa la opción **Shared Controller** si no tienes suficientes mandos",
-            "Ponte de acuerdo con tu grupo antes de empezar: las votaciones de las decisiones importantes son donde se ganan o se pierden las noches de Movie Night"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "¿Cómo invitas a tus amigos a jugar?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "En local, los amigos se unen sentándose en el sofá: no hay nada a lo que invitarlos hasta que llegue la **actualización de Movie Night online**. Cuando salga, las invitaciones funcionarán a través de la lista de amigos de tu plataforma."
-        }
-      ]
-    },
-    {
-      "heading": "¿Hay Remote Play Together?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**En Steam, no**: Remote Play Together no es una función listada de Directive 8020. La página de Steam lista **Remote Play on TV**, que es otra cosa: transmite de tu PC a una pantalla de tu propia casa, no a tus amigos."
-        },
-        {
-          "type": "paragraph",
-          "text": "**PlayStation Share Play** y la **retransmisión de pantalla de Xbox** sí funcionan hoy como apaño, porque sirven con cualquier juego: el anfitrión inicia Movie Night y los amigos remotos juegan por turnos a través de la emisión. Eso sí, cuenta con algo de latencia de entrada y compresión de vídeo."
-        }
-      ]
-    },
-    {
-      "heading": "¿Qué pasó con Shared Story?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "El modo **Shared Story** online para 2 jugadores de anteriores juegos de Dark Pictures **no está incluido en Directive 8020**. El estudio concentró el cooperativo solo en Movie Night."
-        }
-      ]
-    },
-    {
-      "heading": "¿Directive 8020 tiene pase de amigo?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**No se ha anunciado ningún pase de amigo.** Para el Movie Night local solo necesitas **una copia del juego**: todos juegan en la misma pantalla. Para la próxima actualización de Movie Night online, cuenta con que cada jugador tenga su propia copia."
-        }
-      ]
-    },
-    {
-      "heading": "¿Cuántos jugadores pueden jugar a Directive 8020?",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**Hasta 5 jugadores** en el modo Movie Night. También puedes jugar con **2, 3 o 4 jugadores**: solo tienes que repartir los 5 personajes jugables entre los jugadores presentes."
-        }
-      ]
-    }
-  ],
-  "faqHeading": "Preguntas frecuentes",
-  "faqs": [
-    {
-      "q": "¿Directive 8020 es multijugador?",
-      "a": "Sí, pero solo en modo local en el lanzamiento. El modo Movie Night admite hasta 5 jugadores que se pasan un mismo mando en una sola pantalla. Todavía no hay multijugador online."
-    },
-    {
-      "q": "¿Directive 8020 tiene pantalla dividida?",
-      "a": "No: en Directive 8020 no hay pantalla dividida. Movie Night es un modo por turnos en una sola pantalla: todos ven la misma pantalla y el mando pasa a quien tenga su personaje en la escena."
-    },
-    {
-      "q": "¿Directive 8020 tiene multijugador online?",
-      "a": "Todavía no. El Movie Night online está confirmado como actualización gratuita posterior al lanzamiento: las notas del parche de junio de 2026 de Supermassive Games dicen que «sin duda llegará y el equipo está trabajando duro en ello». Aún no se ha anunciado fecha de lanzamiento."
-    },
-    {
-      "q": "¿Tendrá Directive 8020 multijugador online?",
-      "a": "Sí. Supermassive Games ha confirmado el multijugador online como actualización gratuita posterior al lanzamiento, que replica la experiencia cooperativa de sofá de Movie Night con hasta 5 jugadores. Aún no se ha anunciado fecha de lanzamiento."
-    },
-    {
-      "q": "¿Directive 8020 tiene crossplay?",
-      "a": "No. En Directive 8020 no hay crossplay: el modo online aún no ha salido, así que no hay nada entre lo que hacer crossplay. Tampoco se ha anunciado crossplay para la próxima actualización de Movie Night online."
-    },
-    {
-      "q": "¿Cómo funciona el cooperativo local (Movie Night)?",
-      "a": "Empieza una partida nueva, elige Movie Night y asigna cada uno de los 5 personajes jugables a un jugador. Cuando el personaje de un jugador sale en una escena, se le pasa el mando. Los jugadores pueden votar las decisiones clave juntos."
-    },
-    {
-      "q": "¿Cómo invitas a tus amigos a jugar?",
-      "a": "En local, los amigos se unen sentándose en el sofá: no hay nada a lo que invitarlos hasta que llegue la actualización de Movie Night online. Cuando salga, las invitaciones funcionarán a través de la lista de amigos de tu plataforma."
-    },
-    {
-      "q": "¿Hay Remote Play Together?",
-      "a": "En Steam, no: Remote Play Together no es una función listada de Directive 8020. PlayStation Share Play y la retransmisión de pantalla de Xbox sí funcionan hoy como apaño; eso sí, cuenta con algo de latencia."
-    },
-    {
-      "q": "¿Qué pasó con Shared Story?",
-      "a": "El modo Shared Story online para 2 jugadores de anteriores juegos de Dark Pictures no está incluido en Directive 8020. El estudio concentró el cooperativo solo en Movie Night."
-    },
-    {
-      "q": "¿Directive 8020 tiene pase de amigo?",
-      "a": "No se ha anunciado ningún pase de amigo. Para el Movie Night local solo necesitas una copia del juego: todos juegan en la misma pantalla. Para la próxima actualización de Movie Night online, cuenta con que cada jugador tenga su propia copia."
-    },
-    {
-      "q": "¿Cuántos jugadores pueden jugar a Directive 8020?",
-      "a": "Hasta 5 jugadores en el modo Movie Night. También puedes jugar con 2, 3 o 4: solo tienes que repartir los 5 personajes jugables entre los jugadores presentes."
-    }
-  ],
-  "cta": {
-    "text": "¿Listo para jugar? Empieza aquí:",
-    "links": [
-      { "href": "/walkthrough", "label": "Guía completa →", "variant": "primary" },
-      { "href": "/save-everyone", "label": "Salvar a todos →", "variant": "outline" }
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "PlayStation — Directive 8020",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Xbox — Directive 8020",
+        "url": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
+      }
     ]
   }
 }

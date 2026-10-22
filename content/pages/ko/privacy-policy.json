@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "개인정보 처리방침 | Directive 8020 가이드",
+    "description": "언어 설정 저장, 방문 분석, 외부 링크 및 개인정보 관련 문의 방법을 안내합니다.",
+    "ogTitle": "개인정보 처리방침 | Directive 8020 가이드",
+    "ogDescription": "언어 설정 저장, 방문 분석, 외부 링크 및 개인정보 관련 문의 방법을 안내합니다."
+  },
+  "hero": {
+    "h1": "개인정보 처리방침 | Directive 8020 가이드",
+    "intro": "언어 설정 저장, 방문 분석, 외부 링크 및 개인정보 관련 문의 방법을 안내합니다."
+  },
+  "sections": [
+    {
+      "heading": "언어 설정과 브라우저 저장소",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "언어를 선택하거나 추천을 닫으면 선택한 언어를 브라우저 localStorage의 directive-locale에 저장합니다. 사이트 데이터를 지우거나 브라우저가 삭제할 때까지 남으며 분석 Cookie와는 별개입니다. 페이지 언어는 URL로 결정되고 저장된 설정으로 강제 이동하지 않습니다. 브라우저 언어는 추천을 위해 기기에서 읽습니다."
+        }
+      ]
+    },
+    {
+      "heading": "방문 분석",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "사이트 이용을 파악하기 위해 Google Analytics 4를 불러옵니다. Google의 측정은 페이지 주소, 유입 경로, 기기 및 브라우저 정보와 Cookie를 처리할 수 있습니다. 배포 설정에 따라 선택적으로 Umami도 불러옵니다. Google Analytics와는 별도로 설정됩니다. 아래 제공업체 문서를 참고하세요. 개인정보를 전혀 처리하지 않는다고 단정하지 않습니다."
+        }
+      ]
+    },
+    {
+      "heading": "브라우저에서 선택하기",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "브라우저의 사이트 데이터 설정에서 저장소와 Cookie를 지울 수 있습니다. directive-locale을 지우면 저장된 언어가 초기화됩니다. 스크립트나 Cookie를 차단하면 분석 또는 설정 기능에 영향을 줄 수 있으며 Cookie만 막는다고 모든 측정이 멈추는 것은 아닙니다. Google은 [Analytics 차단 부가 기능](https://tools.google.com/dlpage/gaoptout)도 제공합니다. 이 사이트에서 Do Not Track이 거부 수단으로 작동하는지는 확인되지 않았습니다."
+        }
+      ]
+    },
+    {
+      "heading": "외부 서비스와 구매 링크",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "호스팅과 전송에는 Cloudflare를 사용합니다. 외부 상점이나 제삼자 링크로 이동하면 해당 서비스의 방침이 적용됩니다. 일부 구매 링크에는 제휴 식별자가 있으며 조건에 맞는 구매로 사이트가 수수료를 받을 수 있습니다. 이용자에게 추가 비용은 없습니다. 사이트는 해당 구매의 결제 정보를 받지 않습니다. 이메일 문의 시 내용과 이메일 주소는 직접 제공하는 정보입니다."
+        }
+      ]
+    },
+    {
+      "heading": "보관 기간과 개인정보 요청",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "언어 설정은 삭제될 때까지 브라우저에 남습니다. 분석 정보의 보관 기간은 서비스 및 계정 설정에 따르므로 확인하지 않은 고정 기간을 명시하지 않습니다. 적용 법률에 따라 열람, 정정, 삭제 또는 처리 반대 등의 권리가 있을 수 있습니다. 문의 채널로 요청해 주세요. 브라우저 설정은 요청을 대신하지 않습니다. 이 가이드는 성인 등급의 게임을 다루며 아동을 대상으로 하지 않습니다. 아동 정보에 관한 우려가 있으면 알려 주세요."
+        }
+      ]
+    },
+    {
+      "heading": "문의 및 변경",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "개인정보 질문이나 요청은 [contact@directive-8020.com](mailto:contact@directive-8020.com)으로 보내 주세요. 비밀번호나 카드 정보를 보내지 마세요. 이 안내는 2026-10-22에 갱신되었으며 변경 사항은 이 페이지에 게시됩니다."
+        }
+      ]
+    },
+    {
+      "heading": "제공업체 방침 및 문서",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "[Google](https://policies.google.com/privacy)",
+            "[Google Analytics — Cookies](https://support.google.com/analytics/answer/11397207)",
+            "[Google Analytics — Retention](https://support.google.com/analytics/answer/7667196)",
+            "[Umami](https://docs.umami.is/docs/collect-data)",
+            "[Cloudflare](https://www.cloudflare.com/privacypolicy/)"
+          ]
+        }
+      ]
+    }
+  ]
+}

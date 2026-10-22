@@ -1,0 +1,152 @@
+{
+  "layoutMeta": {
+    "defaultTitle": "Directive 8020 攻略導覽｜角色、選擇與合作玩法",
+    "titleTemplate": "%s | Directive 8020",
+    "description": "認識 Directive 8020 的 Cassiopeia 船員、分支選擇、Turning Points 與合作玩法，依主題尋找攻略及官方資料。",
+    "ogTitle": "Directive 8020 攻略導覽｜角色、選擇與合作玩法",
+    "ogDescription": "認識 Directive 8020 的 Cassiopeia 船員、分支選擇、Turning Points 與合作玩法，依主題尋找攻略及官方資料。",
+    "jsonLdDescription": "這是一款由 Supermassive Games 製作的電影式科幻恐怖冒險遊戲。Cassiopeia 的船員面對能夠模仿人類的外星威脅，你的決定將影響故事走向。",
+    "jsonLdGenres": [
+      "恐怖",
+      "互動劇情",
+      "科幻"
+    ]
+  },
+  "nav": {
+    "walkthrough": "流程攻略",
+    "saveEveryone": "全員生還",
+    "allEndings": "所有結局",
+    "choices": "劇情選擇",
+    "characters": "角色",
+    "trophies": "獎盃"
+  },
+  "tabs": {
+    "guide": "攻略",
+    "saveAll": "生還",
+    "endings": "結局",
+    "choices": "選擇",
+    "crew": "船員",
+    "trophies": "獎盃"
+  },
+  "languageSwitcher": {
+    "label": "語言"
+  },
+  "footer": {
+    "story": "劇情",
+    "gameplay": "玩法",
+    "collectibles": "收集要素",
+    "technical": "技術支援",
+    "bestEnding": "最佳結局",
+    "gameLength": "遊戲時長",
+    "trophyGuide": "獎盃攻略",
+    "multiplayer": "多人遊戲",
+    "bugFixes": "問題修復",
+    "charactersAndCast": "角色與演員",
+    "trophiesAndAchievements": "獎盃與成就",
+    "crashingAndFixes": "當機與修復",
+    "pcIssues": "PC 常見問題",
+    "consoleIssues": "主機常見問題",
+    "whereToBuy": "購買指南",
+    "privacyPolicy": "隱私權政策",
+    "contact": "聯絡我們",
+    "disclaimer1": "非官方玩家攻略站，與 Supermassive Games 無關聯。",
+    "disclaimer2": "Directive 8020 屬於 The Dark Pictures Anthology 系列。本站為非官方玩家攻略站。",
+    "affiliateNote": "本站部分商店連結為推廣連結。透過這些連結購買符合條件的商品時，我們可能獲得佣金，你無須支付額外費用。",
+    "walkthrough": "流程攻略",
+    "saveEveryone": "全員生還",
+    "allEndings": "所有結局",
+    "choices": "劇情選擇",
+    "collectiblesLink": "收集要素"
+  },
+  "breadcrumbs": {
+    "episodeFormat": "第 {number} 章：{title}",
+    "ariaLabel": "麵包屑導覽",
+    "labels": {
+      "": "首頁",
+      "walkthrough": "流程攻略",
+      "save-everyone": "全員生還",
+      "all-endings": "所有結局",
+      "choices": "劇情選擇",
+      "characters": "角色",
+      "trophies": "獎盃攻略",
+      "collectibles": "收集要素",
+      "game-length": "遊戲時長",
+      "bug-fixes": "問題修復",
+      "multiplayer": "多人遊戲",
+      "directive-8020-cove": "Cove 指南",
+      "directive-8020-actress": "角色與演員",
+      "directive-8020-buy": "購買指南",
+      "privacy-policy": "隱私權政策",
+      "who-is-the-real-eisele-directive-8020": "辨認真正的 Eisele",
+      "shoot-williams-or-stand-down": "向 Williams 開槍還是放下武器？",
+      "can-carter-survive": "Carter 能活下來嗎？",
+      "directive-8020-skill-checks": "技能檢定",
+      "codes": "密碼與口令"
+    }
+  },
+  "spoiler": {
+    "title": "劇透提醒",
+    "body": "點擊展開。本節包含關鍵劇情劇透，可能影響你的遊玩體驗。"
+  },
+  "toc": {
+    "heading": "本頁目錄"
+  },
+  "episodeCard": {
+    "keyChoicesFormat": "{count} 個關鍵選擇"
+  },
+  "choiceCard": {
+    "recommended": "✓ 建議",
+    "avoid": "✗ 避免",
+    "crossEpisode": "⟳ 跨章節影響：",
+    "endingImpact": "🎯 對結局的影響："
+  },
+  "endingCard": {
+    "trueEnding": "真正結局",
+    "condition": "條件：",
+    "survivors": "生還者：",
+    "turningPoint": "轉折點："
+  },
+  "characterBadge": {
+    "scriptedDeath": "劇情固定死亡",
+    "deceased": "已死亡",
+    "unverified": "結局結果尚未核實"
+  },
+  "charactersView": {
+    "actor": "演員：",
+    "canSurvive": "可以生還",
+    "npcCanSurvive": "非玩家角色，可生還",
+    "scriptedDeath": "劇情固定死亡",
+    "notConfirmed": "所查資料尚未確認",
+    "outcomeUnverified": "結局結果尚未核實",
+    "playable": "可操作船員",
+    "supporting": "配角"
+  },
+  "trophiesView": {
+    "platinum": "白金",
+    "gold": "金",
+    "silver": "銀",
+    "bronze": "銅",
+    "missable": "可錯過"
+  },
+  "allEndingsView": {
+    "notAvailable": "不適用"
+  },
+  "accessibility": {
+    "openMenu": "開啟選單",
+    "closeMenu": "關閉選單",
+    "playPreview": "播放預告影片",
+    "episodeFormat": "第 {number} 章",
+    "dismissLanguage": "關閉語言建議",
+    "fallbackLanguage": "目標頁面為英文",
+    "englishContent": "此篇指南目前提供英文內容。",
+    "officialSource": "官方遊戲介紹"
+  },
+  "errors": {
+    "notFoundTitle": "找不到此頁面",
+    "notFoundBody": "此語言下沒有該頁面。請選擇有對應內容的語言，或返回首頁。",
+    "home": "返回首頁",
+    "loadTitle": "頁面載入失敗",
+    "loadBody": "請嘗試重新載入此頁面。",
+    "retry": "重試"
+  }
+}

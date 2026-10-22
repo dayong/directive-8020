@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Cernan｜技術工程師",
+    "description": "Josef Cernan，技術工程師。負責技術工程，習慣從容思考問題。",
+    "ogTitle": "Directive 8020：Cernan｜技術工程師",
+    "ogDescription": "Josef Cernan，技術工程師。負責技術工程，習慣從容思考問題。"
+  },
+  "sections": [
+    {
+      "heading": "工程能力與人生觀",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Josef Cernan 是 Cassiopeia 的技術工程師。他曾從土耳其前往荷蘭學習工程，並在那段期間接觸及實踐佛教。官方檔案不只強調他解決硬體問題的能力，也提到他對身邊人的理解，因此他的作用不能只概括為修理設備。"
+        }
+      ]
+    },
+    {
+      "heading": "參加任務的動力",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "對已故伴侶許下的承諾，促使 Cernan 參加任務，努力過上值得自己驕傲的生活。他開放、體貼的態度讓他成為船員之間的重要連結。不過，這份樂觀屬於人物塑造，不能證明每個障礙都有固定成功輸入，也不構成生還保證。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

@@ -7,8 +7,10 @@ export interface Character {
   fullName: string;
   actor: string;
   role: string;
-  canDie: boolean; // false = scripted death
-  scriptedDeath: boolean; // Carter/Simms = true
+  canDie: boolean; // legacy tracker default; not proof of a story outcome
+  scriptedDeath: boolean;
+  survivalVerified?: boolean;
+  sourceUrl?: string;
   description: string;
   destiny?: string; // Destiny title
   playable?: boolean; // false = NPC (Williams/Mitchell)

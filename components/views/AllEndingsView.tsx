@@ -2,7 +2,7 @@ import EndingCard from '@/components/ui/EndingCard';
 import { CtaSection } from '@/components/content/CtaSection';
 import { HeroSection } from '@/components/content/HeroSection';
 import { getEndings } from '@/lib/localized-data';
-import { uiStrings } from '@/i18n/ui';
+import { getUiStrings } from '@/i18n/ui';
 import type { Locale } from '@/i18n/config';
 import type { AllEndingsContent } from '@/types/content-pages';
 
@@ -17,7 +17,7 @@ export default function AllEndingsView({
   const endings = getEndings(locale);
   const trueEnding = endings.find((e) => e.isTrueEnding) ?? null;
   const otherEndings = endings.filter((e) => !e.isTrueEnding);
-  const notAvailable = uiStrings[locale].allEndingsView.notAvailable;
+  const notAvailable = getUiStrings(locale).allEndingsView.notAvailable;
 
   return (
     <>

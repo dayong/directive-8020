@@ -1,0 +1,32 @@
+{
+  "notFoundTitle": "登場人物が見つかりません",
+  "metaTitleFormat": "Directive 8020の{name} — {role}",
+  "metaDescriptionFormat": "{fullName} — {role}。{description}",
+  "backLink": "← 登場人物一覧",
+  "profileHeading": "人物紹介",
+  "actorLabel": "演者",
+  "survivalStatusLabel": "生存に関する情報",
+  "destinyLabel": "物語での役割",
+  "keyChoicesFormat": "{name}に関する選択肢",
+  "cannotBeSavedFormat": "{name}：結果は未確認",
+  "cannotBeSavedTextFormat": "{name}の場面ごとの生存ルートは、公式資料との照合が完了していません。",
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  },
+  "showChoices": false
+}

@@ -1,0 +1,42 @@
+{
+  "young": {
+    "role": "조종사",
+    "description": "Cassiopeia의 조종사이자 우주비행사 Bill Young의 딸. 그녀의 연기는 Lashana Lynch가 맡았다."
+  },
+  "stafford": {
+    "role": "지휘관",
+    "description": "화성 탐사 경험이 있는 임무 지휘관."
+  },
+  "eisele": {
+    "role": "선임 임무 장교",
+    "description": "Cassiopeia와 함선 컴퓨터 Oracle을 설계한 임무 기획자."
+  },
+  "cernan": {
+    "role": "기술 엔지니어",
+    "description": "문제를 신중하게 바라보며 임무에 임하는 엔지니어."
+  },
+  "cooper": {
+    "role": "의료 전문가",
+    "description": "군 의료 후송 경험이 있는 의사."
+  },
+  "carter": {
+    "role": "수면 기술자",
+    "description": "항해 중 Simms와 함께 수면 시스템을 담당한다."
+  },
+  "simms": {
+    "role": "수면 기술자",
+    "description": "공학 지식을 갖춘 수면 기술자."
+  },
+  "williams": {
+    "role": "최고경영자",
+    "description": "임무를 추진하는 Corinth의 최고경영자."
+  },
+  "mitchell": {
+    "role": "조종사",
+    "description": "Young, Stafford와 함께 훈련받은 부조종사."
+  },
+  "anders": {
+    "role": "과학 장교",
+    "description": "Cooper의 추천으로 임무에 참여한 과학자."
+  }
+}

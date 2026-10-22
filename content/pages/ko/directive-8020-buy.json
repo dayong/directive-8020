@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Directive 8020 구매 안내 | 에디션·플랫폼·업그레이드",
+    "description": "본편, Digital Deluxe Edition과 업그레이드를 비교하고 PC·PS5·Xbox 공식 페이지 및 지역·언어 조건을 확인하세요.",
+    "ogTitle": "Directive 8020 구매 안내 | 에디션·플랫폼·업그레이드",
+    "ogDescription": "본편, Digital Deluxe Edition과 업그레이드를 비교하고 PC·PS5·Xbox 공식 페이지 및 지역·언어 조건을 확인하세요."
+  },
+  "hero": {
+    "h1": "Directive 8020 구매 안내 | 에디션·플랫폼·업그레이드",
+    "intro": "플랫폼부터 고르고 보유한 콘텐츠와 상품 구성을 비교하세요. 가격과 할인은 상점, 지역 및 결제 시점에 따라 달라집니다."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "본편인가요, 추가 콘텐츠인가요?",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "상품",
+              "구성",
+              "본편"
+            ],
+            "rows": [
+              [
+                "스탠더드",
+                "본 게임",
+                "포함"
+              ],
+              [
+                "Digital Deluxe Edition",
+                "게임과 디럭스 추가 콘텐츠",
+                "포함"
+              ],
+              [
+                "Steam Digital Deluxe Upgrade",
+                "다운로드형 디럭스 추가 콘텐츠",
+                "Steam 본편 별도 필요"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "디럭스 구성 알아보기",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "공식 상점은 의상, 추가 Dark Pictures 수집 요소, 영상 필터, 디지털 아트북과 사운드트랙을 소개합니다. 업그레이드는 세 번째 독립 게임이 아닙니다. 이용할 플랫폼의 해당 상품 설명을 확인하세요."
+          }
+        ]
+      },
+      {
+        "heading": "결제 전 확인",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "플랫폼, 상품 종류와 활성화 지역을 확인하세요.",
+              "본편이나 디럭스 콘텐츠를 이미 소유했는지 확인하세요.",
+              "취소선 가격뿐 아니라 최종 결제 금액을 비교하세요.",
+              "상점의 현재 전달 방식과 환불 조건을 읽으세요."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "게임 내 언어는 별도 확인",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "이 사이트의 가이드 언어가 게임 내 해당 언어 지원을 의미하지는 않습니다. 구매 전에 공식 상점의 인터페이스, 음성 및 자막 항목을 각각 확인하세요."
+          }
+        ]
+      },
+      {
+        "heading": "공식 상점",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam — PC](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[PlayStation — PS5](https://www.playstation.com/en-us/games/directive-8020/)",
+              "[Xbox — Series X|S](https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l)",
+              "[Steam — Digital Deluxe Upgrade](https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "기존 외부 상점 선택지",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "일부 상점 링크는 제휴 링크입니다. 해당 링크로 조건에 맞는 상품을 구매하면 사이트가 수수료를 받을 수 있으며, 구매자에게 추가 비용은 발생하지 않습니다."
+          },
+          {
+            "type": "paragraph",
+            "text": "아래 PC 상품은 제휴 링크이며 최저가나 재고를 보장하지 않습니다. 판매자의 현재 지역 제한과 결제 조건을 확인하세요."
+          },
+          {
+            "type": "paragraph",
+            "text": "[Instant Gaming PC 상품 보기](https://www.instant-gaming.com/en/10380-buy-directive-8020-pc-steam/?igr=gamer-8917036)"
+          }
+        ]
+      }
+    ],
+    "media": {
+      "src": "/videos/directive-8020-preview.webm",
+      "poster": "/images/directive-8020-cover.jpg",
+      "posterAlt": "Directive 8020 표지",
+      "caption": "Directive 8020 미리보기 영상 — Instant Gaming"
+    }
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Steam — Digital Deluxe Upgrade",
+        "url": "https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/"
+      },
+      {
+        "label": "PlayStation — Directive 8020",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Xbox — Directive 8020",
+        "url": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
+      }
+    ]
+  }
+}

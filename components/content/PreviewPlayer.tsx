@@ -1,5 +1,7 @@
 'use client';
 
+import { useMessages } from '@/components/i18n/Messages';
+
 import { useState } from 'react';
 
 export function PreviewPlayer({
@@ -11,6 +13,7 @@ export function PreviewPlayer({
   poster: string;
   posterAlt: string;
 }) {
+  const { messages } = useMessages();
   const [playing, setPlaying] = useState(false);
 
   return (
@@ -22,7 +25,7 @@ export function PreviewPlayer({
           type="button"
           onClick={() => setPlaying(true)}
           className="group w-full h-full relative"
-          aria-label="Play preview video"
+          aria-label={messages.accessibility.playPreview}
         >
           <img
             src={poster}

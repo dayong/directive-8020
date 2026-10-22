@@ -1,140 +1,185 @@
 {
   "meta": {
-    "title": "Directive 8020: Guía completa y todos los finales",
-    "description": "Guía completa de Directive 8020: los 8 episodios, cómo salvar a todos, los 10 finales, trofeos y decisiones. Actualizada para el lanzamiento.",
-    "ogTitle": "Directive 8020: Guía completa paso a paso",
-    "ogDescription": "Guía completa de Directive 8020: los 8 episodios, cómo salvar a todos, los 10 finales, trofeos y decisiones."
+    "title": "Guía de Directive 8020 | Personajes, decisiones y cooperativo",
+    "description": "Conoce la tripulación de la Cassiopeia, las decisiones, los Turning Points y el modo cooperativo de Directive 8020. Guías por tema y fuentes oficiales.",
+    "ogTitle": "Guía de Directive 8020 | Personajes, decisiones y cooperativo",
+    "ogDescription": "Conoce la tripulación de la Cassiopeia, las decisiones, los Turning Points y el modo cooperativo de Directive 8020. Guías por tema y fuentes oficiales."
   },
   "hero": {
     "titleMain": "DIRECTIVE",
     "titleAccent": "8020",
-    "subtitle": "The Dark Pictures Anthology — Guía completa",
+    "subtitle": "Una guía de la tripulación, las decisiones y el terror de supervivencia",
     "buttons": [
-      { "href": "/save-everyone", "label": "Salvar a todos", "variant": "primary" },
-      { "href": "/all-endings", "label": "Todos los finales", "variant": "outline" },
-      { "href": "/walkthrough", "label": "Guía completa", "variant": "ghost" }
+      {
+        "href": "/characters",
+        "label": "Personajes",
+        "variant": "primary"
+      },
+      {
+        "href": "/choices",
+        "label": "Decisiones",
+        "variant": "outline"
+      },
+      {
+        "href": "/multiplayer",
+        "label": "Multijugador",
+        "variant": "ghost"
+      }
     ]
   },
   "warning": {
-    "heading": "⚠ Importante: Carter y Simms no se pueden salvar",
-    "text": "Las muertes de Carter y Simms están guionizadas como parte de la historia. No hay decisión ni acción que pueda evitarlas: es intencionado, no un error. Concéntrate en salvar a los otros 5 personajes jugables: Osmond, Stafford, Eisele, Cernan y Cooper."
+    "heading": "Antes de seguir una ruta",
+    "text": "Las rutas de supervivencia, contraseñas y condiciones de los finales requieren comprobación escena por escena. No des por garantizado un resultado no verificado. Usa los enlaces por tema y consulta las fuentes oficiales al final de la página."
   },
   "quickAccess": {
-    "heading": "Acceso rápido",
+    "heading": "Explora por tema",
     "tiles": [
-      { "icon": "🎯", "label": "Todas las decisiones y consecuencias", "href": "/choices" },
-      { "icon": "🏆", "label": "Guía del final verdadero", "href": "/all-endings#best-ending" },
-      { "icon": "🗝️", "label": "Todos los códigos y contraseñas", "href": "/codes" },
-      { "icon": "🎭", "label": "Secretos de O Death", "href": "/collectibles" },
-      { "icon": "👥", "label": "Personajes y destinos", "href": "/characters" },
-      { "icon": "🔧", "label": "Errores, cierres y soluciones", "href": "/bug-fixes" }
-    ]
-  },
-  "episodeSection": {
-    "heading": "Guías paso a paso de los episodios"
-  },
-  "truePath": {
-    "heading": "El camino más rápido al final verdadero",
-    "intro": "Tres pasos innegociables: si fallas uno, el final verdadero queda bloqueado:",
-    "steps": [
       {
-        "title": "Mantén vivos a los 5 personajes principales",
-        "sub": "Osmond · Stafford · Eisele · Cernan · Cooper"
+        "icon": "🎯",
+        "label": "Decisiones y consecuencias",
+        "href": "/choices"
       },
       {
-        "title": "Identifica a la verdadera Eisele en el Episodio 6",
-        "sub": "Confía en la recién llegada, no elijas a la conocida"
+        "icon": "🏆",
+        "label": "Finales",
+        "href": "/all-endings"
       },
       {
-        "title": "Expón el programa de clones en el Episodio 8",
-        "sub": "Elige «Exponer la verdad»: no protejas la misión"
-      }
-    ],
-    "resultLabel": "Final verdadero desbloqueado:",
-    "result": "Eisele the Humanitarian",
-    "cta": { "href": "/save-everyone", "label": "Guía completa para salvar a todos →", "variant": "primary" }
-  },
-  "moreGuides": {
-    "heading": "Más guías",
-    "cards": [
-      {
-        "icon": "⏱",
-        "kicker": "INFO",
-        "href": "/game-length",
-        "title": "Duración del juego y episodios",
-        "body": "Cuánto tardas en pasarte los 8 episodios, el tiempo para completistas y qué puedes esperar."
+        "icon": "🗝️",
+        "label": "Códigos y contraseñas",
+        "href": "/codes"
       },
       {
-        "icon": "🔧",
-        "kicker": "ERRORES",
-        "href": "/bug-fixes",
-        "title": "Fallos y cierres: soluciones",
-        "body": "Soluciona la pantalla negra, los fallos al iniciar, los tirones y los problemas de partida guardada en PC y consola."
+        "icon": "🎭",
+        "label": "Coleccionables",
+        "href": "/collectibles"
       },
       {
         "icon": "👥",
-        "kicker": "COOPERATIVO",
-        "href": "/multiplayer",
-        "title": "Multijugador, pantalla dividida y crossplay",
-        "body": "Cooperativo local Movie Night para 5 jugadores, respuestas sobre pantalla dividida y crossplay."
+        "label": "Personajes y reparto",
+        "href": "/characters"
       },
       {
-        "icon": "🎯",
-        "kicker": "DECISIÓN",
-        "href": "/shoot-williams-or-stand-down",
-        "title": "¿Disparar a Williams o bajar el arma?",
-        "body": "La decisión de Point Blank en el Episodio 5: sedante, trofeo y consecuencias en episodios posteriores."
-      },
-      {
-        "icon": "⚠️",
-        "kicker": "SPOILERS",
-        "href": "/can-carter-survive",
-        "title": "¿Puede sobrevivir Carter?",
-        "body": "La muerte de Carter en el Episodio 1 está guionizada: aquí tienes por qué y qué 5 personajes puedes salvar."
-      },
-      {
-        "icon": "⚡",
-        "kicker": "MECÁNICAS",
-        "href": "/directive-8020-skill-checks",
-        "title": "Las pruebas de habilidad, explicadas",
-        "body": "Sin dados ni suerte: QTE, sigilo y pruebas de relación, con todos los ejemplos reales."
-      },
-      {
-        "icon": "🛒",
-        "kicker": "COMPRAR",
-        "href": "/directive-8020-buy",
-        "title": "Dónde comprar y mejores precios",
-        "body": "Todas las ediciones de Directive 8020 comparadas: claves de Steam y códigos de PS5 al mejor precio."
+        "icon": "🔧",
+        "label": "Ayuda técnica",
+        "href": "/bug-fixes"
       }
     ]
   },
-  "faqHeading": "Preguntas frecuentes",
+  "episodeSection": {
+    "heading": "Guía",
+    "enabled": false
+  },
+  "truePath": {
+    "heading": "Prepárate para la misión de la Cassiopeia",
+    "intro": "Directive 8020 combina conversaciones ramificadas con peligros en tiempo real. Importan tanto tus decisiones como la forma de moverte por el entorno.",
+    "steps": [
+      {
+        "title": "Conoce a la tripulación",
+        "sub": "Empieza por los nombres y cargos confirmados. Lashana Lynch interpreta a la piloto Young; Eisele es la oficial superior de misión."
+      },
+      {
+        "title": "Observa el entorno",
+        "sub": "El alienígena puede imitar a las personas. Además del diálogo, cuentan el sigilo, los reflejos y las armas improvisadas."
+      },
+      {
+        "title": "Explora otra rama",
+        "sub": "Turning Points permite volver a decisiones clave. Comprueba las opciones de tu modo de juego en lugar de dar por hecho que cada decisión es permanente."
+      }
+    ],
+    "resultLabel": "Tu objetivo:",
+    "result": "Entender las decisiones antes de comprometerte con una ruta.",
+    "cta": {
+      "href": "/characters",
+      "label": "Personajes →",
+      "variant": "primary"
+    }
+  },
+  "moreGuides": {
+    "heading": "Encuentra la guía que necesitas",
+    "cards": [
+      {
+        "icon": "👥",
+        "kicker": "TRIPULACIÓN",
+        "href": "/characters",
+        "title": "La tripulación de la Cassiopeia",
+        "body": "Consulta los nombres y cargos oficiales de Young, Stafford, Eisele, Cernan, Cooper y el resto de la tripulación."
+      },
+      {
+        "icon": "🎯",
+        "kicker": "DECISIONES",
+        "href": "/choices",
+        "title": "Ramas y Turning Points",
+        "body": "Comprende la diferencia entre volver a una decisión y seguir adelante con sus consecuencias."
+      },
+      {
+        "icon": "🎮",
+        "kicker": "COOPERATIVO",
+        "href": "/multiplayer",
+        "title": "Jugar con amigos",
+        "body": "Consulta la información actual del multijugador local y en línea de tu plataforma antes de organizar una partida."
+      },
+      {
+        "icon": "🗝️",
+        "kicker": "COLECCIÓN",
+        "href": "/collectibles",
+        "title": "Coleccionables y contenido de las ediciones",
+        "body": "Comprueba qué contenido incluye tu edición antes de seguir una ruta de coleccionables."
+      }
+    ]
+  },
+  "faqHeading": "Preguntas antes de jugar",
   "faqs": [
     {
-      "q": "¿Puedo salvar a todos en Directive 8020?",
-      "a": "Sí: los 5 personajes jugables (Osmond, Stafford, Eisele, Cernan y Cooper) pueden sobrevivir. Sin embargo, Carter y Simms tienen muertes guionizadas que no se pueden evitar elijas lo que elijas."
+      "q": "¿Qué tipo de juego es Directive 8020?",
+      "a": "Es una aventura cinematográfica de terror y ciencia ficción de Supermassive Games. La tripulación de la Cassiopeia se enfrenta a un alienígena que imita a las personas y tus decisiones dan forma a la historia."
     },
     {
-      "q": "¿Por qué no se puede salvar a Carter y Simms?",
-      "a": "Las muertes de Carter y Simms están guionizadas como parte de la historia. Sirven como catalizadores narrativos y no dependen de tus decisiones. El juego tiene 5 personajes jugables pero 6 en total, porque el modo cooperativo admite 5 jugadores."
+      "q": "¿A quién interpreta Lashana Lynch?",
+      "a": "Interpreta a Brianna Young, piloto de la Cassiopeia."
     },
     {
-      "q": "¿Cómo desbloqueo el final verdadero?",
-      "a": "El final verdadero, «Eisele the Humanitarian», requiere que los 5 personajes jugables sobrevivan, que identifiques correctamente al doble de Eisele en el Episodio 6 y que elijas sacrificar la muestra alienígena en lugar de conservarla."
+      "q": "¿Puedo volver a decisiones anteriores?",
+      "a": "La descripción oficial de Turning Points confirma que se puede volver a decisiones clave para explorar otros resultados. Eso no garantiza ninguna ruta hacia un final concreto."
     },
     {
-      "q": "¿Cómo funcionan los Puntos de inflexión?",
-      "a": "Los Puntos de inflexión son marcadores de control que aparecen en los momentos de decisión clave. Al terminar el juego, puedes volver a cualquier Punto de inflexión desde la selección de capítulos para explorar otras decisiones sin repetir el juego entero."
-    },
-    {
-      "q": "¿Cuántos finales tiene Directive 8020?",
-      "a": "Hay 10 variaciones de final: Homeward Bound (3 variantes), Hitchhiker, Docked (2 variantes), Game Over, Forever and Ever, Beacon y los dos finales de Eisele. «Eisele the Humanitarian» es el final verdadero."
+      "q": "¿Tiene modo cooperativo?",
+      "a": "Movie Night admite partidas locales en grupo. La ficha actual de Steam también anuncia cooperativo en línea y la de PlayStation incluye jugadores en línea. Comprueba los requisitos actuales de tu plataforma."
     }
   ],
   "friendlyLinks": {
-    "heading": "Enlaces de interés",
+    "heading": "Sitio oficial del juego",
     "links": [
-      { "href": "https://colorgradetransfer.com", "label": "Color Grade Transfer" }
+      {
+        "href": "https://www.thedarkpictures.com/games/directive-8020",
+        "label": "Directive 8020 — The Dark Pictures"
+      },
+      {
+        "href": "https://store.steampowered.com/app/2255370/Directive_8020/",
+        "label": "Directive 8020 — Steam"
+      },
+      {
+        "href": "https://www.playstation.com/en-us/games/directive-8020/",
+        "label": "Directive 8020 — PlayStation"
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
     ]
   }
 }

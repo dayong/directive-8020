@@ -1,9 +1,9 @@
 import Link from '@/components/ui/LocaleLink';
-import { uiStrings } from '@/i18n/ui';
+import { getUiStrings } from '@/i18n/ui';
 import type { Locale } from '@/i18n/config';
 
 export default function Footer({ locale }: { locale: Locale }) {
-  const t = uiStrings[locale].footer;
+  const t = getUiStrings(locale).footer;
   return (
     <footer className="bg-slate-950 border-t border-slate-800 mt-auto">
       <div className="max-w-6xl mx-auto px-4 py-12">
@@ -13,7 +13,6 @@ export default function Footer({ locale }: { locale: Locale }) {
             <ul className="space-y-2">
               <li><Link href="/walkthrough" className="text-slate-400 hover:text-violet-400 text-sm transition-colors">{t.walkthrough}</Link></li>
               <li><Link href="/all-endings" className="text-slate-400 hover:text-violet-400 text-sm transition-colors">{t.allEndings}</Link></li>
-              <li><Link href="/all-endings#best-ending" className="text-slate-400 hover:text-violet-400 text-sm transition-colors">{t.bestEnding}</Link></li>
               <li><Link href="/choices" className="text-slate-400 hover:text-violet-400 text-sm transition-colors">{t.choices}</Link></li>
               <li><Link href="/game-length" className="text-slate-400 hover:text-violet-400 text-sm transition-colors">{t.gameLength}</Link></li>
             </ul>

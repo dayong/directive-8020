@@ -1,0 +1,42 @@
+{
+  "young": {
+    "role": "パイロット",
+    "description": "Cassiopeiaのパイロット。宇宙飛行士Bill Youngの娘。"
+  },
+  "stafford": {
+    "role": "司令官",
+    "description": "火星探査の経験を持つ、今回の任務の司令官。"
+  },
+  "eisele": {
+    "role": "上級任務士官",
+    "description": "Cassiopeiaと船内コンピューターOracleを設計した任務の立案者。"
+  },
+  "cernan": {
+    "role": "技術エンジニア",
+    "description": "物事をじっくり考える姿勢で任務に臨むエンジニア。"
+  },
+  "cooper": {
+    "role": "医療専門家",
+    "description": "軍の医療搬送に携わった経験を持つ医師。"
+  },
+  "carter": {
+    "role": "睡眠技術者",
+    "description": "航行中にSimmsとともに休眠システムを担当する。"
+  },
+  "simms": {
+    "role": "睡眠技術者",
+    "description": "工学の知識を持つ睡眠技術者。"
+  },
+  "williams": {
+    "role": "最高経営責任者",
+    "description": "任務を主導するCorinth社の最高経営責任者。"
+  },
+  "mitchell": {
+    "role": "パイロット",
+    "description": "YoungやStaffordと訓練を共にした副操縦士。"
+  },
+  "anders": {
+    "role": "科学士官",
+    "description": "Cooperの推薦で任務に参加した科学者。"
+  }
+}

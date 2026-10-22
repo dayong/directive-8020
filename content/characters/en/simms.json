@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Simms in Directive 8020 — Sleep Technician",
+    "description": "Pari Simms — Sleep Technician. A sleep technician with an engineering background.",
+    "ogTitle": "Simms in Directive 8020 — Sleep Technician",
+    "ogDescription": "Pari Simms — Sleep Technician. A sleep technician with an engineering background."
+  },
+  "sections": [
+    {
+      "heading": "Engineering through the long voyage",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pari Simms is a Sleep Technician with strong engineering skills. Together with Carter she keeps the Cassiopeia running while the rest of the crew are in hypersleep. Their different strengths complement one another; the official profile describes a working partnership, not a confirmed result for any later scene."
+        }
+      ]
+    },
+    {
+      "heading": "Life beyond her duties",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Simms joined the mission with her mother in mind and regularly records messages for her. Her interests include the videogame Orinoco, nonfiction and coffee. These details distinguish the person behind her technical role. The existence of recorded messages does not verify a collectible’s exact location, a required total or a survival route."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

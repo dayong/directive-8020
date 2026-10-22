@@ -1,5 +1,5 @@
 import Link from '@/components/ui/LocaleLink';
-import { uiStrings } from '@/i18n/ui';
+import { getUiStrings } from '@/i18n/ui';
 import type { Locale } from '@/i18n/config';
 import type { Episode } from '@/types';
 
@@ -17,7 +17,7 @@ export default function EpisodeCard({
     >
       <div className="flex items-center gap-3 mb-2">
         <span className="text-xs font-bold text-violet-400 bg-violet-400/10 px-2 py-1 rounded">
-          EP {episode.number}
+          {getUiStrings(locale).accessibility.episodeFormat.replace('{number}', String(episode.number))}
         </span>
         <h3 className="text-lg font-semibold text-slate-100">
           {episode.title}
@@ -30,7 +30,7 @@ export default function EpisodeCard({
         <span>{episode.duration}</span>
         {episode.keyChoices > 0 && (
           <span>
-            {uiStrings[locale].episodeCard.keyChoicesFormat.replace(
+            {getUiStrings(locale).episodeCard.keyChoicesFormat.replace(
               '{count}',
               String(episode.keyChoices)
             )}

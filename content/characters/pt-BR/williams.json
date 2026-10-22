@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Williams em Directive 8020 — Diretor executivo",
+    "description": "LaMarcus Williams — Diretor executivo. Dirige a Corinth, a empresa responsável pela missão.",
+    "ogTitle": "Williams em Directive 8020 — Diretor executivo",
+    "ogDescription": "LaMarcus Williams — Diretor executivo. Dirige a Corinth, a empresa responsável pela missão."
+  },
+  "sections": [
+    {
+      "heading": "Corinth e a expedição",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "LaMarcus Williams é o bilionário CEO da Corinth. Nasceu em uma família rica da Califórnia e quer criar seu próprio legado. A missão a Marte de Stafford e Bill Young inspirou suas ambições. Ele liga a expedição à empresa, mas seu cargo não comprova uma lealdade oculta."
+        }
+      ]
+    },
+    {
+      "heading": "Sua visão de futuro",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A introdução oficial apresenta Williams convencido de que a Terra não pode ser salva e de que a missão da Corinth oferece um futuro à humanidade. Suas ideias causam controvérsia. São antecedentes, não provas de um resultado garantido ao atirar, baixar a arma ou escolher um final específico."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

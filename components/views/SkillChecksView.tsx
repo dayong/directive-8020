@@ -1,3 +1,4 @@
+import type { Locale } from '@/i18n/config';
 import { CtaSection } from '@/components/content/CtaSection';
 import { FaqSection } from '@/components/content/FaqSection';
 import { HeroSection } from '@/components/content/HeroSection';
@@ -13,8 +14,8 @@ const cardStyles = [
   { card: 'border-violet-500 bg-violet-900/20', label: 'text-violet-400' },
 ];
 
-export default function SkillChecksView({ content }: { content: SkillChecksContent }) {
-  const faqSchema = buildFaqSchema(content.faqs);
+export default function SkillChecksView({ content, locale }: { content: SkillChecksContent; locale: Locale }) {
+  const faqSchema = buildFaqSchema(content.faqs, locale);
   return (
     <>
       <JsonLd data={faqSchema} />

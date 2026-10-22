@@ -3,7 +3,6 @@ import ChoiceCard from '@/components/ui/ChoiceCard';
 import Link from '@/components/ui/LocaleLink';
 import { CtaSection } from '@/components/content/CtaSection';
 import { HeroSection } from '@/components/content/HeroSection';
-import { JsonLd } from '@/components/seo/JsonLd';
 import { getChoices, getEpisodes } from '@/lib/localized-data';
 import type { Locale } from '@/i18n/config';
 import type { SaveEveryoneContent } from '@/types/content-pages';
@@ -26,22 +25,11 @@ export default function SaveEveryoneView({
 }) {
   const choices = getChoices(locale);
   const episodes = getEpisodes(locale);
-  const howToSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: content.howTo.name,
-    description: content.howTo.description,
-    step: content.howTo.steps.map((step, i) => ({
-      '@type': 'HowToStep',
-      position: i + 1,
-      name: step.name,
-      itemListElement: { '@type': 'HowToDirection', text: step.text },
-    })),
-  };
+
 
   return (
     <>
-      <JsonLd data={howToSchema} />
+      {/* Scene-specific HowTo schema stays unpublished until the route is verified. */}
 
       <HeroSection hero={content.hero} glow="violet" />
 

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Controles, QTEs e Turning Points de Directive 8020",
+    "description": "Escolha o estilo de jogo e ajuste QTEs, defesas e indicadores com as opções oficiais. A remoção do limite de tempo vale apenas para Solo Story.",
+    "ogTitle": "Controles, QTEs e Turning Points de Directive 8020",
+    "ogDescription": "Escolha o estilo de jogo e ajuste QTEs, defesas e indicadores com as opções oficiais. A remoção do limite de tempo vale apenas para Solo Story."
+  },
+  "hero": {
+    "h1": "Controles, QTEs e Turning Points de Directive 8020",
+    "intro": "Separe a possibilidade de voltar a decisões da dificuldade dos controles. O guia oficial apresenta grupos diferentes: escolher Explorer não configura automaticamente todos os QTEs."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer e Survivor são estilos de jogo",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer permite voltar a decisões com Turning Points durante a partida. Survivor não permite esses retornos na primeira história; chegar ao final libera a função. Escolha entre explorar ramificações imediatamente ou continuar com as consequências das suas decisões."
+          }
+        ]
+      },
+      {
+        "heading": "A dificuldade é uma escolha separada",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Os níveis predefinidos oficiais são Forgiving, Challenging e Lethal, além de Custom. Confira as opções individuais: um nível não reescreve diálogos nem garante a sobrevivência de personagens."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Ajuste",
+              "O que muda",
+              "Limite importante"
+            ],
+            "rows": [
+              [
+                "Entrada única de QTE",
+                "Usa a mesma entrada nos QTEs",
+                "Confira a indicação na tela"
+              ],
+              [
+                "Segurar em vez de apertar repetidamente",
+                "Substitui toques repetidos por manter pressionado",
+                "Altera o método de entrada"
+              ],
+              [
+                "Remover o limite de tempo de QTE",
+                "Remove o tempo limite",
+                "Apenas Solo Story; uma entrada errada ainda falha"
+              ],
+              [
+                "Dificuldade e avisos de QTE",
+                "Ajusta o desafio e os avisos antecipados",
+                "Separado do estilo de jogo"
+              ],
+              [
+                "Recarga de defesa",
+                "Ajusta a recuperação defensiva em ameaças reais",
+                "Não decide os diálogos por você"
+              ],
+              [
+                "Indicador de ameaça",
+                "Mostra localização e alerta; permite ajustar a cor",
+                "Confira as instruções da sua versão"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Facilite a leitura da interface",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "As opções oficiais incluem legendas, legendas descritivas, tamanho de texto para escolhas e mensagens, fonte simplificada e remapeamento de controles. Teste antes de uma cena tensa para distinguir problemas de leitura, tempo e botões."
+          }
+        ]
+      },
+      {
+        "heading": "Uma ordem útil de configuração",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Escolha como prefere explorar a história.",
+              "Confira o nível e os ajustes individuais relevantes.",
+              "Verifique texto, legendas e comandos.",
+              "Pratique as ações indicadas antes de seguir um guia de cena."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Mais informações",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Opções oficiais de acessibilidade](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)",
+              "[Planejamento de conquistas](/trophies)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

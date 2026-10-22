@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Progresso de Directive 8020 | Oito capítulos e estilos",
+    "description": "Planeje sua partida com links por capítulo, regras oficiais de Turning Points e uma lista para registrar suas decisões.",
+    "ogTitle": "Progresso de Directive 8020 | Oito capítulos e estilos",
+    "ogDescription": "Planeje sua partida com links por capítulo, regras oficiais de Turning Points e uma lista para registrar suas decisões."
+  },
+  "hero": {
+    "h1": "Progresso de Directive 8020 | Oito capítulos e estilos",
+    "intro": "Este índice ajuda a preparar uma partida e encontrar notas. A lista oficial do Steam confirma oito episódios; as notas cena a cena nos links ainda estão em verificação."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Antes de começar",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Escolha Explorer para voltar a decisões durante a história. Survivor mantém as consequências na primeira partida e libera Turning Points se você chegar ao final. Confira dificuldade, QTEs e acessibilidade separadamente."
+          }
+        ]
+      },
+      {
+        "heading": "Notas por capítulo",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "São os endereços existentes, não um novo detonado verificado cena a cena. Trate rotas, senhas e previsões como provisórias. Notas sem tradução abrem em inglês."
+          },
+          {
+            "type": "list",
+            "items": [
+              "[Cap. 1](/walkthrough/episode-1)",
+              "[Cap. 2](/walkthrough/episode-2)",
+              "[Cap. 3](/walkthrough/episode-3)",
+              "[Cap. 4](/walkthrough/episode-4)",
+              "[Cap. 5](/walkthrough/episode-5)",
+              "[Cap. 6](/walkthrough/episode-6)",
+              "[Cap. 7](/walkthrough/episode-7)",
+              "[Cap. 8](/walkthrough/episode-8)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Mantenha um registro útil",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Anote plataforma, versão, estilo e arquivo salvo antes de testar uma rota.",
+              "Registre o texto real da opção e o resultado observado, não só um nome informal.",
+              "Mude uma decisão por vez ao comparar ramificações e anote efeitos posteriores.",
+              "Confira requisitos de colecionáveis ou conquistas na fonte da sua plataforma."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "O que este índice não confirma",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A quantidade de episódios não comprova os antigos subtítulos, todas as cenas, uma duração fixa ou uma rota garantida para o melhor final. Os relatos anteriores de três partidas pessoais testadas foram retirados e não servem de prova de uma rota."
+          }
+        ]
+      },
+      {
+        "heading": "Continue se preparando",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Controles e QTEs](/directive-8020-skill-checks)",
+              "[Decisões e retorno às ramificações](/choices)",
+              "[Lista oficial de conquistas do Steam](https://steamcommunity.com/stats/2255370/achievements)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

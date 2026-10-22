@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Young em Directive 8020 — Piloto",
+    "description": "Brianna Young — Piloto. Piloto da Cassiopeia e filha do astronauta Bill Young.",
+    "ogTitle": "Young em Directive 8020 — Piloto",
+    "ogDescription": "Brianna Young — Piloto. Piloto da Cassiopeia e filha do astronauta Bill Young."
+  },
+  "sections": [
+    {
+      "heading": "Treinamento de voo e ambição",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Brianna Young pilota a Cassiopeia e cresceu querendo seguir o pai, o astronauta Bill Young. O perfil oficial destaca seu desempenho na escola de voo e a competitividade que também demonstrou no time de futebol da Corinth. A missão permite testar o resultado de anos de treinamento e comprovar sua capacidade."
+        }
+      ]
+    },
+    {
+      "heading": "Sua relação com Stafford",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Após a morte de Bill, Young se dedicou ainda mais ao treinamento. Nolan Stafford se tornou seu mentor e uma figura paterna. Esse passado explica a relação dos dois, mas não comprova qual decisão salvaria qualquer um deles. A apresentação oficial identifica Lashana Lynch como intérprete de Young."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

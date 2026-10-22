@@ -1,30 +1,84 @@
 {
   "meta": {
-    "title": "Guía de trofeos de Directive 8020 | Platino y logros",
-    "description": "Guía completa de trofeos de Directive 8020. Los 31 trofeos, incluido el platino, los trofeos perdibles y la ruta para el 100%.",
-    "ogTitle": "Guía de trofeos de Directive 8020 | Platino y logros",
-    "ogDescription": "Guía completa de trofeos de Directive 8020: los 31 trofeos, avisos de trofeos perdibles y ruta al platino."
+    "title": "Trofeos y logros de Directive 8020 | Guía por plataforma",
+    "description": "Planifica los logros con las listas oficiales. Steam muestra actualmente 30 logros; los trofeos de PlayStation deben comprobarse por separado.",
+    "ogTitle": "Trofeos y logros de Directive 8020 | Guía por plataforma",
+    "ogDescription": "Planifica los logros con las listas oficiales. Steam muestra actualmente 30 logros; los trofeos de PlayStation deben comprobarse por separado."
   },
   "hero": {
-    "h1": "Guía de trofeos",
-    "intro": "Los 31 trofeos de Directive 8020 en PlayStation 5. Incluye la ruta al platino, avisos de trofeos perdibles y las condiciones para desbloquear cada logro."
+    "h1": "Trofeos y logros de Directive 8020 | Guía por plataforma",
+    "intro": "Consulta la lista de tu plataforma antes de planear el cien por cien. Las condiciones ocultas pueden revelar la historia: decide cuánto quieres saber antes de mostrarlas."
   },
-  "roadmap": {
-    "heading": "Ruta al platino",
-    "columns": [
+  "article": {
+    "sections": [
       {
-        "title": "Partida 1",
-        "body": "Sigue la guía para salvar a todos. Mantén con vida a los 5 personajes jugables. Consigue el final verdadero."
+        "heading": "Empieza por la plataforma correcta",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "La página oficial de la comunidad de Steam enumera actualmente 30 logros. Es la lista de PC, no un total verificado de trofeos de PlayStation. Hemos retirado los nombres, categorías y la ruta de platino garantizada anteriores porque no se contrastaron con una lista de plataforma comprobada."
+          }
+        ]
       },
       {
-        "title": "Partida 2",
-        "body": "Toma las decisiones opuestas. Deja morir a los personajes. Desbloquea los malos finales y el trofeo Casualty."
+        "heading": "Lista de preparación",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Abre la lista actual de tu plataforma y anota lo que ya has desbloqueado.",
+              "Decide si quieres revelar las descripciones ocultas; pueden contener spoilers.",
+              "Registra la versión, el estilo de juego y la partida guardada de cada intento.",
+              "Lee la condición real antes de repetir una escena: un resultado parecido no demuestra que la hayas cumplido."
+            ]
+          }
+        ]
       },
       {
-        "title": "Limpieza",
-        "body": "Usa los Puntos de inflexión para completar los finales, coleccionables y trofeos perdibles que te falten."
+        "heading": "El estilo de juego cambia tu planificación",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "La guía oficial de accesibilidad indica que Explorer permite usar Turning Points durante la historia. Survivor mantiene las consecuencias en la primera partida y desbloquea Turning Points si llegas al final. El estilo de juego es independiente de los ajustes de QTE y amenazas en tiempo real. Comprueba los requisitos del objetivo antes de cambiarlos."
+          }
+        ]
+      },
+      {
+        "heading": "Si un logro no se desbloquea",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Compara el intento con el texto de la plataforma, revisa el progreso anotado y consulta las actualizaciones oficiales. Conserva la partida y la versión al informar de un problema. Esta guía no garantiza un número fijo de partidas ni presenta métodos no probados como soluciones."
+          }
+        ]
+      },
+      {
+        "heading": "Enlaces útiles",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Lista oficial de logros de Steam](https://steamcommunity.com/stats/2255370/achievements)",
+              "[Controles y estilos de juego](/directive-8020-skill-checks)",
+              "[Actualizaciones del juego](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
       }
     ]
   },
-  "missableWarning": "⚠ {count} trofeos son perdibles en una sola partida. Usa esta guía para no perderte ninguno."
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
 }

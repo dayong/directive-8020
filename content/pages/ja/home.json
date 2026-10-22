@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Directive 8020 攻略ガイド｜登場人物・選択肢・協力プレイ",
+    "description": "Directive 8020の乗組員、物語の分岐、Turning Points、協力プレイを紹介。テーマ別の攻略リンクと公式情報をまとめています。",
+    "ogTitle": "Directive 8020 攻略ガイド｜登場人物・選択肢・協力プレイ",
+    "ogDescription": "Directive 8020の乗組員、物語の分岐、Turning Points、協力プレイを紹介。テーマ別の攻略リンクと公式情報をまとめています。"
+  },
+  "hero": {
+    "titleMain": "DIRECTIVE",
+    "titleAccent": "8020",
+    "subtitle": "乗組員と選択肢から読み解く、宇宙のサバイバルホラー",
+    "buttons": [
+      {
+        "href": "/characters",
+        "label": "登場人物",
+        "variant": "primary"
+      },
+      {
+        "href": "/choices",
+        "label": "選択肢",
+        "variant": "outline"
+      },
+      {
+        "href": "/multiplayer",
+        "label": "マルチプレイ",
+        "variant": "ghost"
+      }
+    ]
+  },
+  "warning": {
+    "heading": "攻略ルートを使う前に",
+    "text": "特定の生存ルート、暗証番号、エンディング条件には場面ごとの確認が必要です。未確認のルートを必ず成功する手順とは考えないでください。詳細ガイドの一部は現在英語です。公式情報へのリンクはページ下部にあります。"
+  },
+  "quickAccess": {
+    "heading": "テーマから探す",
+    "tiles": [
+      {
+        "icon": "🎯",
+        "label": "選択肢と結果",
+        "href": "/choices"
+      },
+      {
+        "icon": "🏆",
+        "label": "エンディング",
+        "href": "/all-endings"
+      },
+      {
+        "icon": "🗝️",
+        "label": "暗証番号とパスワード",
+        "href": "/codes"
+      },
+      {
+        "icon": "🎭",
+        "label": "収集要素",
+        "href": "/collectibles"
+      },
+      {
+        "icon": "👥",
+        "label": "登場人物とキャスト",
+        "href": "/characters"
+      },
+      {
+        "icon": "🔧",
+        "label": "技術的な問題",
+        "href": "/bug-fixes"
+      }
+    ]
+  },
+  "episodeSection": {
+    "heading": "ストーリー攻略",
+    "enabled": false
+  },
+  "truePath": {
+    "heading": "Cassiopeiaの任務に備える",
+    "intro": "Directive 8020では、分岐する会話とリアルタイムの危険が交差します。何を選ぶかに加えて、周囲をどう移動するかにも注意を向けましょう。",
+    "steps": [
+      {
+        "title": "乗組員を知る",
+        "sub": "まずは確認済みの名前と役職から。Lashana Lynchが演じるYoungはパイロット、Eiseleは上級任務士官です。"
+      },
+      {
+        "title": "周囲を観察する",
+        "sub": "エイリアンは人間を模倣できます。会話だけでなく、ステルス、反応の速さ、即席の武器も重要です。"
+      },
+      {
+        "title": "別の分岐を試す",
+        "sub": "Turning Pointsでは重要な選択に戻れます。すべての決定が永久に変更できないと思い込まず、現在のモードで使える機能を確認しましょう。"
+      }
+    ],
+    "resultLabel": "目標は、",
+    "result": "選択の意味を理解してから進むルートを決めること。",
+    "cta": {
+      "href": "/characters",
+      "label": "登場人物 →",
+      "variant": "primary"
+    }
+  },
+  "moreGuides": {
+    "heading": "目的に合ったガイドを探す",
+    "cards": [
+      {
+        "icon": "👥",
+        "kicker": "乗組員",
+        "href": "/characters",
+        "title": "Cassiopeiaの乗組員",
+        "body": "Young、Stafford、Eisele、Cernan、Cooperたちの公式の名前と役職を紹介します。"
+      },
+      {
+        "icon": "🎯",
+        "kicker": "選択肢",
+        "href": "/choices",
+        "title": "物語の分岐とTurning Points",
+        "body": "選択に戻ることと、その結果を引き受けて進むことの違いを確認しましょう。"
+      },
+      {
+        "icon": "🎮",
+        "kicker": "協力プレイ",
+        "href": "/multiplayer",
+        "title": "友達と遊ぶには",
+        "body": "一緒に遊ぶ予定を立てる前に、利用する機種のローカル・オンライン対応を確認しましょう。"
+      },
+      {
+        "icon": "🗝️",
+        "kicker": "収集",
+        "href": "/collectibles",
+        "title": "収集要素とエディション特典",
+        "body": "収集ルートを使う前に、所有するエディションに含まれるコンテンツを確認しましょう。"
+      }
+    ]
+  },
+  "faqHeading": "プレイ前のよくある質問",
+  "faqs": [
+    {
+      "q": "Directive 8020はどんなゲーム？",
+      "a": "Supermassive Gamesが手がける映画的なSFホラーアドベンチャーです。Cassiopeiaの乗組員は人間を模倣するエイリアンに直面し、プレイヤーの決断が物語を変えていきます。"
+    },
+    {
+      "q": "Lashana Lynchが演じるのは誰？",
+      "a": "CassiopeiaのパイロットBrianna Youngです。"
+    },
+    {
+      "q": "選択をやり直せる？",
+      "a": "Turning Pointsの公式説明では、重要な選択に戻って別の結果を探れるとされています。ただし、特定のエンディングへのルートが必ず成功することを保証するものではありません。"
+    },
+    {
+      "q": "協力プレイはある？",
+      "a": "Movie Nightはローカルのグループプレイに対応します。現在のSteamストアはオンライン協力プレイ、PlayStationストアはオンラインの参加人数も案内しています。機種ごとの最新情報と条件を確認してください。"
+    }
+  ],
+  "friendlyLinks": {
+    "heading": "ゲーム公式サイト",
+    "links": [
+      {
+        "href": "https://www.thedarkpictures.com/games/directive-8020",
+        "label": "Directive 8020 — The Dark Pictures"
+      },
+      {
+        "href": "https://store.steampowered.com/app/2255370/Directive_8020/",
+        "label": "Directive 8020 — Steam"
+      },
+      {
+        "href": "https://www.playstation.com/en-us/games/directive-8020/",
+        "label": "Directive 8020 — PlayStation"
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  }
+}

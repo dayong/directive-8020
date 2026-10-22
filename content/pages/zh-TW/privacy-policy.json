@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "隱私政策｜Directive 8020 攻略站",
+    "description": "了解本站的語言偏好儲存、流量分析及外部連結，以及隱私問題的聯絡管道。",
+    "ogTitle": "隱私政策｜Directive 8020 攻略站",
+    "ogDescription": "了解本站的語言偏好儲存、流量分析及外部連結，以及隱私問題的聯絡管道。"
+  },
+  "hero": {
+    "h1": "隱私政策｜Directive 8020 攻略站",
+    "intro": "了解本站的語言偏好儲存、流量分析及外部連結，以及隱私問題的聯絡管道。"
+  },
+  "sections": [
+    {
+      "heading": "語言偏好與瀏覽器儲存",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "手動選擇語言或關閉語言建議時，本站會將所選語言存入瀏覽器 localStorage 的 directive-locale 項目，直到你清除網站儲存資料或瀏覽器將其移除。這與分析 Cookie 不同。頁面語言由 URL 決定，已存偏好不會強制轉址。瀏覽器語言僅在本機讀取，用來顯示建議。"
+        }
+      ]
+    },
+    {
+      "heading": "流量分析",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "本站載入 Google Analytics 4，以了解造訪及使用情況。Google 的測量可能處理頁面網址、來源、裝置、瀏覽器資訊與 Cookie。部署設定啟用時，也會載入選用的 Umami 分析程式；它與 Google Analytics 分開設定。請參閱下方服務商文件；本站不概括聲稱完全不處理個人資料。"
+        }
+      ]
+    },
+    {
+      "heading": "瀏覽器中的選擇",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "你可以在瀏覽器的網站資料設定中清除本站的本機儲存與 Cookie。移除 directive-locale 會重設語言偏好。封鎖指令碼或 Cookie 可能影響分析或偏好功能；僅停用 Cookie 不保證停止所有測量。Google 另提供 [Analytics 停用外掛](https://tools.google.com/dlpage/gaoptout)。本站尚未驗證瀏覽器 Do Not Track 設定可作為退出機制。"
+        }
+      ]
+    },
+    {
+      "heading": "外部服務與商業連結",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "本站透過 Cloudflare 託管及傳遞。前往外部商店或第三方連結後，對方依自身政策處理造訪。部分商店連結包含推廣識別碼；符合條件的購買可能為本站帶來佣金，你無須額外付費。本站不接收這些交易的付款資料。若你寄信聯絡我們，郵件內容與地址是你主動提供的資訊。"
+        }
+      ]
+    },
+    {
+      "heading": "保留期間與隱私請求",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "語言偏好會留在瀏覽器儲存中直到移除。分析資料保留期間取決於服務及帳號設定，本站不宣稱未確認的固定期限。依適用法律，你可能享有存取、更正、刪除或反對處理等權利；請透過聯絡管道提出請求，瀏覽器控制不能取代請求。本攻略涉及面向成熟受眾的遊戲，並非以兒童為對象；如有兒童資訊方面的疑慮，請聯絡我們。"
+        }
+      ]
+    },
+    {
+      "heading": "聯絡與更新",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "隱私問題或請求請寄至 [contact@directive-8020.com](mailto:contact@directive-8020.com)，請勿傳送密碼或信用卡資料。本說明更新於 2026-10-22，後續變更將公布於本頁。"
+        }
+      ]
+    },
+    {
+      "heading": "服務商政策與文件",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "[Google](https://policies.google.com/privacy)",
+            "[Google Analytics — Cookies](https://support.google.com/analytics/answer/11397207)",
+            "[Google Analytics — Retention](https://support.google.com/analytics/answer/7667196)",
+            "[Umami](https://docs.umami.is/docs/collect-data)",
+            "[Cloudflare](https://www.cloudflare.com/privacypolicy/)"
+          ]
+        }
+      ]
+    }
+  ]
+}

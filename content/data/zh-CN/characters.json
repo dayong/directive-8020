@@ -1,0 +1,42 @@
+{
+  "young": {
+    "role": "飞行员",
+    "description": "Cassiopeia 的飞行员，宇航员 Bill Young 的女儿。"
+  },
+  "stafford": {
+    "role": "指挥官",
+    "description": "任务指挥官，曾参与火星探索。"
+  },
+  "eisele": {
+    "role": "高级任务官",
+    "description": "任务的设计者，负责设计 Cassiopeia 和舰载计算机 Oracle。"
+  },
+  "cernan": {
+    "role": "技术工程师",
+    "description": "负责技术工程，习惯从容思考问题。"
+  },
+  "cooper": {
+    "role": "医疗专家",
+    "description": "拥有军方医疗后送经验的医生。"
+  },
+  "carter": {
+    "role": "休眠技术员",
+    "description": "航行期间与 Simms 一同负责休眠系统。"
+  },
+  "simms": {
+    "role": "休眠技术员",
+    "description": "拥有工程背景的休眠技术员。"
+  },
+  "williams": {
+    "role": "首席执行官",
+    "description": "任务背后企业 Corinth 的首席执行官。"
+  },
+  "mitchell": {
+    "role": "飞行员",
+    "description": "与 Young 和 Stafford 一起受训的副驾驶。"
+  },
+  "anders": {
+    "role": "科学官",
+    "description": "经 Cooper 推荐加入任务的科学家。"
+  }
+}

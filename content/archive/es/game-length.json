@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "¿Cuánto dura Directive 8020? Duración y horas por episodio",
+    "description": "Directive 8020 dura ~8 horas la historia principal, ~12 horas todos los finales y ~15 horas el 100 %. Desglose del tiempo de juego episodio a episodio.",
+    "ogTitle": "¿Cuánto dura Directive 8020? Duración y horas por episodio",
+    "ogDescription": "¿Cuánto dura Directive 8020? Historia principal ~8 horas, todos los finales ~12 horas y el 100 % ~15 horas."
+  },
+  "hero": {
+    "h1": "¿Cuánto se tarda en completar Directive 8020?",
+    "tagline": "Completar Directive 8020 lleva alrededor de 8 horas.",
+    "intro": "Un desglose completo de la duración del juego por estilo de juego, por episodio y por lo que afecta a tu tiempo total de juego."
+  },
+  "summaryCards": {
+    "cards": [
+      {
+        "icon": "🎮",
+        "label": "Historia principal",
+        "tone": "main",
+        "value": "~8",
+        "unit": "horas"
+      },
+      {
+        "icon": "🏁",
+        "label": "Todos los finales",
+        "tone": "endings",
+        "value": "~12",
+        "unit": "horas"
+      },
+      {
+        "icon": "🏆",
+        "label": "Completista al 100 %",
+        "tone": "completion",
+        "value": "~15",
+        "unit": "horas"
+      }
+    ]
+  },
+  "episodeTable": {
+    "heading": "Duración por episodio",
+    "headers": [
+      "Episodio",
+      "Título",
+      "Duración"
+    ]
+  },
+  "affectsLength": {
+    "heading": "Qué afecta a la duración del juego",
+    "items": [
+      {
+        "term": "Dificultad —",
+        "text": "El modo Explorador ofrece tiempos de QTE generosos y menos estados de fallo, lo que reduce el tiempo de juego. El modo Superviviente tiene QTEs más ajustados y más muertes, lo que implica más repeticiones."
+      },
+      {
+        "term": "Puntos de inflexión —",
+        "text": "Usar los Puntos de inflexión para repetir decisiones y explorar rutas alternativas añade de 2 a 4 horas a tu total. Cada rama importante tarda de 20 a 40 minutos en repetirse."
+      },
+      {
+        "term": "Coleccionables —",
+        "text": "Cazar los 65 coleccionables añade unas 2 horas. Algunos están escondidos en zonas de exploración opcionales."
+      },
+      {
+        "term": "Secretos O Death —",
+        "text": "Encontrar los 5 secretos de O Death requiere explorar a fondo y usar los Puntos de inflexión para volver a capítulos anteriores. Añade de 1 a 2 horas."
+      }
+    ]
+  },
+  "faqHeading": "Preguntas frecuentes",
+  "faqs": [
+    {
+      "q": "¿Cuánto dura Directive 8020?",
+      "a": "Una primera partida de la historia principal dura unas 8 horas. Cubre los 8 episodios a un ritmo normal con algo de exploración opcional."
+    },
+    {
+      "q": "¿Cuánto se tarda en completar Directive 8020 (HLTB)?",
+      "a": "La historia principal son ~8 horas, desbloquear todos los finales lleva ~12 horas y una partida completista al 100 % con todos los coleccionables y trofeos lleva ~15 horas."
+    },
+    {
+      "q": "¿Cuántas horas dura cada episodio de Directive 8020?",
+      "a": "La mayoría de los episodios duran alrededor de 1 hora. El Episodio 6 dura ~1,5 horas, y los Episodios 7 y 8 ~2 horas cada uno. Consulta el desglose de episodios de arriba para ver la lista completa."
+    },
+    {
+      "q": "¿Cuánto dura Directive 8020 al 100 %?",
+      "a": "Alrededor de 15 horas. Cazar los 65 coleccionables añade ~2 horas y encontrar los 5 secretos de O Death añade de 1 a 2 horas sobre la historia principal."
+    },
+    {
+      "q": "¿La dificultad afecta al tiempo de juego?",
+      "a": "Sí. El modo Explorador tiene tiempos de QTE generosos y menos estados de fallo, mientras que el modo Superviviente implica más muertes y más repeticiones, lo que alarga tu tiempo total."
+    },
+    {
+      "q": "¿Puedo ver decisiones alternativas sin repetir todo el juego?",
+      "a": "Sí: los Puntos de inflexión te permiten retroceder a cualquier decisión importante. Explorar ramas alternativas así añade de 2 a 4 horas a tu tiempo total."
+    }
+  ],
+  "cta": {
+    "text": "¿Listo para empezar a jugar?",
+    "links": [
+      {
+        "href": "/walkthrough",
+        "label": "Guía completa paso a paso →",
+        "variant": "primary"
+      },
+      {
+        "href": "/save-everyone",
+        "label": "Guía para salvar a todos →",
+        "variant": "outline"
+      },
+      {
+        "href": "/directive-8020-buy",
+        "label": "Dónde comprar →",
+        "variant": "ghost"
+      }
+    ]
+  },
+  "review": {
+    "status": "needs-review",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "notice": "Las instrucciones por escena, cifras exactas y resultados de esta guía anterior no se han contrastado por completo con fuentes oficiales. Considéralos provisionales."
+  }
+}

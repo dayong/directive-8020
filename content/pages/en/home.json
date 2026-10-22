@@ -1,140 +1,185 @@
 {
   "meta": {
-    "title": "Directive 8020 Complete Guide & Walkthrough | All Endings",
-    "description": "Complete Directive 8020 guide covering all 8 episodes, how to save everyone, all 10 endings, trophies, and choices. Updated for launch day.",
-    "ogTitle": "Directive 8020 Complete Guide & Walkthrough",
-    "ogDescription": "Complete Directive 8020 guide covering all 8 episodes, how to save everyone, all 10 endings, trophies, and choices."
+    "title": "Directive 8020 Guide | Characters, Choices & Co-op",
+    "description": "Explore Directive 8020: its Cassiopeia crew, branching choices, Turning Points and cooperative play. Find official sources and topic guides in one place.",
+    "ogTitle": "Directive 8020 Guide | Characters, Choices & Co-op",
+    "ogDescription": "Explore Directive 8020: its Cassiopeia crew, branching choices, Turning Points and cooperative play. Find official sources and topic guides in one place."
   },
   "hero": {
     "titleMain": "DIRECTIVE",
     "titleAccent": "8020",
-    "subtitle": "The Dark Pictures Anthology — Complete Guide",
+    "subtitle": "A guide to the crew, choices and survival horror",
     "buttons": [
-      { "href": "/save-everyone", "label": "Save Everyone", "variant": "primary" },
-      { "href": "/all-endings", "label": "All Endings", "variant": "outline" },
-      { "href": "/walkthrough", "label": "Walkthrough", "variant": "ghost" }
+      {
+        "href": "/characters",
+        "label": "Characters",
+        "variant": "primary"
+      },
+      {
+        "href": "/choices",
+        "label": "Choices",
+        "variant": "outline"
+      },
+      {
+        "href": "/multiplayer",
+        "label": "Multiplayer",
+        "variant": "ghost"
+      }
     ]
   },
   "warning": {
-    "heading": "⚠ Important: Carter and Simms Cannot Be Saved",
-    "text": "Carter and Simms are scripted to die as part of the story. No choices or actions can prevent their deaths — this is by design, not a mistake. Focus on saving the other 5 playable characters: Osmond, Stafford, Eisele, Cernan, and Cooper."
+    "heading": "Read before you follow a route",
+    "text": "Specific survival routes, passwords and ending requirements need scene-level verification. Do not treat an unverified route as a guaranteed result. The links below help you navigate by topic; official sources are listed at the bottom."
   },
   "quickAccess": {
-    "heading": "Quick Access",
+    "heading": "Explore by topic",
     "tiles": [
-      { "icon": "🎯", "label": "All Choices & Consequences", "href": "/choices" },
-      { "icon": "🏆", "label": "True Ending Guide", "href": "/all-endings#best-ending" },
-      { "icon": "🗝️", "label": "All Codes & Passwords", "href": "/codes" },
-      { "icon": "🎭", "label": "O Death Secrets", "href": "/collectibles" },
-      { "icon": "👥", "label": "Characters & Destinies", "href": "/characters" },
-      { "icon": "🔧", "label": "Crash & Bug Fixes", "href": "/bug-fixes" }
-    ]
-  },
-  "episodeSection": {
-    "heading": "Episode Walkthroughs"
-  },
-  "truePath": {
-    "heading": "Fastest Path to the True Ending",
-    "intro": "Three non-negotiable steps — miss any of these and you're locked out:",
-    "steps": [
       {
-        "title": "Keep all 5 main characters alive",
-        "sub": "Osmond · Stafford · Eisele · Cernan · Cooper"
+        "icon": "🎯",
+        "label": "Choices and consequences",
+        "href": "/choices"
       },
       {
-        "title": "Identify the real Eisele in Episode 6",
-        "sub": "Trust the newcomer — don't pick the familiar one"
+        "icon": "🏆",
+        "label": "Endings",
+        "href": "/all-endings"
       },
       {
-        "title": "Expose the clone program in Episode 8",
-        "sub": "Choose \"Expose the truth\" — don't protect the mission"
-      }
-    ],
-    "resultLabel": "True Ending Unlocked:",
-    "result": "Eisele the Humanitarian",
-    "cta": { "href": "/save-everyone", "label": "Full Save Everyone Guide →", "variant": "primary" }
-  },
-  "moreGuides": {
-    "heading": "More Guides",
-    "cards": [
-      {
-        "icon": "⏱",
-        "kicker": "INFO",
-        "href": "/game-length",
-        "title": "Game Length & Episodes",
-        "body": "How long to beat all 8 episodes, completionist time, and what to expect."
+        "icon": "🗝️",
+        "label": "Codes and passwords",
+        "href": "/codes"
       },
       {
-        "icon": "🔧",
-        "kicker": "FIXES",
-        "href": "/bug-fixes",
-        "title": "Crashing & Bug Fixes",
-        "body": "Fix black screen, won't launch, stuttering, and save issues on PC and console."
+        "icon": "🎭",
+        "label": "Collectibles",
+        "href": "/collectibles"
       },
       {
         "icon": "👥",
-        "kicker": "CO-OP",
-        "href": "/multiplayer",
-        "title": "Multiplayer, Split Screen & Crossplay",
-        "body": "Movie Night local co-op for 5 players, split screen and crossplay answers."
+        "label": "Characters and cast",
+        "href": "/characters"
       },
       {
-        "icon": "🎯",
-        "kicker": "CHOICE",
-        "href": "/shoot-williams-or-stand-down",
-        "title": "Shoot Williams or Stand Down?",
-        "body": "Episode 5 Point Blank choice explained — sedative, trophy, and cross-episode consequences."
-      },
-      {
-        "icon": "⚠️",
-        "kicker": "SPOILERS",
-        "href": "/can-carter-survive",
-        "title": "Can Carter Survive?",
-        "body": "Carter's Episode 1 death is scripted — here's why, and which 5 characters you can save."
-      },
-      {
-        "icon": "⚡",
-        "kicker": "MECHANICS",
-        "href": "/directive-8020-skill-checks",
-        "title": "Skill Checks Explained",
-        "body": "No dice, no luck — QTEs, stealth, and relationship checks, with every real example."
-      },
-      {
-        "icon": "🛒",
-        "kicker": "BUY",
-        "href": "/directive-8020-buy",
-        "title": "Where to Buy & Best Prices",
-        "body": "Every Directive 8020 edition compared — Steam keys and PS5 codes at the lowest price."
+        "icon": "🔧",
+        "label": "Technical help",
+        "href": "/bug-fixes"
       }
     ]
   },
-  "faqHeading": "Frequently Asked Questions",
+  "episodeSection": {
+    "heading": "Walkthrough",
+    "enabled": false
+  },
+  "truePath": {
+    "heading": "Prepare for the Cassiopeia mission",
+    "intro": "Directive 8020 combines branching conversations with real-time danger. Plan for both the choices you make and the way you move through the environment.",
+    "steps": [
+      {
+        "title": "Meet the crew",
+        "sub": "Start with the confirmed character names and roles. Young is the pilot portrayed by Lashana Lynch; Eisele is the senior mission officer."
+      },
+      {
+        "title": "Watch your surroundings",
+        "sub": "The alien can imitate people. Stealth, reflexes and improvised weapons matter alongside dialogue decisions."
+      },
+      {
+        "title": "Explore another branch",
+        "sub": "Turning Points let you revisit key decisions. Consult the options available in your current game mode rather than assuming every choice is permanent."
+      }
+    ],
+    "resultLabel": "Your objective:",
+    "result": "Understand the choices before committing to a route.",
+    "cta": {
+      "href": "/characters",
+      "label": "Characters →",
+      "variant": "primary"
+    }
+  },
+  "moreGuides": {
+    "heading": "Find the right guide",
+    "cards": [
+      {
+        "icon": "👥",
+        "kicker": "CREW",
+        "href": "/characters",
+        "title": "Meet the Cassiopeia crew",
+        "body": "Read the official identities and roles of Young, Stafford, Eisele, Cernan, Cooper and the wider crew."
+      },
+      {
+        "icon": "🎯",
+        "kicker": "CHOICES",
+        "href": "/choices",
+        "title": "Branching decisions and Turning Points",
+        "body": "Learn how revisiting a decision differs from continuing with its consequences."
+      },
+      {
+        "icon": "🎮",
+        "kicker": "CO-OP",
+        "href": "/multiplayer",
+        "title": "Playing with friends",
+        "body": "Check the current local and online multiplayer information for your platform before planning a session."
+      },
+      {
+        "icon": "🗝️",
+        "kicker": "COLLECTION",
+        "href": "/collectibles",
+        "title": "Collectibles and edition content",
+        "body": "Check which content belongs to your edition before following a collection route."
+      }
+    ]
+  },
+  "faqHeading": "Questions before you play",
   "faqs": [
     {
-      "q": "Can I save everyone in Directive 8020?",
-      "a": "Yes — all 5 playable characters (Osmond, Stafford, Eisele, Cernan, and Cooper) can survive. However, Carter and Simms have scripted deaths that cannot be prevented regardless of your choices."
+      "q": "What kind of game is Directive 8020?",
+      "a": "It is a cinematic science-fiction horror adventure from Supermassive Games. The crew of the Cassiopeia faces an alien capable of mimicking people, and your decisions shape the story."
     },
     {
-      "q": "Why can't Carter and Simms be saved?",
-      "a": "Carter and Simms are scripted to die as part of the story. Their deaths serve as narrative catalysts and are not the result of player choices. The game has 5 playable characters but 6 total, because co-op mode supports 5 players."
+      "q": "Who does Lashana Lynch play?",
+      "a": "Lashana Lynch portrays Brianna Young, a pilot aboard the Cassiopeia."
     },
     {
-      "q": "How do I unlock the true ending?",
-      "a": "The true ending — \"Eisele the Humanitarian\" — requires all 5 playable characters to survive, correctly identifying the duplicate Eisele in Episode 6, and choosing to sacrifice the alien sample rather than preserve it."
+      "q": "Can I revisit decisions?",
+      "a": "The official description of Turning Points confirms that players can return to key decisions to explore different outcomes. This does not establish a guaranteed route to any particular ending."
     },
     {
-      "q": "How do Turning Points work?",
-      "a": "Turning Points are checkpoint markers that appear at key decision moments. After completing the game, you can return to any Turning Point via chapter select to explore alternate choices without replaying the entire game."
-    },
-    {
-      "q": "How many endings does Directive 8020 have?",
-      "a": "There are 10 ending variations: Homeward Bound (3 variants), Hitchhiker, Docked (2 variants), Game Over, Forever and Ever, Beacon, and the two Eisele endings. \"Eisele the Humanitarian\" is the true ending."
+      "q": "Does the game support cooperative play?",
+      "a": "Movie Night supports local group play. The current Steam listing also advertises online co-op, and the PlayStation listing advertises online players. Check the latest listing and requirements for your platform."
     }
   ],
   "friendlyLinks": {
-    "heading": "Friendly Links",
+    "heading": "Official game website",
     "links": [
-      { "href": "https://colorgradetransfer.com", "label": "Color Grade Transfer" }
+      {
+        "href": "https://www.thedarkpictures.com/games/directive-8020",
+        "label": "Directive 8020 — The Dark Pictures"
+      },
+      {
+        "href": "https://store.steampowered.com/app/2255370/Directive_8020/",
+        "label": "Directive 8020 — Steam"
+      },
+      {
+        "href": "https://www.playstation.com/en-us/games/directive-8020/",
+        "label": "Directive 8020 — PlayStation"
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
     ]
   }
 }

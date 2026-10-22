@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020의 Anders — 과학 장교",
+    "description": "Zoe Anders — 과학 장교. Cooper의 추천으로 임무에 참여한 과학자.",
+    "ogTitle": "Directive 8020의 Anders — 과학 장교",
+    "ogDescription": "Zoe Anders — 과학 장교. Cooper의 추천으로 임무에 참여한 과학자."
+  },
+  "sections": [
+    {
+      "heading": "과학 장교로 합류",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zoe Anders는 전임 과학 장교 George McNamara가 사망한 뒤 오랜 친구 Cooper의 추천으로 합류했습니다. 공식 명단의 직책은 과학 장교이며 Eisele의 선임 임무 장교와는 다릅니다. 이 구분은 선내 업무를 이해하는 데 중요합니다."
+        }
+      ]
+    },
+    {
+      "heading": "발견과 윤리",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Anders는 과학적 발견의 가능성을 기대하며 Cooper와의 우정에 힘입어 기존 승무원들에게 적응합니다. 공식 배경은 윤리를 지키려는 태도도 강조합니다. 이런 가치관은 인물을 이해하는 정보이지 실험 절차, 모방자 식별 방법이나 안전을 보장하는 조건은 아닙니다."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

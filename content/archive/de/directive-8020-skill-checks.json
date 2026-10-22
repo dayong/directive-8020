@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Directive 8020 Steuerung, QTEs und Turning Points",
+    "description": "Wähle Spielstil und Einstellungen für QTEs, Paraden und Gefahrenanzeigen anhand der offiziellen Optionen. QTE-Zeitlimits lassen sich nur in Solo Story entfernen.",
+    "ogTitle": "Directive 8020 Steuerung, QTEs und Turning Points",
+    "ogDescription": "Wähle Spielstil und Einstellungen für QTEs, Paraden und Gefahrenanzeigen anhand der offiziellen Optionen. QTE-Zeitlimits lassen sich nur in Solo Story entfernen."
+  },
+  "hero": {
+    "h1": "Directive 8020 Steuerung, QTEs und Turning Points",
+    "intro": "Trenne das Zurückgehen in der Geschichte von der Schwierigkeit der Steuerung. Der offizielle Guide behandelt sie als verschiedene Gruppen. Explorer legt daher nicht automatisch jede QTE-Einstellung fest."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Explorer und Survivor sind Spielstile",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer erlaubt Turning Points während des Spielens. Survivor verhindert diese Rücksprünge im ersten Durchlauf; erreichst du das Ende, werden sie freigeschaltet. Entscheide, ob du Verzweigungen sofort erkunden oder zunächst mit den Folgen deiner Entscheidungen weiterspielen möchtest."
+          }
+        ]
+      },
+      {
+        "heading": "Schwierigkeit wird gesondert eingestellt",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Die offiziellen Voreinstellungen sind Forgiving, Challenging und Lethal; dazu kommt Custom. Prüfe die einzelnen Optionen. Eine Voreinstellung schreibt weder Dialoge um noch garantiert sie das Überleben einer Figur."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Einstellung",
+              "Wirkung",
+              "Wichtige Grenze"
+            ],
+            "rows": [
+              [
+                "Einheitliche QTE-Eingabe",
+                "Nutzt dieselbe Eingabe für QTEs",
+                "Bildschirmanweisung weiter beachten"
+              ],
+              [
+                "Halten statt wiederholtem Drücken",
+                "Ersetzt schnelle Wiederholungen durch Halten",
+                "Ändert die Eingabemethode"
+              ],
+              [
+                "QTE-Zeitlimit entfernen",
+                "Entfernt die Zeitbegrenzung",
+                "Nur Solo Story; falsche Eingaben scheitern weiterhin"
+              ],
+              [
+                "QTE-Schwierigkeit und Warnungen",
+                "Passt Herausforderung und Vorwarnung an",
+                "Getrennt vom Spielstil"
+              ],
+              [
+                "Parade-Aufladung",
+                "Passt defensive Erholung bei Echtzeitgefahren an",
+                "Trifft keine Dialogentscheidungen"
+              ],
+              [
+                "Gefahrenanzeige",
+                "Zeigt Position und Aufmerksamkeit; Farbe anpassbar",
+                "Hinweise deiner Version beachten"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Die Oberfläche lesbarer machen",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Die offiziellen Optionen umfassen Untertitel, erweiterte Untertitel, Textgrößen für Entscheidungen und Nachrichten, eine einfache Schrift sowie frei belegbare Steuerung. Teste sie vor einer angespannten Szene, um Lesbarkeit, Zeitdruck und Tastenbelegung auseinanderzuhalten."
+          }
+        ]
+      },
+      {
+        "heading": "Sinnvolle Reihenfolge",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Wähle deinen bevorzugten Spielstil für die Geschichte.",
+              "Prüfe Schwierigkeit und relevante Einzeleinstellungen.",
+              "Kontrolliere Text, Untertitel und Tastenbelegung.",
+              "Übe angezeigte Aktionen, bevor du einem Szenen-Guide folgst."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Weitere Informationen",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Offizielle Optionen zur Barrierefreiheit](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)",
+              "[Erfolge planen](/trophies)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

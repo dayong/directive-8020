@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Directive 8020 獎盃與 Steam 成就指南",
+    "description": "依官方平台清單規劃 Directive 8020 成就進度。Steam 目前列出 30 項成就，PlayStation 獎盃需要另外核對。",
+    "ogTitle": "Directive 8020 獎盃與 Steam 成就指南",
+    "ogDescription": "依官方平台清單規劃 Directive 8020 成就進度。Steam 目前列出 30 項成就，PlayStation 獎盃需要另外核對。"
+  },
+  "hero": {
+    "h1": "Directive 8020 獎盃與 Steam 成就指南",
+    "intro": "先使用自己所在平台的清單，再規劃全成就或獎盃收集。隱藏成就的描述可能劇透，閱讀條件前請先決定要了解多少劇情。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "先確認平台清單",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Steam 官方社群頁面目前列出 30 項成就。這是 PC 清單，不能視為已核實的 PlayStation 獎盃總數。先前站內的獎盃名稱、等級與保證白金路線未與已核驗的平台清單對應，現已撤下。"
+          }
+        ]
+      },
+      {
+        "heading": "開始收集前的檢查清單",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "開啟所在平台目前的成就或獎盃列表，記錄已解鎖項目。",
+              "決定是否顯示隱藏描述；文字可能透露劇情。",
+              "每次嘗試都記下遊戲版本、玩法風格與使用的存檔。",
+              "重玩場景前先看實際解鎖條件；相似的劇情結果不代表已符合條件。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "玩法風格會影響重玩計畫",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "官方無障礙說明指出，Explorer 允許在劇情過程中使用 Turning Points；Survivor 首輪需要承擔選擇的後果，到達結局後才解鎖 Turning Points。玩法風格與調整 QTE、即時威脅的操作設定是兩回事。變更設定前，請另外核對目標成就的要求。"
+          }
+        ]
+      },
+      {
+        "heading": "沒有解鎖時如何排查",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "先將本次操作與平台原文逐項對照，確認記錄的進度，再查看官方更新紀錄。回報問題時保留相關存檔與版本資訊。本頁不保證固定通關次數必然解鎖，也不將未經驗證的操作視為修復方式。"
+          }
+        ]
+      },
+      {
+        "heading": "相關入口",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam 官方成就清單](https://steamcommunity.com/stats/2255370/achievements)",
+              "[操作設定與玩法風格](/directive-8020-skill-checks)",
+              "[目前遊戲更新紀錄](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

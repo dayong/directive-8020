@@ -1,137 +1,81 @@
 {
   "meta": {
-    "title": "Política de privacidad",
-    "description": "Política de privacidad de directive-8020.com: cómo recopilamos, usamos y protegemos tus datos.",
-    "ogTitle": "Política de privacidad | Guía Directive 8020",
-    "ogDescription": "Nuestra política de privacidad: Google Analytics, Umami, cookies y divulgación de enlaces de afiliados."
+    "title": "Política de privacidad | Guía de Directive 8020",
+    "description": "Información sobre preferencias de idioma, analítica, enlaces externos y cómo contactar por cuestiones de privacidad.",
+    "ogTitle": "Política de privacidad | Guía de Directive 8020",
+    "ogDescription": "Información sobre preferencias de idioma, analítica, enlaces externos y cómo contactar por cuestiones de privacidad."
   },
   "hero": {
-    "h1": "Política de privacidad",
-    "intro": "Última actualización: 24 de mayo de 2026"
+    "h1": "Política de privacidad | Guía de Directive 8020",
+    "intro": "Información sobre preferencias de idioma, analítica, enlaces externos y cómo contactar por cuestiones de privacidad."
   },
   "sections": [
     {
-      "heading": "1. Información que recopilamos",
+      "heading": "Idioma y almacenamiento del navegador",
       "blocks": [
         {
-          "type": "subheading",
-          "text": "Datos recopilados automáticamente"
-        },
+          "type": "paragraph",
+          "text": "Al elegir un idioma o cerrar su recomendación, guardamos el idioma en localStorage con la clave directive-locale hasta que tú o el navegador eliminéis los datos. Es independiente de las cookies analíticas. El idioma de la página depende de la URL y la preferencia no fuerza redirecciones. El idioma del navegador se consulta localmente para ofrecer una sugerencia."
+        }
+      ]
+    },
+    {
+      "heading": "Analítica",
+      "blocks": [
         {
           "type": "paragraph",
-          "text": "Cuando visitas directive-8020.com, recopilamos automáticamente cierta información a través de servicios de analítica:"
-        },
+          "text": "Cargamos Google Analytics 4 para entender las visitas y el uso del sitio. Su medición puede tratar direcciones de páginas, referencias, información de dispositivo y navegador y cookies. Umami se carga opcionalmente cuando se configura para el despliegue, de forma independiente a Google Analytics. Consulta la documentación inferior; no afirmamos que no se trate ningún dato personal."
+        }
+      ]
+    },
+    {
+      "heading": "Tus opciones en el navegador",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Puedes borrar el almacenamiento y las cookies de este sitio desde los ajustes de datos del navegador. Eliminar directive-locale restablece el idioma guardado. Bloquear scripts o cookies puede afectar a la analítica o las preferencias; bloquear solo cookies no garantiza detener toda medición. Google ofrece un [complemento de inhabilitación](https://tools.google.com/dlpage/gaoptout). No se ha verificado Do Not Track como mecanismo de exclusión en este sitio."
+        }
+      ]
+    },
+    {
+      "heading": "Servicios externos y enlaces comerciales",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Usamos Cloudflare para alojamiento y entrega. Al seguir enlaces de tiendas u otros terceros, rigen sus propias políticas. Algunos enlaces incluyen identificadores de afiliación; las compras que cumplan las condiciones pueden generar una comisión sin coste adicional para ti. El sitio no recibe los datos de pago de esas compras. Si nos escribes, el mensaje y la dirección de correo son información que proporcionas directamente."
+        }
+      ]
+    },
+    {
+      "heading": "Conservación y solicitudes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "El idioma permanece en el navegador hasta que se elimina. La conservación analítica depende del servicio y de la cuenta; no afirmamos un plazo fijo sin comprobarlo. Según la legislación aplicable, puedes tener derechos de acceso, rectificación, supresión u oposición. Contacta para presentar tu solicitud; los controles del navegador no la sustituyen. La guía trata un juego para público adulto y no está dirigida a niños. Comunica cualquier preocupación sobre sus datos."
+        }
+      ]
+    },
+    {
+      "heading": "Contacto y cambios",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Escribe a [contact@directive-8020.com](mailto:contact@directive-8020.com) para preguntas o solicitudes. No envíes contraseñas ni datos de tarjetas. Actualizado el 2026-10-22; publicaremos aquí los cambios."
+        }
+      ]
+    },
+    {
+      "heading": "Políticas y documentación de proveedores",
+      "blocks": [
         {
           "type": "list",
           "items": [
-            "**Google Analytics (GA4):** Usamos Google Analytics para entender cómo los visitantes usan nuestro sitio. Este servicio recopila información como tu dirección IP, el tipo de navegador, datos del dispositivo, las páginas visitadas, el tiempo en cada página y las URLs de referencia. Google Analytics utiliza cookies para ello. Puedes desactivar el seguimiento de Google Analytics instalando el [complemento de inhabilitación para navegadores de Google Analytics](https://tools.google.com/dlpage/gaoptout).",
-            "**Umami Analytics:** También podemos usar Umami, un servicio de analítica centrado en la privacidad que no utiliza cookies ni recopila datos personales. Umami recopila datos de visitas anonimizados, como el referente, el tipo de navegador y el tipo de dispositivo."
+            "[Google](https://policies.google.com/privacy)",
+            "[Google Analytics — Cookies](https://support.google.com/analytics/answer/11397207)",
+            "[Google Analytics — Retention](https://support.google.com/analytics/answer/7667196)",
+            "[Umami](https://docs.umami.is/docs/collect-data)",
+            "[Cloudflare](https://www.cloudflare.com/privacypolicy/)"
           ]
-        },
-        {
-          "type": "subheading",
-          "text": "Datos que NO recopilamos"
-        },
-        {
-          "type": "paragraph",
-          "text": "directive-8020.com no tiene cuentas de usuario, secciones de comentarios ni formularios de contacto que recopilen información personal. No recopilamos nombres, direcciones de correo electrónico ni ningún dato que permita identificarte personalmente."
-        }
-      ]
-    },
-    {
-      "heading": "2. Cookies",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Google Analytics coloca cookies propias en tu navegador para distinguir usuarios únicos y registrar datos de sesión. Estas cookies no contienen información que permita identificarte personalmente. Puedes desactivar las cookies en la configuración de tu navegador en cualquier momento. Umami Analytics no utiliza cookies."
-        }
-      ]
-    },
-    {
-      "heading": "3. Servicios de terceros",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Usamos los siguientes servicios de terceros, que pueden recopilar datos según sus propias políticas de privacidad:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "**Google Analytics** — [Política de privacidad de Google](https://policies.google.com/privacy)",
-            "**Cloudflare Pages** (alojamiento) — [Política de privacidad de Cloudflare](https://www.cloudflare.com/privacypolicy/)",
-            "**GitHub** (alojamiento del código) — [Declaración de privacidad de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "4. Divulgación de enlaces de afiliados",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "directive-8020.com puede participar en programas de marketing de afiliados. Esto significa que podemos ganar una comisión si haces clic en ciertos enlaces y realizas una compra. Los enlaces de afiliados no afectan al precio que pagas. Solo recomendamos productos o servicios que creemos que aportan valor a nuestros lectores."
-        }
-      ]
-    },
-    {
-      "heading": "5. Publicidad",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Podemos mostrar anuncios en directive-8020.com a través de Google AdSense o redes publicitarias similares. Estas redes pueden usar cookies para mostrar anuncios personalizados según tu historial de navegación. Puedes desactivar la publicidad personalizada visitando [YourAdChoices](https://optout.aboutads.info/)."
-        }
-      ]
-    },
-    {
-      "heading": "6. Conservación de datos",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Los datos de analítica se conservan según la política de retención de cada servicio. Los datos de Google Analytics se conservan 14 meses de forma predeterminada. No mantenemos bases de datos separadas con información de usuarios."
-        }
-      ]
-    },
-    {
-      "heading": "7. Privacidad de los menores",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "directive-8020.com es una guía de estrategia de videojuegos y no está dirigida a menores de 13 años. No recopilamos a sabiendas información personal de menores. Si crees que hemos recopilado este tipo de información de forma inadvertida, ponte en contacto con nosotros y la eliminaremos lo antes posible."
-        }
-      ]
-    },
-    {
-      "heading": "8. Tus derechos",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Según tu jurisdicción (por ejemplo, en virtud del RGPD en la UE/Reino Unido o la CCPA en California), puedes tener derechos sobre tus datos personales, como el derecho de acceso, supresión u oposición a la recopilación de datos. Como recopilamos datos mínimos mediante analíticas de terceros, la mayoría de estos derechos pueden ejercerse así:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Instalando el complemento de inhabilitación de Google Analytics para el navegador",
-            "Desactivando las cookies en la configuración de tu navegador",
-            "Usando la opción Do Not Track de tu navegador"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "9. Cambios en esta política",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Podemos actualizar esta política de privacidad de vez en cuando. Los cambios se publicarán en esta página con la fecha de actualización. Te recomendamos revisar esta política periódicamente."
-        }
-      ]
-    },
-    {
-      "heading": "10. Contacto",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Si tienes preguntas sobre esta política de privacidad, puedes escribirnos a [contact@directive-8020.com](mailto:contact@directive-8020.com)."
         }
       ]
     }

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Mitchell en Directive 8020 — Piloto",
+    "description": "Noah Mitchell — Piloto. Copiloto que se formó junto a Young y Stafford.",
+    "ogTitle": "Mitchell en Directive 8020 — Piloto",
+    "ogDescription": "Noah Mitchell — Piloto. Copiloto que se formó junto a Young y Stafford."
+  },
+  "sections": [
+    {
+      "heading": "Un copiloto ambicioso",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Noah Mitchell es piloto de la Cassiopeia. Su pasado oficial describe vuelos arriesgados en simuladores, con accidentes y maniobras extraordinarias. Quiere participar en una misión histórica y hacer algo significativo. Las anécdotas de entrenamiento no garantizan el resultado de un vuelo dentro del juego."
+        }
+      ]
+    },
+    {
+      "heading": "Young y Stafford",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mitchell es amigo cercano de Brianna Young y admira a Stafford como líder y pionero espacial. El entrenamiento y los consejos de ambos lo prepararon para la misión. Su confianza caracteriza al personaje; no confirma que sea seleccionable en todos los modos ni que sobreviva una combinación concreta de tripulantes."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

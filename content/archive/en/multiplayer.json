@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Directive 8020 Multiplayer | Local Co-op, Online Play & Platform Requirements",
+    "description": "Current official listings advertise local Movie Night and online multiplayer. Check platform requirements and distinguish shared-screen play from crossplay.",
+    "ogTitle": "Directive 8020 Multiplayer | Local Co-op, Online Play & Platform Requirements",
+    "ogDescription": "Current official listings advertise local Movie Night and online multiplayer. Check platform requirements and distinguish shared-screen play from crossplay."
+  },
+  "hero": {
+    "h1": "Directive 8020 Multiplayer | Local Co-op, Online Play & Platform Requirements",
+    "intro": "Current official listings advertise local Movie Night and online multiplayer. Check platform requirements and distinguish shared-screen play from crossplay."
+  },
+  "summaryCards": {
+    "cards": [
+      {
+        "icon": "🎮",
+        "label": "Local Co-op",
+        "tone": "yes",
+        "value": "Movie Night",
+        "desc": "Group play on one system"
+      },
+      {
+        "icon": "🌐",
+        "label": "Online Play",
+        "tone": "yes",
+        "value": "Listed",
+        "desc": "Steam and PlayStation currently list online play"
+      },
+      {
+        "icon": "🔀",
+        "label": "Crossplay",
+        "tone": "later",
+        "value": "Not verified",
+        "desc": "Not established by the sources checked"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is confirmed now?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The current [Steam listing](https://store.steampowered.com/app/2255370/Directive_8020/) advertises online co-op and shared/split-screen co-op. The [PlayStation listing](https://www.playstation.com/en-us/games/directive-8020/) advertises online players and local players. Earlier launch announcements described online multiplayer as a future update; that historical wording should not be presented as the current availability."
+        }
+      ]
+    },
+    {
+      "heading": "How many people can play?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The official game page describes Movie Night as group play for up to five players. PlayStation lists one to five players and support for up to five online players with PlayStation Plus. These are platform listings, not a claim that every platform or game mode has identical requirements."
+        }
+      ]
+    },
+    {
+      "heading": "Does shared screen mean split screen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Steam groups shared-screen and split-screen co-op in one feature category. That combined label alone does not prove simultaneous split-screen gameplay. Check the mode description and the interface in your installed version."
+        }
+      ]
+    },
+    {
+      "heading": "Is crossplay confirmed?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Online co-op is not the same as cross-platform matchmaking. The sources checked here do not establish crossplay support, a friend pass or which combinations of platforms can join one another. Do not infer these from the online co-op label."
+        }
+      ]
+    },
+    {
+      "heading": "What should I check before inviting friends?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Update the game and read the current platform listing. Check subscription, account and ownership requirements, then use the multiplayer options actually available in your version. PlayStation says PlayStation Plus is required for online play."
+        }
+      ]
+    },
+    {
+      "heading": "Can the group revisit choices?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The official game presentation confirms the Turning Points story tree. Available options can depend on the selected mode and settings; this page does not promise that every scene can be rewound in every mode."
+        }
+      ]
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "What is confirmed now?",
+      "a": "Current official listings advertise local Movie Night and online multiplayer. Check platform requirements and distinguish shared-screen play from crossplay."
+    },
+    {
+      "q": "Is crossplay confirmed?",
+      "a": "Online co-op is not the same as cross-platform matchmaking. The sources checked here do not establish crossplay support, a friend pass or which combinations of platforms can join one another. Do not infer these from the online co-op label."
+    }
+  ],
+  "cta": {
+    "text": "Ready to play? Start here:",
+    "links": [
+      {
+        "href": "/walkthrough",
+        "label": "Full Walkthrough →",
+        "variant": "primary"
+      },
+      {
+        "href": "/save-everyone",
+        "label": "Save Everyone →",
+        "variant": "outline"
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  }
+}

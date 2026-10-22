@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Personagens de Directive 8020 | Nomes e cargos oficiais",
+    "description": "Conheça os nomes e cargos da tripulação da Cassiopeia, conferidos no site oficial de Directive 8020."
+  },
+  "hero": {
+    "h1": "A tripulação da Cassiopeia",
+    "intro": "O site oficial apresenta dez personagens com nome. A PlayStation destaca cinco como jogáveis. Estes perfis descrevem identidades e cargos, sem garantir resultados de sobrevivência."
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  }
+}

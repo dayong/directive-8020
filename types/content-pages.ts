@@ -38,6 +38,7 @@ export type ContentBlock =
   | { type: 'table'; headers: string[]; rows: TableCell[][] };
 
 export interface ProseSection {
+  id?: string;
   heading: string;
   blocks: ContentBlock[];
 }
@@ -129,7 +130,7 @@ export interface HomeContent {
   hero: { titleMain: string; titleAccent: string; subtitle: string; buttons: CtaLink[] };
   warning: { heading: string; text: string };
   quickAccess: { heading: string; tiles: { icon: string; label: string; href: string }[] };
-  episodeSection: { heading: string };
+  episodeSection: { heading: string; enabled?: boolean };
   truePath: { heading: string; intro: string; steps: { title: string; sub: string }[]; resultLabel: string; result: string; cta: CtaLink };
   moreGuides: { heading: string; cards: { icon: string; kicker: string; title: string; body: string; href: string }[] };
   faqHeading: string;
@@ -295,6 +296,7 @@ export interface SaveEveryoneContent {
 }
 
 export interface CharacterDetailContent {
+  showChoices?: boolean;
   notFoundTitle: string;
   metaTitleFormat: string;
   metaDescriptionFormat: string;

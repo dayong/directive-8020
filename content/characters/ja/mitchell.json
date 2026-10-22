@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020のMitchell — パイロット",
+    "description": "Noah Mitchell — パイロット。YoungやStaffordと訓練を共にした副操縦士。",
+    "ogTitle": "Directive 8020のMitchell — パイロット",
+    "ogDescription": "Noah Mitchell — パイロット。YoungやStaffordと訓練を共にした副操縦士。"
+  },
+  "sections": [
+    {
+      "heading": "野心を持つ副操縦士",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Noah Mitchell は Cassiopeia のパイロットです。公式の過去ではシミュレーターで大胆な飛行を行い、墜落も経験する一方、難しい機動も成功させています。歴史的な任務で意味のあることをしたい人物ですが、訓練の逸話はゲーム内の飛行結果を保証しません。"
+        }
+      ]
+    },
+    {
+      "heading": "Young と Stafford",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mitchell は Brianna Young の親友で、Stafford を指揮官かつ宇宙開拓の先駆者として尊敬しています。両者の訓練と指導を受けて任務に備えました。この自信は人物設定で、すべてのモードで個別に操作できることや、特定の乗組員構成の生存を示すものではありません。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

@@ -1,8 +1,9 @@
 {
   "meta": {
-    "title": "Cómo salvar a todos en Directive 8020: guía del mejor final",
-    "description": "Guía paso a paso para salvar a los 5 personajes jugables de Directive 8020. Carter y Simms mueren por guion; salva al resto para el final verdadero.",
-    "ogDescription": "Guía completa para salvar a toda la tripulación de Directive 8020. Carter y Simms mueren por guion: céntrate en los 5 personajes jugables."
+    "title": "Rutas de supervivencia de Directive 8020: qué se ha verificado",
+    "description": "La presentación oficial identifica cinco tripulantes jugables. No respalda la secuencia obligatoria de diálogos, la supervivencia garantizada ni la predicción de final basada en la lista anterior.",
+    "ogTitle": "Rutas de supervivencia de Directive 8020: qué se ha verificado",
+    "ogDescription": "La presentación oficial identifica cinco tripulantes jugables. No respalda la secuencia obligatoria de diálogos, la supervivencia garantizada ni la predicción de final basada en la lista anterior."
   },
   "hero": {
     "h1": "Cómo salvar a todos en Directive 8020",
@@ -12,7 +13,7 @@
     "heading": "❌ Carter y Simms no se pueden salvar: es por diseño",
     "before": "Muchos jugadores se confunden intentando salvar a Carter y Simms. Tenlo claro: sus muertes son eventos guionizados de la historia. Hagas lo que hagas, ambos personajes morirán en sus escenas predeterminadas.",
     "strong": "No pierdas el tiempo intentando cambiarlo.",
-    "after": "Céntrate en proteger a los 5 personajes jugables: Osmond, Stafford, Eisele, Cernan y Cooper."
+    "after": "Céntrate en proteger a los 5 personajes jugables: Young, Stafford, Eisele, Cernan y Cooper."
   },
   "howTo": {
     "name": "Cómo salvar a todos en Directive 8020",
@@ -81,10 +82,14 @@
   "destinies": {
     "heading": "Lista de Destiny por desbloquear",
     "intro": "Cada personaje jugable tiene un Destiny que se desbloquea en momentos concretos. Desbloquearlos es obligatorio para la ruta del mejor final.",
-    "headers": ["Personaje", "Destiny", "Cómo desbloquearlo"],
+    "headers": [
+      "Personaje",
+      "Destiny",
+      "Cómo desbloquearlo"
+    ],
     "rows": [
       {
-        "character": "Osmond",
+        "character": "Young",
         "destiny": "The Humanitarian",
         "how": "Toma decisiones compasivas a lo largo del juego. Elige Honor cuando se te dé la opción en el Episodio 1."
       },
@@ -131,8 +136,52 @@
   "cta": {
     "text": "Cuando todos estén vivos, echa un vistazo a todos los finales posibles:",
     "links": [
-      { "href": "/all-endings", "label": "Ver todos los finales →", "variant": "primary" },
-      { "href": "/walkthrough", "label": "Guía completa paso a paso →", "variant": "outline" }
+      {
+        "href": "/all-endings",
+        "label": "Ver todos los finales →",
+        "variant": "primary"
+      },
+      {
+        "href": "/walkthrough",
+        "label": "Guía completa paso a paso →",
+        "variant": "outline"
+      }
     ]
+  },
+  "review": {
+    "status": "pending",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ],
+    "replacement": {
+      "heading": "Rutas de supervivencia de Directive 8020: qué se ha verificado",
+      "intro": "La presentación oficial identifica cinco tripulantes jugables. No respalda la secuencia obligatoria de diálogos, la supervivencia garantizada ni la predicción de final basada en la lista anterior.",
+      "sections": [
+        {
+          "heading": "Reglas de repetición confirmadas",
+          "text": "Explorer permite Turning Points durante la historia. Survivor mantiene las decisiones en la primera partida y desbloquea Turning Points si llegas al final. Estas reglas no demuestran los requisitos de un final o contraseña concretos."
+        },
+        {
+          "heading": "Antes de restaurar los consejos",
+          "text": "Un registro reproducible debe identificar plataforma, versión, decisiones previas, indicación real y resultado observado. Los detalles antiguos se conservan para revisión editorial, pero no se publican como instrucciones actuales. Consulta las fuentes oficiales y la guía de controles verificada durante esta revisión."
+        }
+      ]
+    }
   }
 }

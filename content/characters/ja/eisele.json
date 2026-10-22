@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020のEisele — 上級任務士官",
+    "description": "Laura Eisele — 上級任務士官。Cassiopeiaと船内コンピューターOracleを設計した任務の立案者。",
+    "ogTitle": "Directive 8020のEisele — 上級任務士官",
+    "ogDescription": "Laura Eisele — 上級任務士官。Cassiopeiaと船内コンピューターOracleを設計した任務の立案者。"
+  },
+  "sections": [
+    {
+      "heading": "任務と船の設計者",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Laura Eisele の公式の役職は上級任務士官です。Cassiopeia の任務設計を担い、船や船内コンピューター Oracle も手がけました。公式の背景は彼女の専門的な実績と、自分にも同僚にも丁寧な仕事を求める姿勢を示しており、別の科学士官として紹介しているわけではありません。"
+        }
+      ]
+    },
+    {
+      "heading": "責任と対人関係",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "技術に自信があっても、Eisele にとって人との交流が常に容易とは限りません。プロフィールは機械や理論への理解と、同僚とのつながりに苦労する面を対比しています。任務で人類の未来を進め、自らの限界も試そうとしています。こうした性格設定で、場面ごとの人間と擬態を判別できるとはいえません。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

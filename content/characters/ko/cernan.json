@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020의 Cernan — 기술 엔지니어",
+    "description": "Josef Cernan — 기술 엔지니어. 문제를 신중하게 바라보며 임무에 임하는 엔지니어.",
+    "ogTitle": "Directive 8020의 Cernan — 기술 엔지니어",
+    "ogDescription": "Josef Cernan — 기술 엔지니어. 문제를 신중하게 바라보며 임무에 임하는 엔지니어."
+  },
+  "sections": [
+    {
+      "heading": "공학과 삶에 대한 관점",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Josef Cernan은 Cassiopeia의 기술 엔지니어입니다. 공학을 공부하기 위해 튀르키예에서 네덜란드로 이주했고 그 시기에 불교를 접했습니다. 공식 프로필은 하드웨어 문제 해결 능력뿐 아니라 주변 사람들에 대한 이해도 설명합니다. 그의 역할을 단순한 장비 수리로만 한정할 수는 없습니다."
+        }
+      ]
+    },
+    {
+      "heading": "임무에 참가한 이유",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "세상을 떠난 동반자에게 한 약속은 자랑스러운 삶을 살기 위해 임무에 지원한 동기 중 하나입니다. 열린 태도와 배려는 승무원들을 이어 주는 힘이 됩니다. 다만 이런 낙관성은 인물 묘사이며 모든 장애물에 정해진 성공 입력이 있거나 생존이 보장된다는 뜻은 아닙니다."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

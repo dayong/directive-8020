@@ -4,5 +4,24 @@
   "episodeLabelFormat": "Episode {number}",
   "prevLabel": "← Previous",
   "nextLabel": "Next →",
-  "navFormat": "Episode {number}: {title}"
+  "navFormat": "Episode {number}: {title}",
+  "review": {
+    "status": "needs-review",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ],
+    "notice": "Scene-specific instructions, exact counts and outcome claims in this older guide have not been fully verified against official material. Treat them as provisional."
+  }
 }

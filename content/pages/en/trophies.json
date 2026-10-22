@@ -1,30 +1,84 @@
 {
   "meta": {
-    "title": "Directive 8020 Trophy Guide | Platinum & All Achievements",
-    "description": "Complete Directive 8020 trophy guide. All 31 trophies including the platinum, missable trophies, and roadmap for achieving 100% completion.",
-    "ogTitle": "Directive 8020 Trophy Guide | Platinum & Achievements",
-    "ogDescription": "Complete trophy guide for Directive 8020 — all 31 trophies, missable warnings, and platinum roadmap."
+    "title": "Directive 8020 Trophies & Steam Achievements | Platform Guide",
+    "description": "Plan achievement progress using the official platform lists. Steam currently lists 30 achievements; PlayStation trophies must be checked separately.",
+    "ogTitle": "Directive 8020 Trophies & Steam Achievements | Platform Guide",
+    "ogDescription": "Plan achievement progress using the official platform lists. Steam currently lists 30 achievements; PlayStation trophies must be checked separately."
   },
   "hero": {
-    "h1": "Trophy Guide",
-    "intro": "All 31 trophies for Directive 8020 on PlayStation 5. Includes the platinum roadmap, missable trophy warnings, and unlock conditions for every achievement."
+    "h1": "Directive 8020 Trophies & Steam Achievements | Platform Guide",
+    "intro": "Use the list for your own platform before planning completion. Hidden achievements can contain spoilers, so decide how much you want to reveal before reading their conditions."
   },
-  "roadmap": {
-    "heading": "Platinum Roadmap",
-    "columns": [
+  "article": {
+    "sections": [
       {
-        "title": "Playthrough 1",
-        "body": "Follow the Save Everyone guide. Keep all 5 playable characters alive. Achieve the true ending."
+        "heading": "Start with the correct platform",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The official Steam community page currently lists 30 achievements. This is the PC list, not a verified PlayStation trophy total. We have withdrawn the earlier names, medal tiers and guaranteed platinum roadmap because they were not matched to a checked platform list."
+          }
+        ]
       },
       {
-        "title": "Playthrough 2",
-        "body": "Make opposite choices. Let characters die. Unlock bad endings and the Casualty trophy."
+        "heading": "A practical completion checklist",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Open your platform’s current achievement or trophy list and record what is already unlocked.",
+              "Choose whether to reveal hidden descriptions; their text can spoil the story.",
+              "Record the game version, play style and save used for each attempt.",
+              "Check the actual unlock condition before replaying a scene; a similar story outcome does not prove the requirement was met."
+            ]
+          }
+        ]
       },
       {
-        "title": "Cleanup",
-        "body": "Use Turning Points to mop up remaining endings, collectibles, and missable trophies."
+        "heading": "Play style affects your replay plan",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The official accessibility guide says Explorer allows Turning Points during the story. Survivor commits you to decisions during the initial run and unlocks Turning Points if you reach the ending. Play style is separate from the settings that adjust QTEs and real-time threats. Check a target’s own requirements before changing settings."
+          }
+        ]
+      },
+      {
+        "heading": "When an achievement does not unlock",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Compare your attempt with the platform’s wording, check your recorded progress and consult the official update history. Keep the relevant save and version details when reporting a problem. This guide does not promise an unlock after a fixed number of runs or label an untested workaround as a fix."
+          }
+        ]
+      },
+      {
+        "heading": "Useful links",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Official Steam achievement list](https://steamcommunity.com/stats/2255370/achievements)",
+              "[Controls and play styles](/directive-8020-skill-checks)",
+              "[Current game updates](https://store.steampowered.com/news/app/2255370)"
+            ]
+          }
+        ]
       }
     ]
   },
-  "missableWarning": "⚠ {count} trophies are missable in a single playthrough. Use this guide to avoid missing them."
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
+      },
+      {
+        "label": "Directive 8020 — Accessibility Features",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
 }

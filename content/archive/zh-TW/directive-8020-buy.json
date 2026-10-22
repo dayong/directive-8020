@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "購買 Directive 8020｜版本、平台與升級包要求",
+    "description": "比較遊戲本體、Digital Deluxe 豪華版與升級包，尋找 PC、PS5、Xbox 官方入口，並在購買前確認地區及語言要求。",
+    "ogTitle": "購買 Directive 8020｜版本、平台與升級包要求",
+    "ogDescription": "比較遊戲本體、Digital Deluxe 豪華版與升級包，尋找 PC、PS5、Xbox 官方入口，並在購買前確認地區及語言要求。"
+  },
+  "hero": {
+    "h1": "購買 Directive 8020｜版本、平台與升級包要求",
+    "intro": "先選平台，再比較自己已擁有的內容與商品實際包含的內容。價格與優惠會隨商店、地區及結帳時間變動。"
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "完整遊戲還是附加內容？",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "商品",
+              "內容",
+              "遊戲本體"
+            ],
+            "rows": [
+              [
+                "標準版",
+                "主遊戲",
+                "已包含"
+              ],
+              [
+                "Digital Deluxe 豪華版",
+                "遊戲與豪華附加內容",
+                "已包含"
+              ],
+              [
+                "Steam Digital Deluxe 升級包",
+                "可下載的豪華附加內容",
+                "需要另有 Steam 本體"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "豪華內容包含什麼",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "官方商店介紹了服裝、額外黑相集收集內容、電影濾鏡、數位美術設定集與原聲帶。升級包不是第三種獨立完整遊戲；請閱讀所在平台對應版本的商品說明。"
+          }
+        ]
+      },
+      {
+        "heading": "付款前檢查",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "確認平台、商品類型與啟用地區。",
+              "確認帳號是否已擁有本體或豪華內容。",
+              "比較最終結帳總額，不只看刪除線價格。",
+              "閱讀商店目前的交付與退款條款。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "另外核對遊戲語言",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "本站攻略的語言不能證明遊戲內支援對應語言。購買前請分別查看官方商店的介面、配音與字幕欄。"
+          }
+        ]
+      },
+      {
+        "heading": "官方商店入口",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam — PC](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[PlayStation — PS5](https://www.playstation.com/en-us/games/directive-8020/)",
+              "[Xbox — Series X|S](https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l)",
+              "[Steam — Digital Deluxe Upgrade](https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "保留的第三方購買選項",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "本站部分商店連結為推廣連結。透過這些連結購買符合條件的商品時，我們可能獲得佣金，你無須支付額外費用。"
+          },
+          {
+            "type": "paragraph",
+            "text": "下方 PC 商品為推廣連結，不承諾最低價或庫存。請核對商家目前適用地區與結帳條件。"
+          },
+          {
+            "type": "paragraph",
+            "text": "[查看 Instant Gaming PC 商品](https://www.instant-gaming.com/en/10380-buy-directive-8020-pc-steam/?igr=gamer-8917036)"
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Steam — Digital Deluxe Upgrade",
+        "url": "https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/"
+      },
+      {
+        "label": "PlayStation — Directive 8020",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Xbox — Directive 8020",
+        "url": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
+      }
+    ]
+  }
+}

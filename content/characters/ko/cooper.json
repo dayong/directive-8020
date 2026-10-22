@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020의 Cooper — 의료 전문가",
+    "description": "Samantha Cooper — 의료 전문가. 군 의료 후송 경험이 있는 의사.",
+    "ogTitle": "Directive 8020의 Cooper — 의료 전문가",
+    "ogDescription": "Samantha Cooper — 의료 전문가. 군 의료 후송 경험이 있는 의사."
+  },
+  "sections": [
+    {
+      "heading": "임무 이전의 의료 경력",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Samantha Cooper는 Cassiopeia의 의료 전문가입니다. 군 의료 후송팀에서 의료 기술을 익히고 구조에 참여했습니다. 공식 과거에는 Jessops Station의 비극이 포함되며 Cooper는 살아남았지만 팀원들은 그러지 못했습니다. 이는 임무 전의 사건이며 게임 중 맞는 운명을 설명하지 않습니다."
+        }
+      ]
+    },
+    {
+      "heading": "Anders와의 우정",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zoe Anders는 Cooper가 트라우마에서 회복하는 과정을 도왔습니다. 이후 Cooper는 오랜 친구를 임무의 후임 과학 장교로 추천했습니다. 이 관계는 승무원들이 모인 경위를 이해하는 데 도움이 됩니다. 공식 소개가 강조하는 것은 회복력과 의료에 대한 헌신이며 장면별 생존 절차나 확인되지 않은 출연 정보가 아닙니다."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

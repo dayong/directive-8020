@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Politique de confidentialité | Guide Directive 8020",
+    "description": "Préférences linguistiques, mesure d’audience, liens externes et contact pour les questions de confidentialité.",
+    "ogTitle": "Politique de confidentialité | Guide Directive 8020",
+    "ogDescription": "Préférences linguistiques, mesure d’audience, liens externes et contact pour les questions de confidentialité."
+  },
+  "hero": {
+    "h1": "Politique de confidentialité | Guide Directive 8020",
+    "intro": "Préférences linguistiques, mesure d’audience, liens externes et contact pour les questions de confidentialité."
+  },
+  "sections": [
+    {
+      "heading": "Langue et stockage du navigateur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous choisissez une langue ou fermez une suggestion, nous enregistrons la langue dans localStorage sous directive-locale jusqu’à sa suppression par vous ou le navigateur. Ce stockage est distinct des cookies analytiques. La langue dépend de l’URL ; la préférence ne force aucune redirection. La langue du navigateur est lue localement pour proposer une suggestion."
+        }
+      ]
+    },
+    {
+      "heading": "Mesure d’audience",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nous chargeons Google Analytics 4 pour comprendre les visites et l’utilisation du site. Ses mesures peuvent traiter URL, provenance, informations de navigateur et d’appareil et cookies. Umami est chargé si le déploiement le configure, indépendamment de Google Analytics. Consultez les documents ci-dessous ; nous n’affirmons pas qu’aucune donnée personnelle n’est traitée."
+        }
+      ]
+    },
+    {
+      "heading": "Vos choix dans le navigateur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les réglages de données du navigateur permettent d’effacer stockage et cookies du site. Supprimer directive-locale réinitialise la langue mémorisée. Bloquer scripts ou cookies peut modifier le fonctionnement de l’analyse ou des préférences ; bloquer uniquement les cookies ne garantit pas l’arrêt de toute mesure. Google propose un [module de désactivation](https://tools.google.com/dlpage/gaoptout). Le fonctionnement de Do Not Track comme mécanisme de refus n’est pas vérifié ici."
+        }
+      ]
+    },
+    {
+      "heading": "Services externes et liens commerciaux",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cloudflare assure l’hébergement et la diffusion. Les boutiques et autres sites liés traitent votre visite selon leurs propres politiques. Certains liens contiennent des identifiants d’affiliation ; des achats admissibles peuvent nous rapporter une commission sans frais supplémentaires pour vous. Le site ne reçoit pas les données de paiement de ces achats. Un courriel nous fournit directement votre message et votre adresse."
+        }
+      ]
+    },
+    {
+      "heading": "Conservation et demandes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La langue reste dans le navigateur jusqu’à suppression. La conservation analytique dépend du service et du compte ; aucune durée fixe non vérifiée n’est annoncée. Selon le droit applicable, vous pouvez disposer de droits d’accès, de rectification, d’effacement ou d’opposition. Contactez-nous pour présenter une demande ; les réglages du navigateur ne la remplacent pas. Ce guide concerne un jeu destiné à un public adulte, pas aux enfants. Signalez toute inquiétude concernant leurs informations."
+        }
+      ]
+    },
+    {
+      "heading": "Contact et modifications",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Écrivez à [contact@directive-8020.com](mailto:contact@directive-8020.com) pour toute question ou demande. N’envoyez ni mots de passe ni données de carte. Mise à jour : 2026-10-22. Les changements seront publiés ici."
+        }
+      ]
+    },
+    {
+      "heading": "Politiques et documentation des prestataires",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "[Google](https://policies.google.com/privacy)",
+            "[Google Analytics — Cookies](https://support.google.com/analytics/answer/11397207)",
+            "[Google Analytics — Retention](https://support.google.com/analytics/answer/7667196)",
+            "[Umami](https://docs.umami.is/docs/collect-data)",
+            "[Cloudflare](https://www.cloudflare.com/privacypolicy/)"
+          ]
+        }
+      ]
+    }
+  ]
+}

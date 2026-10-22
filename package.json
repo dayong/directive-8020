@@ -10,7 +10,10 @@
     "pages:build": "npx @cloudflare/next-on-pages",
     "pages:deploy": "wrangler pages deploy .vercel/output/static",
     "preview": "npx wrangler pages dev .vercel/output/static",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "pretest": "node scripts/build-i18n-manifest.cjs",
+    "i18n:manifest": "node scripts/build-i18n-manifest.cjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

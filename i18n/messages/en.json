@@ -1,0 +1,152 @@
+{
+  "layoutMeta": {
+    "defaultTitle": "Directive 8020 Guide | Characters, Choices & Co-op",
+    "titleTemplate": "%s | Directive 8020",
+    "description": "Explore Directive 8020: its Cassiopeia crew, branching choices, Turning Points and cooperative play. Find official sources and topic guides in one place.",
+    "ogTitle": "Directive 8020 Guide | Characters, Choices & Co-op",
+    "ogDescription": "Explore Directive 8020: its Cassiopeia crew, branching choices, Turning Points and cooperative play. Find official sources and topic guides in one place.",
+    "jsonLdDescription": "It is a cinematic science-fiction horror adventure from Supermassive Games. The crew of the Cassiopeia faces an alien capable of mimicking people, and your decisions shape the story.",
+    "jsonLdGenres": [
+      "Horror",
+      "Interactive Drama",
+      "Sci-Fi"
+    ]
+  },
+  "nav": {
+    "walkthrough": "Walkthrough",
+    "saveEveryone": "Save Everyone",
+    "allEndings": "All Endings",
+    "choices": "Choices",
+    "characters": "Characters",
+    "trophies": "Trophies"
+  },
+  "tabs": {
+    "guide": "Guide",
+    "saveAll": "Save All",
+    "endings": "Endings",
+    "choices": "Choices",
+    "crew": "Crew",
+    "trophies": "Trophies"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  },
+  "footer": {
+    "story": "Story",
+    "gameplay": "Gameplay",
+    "collectibles": "Collectibles",
+    "technical": "Technical",
+    "walkthrough": "Walkthrough",
+    "allEndings": "All Endings",
+    "bestEnding": "Best Ending",
+    "choices": "Choices",
+    "gameLength": "Game Length",
+    "saveEveryone": "Save Everyone",
+    "trophyGuide": "Trophy Guide",
+    "multiplayer": "Multiplayer",
+    "bugFixes": "Bug Fixes",
+    "charactersAndCast": "Characters & Cast",
+    "collectiblesLink": "Collectibles",
+    "trophiesAndAchievements": "Trophies & Achievements",
+    "crashingAndFixes": "Crashing & Fixes",
+    "pcIssues": "PC Issues",
+    "consoleIssues": "Console Issues",
+    "whereToBuy": "Where to Buy",
+    "privacyPolicy": "Privacy Policy",
+    "contact": "Contact",
+    "disclaimer1": "Unofficial fan guide. Not affiliated with Supermassive Games.",
+    "disclaimer2": "Directive 8020 is part of The Dark Pictures Anthology. This is an unofficial fan guide.",
+    "affiliateNote": "Some store links on this site are affiliate links. We may earn a commission on qualifying purchases at no extra cost to you."
+  },
+  "breadcrumbs": {
+    "episodeFormat": "Ep. {number}: {title}",
+    "ariaLabel": "Breadcrumb",
+    "labels": {
+      "": "Home",
+      "walkthrough": "Walkthrough",
+      "save-everyone": "Save Everyone",
+      "all-endings": "All Endings",
+      "choices": "Choices & Consequences",
+      "characters": "Characters",
+      "trophies": "Trophy Guide",
+      "collectibles": "Collectibles",
+      "game-length": "Game Length",
+      "bug-fixes": "Bug Fixes",
+      "multiplayer": "Multiplayer",
+      "directive-8020-cove": "Cove Guide",
+      "directive-8020-actress": "Cast & Actresses",
+      "directive-8020-buy": "Where to Buy",
+      "privacy-policy": "Privacy Policy",
+      "who-is-the-real-eisele-directive-8020": "Identifying Eisele",
+      "shoot-williams-or-stand-down": "Shoot Williams or Stand Down?",
+      "can-carter-survive": "Can Carter Survive?",
+      "directive-8020-skill-checks": "Skill Checks",
+      "codes": "Codes & Passwords"
+    }
+  },
+  "spoiler": {
+    "title": "Spoiler Warning",
+    "body": "Click to reveal. This section contains critical story spoilers that may affect your gameplay experience."
+  },
+  "toc": {
+    "heading": "On This Page"
+  },
+  "episodeCard": {
+    "keyChoicesFormat": "{count} key choices"
+  },
+  "choiceCard": {
+    "recommended": "✓ Recommended",
+    "avoid": "✗ Avoid",
+    "crossEpisode": "⟳ Cross-episode: ",
+    "endingImpact": "🎯 Ending impact: "
+  },
+  "endingCard": {
+    "trueEnding": "True Ending",
+    "condition": "Condition:",
+    "survivors": "Survivors:",
+    "turningPoint": "Turning Point:"
+  },
+  "characterBadge": {
+    "scriptedDeath": "Scripted Death",
+    "deceased": "Deceased",
+    "unverified": "Outcome not verified"
+  },
+  "charactersView": {
+    "actor": "Actor: ",
+    "canSurvive": "Can Survive",
+    "npcCanSurvive": "NPC — Can Survive",
+    "scriptedDeath": "Scripted Death",
+    "notConfirmed": "Not confirmed in the sources checked",
+    "outcomeUnverified": "Outcome not verified",
+    "playable": "Playable crew member",
+    "supporting": "Supporting character"
+  },
+  "trophiesView": {
+    "platinum": "Platinum",
+    "gold": "Gold",
+    "silver": "Silver",
+    "bronze": "Bronze",
+    "missable": "Missable"
+  },
+  "allEndingsView": {
+    "notAvailable": "N/A"
+  },
+  "accessibility": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "playPreview": "Play preview video",
+    "episodeFormat": "Ep. {number}",
+    "dismissLanguage": "Dismiss language suggestion",
+    "fallbackLanguage": "The destination page is in English",
+    "englishContent": "This guide is currently available in English.",
+    "officialSource": "Official game website"
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "This page does not exist in this language. Choose a language with available content or return to the home page.",
+    "home": "Return home",
+    "loadTitle": "Unable to load this page",
+    "loadBody": "Please try loading the page again.",
+    "retry": "Try again"
+  }
+}

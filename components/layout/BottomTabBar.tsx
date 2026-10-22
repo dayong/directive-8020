@@ -2,12 +2,12 @@
 
 import Link from '@/components/ui/LocaleLink';
 import { usePathname } from 'next/navigation';
-import { localeFromPathname, stripLocalePrefix } from '@/i18n/config';
-import { uiStrings } from '@/i18n/ui';
+import { stripLocalePrefix } from '@/i18n/config';
+import { useMessages } from '@/components/i18n/Messages';
 
 export default function BottomTabBar() {
   const pathname = stripLocalePrefix(usePathname());
-  const t = uiStrings[localeFromPathname(usePathname())].tabs;
+  const t = useMessages().messages.tabs;
 
   const tabs = [
     { href: '/walkthrough', label: t.guide, icon: '📖' },
@@ -19,7 +19,7 @@ export default function BottomTabBar() {
   ];
 
   return (
-    <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur border-t border-slate-800 safe-area-bottom">
+    <nav className="xl:hidden fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur border-t border-slate-800 safe-area-bottom">
       <div className="flex items-center justify-around h-16 px-1">
         {tabs.map((tab) => {
           const isActive = pathname.startsWith(tab.href);

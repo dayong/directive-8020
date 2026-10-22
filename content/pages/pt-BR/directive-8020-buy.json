@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Comprar Directive 8020 | Edições, plataformas e upgrade",
+    "description": "Compare jogo base, Digital Deluxe Edition e upgrade. Encontre páginas oficiais de PC, PS5 e Xbox e confira região e idiomas antes da compra.",
+    "ogTitle": "Comprar Directive 8020 | Edições, plataformas e upgrade",
+    "ogDescription": "Compare jogo base, Digital Deluxe Edition e upgrade. Encontre páginas oficiais de PC, PS5 e Xbox e confira região e idiomas antes da compra."
+  },
+  "hero": {
+    "h1": "Comprar Directive 8020 | Edições, plataformas e upgrade",
+    "intro": "Escolha primeiro a plataforma e compare o que já possui com o conteúdo do pacote. Preços e ofertas variam por loja, região e momento do pagamento."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Jogo ou complemento?",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Pacote",
+              "Conteúdo",
+              "Jogo base"
+            ],
+            "rows": [
+              [
+                "Padrão",
+                "Jogo principal",
+                "Incluído"
+              ],
+              [
+                "Digital Deluxe Edition",
+                "Jogo e extras deluxe",
+                "Incluído"
+              ],
+              [
+                "Digital Deluxe Upgrade no Steam",
+                "Extras deluxe para baixar",
+                "Exige o jogo base no Steam separadamente"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "O que os extras incluem",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A loja oficial descreve roupas, colecionáveis adicionais de Dark Pictures, filtros, artbook digital e trilha sonora. O upgrade não é um terceiro jogo independente. Leia a descrição da edição na sua plataforma."
+          }
+        ]
+      },
+      {
+        "heading": "Antes de pagar",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Confira plataforma, tipo de produto e região de ativação.",
+              "Verifique se já possui o jogo ou os extras.",
+              "Compare o total final, não apenas um preço riscado.",
+              "Leia as condições atuais de entrega e reembolso."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Confira os idiomas do jogo",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "O idioma deste guia não comprova suporte dentro do jogo. Confira separadamente interface, áudio e legendas na página oficial antes de comprar."
+          }
+        ]
+      },
+      {
+        "heading": "Lojas oficiais",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Steam — PC](https://store.steampowered.com/app/2255370/Directive_8020/)",
+              "[PlayStation — PS5](https://www.playstation.com/en-us/games/directive-8020/)",
+              "[Xbox — Series X|S](https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l)",
+              "[Steam — Digital Deluxe Upgrade](https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Opção externa preservada",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Alguns links de lojas são links de afiliados. Podemos receber uma comissão por compras qualificadas, sem custo adicional para você."
+          },
+          {
+            "type": "paragraph",
+            "text": "O produto de PC abaixo é um link de afiliado, sem garantia de menor preço ou estoque. Confira regiões e condições atuais do vendedor."
+          },
+          {
+            "type": "paragraph",
+            "text": "[Ver produto de PC na Instant Gaming](https://www.instant-gaming.com/en/10380-buy-directive-8020-pc-steam/?igr=gamer-8917036)"
+          }
+        ]
+      }
+    ],
+    "media": {
+      "src": "/videos/directive-8020-preview.webm",
+      "poster": "/images/directive-8020-cover.jpg",
+      "posterAlt": "Capa de Directive 8020",
+      "caption": "Prévia de Directive 8020 — Instant Gaming"
+    }
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Steam — Digital Deluxe Upgrade",
+        "url": "https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/"
+      },
+      {
+        "label": "PlayStation — Directive 8020",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Xbox — Directive 8020",
+        "url": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
+      }
+    ]
+  }
+}

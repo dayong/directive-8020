@@ -1,5 +1,6 @@
 'use client';
 
+import { useMessages } from '@/components/i18n/Messages';
 import { useState } from 'react';
 
 interface SpoilerWarningProps {
@@ -8,9 +9,10 @@ interface SpoilerWarningProps {
 }
 
 export default function SpoilerWarning({
-  title = 'Spoiler Warning',
+  title,
   children,
 }: SpoilerWarningProps) {
+  const { messages } = useMessages();
   const [revealed, setRevealed] = useState(false);
 
   if (revealed) {
@@ -24,11 +26,10 @@ export default function SpoilerWarning({
     >
       <div className="flex items-center gap-2">
         <span className="text-amber-400 text-lg">⚠</span>
-        <span className="text-amber-400 font-bold">{title}</span>
+        <span className="text-amber-400 font-bold">{title ?? messages.spoiler.title}</span>
       </div>
       <p className="text-slate-400 text-sm mt-1">
-        Click to reveal. This section contains critical story spoilers that may
-        affect your gameplay experience.
+        {messages.spoiler.body}
       </p>
     </button>
   );

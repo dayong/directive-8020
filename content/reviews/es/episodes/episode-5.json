@@ -1,0 +1,36 @@
+{
+  "status": "pending",
+  "checkedAt": "2026-10-22",
+  "sources": [
+    {
+      "label": "Steam — Directive 8020 Achievements",
+      "url": "https://steamcommunity.com/stats/2255370/achievements"
+    },
+    {
+      "label": "Directive 8020 — Accessibility Features",
+      "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+    }
+  ],
+  "replacement": {
+    "heading": "Capítulo 5: guía en verificación",
+    "intro": "Las instrucciones por escena de este capítulo se han retirado mientras se comprueban sus pruebas. Se conserva la URL original, pero ahora no ofrece una ruta verificada.",
+    "sections": [
+      {
+        "heading": "Qué se ha retirado",
+        "text": "Los subtítulos de capítulos, tiempos exactos, efectos de decisiones, ubicaciones de objetos y relatos de partidas en primera persona del borrador anterior no se presentan como hechos confirmados. Tampoco las predicciones incondicionales de muerte o supervivencia. La falta de pruebas no demuestra el resultado opuesto."
+      },
+      {
+        "heading": "Qué está confirmado",
+        "text": "La lista oficial de logros de Steam menciona completar ocho episodios. El artículo oficial de accesibilidad explica Turning Points y distingue estilo de juego y dificultad. Estas fuentes no verifican el orden de escenas ni las condiciones de resultados del borrador anterior."
+      },
+      {
+        "heading": "Qué hace falta para volver a publicarlo",
+        "text": "Cada ruta necesita plataforma, versión, partida inicial, acciones exactas y resultados reproducibles. El capítulo volverá al índice tras su propia revisión y actualización; revisar una plantilla común no aprueba todos los capítulos."
+      },
+      {
+        "heading": "Información útil durante la revisión",
+        "text": "Consulta la [planificación de la partida](/walkthrough), los [estilos y ajustes QTE](/directive-8020-skill-checks) y el [registro de decisiones](/choices) para orientaciones ya revisadas."
+      }
+    ]
+  }
+}

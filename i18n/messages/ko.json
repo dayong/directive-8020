@@ -1,0 +1,152 @@
+{
+  "layoutMeta": {
+    "defaultTitle": "Directive 8020 공략 | 등장인물, 선택지와 협동 플레이",
+    "titleTemplate": "%s | Directive 8020",
+    "description": "Directive 8020의 승무원, 이야기 분기, Turning Points와 협동 플레이를 알아보세요. 주제별 공략과 공식 자료를 한곳에 모았습니다.",
+    "ogTitle": "Directive 8020 공략 | 등장인물, 선택지와 협동 플레이",
+    "ogDescription": "Directive 8020의 승무원, 이야기 분기, Turning Points와 협동 플레이를 알아보세요. 주제별 공략과 공식 자료를 한곳에 모았습니다.",
+    "jsonLdDescription": "Supermassive Games의 영화 같은 SF 공포 어드벤처입니다. Cassiopeia의 승무원은 사람을 모방하는 외계 위협에 맞서며, 플레이어의 결정에 따라 이야기가 달라집니다.",
+    "jsonLdGenres": [
+      "공포",
+      "인터랙티브 드라마",
+      "SF"
+    ]
+  },
+  "nav": {
+    "walkthrough": "진행 공략",
+    "saveEveryone": "전원 생존",
+    "allEndings": "모든 엔딩",
+    "choices": "선택지",
+    "characters": "등장인물",
+    "trophies": "트로피"
+  },
+  "tabs": {
+    "guide": "공략",
+    "saveAll": "전원 생존",
+    "endings": "엔딩",
+    "choices": "선택지",
+    "crew": "승무원",
+    "trophies": "트로피"
+  },
+  "languageSwitcher": {
+    "label": "언어"
+  },
+  "footer": {
+    "story": "이야기",
+    "gameplay": "게임 플레이",
+    "collectibles": "수집 요소",
+    "technical": "기술 지원",
+    "bestEnding": "최고의 엔딩",
+    "gameLength": "플레이 시간",
+    "trophyGuide": "트로피 공략",
+    "multiplayer": "멀티플레이",
+    "bugFixes": "문제 해결",
+    "charactersAndCast": "등장인물과 출연진",
+    "trophiesAndAchievements": "트로피와 도전 과제",
+    "crashingAndFixes": "충돌 문제 해결",
+    "pcIssues": "PC 문제",
+    "consoleIssues": "콘솔 문제",
+    "whereToBuy": "구매 안내",
+    "privacyPolicy": "개인정보 처리방침",
+    "contact": "문의하기",
+    "disclaimer1": "비공식 팬 공략 사이트입니다. Supermassive Games와 관련이 없습니다.",
+    "disclaimer2": "Directive 8020은 The Dark Pictures Anthology 시리즈의 작품입니다. 이 사이트는 비공식 팬 공략 사이트입니다.",
+    "affiliateNote": "일부 상점 링크는 제휴 링크입니다. 해당 링크로 조건에 맞는 상품을 구매하면 사이트가 수수료를 받을 수 있으며, 구매자에게 추가 비용은 발생하지 않습니다.",
+    "walkthrough": "진행 공략",
+    "saveEveryone": "전원 생존",
+    "allEndings": "모든 엔딩",
+    "choices": "선택지",
+    "collectiblesLink": "수집 요소"
+  },
+  "breadcrumbs": {
+    "episodeFormat": "{number}장: {title}",
+    "ariaLabel": "현재 위치",
+    "labels": {
+      "": "홈",
+      "walkthrough": "진행 공략",
+      "save-everyone": "전원 생존",
+      "all-endings": "모든 엔딩",
+      "choices": "선택지",
+      "characters": "등장인물",
+      "trophies": "트로피 공략",
+      "collectibles": "수집 요소",
+      "game-length": "플레이 시간",
+      "bug-fixes": "문제 해결",
+      "multiplayer": "멀티플레이",
+      "directive-8020-cove": "Cove 가이드",
+      "directive-8020-actress": "등장인물과 출연진",
+      "directive-8020-buy": "구매 안내",
+      "privacy-policy": "개인정보 처리방침",
+      "who-is-the-real-eisele-directive-8020": "진짜 Eisele 구별하기",
+      "shoot-williams-or-stand-down": "Williams에게 총을 쏠까?",
+      "can-carter-survive": "Carter는 살아남을 수 있을까?",
+      "directive-8020-skill-checks": "스킬 체크",
+      "codes": "암호와 비밀번호"
+    }
+  },
+  "spoiler": {
+    "title": "스포일러 주의",
+    "body": "클릭하여 표시합니다. 이 부분에는 플레이 경험에 영향을 줄 수 있는 중요한 스포일러가 있습니다."
+  },
+  "toc": {
+    "heading": "이 페이지의 목차"
+  },
+  "episodeCard": {
+    "keyChoicesFormat": "주요 선택 {count}개"
+  },
+  "choiceCard": {
+    "recommended": "✓ 권장",
+    "avoid": "✗ 피하기",
+    "crossEpisode": "⟳ 다른 장에 미치는 영향:",
+    "endingImpact": "🎯 엔딩에 미치는 영향:"
+  },
+  "endingCard": {
+    "trueEnding": "진정한 엔딩",
+    "condition": "조건:",
+    "survivors": "생존자:",
+    "turningPoint": "터닝 포인트:"
+  },
+  "characterBadge": {
+    "scriptedDeath": "이야기상 피할 수 없는 사망",
+    "deceased": "사망",
+    "unverified": "결과 미확인"
+  },
+  "charactersView": {
+    "actor": "배우:",
+    "canSurvive": "생존 가능",
+    "npcCanSurvive": "NPC · 생존 가능",
+    "scriptedDeath": "이야기상 피할 수 없는 사망",
+    "notConfirmed": "확인한 자료에 명시되지 않음",
+    "outcomeUnverified": "결과 미확인",
+    "playable": "조작 가능한 승무원",
+    "supporting": "조연"
+  },
+  "trophiesView": {
+    "platinum": "플래티넘",
+    "gold": "골드",
+    "silver": "실버",
+    "bronze": "브론즈",
+    "missable": "놓칠 수 있음"
+  },
+  "allEndingsView": {
+    "notAvailable": "해당 없음"
+  },
+  "accessibility": {
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "playPreview": "미리보기 영상 재생",
+    "episodeFormat": "{number}장",
+    "dismissLanguage": "언어 제안 닫기",
+    "fallbackLanguage": "연결된 페이지는 영어입니다",
+    "englishContent": "이 가이드의 본문은 현재 영어로 제공됩니다.",
+    "officialSource": "공식 게임 소개"
+  },
+  "errors": {
+    "notFoundTitle": "페이지를 찾을 수 없습니다",
+    "notFoundBody": "이 언어로 제공되는 페이지가 없습니다. 콘텐츠가 있는 언어를 선택하거나 홈으로 돌아가세요.",
+    "home": "홈으로 돌아가기",
+    "loadTitle": "페이지를 불러올 수 없습니다",
+    "loadBody": "페이지를 다시 불러와 주세요.",
+    "retry": "다시 시도"
+  }
+}

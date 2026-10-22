@@ -3,7 +3,7 @@ import { execSync } from 'child_process';
 import { getAllEpisodeSlugs } from '@/lib/mdx';
 import { characters } from '@/data/characters';
 import { defaultLocale, hreflangTag, type Locale } from '@/i18n/config';
-import { getAvailableLocales } from '@/lib/content';
+import { getIndexableLocales, getPageContent } from '@/lib/content';
 
 const BASE_URL = 'https://directive-8020.com';
 
@@ -57,7 +57,7 @@ function urlFor(path: string, locale: Locale) {
 }
 
 function localizedEntries(page: Page, dates: Map<string, string>): MetadataRoute.Sitemap {
-  const available = getAvailableLocales(page.contentSlug);
+  const available = getIndexableLocales(page.contentSlug, page.path);
 
   // Alternates appear only once a page exists in another language, so the
   // English-only sitemap stays exactly what it is today.
@@ -72,8 +72,10 @@ function localizedEntries(page: Page, dates: Map<string, string>): MetadataRoute
   return available.map((locale) => {
     const files = [
       `content/pages/${locale}/${page.contentSlug}.json`,
+      ...(page.contentSlug === 'character-detail' ? [`content/characters/${locale}/${page.path.split('/').pop()}.json`] : []),
+      ...(page.contentSlug === 'walkthrough-episode' ? [`content/reviews/${locale}/episodes/${page.path.split('/').pop()}.json`] : []),
       ...(page.extraFiles?.(locale) ?? []),
-      ...(page.data ?? []).flatMap((domain) => [
+      ...(getPageContent<{ article?: unknown }>(page.contentSlug, locale)?.article ? [] : page.data ?? []).flatMap((domain) => [
         `content/data/${locale}/${domain}.json`,
         `data/${domain}.ts`,
       ]),
@@ -119,7 +121,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'weekly',
         priority: 0.85,
         data: ['episodes'],
-        extraFiles: (locale) => [`content/episodes/${locale}/${slug}.mdx`],
+        extraFiles: (locale) => [locale === defaultLocale ? `content/episodes/${slug}.mdx` : `content/episodes/${locale}/${slug}.mdx`],
       })
     ),
     ...characters.map(

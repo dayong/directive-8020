@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Anders｜科学官",
+    "description": "Zoe Anders，科学官。经 Cooper 推荐加入任务的科学家。",
+    "ogTitle": "Directive 8020：Anders｜科学官",
+    "ogDescription": "Zoe Anders，科学官。经 Cooper 推荐加入任务的科学家。"
+  },
+  "sections": [
+    {
+      "heading": "以科学官身份加入",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zoe Anders 在前任科学官 George McNamara 去世后加入任务，由老朋友 Cooper 推荐。官方名单中，她的职务是科学官，与 Eisele 的高级任务官不同。区分两人的职责，有助于理解飞船上不同岗位的作用。"
+        }
+      ]
+    },
+    {
+      "heading": "发现与伦理",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Anders 期待任务带来的科学发现，与 Cooper 的友谊也帮助她适应已经成形的船员团队。官方档案同时强调她重视伦理实践。这些价值观属于背景介绍，不能证明实验的固定解法、辨认模仿者的规则或她的安全条件。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

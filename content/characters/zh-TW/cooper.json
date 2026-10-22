@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020：Cooper｜醫療專家",
+    "description": "Samantha Cooper，醫療專家。擁有軍方醫療後送經驗的醫師。",
+    "ogTitle": "Directive 8020：Cooper｜醫療專家",
+    "ogDescription": "Samantha Cooper，醫療專家。擁有軍方醫療後送經驗的醫師。"
+  },
+  "sections": [
+    {
+      "heading": "任務之前的醫療經歷",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Samantha Cooper 是 Cassiopeia 的醫療專家，曾在軍方醫療後送隊學習並從事救護。官方背景提到 Jessops Station 悲劇：她倖存下來，但同隊成員未能生還。這是任務之前的經歷，不能與遊戲中的人物命運混為一談。"
+        }
+      ]
+    },
+    {
+      "heading": "與 Anders 的友誼",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zoe Anders 曾幫助 Cooper 度過創傷後的復原過程。後來 Cooper 推薦這位老朋友接替任務中的科學官職位。這段關係有助於理解船員如何組成。官方介紹強調 Cooper 的韌性與醫療責任，但未提供逐場景生還路線，也不足以確認本檔案缺少的演員資訊。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

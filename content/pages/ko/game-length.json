@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Directive 8020 플레이 시간과 재플레이 계획",
+    "description": "확인되지 않은 시간 수치 대신 탐색, Turning Points, 플레이 스타일과 난이도의 차이를 바탕으로 일정을 계획하세요.",
+    "ogTitle": "Directive 8020 플레이 시간과 재플레이 계획",
+    "ogDescription": "확인되지 않은 시간 수치 대신 탐색, Turning Points, 플레이 스타일과 난이도의 차이를 바탕으로 일정을 계획하세요."
+  },
+  "hero": {
+    "h1": "Directive 8020 플레이 시간과 재플레이 계획",
+    "intro": "확인되지 않은 시간 수치 대신 탐색, Turning Points, 플레이 스타일과 난이도의 차이를 바탕으로 일정을 계획하세요."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "확인된 클리어 시간이 있나요?",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "여기에 연결한 공식 자료는 첫 플레이, 모든 결말, 전체 수집에 공통으로 적용되는 시간을 제시하지 않습니다. 기존의 고정 시간과 챕터별 시간표는 철회했습니다. 읽는 속도, 탐색과 재플레이 목표에 따라 달라집니다."
+          }
+        ]
+      },
+      {
+        "heading": "자신의 기록으로 계획하기",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "플랫폼, 게임 버전, 플레이 스타일과 실제 시간을 기록하세요. 일시 정지와 메뉴 사용 시간을 실제 플레이와 구분하고, 자신의 완료 기록으로 다음 일정을 예상하세요. 다른 사람의 시간은 보장된 기준이 아닙니다."
+          }
+        ]
+      },
+      {
+        "heading": "재플레이와 Turning Points",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer에서는 스토리 도중 Turning Points를 사용할 수 있습니다. Survivor의 첫 스토리에서는 되감기가 비활성화되며 결말에 도달한 뒤 해제됩니다. 선택을 다시 방문할 수 있는 시점의 차이이지, 추가 소요 시간을 정하는 규칙은 아닙니다."
+          }
+        ]
+      },
+      {
+        "heading": "플레이 스타일과 난이도 구분",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer와 Survivor는 플레이 스타일입니다. Forgiving, Challenging, Lethal, Custom은 난이도입니다. 읽기 설정, 탐색과 그룹 토론이 시간에 영향을 줄 수 있지만 빠른 완료를 보장하지는 않습니다."
+          }
+        ]
+      },
+      {
+        "heading": "완료 목표별로 기록하기",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "스토리 완료, 분기 탐색, 플랫폼별 도전 과제 완료는 서로 다른 목표입니다. 확인되지 않은 수집품 수로 시간을 계산하거나 하나의 경로로 모든 결과를 얻는다고 가정하지 마세요."
+          }
+        ]
+      },
+      {
+        "heading": "공식 자료",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Directive 8020](https://www.thedarkpictures.com/games/directive-8020)",
+              "[Turning Points](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "관련 가이드",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[스타일 및 조작 설정](/directive-8020-skill-checks)",
+              "[등장인물](/characters)",
+              "[진행 및 재플레이 계획](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Turning Points",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

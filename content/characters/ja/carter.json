@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Directive 8020のCarter — 睡眠技術者",
+    "description": "Tomas Carter — 睡眠技術者。航行中にSimmsとともに休眠システムを担当する。",
+    "ogTitle": "Directive 8020のCarter — 睡眠技術者",
+    "ogDescription": "Tomas Carter — 睡眠技術者。航行中にSimmsとともに休眠システムを担当する。"
+  },
+  "sections": [
+    {
+      "heading": "船の運用を支える仕事",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tomas Carter は Pari Simms とともに睡眠技術者を務めます。他の乗組員が超睡眠に入る間、Cassiopeia を稼働させる役目です。公式背景は、長い航海に適した仕事上の相性を考えてふたりが選ばれたと説明しています。単なる脇役の肩書だけではない職務があります。"
+        }
+      ]
+    },
+    {
+      "heading": "家族と参加の動機",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "十代で重い病気を経験した Carter は、日常を大切にしています。植物の世話を好み、娘 Luna の未来のために任務を成功させたいと考えています。こうした背景は目標を説明しますが、死が避けられないことや、特定の選択で生存することを証明しません。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Objets de Directive 8020 | Édition et suivi de collection",
+    "description": "Vérifiez les bonus deluxe officiels, distinguez propriété et progression et notez vos découvertes sans inventer de positions vérifiées.",
+    "ogTitle": "Objets de Directive 8020 | Édition et suivi de collection",
+    "ogDescription": "Vérifiez les bonus deluxe officiels, distinguez propriété et progression et notez vos découvertes sans inventer de positions vérifiées."
+  },
+  "hero": {
+    "h1": "Objets de Directive 8020 | Édition et suivi de collection",
+    "intro": "Identifiez d’abord votre contenu. Un parcours n’est utile que s’il correspond à l’édition, la version et la progression de votre sauvegarde."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Ce qui est officiellement décrit",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "La mise à niveau deluxe Steam présente des objets Dark Pictures supplémentaires, dont des figurines des anciens jeux. Elle exige le jeu de base Steam. Cela confirme le contenu additionnel, pas une carte de tous les objets du jeu principal."
+          }
+        ]
+      },
+      {
+        "heading": "Vérifier l’édition avant de chercher",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Consultez le jeu et les extensions dans votre bibliothèque.",
+              "Lisez la fiche de votre plateforme sans supposer des noms de lots identiques.",
+              "Distinguez un bonus d’édition d’un objet de l’histoire principale.",
+              "Vérifiez que le contenu est accessible dans la version installée."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Tenir un relevé utile",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Pour chaque objet, notez son nom dans le jeu, le chapitre, l’objectif proche, les décisions requises et son état de collecte. Une capture ou un repère de sauvegarde facilite la reproduction. Séparez les découvertes des conditions de trophées non testées."
+          }
+        ]
+      },
+      {
+        "heading": "À propos des anciens chiffres et lieux",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Le total de 65 objets et les pièces données en exemple n’ont pas été confrontés à une liste officielle de positions ; ils ne constituent plus un parcours complet. Cela ne prouve pas que ces pièces ou objets n’existent pas. Les nombres et parcours exigent une vérification directe."
+          }
+        ]
+      },
+      {
+        "heading": "Préparer une nouvelle visite",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Vérifiez votre style et les Turning Points disponibles avant de rejouer. Le retour en arrière ne prouve pas que tout objet soit récupérable depuis n’importe quel point. Contrôlez l’état enregistré après votre tentative."
+          }
+        ]
+      },
+      {
+        "heading": "Pour aller plus loin",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Description officielle de la mise à niveau Steam](https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/)",
+              "[Planifier les succès](/trophies)",
+              "[Styles et commandes](/directive-8020-skill-checks)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Steam — Digital Deluxe Upgrade",
+        "url": "https://store.steampowered.com/app/3883930/Directive_8020__Digital_Deluxe_Upgrade/"
+      },
+      {
+        "label": "Steam — Directive 8020",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      }
+    ]
+  }
+}

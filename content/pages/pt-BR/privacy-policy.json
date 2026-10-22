@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Política de privacidade | Guia de Directive 8020",
+    "description": "Saiba sobre preferências de idioma, análise de visitas, links externos e contato para questões de privacidade.",
+    "ogTitle": "Política de privacidade | Guia de Directive 8020",
+    "ogDescription": "Saiba sobre preferências de idioma, análise de visitas, links externos e contato para questões de privacidade."
+  },
+  "hero": {
+    "h1": "Política de privacidade | Guia de Directive 8020",
+    "intro": "Saiba sobre preferências de idioma, análise de visitas, links externos e contato para questões de privacidade."
+  },
+  "sections": [
+    {
+      "heading": "Idioma e armazenamento do navegador",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ao escolher um idioma ou fechar uma sugestão, salvamos o idioma no localStorage com a chave directive-locale até você ou o navegador apagá-lo. Esse armazenamento é separado dos cookies de análise. A URL define o idioma da página e a preferência não força redirecionamentos. O idioma do navegador é consultado localmente para oferecer uma sugestão."
+        }
+      ]
+    },
+    {
+      "heading": "Análise de visitas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Carregamos o Google Analytics 4 para entender visitas e uso do site. A medição pode processar endereços de páginas, origem, informações de dispositivo e navegador e cookies. O Umami é carregado opcionalmente quando configurado na publicação, de forma independente do Google Analytics. Consulte os documentos abaixo; não afirmamos que nenhum dado pessoal seja tratado."
+        }
+      ]
+    },
+    {
+      "heading": "Suas escolhas no navegador",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Você pode apagar o armazenamento e os cookies deste site nas configurações de dados do navegador. Apagar directive-locale redefine o idioma salvo. Bloquear scripts ou cookies pode afetar a análise ou as preferências; bloquear apenas cookies não garante interromper toda medição. O Google oferece um [complemento de desativação](https://tools.google.com/dlpage/gaoptout). O Do Not Track não foi verificado como mecanismo de recusa neste site."
+        }
+      ]
+    },
+    {
+      "heading": "Serviços externos e links comerciais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Usamos Cloudflare para hospedagem e entrega. Ao seguir links de lojas ou terceiros, a visita segue as políticas deles. Alguns links incluem identificadores de afiliado; compras elegíveis podem gerar uma comissão sem custo adicional para você. O site não recebe os dados de pagamento dessas compras. Ao enviar um e-mail, você fornece diretamente a mensagem e seu endereço."
+        }
+      ]
+    },
+    {
+      "heading": "Retenção e solicitações",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "O idioma permanece no navegador até ser removido. A retenção da análise depende do serviço e da configuração da conta; não declaramos um prazo fixo sem confirmação. Conforme a legislação aplicável, pode haver direitos de acesso, correção, exclusão ou oposição. Entre em contato para fazer a solicitação; controles do navegador não a substituem. O guia trata de um jogo para público adulto, não é direcionado a crianças. Informe preocupações sobre dados de crianças."
+        }
+      ]
+    },
+    {
+      "heading": "Contato e alterações",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Envie dúvidas ou solicitações para [contact@directive-8020.com](mailto:contact@directive-8020.com). Não envie senhas nem dados de cartão. Atualizado em 2026-10-22; alterações serão publicadas nesta página."
+        }
+      ]
+    },
+    {
+      "heading": "Políticas e documentação dos provedores",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "[Google](https://policies.google.com/privacy)",
+            "[Google Analytics — Cookies](https://support.google.com/analytics/answer/11397207)",
+            "[Google Analytics — Retention](https://support.google.com/analytics/answer/7667196)",
+            "[Umami](https://docs.umami.is/docs/collect-data)",
+            "[Cloudflare](https://www.cloudflare.com/privacypolicy/)"
+          ]
+        }
+      ]
+    }
+  ]
+}

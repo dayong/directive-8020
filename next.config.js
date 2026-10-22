@@ -1,3 +1,5 @@
+require('./scripts/build-i18n-manifest.cjs')();
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {

@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Directive 8020 Figuren | Offizielle Namen und Aufgaben",
+    "description": "Die Namen und Aufgaben der Cassiopeia-Crew, geprüft anhand der offiziellen Website zu Directive 8020."
+  },
+  "hero": {
+    "h1": "Die Crew der Cassiopeia",
+    "intro": "Die offizielle Website stellt zehn benannte Figuren vor. PlayStation hebt fünf als spielbar hervor. Diese Profile beschreiben Identität und Aufgaben, ohne ein bestimmtes Überleben zu garantieren."
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  }
+}

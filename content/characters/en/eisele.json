@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Eisele in Directive 8020 — Senior Mission Officer",
+    "description": "Laura Eisele — Senior Mission Officer. The mission architect who designed the Cassiopeia and its Oracle computer.",
+    "ogTitle": "Eisele in Directive 8020 — Senior Mission Officer",
+    "ogDescription": "Laura Eisele — Senior Mission Officer. The mission architect who designed the Cassiopeia and its Oracle computer."
+  },
+  "sections": [
+    {
+      "heading": "Designing the mission",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Laura Eisele is the Senior Mission Officer and the architect behind the Cassiopeia mission. Her design work includes the ship and its computer, the Oracle. Official background presents her as an accomplished specialist who expects careful work from herself and the people around her."
+        }
+      ]
+    },
+    {
+      "heading": "Responsibility and communication",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Technical confidence does not make every social exchange easy for Eisele. Her profile contrasts her command of machinery and theory with the effort involved in connecting with colleagues. She wants the mission to advance humanity while testing her own limits. These traits describe her background; they are not a reliable test for identifying a human or an imitation in a scene."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

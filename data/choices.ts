@@ -9,7 +9,7 @@ export const choices: Choice[] = [
     episode: 'episode-1',
     scene: 'Hull Breach',
     description: 'After the hull breach, how do you respond?',
-    relationshipDetail: 'Sets the baseline for how Stafford and the crew view Osmond\'s leadership. The trust lost from evacuating carries into Ep2.',
+    relationshipDetail: 'Sets the baseline for how Stafford and the crew view Young\'s leadership. The trust lost from evacuating carries into Ep2.',
     options: [
       {
         label: 'Secure the breach',
@@ -35,7 +35,7 @@ export const choices: Choice[] = [
     episode: 'episode-1',
     scene: 'Medical Complex',
     description: 'Stafford confronts you about the situation. How do you respond?',
-    relationshipDetail: 'Stafford tracks every interaction. Honor opens his Ep5 Destiny path. Implore permanently marks Osmond as weak in Stafford\'s internal flag.',
+    relationshipDetail: 'Stafford tracks every interaction. Honor opens his Ep5 Destiny path. Implore permanently marks Young as weak in Stafford\'s internal flag.',
     options: [
       {
         label: 'Honor',
@@ -283,7 +283,7 @@ export const choices: Choice[] = [
       {
         label: 'Follow Cooper\'s instructions exactly',
         text: 'Follow Cooper\'s instructions exactly',
-        consequence: 'Safe navigation, both Osmond and Cooper survive.',
+        consequence: 'Safe navigation, both Young and Cooper survive.',
         recommended: true,
         characterEffect: 'Cooper relationship +',
         chainEffect: 'Cooper trust built → Ep6 reactor escape: Cooper volunteers for distraction without hesitation → cleaner escape window.',
@@ -317,9 +317,9 @@ export const choices: Choice[] = [
       {
         label: 'Investigate further',
         text: 'Investigate further',
-        consequence: 'Unnecessary risk — Osmond may be injured.',
+        consequence: 'Unnecessary risk — Young may be injured.',
         recommended: false,
-        chainEffect: 'Osmond takes fall damage → permanent cosmetic possible → crew questions judgment → Ep5 starts with lower trust.',
+        chainEffect: 'Young takes fall damage → permanent cosmetic possible → crew questions judgment → Ep5 starts with lower trust.',
         endingImpact: 'Indirect — lower trust in Ep5 makes Williams confrontation slightly harder.',
       },
     ],
@@ -409,7 +409,7 @@ export const choices: Choice[] = [
     id: 'e5-stafford-destiny',
     episode: 'episode-5',
     scene: "Stafford's Breakdown — Destiny Moment",
-    description: 'Stafford has a breakdown. Osmond can rally him. Requires Ep1-3 support chain for best effect.',
+    description: 'Stafford has a breakdown. Young can rally him. Requires Ep1-3 support chain for best effect.',
     relationshipDetail: 'Culmination of Ep1Honor→Consider→Ep2Listen→Ep3Cernan. All 3 prior triggers needed.',
     options: [
       {

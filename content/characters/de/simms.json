@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Simms in Directive 8020 — Schlaftechnikerin",
+    "description": "Pari Simms — Schlaftechnikerin. Schlaftechnikerin mit technischem Hintergrund.",
+    "ogTitle": "Simms in Directive 8020 — Schlaftechnikerin",
+    "ogDescription": "Pari Simms — Schlaftechnikerin. Schlaftechnikerin mit technischem Hintergrund."
+  },
+  "sections": [
+    {
+      "heading": "Technik während der langen Reise",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pari Simms ist Schlaftechnikerin mit ausgeprägten Ingenieurkenntnissen. Zusammen mit Carter betreibt sie die Cassiopeia während des Hyperschlafs der anderen. Ihre Stärken ergänzen sich. Das offizielle Profil beschreibt die Zusammenarbeit und kein bestätigtes Ergebnis einer späteren Szene."
+        }
+      ]
+    },
+    {
+      "heading": "Das Leben neben der Arbeit",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Simms denkt bei der Mission an ihre Mutter und nimmt regelmäßig Nachrichten für sie auf. Sie mag das Videospiel Orinoco, Sachbücher und Kaffee. Das zeichnet die Person hinter dem technischen Beruf. Die Aufnahmen bestätigen weder genaue Sammelorte noch eine erforderliche Gesamtzahl oder eine Überlebensroute."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      }
+    ]
+  }
+}

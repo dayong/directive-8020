@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Duração de Directive 8020 | Primeira partida e revisitas",
+    "description": "Planeje a história e as revisitas sem estimativas de horas não verificadas. Entenda exploração, Turning Points, estilo de jogo e dificuldade.",
+    "ogTitle": "Duração de Directive 8020 | Primeira partida e revisitas",
+    "ogDescription": "Planeje a história e as revisitas sem estimativas de horas não verificadas. Entenda exploração, Turning Points, estilo de jogo e dificuldade."
+  },
+  "hero": {
+    "h1": "Duração de Directive 8020 | Primeira partida e revisitas",
+    "intro": "Planeje a história e as revisitas sem estimativas de horas não verificadas. Entenda exploração, Turning Points, estilo de jogo e dificuldade."
+  },
+  "article": {
+    "sections": [
+      {
+        "heading": "Existe uma duração confirmada?",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "As fontes oficiais indicadas não estabelecem um tempo universal para a primeira partida, todos os finais ou a conclusão completa. Retiramos os números fixos e a tabela por episódio. Leitura, exploração e objetivos de revisita variam entre jogadores."
+          }
+        ]
+      },
+      {
+        "heading": "Planeje com seus próprios registros",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Anote plataforma, versão, estilo de jogo e tempo real. Separe pausas e menus do tempo de jogo ativo. Use sessões concluídas para estimar as próximas; o total de outra pessoa não é garantia."
+          }
+        ]
+      },
+      {
+        "heading": "Revisitas e Turning Points",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer permite Turning Points durante a história. Survivor desativa esse retorno na primeira história e o libera após alcançar um final. Isso muda quando é possível revisitar decisões, mas não determina quantas horas extras serão necessárias."
+          }
+        ]
+      },
+      {
+        "heading": "Estilo e dificuldade são diferentes",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer e Survivor são estilos de jogo. Forgiving, Challenging, Lethal e Custom controlam a dificuldade. Leitura, exploração e conversas do grupo podem alterar o tempo, mas nenhum ajuste garante uma partida mais curta."
+          }
+        ]
+      },
+      {
+        "heading": "Registre objetivos separadamente",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Concluir a história, explorar ramificações e completar conquistas da plataforma são metas diferentes. Não calcule a duração com uma quantidade de itens não verificada nem suponha que uma rota desbloqueie todos os resultados."
+          }
+        ]
+      },
+      {
+        "heading": "Fontes oficiais",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Directive 8020](https://www.thedarkpictures.com/games/directive-8020)",
+              "[Turning Points](https://www.thedarkpictures.com/news/directive-8020-accessibility-features)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Guias relacionados",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Estilos e controles](/directive-8020-skill-checks)",
+              "[Personagens](/characters)",
+              "[Progresso e revisitas](/walkthrough)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Turning Points",
+        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+      }
+    ]
+  }
+}

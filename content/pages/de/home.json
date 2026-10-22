@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Directive 8020 Guide | Figuren, Entscheidungen und Koop",
+    "description": "Lerne die Crew der Cassiopeia, Entscheidungen, Turning Points und Koop in Directive 8020 kennen. Themenbezogene Guides und offizielle Quellen an einem Ort.",
+    "ogTitle": "Directive 8020 Guide | Figuren, Entscheidungen und Koop",
+    "ogDescription": "Lerne die Crew der Cassiopeia, Entscheidungen, Turning Points und Koop in Directive 8020 kennen. Themenbezogene Guides und offizielle Quellen an einem Ort."
+  },
+  "hero": {
+    "titleMain": "DIRECTIVE",
+    "titleAccent": "8020",
+    "subtitle": "Ein Wegweiser zu Crew, Entscheidungen und Überlebenshorror",
+    "buttons": [
+      {
+        "href": "/characters",
+        "label": "Figuren",
+        "variant": "primary"
+      },
+      {
+        "href": "/choices",
+        "label": "Entscheidungen",
+        "variant": "outline"
+      },
+      {
+        "href": "/multiplayer",
+        "label": "Mehrspieler",
+        "variant": "ghost"
+      }
+    ]
+  },
+  "warning": {
+    "heading": "Bevor du einem Lösungsweg folgst",
+    "text": "Überlebenswege, Codes und Bedingungen für Enden müssen Szene für Szene geprüft werden. Ein ungeprüfter Weg garantiert kein Ergebnis. Einige ausführliche Guides sind noch auf Englisch. Offizielle Quellen findest du unten."
+  },
+  "quickAccess": {
+    "heading": "Nach Themen suchen",
+    "tiles": [
+      {
+        "icon": "🎯",
+        "label": "Entscheidungen und Folgen",
+        "href": "/choices"
+      },
+      {
+        "icon": "🏆",
+        "label": "Enden",
+        "href": "/all-endings"
+      },
+      {
+        "icon": "🗝️",
+        "label": "Codes und Passwörter",
+        "href": "/codes"
+      },
+      {
+        "icon": "🎭",
+        "label": "Sammelobjekte",
+        "href": "/collectibles"
+      },
+      {
+        "icon": "👥",
+        "label": "Figuren und Besetzung",
+        "href": "/characters"
+      },
+      {
+        "icon": "🔧",
+        "label": "Technische Hilfe",
+        "href": "/bug-fixes"
+      }
+    ]
+  },
+  "episodeSection": {
+    "heading": "Komplettlösung",
+    "enabled": false
+  },
+  "truePath": {
+    "heading": "Bereite dich auf die Mission der Cassiopeia vor",
+    "intro": "Directive 8020 verbindet verzweigte Dialoge mit Gefahren in Echtzeit. Deine Entscheidungen zählen ebenso wie deine Bewegungen durch die Umgebung.",
+    "steps": [
+      {
+        "title": "Lerne die Crew kennen",
+        "sub": "Beginne mit den bestätigten Namen und Aufgaben. Lashana Lynch spielt die Pilotin Young; Eisele ist die leitende Missionsoffizierin."
+      },
+      {
+        "title": "Beobachte die Umgebung",
+        "sub": "Das Alien kann Menschen nachahmen. Neben Dialogen sind Schleichen, schnelle Reaktionen und improvisierte Waffen wichtig."
+      },
+      {
+        "title": "Erkunde einen anderen Zweig",
+        "sub": "Turning Points lässt dich zu wichtigen Entscheidungen zurückkehren. Prüfe die Möglichkeiten deines Spielmodus, statt jede Wahl für endgültig zu halten."
+      }
+    ],
+    "resultLabel": "Dein Ziel:",
+    "result": "Verstehe die Entscheidungen, bevor du dich auf einen Weg festlegst.",
+    "cta": {
+      "href": "/characters",
+      "label": "Figuren →",
+      "variant": "primary"
+    }
+  },
+  "moreGuides": {
+    "heading": "Finde den passenden Guide",
+    "cards": [
+      {
+        "icon": "👥",
+        "kicker": "CREW",
+        "href": "/characters",
+        "title": "Die Crew der Cassiopeia",
+        "body": "Lies die offiziellen Namen und Aufgaben von Young, Stafford, Eisele, Cernan, Cooper und den weiteren Crewmitgliedern."
+      },
+      {
+        "icon": "🎯",
+        "kicker": "ENTSCHEIDUNGEN",
+        "href": "/choices",
+        "title": "Verzweigungen und Turning Points",
+        "body": "Erfahre, was die Rückkehr zu einer Entscheidung vom Weiterspielen mit ihren Folgen unterscheidet."
+      },
+      {
+        "icon": "🎮",
+        "kicker": "KOOP",
+        "href": "/multiplayer",
+        "title": "Mit Freunden spielen",
+        "body": "Prüfe vor einer gemeinsamen Runde die aktuellen Angaben zu lokalem und Online-Mehrspieler auf deiner Plattform."
+      },
+      {
+        "icon": "🗝️",
+        "kicker": "SAMMELN",
+        "href": "/collectibles",
+        "title": "Sammelobjekte und Editionen",
+        "body": "Prüfe den Inhalt deiner Edition, bevor du einem Sammelweg folgst."
+      }
+    ]
+  },
+  "faqHeading": "Fragen vor dem Spielen",
+  "faqs": [
+    {
+      "q": "Was für ein Spiel ist Directive 8020?",
+      "a": "Es ist ein filmisches Science-Fiction-Horrorabenteuer von Supermassive Games. Die Crew der Cassiopeia trifft auf ein Alien, das Menschen nachahmen kann. Deine Entscheidungen prägen die Geschichte."
+    },
+    {
+      "q": "Wen spielt Lashana Lynch?",
+      "a": "Sie spielt Brianna Young, eine Pilotin der Cassiopeia."
+    },
+    {
+      "q": "Kann ich Entscheidungen erneut treffen?",
+      "a": "Die offizielle Beschreibung von Turning Points bestätigt, dass du zu wichtigen Entscheidungen zurückkehren und andere Ergebnisse erkunden kannst. Das garantiert keinen bestimmten Weg zu einem Ende."
+    },
+    {
+      "q": "Gibt es Koop?",
+      "a": "Movie Night unterstützt lokale Gruppenrunden. Der aktuelle Steam-Eintrag nennt auch Online-Koop, und PlayStation führt Online-Spieler auf. Prüfe die aktuellen Bedingungen deiner Plattform."
+    }
+  ],
+  "friendlyLinks": {
+    "heading": "Offizielle Spielwebsite",
+    "links": [
+      {
+        "href": "https://www.thedarkpictures.com/games/directive-8020",
+        "label": "Directive 8020 — The Dark Pictures"
+      },
+      {
+        "href": "https://store.steampowered.com/app/2255370/Directive_8020/",
+        "label": "Directive 8020 — Steam"
+      },
+      {
+        "href": "https://www.playstation.com/en-us/games/directive-8020/",
+        "label": "Directive 8020 — PlayStation"
+      }
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "Directive 8020 — The Dark Pictures",
+        "url": "https://www.thedarkpictures.com/games/directive-8020"
+      },
+      {
+        "label": "Directive 8020 — Steam",
+        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+      },
+      {
+        "label": "Directive 8020 — PlayStation",
+        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "layoutMeta": {
+    "defaultTitle": "Guia de Directive 8020 | Personagens, escolhas e cooperação",
+    "titleTemplate": "%s | Directive 8020",
+    "description": "Conheça a tripulação da Cassiopeia, as escolhas, os Turning Points e a cooperação em Directive 8020. Guias por assunto e fontes oficiais em um só lugar.",
+    "ogTitle": "Guia de Directive 8020 | Personagens, escolhas e cooperação",
+    "ogDescription": "Conheça a tripulação da Cassiopeia, as escolhas, os Turning Points e a cooperação em Directive 8020. Guias por assunto e fontes oficiais em um só lugar.",
+    "jsonLdDescription": "É uma aventura cinematográfica de terror e ficção científica da Supermassive Games. A tripulação da Cassiopeia enfrenta um alienígena que imita pessoas, e suas decisões moldam a história.",
+    "jsonLdGenres": [
+      "Terror",
+      "Drama interativo",
+      "Ficção científica"
+    ]
+  },
+  "nav": {
+    "walkthrough": "Detonado",
+    "saveEveryone": "Salvar todos",
+    "allEndings": "Todos os finais",
+    "choices": "Escolhas",
+    "characters": "Personagens",
+    "trophies": "Troféus"
+  },
+  "tabs": {
+    "guide": "Guia",
+    "saveAll": "Salvar todos",
+    "endings": "Finais",
+    "choices": "Escolhas",
+    "crew": "Tripulação",
+    "trophies": "Troféus"
+  },
+  "languageSwitcher": {
+    "label": "Idioma"
+  },
+  "footer": {
+    "story": "História",
+    "gameplay": "Jogabilidade",
+    "collectibles": "Colecionáveis",
+    "technical": "Suporte técnico",
+    "bestEnding": "Melhor final",
+    "gameLength": "Duração do jogo",
+    "trophyGuide": "Guia de troféus",
+    "multiplayer": "Multijogador",
+    "bugFixes": "Solução de problemas",
+    "charactersAndCast": "Personagens e elenco",
+    "trophiesAndAchievements": "Troféus e conquistas",
+    "crashingAndFixes": "Travamentos e soluções",
+    "pcIssues": "Problemas no PC",
+    "consoleIssues": "Problemas nos consoles",
+    "whereToBuy": "Onde comprar",
+    "privacyPolicy": "Política de privacidade",
+    "contact": "Contato",
+    "disclaimer1": "Guia de fãs não oficial, sem vínculo com a Supermassive Games.",
+    "disclaimer2": "Directive 8020 faz parte de The Dark Pictures Anthology. Este site é um guia de fãs não oficial.",
+    "affiliateNote": "Alguns links de lojas são links de afiliados. Podemos receber uma comissão por compras qualificadas, sem custo adicional para você.",
+    "walkthrough": "Detonado",
+    "saveEveryone": "Salvar todos",
+    "allEndings": "Todos os finais",
+    "choices": "Escolhas",
+    "collectiblesLink": "Colecionáveis"
+  },
+  "breadcrumbs": {
+    "episodeFormat": "Cap. {number}: {title}",
+    "ariaLabel": "Navegação estrutural",
+    "labels": {
+      "": "Início",
+      "walkthrough": "Detonado",
+      "save-everyone": "Salvar todos",
+      "all-endings": "Todos os finais",
+      "choices": "Escolhas",
+      "characters": "Personagens",
+      "trophies": "Guia de troféus",
+      "collectibles": "Colecionáveis",
+      "game-length": "Duração do jogo",
+      "bug-fixes": "Solução de problemas",
+      "multiplayer": "Multijogador",
+      "directive-8020-cove": "Guia de Cove",
+      "directive-8020-actress": "Personagens e elenco",
+      "directive-8020-buy": "Onde comprar",
+      "privacy-policy": "Política de privacidade",
+      "who-is-the-real-eisele-directive-8020": "Identificar a verdadeira Eisele",
+      "shoot-williams-or-stand-down": "Atirar em Williams ou baixar a arma?",
+      "can-carter-survive": "Carter pode sobreviver?",
+      "directive-8020-skill-checks": "Testes de habilidade",
+      "codes": "Códigos e senhas"
+    }
+  },
+  "spoiler": {
+    "title": "Aviso de spoilers",
+    "body": "Clique para revelar. Esta seção contém revelações importantes que podem afetar sua experiência de jogo."
+  },
+  "toc": {
+    "heading": "Nesta página"
+  },
+  "episodeCard": {
+    "keyChoicesFormat": "{count} escolhas importantes"
+  },
+  "choiceCard": {
+    "recommended": "✓ Recomendado",
+    "avoid": "✗ Evite",
+    "crossEpisode": "⟳ Efeito em outros capítulos:",
+    "endingImpact": "🎯 Impacto no final:"
+  },
+  "endingCard": {
+    "trueEnding": "Final verdadeiro",
+    "condition": "Condição:",
+    "survivors": "Sobreviventes:",
+    "turningPoint": "Ponto de virada:"
+  },
+  "characterBadge": {
+    "scriptedDeath": "Morte definida pelo roteiro",
+    "deceased": "Morto",
+    "unverified": "Resultado não verificado"
+  },
+  "charactersView": {
+    "actor": "Ator:",
+    "canSurvive": "Pode sobreviver",
+    "npcCanSurvive": "NPC — pode sobreviver",
+    "scriptedDeath": "Morte definida pelo roteiro",
+    "notConfirmed": "Não confirmado nas fontes consultadas",
+    "outcomeUnverified": "Resultado não verificado",
+    "playable": "Tripulante jogável",
+    "supporting": "Personagem secundário"
+  },
+  "trophiesView": {
+    "platinum": "Platina",
+    "gold": "Ouro",
+    "silver": "Prata",
+    "bronze": "Bronze",
+    "missable": "Pode ser perdido"
+  },
+  "allEndingsView": {
+    "notAvailable": "Não se aplica"
+  },
+  "accessibility": {
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "playPreview": "Reproduzir vídeo de prévia",
+    "episodeFormat": "Cap. {number}",
+    "dismissLanguage": "Fechar sugestão de idioma",
+    "fallbackLanguage": "A página de destino está em inglês",
+    "englishContent": "O texto deste guia está disponível em inglês no momento.",
+    "officialSource": "Site oficial do jogo"
+  },
+  "errors": {
+    "notFoundTitle": "Página não encontrada",
+    "notFoundBody": "Esta página não existe neste idioma. Escolha um idioma com conteúdo disponível ou volte ao início.",
+    "home": "Voltar ao início",
+    "loadTitle": "Não foi possível carregar esta página",
+    "loadBody": "Tente carregar a página novamente.",
+    "retry": "Tentar novamente"
+  }
+}
