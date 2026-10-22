@@ -15,27 +15,32 @@ const base = process.env.BASE_URL || 'http://localhost:3000';
     page.on('console', (message) => {
       if (message.type() === 'error' && /hydration|did not match|Minified React error/i.test(message.text())) errors.push(message.text());
     });
+    async function selectLanguage(page, locale) {
+      const disclosure = page.locator('#site-language');
+      if (await disclosure.getAttribute('open') === null) await disclosure.locator('summary').click();
+      await disclosure.locator(`a[data-locale="${locale}"]`).click();
+    }
     await page.goto(`${base}/?ref=i18n#top`);
-    await page.getByRole('button', { name: '日本語 →' }).waitFor();
+    await page.getByRole('link', { name: '日本語 →' }).waitFor();
     assert.equal(new URL(page.url()).pathname, '/'); // recommendation does not force navigation
-    await page.selectOption('#site-language', 'ja');
+    await selectLanguage(page, 'ja');
     await page.waitForURL('**/ja?ref=i18n#top');
     assert.equal(await page.locator('html').getAttribute('lang'), 'ja');
     assert.equal(await page.evaluate(() => localStorage.getItem('directive-locale')), 'ja');
     await page.reload();
-    assert.equal(await page.locator('#site-language').inputValue(), 'ja');
-    await page.selectOption('#site-language', 'zh-TW');
+    assert.equal(await page.locator('#site-language').getAttribute('data-current-locale'), 'ja');
+    await selectLanguage(page, 'zh-TW');
     await page.waitForURL('**/zh-TW?ref=i18n#top');
     await page.goto(base);
-    await page.getByRole('button', { name: '繁體中文 →' }).waitFor();
+    await page.getByRole('link', { name: '繁體中文 →' }).waitFor();
     await page.getByRole('button', { name: 'Dismiss language suggestion' }).click();
     assert.equal(await page.evaluate(() => localStorage.getItem('directive-locale')), 'en');
     await page.goto(`${base}/es/walkthrough/episode-1?ref=i18n#top`);
-    assert.equal(await page.locator('#site-language option[value="ja"]').isDisabled(), true);
-    await page.selectOption('#site-language', 'en');
+    assert.equal(await page.locator('#site-language [data-locale="ja"]').getAttribute('aria-disabled'), 'true');
+    await selectLanguage(page, 'en');
     await page.waitForURL('**/walkthrough/episode-1?ref=i18n#top');
     await page.goto(`${base}/characters/young?ref=profile#bio`);
-    await page.selectOption('#site-language', 'ja');
+    await selectLanguage(page, 'ja');
     await page.waitForURL('**/ja/characters/young?ref=profile#bio');
     assert.equal(await page.locator('h1').textContent(), 'Brianna Young');
     assert.equal(await page.locator('html').getAttribute('lang'), 'ja');
@@ -46,10 +51,22 @@ const base = process.env.BASE_URL || 'http://localhost:3000';
         await page.goto(`${base}${prefix}/characters`);
         await page.locator('#site-language').waitFor();
         assert.equal(await page.locator('html').getAttribute('lang'), locale);
-        assert.equal(await page.locator('#site-language').inputValue(), locale);
+        assert.equal(await page.locator('#site-language').getAttribute('data-current-locale'), locale);
         assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `${locale} horizontal overflow at ${width}`);
       }
     }
+    await page.locator('#site-language > summary').click();
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('#site-language').getAttribute('open'), null);
+    assert.equal(await page.locator('#site-language > summary').evaluate((node) => node === document.activeElement), true);
+    const noJs = await browser.newContext({ javaScriptEnabled: false });
+    const staticPage = await noJs.newPage();
+    await staticPage.goto(`${base}/characters/young`);
+    await staticPage.locator('#site-language > summary').click();
+    await staticPage.locator('#site-language a[data-locale="ja"]').click();
+    await staticPage.waitForURL('**/ja/characters/young');
+    assert.equal(await staticPage.locator('html').getAttribute('lang'), 'ja');
+    await noJs.close();
     // Preference storage may be unavailable; route-based SSR and switching still work.
     const restricted = await browser.newContext();
     await restricted.addInitScript(() => {
@@ -57,7 +74,7 @@ const base = process.env.BASE_URL || 'http://localhost:3000';
     });
     const restrictedPage = await restricted.newPage();
     await restrictedPage.goto(`${base}/ja`);
-    await restrictedPage.selectOption('#site-language', 'ko');
+    await selectLanguage(restrictedPage, 'ko');
     await restrictedPage.waitForURL('**/ko');
     assert.equal(await restrictedPage.locator('html').getAttribute('lang'), 'ko');
     assert.deepEqual(errors, []);

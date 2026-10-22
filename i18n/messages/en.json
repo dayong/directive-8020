@@ -29,7 +29,8 @@
     "trophies": "Trophies"
   },
   "languageSwitcher": {
-    "label": "Language"
+    "label": "Language",
+    "unavailable": "Not translated"
   },
   "footer": {
     "story": "Story",

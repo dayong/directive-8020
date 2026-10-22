@@ -29,7 +29,8 @@
     "trophies": "獎盃"
   },
   "languageSwitcher": {
-    "label": "語言"
+    "label": "語言",
+    "unavailable": "尚無譯文"
   },
   "footer": {
     "story": "劇情",

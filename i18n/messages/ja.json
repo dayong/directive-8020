@@ -29,7 +29,8 @@
     "trophies": "トロフィー"
   },
   "languageSwitcher": {
-    "label": "言語"
+    "label": "言語",
+    "unavailable": "未翻訳"
   },
   "footer": {
     "story": "ストーリー",

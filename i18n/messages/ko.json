@@ -29,7 +29,8 @@
     "trophies": "트로피"
   },
   "languageSwitcher": {
-    "label": "언어"
+    "label": "언어",
+    "unavailable": "번역 없음"
   },
   "footer": {
     "story": "이야기",

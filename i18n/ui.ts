@@ -31,7 +31,7 @@ export interface UiStrings {
     crew: string;
     trophies: string;
   };
-  languageSwitcher: { label: string };
+  languageSwitcher: { label: string; unavailable: string };
   footer: {
     story: string;
     gameplay: string;

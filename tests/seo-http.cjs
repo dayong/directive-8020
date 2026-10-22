@@ -50,6 +50,17 @@ const pending = ['who-is-the-real-eisele-directive-8020','shoot-williams-or-stan
       for (const section of profile.sections) assert.ok(html.includes(section.heading), `authored profile section ${path}`);
       assert.ok(!html.includes('IRREVERSIBLE'), `unverified choice cards absent ${path}`);
     }
+    const switcher = html.match(/<details[^>]+id="site-language"[^>]*>([\s\S]*?)<\/details>/)?.[1];
+    assert.ok(switcher, `SSR language disclosure ${path}`);
+    const languageLinks = [...switcher.matchAll(/<a[^>]+href="([^"]+)"[^>]+hrefLang="([^"]+)"/g)];
+    assert.equal(languageLinks.length, 9, `crawlable language links ${path}`);
+    for (const [, href, target] of languageLinks) {
+      assert.ok(urls.some((url) => new URL(url).href === new URL(href, 'https://directive-8020.com').href), `real language counterpart ${path} ${target}`);
+      const unprefixed = locale === 'en' ? path : path.slice(locale.length + 1) || '/';
+      const expected = target === 'en' ? unprefixed : `/${target}${unprefixed === '/' ? '' : unprefixed}`;
+      assert.equal(href, expected, `same-page language link ${path} ${target}`);
+    }
+    assert.ok(switcher.includes('aria-current="page"'), `current language indicated ${path}`);
     const graph = Object.fromEntries([...html.matchAll(/<link rel="alternate" hrefLang="([^"]+)" href="([^"]+)"/g)].map((match) => [match[1], match[2]]));
     assert.ok(graph.en && graph['x-default'], `English/default alternate ${path}`);
     for (const alternate of Object.values(graph)) assert.ok(urls.includes(alternate), `alternate in sitemap ${alternate}`);
@@ -92,7 +103,10 @@ const pending = ['who-is-the-real-eisele-directive-8020','shoot-williams-or-stan
       assert.equal(response.status, 200, `legacy URL retained ${path}`);
       const html = await response.text();
       assert.ok(/<meta name="robots" content="[^"]*noindex/.test(html), `pending noindex ${path}`);
-      assert.ok(!html.includes('hrefLang='), `no pending hreflang ${path}`);
+      assert.ok(!html.slice(0, html.indexOf('</head>')).includes('hrefLang='), `no pending head hreflang ${path}`);
+      const switcher = html.match(/<details[^>]+id="site-language"[^>]*>([\s\S]*?)<\/details>/)?.[1];
+      assert.ok(switcher?.includes('data-locale="ja" aria-disabled="true"'), `missing translation not linked ${path}`);
+      assert.equal([...switcher.matchAll(/<a[^>]+hrefLang=/g)].length, 2, `only real translations linked ${path}`);
       assert.ok(!html.includes('locked myself out'), `withdrawn first-person account ${path}`);
       assert.ok(html.includes(`rel="canonical" href="https://directive-8020.com${path}"`), `pending self canonical ${path}`);
       if (slug.startsWith('walkthrough/')) {
