@@ -151,3 +151,10 @@
 新稿独立储存 meta、sections、review，未用共享模板或短目录摘要伪装完成翻译。Carter、Simms、Williams、Mitchell、Anders 的独立九语言详情也已补齐；不再依赖只含一句介绍的目录摘要。原有角色 ID 与英／西语 URL 保留。
 
 补充核对：Carter／Simms 的休眠技术职责、家庭与个人兴趣；Mitchell 的模拟训练及与 Young／Stafford 的关系；Anders 接替 George McNamara 的科学官岗位及与 Cooper 的友谊；Williams 的企业背景与公开理念。所有内容均限于官方介绍，不用人物背景推断剧情正确选项。
+
+
+## 2026-10-26：结局页审核完成范围
+
+`/all-endings` 与 `/es/all-endings` 现在发布有来源的结果／回退指南，旧稿保存在 content/archive。核对 Steam 公开的 Home Free、Paint The Walls、Message in a Bottle 条件，明确这些成就不等同于完整结局目录，也不能据此推出所有步骤。Explorer／Survivor 的说明仍按官方无障碍文章，不写为操作难度。
+
+这两页改为 verified 并恢复索引资格，仅表示新正文所列事实已审核，不表示旧十结局表或所有场景解法得到确认。其他待核验文章／章节未放开。来源为 Steam 官方成就页及 The Dark Pictures 无障碍说明，检查日期 2026-10-26。

@@ -1,80 +1,119 @@
 {
   "meta": {
-    "title": "Exploring Directive 8020 Endings: Verified Rules and Unverified Routes",
-    "description": "The official presentation confirms a branching story with multiple endings. It does not establish the previously published ten-ending table, a canonical best ending or the conditions assigned to those names.",
-    "ogTitle": "Exploring Directive 8020 Endings: Verified Rules and Unverified Routes",
-    "ogDescription": "The official presentation confirms a branching story with multiple endings. It does not establish the previously published ten-ending table, a canonical best ending or the conditions assigned to those names."
+    "title": "Directive 8020 Endings Guide | Outcomes and Turning Points",
+    "description": "Understand confirmed story outcomes, related Steam achievements and how Explorer and Survivor handle replaying decisions in Directive 8020.",
+    "ogTitle": "Directive 8020 Endings Guide | Outcomes and Turning Points",
+    "ogDescription": "Understand confirmed story outcomes, related Steam achievements and how Explorer and Survivor handle replaying decisions in Directive 8020."
   },
   "hero": {
-    "h1": "All Endings in Directive 8020",
-    "intro": "Directive 8020 has 10 possible endings. Here's how to unlock every single one, the requirements for each, and where to go back if you missed a critical choice. Replaying a Turning Point? The [full walkthrough](/walkthrough) covers every scene episode by episode."
+    "h1": "Directive 8020 Endings Guide | Outcomes and Turning Points",
+    "intro": "Understand confirmed story outcomes, related Steam achievements and how Explorer and Survivor handle replaying decisions in Directive 8020."
   },
-  "trueEndingBox": {
-    "headingFormat": "Best Ending — {name}",
-    "requirementsLabel": "Requirements",
-    "survivorsLabel": "Survivors",
-    "aliveFormat": "{count} alive",
-    "missedFormat": "Missed it? Return to: {tp}"
-  },
-  "overview": {
-    "heading": "Ending Overview",
-    "headers": [
-      "Ending",
-      "Survivors",
-      "Key Condition",
-      "Turning Point"
-    ]
-  },
-  "detailedHeading": "All Endings — Detailed Breakdown",
-  "cta": {
-    "text": "Want to achieve the best ending? Follow the step-by-step guide:",
-    "links": [
+  "article": {
+    "sections": [
       {
-        "href": "/save-everyone",
-        "label": "Save Everyone Guide →",
-        "variant": "primary"
+        "heading": "Understanding the ending branches",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Directive 8020 uses a branching story: crew outcomes and decisions can change how a run finishes. This guide distinguishes outcomes described by official Steam achievements from instructions that would need a reproducible playthrough. It does not present an unverified count of endings or label an invented route as the canonical best ending. The examples below contain outcome spoilers."
+          }
+        ]
       },
       {
-        "href": "/walkthrough",
-        "label": "Full Walkthrough →",
-        "variant": "outline"
+        "heading": "Outcomes described by official Steam achievements",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Achievement",
+              "What the public condition establishes",
+              "What it does not establish"
+            ],
+            "rows": [
+              [
+                "Home Free",
+                "A course for Earth is set with no intruders aboard.",
+                "A complete decision sequence or a guarantee that every crew member survives."
+              ],
+              [
+                "Paint The Walls",
+                "The crew can all be killed.",
+                "The only way to reach this outcome or the number of distinct ending scenes."
+              ],
+              [
+                "Message in a Bottle",
+                "Young can send a distress signal to the Andromeda.",
+                "Every later consequence or how that outcome combines with other branches."
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These are public PC achievement conditions, not an exhaustive ending catalogue. An achievement can describe a story event rather than a separate ending. Its name is retained in English so it can be checked against the linked Steam list; the condition is explained in this guide’s language. Check the corresponding platform list before applying it to console trophies."
+          }
+        ]
+      },
+      {
+        "heading": "Revisiting a decision with Turning Points",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer allows access to Turning Points during the story. Survivor keeps the first story’s consequences and unlocks Turning Points if you reach the ending. These are play styles, separate from difficulty options. Review the current in-game tree to choose a decision that is actually available in your save; the official feature description does not supply a universal checkpoint for each result."
+          }
+        ]
+      },
+      {
+        "heading": "Comparing two branches reliably",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Record the platform, installed version, play style and starting save.",
+              "Write down the exact choice shown in the game and which characters are present.",
+              "Change one decision, then record subsequent scenes and the final result instead of assuming an immediate dialogue change proves a new ending.",
+              "Keep story completion, a particular crew outcome and platform achievement completion as separate goals."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Choosing an outcome to pursue",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For an Earth-bound outcome, compare the conditions for Home Free with your actual final scenes. For a run focused on crew survival, record each character separately; a destination condition is not an all-survive guarantee. To investigate the Andromeda branch, distinguish the distress-signal event from any later consequence. The official descriptions establish these outcomes but do not justify guessing an exact button sequence."
+          }
+        ]
+      },
+      {
+        "heading": "Further reading",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Choice and replay planning](/choices)",
+              "[Controls, difficulty and play styles](/directive-8020-skill-checks)",
+              "[Platform achievements](/trophies)",
+              "[Game-length planning](/game-length)"
+            ]
+          }
+        ]
       }
     ]
   },
   "review": {
-    "status": "pending",
-    "checkedAt": "2026-10-22",
+    "status": "verified",
+    "checkedAt": "2026-10-26",
     "sources": [
       {
-        "label": "Directive 8020 — The Dark Pictures",
-        "url": "https://www.thedarkpictures.com/games/directive-8020"
-      },
-      {
-        "label": "Directive 8020 — Steam",
-        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
-      },
-      {
-        "label": "Directive 8020 — PlayStation",
-        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
       },
       {
         "label": "Directive 8020 — Accessibility Features",
         "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
       }
-    ],
-    "replacement": {
-      "heading": "Exploring Directive 8020 Endings: Verified Rules and Unverified Routes",
-      "intro": "The official presentation confirms a branching story with multiple endings. It does not establish the previously published ten-ending table, a canonical best ending or the conditions assigned to those names.",
-      "sections": [
-        {
-          "heading": "Confirmed replay rules",
-          "text": "Explorer allows Turning Points during the story. Survivor commits you to decisions on the first run and unlocks Turning Points if you reach the ending. These rules do not prove the requirements of a particular ending or password."
-        },
-        {
-          "heading": "Before route advice is restored",
-          "text": "A reproducible record must identify the platform, game version, prior choices, actual prompt and observed result. The old details are retained for editorial review but are not published as current instructions. Use the official sources below and the verified controls guide while this review is pending."
-        }
-      ]
-    }
+    ]
   }
 }

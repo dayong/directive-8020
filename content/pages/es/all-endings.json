@@ -1,80 +1,119 @@
 {
   "meta": {
-    "title": "Finales de Directive 8020: reglas verificadas y rutas sin confirmar",
-    "description": "La presentación oficial confirma una historia ramificada con varios finales. No acredita la tabla anterior de diez finales, un mejor final canónico ni las condiciones atribuidas a esos nombres.",
-    "ogTitle": "Finales de Directive 8020: reglas verificadas y rutas sin confirmar",
-    "ogDescription": "La presentación oficial confirma una historia ramificada con varios finales. No acredita la tabla anterior de diez finales, un mejor final canónico ni las condiciones atribuidas a esos nombres."
+    "title": "Finales de Directive 8020 | Resultados y Turning Points",
+    "description": "Consulta resultados confirmados, logros de Steam relacionados y las reglas de Explorer y Survivor para repetir decisiones en Directive 8020.",
+    "ogTitle": "Finales de Directive 8020 | Resultados y Turning Points",
+    "ogDescription": "Consulta resultados confirmados, logros de Steam relacionados y las reglas de Explorer y Survivor para repetir decisiones en Directive 8020."
   },
   "hero": {
-    "h1": "Todos los finales de Directive 8020",
-    "intro": "Directive 8020 tiene 10 finales posibles. Aquí tienes cómo desbloquear cada uno, los requisitos de cada final y a dónde volver si te perdiste una decisión clave. ¿Vas a repetir un Punto de inflexión? La [guía completa](/walkthrough) cubre todas las escenas episodio a episodio."
+    "h1": "Finales de Directive 8020 | Resultados y Turning Points",
+    "intro": "Consulta resultados confirmados, logros de Steam relacionados y las reglas de Explorer y Survivor para repetir decisiones en Directive 8020."
   },
-  "trueEndingBox": {
-    "headingFormat": "Mejor final — {name}",
-    "requirementsLabel": "Requisitos",
-    "survivorsLabel": "Supervivientes",
-    "aliveFormat": "{count} con vida",
-    "missedFormat": "¿Te lo perdiste? Vuelve a: {tp}"
-  },
-  "overview": {
-    "heading": "Resumen de los finales",
-    "headers": [
-      "Final",
-      "Supervivientes",
-      "Condición clave",
-      "Punto de inflexión"
-    ]
-  },
-  "detailedHeading": "Todos los finales — análisis detallado",
-  "cta": {
-    "text": "¿Quieres conseguir el mejor final? Sigue la guía paso a paso:",
-    "links": [
+  "article": {
+    "sections": [
       {
-        "href": "/save-everyone",
-        "label": "Guía para salvar a todos →",
-        "variant": "primary"
+        "heading": "Cómo entender las ramas del desenlace",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Directive 8020 tiene una historia ramificada: las decisiones y el destino de los tripulantes pueden cambiar el desenlace. Esta guía separa los resultados descritos por logros oficiales de Steam de las instrucciones que necesitan una partida reproducible. No presenta una cifra de finales sin verificar ni una ruta inventada como el mejor final canónico. Los ejemplos siguientes contienen spoilers de resultados."
+          }
+        ]
       },
       {
-        "href": "/walkthrough",
-        "label": "Guía completa →",
-        "variant": "outline"
+        "heading": "Resultados descritos en los logros oficiales de Steam",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Logro",
+              "Qué confirma la condición pública",
+              "Qué no confirma"
+            ],
+            "rows": [
+              [
+                "Home Free",
+                "Se fija un rumbo a la Tierra sin intrusos a bordo.",
+                "Una secuencia completa de decisiones ni que sobrevivan todos los tripulantes."
+              ],
+              [
+                "Paint The Walls",
+                "Es posible que muera toda la tripulación.",
+                "La única ruta para lograrlo ni el número de escenas finales distintas."
+              ],
+              [
+                "Message in a Bottle",
+                "Young puede enviar una señal de socorro a la Andromeda.",
+                "Todas las consecuencias posteriores ni su combinación con otras ramas."
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Son condiciones públicas de logros de PC, no un catálogo exhaustivo de finales. Un logro puede describir un evento narrativo en vez de un final independiente. Se conserva el nombre inglés para localizarlo en la lista enlazada de Steam, mientras se explica la condición en español. Consulta la lista de tu plataforma antes de equipararlos a trofeos de consola."
+          }
+        ]
+      },
+      {
+        "heading": "Volver a una decisión con Turning Points",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Explorer permite acceder a Turning Points durante la historia. Survivor conserva las consecuencias de la primera historia y desbloquea Turning Points si alcanzas un final. Son estilos de juego, distintos de la dificultad. Consulta el árbol actual del juego para escoger una decisión disponible en tu partida; la descripción oficial no indica un punto universal para cada resultado."
+          }
+        ]
+      },
+      {
+        "heading": "Comparar dos ramas de forma fiable",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Anota plataforma, versión instalada, estilo de juego y partida inicial.",
+              "Registra el texto exacto de la decisión y los personajes presentes.",
+              "Cambia una decisión y registra las escenas siguientes y el desenlace; un diálogo distinto no demuestra por sí solo un final nuevo.",
+              "Separa completar la historia, obtener un resultado concreto para la tripulación y conseguir los logros de la plataforma."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Qué resultado quieres explorar",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Para un desenlace rumbo a la Tierra, compara la condición de Home Free con las escenas finales de tu partida. Si buscas supervivientes, registra cada personaje por separado: una condición de destino no garantiza que todos vivan. En la rama de la Andromeda, distingue el envío de la señal de socorro de sus consecuencias posteriores. Las descripciones oficiales confirman estos resultados, pero no justifican inventar una secuencia exacta de botones."
+          }
+        ]
+      },
+      {
+        "heading": "Guías relacionadas",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "[Planificar decisiones y repeticiones](/choices)",
+              "[Controles, dificultad y estilos de juego](/directive-8020-skill-checks)",
+              "[Logros por plataforma](/trophies)",
+              "[Planificar el tiempo de juego](/game-length)"
+            ]
+          }
+        ]
       }
     ]
   },
   "review": {
-    "status": "pending",
-    "checkedAt": "2026-10-22",
+    "status": "verified",
+    "checkedAt": "2026-10-26",
     "sources": [
       {
-        "label": "Directive 8020 — The Dark Pictures",
-        "url": "https://www.thedarkpictures.com/games/directive-8020"
-      },
-      {
-        "label": "Directive 8020 — Steam",
-        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
-      },
-      {
-        "label": "Directive 8020 — PlayStation",
-        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+        "label": "Steam — Directive 8020 Achievements",
+        "url": "https://steamcommunity.com/stats/2255370/achievements"
       },
       {
         "label": "Directive 8020 — Accessibility Features",
         "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
       }
-    ],
-    "replacement": {
-      "heading": "Finales de Directive 8020: reglas verificadas y rutas sin confirmar",
-      "intro": "La presentación oficial confirma una historia ramificada con varios finales. No acredita la tabla anterior de diez finales, un mejor final canónico ni las condiciones atribuidas a esos nombres.",
-      "sections": [
-        {
-          "heading": "Reglas de repetición confirmadas",
-          "text": "Explorer permite Turning Points durante la historia. Survivor mantiene las decisiones en la primera partida y desbloquea Turning Points si llegas al final. Estas reglas no demuestran los requisitos de un final o contraseña concretos."
-        },
-        {
-          "heading": "Antes de restaurar los consejos",
-          "text": "Un registro reproducible debe identificar plataforma, versión, decisiones previas, indicación real y resultado observado. Los detalles antiguos se conservan para revisión editorial, pero no se publican como instrucciones actuales. Consulta las fuentes oficiales y la guía de controles verificada durante esta revisión."
-        }
-      ]
-    }
+    ]
   }
 }

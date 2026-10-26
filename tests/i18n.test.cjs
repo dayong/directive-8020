@@ -153,8 +153,8 @@ test('browser recommendations respect language priority and explicit choices', (
   assert.equal(recommendedLocale({ ...options, current: 'fr', languages: ['ja'] }), null);
 });
 
-test('unverified ending, survival and password guarantees are withdrawn from indexing', () => {
-  for (const locale of ['en', 'es']) for (const slug of ['all-endings', 'save-everyone', 'codes']) {
+test('unverified survival and password guarantees are withdrawn from indexing', () => {
+  for (const locale of ['en', 'es']) for (const slug of ['save-everyone', 'codes']) {
     const { getPageContent } = require('../lib/content.ts');
     const content = getPageContent(slug, locale);
     assert.equal(content.review.status, 'pending');
@@ -337,4 +337,24 @@ test('unknown content URLs return real localized 404 HTML without JavaScript or 
       assert.ok(!html.includes('rel="canonical"'));
     }
   }
+});
+
+
+test('reviewed ending guides restore en/es indexing without restoring unverified ending tables', () => {
+  const { getPageContent } = require('../lib/content.ts');
+  for (const locale of ['en', 'es']) {
+    const content = getPageContent('all-endings', locale);
+    assert.equal(content.review.status, 'verified');
+    assert.equal(content.review.replacement, undefined);
+    assert.ok(content.article.sections.length >= 6);
+    assert.equal(content.overview, undefined);
+    assert.equal(content.trueEndingBox, undefined);
+    assert.ok(fs.existsSync(`content/archive/${locale}/all-endings.json`));
+    const meta = buildPageMetadata('all-endings', content.meta, locale);
+    assert.notEqual(meta.robots?.index, false);
+    assert.equal(meta.alternates.canonical, config.localizeHref('/all-endings', locale));
+    assert.deepEqual(Object.keys(meta.alternates.languages).sort(), ['en', 'es', 'x-default']);
+  }
+  assert.deepEqual(getIndexableLocales('all-endings', '/all-endings'), ['en', 'es']);
+  assert.deepEqual(getIndexableLocales('save-everyone', '/save-everyone'), []);
 });

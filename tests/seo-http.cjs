@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const base = process.env.BASE_URL || 'http://localhost:3000';
 const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko', 'es', 'fr', 'de', 'pt-BR'];
 const ogLocales = { en: 'en_US', 'zh-CN': 'zh_CN', 'zh-TW': 'zh_TW', ja: 'ja_JP', ko: 'ko_KR', es: 'es_ES', fr: 'fr_FR', de: 'de_DE', 'pt-BR': 'pt_BR' };
-const pending = ['who-is-the-real-eisele-directive-8020','shoot-williams-or-stand-down','can-carter-survive','directive-8020-cove','all-endings','save-everyone','codes'];
+const pending = ['who-is-the-real-eisele-directive-8020','shoot-williams-or-stand-down','can-carter-survive','directive-8020-cove','save-everyone','codes'];
 (async () => {
   const sitemap = await fetch(`${base}/sitemap.xml`).then((response) => response.text());
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
@@ -25,6 +25,12 @@ const pending = ['who-is-the-real-eisele-directive-8020','shoot-williams-or-stan
       assert.ok(!html.includes('Directive Complete'), `withdrawn trophy data ${path}`);
       assert.ok(!html.includes('Written from three playthroughs'), `withdrawn first-person claim ${path}`);
       assert.ok(!html.includes('IRREVERSIBLE — True ending permanently locked'), `withdrawn outcome prediction ${path}`);
+    }
+    if (path.endsWith('/all-endings')) {
+      assert.ok(!response.headers.get('x-robots-tag')?.includes('noindex'), `no header exclusion ${path}`);
+      assert.ok(html.includes('Home Free') && html.includes('Message in a Bottle'), `reviewed outcomes rendered ${path}`);
+      assert.ok(!html.includes('10 possible endings') && !html.includes('10 finales posibles'), `old count withdrawn ${path}`);
+      assert.equal([...html.matchAll(/<link rel="alternate" hrefLang=/g)].length, 3, `only real ending translations ${path}`);
     }
     if (path.endsWith('/game-length')) {
       assert.ok(!html.includes('Main story ~8 hours'), `withdrawn hour guarantees ${path}`);
@@ -50,10 +56,11 @@ const pending = ['who-is-the-real-eisele-directive-8020','shoot-williams-or-stan
       for (const section of profile.sections) assert.ok(html.includes(section.heading), `authored profile section ${path}`);
       assert.ok(!html.includes('IRREVERSIBLE'), `unverified choice cards absent ${path}`);
     }
+    const graph = Object.fromEntries([...html.matchAll(/<link rel="alternate" hrefLang="([^"]+)" href="([^"]+)"/g)].map((match) => [match[1], match[2]]));
     const switcher = html.match(/<details[^>]+id="site-language"[^>]*>([\s\S]*?)<\/details>/)?.[1];
     assert.ok(switcher, `SSR language disclosure ${path}`);
     const languageLinks = [...switcher.matchAll(/<a[^>]+href="([^"]+)"[^>]+hrefLang="([^"]+)"/g)];
-    assert.equal(languageLinks.length, 9, `crawlable language links ${path}`);
+    assert.equal(languageLinks.length, Object.keys(graph).filter((key) => key !== 'x-default').length, `crawlable language links ${path}`);
     for (const [, href, target] of languageLinks) {
       assert.ok(urls.some((url) => new URL(url).href === new URL(href, 'https://directive-8020.com').href), `real language counterpart ${path} ${target}`);
       const unprefixed = locale === 'en' ? path : path.slice(locale.length + 1) || '/';
@@ -61,7 +68,6 @@ const pending = ['who-is-the-real-eisele-directive-8020','shoot-williams-or-stan
       assert.equal(href, expected, `same-page language link ${path} ${target}`);
     }
     assert.ok(switcher.includes('aria-current="page"'), `current language indicated ${path}`);
-    const graph = Object.fromEntries([...html.matchAll(/<link rel="alternate" hrefLang="([^"]+)" href="([^"]+)"/g)].map((match) => [match[1], match[2]]));
     assert.ok(graph.en && graph['x-default'], `English/default alternate ${path}`);
     for (const alternate of Object.values(graph)) assert.ok(urls.includes(alternate), `alternate in sitemap ${alternate}`);
     graphs.set(url, graph);
@@ -95,6 +101,7 @@ const pending = ['who-is-the-real-eisele-directive-8020','shoot-williams-or-stan
       assert.equal((await fetch(`${base}${root}${path}`)).status, 404, `untranslated ${locale}${path}`);
     }
   }
+  for (const locale of ['en', 'es']) assert.ok(urls.includes(`https://directive-8020.com${locale === 'en' ? '' : '/es'}/all-endings`), 'ending guide restored to sitemap');
   for (const locale of ['en','es']) {
     for (const slug of [...pending, ...Array.from({ length: 8 }, (_, index) => `walkthrough/episode-${index + 1}`)]) {
       const path = `${locale === 'en' ? '' : '/es'}/${slug}`;
