@@ -1,22 +1,43 @@
 {
   "meta": {
-    "title": "Directive 8020 Spielzeit | Erster Durchlauf und Wiederholungen",
-    "description": "Plane Geschichte und Wiederholungen ohne unbelegte Stundenangaben. Erfahre, wie sich Erkundung, Turning Points, Spielstil und Schwierigkeit unterscheiden.",
-    "ogTitle": "Directive 8020 Spielzeit | Erster Durchlauf und Wiederholungen",
-    "ogDescription": "Plane Geschichte und Wiederholungen ohne unbelegte Stundenangaben. Erfahre, wie sich Erkundung, Turning Points, Spielstil und Schwierigkeit unterscheiden."
+    "title": "Wie lange dauert Directive 8020? 8 Stunden Hauptstory",
+    "description": "Directive 8020 dauert laut HowLongToBeat etwa 8 Stunden für die Hauptstory, 10 mit Extras und 17½ Stunden für Komplettisten. Alle Angaben im Überblick.",
+    "ogTitle": "Wie lange dauert Directive 8020? 8 Stunden Hauptstory",
+    "ogDescription": "Directive 8020 dauert laut HowLongToBeat etwa 8 Stunden für die Hauptstory, 10 mit Extras und 17½ Stunden für Komplettisten. Alle Angaben im Überblick."
   },
   "hero": {
-    "h1": "Directive 8020 Spielzeit | Erster Durchlauf und Wiederholungen",
-    "intro": "Plane Geschichte und Wiederholungen ohne unbelegte Stundenangaben. Erfahre, wie sich Erkundung, Turning Points, Spielstil und Schwierigkeit unterscheiden."
+    "h1": "Wie lange dauert Directive 8020? Hauptstory & Komplettist",
+    "intro": "HowLongToBeat schätzt die Hauptstory auf etwa 8 Stunden, mit Extras auf 10 und für Komplettisten auf 17½. Das ändert diese Werte – und so passen Wiederholungen und Turning Points hinein."
   },
   "article": {
     "sections": [
       {
-        "heading": "Gibt es eine bestätigte Spielzeit?",
+        "heading": "Wie lange dauert Directive 8020? Schätzungen von Dritten",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Die verlinkten offiziellen Quellen nennen keine allgemeingültige Dauer für den ersten Durchlauf, alle Enden oder vollständigen Abschluss. Die bisherigen festen Stundenwerte und Episodenzeiten wurden zurückgezogen. Lesetempo, Erkundung und Wiederholungsziele unterscheiden sich."
+            "text": "Supermassive und Bandai Namco veröffentlichen keine offizielle Spieldauer. HowLongToBeat sammelt von Spielern eingereichte Zeiten; diese Werte wurden am 1. November 2026 geprüft und sind Community-Durchschnitte, keine Garantien."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Ziel",
+              "HowLongToBeat-Schätzung"
+            ],
+            "rows": [
+              [
+                "Hauptstory",
+                "8 Stunden"
+              ],
+              [
+                "Haupt + Extras",
+                "10 Stunden"
+              ],
+              [
+                "Komplettist",
+                "17½ Stunden"
+              ]
+            ]
           }
         ]
       },
@@ -85,14 +106,18 @@
   },
   "review": {
     "status": "verified",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-01",
     "sources": [
       {
-        "label": "Directive 8020",
+        "label": "HowLongToBeat — Directive 8020",
+        "url": "https://howlongtobeat.com/game/116632"
+      },
+      {
+        "label": "Directive 8020 — official game page",
         "url": "https://www.thedarkpictures.com/games/directive-8020"
       },
       {
-        "label": "Turning Points",
+        "label": "Turning Points — accessibility features",
         "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
       }
     ]

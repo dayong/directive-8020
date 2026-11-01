@@ -1,47 +1,41 @@
 {
   "meta": {
-    "title": "Williams: Verified Identity and Unverified Choice Outcomes",
-    "description": "The official roster identifies LaMarcus Williams as the CEO of Corinth. It does not verify the previously published sedative recipe, trophy lockout or guaranteed outcome for shooting versus standing down.",
-    "ogTitle": "Williams: Verified Identity and Unverified Choice Outcomes",
-    "ogDescription": "The official roster identifies LaMarcus Williams as the CEO of Corinth. It does not verify the previously published sedative recipe, trophy lockout or guaranteed outcome for shooting versus standing down."
+    "title": "Shoot Williams or Stand Down in Directive 8020? (Episode 6)",
+    "description": "Stand Down in the Episode 6 Point Blank standoff and the scan confirms Williams is human — if you sedated him in Episode 5. Shooting forfeits Suspect Acquitted.",
+    "ogTitle": "Shoot Williams or Stand Down in Directive 8020? (Episode 6)",
+    "ogDescription": "Stand Down in the Episode 6 Point Blank standoff and the scan confirms Williams is human — if you sedated him in Episode 5. Shooting forfeits Suspect Acquitted."
   },
   "hero": {
     "h1": "Shoot Williams or Stand Down?",
-    "tagline": "Stand Down — if you prepared the sedative. Shoot — if you didn't.",
-    "intro": "The Episode 5 “Point Blank” choice, fully broken down: what each option does, what it locks, and what it unlocks."
+    "tagline": "Stand Down if you sedated Williams in Episode 5. Shoot if you skipped it — and accept a locked trophy.",
+    "intro": "The Point Blank standoff in Episode 6: what each option does, which trophy it unlocks or locks, and why the Episode 5 sedative decides the outcome."
   },
   "options": {
-    "heading": "The Three Options at Point Blank",
+    "heading": "The Two Options at Point Blank",
     "cards": [
       {
-        "badge": "✓ Best with sedative",
+        "badge": "✓ Correct with the sedative",
         "tone": "good",
         "title": "Stand Down — hold fire",
-        "body": "Buys time. If you prepared the sedative in the lab, it becomes available here and Williams can be neutralized non-lethally.",
-        "chain": "⟳ Cross-episode: Stand Down + sedative = Williams lives → helpful Ep7 intel → better Ep8 dynamics. Required for the Sedate Williams trophy."
+        "body": "Let the scan finish. If you sedated Williams in Episode 5, it identifies him as human and the standoff ends without a death.",
+        "chain": "⟳ Unlocks **Suspect Acquitted**. Keeps the everyone-survives route alive."
       },
       {
-        "badge": "✓ Safer without sedative",
+        "badge": "✗ Locks a trophy",
         "tone": "bad",
         "title": "Shoot immediately",
-        "body": "The Williams duplicate is eliminated on the spot. Clean and fast — but you lose the optional trophy.",
-        "chain": "⟳ Cross-episode: Shoot = Williams dies → loses Ep7 intel → one Ep7 dialogue check harder. Sedate Williams trophy locked."
-      },
-      {
-        "badge": "Neutral",
-        "tone": "neutral",
-        "title": "Time Out — wait and see",
-        "body": "A minor delay with the same outcomes as Stand Down."
+        "body": "Williams is shot at point-blank range. No guide surveyed for this page documents him surviving it.",
+        "chain": "⟳ **Suspect Acquitted** is no longer available, and the everyone-survives route fails."
       }
     ]
   },
   "sceneContext": {
-    "heading": "What Leads Up to This Choice?",
-    "summary": "⚠ Spoilers — click to expand the scene context",
+    "heading": "What Leads Up to Point Blank?",
+    "summary": "⚠ Spoilers — click to expand the Episode 5 setup",
     "paragraphs": [
-      "Williams is scanned by the ship's biometric system during Episode 5 (“Mr. Williams”). The result is immediate and damning: **“Subject unidentifiable.”** Before anyone can react, Williams begins to transform — skin shifting, form destabilizing. The mimicry breaks down under the scanner's beam, and you have seconds to respond.",
-      "This confrontation only goes well if you did your homework two scenes earlier. The **sedative** is the single most missable interaction in the game: while Eisele is in the science lab, you get roughly ninety seconds of free-roam control and no objective marker. Walk to the chemistry station — the counter with beakers and an active terminal on the left wall — and interact with it. Skip it and the sedative option never appears here.",
-      "One more chain from way back: choosing **“Authorize use of weapon”** in the Episode 1 Crew Quarters is what unlocks the non-lethal resolution branch in this standoff in the first place."
+      "Point Blank is the Williams standoff in **Episode 6**, not Episode 5. Stafford has Williams at gunpoint while the ship's scanner runs; the result decides whether the crew is facing the real Williams.",
+      "The outcome is set one episode earlier. In **Episode 5**, during the “Suspicions” section, Anders proposes sedating Williams so she can get into his computer. Agree to the plan and prepare the sedative — the diazepam synthesis uses code **168** — and Anders administers it in a coffee. That unlocks **Is This Decaf?** (“Sedated Williams”).",
+      "If Williams was not sedated, he is replaced by a **duplicate**. The scan cannot identify a duplicate as human, so **Suspect Acquitted** is out of reach for that playthrough."
     ]
   },
   "outcomes": {
@@ -51,96 +45,97 @@
         "tone": "good",
         "heading": "Stand Down →",
         "items": [
-          "With sedative: Williams is sedated non-lethally and survives",
-          "Unlocks the **Sedate Williams** trophy",
-          "Williams provides helpful intel in Episode 7",
-          "Improves Episode 8 dynamics and feeds the best ending path",
-          "Without sedative: no non-lethal option — Williams must die or escape"
+          "The scan identifies Williams as human — **if** you sedated him in Episode 5",
+          "Unlocks **Suspect Acquitted** (“Williams was identified as human”)",
+          "Keeps the everyone-survives route alive",
+          "Without the Episode 5 sedative, the scan cannot confirm him"
         ]
       },
       {
         "tone": "bad",
         "heading": "Shoot →",
         "items": [
-          "The duplicate is eliminated immediately — no further threat",
-          "**Sedate Williams** trophy permanently locked",
-          "Episode 7 intel from Williams is lost",
-          "One Episode 7 dialogue check becomes harder",
-          "Slightly reduces Episode 7-8 ending quality"
+          "Williams is shot at point-blank range; no guide surveyed shows him surviving",
+          "**Suspect Acquitted** is no longer available in that playthrough",
+          "The everyone-survives route needs him alive in Episode 8, so it fails",
+          "No trophy or story benefit is documented for shooting"
         ]
       }
     ],
-    "outro": "If you prepared the sedative, Stand Down is the better call — you neutralize the threat and keep Williams alive for trophy purposes. If you skipped the sedative, shooting is the safer option because you have no non-lethal alternative."
+    "outro": "If you completed the Episode 5 sedation, Stand Down is the correct call: Williams is confirmed human and the trophy unlocks. If you skipped it, shooting ends the scene quickly — but Suspect Acquitted was already out of reach, and the shot removes Williams from the surviving crew."
   },
   "faqHeading": "Frequently Asked Questions",
   "faqs": [
     {
       "q": "Should you shoot Williams or stand down in Directive 8020?",
-      "a": "Stand Down is the best choice if you prepared the sedative in the Episode 5 lab — Williams survives, you earn the Sedate Williams trophy, and his intel helps in Episodes 7 and 8. If you skipped the sedative, Shoot is the safer option."
+      "a": "Stand Down — if you sedated Williams in Episode 5. The scan then identifies him as human and unlocks Suspect Acquitted. Shooting forfeits the trophy for that playthrough."
     },
     {
       "q": "What happens if you shoot Williams?",
-      "a": "The duplicate is eliminated immediately. The Sedate Williams trophy is permanently locked, Williams's Ep7 intel is lost, and one Ep7 dialogue check becomes harder."
+      "a": "Williams is shot at point-blank range. Suspect Acquitted is no longer available in that playthrough, and the everyone-survives route fails because it needs him alive in Episode 8."
     },
     {
-      "q": "What happens if you stand down without the sedative?",
-      "a": "Without the sedative there is no non-lethal option — Williams must die or escape. That's why preparing the sedative before leaving the science lab is the single most missable step in the game."
+      "q": "Which episode is the Williams standoff?",
+      "a": "Episode 6. “Point Blank” is the standoff scene; the sedative setup happens one episode earlier, in Episode 5's “Suspicions” section."
     },
     {
       "q": "How do you save Williams in Directive 8020?",
-      "a": "Prepare the sedative in the Episode 5 science lab, then choose Stand Down at Point Blank. With the sedative, Williams is neutralized non-lethally and survives — this also unlocks the Sedate Williams trophy."
+      "a": "Agree to Anders' sedation plan in Episode 5 and prepare the sedative (diazepam synthesis, code 168), then choose Stand Down at Point Blank in Episode 6. That unlocks Is This Decaf? and Suspect Acquitted."
+    },
+    {
+      "q": "Does standing down work without the sedative?",
+      "a": "No. If Williams was not sedated in Episode 5, he is replaced by a duplicate and the scan cannot identify him as human, so Suspect Acquitted cannot unlock."
     }
   ],
   "cta": {
-    "text": "Want every Episode 5 choice explained in context?",
+    "text": "Want the full Episode 6 route around Point Blank?",
     "links": [
       {
-        "href": "/walkthrough/episode-5",
-        "label": "Episode 5 Walkthrough →",
+        "href": "/walkthrough/episode-6",
+        "label": "Episode 6 Walkthrough →",
         "variant": "primary"
+      },
+      {
+        "href": "/codes",
+        "label": "All Codes →",
+        "variant": "outline"
       },
       {
         "href": "/choices",
         "label": "All Choices →",
-        "variant": "outline"
-      },
-      {
-        "href": "/save-everyone",
-        "label": "Save Everyone →",
         "variant": "ghost"
       }
     ]
   },
   "review": {
-    "status": "pending",
-    "checkedAt": "2026-10-22",
+    "status": "verified",
+    "checkedAt": "2026-11-01",
+    "notice": "Rewritten on 1 November 2026 against multiple published guides. The previous version placed Point Blank in Episode 5 and cited a “Sedate Williams” trophy that does not exist.",
     "sources": [
       {
-        "label": "Directive 8020 — The Dark Pictures",
-        "url": "https://www.thedarkpictures.com/games/directive-8020"
+        "label": "GameRant — Password1 trophy guide",
+        "url": "https://gamerant.com/directive-8020-how-hack-williams-computer-password1-trophy-achievement/"
       },
       {
-        "label": "Directive 8020 — Steam",
-        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+        "label": "TheGamer — achievement and trophy unlock guide",
+        "url": "https://www.thegamer.com/directive-8020-achievement-trophy-unlock-guide/"
       },
       {
-        "label": "Directive 8020 — PlayStation",
-        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+        "label": "Nerdschalk — Suspect Acquitted unlock guide",
+        "url": "https://nerdschalk.com/directive-8020-suspect-acquitted-trophy-unlock-guide-all-correct-choices/"
+      },
+      {
+        "label": "GamesHedge — How to save everyone",
+        "url": "https://www.gameshedge.com/how-to-save-everyone-in-directive-8020/"
+      },
+      {
+        "label": "VGTimes — How to save everyone",
+        "url": "https://vgtimes.com/guides/156212-how-to-save-everyone-in-directive-8020-and-get-the-best-ending-all-correct-choices.html"
+      },
+      {
+        "label": "PowerUpGaming — How to save everyone",
+        "url": "https://powerupgaming.co.uk/2026/05/18/directive-8020-how-to-save-everyone-good-ending/"
       }
-    ],
-    "replacement": {
-      "heading": "Williams: Verified Identity and Unverified Choice Outcomes",
-      "intro": "The official roster identifies LaMarcus Williams as the CEO of Corinth. It does not verify the previously published sedative recipe, trophy lockout or guaranteed outcome for shooting versus standing down.",
-      "sections": [
-        {
-          "heading": "What was corrected",
-          "text": "The earlier scene-specific instructions and first-person playthrough claims are withdrawn pending verification. No replacement guess is being presented as a proven solution."
-        },
-        {
-          "heading": "How to proceed",
-          "text": "Use the current in-game prompts and Turning Points options. Official material confirms revisiting key decisions, but does not document every scene or guarantee a particular ending. This page will need a verified scene-by-scene account before its route advice is restored."
-        }
-      ]
-    }
+    ]
   }
 }

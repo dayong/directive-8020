@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Códigos y contraseñas de Directive 8020: estado de verificación",
-    "description": "Las contraseñas y ubicaciones publicadas no se han verificado con las fuentes oficiales consultadas. Se retiran como soluciones garantizadas; esto no afirma que el juego carezca de contraseñas.",
-    "ogTitle": "Códigos y contraseñas de Directive 8020: estado de verificación",
-    "ogDescription": "Las contraseñas y ubicaciones publicadas no se han verificado con las fuentes oficiales consultadas. Se retiran como soluciones garantizadas; esto no afirma que el juego carezca de contraseñas."
+    "title": "Códigos de Directive 8020: las 6 contraseñas",
+    "description": "Los seis códigos fijos: Vestuario 13576, PC de Carter 0828, Comida 0402, Diazepam 168, Registro de anomalías 3196 y sonda Charybdis 2540, con la pista de cada uno.",
+    "ogTitle": "Códigos de Directive 8020: las 6 contraseñas",
+    "ogDescription": "Los seis códigos fijos: Vestuario 13576, PC de Carter 0828, Comida 0402, Diazepam 168, Registro de anomalías 3196 y sonda Charybdis 2540, con la pista de cada uno."
   },
   "hero": {
     "h1": "Códigos y contraseñas de Directive 8020",
@@ -51,7 +51,7 @@
     },
     {
       "location": "Número de serie de la sonda Charybdis",
-      "episode": "Episodio 7 — Cycle 13",
+      "episode": "Episodio 7 — Revelation",
       "code": "2540",
       "how": "El terminal pide el número de serie de la sonda. Inspecciona la parte delantera de la sonda (muestra «2») y la trasera (muestra «40»), lo que da el patrón 2_40. El número de serie completo es 2540."
     }
@@ -82,39 +82,30 @@
     ]
   },
   "review": {
-    "status": "pending",
-    "checkedAt": "2026-10-22",
+    "status": "verified",
+    "checkedAt": "2026-11-01",
+    "notice": "Los seis códigos se verificaron con varias guías publicadas el 1 de noviembre de 2026. Son fijos en todas las partidas.",
     "sources": [
       {
-        "label": "Directive 8020 — The Dark Pictures",
-        "url": "https://www.thedarkpictures.com/games/directive-8020"
+        "label": "PowerUpGaming — All locker key codes",
+        "url": "https://powerupgaming.co.uk/2026/05/16/directive-8020-all-locker-key-code-numbers/"
       },
       {
-        "label": "Directive 8020 — Steam",
-        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+        "label": "Space4Games — All codes and locations",
+        "url": "https://space4games.com/en/games-en/directive-8020-code-guide/"
       },
       {
-        "label": "Directive 8020 — PlayStation",
-        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+        "label": "GameRant — Charybdis probe serial number",
+        "url": "https://gamerant.com/directive-8020-charybdis-probe-serial-number-code-episode-7/"
       },
       {
-        "label": "Directive 8020 — Accessibility Features",
-        "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
+        "label": "TheGamer — Episode 7 walkthrough",
+        "url": "https://www.thegamer.com/directive-8020-episode-7-revelation-walkthrough-all-survive-williams/"
+      },
+      {
+        "label": "GIGA — Alle Codes für Rätsel und Safes",
+        "url": "https://www.giga.de/games/directive-8020-alle-codes-fuer-raetsel-und-safes--01KR40RF0A175T0T0QTF3JT107"
       }
-    ],
-    "replacement": {
-      "heading": "Códigos y contraseñas de Directive 8020: estado de verificación",
-      "intro": "Las contraseñas y ubicaciones publicadas no se han verificado con las fuentes oficiales consultadas. Se retiran como soluciones garantizadas; esto no afirma que el juego carezca de contraseñas.",
-      "sections": [
-        {
-          "heading": "Reglas de repetición confirmadas",
-          "text": "Explorer permite Turning Points durante la historia. Survivor mantiene las decisiones en la primera partida y desbloquea Turning Points si llegas al final. Estas reglas no demuestran los requisitos de un final o contraseña concretos."
-        },
-        {
-          "heading": "Antes de restaurar los consejos",
-          "text": "Un registro reproducible debe identificar plataforma, versión, decisiones previas, indicación real y resultado observado. Los detalles antiguos se conservan para revisión editorial, pero no se publican como instrucciones actuales. Consulta las fuentes oficiales y la guía de controles verificada durante esta revisión."
-        }
-      ]
-    }
+    ]
   }
 }

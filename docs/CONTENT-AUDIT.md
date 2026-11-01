@@ -158,3 +158,16 @@
 `/all-endings` 与 `/es/all-endings` 现在发布有来源的结果／回退指南，旧稿保存在 content/archive。核对 Steam 公开的 Home Free、Paint The Walls、Message in a Bottle 条件，明确这些成就不等同于完整结局目录，也不能据此推出所有步骤。Explorer／Survivor 的说明仍按官方无障碍文章，不写为操作难度。
 
 这两页改为 verified 并恢复索引资格，仅表示新正文所列事实已审核，不表示旧十结局表或所有场景解法得到确认。其他待核验文章／章节未放开。来源为 Steam 官方成就页及 The Dark Pictures 无障碍说明，检查日期 2026-10-26。
+
+## 2026-11-01：恢复部分核验页并更新多人／时长数据
+
+- `/codes`、`/es/codes` 恢复 verified。六个密码经 PowerUpGaming、Space4Games、GameRant、TheGamer、GIGA 多源一致：13576、0828、0402、168、3196、2540，均为固定密码。原正文与来源一致，故移除撤回页；Episode 7 名称改为 Revelation。来源与核对日期在页脚列出。
+- `/can-carter-survive`、`/es/can-carter-survive` 恢复 verified。GamesHedge、ShowGamer、Whisper of the House 三源一致：Carter 与 Simms 的死亡是剧本固定事件，无法拯救，只能延迟；五名可操作角色可全部生还。与原页面结论一致。
+- `/save-everyone` 仍为 pending。其核心结论已有共识，但逐场景步骤与上述来源并不完全一致，未逐条核实，故继续 noindex，避免再次发布未核实路线。
+- `/game-length`（九语言）更新标题、H1 与首段，新增 HowLongToBeat 数据表（主线 8 小时、主线＋支线 10 小时、全收集 17½ 小时，2026-11-01 核对），明确标注为社区平均值而非官方数据。旧固定时长仍不作为官方结论。
+- `/multiplayer`（九语言）新增 2026-10-19 免费在线更新段落：最多 5 人、各需自购、无好友通行证，Custom／Round Robin 模式与 Choice Voting。官方通稿未提及跨平台联机，页面明确写为“未宣布”，不作推断。来源为 Supermassive 通稿、Steam 更新说明与 Gematsu。
+- `lib/page-seo.ts`：标题已含 “Directive 8020” 时使用 absolute title，避免模板再次追加品牌名。
+- `tests/i18n.test.cjs`：恢复页必须有不少于 3 个 https 来源与 2026-11-01 核对日期；`/save-everyone` 仍须 noindex。
+- `/shoot-williams-or-stand-down`、`/es/shoot-williams-or-stand-down` 恢复 verified，但正文重写。旧稿把 Point Blank 放在 Episode 5，并引用不存在的 “Sedate Williams” 奖杯。GameRant、TheGamer、Nerdschalk、GamesHedge、VGTimes、PowerUpGaming 一致：Point Blank 在 Episode 6；Episode 5「Suspicions」同意 Anders 的镇静计划并完成镇静（diazepam 代码 168，奖杯 Is This Decaf?），Episode 6 选择 Stand Down／不开枪后扫描确认 Williams 是人类，解锁 Suspect Acquitted；未镇静则被 Duplicate 取代。旧稿中的 Ep7 情报、Ep8 结局质量与 Ep1「Authorize use of weapon」说法没有独立来源，全部删除。页脚列出六处来源与核对日期。
+- `components/views/ShootWilliamsView.tsx`：恢复页重新输出 FAQPage 结构化数据。
+- `tests/seo-http.cjs`：pending 列表移除已恢复的 `/codes`、`/can-carter-survive`、`/shoot-williams-or-stand-down`。

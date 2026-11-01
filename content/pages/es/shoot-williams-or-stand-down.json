@@ -1,146 +1,141 @@
 {
   "meta": {
-    "title": "Williams: identidad verificada y resultados de decisiones sin verificar",
-    "description": "La plantilla oficial identifica a LaMarcus Williams como director ejecutivo de Corinth. No verifica la receta de sedante, el bloqueo de trofeo ni el resultado garantizado de disparar o bajar el arma publicados anteriormente.",
-    "ogTitle": "Williams: identidad verificada y resultados de decisiones sin verificar",
-    "ogDescription": "La plantilla oficial identifica a LaMarcus Williams como director ejecutivo de Corinth. No verifica la receta de sedante, el bloqueo de trofeo ni el resultado garantizado de disparar o bajar el arma publicados anteriormente."
+    "title": "¿Disparar a Williams o no disparar en Directive 8020? (Episodio 6)",
+    "description": "No disparar en el careo Point Blank del Episodio 6 permite que el escáner confirme que Williams es humano, si lo sedaste en el Episodio 5. Disparar deja Suspect Acquitted fuera de alcance.",
+    "ogTitle": "¿Disparar a Williams o no disparar en Directive 8020? (Episodio 6)",
+    "ogDescription": "No disparar en el careo Point Blank del Episodio 6 permite que el escáner confirme que Williams es humano, si lo sedaste en el Episodio 5. Disparar deja Suspect Acquitted fuera de alcance."
   },
   "hero": {
-    "h1": "¿Disparar a Williams o Bajar el arma?",
-    "tagline": "Bajar el arma — si preparaste el sedante. Disparar — si no lo hiciste.",
-    "intro": "La elección «Point Blank» del Episodio 5, analizada a fondo: qué hace cada opción, qué bloquea y qué desbloquea."
+    "h1": "¿Disparar a Williams o no disparar?",
+    "tagline": "No dispares si sedaste a Williams en el Episodio 5. Dispara si te saltaste la sedación y acepta el trofeo bloqueado.",
+    "intro": "El careo Point Blank del Episodio 6: qué hace cada opción, qué trofeo desbloquea o bloquea y por qué la sedación del Episodio 5 decide el resultado."
   },
   "options": {
-    "heading": "Las tres opciones en Point Blank",
+    "heading": "Las dos opciones en Point Blank",
     "cards": [
       {
-        "badge": "✓ Mejor con sedante",
+        "badge": "✓ Correcto con la sedación",
         "tone": "good",
-        "title": "Bajar el arma — no disparar",
-        "body": "Gana tiempo. Si preparaste el sedante en el laboratorio, estará disponible aquí y Williams puede ser neutralizado de forma no letal.",
-        "chain": "⟳ Entre episodios: Bajar el arma + sedante = Williams vive → información útil en el Ep7 → mejores dinámicas en el Ep8. Requisito para el trofeo Sedate Williams."
+        "title": "No disparar — mantener el fuego",
+        "body": "Deja que el escáner termine. Si sedaste a Williams en el Episodio 5, lo identifica como humano y el careo termina sin muertes.",
+        "chain": "⟳ Desbloquea **Suspect Acquitted**. Mantiene viva la ruta de salvar a todos."
       },
       {
-        "badge": "✓ Más seguro sin sedante",
+        "badge": "✗ Bloquea un trofeo",
         "tone": "bad",
         "title": "Disparar de inmediato",
-        "body": "El doble de Williams es eliminado al instante. Rápido y limpio, pero pierdes el trofeo opcional.",
-        "chain": "⟳ Entre episodios: Disparar = Williams muere → pierdes la información del Ep7 → una prueba de diálogo del Ep7 se vuelve más difícil. Trofeo Sedate Williams bloqueado."
-      },
-      {
-        "badge": "Neutral",
-        "tone": "neutral",
-        "title": "Esperar — ver qué pasa",
-        "body": "Un pequeño retraso con los mismos resultados que Bajar el arma."
+        "body": "Williams recibe un disparo a bocajarro. Ninguna de las guías consultadas para esta página documenta que sobreviva.",
+        "chain": "⟳ **Suspect Acquitted** deja de estar disponible y la ruta de salvar a todos fracasa."
       }
     ]
   },
   "sceneContext": {
-    "heading": "¿Qué lleva a esta decisión?",
-    "summary": "⚠ Spoilers — haz clic para ver el contexto de la escena",
+    "heading": "¿Qué lleva hasta Point Blank?",
+    "summary": "⚠ Spoilers — pulsa para ver los preparativos del Episodio 5",
     "paragraphs": [
-      "El sistema biométrico de la nave escanea a Williams durante el Episodio 5 («Mr. Williams»). El resultado es inmediato y demoledor: **«Sujeto no identificable.»** Antes de que nadie pueda reaccionar, Williams empieza a transformarse: la piel cambia, la forma se desestabiliza. El mimetismo se desmorona bajo el haz del escáner y tienes segundos para responder.",
-      "Este enfrentamiento solo sale bien si hiciste los deberes dos escenas antes. El **sedante** es la interacción más fácil de perder de todo el juego: mientras Eisele está en el laboratorio de ciencias, tienes unos noventa segundos de control libre y ningún marcador de objetivo. Camina hasta la estación de química —la mesa con vasos de precipitados y una terminal activa en la pared izquierda— e interactúa con ella. Si te la saltas, la opción del sedante nunca aparecerá aquí.",
-      "Otra cadena que viene de muy atrás: elegir **«Autorizar el uso del arma»** en los Cuartos de la tripulación del Episodio 1 es lo que desbloquea la rama de resolución no letal de este enfrentamiento."
+      "Point Blank es el careo con Williams en el **Episodio 6**, no en el Episodio 5. Stafford le apunta con el arma mientras corre el escáner de la nave; el resultado decide si la tripulación tiene delante al Williams real.",
+      "El desenlace se prepara un episodio antes. En el **Episodio 5**, en la sección «Suspicions», Anders propone sedar a Williams para poder entrar en su ordenador. Acepta el plan y prepara la sedación —la síntesis de diazepam usa el código **168**— y Anders se lo administra en un café. Eso desbloquea **Is This Decaf?** («Sedated Williams»).",
+      "Si Williams no fue sedado, lo sustituye un **duplicado** y el escáner no puede identificarlo como humano. En ese caso, **Suspect Acquitted** queda fuera de alcance para esa partida."
     ]
   },
   "outcomes": {
-    "heading": "Qué pasa si eliges cada opción",
+    "heading": "Qué ocurre con cada opción",
     "columns": [
       {
         "tone": "good",
-        "heading": "Bajar el arma →",
+        "heading": "No disparar →",
         "items": [
-          "Con sedante: Williams es sedado de forma no letal y sobrevive",
-          "Desbloquea el trofeo **Sedate Williams**",
-          "Williams proporciona información útil en el Episodio 7",
-          "Mejora las dinámicas del Episodio 8 y alimenta el camino al mejor final",
-          "Sin sedante: no hay opción no letal — Williams debe morir o escapar"
+          "El escáner identifica a Williams como humano, **siempre que** lo hayas sedado en el Episodio 5",
+          "Desbloquea **Suspect Acquitted** («Williams was identified as human»)",
+          "Mantiene viva la ruta de salvar a todos",
+          "Sin la sedación del Episodio 5, el escáner no puede confirmarlo"
         ]
       },
       {
         "tone": "bad",
         "heading": "Disparar →",
         "items": [
-          "El doble es eliminado de inmediato — sin más amenazas",
-          "Trofeo **Sedate Williams** bloqueado para siempre",
-          "Se pierde la información de Williams en el Episodio 7",
-          "Una prueba de diálogo del Episodio 7 se vuelve más difícil",
-          "Reduce ligeramente la calidad del final de los Episodios 7-8"
+          "Williams recibe un disparo a bocajarro; ninguna guía consultada lo muestra sobreviviendo",
+          "**Suspect Acquitted** deja de estar disponible en esa partida",
+          "La ruta de salvar a todos lo necesita vivo en el Episodio 8, así que fracasa",
+          "No hay ningún beneficio de trofeo o historia documentado por disparar"
         ]
       }
     ],
-    "outro": "Si preparaste el sedante, lo mejor es Bajar el arma: neutralizas la amenaza y mantienes a Williams con vida para el trofeo. Si te saltaste el sedante, disparar es la opción más segura porque no tienes alternativa no letal."
+    "outro": "Si completaste la sedación del Episodio 5, no disparar es la opción correcta: Williams queda confirmado como humano y el trofeo se desbloquea. Si te la saltaste, disparar cierra la escena rápido, pero Suspect Acquitted ya era inalcanzable y el disparo lo elimina del grupo de supervivientes."
   },
   "faqHeading": "Preguntas frecuentes",
   "faqs": [
     {
-      "q": "¿Debes disparar a Williams o bajar el arma en Directive 8020?",
-      "a": "Bajar el arma es la mejor opción si preparaste el sedante en el laboratorio del Episodio 5: Williams sobrevive, consigues el trofeo Sedate Williams y su información ayuda en los Episodios 7 y 8. Si te saltaste el sedante, disparar es la opción más segura."
+      "q": "¿Debo disparar a Williams o no disparar en Directive 8020?",
+      "a": "No dispares, siempre que hayas sedado a Williams en el Episodio 5. El escáner lo identifica como humano y desbloquea Suspect Acquitted. Disparar deja el trofeo fuera de alcance en esa partida."
     },
     {
-      "q": "¿Qué pasa si disparas a Williams?",
-      "a": "El doble es eliminado de inmediato. El trofeo Sedate Williams queda bloqueado para siempre, se pierde la información de Williams del Ep7 y una prueba de diálogo del Ep7 se vuelve más difícil."
+      "q": "¿Qué pasa si disparo a Williams?",
+      "a": "Williams recibe un disparo a bocajarro. Suspect Acquitted deja de estar disponible en esa partida y la ruta de salvar a todos fracasa porque lo necesita vivo en el Episodio 8."
     },
     {
-      "q": "¿Qué pasa si bajas el arma sin el sedante?",
-      "a": "Sin el sedante no hay opción no letal: Williams debe morir o escapar. Por eso, preparar el sedante antes de salir del laboratorio de ciencias es el paso más fácil de perder de todo el juego."
+      "q": "¿En qué episodio ocurre el careo con Williams?",
+      "a": "En el Episodio 6. «Point Blank» es la escena del careo; la sedación se prepara un episodio antes, en la sección «Suspicions» del Episodio 5."
     },
     {
-      "q": "¿Cómo salvas a Williams en Directive 8020?",
-      "a": "Prepara el sedante en el laboratorio de ciencias del Episodio 5 y luego elige Bajar el arma en Point Blank. Con el sedante, Williams es neutralizado de forma no letal y sobrevive; además, desbloqueas el trofeo Sedate Williams."
+      "q": "¿Cómo se salva a Williams en Directive 8020?",
+      "a": "Acepta el plan de Anders en el Episodio 5 y prepara la sedación (síntesis de diazepam, código 168); después elige no disparar en Point Blank, en el Episodio 6. Eso desbloquea Is This Decaf? y Suspect Acquitted."
+    },
+    {
+      "q": "¿Funciona no disparar sin la sedación?",
+      "a": "No. Si Williams no fue sedado en el Episodio 5, lo sustituye un duplicado y el escáner no puede identificarlo como humano, así que Suspect Acquitted no puede desbloquearse."
     }
   ],
   "cta": {
-    "text": "¿Quieres todas las decisiones del Episodio 5 explicadas en su contexto?",
+    "text": "¿Quieres la ruta completa del Episodio 6 alrededor de Point Blank?",
     "links": [
       {
-        "href": "/walkthrough/episode-5",
-        "label": "Guía del Episodio 5 →",
+        "href": "/walkthrough/episode-6",
+        "label": "Guía del Episodio 6 →",
         "variant": "primary"
+      },
+      {
+        "href": "/codes",
+        "label": "Todos los códigos →",
+        "variant": "outline"
       },
       {
         "href": "/choices",
         "label": "Todas las decisiones →",
-        "variant": "outline"
-      },
-      {
-        "href": "/save-everyone",
-        "label": "Salvar a todos →",
         "variant": "ghost"
       }
     ]
   },
   "review": {
-    "status": "pending",
-    "checkedAt": "2026-10-22",
+    "status": "verified",
+    "checkedAt": "2026-11-01",
+    "notice": "Reescrita el 1 de noviembre de 2026 con varias guías publicadas. La versión anterior situaba Point Blank en el Episodio 5 y citaba el trofeo «Sedate Williams», que no existe.",
     "sources": [
       {
-        "label": "Directive 8020 — The Dark Pictures",
-        "url": "https://www.thedarkpictures.com/games/directive-8020"
+        "label": "GameRant — Password1 trophy guide",
+        "url": "https://gamerant.com/directive-8020-how-hack-williams-computer-password1-trophy-achievement/"
       },
       {
-        "label": "Directive 8020 — Steam",
-        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+        "label": "TheGamer — achievement and trophy unlock guide",
+        "url": "https://www.thegamer.com/directive-8020-achievement-trophy-unlock-guide/"
       },
       {
-        "label": "Directive 8020 — PlayStation",
-        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+        "label": "Nerdschalk — Suspect Acquitted unlock guide",
+        "url": "https://nerdschalk.com/directive-8020-suspect-acquitted-trophy-unlock-guide-all-correct-choices/"
+      },
+      {
+        "label": "GamesHedge — How to save everyone",
+        "url": "https://www.gameshedge.com/how-to-save-everyone-in-directive-8020/"
+      },
+      {
+        "label": "VGTimes — How to save everyone",
+        "url": "https://vgtimes.com/guides/156212-how-to-save-everyone-in-directive-8020-and-get-the-best-ending-all-correct-choices.html"
+      },
+      {
+        "label": "PowerUpGaming — How to save everyone",
+        "url": "https://powerupgaming.co.uk/2026/05/18/directive-8020-how-to-save-everyone-good-ending/"
       }
-    ],
-    "replacement": {
-      "heading": "Williams: identidad verificada y resultados de decisiones sin verificar",
-      "intro": "La plantilla oficial identifica a LaMarcus Williams como director ejecutivo de Corinth. No verifica la receta de sedante, el bloqueo de trofeo ni el resultado garantizado de disparar o bajar el arma publicados anteriormente.",
-      "sections": [
-        {
-          "heading": "Qué se ha corregido",
-          "text": "Las instrucciones por escena y los supuestos relatos de partidas personales se retiran hasta verificarlos. No se sustituirán por conjeturas presentadas como soluciones probadas."
-        },
-        {
-          "heading": "Cómo continuar",
-          "text": "Consulta las indicaciones del juego y las opciones de Turning Points. El material oficial confirma que se pueden revisitar decisiones, pero no documenta cada escena ni garantiza un final. Hace falta una comprobación escena por escena antes de restaurar estos consejos."
-        }
-      ]
-    }
+    ]
   }
 }

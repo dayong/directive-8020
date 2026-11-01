@@ -15,7 +15,7 @@ const toneStyles: Record<Tone, { card: string; accent: string }> = {
 };
 
 export default function ShootWilliamsView({ content, locale }: { content: ShootWilliamsContent; locale: Locale }) {
-  const faqSchema = buildFaqSchema(content.faqs, locale);
+  const faqSchema = buildFaqSchema(content.faqs, locale, true);
   return (
     <>
       <JsonLd data={faqSchema} />

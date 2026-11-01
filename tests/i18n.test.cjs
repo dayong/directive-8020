@@ -153,14 +153,23 @@ test('browser recommendations respect language priority and explicit choices', (
   assert.equal(recommendedLocale({ ...options, current: 'fr', languages: ['ja'] }), null);
 });
 
-test('unverified survival and password guarantees are withdrawn from indexing', () => {
-  for (const locale of ['en', 'es']) for (const slug of ['save-everyone', 'codes']) {
-    const { getPageContent } = require('../lib/content.ts');
-    const content = getPageContent(slug, locale);
-    assert.equal(content.review.status, 'pending');
-    assert.ok(content.review.replacement.sections.length >= 2);
-    assert.deepEqual(getIndexableLocales(slug, `/${slug}`), []);
-    assert.equal(buildPageMetadata(slug, content.meta, locale).robots.index, false);
+test('restored guides cite checked sources, while unverified survival routes stay noindexed', () => {
+  const { getPageContent } = require('../lib/content.ts');
+  for (const locale of ['en', 'es']) {
+    for (const slug of ['codes', 'can-carter-survive']) {
+      const content = getPageContent(slug, locale);
+      assert.equal(content.review.status, 'verified');
+      assert.equal(content.review.checkedAt, '2026-11-01');
+      assert.equal(content.review.replacement, undefined);
+      assert.ok(content.review.sources.length >= 3);
+      assert.deepEqual(getIndexableLocales(slug, `/${slug}`).sort(), ['en', 'es'].sort());
+      assert.ok(!buildPageMetadata(slug, content.meta, locale).robots?.index);
+    }
+    const save = getPageContent('save-everyone', locale);
+    assert.equal(save.review.status, 'pending');
+    assert.ok(save.review.replacement.sections.length >= 2);
+    assert.deepEqual(getIndexableLocales('save-everyone', '/save-everyone'), []);
+    assert.equal(buildPageMetadata('save-everyone', save.meta, locale).robots.index, false);
   }
 });
 

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Directive 8020 Koop | Lokal, online und nach Plattform",
-    "description": "Vergleiche die offiziellen Angaben für Steam, PS5 und Xbox Series X|S zu Spielern, Abos und gemeinsamen Bildschirmkategorien.",
-    "ogTitle": "Directive 8020 Koop | Lokal, online und nach Plattform",
-    "ogDescription": "Vergleiche die offiziellen Angaben für Steam, PS5 und Xbox Series X|S zu Spielern, Abos und gemeinsamen Bildschirmkategorien."
+    "title": "Directive 8020 Koop: Online, Splitscreen & 5 Spieler",
+    "description": "Der Online-Koop erschien am 19. Oktober 2026 kostenlos: bis zu fünf Spieler, jeder mit eigener Kopie. Splitscreen, PS Plus, Crossplay-Status und Plattformgrenzen.",
+    "ogTitle": "Directive 8020 Koop: Online, Splitscreen & 5 Spieler",
+    "ogDescription": "Der Online-Koop erschien am 19. Oktober 2026 kostenlos: bis zu fünf Spieler, jeder mit eigener Kopie. Splitscreen, PS Plus, Crossplay-Status und Plattformgrenzen."
   },
   "hero": {
     "h1": "Directive 8020 Koop | Lokal, online und nach Plattform",
@@ -65,11 +65,20 @@
         ]
       },
       {
-        "heading": "Warum ältere Ankündigungen abweichen",
+        "heading": "Das Online-Update vom Oktober 2026",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Zum Start wurde Online-Spiel als spätere Aktualisierung beschrieben. Steam und PlayStation führen es inzwischen auf. Nutze aktuelle Plattformangaben statt einer alten Zusage als Verfügbarkeitsbeleg. Unbestätigte Xbox-Online-Funktionen werden hier nicht abgeleitet."
+            "text": "Am 19. Oktober 2026 veröffentlichte Supermassive ein kostenloses Update, das den PS5-, Xbox-Series-X|S- und Steam-Versionen Online-Multiplayer hinzufügte. Bis zu fünf Spieler können sich von verschiedenen Orten aus verbinden, und jeder muss eine eigene Kopie des Spiels besitzen. Einen Friend-Pass gibt es nicht."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Custom-Modus: das traditionelle lokale Koop-Erlebnis, online gebracht.",
+              "Round-Robin-Modus: Die Steuerung wechselt in festen Abständen zwischen den Spielern.",
+              "Choice Voting: Die Gruppe sieht, wer wie abgestimmt hat, und kann der Mehrheit folgen oder ausscheren.",
+              "Crossplay wurde nicht angekündigt: Die Mitteilung nennt bis zu fünf Spieler, macht aber keine plattformübergreifende Zusage."
+            ]
           }
         ]
       },
@@ -92,8 +101,20 @@
   },
   "review": {
     "status": "verified",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-01",
     "sources": [
+      {
+        "label": "Supermassive press release — online multiplayer update",
+        "url": "https://www.gamespress.com/Directive-8020-Launches-Online-Multiplayer-Bringing-a-Shared-Sci-Fi-Ho"
+      },
+      {
+        "label": "Steam — online multiplayer update notes",
+        "url": "https://store.steampowered.com/news/app/2255370/view/698778060405607898"
+      },
+      {
+        "label": "Gematsu — online multiplayer update",
+        "url": "https://www.gematsu.com/2026/10/directive-8020-a-dark-pictures-game-online-multiplayer-mode-update-now-available"
+      },
       {
         "label": "Steam — Directive 8020",
         "url": "https://store.steampowered.com/app/2255370/Directive_8020/"

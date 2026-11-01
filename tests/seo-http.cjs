@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const base = process.env.BASE_URL || 'http://localhost:3000';
 const locales = ['en', 'zh-CN', 'zh-TW', 'ja', 'ko', 'es', 'fr', 'de', 'pt-BR'];
 const ogLocales = { en: 'en_US', 'zh-CN': 'zh_CN', 'zh-TW': 'zh_TW', ja: 'ja_JP', ko: 'ko_KR', es: 'es_ES', fr: 'fr_FR', de: 'de_DE', 'pt-BR': 'pt_BR' };
-const pending = ['who-is-the-real-eisele-directive-8020','shoot-williams-or-stand-down','can-carter-survive','directive-8020-cove','save-everyone','codes'];
+const pending = ['who-is-the-real-eisele-directive-8020','directive-8020-cove','save-everyone'];
 (async () => {
   const sitemap = await fetch(`${base}/sitemap.xml`).then((response) => response.text());
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);

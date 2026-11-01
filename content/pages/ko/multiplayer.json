@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Directive 8020 협동 플레이 | 로컬·온라인·플랫폼별 정보",
-    "description": "Steam, PS5와 Xbox Series X|S의 공식 멀티플레이 정보를 비교하고 인원, 구독 조건과 화면 공유 표기를 확인하세요.",
-    "ogTitle": "Directive 8020 협동 플레이 | 로컬·온라인·플랫폼별 정보",
-    "ogDescription": "Steam, PS5와 Xbox Series X|S의 공식 멀티플레이 정보를 비교하고 인원, 구독 조건과 화면 공유 표기를 확인하세요."
+    "title": "Directive 8020 협동: 온라인, 분할 화면, 5인 플레이",
+    "description": "2026년 10월 19일 무료 업데이트로 온라인 협동이 추가되었습니다. 최대 5명, 각자 게임을 소유해야 합니다. 분할 화면, PS Plus, 크로스플레이, 플랫폼별 제한을 정리했습니다.",
+    "ogTitle": "Directive 8020 협동: 온라인, 분할 화면, 5인 플레이",
+    "ogDescription": "2026년 10월 19일 무료 업데이트로 온라인 협동이 추가되었습니다. 최대 5명, 각자 게임을 소유해야 합니다. 분할 화면, PS Plus, 크로스플레이, 플랫폼별 제한을 정리했습니다."
   },
   "hero": {
     "h1": "Directive 8020 협동 플레이 | 로컬·온라인·플랫폼별 정보",
@@ -65,11 +65,20 @@
         ]
       },
       {
-        "heading": "과거 공지와 다른 이유",
+        "heading": "2026년 10월 온라인 업데이트",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "출시 당시 문구는 온라인을 추후 업데이트로 소개했습니다. 현재 Steam과 PlayStation은 온라인 기능을 안내합니다. 과거 계획을 현재 지원 정보로 취급하지 말고 플랫폼별 최신 정보를 확인하세요. 미확인 Xbox 온라인 기능은 추측하지 않습니다."
+            "text": "2026년 10월 19일 Supermassive는 PS5, Xbox Series X|S, Steam 버전에 온라인 멀티플레이를 추가하는 무료 업데이트를 배포했습니다. 최대 5명이 서로 다른 장소에서 접속할 수 있으며, 각자 게임을 소유해야 합니다. 프렌드 패스는 없습니다."
+          },
+          {
+            "type": "list",
+            "items": [
+              "커스텀 모드: 기존 로컬 협동 플레이를 온라인으로 옮긴 방식.",
+              "라운드 로빈 모드: 일정 시간마다 조작하는 플레이어가 바뀝니다.",
+              "초이스 보팅: 누가 어떻게 투표했는지 보여 주고, 다수 의견을 따르거나 따로 행동할 수 있습니다.",
+              "크로스플레이는 발표되지 않았습니다. 최대 5명이라고만 설명하며 기종 간 플레이를 약속하지 않습니다."
+            ]
           }
         ]
       },
@@ -92,8 +101,20 @@
   },
   "review": {
     "status": "verified",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-01",
     "sources": [
+      {
+        "label": "Supermassive press release — online multiplayer update",
+        "url": "https://www.gamespress.com/Directive-8020-Launches-Online-Multiplayer-Bringing-a-Shared-Sci-Fi-Ho"
+      },
+      {
+        "label": "Steam — online multiplayer update notes",
+        "url": "https://store.steampowered.com/news/app/2255370/view/698778060405607898"
+      },
+      {
+        "label": "Gematsu — online multiplayer update",
+        "url": "https://www.gematsu.com/2026/10/directive-8020-a-dark-pictures-game-online-multiplayer-mode-update-now-available"
+      },
       {
         "label": "Steam — Directive 8020",
         "url": "https://store.steampowered.com/app/2255370/Directive_8020/"

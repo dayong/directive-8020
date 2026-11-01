@@ -37,7 +37,7 @@ export function buildPageMetadata(
   return {
     ...(getContentReview(contentSlug, locale, path)?.status === 'pending' ? { robots: { index: false, follow: true } } : {}),
     twitter: { card: 'summary_large_image', title: meta.title, description: meta.description, images: ['/og-image.png'] },
-    title: meta.title,
+    title: meta.title.includes('Directive 8020') ? { absolute: meta.title } : meta.title,
     description: meta.description,
     alternates: buildAlternates(path, locale, contentSlug),
     openGraph: {

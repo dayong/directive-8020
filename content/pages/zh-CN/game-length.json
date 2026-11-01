@@ -1,22 +1,43 @@
 {
   "meta": {
-    "title": "Directive 8020 游戏时长｜首轮与重玩时间规划",
-    "description": "不再用未经证实的小时数承诺通关时间。了解探索、Turning Points 回退以及玩法风格与操作难度的区别。",
-    "ogTitle": "Directive 8020 游戏时长｜首轮与重玩时间规划",
-    "ogDescription": "不再用未经证实的小时数承诺通关时间。了解探索、Turning Points 回退以及玩法风格与操作难度的区别。"
+    "title": "Directive 8020 通关时长：主线约 8 小时",
+    "description": "据 HowLongToBeat，Directive 8020 主线约 8 小时，含支线约 10 小时，全成就约 17.5 小时。附各目标时长明细与多周目说明。",
+    "ogTitle": "Directive 8020 通关时长：主线约 8 小时",
+    "ogDescription": "据 HowLongToBeat，Directive 8020 主线约 8 小时，含支线约 10 小时，全成就约 17.5 小时。附各目标时长明细与多周目说明。"
   },
   "hero": {
-    "h1": "Directive 8020 游戏时长｜首轮与重玩时间规划",
-    "intro": "不再用未经证实的小时数承诺通关时间。了解探索、Turning Points 回退以及玩法风格与操作难度的区别。"
+    "h1": "Directive 8020 通关时长：主线与全收集",
+    "intro": "HowLongToBeat 显示主线约 8 小时，主线加支线约 10 小时，全收集约 17.5 小时。本文说明影响时长的因素，以及多周目与 Turning Points 如何安排。"
   },
   "article": {
     "sections": [
       {
-        "heading": "有经过核实的通关时长吗？",
+        "heading": "Directive 8020 通关要多久？第三方统计",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "本页所列官方资料没有确定适用于所有人的首轮、全结局或全收集时长。此前的固定小时数与分章时间表已撤下。阅读速度、探索程度和重玩目标都会因人而异。"
+            "text": "Supermassive 与 Bandai Namco 未公布官方通关时长。HowLongToBeat 汇总玩家提交的时间；以下数据于 2026 年 11 月 1 日核对，为社区平均值，并非保证。"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "目标",
+              "HowLongToBeat 统计"
+            ],
+            "rows": [
+              [
+                "主线剧情",
+                "8 小时"
+              ],
+              [
+                "主线 + 支线",
+                "10 小时"
+              ],
+              [
+                "全收集",
+                "17.5 小时"
+              ]
+            ]
           }
         ]
       },
@@ -85,14 +106,18 @@
   },
   "review": {
     "status": "verified",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-01",
     "sources": [
       {
-        "label": "Directive 8020",
+        "label": "HowLongToBeat — Directive 8020",
+        "url": "https://howlongtobeat.com/game/116632"
+      },
+      {
+        "label": "Directive 8020 — official game page",
         "url": "https://www.thedarkpictures.com/games/directive-8020"
       },
       {
-        "label": "Turning Points",
+        "label": "Turning Points — accessibility features",
         "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
       }
     ]

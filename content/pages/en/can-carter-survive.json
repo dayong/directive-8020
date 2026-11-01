@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Carter: Official Profile and Survival Claim Review",
-    "description": "Tomas Carter is a sleep technician who works with Pari Simms. The official character profile alone does not establish a guaranteed survival route or prove that every possible choice leads to his death.",
-    "ogTitle": "Carter: Official Profile and Survival Claim Review",
-    "ogDescription": "Tomas Carter is a sleep technician who works with Pari Simms. The official character profile alone does not establish a guaranteed survival route or prove that every possible choice leads to his death."
+    "title": "Can Carter Survive in Directive 8020? No — Scripted Death",
+    "description": "Carter dies in a scripted Episode 1 event on every playthrough. No choice, QTE or hidden path saves him — plus the five characters you can actually save.",
+    "ogTitle": "Can Carter Survive in Directive 8020? No — Scripted Death",
+    "ogDescription": "Carter dies in a scripted Episode 1 event on every playthrough. No choice, QTE or hidden path saves him — plus the five characters you can actually save."
   },
   "hero": {
     "h1": "Can Carter Survive in Directive 8020?",
@@ -69,35 +69,22 @@
     ]
   },
   "review": {
-    "status": "pending",
-    "checkedAt": "2026-10-22",
+    "status": "verified",
+    "checkedAt": "2026-11-01",
+    "notice": "Carter’s scripted death was checked against multiple published guides on 1 November 2026.",
     "sources": [
       {
-        "label": "Directive 8020 — The Dark Pictures",
-        "url": "https://www.thedarkpictures.com/games/directive-8020"
+        "label": "GamesHedge — How to save everyone",
+        "url": "https://www.gameshedge.com/how-to-save-everyone-in-directive-8020/"
       },
       {
-        "label": "Directive 8020 — Steam",
-        "url": "https://store.steampowered.com/app/2255370/Directive_8020/"
+        "label": "ShowGamer — Carter and Simms",
+        "url": "https://showgamer.com/en/guides/4290-kak-spasti-kartera-i-simms-v-directive-8020"
       },
       {
-        "label": "Directive 8020 — PlayStation",
-        "url": "https://www.playstation.com/en-us/games/directive-8020/"
+        "label": "Whisper of the House — Character survival guide",
+        "url": "https://www.whisperofthehouse.com/directive-8020/character-survival-guide"
       }
-    ],
-    "replacement": {
-      "heading": "Carter: Official Profile and Survival Claim Review",
-      "intro": "Tomas Carter is a sleep technician who works with Pari Simms. The official character profile alone does not establish a guaranteed survival route or prove that every possible choice leads to his death.",
-      "sections": [
-        {
-          "heading": "What was corrected",
-          "text": "The earlier scene-specific instructions and first-person playthrough claims are withdrawn pending verification. No replacement guess is being presented as a proven solution."
-        },
-        {
-          "heading": "How to proceed",
-          "text": "Use the current in-game prompts and Turning Points options. Official material confirms revisiting key decisions, but does not document every scene or guarantee a particular ending. This page will need a verified scene-by-scene account before its route advice is restored."
-        }
-      ]
-    }
+    ]
   }
 }

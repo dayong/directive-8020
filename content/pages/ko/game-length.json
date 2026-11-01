@@ -1,22 +1,43 @@
 {
   "meta": {
-    "title": "Directive 8020 플레이 시간과 재플레이 계획",
-    "description": "확인되지 않은 시간 수치 대신 탐색, Turning Points, 플레이 스타일과 난이도의 차이를 바탕으로 일정을 계획하세요.",
-    "ogTitle": "Directive 8020 플레이 시간과 재플레이 계획",
-    "ogDescription": "확인되지 않은 시간 수치 대신 탐색, Turning Points, 플레이 스타일과 난이도의 차이를 바탕으로 일정을 계획하세요."
+    "title": "Directive 8020 플레이 시간: 메인 스토리 약 8시간",
+    "description": "HowLongToBeat 기준 Directive 8020은 메인 스토리 약 8시간, 추가 요소 포함 10시간, 100% 완료 17.5시간입니다. 목표별 소요 시간과 회차 팁을 정리했습니다.",
+    "ogTitle": "Directive 8020 플레이 시간: 메인 스토리 약 8시간",
+    "ogDescription": "HowLongToBeat 기준 Directive 8020은 메인 스토리 약 8시간, 추가 요소 포함 10시간, 100% 완료 17.5시간입니다. 목표별 소요 시간과 회차 팁을 정리했습니다."
   },
   "hero": {
-    "h1": "Directive 8020 플레이 시간과 재플레이 계획",
-    "intro": "확인되지 않은 시간 수치 대신 탐색, Turning Points, 플레이 스타일과 난이도의 차이를 바탕으로 일정을 계획하세요."
+    "h1": "Directive 8020 플레이 시간: 메인 스토리와 100% 완료",
+    "intro": "HowLongToBeat는 메인 스토리를 약 8시간, 추가 요소 포함 10시간, 100% 완료를 17.5시간으로 추정합니다. 이 수치를 바꾸는 요인과 회차·Turning Points 활용법을 정리했습니다."
   },
   "article": {
     "sections": [
       {
-        "heading": "확인된 클리어 시간이 있나요?",
+        "heading": "Directive 8020 플레이 시간: 제3자 추정치",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "여기에 연결한 공식 자료는 첫 플레이, 모든 결말, 전체 수집에 공통으로 적용되는 시간을 제시하지 않습니다. 기존의 고정 시간과 챕터별 시간표는 철회했습니다. 읽는 속도, 탐색과 재플레이 목표에 따라 달라집니다."
+            "text": "Supermassive와 Bandai Namco는 공식 플레이 시간을 공개하지 않습니다. HowLongToBeat는 플레이어 제출 시간을 집계하며, 이 수치는 2026년 11월 1일 확인한 커뮤니티 평균으로 보장이 아닙니다."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "목표",
+              "HowLongToBeat 추정치"
+            ],
+            "rows": [
+              [
+                "메인 스토리",
+                "8시간"
+              ],
+              [
+                "메인 + 추가 요소",
+                "10시간"
+              ],
+              [
+                "100% 완료",
+                "17.5시간"
+              ]
+            ]
           }
         ]
       },
@@ -85,14 +106,18 @@
   },
   "review": {
     "status": "verified",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-01",
     "sources": [
       {
-        "label": "Directive 8020",
+        "label": "HowLongToBeat — Directive 8020",
+        "url": "https://howlongtobeat.com/game/116632"
+      },
+      {
+        "label": "Directive 8020 — official game page",
         "url": "https://www.thedarkpictures.com/games/directive-8020"
       },
       {
-        "label": "Turning Points",
+        "label": "Turning Points — accessibility features",
         "url": "https://www.thedarkpictures.com/news/directive-8020-accessibility-features"
       }
     ]
