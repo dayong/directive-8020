@@ -148,7 +148,7 @@
     }
   ],
   "friendlyLinks": {
-    "heading": "Official game website",
+    "heading": "Friendly links",
     "links": [
       {
         "href": "https://www.thedarkpictures.com/games/directive-8020",
@@ -161,6 +161,10 @@
       {
         "href": "https://www.playstation.com/en-us/games/directive-8020/",
         "label": "Directive 8020 — PlayStation"
+      },
+      {
+        "href": "https://ezcolorize.com/",
+        "label": "Black and White Photo Colorizer"
       }
     ]
   },
