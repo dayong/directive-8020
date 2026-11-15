@@ -190,3 +190,12 @@
 - 首页 FAQ 新增发行日期／平台（含无 Mac 版）、开发商、下载大小（Steam 40 GB、推荐 SSD）、Digital Deluxe Edition 四条；原“为什么差评”改为“是否值得玩”，并链接评测页。
 - 盗版、破解、修改器、无对应语言版本及第三方导航查询不建页；Eisele 双重身份仍指向 pending 页，待下一步核验后重写。
 - 新评测页来源：Metacritic、TheGamer 评测汇总、Game8、Eurogamer；游戏基础信息以 Steam 商店 API（发行日期、平台、40 GB、开发商）为准。
+
+## 2026-11-15：移除购买页广告／推广代码
+
+- 九语言 `/directive-8020-buy` 删除 “Existing third-party option” 整节、Instant Gaming 链接与 `igr=gamer-8917036` 跟踪参数、推广披露段落，以及 `article.media` 中的 Instant Gaming 预览视频。
+- 保留 Steam、PlayStation、Xbox 与 Steam Digital Deluxe Upgrade 的官方商店链接；不再包含任何推广跟踪参数。
+- 九语言页脚移除 `affiliateNote` 推广披露；对应 i18n 字段一并删除。
+- 七语言隐私政策删除“商店链接包含推广标识／可能带来佣金”的句子，核对日期更新为 2026-11-15；日语与繁中原文无该句，未改。
+- 测试更新：购买页现在断言不存在 `instant-gaming.com`、`igr=gamer-` 与推广视频；购买指南测试改为断言无推广内容、保留升级包区分。
+- `content/archive/` 中的旧购买稿仍保留历史推广内容，但不参与路由、Sitemap 或渲染。

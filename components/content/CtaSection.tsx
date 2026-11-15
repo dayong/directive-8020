@@ -1,5 +1,4 @@
 import Link from '@/components/ui/LocaleLink';
-import { isAffiliateHref } from '@/lib/affiliate';
 import type { CtaContent } from '@/types/content-pages';
 
 const variantClasses: Record<CtaContent['links'][number]['variant'], string> = {
@@ -23,7 +22,7 @@ export function CtaSection({ cta }: { cta: CtaContent }) {
                 key={i}
                 href={link.href}
                 target="_blank"
-                rel={isAffiliateHref(link.href) ? 'sponsored nofollow noopener' : 'noopener noreferrer'}
+                rel="noopener noreferrer"
                 className={className}
               >
                 {link.label}

@@ -190,12 +190,12 @@ test('multiplayer, purchase and collection guides are published in every locale'
     assert.equal(Object.keys(buildAlternates(`/${slug}`,locale,slug).languages).length, 10);
   }
 });
-test('buying guide separates the upgrade and retains disclosed affiliate and preview features', () => {
+test('buying guide separates the upgrade and contains no affiliate promotion', () => {
   for (const locale of config.locales) {
     const content = require(`../content/pages/${locale}/directive-8020-buy.json`);
-    assert.ok(JSON.stringify(content.article).includes('igr=gamer-8917036'));
-    assert.equal(content.article.media.src, '/videos/directive-8020-preview.webm');
-    assert.ok(content.article.media.posterAlt && content.article.media.caption);
+    assert.ok(!JSON.stringify(content.article).includes('instant-gaming'));
+    assert.ok(!JSON.stringify(content.article).includes('igr=gamer-'));
+    assert.equal(content.article.media, undefined);
     assert.ok(content.review.sources.some((source) => source.url.includes('/3883930/')));
     assert.equal(content.featured, undefined);
   }

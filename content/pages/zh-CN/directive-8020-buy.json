@@ -86,31 +86,8 @@
             ]
           }
         ]
-      },
-      {
-        "heading": "保留的第三方购买选项",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "本站部分商店链接为推广链接。通过这些链接购买符合条件的商品时，我们可能获得佣金，你无需支付额外费用。"
-          },
-          {
-            "type": "paragraph",
-            "text": "下方 PC 商品为推广链接，不承诺最低价或库存。请核对商家的当前适用地区与结账条件。"
-          },
-          {
-            "type": "paragraph",
-            "text": "[查看 Instant Gaming PC 商品](https://www.instant-gaming.com/en/10380-buy-directive-8020-pc-steam/?igr=gamer-8917036)"
-          }
-        ]
       }
-    ],
-    "media": {
-      "src": "/videos/directive-8020-preview.webm",
-      "poster": "/images/directive-8020-cover.jpg",
-      "posterAlt": "Directive 8020 封面",
-      "caption": "Directive 8020 预览片段 — Instant Gaming"
-    }
+    ]
   },
   "review": {
     "status": "verified",

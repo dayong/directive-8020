@@ -124,16 +124,12 @@ const pending = ['who-is-the-real-eisele-directive-8020','directive-8020-cove','
       }
     }
   }
-  for (const asset of ['/videos/directive-8020-preview.webm', '/images/directive-8020-cover.jpg']) {
-    assert.equal((await fetch(base + asset, { method: 'HEAD' })).status, 200, `preserved media ${asset}`);
-  }
   for (const locale of locales) {
     const path = `${locale === 'en' ? '' : '/' + locale}/directive-8020-buy`;
     const html = await fetch(base + path).then((response) => response.text());
-    assert.ok(html.includes('igr=gamer-8917036'), `affiliate tracking retained ${path}`);
-    const affiliateTag = html.match(/<a[^>]+href="https:\/\/www\.instant-gaming\.com[^>]+>/)?.[0];
-    assert.ok(affiliateTag?.includes('sponsored nofollow'), `affiliate rel ${path}`);
-    assert.ok(html.includes('/images/directive-8020-cover.jpg'), `preview poster ${path}`);
+    assert.ok(!html.includes('instant-gaming.com'), `affiliate link removed ${path}`);
+    assert.ok(!html.includes('igr=gamer-'), `affiliate tracking removed ${path}`);
+    assert.ok(!html.includes('/videos/directive-8020-preview.webm'), `promo video removed ${path}`);
     assert.ok(!html.includes('Prices and store details are re-checked each month'), `unsupported monthly promise withdrawn ${path}`);
   }
   for (const [path, target] of [['/en/characters','/characters'],['/ZH-cn/characters','/zh-CN/characters'],['/zh-hant','/zh-TW']]) {

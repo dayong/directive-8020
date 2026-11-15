@@ -52,9 +52,6 @@ export default function Footer({ locale }: { locale: Locale }) {
             {t.disclaimer2}
           </p>
           <p className="text-xs text-slate-600">
-            {t.affiliateNote}
-          </p>
-          <p className="text-xs text-slate-600">
             &copy; {new Date().getFullYear()} directive-8020.com &middot;{' '}
             <Link href="/privacy-policy" className="text-slate-500 hover:text-violet-400 transition-colors">
               {t.privacyPolicy}

@@ -86,31 +86,8 @@
             ]
           }
         ]
-      },
-      {
-        "heading": "既存の外部ショップリンク",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "一部のストアリンクはアフィリエイトリンクです。対象商品を購入すると当サイトに報酬が入る場合がありますが、購入者の追加負担はありません。"
-          },
-          {
-            "type": "paragraph",
-            "text": "以下のPC商品はアフィリエイトリンクです。最安値や在庫を保証するものではありません。地域制限と決済条件を販売店で確認してください。"
-          },
-          {
-            "type": "paragraph",
-            "text": "[Instant GamingのPC商品を見る](https://www.instant-gaming.com/en/10380-buy-directive-8020-pc-steam/?igr=gamer-8917036)"
-          }
-        ]
       }
-    ],
-    "media": {
-      "src": "/videos/directive-8020-preview.webm",
-      "poster": "/images/directive-8020-cover.jpg",
-      "posterAlt": "Directive 8020のカバー画像",
-      "caption": "Directive 8020 プレビュー映像 — Instant Gaming"
-    }
+    ]
   },
   "review": {
     "status": "verified",

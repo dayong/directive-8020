@@ -57,7 +57,6 @@ export interface UiStrings {
     contact: string;
     disclaimer1: string;
     disclaimer2: string;
-    affiliateNote: string;
   };
   breadcrumbs: {
     episodeFormat: string;

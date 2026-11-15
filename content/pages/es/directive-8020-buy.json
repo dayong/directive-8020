@@ -86,31 +86,8 @@
             ]
           }
         ]
-      },
-      {
-        "heading": "Opción externa conservada",
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Algunos enlaces a tiendas de este sitio son enlaces de afiliado. Podemos ganar una comisión por las compras realizadas, sin coste adicional para ti."
-          },
-          {
-            "type": "paragraph",
-            "text": "El producto de PC de abajo es un enlace afiliado, no una garantía de precio mínimo o existencias. Comprueba región y condiciones actuales del vendedor."
-          },
-          {
-            "type": "paragraph",
-            "text": "[Ver el producto de PC en Instant Gaming](https://www.instant-gaming.com/en/10380-buy-directive-8020-pc-steam/?igr=gamer-8917036)"
-          }
-        ]
       }
-    ],
-    "media": {
-      "src": "/videos/directive-8020-preview.webm",
-      "poster": "/images/directive-8020-cover.jpg",
-      "posterAlt": "Portada de Directive 8020",
-      "caption": "Vídeo de presentación de Directive 8020 — Instant Gaming"
-    }
+    ]
   },
   "review": {
     "status": "verified",
