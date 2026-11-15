@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Finales de Directive 8020 | Resultados y Turning Points",
-    "description": "Consulta resultados confirmados, logros de Steam relacionados y las reglas de Explorer y Survivor para repetir decisiones en Directive 8020.",
+    "title": "Finales de Directive 8020 | Guía de resultados confirmados",
+    "description": "Los logros de Steam Home Free, Paint The Walls y Message in a Bottle confirman resultados, no un catálogo completo. Qué verifica cada uno y cómo repetir ramas.",
     "ogTitle": "Finales de Directive 8020 | Resultados y Turning Points",
     "ogDescription": "Consulta resultados confirmados, logros de Steam relacionados y las reglas de Explorer y Survivor para repetir decisiones en Directive 8020."
   },
@@ -12,16 +12,16 @@
   "article": {
     "sections": [
       {
-        "heading": "Cómo entender las ramas del desenlace",
+        "heading": "Empieza por los resultados confirmados",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Directive 8020 tiene una historia ramificada: las decisiones y el destino de los tripulantes pueden cambiar el desenlace. Esta guía separa los resultados descritos por logros oficiales de Steam de las instrucciones que necesitan una partida reproducible. No presenta una cifra de finales sin verificar ni una ruta inventada como el mejor final canónico. Los ejemplos siguientes contienen spoilers de resultados."
+            "text": "Tres logros públicos de Steam —Home Free, Paint The Walls y Message in a Bottle— confirman resultados concretos, pero no un catálogo completo de finales. Esta guía separa esos resultados de las rutas que necesitan una partida reproducible y no presenta una cifra de finales sin verificar. Los ejemplos siguientes contienen spoilers."
           }
         ]
       },
       {
-        "heading": "Resultados descritos en los logros oficiales de Steam",
+        "heading": "Qué confirma cada logro de Steam",
         "blocks": [
           {
             "type": "table",
@@ -55,7 +55,7 @@
         ]
       },
       {
-        "heading": "Volver a una decisión con Turning Points",
+        "heading": "Cómo volver a una decisión con Turning Points",
         "blocks": [
           {
             "type": "paragraph",
@@ -64,7 +64,7 @@
         ]
       },
       {
-        "heading": "Comparar dos ramas de forma fiable",
+        "heading": "Compara dos ramas con un registro claro",
         "blocks": [
           {
             "type": "list",
@@ -78,7 +78,7 @@
         ]
       },
       {
-        "heading": "Qué resultado quieres explorar",
+        "heading": "Elige el resultado que quieres explorar",
         "blocks": [
           {
             "type": "paragraph",
@@ -87,11 +87,13 @@
         ]
       },
       {
-        "heading": "Guías relacionadas",
+        "heading": "Enlaces útiles",
         "blocks": [
           {
             "type": "list",
             "items": [
+              "[Volver a la guía principal](/)",
+              "[Navegación por capítulos](/walkthrough)",
               "[Planificar decisiones y repeticiones](/choices)",
               "[Controles, dificultad y estilos de juego](/directive-8020-skill-checks)",
               "[Logros por plataforma](/trophies)",

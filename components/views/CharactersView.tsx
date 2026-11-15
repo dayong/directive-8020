@@ -1,4 +1,5 @@
 import Link from '@/components/ui/LocaleLink';
+import { CtaSection } from '@/components/content/CtaSection';
 import { HeroSection } from '@/components/content/HeroSection';
 import { getCharacters } from '@/lib/localized-data';
 import { getUiStrings } from '@/i18n/ui';
@@ -71,6 +72,11 @@ export default function CharactersView({
             </Link>
           ))}
         </div>
+        {content.cta && (
+          <div className="mt-12">
+            <CtaSection cta={content.cta} />
+          </div>
+        )}
       </div>
     </>
   );

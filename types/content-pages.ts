@@ -141,6 +141,7 @@ export interface HomeContent {
 export interface CharactersContent {
   meta: ContentMeta;
   hero: HeroContent;
+  cta?: CtaContent;
 }
 
 export interface TrophiesContent {

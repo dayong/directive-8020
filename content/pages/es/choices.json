@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Decisiones y Turning Points de Directive 8020",
-    "description": "Comprende cómo Explorer y Survivor gestionan las decisiones, cómo comparar ramas y qué debe incluir un registro verificable.",
+    "title": "Decisiones de Directive 8020 | Guía de Turning Points y ramas",
+    "description": "Explorer permite retroceder durante la historia; Survivor mantiene las consecuencias hasta el final. Aprende a comparar ramas con un registro verificable.",
     "ogTitle": "Decisiones y Turning Points de Directive 8020",
     "ogDescription": "Comprende cómo Explorer y Survivor gestionan las decisiones, cómo comparar ramas y qué debe incluir un registro verificable."
   },
@@ -12,16 +12,16 @@
   "article": {
     "sections": [
       {
-        "heading": "Explorer: volver durante la historia",
+        "heading": "Empieza por Explorer y Survivor",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Explorer ofrece Turning Points durante la historia, incluida la opción de revertir una muerte. Vuelve a la decisión pertinente y observa la nueva rama, en lugar de asumir que el resultado anterior queda bloqueado para siempre."
+            "text": "Explorer permite volver a una decisión durante la historia; Survivor mantiene las consecuencias de la primera partida y desbloquea Turning Points al llegar a un final. Esta guía explica esa diferencia y cómo comparar ramas con un registro verificable, sin presentar tablas de respuestas inventadas."
           }
         ]
       },
       {
-        "heading": "Survivor: asumir la primera historia",
+        "heading": "Survivor: consecuencias hasta el final",
         "blocks": [
           {
             "type": "paragraph",
@@ -30,7 +30,7 @@
         ]
       },
       {
-        "heading": "Compara con registros claros",
+        "heading": "Compara ramas con un registro claro",
         "blocks": [
           {
             "type": "list",
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "heading": "Sobre las predicciones anteriores",
+        "heading": "Qué cambió respecto a las tablas anteriores",
         "blocks": [
           {
             "type": "paragraph",
@@ -53,13 +53,15 @@
         ]
       },
       {
-        "heading": "Guías relacionadas",
+        "heading": "Enlaces útiles",
         "blocks": [
           {
             "type": "list",
             "items": [
-              "[Controles y QTE](/directive-8020-skill-checks)",
-              "[Navegación por capítulos](/walkthrough)"
+              "[Volver a la guía principal](/)",
+              "[Navegación por capítulos](/walkthrough)",
+              "[Finales y resultados confirmados](/all-endings)",
+              "[Controles y QTE](/directive-8020-skill-checks)"
             ]
           }
         ]

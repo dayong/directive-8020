@@ -1,11 +1,31 @@
 {
   "meta": {
-    "title": "Personajes de Directive 8020 | Nombres y cargos oficiales",
-    "description": "Conoce los nombres y cargos de la tripulación de la Cassiopeia, contrastados con el sitio oficial de Directive 8020."
+    "title": "Personajes de Directive 8020 | Guía de la tripulación",
+    "description": "Diez personajes con nombre y cinco jugables en la Cassiopeia. Consulta nombres, cargos y datos de reparto, sin garantizar resultados de supervivencia."
   },
   "hero": {
     "h1": "La tripulación de la Cassiopeia",
-    "intro": "El sitio oficial presenta diez personajes con nombre. PlayStation destaca a cinco como jugables. Estas fichas describen identidades y cargos, sin garantizar resultados de supervivencia."
+    "intro": "El sitio oficial presenta diez personajes con nombre; PlayStation destaca a cinco como jugables. Estas fichas reúnen identidad, cargo y actor cuando está confirmado, y enlazan con la guía de capítulos y los resultados de finales, sin garantizar la supervivencia de ningún personaje."
+  },
+  "cta": {
+    "text": "Continúa con la guía de capítulos o vuelve a la guía principal.",
+    "links": [
+      {
+        "href": "/walkthrough",
+        "label": "Guía de capítulos →",
+        "variant": "primary"
+      },
+      {
+        "href": "/",
+        "label": "Guía principal →",
+        "variant": "outline"
+      },
+      {
+        "href": "/all-endings",
+        "label": "Finales confirmados →",
+        "variant": "ghost"
+      }
+    ]
   },
   "review": {
     "status": "verified",
