@@ -171,3 +171,14 @@
 - `/shoot-williams-or-stand-down`、`/es/shoot-williams-or-stand-down` 恢复 verified，但正文重写。旧稿把 Point Blank 放在 Episode 5，并引用不存在的 “Sedate Williams” 奖杯。GameRant、TheGamer、Nerdschalk、GamesHedge、VGTimes、PowerUpGaming 一致：Point Blank 在 Episode 6；Episode 5「Suspicions」同意 Anders 的镇静计划并完成镇静（diazepam 代码 168，奖杯 Is This Decaf?），Episode 6 选择 Stand Down／不开枪后扫描确认 Williams 是人类，解锁 Suspect Acquitted；未镇静则被 Duplicate 取代。旧稿中的 Ep7 情报、Ep8 结局质量与 Ep1「Authorize use of weapon」说法没有独立来源，全部删除。页脚列出六处来源与核对日期。
 - `components/views/ShootWilliamsView.tsx`：恢复页重新输出 FAQPage 结构化数据。
 - `tests/seo-http.cjs`：pending 列表移除已恢复的 `/codes`、`/can-carter-survive`、`/shoot-williams-or-stand-down`。
+
+## 2026-11-15：首页 FAQ 扩充
+
+- 英文首页 FAQ 由 4 条扩至 11 条，覆盖 GSC 查询：最佳结局、废弃飞船／Booster Ring、在线合作时间、拯救 Williams、下一款游戏、预算、评价与 Jenn。
+- 在线合作答案更新为 2026-10-19 免费更新：最多 5 人、各需自购、无好友通行证；未宣布跨平台。来源为 Supermassive 通稿。
+- 最佳结局／废弃飞船路线按 GIGA 结局指南标注：Ep6 选择救船员、Ep8 开局 Loyal 高于 Serious、生日愿望选人类优先、至少一名船员乘 shuttle 逃生；选择生存优先则前往 Booster Ring。答案内链 GIGA，review 记录核对日期 2026-11-15。
+- 下一款游戏：游戏内 O Death 收集品解锁预告，社区普遍推测为 The Craven Man，但 Supermassive 未确认；按 GameRant。
+- 评价：发布时 Metacritic 71、OpenCritic 76、62% 推荐（TheGamer 汇总）；批评集中在重复潜行、剧情与角色，肯定气氛、演员与 Turning Points。
+- 预算：官方未公布；页面明确不把网上数字当作事实。Jenn：不是游戏角色，按官方五人可操作阵容回答。
+- 葡萄牙语首页 FAQ 扩至 5 条：首问改为 GSC 原句“Do que se trata o jogo Directive 8020?”，新增 Cooper “sheipada” 问（说明该词非官方、无经典解释），合作答案同步 2026-10-19 更新。
+- 其他语言的首页 FAQ 尚未同步新增问题；本次只改英／葡页面。

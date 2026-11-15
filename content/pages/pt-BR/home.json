@@ -128,10 +128,10 @@
       }
     ]
   },
-  "faqHeading": "Perguntas antes de jogar",
+  "faqHeading": "Perguntas frequentes",
   "faqs": [
     {
-      "q": "Que tipo de jogo é Directive 8020?",
+      "q": "Do que se trata o jogo Directive 8020?",
       "a": "É uma aventura cinematográfica de terror e ficção científica da Supermassive Games. A tripulação da Cassiopeia enfrenta um alienígena que imita pessoas, e suas decisões moldam a história."
     },
     {
@@ -143,8 +143,12 @@
       "a": "A descrição oficial de Turning Points confirma que é possível revisitar decisões importantes para explorar outros resultados. Isso não garante uma rota para nenhum final específico."
     },
     {
-      "q": "O jogo tem modo cooperativo?",
-      "a": "Movie Night oferece partidas locais em grupo. A página atual do Steam também anuncia cooperação online, e a PlayStation informa jogadores online. Confira os requisitos atuais da sua plataforma."
+      "q": "O jogo tem cooperação online?",
+      "a": "Sim. Uma atualização gratuita em 19 de outubro de 2026 adicionou multiplayer online às versões de PS5, Xbox Series X|S e Steam. Até cinco jogadores podem se conectar de locais diferentes, e cada jogador precisa ter uma cópia; não foi anunciado passe de amigo nem crossplay. Veja o [guia de multiplayer](/multiplayer)."
+    },
+    {
+      "q": "Por que a Cooper é “sheipada”?",
+      "a": "Cooper é a especialista médica da Cassiopeia. “Sheipada” não é um termo do jogo nem de material oficial; é uma expressão de fãs, sem uma explicação canônica. Veja o [perfil da Cooper](/characters/cooper)."
     }
   ],
   "friendlyLinks": {
@@ -166,7 +170,7 @@
   },
   "review": {
     "status": "verified",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-15",
     "sources": [
       {
         "label": "Directive 8020 — The Dark Pictures",
@@ -179,6 +183,10 @@
       {
         "label": "Directive 8020 — PlayStation",
         "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Supermassive press release — online multiplayer update",
+        "url": "https://www.gamespress.com/Directive-8020-Launches-Online-Multiplayer-Bringing-a-Shared-Sci-Fi-Ho"
       }
     ]
   }

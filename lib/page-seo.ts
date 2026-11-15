@@ -52,6 +52,14 @@ export function buildPageMetadata(
   };
 }
 
+function toPlainText(value: string) {
+  return value
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .replace(/`([^`]+)`/g, '$1');
+}
+
 export function buildFaqSchema(faqs: FaqItem[], locale: Locale = defaultLocale, verified = false) {
   if (!verified) return null;
   return {
@@ -63,7 +71,7 @@ export function buildFaqSchema(faqs: FaqItem[], locale: Locale = defaultLocale, 
       name: faq.q,
       acceptedAnswer: {
         '@type': 'Answer',
-        text: faq.a,
+        text: toPlainText(faq.a),
       },
     })),
   };

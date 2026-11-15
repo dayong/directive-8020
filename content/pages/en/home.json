@@ -128,7 +128,7 @@
       }
     ]
   },
-  "faqHeading": "Questions before you play",
+  "faqHeading": "Directive 8020 FAQ",
   "faqs": [
     {
       "q": "What kind of game is Directive 8020?",
@@ -143,8 +143,36 @@
       "a": "The official description of Turning Points confirms that players can return to key decisions to explore different outcomes. This does not establish a guaranteed route to any particular ending."
     },
     {
-      "q": "Does the game support cooperative play?",
-      "a": "Movie Night supports local group play. The current Steam listing also advertises online co-op, and the PlayStation listing advertises online players. Check the latest listing and requirements for your platform."
+      "q": "Does Directive 8020 have online co-op?",
+      "a": "Yes. A free update on 19 October 2026 added online multiplayer to the PS5, Xbox Series X|S and Steam versions. Up to five players can connect from separate locations, and each player must own a copy; no friend pass or crossplay has been announced. See the [multiplayer guide](/multiplayer)."
+    },
+    {
+      "q": "How do you save Williams in Directive 8020?",
+      "a": "Sedate him in Episode 5's “Suspicions” section: agree with Anders and prepare the diazepam sedative (code 168). Then choose Stand Down at the Point Blank standoff in Episode 6. That unlocks **Is This Decaf?** and **Suspect Acquitted**. Full route: [Shoot Williams or Stand Down?](/shoot-williams-or-stand-down)."
+    },
+    {
+      "q": "How do you get the best ending in Directive 8020?",
+      "a": "There is no official “best ending” label. The outcome that ending guides call best is the Homeward Bound escape: the crew reaches the vacant Cassiopeia and sets course for Earth. It requires saving the crew in Episode 6, keeping Young's **Loyal** trait above **Serious** at the start of Episode 8, choosing humanity over survival at the birthday-cake wish, and escaping in the shuttle with at least one survivor. See [all endings](/all-endings)."
+    },
+    {
+      "q": "How do you get to the abandoned ship instead of the Ring?",
+      "a": "The abandoned ship is the vacant Cassiopeia, reached through the same Homeward Bound route: save the crew in Episode 6, keep Young's **Loyal** trait above **Serious** at the start of Episode 8, and choose humanity over survival at the birthday-cake wish. If you choose survival first, the survivors head to the Booster Ring instead. [GIGA's ending guide](https://www.giga.de/games/directive-8020-alle-enden-erklaert-so-schaltet-ihr-das-beste-und-schlimmste-finale-frei--01KRXRD6TFCKM16CWKFGQVMM2D) documents the step-by-step route."
+    },
+    {
+      "q": "What game is coming after Directive 8020?",
+      "a": "No next game has been officially confirmed. Collecting all “O Death” objects unlocks a teaser in the Bonus Content menu; the community widely speculates it is **The Craven Man**, but Supermassive has not confirmed the title or a release date. See [GameRant's teaser breakdown](https://gamerant.com/dark-pictures-anthology-next-game-teaser/)."
+    },
+    {
+      "q": "What was the budget of Directive 8020?",
+      "a": "Supermassive and Bandai Namco have not published a budget or development cost for Directive 8020. Any specific number you see online is an estimate, not an official figure."
+    },
+    {
+      "q": "Why is Directive 8020 considered bad?",
+      "a": "It is not universally considered bad, but reviews were mixed: at launch, Metacritic averaged 71 and OpenCritic 76, with 62% of critics recommending it. Common criticisms are the repetitive stealth sections, a story described as not particularly gripping, and uneven characters; reviewers praised the atmosphere, cast and Turning Points. See [TheGamer's review roundup](https://www.thegamer.com/directive-8020-dark-pictures-anthology-mixed-reviews/)."
+    },
+    {
+      "q": "What ending did Jenn get in Directive 8020?",
+      "a": "Jenn is not a character in Directive 8020. The five playable crew members are Young, Stafford, Eisele, Cernan and Cooper; if you mean a creator's playthrough, the ending depends on the choices they made. See the [character guide](/characters)."
     }
   ],
   "friendlyLinks": {
@@ -170,7 +198,7 @@
   },
   "review": {
     "status": "verified",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-15",
     "sources": [
       {
         "label": "Directive 8020 — The Dark Pictures",
@@ -183,6 +211,22 @@
       {
         "label": "Directive 8020 — PlayStation",
         "url": "https://www.playstation.com/en-us/games/directive-8020/"
+      },
+      {
+        "label": "Supermassive press release — online multiplayer update",
+        "url": "https://www.gamespress.com/Directive-8020-Launches-Online-Multiplayer-Bringing-a-Shared-Sci-Fi-Ho"
+      },
+      {
+        "label": "GIGA — all endings guide",
+        "url": "https://www.giga.de/games/directive-8020-alle-enden-erklaert-so-schaltet-ihr-das-beste-und-schlimmste-finale-frei--01KRXRD6TFCKM16CWKFGQVMM2D"
+      },
+      {
+        "label": "GameRant — next Dark Pictures teaser",
+        "url": "https://gamerant.com/dark-pictures-anthology-next-game-teaser/"
+      },
+      {
+        "label": "TheGamer — mixed review roundup",
+        "url": "https://www.thegamer.com/directive-8020-dark-pictures-anthology-mixed-reviews/"
       }
     ]
   }
