@@ -209,7 +209,8 @@ test('collection and multiplayer articles avoid the previous unsupported claims'
   assert.equal(collection.episodes, undefined);
   assert.ok(!collection.meta.description.includes('65'));
   const multiplayer = require('../content/pages/en/multiplayer.json');
-  const rows = multiplayer.article.sections[0].blocks[0].rows;
+  const table = multiplayer.article.sections[0].blocks.find((block) => block.type === 'table');
+  const rows = table.rows;
   assert.ok(rows[1][2].includes('PlayStation Plus'));
   assert.ok(rows[2][1].includes('Local co-op'));
   assert.ok(!multiplayer.meta.description.includes('no online mode'));

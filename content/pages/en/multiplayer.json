@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Directive 8020 Co-op: Online, Split Screen & 5 Players",
-    "description": "Online co-op arrived free on 19 October 2026: up to five players, each needing their own copy. Split screen, PS Plus, crossplay status and platform limits explained.",
+    "title": "Directive 8020 Co-op: Crossplay No, Friend Pass No, Split Screen Yes",
+    "description": "Crossplay: no, not announced. Friend pass: no, each player needs a copy. Split screen: yes on Steam, with caveats. Online co-op supports up to 5 players.",
     "ogTitle": "Directive 8020 Co-op: Online, Split Screen & 5 Players",
     "ogDescription": "Online co-op arrived free on 19 October 2026: up to five players, each needing their own copy. Split screen, PS Plus, crossplay status and platform limits explained."
   },
@@ -12,8 +12,12 @@
   "article": {
     "sections": [
       {
-        "heading": "What the current platform pages list",
+        "heading": "Is Directive 8020 split screen? Yes on Steam, with caveats",
         "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Yes — Steam lists shared/split-screen co-op, though the store category does not confirm simultaneous split-screen play. Xbox lists local co-op for 2–5 players, and PS5 lists 1–5 players."
+          },
           {
             "type": "table",
             "headers": [
@@ -42,11 +46,11 @@
         ]
       },
       {
-        "heading": "Shared screen is not a crossplay promise",
+        "heading": "Is Directive 8020 crossplay? No — not announced",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Steam combines shared-screen and split-screen co-op under one category. That category alone does not establish simultaneous split-screen play. Likewise, online co-op does not prove cross-platform matchmaking or a free friend pass."
+            "text": "No — crossplay has not been announced. The release describes up to five players but makes no cross-platform claim; Steam’s shared/split-screen category also does not establish simultaneous split-screen play, and online co-op does not prove a free friend pass."
           }
         ]
       },
@@ -65,11 +69,11 @@
         ]
       },
       {
-        "heading": "The October 2026 online update",
+        "heading": "Does Directive 8020 have a friend pass? No",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "On 19 October 2026 Supermassive released a free update adding online multiplayer to the PS5, Xbox Series X|S and Steam versions. Up to five players can connect from separate locations, and each player must own their own copy of the game. There is no friend pass."
+            "text": "No — there is no friend pass: each player must own their own copy of the game. The free 19 October 2026 update added online multiplayer to the PS5, Xbox Series X|S and Steam versions, and up to five players can connect from separate locations."
           },
           {
             "type": "list",
