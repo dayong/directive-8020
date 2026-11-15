@@ -182,3 +182,11 @@
 - 预算：官方未公布；页面明确不把网上数字当作事实。Jenn：不是游戏角色，按官方五人可操作阵容回答。
 - 葡萄牙语首页 FAQ 扩至 5 条：首问改为 GSC 原句“Do que se trata o jogo Directive 8020?”，新增 Cooper “sheipada” 问（说明该词非官方、无经典解释），合作答案同步 2026-10-19 更新。
 - 其他语言的首页 FAQ 尚未同步新增问题；本次只改英／葡页面。
+
+## 2026-11-15：关键词映射、评测页与首页品牌问答
+
+- 新增 `docs/KEYWORD-MAP.md`：把本批查询按“首页／现有内页／新页／排除”分组，一个页面只保留一个主关键词，同义与拼写变体合并。
+- 新建 `/directive-8020-review` 与 `/es/directive-8020-review`。主关键词为 `directive 8020 review`；正文汇总 Metacritic 72（61 篇评测，用户 5.7/10）、OpenCritic 约 76（62% 推荐）、Game8 78，以及 TheGamer／Eurogamer／Game Informer 的分数与优缺点。所有数字注明为 2026-11-15 核对、会随新评测变化；页面明确是汇总而非第一手评测。
+- 首页 FAQ 新增发行日期／平台（含无 Mac 版）、开发商、下载大小（Steam 40 GB、推荐 SSD）、Digital Deluxe Edition 四条；原“为什么差评”改为“是否值得玩”，并链接评测页。
+- 盗版、破解、修改器、无对应语言版本及第三方导航查询不建页；Eisele 双重身份仍指向 pending 页，待下一步核验后重写。
+- 新评测页来源：Metacritic、TheGamer 评测汇总、Game8、Eurogamer；游戏基础信息以 Steam 商店 API（发行日期、平台、40 GB、开发商）为准。

@@ -59,6 +59,7 @@ const staticRoutes: Record<string, RouteEntry> = {
   'bug-fixes': { contentSlug: 'bug-fixes', View: BugFixesView },
   'can-carter-survive': { contentSlug: 'can-carter-survive', View: CanCarterSurviveView },
   'directive-8020-buy': { contentSlug: 'directive-8020-buy', View: BuyView },
+  'directive-8020-review': { contentSlug: 'directive-8020-review', View: ReviewedArticleView },
   characters: { contentSlug: 'characters', View: CharactersView },
   choices: {
     contentSlug: 'choices',

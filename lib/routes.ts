@@ -20,6 +20,7 @@ const staticPaths: { path: string; contentSlug: string }[] = [
   { path: '/directive-8020-cove', contentSlug: 'directive-8020-cove' },
   { path: '/directive-8020-actress', contentSlug: 'directive-8020-actress' },
   { path: '/directive-8020-buy', contentSlug: 'directive-8020-buy' },
+  { path: '/directive-8020-review', contentSlug: 'directive-8020-review' },
   { path: '/privacy-policy', contentSlug: 'privacy-policy' },
   { path: '/who-is-the-real-eisele-directive-8020', contentSlug: 'who-is-the-real-eisele-directive-8020' },
   { path: '/shoot-williams-or-stand-down', contentSlug: 'shoot-williams-or-stand-down' },
